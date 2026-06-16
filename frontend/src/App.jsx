@@ -27,6 +27,51 @@ const TABS = [
   { key: 'dialogues', label: '💬 情境對話' },
 ]
 
+const LINKS = [
+  { label: '🇹🇼 個人部落格', url: 'https://erik1110.com/' },
+  { label: '🇯🇵 日語學習', url: 'https://erik1110.com/japanese-learning/' },
+]
+
+function LinksMenu() {
+  const [open, setOpen] = useState(false)
+
+  useEffect(() => {
+    if (!open) return
+    const close = () => setOpen(false)
+    window.addEventListener('click', close)
+    return () => window.removeEventListener('click', close)
+  }, [open])
+
+  return (
+    <div className="links-menu" onClick={(e) => e.stopPropagation()}>
+      <button
+        className="links-toggle"
+        aria-haspopup="true"
+        aria-expanded={open}
+        onClick={() => setOpen((o) => !o)}
+      >
+        🔗 其他連結 <span className="chevron">{open ? '▲' : '▼'}</span>
+      </button>
+      {open && (
+        <div className="links-dropdown">
+          {LINKS.map((l) => (
+            <a
+              key={l.url}
+              className="links-item"
+              href={l.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setOpen(false)}
+            >
+              {l.label}
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
+
 export default function App() {
   const [tab, setTab] = useState('cards')
   // bumped whenever localStorage changes, to re-read cards everywhere
@@ -38,7 +83,10 @@ export default function App() {
   return (
     <div className="app">
       <header>
-        <h1>🇫🇷 法文學習</h1>
+        <div className="header-top">
+          <h1>🇫🇷 法文學習</h1>
+          <LinksMenu />
+        </div>
         <p className="sub">A1 / A2 / B1 · 單字卡 · 文法 · 情境對話</p>
       </header>
 
