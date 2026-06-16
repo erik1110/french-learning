@@ -1,0 +1,143 @@
+[
+  {
+    "id": "clock",
+    "category": "時間",
+    "title": "時鐘：怎麼說幾點",
+    "intro": "用 Il est … heure(s) 表達時間；et quart =十五分、et demie =半、moins le quart =差一刻。",
+    "items": [
+      {"fr": "Quelle heure est-il ?", "zh": "現在幾點？"},
+      {"fr": "Il est une heure.", "zh": "一點。"},
+      {"fr": "Il est deux heures.", "zh": "兩點。"},
+      {"fr": "Il est trois heures et quart.", "zh": "三點十五分（三點一刻）。"},
+      {"fr": "Il est quatre heures et demie.", "zh": "四點半。"},
+      {"fr": "Il est cinq heures moins le quart.", "zh": "差一刻五點（四點四十五）。"},
+      {"fr": "Il est six heures dix.", "zh": "六點十分。"},
+      {"fr": "Il est sept heures moins dix.", "zh": "差十分七點（六點五十）。"},
+      {"fr": "Il est midi.", "zh": "中午十二點。"},
+      {"fr": "Il est minuit.", "zh": "午夜十二點。"},
+      {"fr": "Il est midi et demi.", "zh": "中午十二點半。"},
+      {"fr": "huit heures du matin", "zh": "早上八點"},
+      {"fr": "trois heures de l'après-midi", "zh": "下午三點"},
+      {"fr": "neuf heures du soir", "zh": "晚上九點"}
+    ]
+  },
+  {
+    "id": "days",
+    "category": "日期",
+    "title": "星期",
+    "intro": "法文一週從 lundi（星期一）開始；星期名稱都是陽性，且不大寫。",
+    "items": [
+      {"fr": "lundi", "zh": "星期一"},
+      {"fr": "mardi", "zh": "星期二"},
+      {"fr": "mercredi", "zh": "星期三"},
+      {"fr": "jeudi", "zh": "星期四"},
+      {"fr": "vendredi", "zh": "星期五"},
+      {"fr": "samedi", "zh": "星期六"},
+      {"fr": "dimanche", "zh": "星期日"},
+      {"fr": "Aujourd'hui, c'est lundi.", "zh": "今天是星期一。"},
+      {"fr": "On est quel jour aujourd'hui ?", "zh": "今天星期幾？"}
+    ]
+  },
+  {
+    "id": "months",
+    "category": "日期",
+    "title": "月份",
+    "intro": "十二個月份，全部都是陽性，書寫時不大寫。",
+    "items": [
+      {"fr": "janvier", "zh": "一月"},
+      {"fr": "février", "zh": "二月"},
+      {"fr": "mars", "zh": "三月"},
+      {"fr": "avril", "zh": "四月"},
+      {"fr": "mai", "zh": "五月"},
+      {"fr": "juin", "zh": "六月"},
+      {"fr": "juillet", "zh": "七月"},
+      {"fr": "août", "zh": "八月"},
+      {"fr": "septembre", "zh": "九月"},
+      {"fr": "octobre", "zh": "十月"},
+      {"fr": "novembre", "zh": "十一月"},
+      {"fr": "décembre", "zh": "十二月"}
+    ]
+  },
+  {
+    "id": "dates",
+    "category": "日期",
+    "title": "日期表達",
+    "intro": "用「le + 數字 + 月份」表示日期；只有 1 號用序數 premier。",
+    "items": [
+      {"fr": "Quelle est la date aujourd'hui ?", "zh": "今天幾號？"},
+      {"fr": "C'est le premier janvier.", "zh": "一月一日（1號用 premier）。"},
+      {"fr": "C'est le 14 juillet.", "zh": "七月十四日（國慶日）。"},
+      {"fr": "Mon anniversaire est le 3 mars.", "zh": "我的生日是三月三日。"},
+      {"fr": "On est le 25 décembre.", "zh": "今天是十二月二十五日。"},
+      {"fr": "en deux mille vingt-quatre", "zh": "在二○二四年"}
+    ]
+  },
+  {
+    "id": "money",
+    "category": "金錢",
+    "title": "金錢與價格怎麼說",
+    "intro": "價格用 euro(s)；小數部分直接接數字，如 3,50 € 念 trois euros cinquante。",
+    "items": [
+      {"fr": "Combien ça coûte ?", "zh": "這多少錢？"},
+      {"fr": "Ça coûte dix euros.", "zh": "這要十歐元。"},
+      {"fr": "C'est trois euros cinquante.", "zh": "這是三歐五十（3,50 €）。"},
+      {"fr": "deux euros vingt", "zh": "兩歐二十（2,20 €）"},
+      {"fr": "un billet de vingt euros", "zh": "一張二十歐元的紙鈔"},
+      {"fr": "une pièce de deux euros", "zh": "一個兩歐元的硬幣"},
+      {"fr": "Ça fait combien en tout ?", "zh": "一共多少錢？"},
+      {"fr": "C'est gratuit.", "zh": "這是免費的。"},
+      {"fr": "C'est trop cher !", "zh": "太貴了！"},
+      {"fr": "Je peux payer par carte ?", "zh": "我可以刷卡嗎？"}
+    ]
+  },
+  {
+    "id": "basic-sentences",
+    "category": "基本句型",
+    "title": "我有一隻狗：常用基本句",
+    "intro": "最常用的 J'ai…（我有／我覺得）與 Je suis…（我是）句型。",
+    "items": [
+      {"fr": "J'ai un chien.", "zh": "我有一隻狗。"},
+      {"fr": "J'ai un chat.", "zh": "我有一隻貓。"},
+      {"fr": "J'ai faim.", "zh": "我餓了。"},
+      {"fr": "J'ai soif.", "zh": "我渴了。"},
+      {"fr": "J'ai froid.", "zh": "我覺得冷。"},
+      {"fr": "J'ai chaud.", "zh": "我覺得熱。"},
+      {"fr": "J'ai vingt ans.", "zh": "我二十歲。"},
+      {"fr": "Je suis fatigué.", "zh": "我累了。"},
+      {"fr": "Je voudrais un café.", "zh": "我想要一杯咖啡。"},
+      {"fr": "Il y a un problème.", "zh": "有個問題。"},
+      {"fr": "Je ne comprends pas.", "zh": "我不懂。"},
+      {"fr": "Je ne sais pas.", "zh": "我不知道。"}
+    ]
+  },
+  {
+    "id": "self-intro",
+    "category": "基本句型",
+    "title": "自我介紹常用句",
+    "intro": "初次見面介紹自己的年齡、國籍、居住地與語言。",
+    "items": [
+      {"fr": "Je m'appelle Marie.", "zh": "我叫瑪莉。"},
+      {"fr": "J'ai vingt-cinq ans.", "zh": "我二十五歲。"},
+      {"fr": "Je suis taïwanais.", "zh": "我是台灣人。"},
+      {"fr": "J'habite à Taipei.", "zh": "我住在台北。"},
+      {"fr": "Je parle chinois et un peu français.", "zh": "我說中文和一點法語。"},
+      {"fr": "Je suis étudiant.", "zh": "我是學生。"},
+      {"fr": "Enchanté !", "zh": "幸會！"}
+    ]
+  },
+  {
+    "id": "questions",
+    "category": "基本句型",
+    "title": "問問題常用句",
+    "intro": "認識新朋友、問資訊時最常用的問句。",
+    "items": [
+      {"fr": "Comment tu t'appelles ?", "zh": "你叫什麼名字？"},
+      {"fr": "Tu as quel âge ?", "zh": "你幾歲？"},
+      {"fr": "Tu viens d'où ?", "zh": "你來自哪裡？"},
+      {"fr": "Qu'est-ce que c'est ?", "zh": "這是什麼？"},
+      {"fr": "Où sont les toilettes ?", "zh": "廁所在哪裡？"},
+      {"fr": "Tu parles anglais ?", "zh": "你會說英語嗎？"},
+      {"fr": "Tu peux répéter, s'il te plaît ?", "zh": "可以再說一次嗎？"}
+    ]
+  }
+]

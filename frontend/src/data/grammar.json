@@ -1,0 +1,394 @@
+[
+  {
+    "level": "A1",
+    "orderIndex": 1,
+    "title": "名詞的陰陽性與冠詞",
+    "summary": "le / la / un / une 怎麼用",
+    "content": "法文每個名詞都有性別：陽性 (masculin) 或陰性 (féminin)。\n\n定冠詞（特定的「這個」）：陽性用 le，陰性用 la，母音開頭用 l'，複數一律 les。\n例：le livre（書）、la table（桌子）、l'école（學校）、les amis（朋友們）。\n\n不定冠詞（「一個／一些」）：陽性 un，陰性 une，複數 des。\n例：un chat（一隻貓）、une voiture（一輛車）、des fleurs（一些花）。\n\n小技巧：背名詞時一定要連冠詞一起背，例如背 une table，而不是只背 table。",
+    "examples": [
+      {
+        "fr": "le livre",
+        "zh": "書（陽性）"
+      },
+      {
+        "fr": "une voiture",
+        "zh": "一輛車（陰性）"
+      },
+      {
+        "fr": "des fleurs",
+        "zh": "一些花（複數）"
+      }
+    ]
+  },
+  {
+    "level": "A1",
+    "orderIndex": 2,
+    "title": "主詞代名詞與動詞 être",
+    "summary": "je suis, tu es, il est…",
+    "content": "主詞人稱代名詞：je（我）、tu（你）、il / elle（他／她）、nous（我們）、vous（您／你們）、ils / elles（他們／她們）。\n\nêtre（是）是最重要的動詞，變位如下：\nje suis（我是）\ntu es（你是）\nil / elle est（他／她是）\nnous sommes（我們是）\nvous êtes（您是）\nils / elles sont（他們是）\n\n例：Je suis étudiant.（我是學生。） Elle est française.（她是法國人。）",
+    "examples": [
+      {
+        "fr": "Je suis étudiant.",
+        "zh": "我是學生。"
+      },
+      {
+        "fr": "Elle est française.",
+        "zh": "她是法國人。"
+      },
+      {
+        "fr": "Nous sommes prêts.",
+        "zh": "我們準備好了。"
+      }
+    ]
+  },
+  {
+    "level": "A1",
+    "orderIndex": 3,
+    "title": "動詞 avoir（有）",
+    "summary": "表達擁有與年齡",
+    "content": "avoir（有）也是核心動詞，常用來表示擁有與年齡。\nj'ai（我有）\ntu as\nil / elle a\nnous avons\nvous avez\nils / elles ont\n\n例：J'ai un frère.（我有一個兄弟。） Elle a vingt ans.（她二十歲。）\n\n注意：法文表達年齡用 avoir（有幾歲），不是用 être。",
+    "examples": [
+      {
+        "fr": "J'ai un frère.",
+        "zh": "我有一個兄弟。"
+      },
+      {
+        "fr": "Elle a vingt ans.",
+        "zh": "她二十歲。"
+      },
+      {
+        "fr": "Nous avons faim.",
+        "zh": "我們餓了。"
+      }
+    ]
+  },
+  {
+    "level": "A1",
+    "orderIndex": 4,
+    "title": "第一組 -er 規則動詞現在式",
+    "summary": "最常見的動詞變位",
+    "content": "大部分法文動詞屬於第一組（原形以 -er 結尾），現在式變位規則一致。\n以 parler（說）為例，去掉 -er 後加上字尾：\nje parle\ntu parles\nil / elle parle\nnous parlons\nvous parlez\nils / elles parlent\n\n同樣規則的常見動詞：aimer、habiter、travailler、regarder。\n例：Nous habitons à Paris.（我們住在巴黎。）",
+    "examples": [
+      {
+        "fr": "Nous habitons à Paris.",
+        "zh": "我們住在巴黎。"
+      },
+      {
+        "fr": "Je parle français.",
+        "zh": "我說法語。"
+      },
+      {
+        "fr": "Ils aiment le café.",
+        "zh": "他們喜歡咖啡。"
+      }
+    ]
+  },
+  {
+    "level": "A1",
+    "orderIndex": 5,
+    "title": "否定句 ne … pas",
+    "summary": "把動詞包起來",
+    "content": "否定句把動詞包在 ne … pas 之間。\n結構：主詞 + ne + 動詞 + pas。\n例：Je ne parle pas anglais.（我不說英語。）\n\n動詞以母音開頭時，ne 縮寫成 n'：\nIl n'aime pas le café.（他不喜歡咖啡。）\n\n口語中常省略 ne 只說 pas，但書寫時要保留 ne。",
+    "examples": [
+      {
+        "fr": "Je ne parle pas anglais.",
+        "zh": "我不說英語。"
+      },
+      {
+        "fr": "Il n'aime pas le café.",
+        "zh": "他不喜歡咖啡。"
+      }
+    ]
+  },
+  {
+    "level": "A1",
+    "orderIndex": 6,
+    "title": "三種疑問句",
+    "summary": "從口語到正式的問法",
+    "content": "法文有三種問問題的方式（由非正式到正式）：\n1. 語調上揚：Tu viens ?（你來嗎？）\n2. 用 est-ce que 開頭：Est-ce que tu viens ?\n3. 主詞與動詞倒裝：Viens-tu ?\n\n疑問詞可放在句首：Où habites-tu ?（你住哪裡？） Quand arrives-tu ?（你什麼時候到？）",
+    "examples": [
+      {
+        "fr": "Est-ce que tu viens ?",
+        "zh": "你來嗎？"
+      },
+      {
+        "fr": "Où habites-tu ?",
+        "zh": "你住哪裡？"
+      },
+      {
+        "fr": "Quand arrives-tu ?",
+        "zh": "你什麼時候到？"
+      }
+    ]
+  },
+  {
+    "level": "A1",
+    "orderIndex": 7,
+    "title": "名詞與冠詞的複數",
+    "summary": "通常加 -s",
+    "content": "名詞變複數時，通常在字尾加 -s（不發音）。\nun livre → des livres；le chat → les chats。\n\n字尾是 -eau 的加 -x：un gâteau → des gâteaux。\n字尾已經是 -s、-x、-z 的不變：un bus → des bus。\n\n冠詞也要跟著變複數：le / la / l' → les，un / une → des。",
+    "examples": [
+      {
+        "fr": "un livre, des livres",
+        "zh": "一本書、一些書"
+      },
+      {
+        "fr": "le chat, les chats",
+        "zh": "貓（單數、複數）"
+      },
+      {
+        "fr": "un gâteau, des gâteaux",
+        "zh": "一個蛋糕、一些蛋糕"
+      }
+    ]
+  },
+  {
+    "level": "A1",
+    "orderIndex": 8,
+    "title": "形容詞的配合與位置",
+    "summary": "性數配合、放前還是放後",
+    "content": "形容詞要與名詞做性數配合：陰性通常加 -e，複數加 -s。\nun petit chien（小狗）→ une petite maison（小房子）→ des petites maisons。\n\n位置：多數形容詞放在名詞後面（une voiture rouge 一輛紅色的車）。\n但少數常用形容詞放前面：grand、petit、bon、beau、jeune、vieux、nouveau。\n例：un bon restaurant（一家好餐廳）。",
+    "examples": [
+      {
+        "fr": "une voiture rouge",
+        "zh": "一輛紅色的車"
+      },
+      {
+        "fr": "un bon restaurant",
+        "zh": "一家好餐廳"
+      },
+      {
+        "fr": "une petite maison",
+        "zh": "一棟小房子"
+      }
+    ]
+  },
+  {
+    "level": "A1",
+    "orderIndex": 9,
+    "title": "所有格形容詞",
+    "summary": "mon / ma / mes…",
+    "content": "所有格形容詞表示「我的、你的…」，要配合後面名詞的性數，而不是擁有者。\n我的：mon（陽）／ ma（陰）／ mes（複）\n你的：ton / ta / tes\n他／她的：son / sa / ses\n我們的：notre / nos；您的：votre / vos；他們的：leur / leurs\n\n例：mon père（我父親）、ma mère（我母親）、mes parents（我父母）。\n注意：sa voiture 不分他或她，都是「他／她的車」。",
+    "examples": [
+      {
+        "fr": "mon père",
+        "zh": "我父親"
+      },
+      {
+        "fr": "ma mère",
+        "zh": "我母親"
+      },
+      {
+        "fr": "mes parents",
+        "zh": "我父母"
+      }
+    ]
+  },
+  {
+    "level": "A1",
+    "orderIndex": 10,
+    "title": "縮合冠詞與近未來",
+    "summary": "au / du… 與 aller + 原形",
+    "content": "介係詞 à 和 de 遇到 le / les 會縮合：\nà + le = au；à + les = aux；de + le = du；de + les = des。\n例：Je vais au cinéma.（我去電影院。） la porte du jardin（花園的門）。\n（à la、à l' 不縮合：à la maison。）\n\n近未來 (futur proche)：用 aller 的現在式 + 動詞原形，表示即將做某事。\n例：Je vais manger.（我要吃飯了。） Nous allons partir.（我們要出發了。）",
+    "examples": [
+      {
+        "fr": "Je vais au cinéma.",
+        "zh": "我去電影院。"
+      },
+      {
+        "fr": "la porte du jardin",
+        "zh": "花園的門"
+      },
+      {
+        "fr": "Je vais manger.",
+        "zh": "我要吃飯了。"
+      }
+    ]
+  },
+  {
+    "level": "A2",
+    "orderIndex": 1,
+    "title": "複合過去式（用 avoir）",
+    "summary": "passé composé：已完成的動作",
+    "content": "複合過去式表達已完成的過去動作，結構：助動詞（avoir 或 être 的現在式）+ 過去分詞。\n多數動詞用 avoir。\n-er 動詞的過去分詞變成 -é：parler → parlé。\n例：J'ai mangé une pomme.（我吃了一顆蘋果。） Nous avons regardé un film.（我們看了一部電影。）\n\n常見不規則過去分詞：avoir → eu、être → été、faire → fait、voir → vu、prendre → pris。",
+    "examples": [
+      {
+        "fr": "J'ai mangé une pomme.",
+        "zh": "我吃了一顆蘋果。"
+      },
+      {
+        "fr": "Nous avons regardé un film.",
+        "zh": "我們看了一部電影。"
+      }
+    ]
+  },
+  {
+    "level": "A2",
+    "orderIndex": 2,
+    "title": "複合過去式（用 être）",
+    "summary": "移動動詞與性數配合",
+    "content": "一部分動詞用 être 當助動詞，主要是「移動或狀態改變」的動詞，以及所有代動詞。\n常見：aller、venir、partir、arriver、entrer、sortir、monter、descendre、naître、mourir、rester、tomber。\n\n用 être 時，過去分詞要與主詞做性數配合：\nElle est allée à Paris.（她去了巴黎，加 e）\nIls sont partis.（他們離開了，加 s）\nNous sommes arrivés.（我們到了。）",
+    "examples": [
+      {
+        "fr": "Elle est allée à Paris.",
+        "zh": "她去了巴黎。"
+      },
+      {
+        "fr": "Ils sont partis.",
+        "zh": "他們離開了。"
+      },
+      {
+        "fr": "Nous sommes arrivés.",
+        "zh": "我們到了。"
+      }
+    ]
+  },
+  {
+    "level": "A2",
+    "orderIndex": 3,
+    "title": "未完成過去式 imparfait",
+    "summary": "描述過去的背景與習慣",
+    "content": "未完成過去式描述過去的背景、習慣或持續狀態（沒有明確的起訖點）。\n取 nous 的現在式語幹，加上字尾 -ais, -ais, -ait, -ions, -iez, -aient。\n以 parler（nous parlons → parl-）為例：je parlais, tu parlais, il parlait, nous parlions, vous parliez, ils parlaient。\n\n例：Quand j'étais petit, je jouais au parc.（我小時候常在公園玩。）\n常用於：過去的習慣、描述天氣與情景。",
+    "examples": [
+      {
+        "fr": "Quand j'étais petit, je jouais au parc.",
+        "zh": "我小時候常在公園玩。"
+      },
+      {
+        "fr": "Il faisait beau.",
+        "zh": "天氣很好。"
+      }
+    ]
+  },
+  {
+    "level": "A2",
+    "orderIndex": 4,
+    "title": "passé composé 與 imparfait 的差別",
+    "summary": "事件 vs 背景",
+    "content": "兩個過去式的差別是學習重點：\n• passé composé：已完成、一次性的具體事件（故事的主線動作）。\n• imparfait：背景描述、過去的習慣、持續的狀態。\n\n例：Il faisait beau（imparfait，背景） quand je suis sorti（passé composé，事件）。\n（我出門時天氣很好。）\n\n口訣：發生了什麼事用 passé composé，當時的狀況用 imparfait。",
+    "examples": [
+      {
+        "fr": "Il faisait beau quand je suis sorti.",
+        "zh": "我出門時天氣很好。"
+      },
+      {
+        "fr": "Je dormais quand tu as appelé.",
+        "zh": "你打電話來時我在睡覺。"
+      }
+    ]
+  },
+  {
+    "level": "A2",
+    "orderIndex": 5,
+    "title": "簡單未來式 futur simple",
+    "summary": "正式的未來表達",
+    "content": "簡單未來式表達未來會發生的事，比近未來更正式。\n規則動詞：以原形（-re 結尾的去掉 e）+ 字尾 -ai, -as, -a, -ons, -ez, -ont。\n以 parler：je parlerai, tu parleras, il parlera, nous parlerons, vous parlerez, ils parleront。\n\n常見不規則語幹：être → ser-、avoir → aur-、aller → ir-、faire → fer-、venir → viendr-。\n例：Demain, je partirai tôt.（明天我會早點出發。）",
+    "examples": [
+      {
+        "fr": "Demain, je partirai tôt.",
+        "zh": "明天我會早點出發。"
+      },
+      {
+        "fr": "Nous serons là à midi.",
+        "zh": "我們中午會到。"
+      }
+    ]
+  },
+  {
+    "level": "A2",
+    "orderIndex": 6,
+    "title": "代動詞 verbes pronominaux",
+    "summary": "se lever, se laver…",
+    "content": "代動詞帶有反身代名詞 se，表示動作回到自己身上，常用於日常作息。\nse lever（起床）：je me lève, tu te lèves, il se lève, nous nous levons, vous vous levez, ils se lèvent。\n\n常見：se laver（洗澡）、s'habiller（穿衣）、se coucher（就寢）、s'appeler（叫做）。\n例：Je me lève à sept heures.（我七點起床。）\n複合過去式用 être：Elle s'est levée tôt.（她早起。）",
+    "examples": [
+      {
+        "fr": "Je me lève à sept heures.",
+        "zh": "我七點起床。"
+      },
+      {
+        "fr": "Elle s'est levée tôt.",
+        "zh": "她早起。"
+      }
+    ]
+  },
+  {
+    "level": "A2",
+    "orderIndex": 7,
+    "title": "直接受詞代名詞",
+    "summary": "le / la / les 代替名詞",
+    "content": "直接受詞代名詞代替前面提過的人或物，避免重複，放在動詞前面。\nme, te, le / la, nous, vous, les。\n例：Tu vois Marie ? — Oui, je la vois.（你看到瑪莉嗎？—看到，我看到她。）\nJ'aime ce livre → Je l'aime.（我喜歡它。）\n\n在複合過去式中，過去分詞要與前置的直接受詞配合：Je les ai vus.（我看到他們了。）",
+    "examples": [
+      {
+        "fr": "Je la vois.",
+        "zh": "我看到她。"
+      },
+      {
+        "fr": "Je l'aime.",
+        "zh": "我喜歡它。"
+      },
+      {
+        "fr": "Je les ai vus.",
+        "zh": "我看到他們了。"
+      }
+    ]
+  },
+  {
+    "level": "A2",
+    "orderIndex": 8,
+    "title": "間接受詞代名詞與 y, en",
+    "summary": "lui / leur / y / en",
+    "content": "間接受詞代名詞代替「à + 人」：me, te, lui, nous, vous, leur。\n例：Je parle à Paul → Je lui parle.（我跟他說話。）\n\ny 代替「à + 地點或事物」：Je vais à Paris → J'y vais.（我去那裡。）\nen 代替「de + 事物」或數量：Tu veux du café ? — Oui, j'en veux.（我要一些。）",
+    "examples": [
+      {
+        "fr": "Je lui parle.",
+        "zh": "我跟他說話。"
+      },
+      {
+        "fr": "J'y vais.",
+        "zh": "我去那裡。"
+      },
+      {
+        "fr": "J'en veux.",
+        "zh": "我要一些。"
+      }
+    ]
+  },
+  {
+    "level": "A2",
+    "orderIndex": 9,
+    "title": "比較級與最高級",
+    "summary": "plus / moins / aussi… que",
+    "content": "比較級：plus（更）／ moins（更少）／ aussi（一樣）+ 形容詞 + que。\n例：Il est plus grand que moi.（他比我高。） Elle est aussi gentille que toi.（她跟你一樣善良。）\n\n最高級：le / la / les plus（最）或 le moins + 形容詞。\n例：C'est le plus grand musée de Paris.（這是巴黎最大的博物館。）\n\n特例：bon → meilleur（更好的）；bien → mieux（更好地）。",
+    "examples": [
+      {
+        "fr": "Il est plus grand que moi.",
+        "zh": "他比我高。"
+      },
+      {
+        "fr": "C'est le plus grand musée de Paris.",
+        "zh": "這是巴黎最大的博物館。"
+      }
+    ]
+  },
+  {
+    "level": "A2",
+    "orderIndex": 10,
+    "title": "命令式 impératif",
+    "summary": "下指令與給建議",
+    "content": "命令式用來下指令、給建議或提出請求，會省略主詞。\n取現在式的 tu / nous / vous 形式：\nParle !（你說！） Parlons !（我們說吧！） Parlez !（你們說！）\n注意：-er 動詞的 tu 命令式要去掉字尾 -s：Mange !（吃吧！）\n\n否定命令式：Ne parle pas !（別說！）\n代動詞：Lève-toi !（起來！） Couchons-nous.（我們睡吧。）",
+    "examples": [
+      {
+        "fr": "Parle plus lentement !",
+        "zh": "說慢一點！"
+      },
+      {
+        "fr": "Ne parle pas !",
+        "zh": "別說！"
+      },
+      {
+        "fr": "Lève-toi !",
+        "zh": "起來！"
+      }
+    ]
+  }
+]
