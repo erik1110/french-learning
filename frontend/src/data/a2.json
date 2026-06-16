@@ -1,202 +1,4529 @@
 [
-  {"french":"travail","translation":"工作","gender":"m","partOfSpeech":"nom","example":"J'ai beaucoup de travail aujourd'hui.","exampleTranslation":"我今天有很多工作。"},
-  {"french":"métier","translation":"職業","gender":"m","partOfSpeech":"nom","example":"Quel est ton métier ?","exampleTranslation":"你的職業是什麼？"},
-  {"french":"médecin","translation":"醫生","gender":"m","partOfSpeech":"nom","example":"Le médecin examine le patient.","exampleTranslation":"醫生為病人做檢查。"},
-  {"french":"professeur","translation":"老師","gender":"m","partOfSpeech":"nom","example":"Notre professeur est très gentil.","exampleTranslation":"我們的老師很和善。"},
-  {"french":"étudiant","translation":"學生","gender":"m","partOfSpeech":"nom","example":"Cet étudiant travaille beaucoup.","exampleTranslation":"這名學生很用功。"},
-  {"french":"ingénieur","translation":"工程師","gender":"m","partOfSpeech":"nom","example":"Mon frère est ingénieur.","exampleTranslation":"我哥哥是工程師。"},
-  {"french":"avocat","translation":"律師","gender":"m","partOfSpeech":"nom","example":"L'avocat défend son client.","exampleTranslation":"律師替當事人辯護。"},
-  {"french":"infirmier","translation":"護理師","gender":"m","partOfSpeech":"nom","example":"L'infirmier prend ma tension.","exampleTranslation":"護理師幫我量血壓。"},
-  {"french":"vendeur","translation":"售貨員","gender":"m","partOfSpeech":"nom","example":"Le vendeur est très aimable.","exampleTranslation":"售貨員很親切。"},
-  {"french":"cuisinier","translation":"廚師","gender":"m","partOfSpeech":"nom","example":"Le cuisinier prépare un bon plat.","exampleTranslation":"廚師做一道好菜。"},
-  {"french":"serveur","translation":"服務生","gender":"m","partOfSpeech":"nom","example":"Le serveur apporte les plats.","exampleTranslation":"服務生端上菜。"},
-  {"french":"policier","translation":"警察","gender":"m","partOfSpeech":"nom","example":"Le policier règle la circulation.","exampleTranslation":"警察指揮交通。"},
-  {"french":"employé","translation":"員工","gender":"m","partOfSpeech":"nom","example":"Cette entreprise a cent employés.","exampleTranslation":"這家公司有一百名員工。"},
-  {"french":"patron","translation":"老闆","gender":"m","partOfSpeech":"nom","example":"Mon patron est exigeant.","exampleTranslation":"我老闆很嚴格。"},
-  {"french":"collègue","translation":"同事","gender":"m","partOfSpeech":"nom","example":"Mes collègues sont sympathiques.","exampleTranslation":"我的同事很友善。"},
-  {"french":"directeur","translation":"主管／經理","gender":"m","partOfSpeech":"nom","example":"Le directeur arrive à neuf heures.","exampleTranslation":"經理九點到。"},
-  {"french":"boulanger","translation":"麵包師","gender":"m","partOfSpeech":"nom","example":"Le boulanger se lève très tôt.","exampleTranslation":"麵包師起得很早。"},
-  {"french":"facteur","translation":"郵差","gender":"m","partOfSpeech":"nom","example":"Le facteur apporte le courrier.","exampleTranslation":"郵差送信來。"},
-  {"french":"artiste","translation":"藝術家","gender":"m","partOfSpeech":"nom","example":"Cet artiste peint des tableaux.","exampleTranslation":"這位藝術家畫畫。"},
-  {"french":"chercheur","translation":"研究員","gender":"m","partOfSpeech":"nom","example":"Le chercheur étudie le climat.","exampleTranslation":"研究員研究氣候。"},
-  {"french":"voyage","translation":"旅行","gender":"m","partOfSpeech":"nom","example":"Bon voyage !","exampleTranslation":"旅途愉快！"},
-  {"french":"vacances","translation":"假期","gender":"f","partOfSpeech":"nom","example":"Les vacances commencent demain.","exampleTranslation":"假期明天開始。"},
-  {"french":"train","translation":"火車","gender":"m","partOfSpeech":"nom","example":"Le train part dans dix minutes.","exampleTranslation":"火車十分鐘後出發。"},
-  {"french":"avion","translation":"飛機","gender":"m","partOfSpeech":"nom","example":"L'avion décolle bientôt.","exampleTranslation":"飛機快要起飛了。"},
-  {"french":"bus","translation":"公車","gender":"m","partOfSpeech":"nom","example":"Je prends le bus pour aller au travail.","exampleTranslation":"我搭公車去上班。"},
-  {"french":"métro","translation":"地鐵","gender":"m","partOfSpeech":"nom","example":"Le métro est rapide à Paris.","exampleTranslation":"巴黎的地鐵很快。"},
-  {"french":"vélo","translation":"腳踏車","gender":"m","partOfSpeech":"nom","example":"Je fais du vélo le week-end.","exampleTranslation":"我週末騎腳踏車。"},
-  {"french":"bateau","translation":"船","gender":"m","partOfSpeech":"nom","example":"Nous prenons le bateau pour l'île.","exampleTranslation":"我們搭船去那座島。"},
-  {"french":"taxi","translation":"計程車","gender":"m","partOfSpeech":"nom","example":"Appelle un taxi, s'il te plaît.","exampleTranslation":"請叫一輛計程車。"},
-  {"french":"billet","translation":"票","gender":"m","partOfSpeech":"nom","example":"J'achète un billet de train.","exampleTranslation":"我買一張火車票。"},
-  {"french":"valise","translation":"行李箱","gender":"f","partOfSpeech":"nom","example":"Ma valise est trop lourde.","exampleTranslation":"我的行李箱太重了。"},
-  {"french":"passeport","translation":"護照","gender":"m","partOfSpeech":"nom","example":"N'oublie pas ton passeport.","exampleTranslation":"別忘了帶護照。"},
-  {"french":"carte","translation":"地圖／卡片","gender":"f","partOfSpeech":"nom","example":"Je regarde la carte de la ville.","exampleTranslation":"我看城市地圖。"},
-  {"french":"route","translation":"道路","gender":"f","partOfSpeech":"nom","example":"La route est longue.","exampleTranslation":"路程很長。"},
-  {"french":"chemin","translation":"路徑","gender":"m","partOfSpeech":"nom","example":"Je cherche mon chemin.","exampleTranslation":"我在找路。"},
-  {"french":"voyageur","translation":"旅客","gender":"m","partOfSpeech":"nom","example":"Les voyageurs attendent le train.","exampleTranslation":"旅客們在等火車。"},
-  {"french":"quai","translation":"月台","gender":"m","partOfSpeech":"nom","example":"Le train arrive sur le quai numéro deux.","exampleTranslation":"火車進到二號月台。"},
-  {"french":"douane","translation":"海關","gender":"f","partOfSpeech":"nom","example":"Nous passons la douane.","exampleTranslation":"我們通過海關。"},
-  {"french":"frontière","translation":"邊界","gender":"f","partOfSpeech":"nom","example":"Nous traversons la frontière.","exampleTranslation":"我們越過邊界。"},
-  {"french":"réservation","translation":"預訂","gender":"f","partOfSpeech":"nom","example":"J'ai une réservation à ce nom.","exampleTranslation":"我用這個名字訂了位。"},
-  {"french":"départ","translation":"出發","gender":"m","partOfSpeech":"nom","example":"Le départ est à midi.","exampleTranslation":"中午出發。"},
-  {"french":"arrivée","translation":"抵達","gender":"f","partOfSpeech":"nom","example":"L'arrivée est prévue à dix-huit heures.","exampleTranslation":"預計十八點抵達。"},
-  {"french":"retard","translation":"延誤／遲到","gender":"m","partOfSpeech":"nom","example":"Le train a du retard.","exampleTranslation":"火車誤點了。"},
-  {"french":"séjour","translation":"停留／逗留","gender":"m","partOfSpeech":"nom","example":"Bon séjour à Paris !","exampleTranslation":"在巴黎玩得愉快！"},
-  {"french":"maintenant","translation":"現在","gender":null,"partOfSpeech":"adverbe","example":"Je dois partir maintenant.","exampleTranslation":"我現在必須走了。"},
-  {"french":"toujours","translation":"總是","gender":null,"partOfSpeech":"adverbe","example":"Il est toujours en retard.","exampleTranslation":"他總是遲到。"},
-  {"french":"souvent","translation":"經常","gender":null,"partOfSpeech":"adverbe","example":"Je vais souvent au cinéma.","exampleTranslation":"我經常去看電影。"},
-  {"french":"jamais","translation":"從不","gender":null,"partOfSpeech":"adverbe","example":"Je ne fume jamais.","exampleTranslation":"我從不抽菸。"},
-  {"french":"parfois","translation":"有時","gender":null,"partOfSpeech":"adverbe","example":"Parfois, je travaille le samedi.","exampleTranslation":"有時候我星期六工作。"},
-  {"french":"hier","translation":"昨天","gender":null,"partOfSpeech":"adverbe","example":"Hier, il a plu toute la journée.","exampleTranslation":"昨天下了一整天雨。"},
-  {"french":"tôt","translation":"早","gender":null,"partOfSpeech":"adverbe","example":"Je me lève tôt le matin.","exampleTranslation":"我早上很早起床。"},
-  {"french":"tard","translation":"晚","gender":null,"partOfSpeech":"adverbe","example":"Il est rentré très tard.","exampleTranslation":"他很晚才回家。"},
-  {"french":"déjà","translation":"已經","gender":null,"partOfSpeech":"adverbe","example":"J'ai déjà mangé.","exampleTranslation":"我已經吃過了。"},
-  {"french":"encore","translation":"還／再","gender":null,"partOfSpeech":"adverbe","example":"Tu veux encore du café ?","exampleTranslation":"你還要再來點咖啡嗎？"},
-  {"french":"bientôt","translation":"很快","gender":null,"partOfSpeech":"adverbe","example":"À bientôt !","exampleTranslation":"回頭見！"},
-  {"french":"ensuite","translation":"接著","gender":null,"partOfSpeech":"adverbe","example":"D'abord on mange, ensuite on sort.","exampleTranslation":"我們先吃飯，接著出門。"},
-  {"french":"enfin","translation":"終於","gender":null,"partOfSpeech":"adverbe","example":"Enfin, te voilà !","exampleTranslation":"你終於來了！"},
-  {"french":"d'abord","translation":"首先","gender":null,"partOfSpeech":"adverbe","example":"D'abord, lave-toi les mains.","exampleTranslation":"首先，去洗手。"},
-  {"french":"longtemps","translation":"很久","gender":null,"partOfSpeech":"adverbe","example":"J'ai attendu longtemps.","exampleTranslation":"我等了很久。"},
-  {"french":"pendant","translation":"在……期間","gender":null,"partOfSpeech":"préposition","example":"Il dort pendant le voyage.","exampleTranslation":"他在旅途中睡覺。"},
-  {"french":"heureux","translation":"幸福的","gender":null,"partOfSpeech":"adjectif","example":"Ils sont très heureux ensemble.","exampleTranslation":"他們在一起很幸福。"},
-  {"french":"triste","translation":"傷心的","gender":null,"partOfSpeech":"adjectif","example":"Elle est triste aujourd'hui.","exampleTranslation":"她今天很傷心。"},
-  {"french":"fâché","translation":"生氣的","gender":null,"partOfSpeech":"adjectif","example":"Il est fâché contre moi.","exampleTranslation":"他在生我的氣。"},
-  {"french":"inquiet","translation":"擔心的","gender":null,"partOfSpeech":"adjectif","example":"Je suis inquiet pour lui.","exampleTranslation":"我很擔心他。"},
-  {"french":"surpris","translation":"驚訝的","gender":null,"partOfSpeech":"adjectif","example":"Je suis surpris de te voir.","exampleTranslation":"看到你我很驚訝。"},
-  {"french":"amoureux","translation":"戀愛的","gender":null,"partOfSpeech":"adjectif","example":"Il est amoureux de Marie.","exampleTranslation":"他愛上了瑪莉。"},
-  {"french":"nerveux","translation":"緊張的","gender":null,"partOfSpeech":"adjectif","example":"Elle est nerveuse avant l'examen.","exampleTranslation":"考試前她很緊張。"},
-  {"french":"calme","translation":"冷靜的／安靜的","gender":null,"partOfSpeech":"adjectif","example":"Reste calme, tout va bien.","exampleTranslation":"保持冷靜，一切都好。"},
-  {"french":"timide","translation":"害羞的","gender":null,"partOfSpeech":"adjectif","example":"Cet enfant est très timide.","exampleTranslation":"這個小孩很害羞。"},
-  {"french":"gentil","translation":"善良的","gender":null,"partOfSpeech":"adjectif","example":"Tu es vraiment gentil.","exampleTranslation":"你真的很善良。"},
-  {"french":"méchant","translation":"兇的／壞的","gender":null,"partOfSpeech":"adjectif","example":"Ce chien n'est pas méchant.","exampleTranslation":"這隻狗不兇。"},
-  {"french":"sérieux","translation":"認真的","gender":null,"partOfSpeech":"adjectif","example":"C'est un étudiant sérieux.","exampleTranslation":"他是個認真的學生。"},
-  {"french":"drôle","translation":"有趣的／好笑的","gender":null,"partOfSpeech":"adjectif","example":"Cette histoire est très drôle.","exampleTranslation":"這個故事很好笑。"},
-  {"french":"intelligent","translation":"聰明的","gender":null,"partOfSpeech":"adjectif","example":"Elle est très intelligente.","exampleTranslation":"她很聰明。"},
-  {"french":"paresseux","translation":"懶惰的","gender":null,"partOfSpeech":"adjectif","example":"Il est trop paresseux pour ranger.","exampleTranslation":"他懶得收拾。"},
-  {"french":"courageux","translation":"勇敢的","gender":null,"partOfSpeech":"adjectif","example":"Les pompiers sont courageux.","exampleTranslation":"消防員很勇敢。"},
-  {"french":"poli","translation":"有禮貌的","gender":null,"partOfSpeech":"adjectif","example":"Sois poli avec les clients.","exampleTranslation":"對客人要有禮貌。"},
-  {"french":"célèbre","translation":"著名的","gender":null,"partOfSpeech":"adjectif","example":"C'est un acteur célèbre.","exampleTranslation":"他是個著名的演員。"},
-  {"french":"important","translation":"重要的","gender":null,"partOfSpeech":"adjectif","example":"C'est une décision importante.","exampleTranslation":"這是個重要的決定。"},
-  {"french":"dangereux","translation":"危險的","gender":null,"partOfSpeech":"adjectif","example":"Cette route est dangereuse.","exampleTranslation":"這條路很危險。"},
-  {"french":"propre","translation":"乾淨的","gender":null,"partOfSpeech":"adjectif","example":"La cuisine est propre.","exampleTranslation":"廚房很乾淨。"},
-  {"french":"sale","translation":"髒的","gender":null,"partOfSpeech":"adjectif","example":"Tes mains sont sales.","exampleTranslation":"你的手很髒。"},
-  {"french":"cher","translation":"昂貴的","gender":null,"partOfSpeech":"adjectif","example":"Ce restaurant est trop cher.","exampleTranslation":"這家餐廳太貴了。"},
-  {"french":"gratuit","translation":"免費的","gender":null,"partOfSpeech":"adjectif","example":"L'entrée du musée est gratuite.","exampleTranslation":"博物館免費入場。"},
-  {"french":"temps","translation":"天氣／時間","gender":"m","partOfSpeech":"nom","example":"Quel temps fait-il aujourd'hui ?","exampleTranslation":"今天天氣如何？"},
-  {"french":"soleil","translation":"太陽","gender":"m","partOfSpeech":"nom","example":"Le soleil brille ce matin.","exampleTranslation":"今天早上陽光普照。"},
-  {"french":"pluie","translation":"雨","gender":"f","partOfSpeech":"nom","example":"La pluie tombe fort.","exampleTranslation":"雨下得很大。"},
-  {"french":"neige","translation":"雪","gender":"f","partOfSpeech":"nom","example":"La neige couvre la montagne.","exampleTranslation":"雪覆蓋了山。"},
-  {"french":"vent","translation":"風","gender":"m","partOfSpeech":"nom","example":"Le vent est fort aujourd'hui.","exampleTranslation":"今天風很大。"},
-  {"french":"nuage","translation":"雲","gender":"m","partOfSpeech":"nom","example":"Il y a beaucoup de nuages.","exampleTranslation":"雲很多。"},
-  {"french":"orage","translation":"暴風雨／雷雨","gender":"m","partOfSpeech":"nom","example":"Un orage arrive ce soir.","exampleTranslation":"今晚會有雷雨。"},
-  {"french":"ciel","translation":"天空","gender":"m","partOfSpeech":"nom","example":"Le ciel est clair.","exampleTranslation":"天空很晴朗。"},
-  {"french":"mer","translation":"海","gender":"f","partOfSpeech":"nom","example":"J'aime nager dans la mer.","exampleTranslation":"我喜歡在海裡游泳。"},
-  {"french":"montagne","translation":"山","gender":"f","partOfSpeech":"nom","example":"Nous montons à la montagne.","exampleTranslation":"我們上山。"},
-  {"french":"rivière","translation":"河","gender":"f","partOfSpeech":"nom","example":"Les enfants jouent près de la rivière.","exampleTranslation":"孩子們在河邊玩。"},
-  {"french":"forêt","translation":"森林","gender":"f","partOfSpeech":"nom","example":"Nous nous promenons dans la forêt.","exampleTranslation":"我們在森林裡散步。"},
-  {"french":"arbre","translation":"樹","gender":"m","partOfSpeech":"nom","example":"Cet arbre est très vieux.","exampleTranslation":"這棵樹很老。"},
-  {"french":"fleur","translation":"花","gender":"f","partOfSpeech":"nom","example":"Je lui offre des fleurs.","exampleTranslation":"我送她一些花。"},
-  {"french":"jardin","translation":"花園","gender":"m","partOfSpeech":"nom","example":"Le jardin est plein de roses.","exampleTranslation":"花園裡開滿玫瑰。"},
-  {"french":"champ","translation":"田野","gender":"m","partOfSpeech":"nom","example":"Les vaches sont dans le champ.","exampleTranslation":"牛在田裡。"},
-  {"french":"lune","translation":"月亮","gender":"f","partOfSpeech":"nom","example":"La lune est pleine ce soir.","exampleTranslation":"今晚是滿月。"},
-  {"french":"étoile","translation":"星星","gender":"f","partOfSpeech":"nom","example":"On voit beaucoup d'étoiles ce soir.","exampleTranslation":"今晚看得到很多星星。"},
-  {"french":"saison","translation":"季節","gender":"f","partOfSpeech":"nom","example":"L'automne est ma saison préférée.","exampleTranslation":"秋天是我最喜歡的季節。"},
-  {"french":"nature","translation":"大自然","gender":"f","partOfSpeech":"nom","example":"J'aime la nature.","exampleTranslation":"我喜歡大自然。"},
-  {"french":"argent","translation":"錢","gender":"m","partOfSpeech":"nom","example":"Je n'ai pas assez d'argent.","exampleTranslation":"我的錢不夠。"},
-  {"french":"prix","translation":"價格","gender":"m","partOfSpeech":"nom","example":"Quel est le prix de ce sac ?","exampleTranslation":"這個包包多少錢？"},
-  {"french":"cadeau","translation":"禮物","gender":"m","partOfSpeech":"nom","example":"C'est un cadeau pour toi.","exampleTranslation":"這是給你的禮物。"},
-  {"french":"lettre","translation":"信","gender":"f","partOfSpeech":"nom","example":"J'écris une lettre à ma grand-mère.","exampleTranslation":"我寫一封信給祖母。"},
-  {"french":"journal","translation":"報紙","gender":"m","partOfSpeech":"nom","example":"Je lis le journal le matin.","exampleTranslation":"我早上看報紙。"},
-  {"french":"musique","translation":"音樂","gender":"f","partOfSpeech":"nom","example":"J'écoute de la musique classique.","exampleTranslation":"我聽古典音樂。"},
-  {"french":"film","translation":"電影","gender":"m","partOfSpeech":"nom","example":"Ce film est très long.","exampleTranslation":"這部電影很長。"},
-  {"french":"photo","translation":"照片","gender":"f","partOfSpeech":"nom","example":"Je prends une photo du château.","exampleTranslation":"我拍一張城堡的照片。"},
-  {"french":"jeu","translation":"遊戲","gender":"m","partOfSpeech":"nom","example":"Les enfants aiment ce jeu.","exampleTranslation":"孩子們喜歡這個遊戲。"},
-  {"french":"fête","translation":"派對／節日","gender":"f","partOfSpeech":"nom","example":"La fête commence à vingt heures.","exampleTranslation":"派對晚上八點開始。"},
-  {"french":"anniversaire","translation":"生日","gender":"m","partOfSpeech":"nom","example":"Joyeux anniversaire !","exampleTranslation":"生日快樂！"},
-  {"french":"problème","translation":"問題／難題","gender":"m","partOfSpeech":"nom","example":"Il y a un petit problème.","exampleTranslation":"有個小問題。"},
-  {"french":"question","translation":"問題（疑問）","gender":"f","partOfSpeech":"nom","example":"J'ai une question à poser.","exampleTranslation":"我有一個問題要問。"},
-  {"french":"réponse","translation":"回答","gender":"f","partOfSpeech":"nom","example":"Ta réponse est correcte.","exampleTranslation":"你的回答是對的。"},
-  {"french":"idée","translation":"主意","gender":"f","partOfSpeech":"nom","example":"C'est une bonne idée !","exampleTranslation":"這是個好主意！"},
-  {"french":"histoire","translation":"故事／歷史","gender":"f","partOfSpeech":"nom","example":"Raconte-moi une histoire.","exampleTranslation":"講個故事給我聽。"},
-  {"french":"nouvelle","translation":"消息","gender":"f","partOfSpeech":"nom","example":"J'ai une bonne nouvelle.","exampleTranslation":"我有個好消息。"},
-  {"french":"projet","translation":"計畫","gender":"m","partOfSpeech":"nom","example":"Quels sont tes projets pour l'été ?","exampleTranslation":"你夏天有什麼計畫？"},
-  {"french":"rendez-vous","translation":"約會／預約","gender":"m","partOfSpeech":"nom","example":"J'ai un rendez-vous chez le médecin.","exampleTranslation":"我有個看醫生的預約。"},
-  {"french":"sac","translation":"包包","gender":"m","partOfSpeech":"nom","example":"Mon sac est très lourd.","exampleTranslation":"我的包包很重。"},
-  {"french":"finir","translation":"完成","gender":null,"partOfSpeech":"verbe","example":"Je finis mon travail à six heures.","exampleTranslation":"我六點完成工作。"},
-  {"french":"commencer","translation":"開始","gender":null,"partOfSpeech":"verbe","example":"Le film commence à huit heures.","exampleTranslation":"電影八點開始。"},
-  {"french":"attendre","translation":"等待","gender":null,"partOfSpeech":"verbe","example":"Nous attendons le bus.","exampleTranslation":"我們在等公車。"},
-  {"french":"comprendre","translation":"理解","gender":null,"partOfSpeech":"verbe","example":"Je comprends la leçon.","exampleTranslation":"我理解這堂課。"},
-  {"french":"connaître","translation":"認識","gender":null,"partOfSpeech":"verbe","example":"Je connais bien cette ville.","exampleTranslation":"我很熟這座城市。"},
-  {"french":"savoir","translation":"知道／會","gender":null,"partOfSpeech":"verbe","example":"Je sais nager.","exampleTranslation":"我會游泳。"},
-  {"french":"lire","translation":"閱讀","gender":null,"partOfSpeech":"verbe","example":"Je lis un roman policier.","exampleTranslation":"我讀一本推理小說。"},
-  {"french":"écrire","translation":"寫","gender":null,"partOfSpeech":"verbe","example":"J'écris un e-mail à mon ami.","exampleTranslation":"我寫一封電子郵件給朋友。"},
-  {"french":"dire","translation":"說","gender":null,"partOfSpeech":"verbe","example":"Il dit toujours la vérité.","exampleTranslation":"他總是說實話。"},
-  {"french":"demander","translation":"詢問／要求","gender":null,"partOfSpeech":"verbe","example":"Je demande l'addition au serveur.","exampleTranslation":"我向服務生要帳單。"},
-  {"french":"répondre","translation":"回答","gender":null,"partOfSpeech":"verbe","example":"Réponds à ma question.","exampleTranslation":"回答我的問題。"},
-  {"french":"penser","translation":"想／認為","gender":null,"partOfSpeech":"verbe","example":"Je pense que c'est une bonne idée.","exampleTranslation":"我認為這是個好主意。"},
-  {"french":"croire","translation":"相信","gender":null,"partOfSpeech":"verbe","example":"Je crois en toi.","exampleTranslation":"我相信你。"},
-  {"french":"payer","translation":"付款","gender":null,"partOfSpeech":"verbe","example":"Je paie par carte bancaire.","exampleTranslation":"我用銀行卡付款。"},
-  {"french":"voyager","translation":"旅行","gender":null,"partOfSpeech":"verbe","example":"J'aime voyager en Europe.","exampleTranslation":"我喜歡在歐洲旅行。"},
-  {"french":"visiter","translation":"參觀","gender":null,"partOfSpeech":"verbe","example":"Nous visitons le musée du Louvre.","exampleTranslation":"我們參觀羅浮宮。"},
-  {"french":"rencontrer","translation":"遇見","gender":null,"partOfSpeech":"verbe","example":"Je rencontre un ami au café.","exampleTranslation":"我在咖啡館遇見一位朋友。"},
-  {"french":"aider","translation":"幫助","gender":null,"partOfSpeech":"verbe","example":"Je t'aide volontiers.","exampleTranslation":"我很樂意幫你。"},
-  {"french":"jouer","translation":"玩／演奏","gender":null,"partOfSpeech":"verbe","example":"Les enfants jouent dans le jardin.","exampleTranslation":"孩子們在花園裡玩。"},
-  {"french":"chanter","translation":"唱歌","gender":null,"partOfSpeech":"verbe","example":"Elle chante très bien.","exampleTranslation":"她唱得很好。"},
-  {"french":"danser","translation":"跳舞","gender":null,"partOfSpeech":"verbe","example":"Nous dansons toute la nuit.","exampleTranslation":"我們跳舞跳了一整晚。"},
-  {"french":"marcher","translation":"走路／運作","gender":null,"partOfSpeech":"verbe","example":"Je marche une heure chaque jour.","exampleTranslation":"我每天走路一小時。"},
-  {"french":"courir","translation":"跑步","gender":null,"partOfSpeech":"verbe","example":"Il court très vite.","exampleTranslation":"他跑得很快。"},
-  {"french":"conduire","translation":"開車","gender":null,"partOfSpeech":"verbe","example":"Elle conduit prudemment.","exampleTranslation":"她開車很謹慎。"},
-  {"french":"apprendre","translation":"學習","gender":null,"partOfSpeech":"verbe","example":"J'apprends l'espagnol.","exampleTranslation":"我學西班牙語。"},
-  {"french":"enseigner","translation":"教","gender":null,"partOfSpeech":"verbe","example":"Il enseigne les mathématiques.","exampleTranslation":"他教數學。"},
-  {"french":"oublier","translation":"忘記","gender":null,"partOfSpeech":"verbe","example":"J'ai oublié mon parapluie.","exampleTranslation":"我忘了帶傘。"},
-  {"french":"se souvenir","translation":"記得","gender":null,"partOfSpeech":"verbe","example":"Je me souviens de ce jour.","exampleTranslation":"我記得那一天。"},
-  {"french":"choisir","translation":"選擇","gender":null,"partOfSpeech":"verbe","example":"Choisis une couleur.","exampleTranslation":"選一個顏色。"},
-  {"french":"montrer","translation":"展示","gender":null,"partOfSpeech":"verbe","example":"Montre-moi ta photo.","exampleTranslation":"給我看你的照片。"},
-  {"french":"porter","translation":"穿／攜帶","gender":null,"partOfSpeech":"verbe","example":"Elle porte un sac lourd.","exampleTranslation":"她提著一個很重的包。"},
-  {"french":"perdre","translation":"失去／弄丟","gender":null,"partOfSpeech":"verbe","example":"Je perds souvent mes clés.","exampleTranslation":"我常弄丟鑰匙。"},
-  {"french":"gagner","translation":"贏／賺","gender":null,"partOfSpeech":"verbe","example":"Notre équipe a gagné le match.","exampleTranslation":"我們隊贏了比賽。"},
-  {"french":"vendre","translation":"賣","gender":null,"partOfSpeech":"verbe","example":"Ils vendent des fruits au marché.","exampleTranslation":"他們在市場賣水果。"},
-  {"french":"entrer","translation":"進入","gender":null,"partOfSpeech":"verbe","example":"Entrez, s'il vous plaît.","exampleTranslation":"請進。"},
-  {"french":"sortir","translation":"出去","gender":null,"partOfSpeech":"verbe","example":"Je sors avec des amis ce soir.","exampleTranslation":"我今晚和朋友出去。"},
-  {"french":"monde","translation":"世界","gender":"m","partOfSpeech":"nom","example":"Je veux voir le monde.","exampleTranslation":"我想看看這個世界。"},
-  {"french":"vie","translation":"生活／生命","gender":"f","partOfSpeech":"nom","example":"La vie est belle.","exampleTranslation":"生活很美好。"},
-  {"french":"santé","translation":"健康","gender":"f","partOfSpeech":"nom","example":"La santé est plus importante que l'argent.","exampleTranslation":"健康比金錢重要。"},
-  {"french":"corps","translation":"身體","gender":"m","partOfSpeech":"nom","example":"Le sport est bon pour le corps.","exampleTranslation":"運動對身體有益。"},
-  {"french":"maladie","translation":"疾病","gender":"f","partOfSpeech":"nom","example":"C'est une maladie grave.","exampleTranslation":"這是一種嚴重的疾病。"},
-  {"french":"médicament","translation":"藥","gender":"m","partOfSpeech":"nom","example":"Prends ce médicament deux fois par jour.","exampleTranslation":"這個藥一天吃兩次。"},
-  {"french":"rhume","translation":"感冒","gender":"m","partOfSpeech":"nom","example":"J'ai attrapé un rhume.","exampleTranslation":"我感冒了。"},
-  {"french":"sport","translation":"運動","gender":"m","partOfSpeech":"nom","example":"Je fais du sport trois fois par semaine.","exampleTranslation":"我一週運動三次。"},
-  {"french":"équipe","translation":"隊伍","gender":"f","partOfSpeech":"nom","example":"Notre équipe est forte.","exampleTranslation":"我們隊很強。"},
-  {"french":"match","translation":"比賽","gender":"m","partOfSpeech":"nom","example":"Le match commence à vingt heures.","exampleTranslation":"比賽晚上八點開始。"},
-  {"french":"musée","translation":"博物館","gender":"m","partOfSpeech":"nom","example":"Ce musée est très intéressant.","exampleTranslation":"這間博物館很有趣。"},
-  {"french":"église","translation":"教堂","gender":"f","partOfSpeech":"nom","example":"Cette église est très ancienne.","exampleTranslation":"這座教堂很古老。"},
-  {"french":"quartier","translation":"街區","gender":"m","partOfSpeech":"nom","example":"J'habite dans un quartier calme.","exampleTranslation":"我住在一個安靜的街區。"},
-  {"french":"pont","translation":"橋","gender":"m","partOfSpeech":"nom","example":"Nous traversons le pont.","exampleTranslation":"我們過橋。"},
-  {"french":"place","translation":"廣場／位子","gender":"f","partOfSpeech":"nom","example":"Il y a une belle place au centre-ville.","exampleTranslation":"市中心有個漂亮的廣場。"},
-  {"french":"chien","translation":"狗","gender":"m","partOfSpeech":"nom","example":"Mon chien aime courir.","exampleTranslation":"我的狗喜歡跑。"},
-  {"french":"chat","translation":"貓","gender":"m","partOfSpeech":"nom","example":"Le chat dort sur le canapé.","exampleTranslation":"貓在沙發上睡覺。"},
-  {"french":"oiseau","translation":"鳥","gender":"m","partOfSpeech":"nom","example":"L'oiseau chante dans l'arbre.","exampleTranslation":"鳥在樹上唱歌。"},
-  {"french":"cheval","translation":"馬","gender":"m","partOfSpeech":"nom","example":"Le cheval court dans le champ.","exampleTranslation":"馬在田野裡奔跑。"},
-  {"french":"vache","translation":"牛","gender":"f","partOfSpeech":"nom","example":"La vache donne du lait.","exampleTranslation":"牛產牛奶。"},
-  {"french":"nourriture","translation":"食物","gender":"f","partOfSpeech":"nom","example":"La nourriture est délicieuse ici.","exampleTranslation":"這裡的食物很美味。"},
-  {"french":"boisson","translation":"飲料","gender":"f","partOfSpeech":"nom","example":"Quelle boisson veux-tu ?","exampleTranslation":"你想喝什麼飲料？"},
-  {"french":"cuillère","translation":"湯匙","gender":"f","partOfSpeech":"nom","example":"J'ai besoin d'une cuillère.","exampleTranslation":"我需要一支湯匙。"},
-  {"french":"fourchette","translation":"叉子","gender":"f","partOfSpeech":"nom","example":"La fourchette est à gauche de l'assiette.","exampleTranslation":"叉子在盤子左邊。"},
-  {"french":"couteau","translation":"刀","gender":"m","partOfSpeech":"nom","example":"Ce couteau coupe bien.","exampleTranslation":"這把刀很鋒利。"},
-  {"french":"beaucoup","translation":"很多","gender":null,"partOfSpeech":"adverbe","example":"Merci beaucoup pour ton aide.","exampleTranslation":"很感謝你的幫忙。"},
-  {"french":"peu","translation":"少","gender":null,"partOfSpeech":"adverbe","example":"Je dors trop peu.","exampleTranslation":"我睡得太少。"},
-  {"french":"très","translation":"非常","gender":null,"partOfSpeech":"adverbe","example":"Ce plat est très bon.","exampleTranslation":"這道菜非常好吃。"},
-  {"french":"trop","translation":"太","gender":null,"partOfSpeech":"adverbe","example":"Il fait trop chaud aujourd'hui.","exampleTranslation":"今天太熱了。"},
-  {"french":"assez","translation":"足夠／相當","gender":null,"partOfSpeech":"adverbe","example":"J'ai assez mangé, merci.","exampleTranslation":"我吃夠了，謝謝。"},
-  {"french":"vraiment","translation":"真的","gender":null,"partOfSpeech":"adverbe","example":"C'est vraiment délicieux.","exampleTranslation":"這真的很美味。"},
-  {"french":"peut-être","translation":"也許","gender":null,"partOfSpeech":"adverbe","example":"Il viendra peut-être demain.","exampleTranslation":"他也許明天會來。"},
-  {"french":"ensemble","translation":"一起","gender":null,"partOfSpeech":"adverbe","example":"Nous travaillons ensemble.","exampleTranslation":"我們一起工作。"},
-  {"french":"vite","translation":"快","gender":null,"partOfSpeech":"adverbe","example":"Le temps passe vite.","exampleTranslation":"時間過得很快。"},
-  {"french":"lentement","translation":"慢慢地","gender":null,"partOfSpeech":"adverbe","example":"Parle plus lentement, s'il te plaît.","exampleTranslation":"請說慢一點。"},
-  {"french":"ici","translation":"這裡","gender":null,"partOfSpeech":"adverbe","example":"Viens ici, s'il te plaît.","exampleTranslation":"請過來這裡。"},
-  {"french":"là-bas","translation":"那裡","gender":null,"partOfSpeech":"adverbe","example":"La gare est là-bas.","exampleTranslation":"火車站在那裡。"},
-  {"french":"dehors","translation":"外面","gender":null,"partOfSpeech":"adverbe","example":"Les enfants jouent dehors.","exampleTranslation":"孩子們在外面玩。"},
-  {"french":"surtout","translation":"尤其","gender":null,"partOfSpeech":"adverbe","example":"J'aime les fruits, surtout les fraises.","exampleTranslation":"我喜歡水果，尤其是草莓。"},
-  {"french":"presque","translation":"幾乎","gender":null,"partOfSpeech":"adverbe","example":"J'ai presque fini.","exampleTranslation":"我幾乎做完了。"}
+  {
+    "french": "travail",
+    "translation": "工作",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "J'ai beaucoup de travail aujourd'hui.",
+    "exampleTranslation": "我今天有很多工作。",
+    "tag": "職業"
+  },
+  {
+    "french": "métier",
+    "translation": "職業",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Quel est ton métier ?",
+    "exampleTranslation": "你的職業是什麼？",
+    "tag": "職業"
+  },
+  {
+    "french": "médecin",
+    "translation": "醫生",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le médecin examine le patient.",
+    "exampleTranslation": "醫生為病人做檢查。",
+    "tag": "職業"
+  },
+  {
+    "french": "professeur",
+    "translation": "老師",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Notre professeur est très gentil.",
+    "exampleTranslation": "我們的老師很和善。",
+    "tag": "職業"
+  },
+  {
+    "french": "étudiant",
+    "translation": "學生",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Cet étudiant travaille beaucoup.",
+    "exampleTranslation": "這名學生很用功。",
+    "tag": "職業"
+  },
+  {
+    "french": "ingénieur",
+    "translation": "工程師",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Mon frère est ingénieur.",
+    "exampleTranslation": "我哥哥是工程師。",
+    "tag": "職業"
+  },
+  {
+    "french": "avocat",
+    "translation": "律師",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "L'avocat défend son client.",
+    "exampleTranslation": "律師替當事人辯護。",
+    "tag": "職業"
+  },
+  {
+    "french": "infirmier",
+    "translation": "護理師",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "L'infirmier prend ma tension.",
+    "exampleTranslation": "護理師幫我量血壓。",
+    "tag": "職業"
+  },
+  {
+    "french": "vendeur",
+    "translation": "售貨員",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le vendeur est très aimable.",
+    "exampleTranslation": "售貨員很親切。",
+    "tag": "職業"
+  },
+  {
+    "french": "cuisinier",
+    "translation": "廚師",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le cuisinier prépare un bon plat.",
+    "exampleTranslation": "廚師做一道好菜。",
+    "tag": "職業"
+  },
+  {
+    "french": "serveur",
+    "translation": "服務生",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le serveur apporte les plats.",
+    "exampleTranslation": "服務生端上菜。",
+    "tag": "職業"
+  },
+  {
+    "french": "policier",
+    "translation": "警察",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le policier règle la circulation.",
+    "exampleTranslation": "警察指揮交通。",
+    "tag": "職業"
+  },
+  {
+    "french": "employé",
+    "translation": "員工",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Cette entreprise a cent employés.",
+    "exampleTranslation": "這家公司有一百名員工。",
+    "tag": "職業"
+  },
+  {
+    "french": "patron",
+    "translation": "老闆",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Mon patron est exigeant.",
+    "exampleTranslation": "我老闆很嚴格。",
+    "tag": "職業"
+  },
+  {
+    "french": "collègue",
+    "translation": "同事",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Mes collègues sont sympathiques.",
+    "exampleTranslation": "我的同事很友善。",
+    "tag": "職業"
+  },
+  {
+    "french": "directeur",
+    "translation": "主管／經理",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le directeur arrive à neuf heures.",
+    "exampleTranslation": "經理九點到。",
+    "tag": "職業"
+  },
+  {
+    "french": "boulanger",
+    "translation": "麵包師",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le boulanger se lève très tôt.",
+    "exampleTranslation": "麵包師起得很早。",
+    "tag": "職業"
+  },
+  {
+    "french": "facteur",
+    "translation": "郵差",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le facteur apporte le courrier.",
+    "exampleTranslation": "郵差送信來。",
+    "tag": "職業"
+  },
+  {
+    "french": "artiste",
+    "translation": "藝術家",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Cet artiste peint des tableaux.",
+    "exampleTranslation": "這位藝術家畫畫。",
+    "tag": "職業"
+  },
+  {
+    "french": "chercheur",
+    "translation": "研究員",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le chercheur étudie le climat.",
+    "exampleTranslation": "研究員研究氣候。",
+    "tag": "職業"
+  },
+  {
+    "french": "voyage",
+    "translation": "旅行",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Bon voyage !",
+    "exampleTranslation": "旅途愉快！",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "vacances",
+    "translation": "假期",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Les vacances commencent demain.",
+    "exampleTranslation": "假期明天開始。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "train",
+    "translation": "火車",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le train part dans dix minutes.",
+    "exampleTranslation": "火車十分鐘後出發。",
+    "tag": "交通"
+  },
+  {
+    "french": "avion",
+    "translation": "飛機",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "L'avion décolle bientôt.",
+    "exampleTranslation": "飛機快要起飛了。",
+    "tag": "交通"
+  },
+  {
+    "french": "bus",
+    "translation": "公車",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je prends le bus pour aller au travail.",
+    "exampleTranslation": "我搭公車去上班。",
+    "tag": "交通"
+  },
+  {
+    "french": "métro",
+    "translation": "地鐵",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le métro est rapide à Paris.",
+    "exampleTranslation": "巴黎的地鐵很快。",
+    "tag": "交通"
+  },
+  {
+    "french": "vélo",
+    "translation": "腳踏車",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je fais du vélo le week-end.",
+    "exampleTranslation": "我週末騎腳踏車。",
+    "tag": "交通"
+  },
+  {
+    "french": "bateau",
+    "translation": "船",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Nous prenons le bateau pour l'île.",
+    "exampleTranslation": "我們搭船去那座島。",
+    "tag": "交通"
+  },
+  {
+    "french": "taxi",
+    "translation": "計程車",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Appelle un taxi, s'il te plaît.",
+    "exampleTranslation": "請叫一輛計程車。",
+    "tag": "交通"
+  },
+  {
+    "french": "billet",
+    "translation": "票",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "J'achète un billet de train.",
+    "exampleTranslation": "我買一張火車票。",
+    "tag": "交通"
+  },
+  {
+    "french": "valise",
+    "translation": "行李箱",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Ma valise est trop lourde.",
+    "exampleTranslation": "我的行李箱太重了。",
+    "tag": "衣物配件"
+  },
+  {
+    "french": "passeport",
+    "translation": "護照",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "N'oublie pas ton passeport.",
+    "exampleTranslation": "別忘了帶護照。",
+    "tag": "旅遊"
+  },
+  {
+    "french": "carte",
+    "translation": "地圖／卡片",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Je regarde la carte de la ville.",
+    "exampleTranslation": "我看城市地圖。",
+    "tag": "旅遊"
+  },
+  {
+    "french": "route",
+    "translation": "道路",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La route est longue.",
+    "exampleTranslation": "路程很長。",
+    "tag": "旅遊"
+  },
+  {
+    "french": "chemin",
+    "translation": "路徑",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je cherche mon chemin.",
+    "exampleTranslation": "我在找路。",
+    "tag": "旅遊"
+  },
+  {
+    "french": "voyageur",
+    "translation": "旅客",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Les voyageurs attendent le train.",
+    "exampleTranslation": "旅客們在等火車。",
+    "tag": "旅遊"
+  },
+  {
+    "french": "quai",
+    "translation": "月台",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le train arrive sur le quai numéro deux.",
+    "exampleTranslation": "火車進到二號月台。",
+    "tag": "交通"
+  },
+  {
+    "french": "douane",
+    "translation": "海關",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Nous passons la douane.",
+    "exampleTranslation": "我們通過海關。",
+    "tag": "旅遊"
+  },
+  {
+    "french": "frontière",
+    "translation": "邊界",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Nous traversons la frontière.",
+    "exampleTranslation": "我們越過邊界。",
+    "tag": "旅遊"
+  },
+  {
+    "french": "réservation",
+    "translation": "預訂",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "J'ai une réservation à ce nom.",
+    "exampleTranslation": "我用這個名字訂了位。",
+    "tag": "旅遊"
+  },
+  {
+    "french": "départ",
+    "translation": "出發",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le départ est à midi.",
+    "exampleTranslation": "中午出發。",
+    "tag": "旅遊"
+  },
+  {
+    "french": "arrivée",
+    "translation": "抵達",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "L'arrivée est prévue à dix-huit heures.",
+    "exampleTranslation": "預計十八點抵達。",
+    "tag": "旅遊"
+  },
+  {
+    "french": "retard",
+    "translation": "延誤／遲到",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le train a du retard.",
+    "exampleTranslation": "火車誤點了。",
+    "tag": "旅遊"
+  },
+  {
+    "french": "séjour",
+    "translation": "停留／逗留",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Bon séjour à Paris !",
+    "exampleTranslation": "在巴黎玩得愉快！",
+    "tag": "旅遊"
+  },
+  {
+    "french": "maintenant",
+    "translation": "現在",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Je dois partir maintenant.",
+    "exampleTranslation": "我現在必須走了。",
+    "tag": "副詞"
+  },
+  {
+    "french": "toujours",
+    "translation": "總是",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Il est toujours en retard.",
+    "exampleTranslation": "他總是遲到。",
+    "tag": "副詞"
+  },
+  {
+    "french": "souvent",
+    "translation": "經常",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Je vais souvent au cinéma.",
+    "exampleTranslation": "我經常去看電影。",
+    "tag": "副詞"
+  },
+  {
+    "french": "jamais",
+    "translation": "從不",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Je ne fume jamais.",
+    "exampleTranslation": "我從不抽菸。",
+    "tag": "副詞"
+  },
+  {
+    "french": "parfois",
+    "translation": "有時",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Parfois, je travaille le samedi.",
+    "exampleTranslation": "有時候我星期六工作。",
+    "tag": "副詞"
+  },
+  {
+    "french": "hier",
+    "translation": "昨天",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Hier, il a plu toute la journée.",
+    "exampleTranslation": "昨天下了一整天雨。",
+    "tag": "副詞"
+  },
+  {
+    "french": "tôt",
+    "translation": "早",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Je me lève tôt le matin.",
+    "exampleTranslation": "我早上很早起床。",
+    "tag": "副詞"
+  },
+  {
+    "french": "tard",
+    "translation": "晚",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Il est rentré très tard.",
+    "exampleTranslation": "他很晚才回家。",
+    "tag": "副詞"
+  },
+  {
+    "french": "déjà",
+    "translation": "已經",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "J'ai déjà mangé.",
+    "exampleTranslation": "我已經吃過了。",
+    "tag": "副詞"
+  },
+  {
+    "french": "encore",
+    "translation": "還／再",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Tu veux encore du café ?",
+    "exampleTranslation": "你還要再來點咖啡嗎？",
+    "tag": "副詞"
+  },
+  {
+    "french": "bientôt",
+    "translation": "很快",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "À bientôt !",
+    "exampleTranslation": "回頭見！",
+    "tag": "副詞"
+  },
+  {
+    "french": "ensuite",
+    "translation": "接著",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "D'abord on mange, ensuite on sort.",
+    "exampleTranslation": "我們先吃飯，接著出門。",
+    "tag": "副詞"
+  },
+  {
+    "french": "enfin",
+    "translation": "終於",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Enfin, te voilà !",
+    "exampleTranslation": "你終於來了！",
+    "tag": "副詞"
+  },
+  {
+    "french": "d'abord",
+    "translation": "首先",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "D'abord, lave-toi les mains.",
+    "exampleTranslation": "首先，去洗手。",
+    "tag": "副詞"
+  },
+  {
+    "french": "longtemps",
+    "translation": "很久",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "J'ai attendu longtemps.",
+    "exampleTranslation": "我等了很久。",
+    "tag": "副詞"
+  },
+  {
+    "french": "pendant",
+    "translation": "在……期間",
+    "gender": null,
+    "partOfSpeech": "préposition",
+    "example": "Il dort pendant le voyage.",
+    "exampleTranslation": "他在旅途中睡覺。",
+    "tag": "介係詞"
+  },
+  {
+    "french": "heureux",
+    "translation": "幸福的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Ils sont très heureux ensemble.",
+    "exampleTranslation": "他們在一起很幸福。",
+    "tag": "情緒"
+  },
+  {
+    "french": "triste",
+    "translation": "傷心的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Elle est triste aujourd'hui.",
+    "exampleTranslation": "她今天很傷心。",
+    "tag": "情緒"
+  },
+  {
+    "french": "fâché",
+    "translation": "生氣的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Il est fâché contre moi.",
+    "exampleTranslation": "他在生我的氣。",
+    "tag": "情緒"
+  },
+  {
+    "french": "inquiet",
+    "translation": "擔心的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Je suis inquiet pour lui.",
+    "exampleTranslation": "我很擔心他。",
+    "tag": "情緒"
+  },
+  {
+    "french": "surpris",
+    "translation": "驚訝的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Je suis surpris de te voir.",
+    "exampleTranslation": "看到你我很驚訝。",
+    "tag": "情緒"
+  },
+  {
+    "french": "amoureux",
+    "translation": "戀愛的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Il est amoureux de Marie.",
+    "exampleTranslation": "他愛上了瑪莉。",
+    "tag": "情緒"
+  },
+  {
+    "french": "nerveux",
+    "translation": "緊張的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Elle est nerveuse avant l'examen.",
+    "exampleTranslation": "考試前她很緊張。",
+    "tag": "情緒"
+  },
+  {
+    "french": "calme",
+    "translation": "冷靜的／安靜的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Reste calme, tout va bien.",
+    "exampleTranslation": "保持冷靜，一切都好。",
+    "tag": "情緒"
+  },
+  {
+    "french": "timide",
+    "translation": "害羞的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Cet enfant est très timide.",
+    "exampleTranslation": "這個小孩很害羞。",
+    "tag": "情緒"
+  },
+  {
+    "french": "gentil",
+    "translation": "善良的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Tu es vraiment gentil.",
+    "exampleTranslation": "你真的很善良。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "méchant",
+    "translation": "兇的／壞的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Ce chien n'est pas méchant.",
+    "exampleTranslation": "這隻狗不兇。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "sérieux",
+    "translation": "認真的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "C'est un étudiant sérieux.",
+    "exampleTranslation": "他是個認真的學生。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "drôle",
+    "translation": "有趣的／好笑的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Cette histoire est très drôle.",
+    "exampleTranslation": "這個故事很好笑。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "intelligent",
+    "translation": "聰明的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Elle est très intelligente.",
+    "exampleTranslation": "她很聰明。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "paresseux",
+    "translation": "懶惰的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Il est trop paresseux pour ranger.",
+    "exampleTranslation": "他懶得收拾。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "courageux",
+    "translation": "勇敢的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Les pompiers sont courageux.",
+    "exampleTranslation": "消防員很勇敢。",
+    "tag": "情緒"
+  },
+  {
+    "french": "poli",
+    "translation": "有禮貌的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Sois poli avec les clients.",
+    "exampleTranslation": "對客人要有禮貌。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "célèbre",
+    "translation": "著名的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "C'est un acteur célèbre.",
+    "exampleTranslation": "他是個著名的演員。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "important",
+    "translation": "重要的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "C'est une décision importante.",
+    "exampleTranslation": "這是個重要的決定。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "dangereux",
+    "translation": "危險的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Cette route est dangereuse.",
+    "exampleTranslation": "這條路很危險。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "propre",
+    "translation": "乾淨的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "La cuisine est propre.",
+    "exampleTranslation": "廚房很乾淨。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "sale",
+    "translation": "髒的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Tes mains sont sales.",
+    "exampleTranslation": "你的手很髒。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "cher",
+    "translation": "昂貴的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Ce restaurant est trop cher.",
+    "exampleTranslation": "這家餐廳太貴了。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "gratuit",
+    "translation": "免費的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "L'entrée du musée est gratuite.",
+    "exampleTranslation": "博物館免費入場。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "temps",
+    "translation": "天氣／時間",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Quel temps fait-il aujourd'hui ?",
+    "exampleTranslation": "今天天氣如何？",
+    "tag": "時間"
+  },
+  {
+    "french": "soleil",
+    "translation": "太陽",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le soleil brille ce matin.",
+    "exampleTranslation": "今天早上陽光普照。",
+    "tag": "自然"
+  },
+  {
+    "french": "pluie",
+    "translation": "雨",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La pluie tombe fort.",
+    "exampleTranslation": "雨下得很大。",
+    "tag": "自然"
+  },
+  {
+    "french": "neige",
+    "translation": "雪",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La neige couvre la montagne.",
+    "exampleTranslation": "雪覆蓋了山。",
+    "tag": "自然"
+  },
+  {
+    "french": "vent",
+    "translation": "風",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le vent est fort aujourd'hui.",
+    "exampleTranslation": "今天風很大。",
+    "tag": "自然"
+  },
+  {
+    "french": "nuage",
+    "translation": "雲",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Il y a beaucoup de nuages.",
+    "exampleTranslation": "雲很多。",
+    "tag": "自然"
+  },
+  {
+    "french": "orage",
+    "translation": "暴風雨／雷雨",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Un orage arrive ce soir.",
+    "exampleTranslation": "今晚會有雷雨。",
+    "tag": "自然"
+  },
+  {
+    "french": "ciel",
+    "translation": "天空",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le ciel est clair.",
+    "exampleTranslation": "天空很晴朗。",
+    "tag": "自然"
+  },
+  {
+    "french": "mer",
+    "translation": "海",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "J'aime nager dans la mer.",
+    "exampleTranslation": "我喜歡在海裡游泳。",
+    "tag": "自然"
+  },
+  {
+    "french": "montagne",
+    "translation": "山",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Nous montons à la montagne.",
+    "exampleTranslation": "我們上山。",
+    "tag": "自然"
+  },
+  {
+    "french": "rivière",
+    "translation": "河",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Les enfants jouent près de la rivière.",
+    "exampleTranslation": "孩子們在河邊玩。",
+    "tag": "自然"
+  },
+  {
+    "french": "forêt",
+    "translation": "森林",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Nous nous promenons dans la forêt.",
+    "exampleTranslation": "我們在森林裡散步。",
+    "tag": "自然"
+  },
+  {
+    "french": "arbre",
+    "translation": "樹",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Cet arbre est très vieux.",
+    "exampleTranslation": "這棵樹很老。",
+    "tag": "自然"
+  },
+  {
+    "french": "fleur",
+    "translation": "花",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Je lui offre des fleurs.",
+    "exampleTranslation": "我送她一些花。",
+    "tag": "自然"
+  },
+  {
+    "french": "jardin",
+    "translation": "花園",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le jardin est plein de roses.",
+    "exampleTranslation": "花園裡開滿玫瑰。",
+    "tag": "自然"
+  },
+  {
+    "french": "champ",
+    "translation": "田野",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Les vaches sont dans le champ.",
+    "exampleTranslation": "牛在田裡。",
+    "tag": "自然"
+  },
+  {
+    "french": "lune",
+    "translation": "月亮",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La lune est pleine ce soir.",
+    "exampleTranslation": "今晚是滿月。",
+    "tag": "自然"
+  },
+  {
+    "french": "étoile",
+    "translation": "星星",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "On voit beaucoup d'étoiles ce soir.",
+    "exampleTranslation": "今晚看得到很多星星。",
+    "tag": "自然"
+  },
+  {
+    "french": "saison",
+    "translation": "季節",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "L'automne est ma saison préférée.",
+    "exampleTranslation": "秋天是我最喜歡的季節。",
+    "tag": "自然"
+  },
+  {
+    "french": "nature",
+    "translation": "大自然",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "J'aime la nature.",
+    "exampleTranslation": "我喜歡大自然。",
+    "tag": "自然"
+  },
+  {
+    "french": "argent",
+    "translation": "錢",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je n'ai pas assez d'argent.",
+    "exampleTranslation": "我的錢不夠。",
+    "tag": "購物金錢"
+  },
+  {
+    "french": "prix",
+    "translation": "價格",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Quel est le prix de ce sac ?",
+    "exampleTranslation": "這個包包多少錢？",
+    "tag": "購物金錢"
+  },
+  {
+    "french": "cadeau",
+    "translation": "禮物",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "C'est un cadeau pour toi.",
+    "exampleTranslation": "這是給你的禮物。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "lettre",
+    "translation": "信",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "J'écris une lettre à ma grand-mère.",
+    "exampleTranslation": "我寫一封信給祖母。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "journal",
+    "translation": "報紙",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je lis le journal le matin.",
+    "exampleTranslation": "我早上看報紙。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "musique",
+    "translation": "音樂",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "J'écoute de la musique classique.",
+    "exampleTranslation": "我聽古典音樂。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "film",
+    "translation": "電影",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Ce film est très long.",
+    "exampleTranslation": "這部電影很長。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "photo",
+    "translation": "照片",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Je prends une photo du château.",
+    "exampleTranslation": "我拍一張城堡的照片。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "jeu",
+    "translation": "遊戲",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Les enfants aiment ce jeu.",
+    "exampleTranslation": "孩子們喜歡這個遊戲。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "fête",
+    "translation": "派對／節日",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La fête commence à vingt heures.",
+    "exampleTranslation": "派對晚上八點開始。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "anniversaire",
+    "translation": "生日",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Joyeux anniversaire !",
+    "exampleTranslation": "生日快樂！",
+    "tag": "時間"
+  },
+  {
+    "french": "problème",
+    "translation": "問題／難題",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Il y a un petit problème.",
+    "exampleTranslation": "有個小問題。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "question",
+    "translation": "問題（疑問）",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "J'ai une question à poser.",
+    "exampleTranslation": "我有一個問題要問。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "réponse",
+    "translation": "回答",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Ta réponse est correcte.",
+    "exampleTranslation": "你的回答是對的。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "idée",
+    "translation": "主意",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "C'est une bonne idée !",
+    "exampleTranslation": "這是個好主意！",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "histoire",
+    "translation": "故事／歷史",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Raconte-moi une histoire.",
+    "exampleTranslation": "講個故事給我聽。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "nouvelle",
+    "translation": "消息",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "J'ai une bonne nouvelle.",
+    "exampleTranslation": "我有個好消息。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "projet",
+    "translation": "計畫",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Quels sont tes projets pour l'été ?",
+    "exampleTranslation": "你夏天有什麼計畫？",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "rendez-vous",
+    "translation": "約會／預約",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "J'ai un rendez-vous chez le médecin.",
+    "exampleTranslation": "我有個看醫生的預約。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "sac",
+    "translation": "包包",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Mon sac est très lourd.",
+    "exampleTranslation": "我的包包很重。",
+    "tag": "衣物配件"
+  },
+  {
+    "french": "finir",
+    "translation": "完成",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je finis mon travail à six heures.",
+    "exampleTranslation": "我六點完成工作。",
+    "tag": "動詞"
+  },
+  {
+    "french": "commencer",
+    "translation": "開始",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Le film commence à huit heures.",
+    "exampleTranslation": "電影八點開始。",
+    "tag": "動詞"
+  },
+  {
+    "french": "attendre",
+    "translation": "等待",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Nous attendons le bus.",
+    "exampleTranslation": "我們在等公車。",
+    "tag": "動詞"
+  },
+  {
+    "french": "comprendre",
+    "translation": "理解",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je comprends la leçon.",
+    "exampleTranslation": "我理解這堂課。",
+    "tag": "動詞"
+  },
+  {
+    "french": "connaître",
+    "translation": "認識",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je connais bien cette ville.",
+    "exampleTranslation": "我很熟這座城市。",
+    "tag": "動詞"
+  },
+  {
+    "french": "savoir",
+    "translation": "知道／會",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je sais nager.",
+    "exampleTranslation": "我會游泳。",
+    "tag": "動詞"
+  },
+  {
+    "french": "lire",
+    "translation": "閱讀",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je lis un roman policier.",
+    "exampleTranslation": "我讀一本推理小說。",
+    "tag": "動詞"
+  },
+  {
+    "french": "écrire",
+    "translation": "寫",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "J'écris un e-mail à mon ami.",
+    "exampleTranslation": "我寫一封電子郵件給朋友。",
+    "tag": "動詞"
+  },
+  {
+    "french": "dire",
+    "translation": "說",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Il dit toujours la vérité.",
+    "exampleTranslation": "他總是說實話。",
+    "tag": "動詞"
+  },
+  {
+    "french": "demander",
+    "translation": "詢問／要求",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je demande l'addition au serveur.",
+    "exampleTranslation": "我向服務生要帳單。",
+    "tag": "動詞"
+  },
+  {
+    "french": "répondre",
+    "translation": "回答",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Réponds à ma question.",
+    "exampleTranslation": "回答我的問題。",
+    "tag": "動詞"
+  },
+  {
+    "french": "penser",
+    "translation": "想／認為",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je pense que c'est une bonne idée.",
+    "exampleTranslation": "我認為這是個好主意。",
+    "tag": "動詞"
+  },
+  {
+    "french": "croire",
+    "translation": "相信",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je crois en toi.",
+    "exampleTranslation": "我相信你。",
+    "tag": "動詞"
+  },
+  {
+    "french": "payer",
+    "translation": "付款",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je paie par carte bancaire.",
+    "exampleTranslation": "我用銀行卡付款。",
+    "tag": "動詞"
+  },
+  {
+    "french": "voyager",
+    "translation": "旅行",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "J'aime voyager en Europe.",
+    "exampleTranslation": "我喜歡在歐洲旅行。",
+    "tag": "動詞"
+  },
+  {
+    "french": "visiter",
+    "translation": "參觀",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Nous visitons le musée du Louvre.",
+    "exampleTranslation": "我們參觀羅浮宮。",
+    "tag": "動詞"
+  },
+  {
+    "french": "rencontrer",
+    "translation": "遇見",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je rencontre un ami au café.",
+    "exampleTranslation": "我在咖啡館遇見一位朋友。",
+    "tag": "動詞"
+  },
+  {
+    "french": "aider",
+    "translation": "幫助",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je t'aide volontiers.",
+    "exampleTranslation": "我很樂意幫你。",
+    "tag": "動詞"
+  },
+  {
+    "french": "jouer",
+    "translation": "玩／演奏",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Les enfants jouent dans le jardin.",
+    "exampleTranslation": "孩子們在花園裡玩。",
+    "tag": "動詞"
+  },
+  {
+    "french": "chanter",
+    "translation": "唱歌",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Elle chante très bien.",
+    "exampleTranslation": "她唱得很好。",
+    "tag": "動詞"
+  },
+  {
+    "french": "danser",
+    "translation": "跳舞",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Nous dansons toute la nuit.",
+    "exampleTranslation": "我們跳舞跳了一整晚。",
+    "tag": "動詞"
+  },
+  {
+    "french": "marcher",
+    "translation": "走路／運作",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je marche une heure chaque jour.",
+    "exampleTranslation": "我每天走路一小時。",
+    "tag": "動詞"
+  },
+  {
+    "french": "courir",
+    "translation": "跑步",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Il court très vite.",
+    "exampleTranslation": "他跑得很快。",
+    "tag": "動詞"
+  },
+  {
+    "french": "conduire",
+    "translation": "開車",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Elle conduit prudemment.",
+    "exampleTranslation": "她開車很謹慎。",
+    "tag": "動詞"
+  },
+  {
+    "french": "apprendre",
+    "translation": "學習",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "J'apprends l'espagnol.",
+    "exampleTranslation": "我學西班牙語。",
+    "tag": "動詞"
+  },
+  {
+    "french": "enseigner",
+    "translation": "教",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Il enseigne les mathématiques.",
+    "exampleTranslation": "他教數學。",
+    "tag": "動詞"
+  },
+  {
+    "french": "oublier",
+    "translation": "忘記",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "J'ai oublié mon parapluie.",
+    "exampleTranslation": "我忘了帶傘。",
+    "tag": "動詞"
+  },
+  {
+    "french": "se souvenir",
+    "translation": "記得",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je me souviens de ce jour.",
+    "exampleTranslation": "我記得那一天。",
+    "tag": "動詞"
+  },
+  {
+    "french": "choisir",
+    "translation": "選擇",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Choisis une couleur.",
+    "exampleTranslation": "選一個顏色。",
+    "tag": "動詞"
+  },
+  {
+    "french": "montrer",
+    "translation": "展示",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Montre-moi ta photo.",
+    "exampleTranslation": "給我看你的照片。",
+    "tag": "動詞"
+  },
+  {
+    "french": "porter",
+    "translation": "穿／攜帶",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Elle porte un sac lourd.",
+    "exampleTranslation": "她提著一個很重的包。",
+    "tag": "動詞"
+  },
+  {
+    "french": "perdre",
+    "translation": "失去／弄丟",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je perds souvent mes clés.",
+    "exampleTranslation": "我常弄丟鑰匙。",
+    "tag": "動詞"
+  },
+  {
+    "french": "gagner",
+    "translation": "贏／賺",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Notre équipe a gagné le match.",
+    "exampleTranslation": "我們隊贏了比賽。",
+    "tag": "動詞"
+  },
+  {
+    "french": "vendre",
+    "translation": "賣",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Ils vendent des fruits au marché.",
+    "exampleTranslation": "他們在市場賣水果。",
+    "tag": "動詞"
+  },
+  {
+    "french": "entrer",
+    "translation": "進入",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Entrez, s'il vous plaît.",
+    "exampleTranslation": "請進。",
+    "tag": "動詞"
+  },
+  {
+    "french": "sortir",
+    "translation": "出去",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je sors avec des amis ce soir.",
+    "exampleTranslation": "我今晚和朋友出去。",
+    "tag": "動詞"
+  },
+  {
+    "french": "monde",
+    "translation": "世界",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je veux voir le monde.",
+    "exampleTranslation": "我想看看這個世界。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "vie",
+    "translation": "生活／生命",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La vie est belle.",
+    "exampleTranslation": "生活很美好。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "santé",
+    "translation": "健康",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La santé est plus importante que l'argent.",
+    "exampleTranslation": "健康比金錢重要。",
+    "tag": "健康"
+  },
+  {
+    "french": "corps",
+    "translation": "身體",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le sport est bon pour le corps.",
+    "exampleTranslation": "運動對身體有益。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "maladie",
+    "translation": "疾病",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "C'est une maladie grave.",
+    "exampleTranslation": "這是一種嚴重的疾病。",
+    "tag": "健康"
+  },
+  {
+    "french": "médicament",
+    "translation": "藥",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Prends ce médicament deux fois par jour.",
+    "exampleTranslation": "這個藥一天吃兩次。",
+    "tag": "健康"
+  },
+  {
+    "french": "rhume",
+    "translation": "感冒",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "J'ai attrapé un rhume.",
+    "exampleTranslation": "我感冒了。",
+    "tag": "健康"
+  },
+  {
+    "french": "sport",
+    "translation": "運動",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je fais du sport trois fois par semaine.",
+    "exampleTranslation": "我一週運動三次。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "équipe",
+    "translation": "隊伍",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Notre équipe est forte.",
+    "exampleTranslation": "我們隊很強。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "match",
+    "translation": "比賽",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le match commence à vingt heures.",
+    "exampleTranslation": "比賽晚上八點開始。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "musée",
+    "translation": "博物館",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Ce musée est très intéressant.",
+    "exampleTranslation": "這間博物館很有趣。",
+    "tag": "地點"
+  },
+  {
+    "french": "église",
+    "translation": "教堂",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Cette église est très ancienne.",
+    "exampleTranslation": "這座教堂很古老。",
+    "tag": "地點"
+  },
+  {
+    "french": "quartier",
+    "translation": "街區",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "J'habite dans un quartier calme.",
+    "exampleTranslation": "我住在一個安靜的街區。",
+    "tag": "地點"
+  },
+  {
+    "french": "pont",
+    "translation": "橋",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Nous traversons le pont.",
+    "exampleTranslation": "我們過橋。",
+    "tag": "地點"
+  },
+  {
+    "french": "place",
+    "translation": "廣場／位子",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Il y a une belle place au centre-ville.",
+    "exampleTranslation": "市中心有個漂亮的廣場。",
+    "tag": "地點"
+  },
+  {
+    "french": "chien",
+    "translation": "狗",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Mon chien aime courir.",
+    "exampleTranslation": "我的狗喜歡跑。",
+    "tag": "動物"
+  },
+  {
+    "french": "chat",
+    "translation": "貓",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le chat dort sur le canapé.",
+    "exampleTranslation": "貓在沙發上睡覺。",
+    "tag": "動物"
+  },
+  {
+    "french": "oiseau",
+    "translation": "鳥",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "L'oiseau chante dans l'arbre.",
+    "exampleTranslation": "鳥在樹上唱歌。",
+    "tag": "動物"
+  },
+  {
+    "french": "cheval",
+    "translation": "馬",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le cheval court dans le champ.",
+    "exampleTranslation": "馬在田野裡奔跑。",
+    "tag": "動物"
+  },
+  {
+    "french": "vache",
+    "translation": "牛",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La vache donne du lait.",
+    "exampleTranslation": "牛產牛奶。",
+    "tag": "動物"
+  },
+  {
+    "french": "nourriture",
+    "translation": "食物",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La nourriture est délicieuse ici.",
+    "exampleTranslation": "這裡的食物很美味。",
+    "tag": "食物"
+  },
+  {
+    "french": "boisson",
+    "translation": "飲料",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Quelle boisson veux-tu ?",
+    "exampleTranslation": "你想喝什麼飲料？",
+    "tag": "飲料"
+  },
+  {
+    "french": "cuillère",
+    "translation": "湯匙",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "J'ai besoin d'une cuillère.",
+    "exampleTranslation": "我需要一支湯匙。",
+    "tag": "餐具廚房"
+  },
+  {
+    "french": "fourchette",
+    "translation": "叉子",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La fourchette est à gauche de l'assiette.",
+    "exampleTranslation": "叉子在盤子左邊。",
+    "tag": "餐具廚房"
+  },
+  {
+    "french": "couteau",
+    "translation": "刀",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Ce couteau coupe bien.",
+    "exampleTranslation": "這把刀很鋒利。",
+    "tag": "餐具廚房"
+  },
+  {
+    "french": "beaucoup",
+    "translation": "很多",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Merci beaucoup pour ton aide.",
+    "exampleTranslation": "很感謝你的幫忙。",
+    "tag": "副詞"
+  },
+  {
+    "french": "peu",
+    "translation": "少",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Je dors trop peu.",
+    "exampleTranslation": "我睡得太少。",
+    "tag": "副詞"
+  },
+  {
+    "french": "très",
+    "translation": "非常",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Ce plat est très bon.",
+    "exampleTranslation": "這道菜非常好吃。",
+    "tag": "副詞"
+  },
+  {
+    "french": "trop",
+    "translation": "太",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Il fait trop chaud aujourd'hui.",
+    "exampleTranslation": "今天太熱了。",
+    "tag": "副詞"
+  },
+  {
+    "french": "assez",
+    "translation": "足夠／相當",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "J'ai assez mangé, merci.",
+    "exampleTranslation": "我吃夠了，謝謝。",
+    "tag": "副詞"
+  },
+  {
+    "french": "vraiment",
+    "translation": "真的",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "C'est vraiment délicieux.",
+    "exampleTranslation": "這真的很美味。",
+    "tag": "副詞"
+  },
+  {
+    "french": "peut-être",
+    "translation": "也許",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Il viendra peut-être demain.",
+    "exampleTranslation": "他也許明天會來。",
+    "tag": "副詞"
+  },
+  {
+    "french": "ensemble",
+    "translation": "一起",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Nous travaillons ensemble.",
+    "exampleTranslation": "我們一起工作。",
+    "tag": "副詞"
+  },
+  {
+    "french": "vite",
+    "translation": "快",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Le temps passe vite.",
+    "exampleTranslation": "時間過得很快。",
+    "tag": "副詞"
+  },
+  {
+    "french": "lentement",
+    "translation": "慢慢地",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Parle plus lentement, s'il te plaît.",
+    "exampleTranslation": "請說慢一點。",
+    "tag": "副詞"
+  },
+  {
+    "french": "ici",
+    "translation": "這裡",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Viens ici, s'il te plaît.",
+    "exampleTranslation": "請過來這裡。",
+    "tag": "副詞"
+  },
+  {
+    "french": "là-bas",
+    "translation": "那裡",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "La gare est là-bas.",
+    "exampleTranslation": "火車站在那裡。",
+    "tag": "副詞"
+  },
+  {
+    "french": "dehors",
+    "translation": "外面",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Les enfants jouent dehors.",
+    "exampleTranslation": "孩子們在外面玩。",
+    "tag": "副詞"
+  },
+  {
+    "french": "surtout",
+    "translation": "尤其",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "J'aime les fruits, surtout les fraises.",
+    "exampleTranslation": "我喜歡水果，尤其是草莓。",
+    "tag": "副詞"
+  },
+  {
+    "french": "presque",
+    "translation": "幾乎",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "J'ai presque fini.",
+    "exampleTranslation": "我幾乎做完了。",
+    "tag": "副詞"
+  },
+  {
+    "french": "dentiste",
+    "translation": "牙醫",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "J'ai rendez-vous chez le dentiste.",
+    "exampleTranslation": "我跟牙醫有預約。",
+    "tag": "職業"
+  },
+  {
+    "french": "pharmacien",
+    "translation": "藥師",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le pharmacien conseille un sirop.",
+    "exampleTranslation": "藥師建議一種糖漿。",
+    "tag": "職業"
+  },
+  {
+    "french": "coiffeur",
+    "translation": "理髮師",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le coiffeur me coupe les cheveux.",
+    "exampleTranslation": "理髮師幫我剪頭髮。",
+    "tag": "職業"
+  },
+  {
+    "french": "plombier",
+    "translation": "水電工",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "On appelle le plombier pour la fuite.",
+    "exampleTranslation": "我們找水電工來修漏水。",
+    "tag": "職業"
+  },
+  {
+    "french": "mécanicien",
+    "translation": "技工",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le mécanicien répare la voiture.",
+    "exampleTranslation": "技工修理汽車。",
+    "tag": "職業"
+  },
+  {
+    "french": "pompier",
+    "translation": "消防員",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Les pompiers éteignent le feu.",
+    "exampleTranslation": "消防員撲滅火災。",
+    "tag": "職業"
+  },
+  {
+    "french": "agriculteur",
+    "translation": "農夫",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "L'agriculteur travaille dans les champs.",
+    "exampleTranslation": "農夫在田裡工作。",
+    "tag": "職業"
+  },
+  {
+    "french": "journaliste",
+    "translation": "記者",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "La journaliste écrit un article.",
+    "exampleTranslation": "記者寫一篇報導。",
+    "tag": "職業"
+  },
+  {
+    "french": "comptable",
+    "translation": "會計",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le comptable vérifie les chiffres.",
+    "exampleTranslation": "會計核對數字。",
+    "tag": "職業"
+  },
+  {
+    "french": "secrétaire",
+    "translation": "祕書",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "La secrétaire répond au téléphone.",
+    "exampleTranslation": "祕書接電話。",
+    "tag": "職業"
+  },
+  {
+    "french": "architecte",
+    "translation": "建築師",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "L'architecte dessine la maison.",
+    "exampleTranslation": "建築師設計房子。",
+    "tag": "職業"
+  },
+  {
+    "french": "pilote",
+    "translation": "飛行員",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le pilote conduit l'avion.",
+    "exampleTranslation": "飛行員駕駛飛機。",
+    "tag": "職業"
+  },
+  {
+    "french": "acteur",
+    "translation": "演員",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Cet acteur est très connu.",
+    "exampleTranslation": "這位演員很有名。",
+    "tag": "職業"
+  },
+  {
+    "french": "chanteur",
+    "translation": "歌手",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le chanteur monte sur scène.",
+    "exampleTranslation": "歌手登上舞台。",
+    "tag": "職業"
+  },
+  {
+    "french": "peintre",
+    "translation": "畫家",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le peintre expose ses tableaux.",
+    "exampleTranslation": "畫家展出他的畫作。",
+    "tag": "職業"
+  },
+  {
+    "french": "écrivain",
+    "translation": "作家",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Cet écrivain a écrit dix romans.",
+    "exampleTranslation": "這位作家寫了十本小說。",
+    "tag": "職業"
+  },
+  {
+    "french": "photographe",
+    "translation": "攝影師",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le photographe prend des photos du mariage.",
+    "exampleTranslation": "攝影師拍婚禮照片。",
+    "tag": "職業"
+  },
+  {
+    "french": "vétérinaire",
+    "translation": "獸醫",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "J'emmène mon chat chez le vétérinaire.",
+    "exampleTranslation": "我帶我的貓去看獸醫。",
+    "tag": "職業"
+  },
+  {
+    "french": "caissier",
+    "translation": "收銀員",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le caissier rend la monnaie.",
+    "exampleTranslation": "收銀員找零錢。",
+    "tag": "職業"
+  },
+  {
+    "french": "jardinier",
+    "translation": "園丁",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le jardinier arrose les plantes.",
+    "exampleTranslation": "園丁澆花。",
+    "tag": "職業"
+  },
+  {
+    "french": "douleur",
+    "translation": "疼痛",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "J'ai une douleur au dos.",
+    "exampleTranslation": "我背部疼痛。",
+    "tag": "健康"
+  },
+  {
+    "french": "blessure",
+    "translation": "傷口",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La blessure guérit lentement.",
+    "exampleTranslation": "傷口慢慢癒合。",
+    "tag": "健康"
+  },
+  {
+    "french": "ordonnance",
+    "translation": "處方",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Le médecin me donne une ordonnance.",
+    "exampleTranslation": "醫生開給我一張處方。",
+    "tag": "健康"
+  },
+  {
+    "french": "pansement",
+    "translation": "OK 繃／敷料",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je mets un pansement sur la coupure.",
+    "exampleTranslation": "我在傷口上貼 OK 繃。",
+    "tag": "健康"
+  },
+  {
+    "french": "vaccin",
+    "translation": "疫苗",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le vaccin protège contre la grippe.",
+    "exampleTranslation": "疫苗能預防流感。",
+    "tag": "健康"
+  },
+  {
+    "french": "opération",
+    "translation": "手術",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "L'opération a bien réussi.",
+    "exampleTranslation": "手術很成功。",
+    "tag": "健康"
+  },
+  {
+    "french": "allergie",
+    "translation": "過敏",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "J'ai une allergie aux chats.",
+    "exampleTranslation": "我對貓過敏。",
+    "tag": "健康"
+  },
+  {
+    "french": "régime",
+    "translation": "飲食控制／減肥",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Elle suit un régime.",
+    "exampleTranslation": "她在節食。",
+    "tag": "健康"
+  },
+  {
+    "french": "grippe",
+    "translation": "流感",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Il a la grippe et reste au lit.",
+    "exampleTranslation": "他得了流感，臥床休息。",
+    "tag": "健康"
+  },
+  {
+    "french": "toux",
+    "translation": "咳嗽",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "J'ai une mauvaise toux.",
+    "exampleTranslation": "我咳得很厲害。",
+    "tag": "健康"
+  },
+  {
+    "french": "réunion",
+    "translation": "會議",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La réunion dure deux heures.",
+    "exampleTranslation": "會議開了兩小時。",
+    "tag": "職場"
+  },
+  {
+    "french": "entretien",
+    "translation": "面試／訪談",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "J'ai un entretien d'embauche demain.",
+    "exampleTranslation": "我明天有一場工作面試。",
+    "tag": "職場"
+  },
+  {
+    "french": "contrat",
+    "translation": "合約",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je signe le contrat aujourd'hui.",
+    "exampleTranslation": "我今天簽合約。",
+    "tag": "職場"
+  },
+  {
+    "french": "dossier",
+    "translation": "檔案／案件",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le dossier est sur le bureau.",
+    "exampleTranslation": "檔案在辦公桌上。",
+    "tag": "職場"
+  },
+  {
+    "french": "document",
+    "translation": "文件",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Apporte tous les documents.",
+    "exampleTranslation": "把所有文件帶來。",
+    "tag": "職場"
+  },
+  {
+    "french": "e-mail",
+    "translation": "電子郵件",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je t'envoie un e-mail ce soir.",
+    "exampleTranslation": "我今晚寄電子郵件給你。",
+    "tag": "科技"
+  },
+  {
+    "french": "imprimante",
+    "translation": "印表機",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "L'imprimante ne marche plus.",
+    "exampleTranslation": "印表機壞了。",
+    "tag": "科技"
+  },
+  {
+    "french": "agenda",
+    "translation": "行事曆",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je note le rendez-vous dans mon agenda.",
+    "exampleTranslation": "我把約會記在行事曆上。",
+    "tag": "職場"
+  },
+  {
+    "french": "horaire",
+    "translation": "時間表",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Voici l'horaire des trains.",
+    "exampleTranslation": "這是火車時刻表。",
+    "tag": "職場"
+  },
+  {
+    "french": "pause",
+    "translation": "休息（時間）",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "On fait une pause de dix minutes.",
+    "exampleTranslation": "我們休息十分鐘。",
+    "tag": "職場"
+  },
+  {
+    "french": "poste",
+    "translation": "職位",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Il cherche un nouveau poste.",
+    "exampleTranslation": "他在找新的職位。",
+    "tag": "職業"
+  },
+  {
+    "french": "écran",
+    "translation": "螢幕",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "L'écran est trop lumineux.",
+    "exampleTranslation": "螢幕太亮了。",
+    "tag": "科技"
+  },
+  {
+    "french": "clavier",
+    "translation": "鍵盤",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je tape vite au clavier.",
+    "exampleTranslation": "我打字打得很快。",
+    "tag": "科技"
+  },
+  {
+    "french": "portable",
+    "translation": "手機",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Mon portable n'a plus de batterie.",
+    "exampleTranslation": "我的手機沒電了。",
+    "tag": "科技"
+  },
+  {
+    "french": "application",
+    "translation": "應用程式",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "J'utilise une application pour apprendre.",
+    "exampleTranslation": "我用一個應用程式學習。",
+    "tag": "科技"
+  },
+  {
+    "french": "fichier",
+    "translation": "檔案",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je sauvegarde le fichier.",
+    "exampleTranslation": "我儲存這個檔案。",
+    "tag": "科技"
+  },
+  {
+    "french": "site",
+    "translation": "網站",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Visite notre site internet.",
+    "exampleTranslation": "來逛逛我們的網站。",
+    "tag": "科技"
+  },
+  {
+    "french": "batterie",
+    "translation": "電池",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La batterie est presque vide.",
+    "exampleTranslation": "電池快沒電了。",
+    "tag": "科技"
+  },
+  {
+    "french": "chargeur",
+    "translation": "充電器",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "J'ai oublié mon chargeur.",
+    "exampleTranslation": "我忘了帶充電器。",
+    "tag": "科技"
+  },
+  {
+    "french": "casque",
+    "translation": "耳機／安全帽",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "J'écoute de la musique avec un casque.",
+    "exampleTranslation": "我戴耳機聽音樂。",
+    "tag": "科技"
+  },
+  {
+    "french": "tablette",
+    "translation": "平板電腦",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Les enfants regardent des vidéos sur la tablette.",
+    "exampleTranslation": "孩子們用平板看影片。",
+    "tag": "科技"
+  },
+  {
+    "french": "taille",
+    "translation": "尺寸／身高",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Quelle est votre taille ?",
+    "exampleTranslation": "您穿什麼尺寸？",
+    "tag": "購物金錢"
+  },
+  {
+    "french": "pointure",
+    "translation": "鞋號",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Je fais du 42 comme pointure.",
+    "exampleTranslation": "我穿 42 號的鞋。",
+    "tag": "購物金錢"
+  },
+  {
+    "french": "rayon",
+    "translation": "商品區／貨架",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le pain est au rayon boulangerie.",
+    "exampleTranslation": "麵包在烘焙區。",
+    "tag": "購物金錢"
+  },
+  {
+    "french": "panier",
+    "translation": "購物籃",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je mets les fruits dans le panier.",
+    "exampleTranslation": "我把水果放進籃子裡。",
+    "tag": "購物金錢"
+  },
+  {
+    "french": "chariot",
+    "translation": "購物車",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le chariot est plein.",
+    "exampleTranslation": "購物車滿了。",
+    "tag": "購物金錢"
+  },
+  {
+    "french": "reçu",
+    "translation": "收據",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Gardez le reçu, s'il vous plaît.",
+    "exampleTranslation": "請保留收據。",
+    "tag": "購物金錢"
+  },
+  {
+    "french": "soldes",
+    "translation": "折扣季",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Les soldes commencent demain.",
+    "exampleTranslation": "折扣季明天開始。",
+    "tag": "購物金錢"
+  },
+  {
+    "french": "marque",
+    "translation": "品牌",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "C'est une marque connue.",
+    "exampleTranslation": "這是個知名品牌。",
+    "tag": "購物金錢"
+  },
+  {
+    "french": "coton",
+    "translation": "棉",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Ce t-shirt est en coton.",
+    "exampleTranslation": "這件 T 恤是棉的。",
+    "tag": "衣物配件"
+  },
+  {
+    "french": "laine",
+    "translation": "羊毛",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Ce pull est en laine.",
+    "exampleTranslation": "這件毛衣是羊毛的。",
+    "tag": "衣物配件"
+  },
+  {
+    "french": "cuir",
+    "translation": "皮革",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Un sac en cuir.",
+    "exampleTranslation": "一個皮革包。",
+    "tag": "衣物配件"
+  },
+  {
+    "french": "poche",
+    "translation": "口袋",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Mes clés sont dans ma poche.",
+    "exampleTranslation": "我的鑰匙在口袋裡。",
+    "tag": "衣物配件"
+  },
+  {
+    "french": "bouton",
+    "translation": "鈕扣／按鈕",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Appuie sur le bouton vert.",
+    "exampleTranslation": "按綠色按鈕。",
+    "tag": "衣物配件"
+  },
+  {
+    "french": "vol",
+    "translation": "航班／偷竊",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Mon vol part à midi.",
+    "exampleTranslation": "我的班機中午起飛。",
+    "tag": "交通"
+  },
+  {
+    "french": "bagage",
+    "translation": "行李",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je n'ai qu'un seul bagage.",
+    "exampleTranslation": "我只有一件行李。",
+    "tag": "交通"
+  },
+  {
+    "french": "escale",
+    "translation": "轉機／停靠",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Il y a une escale à Dubaï.",
+    "exampleTranslation": "在杜拜有一次轉機。",
+    "tag": "旅遊"
+  },
+  {
+    "french": "guide",
+    "translation": "導遊／指南",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le guide explique l'histoire du musée.",
+    "exampleTranslation": "導遊解說博物館的歷史。",
+    "tag": "旅遊"
+  },
+  {
+    "french": "monument",
+    "translation": "紀念建築",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "La tour Eiffel est un monument célèbre.",
+    "exampleTranslation": "艾菲爾鐵塔是著名的地標。",
+    "tag": "旅遊"
+  },
+  {
+    "french": "château",
+    "translation": "城堡",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Nous visitons un vieux château.",
+    "exampleTranslation": "我們參觀一座古堡。",
+    "tag": "旅遊"
+  },
+  {
+    "french": "cathédrale",
+    "translation": "大教堂",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La cathédrale est magnifique.",
+    "exampleTranslation": "這座大教堂很壯觀。",
+    "tag": "旅遊"
+  },
+  {
+    "french": "tour",
+    "translation": "塔／圈",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "On monte en haut de la tour.",
+    "exampleTranslation": "我們爬到塔頂。",
+    "tag": "旅遊"
+  },
+  {
+    "french": "camping",
+    "translation": "露營",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "On fait du camping en été.",
+    "exampleTranslation": "我們夏天去露營。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "tente",
+    "translation": "帳篷",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "On monte la tente près du lac.",
+    "exampleTranslation": "我們在湖邊搭帳篷。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "recette",
+    "translation": "食譜",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Je suis la recette pas à pas.",
+    "exampleTranslation": "我照著食譜一步步做。",
+    "tag": "食物"
+  },
+  {
+    "french": "ingrédient",
+    "translation": "食材",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Il manque un ingrédient.",
+    "exampleTranslation": "少了一樣食材。",
+    "tag": "食物"
+  },
+  {
+    "french": "menu",
+    "translation": "菜單／套餐",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le menu du jour est à quinze euros.",
+    "exampleTranslation": "今日套餐十五歐元。",
+    "tag": "食物"
+  },
+  {
+    "french": "apéritif",
+    "translation": "餐前酒",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "On prend l'apéritif sur la terrasse.",
+    "exampleTranslation": "我們在露台喝餐前酒。",
+    "tag": "食物"
+  },
+  {
+    "french": "goût",
+    "translation": "味道",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Ce plat a un bon goût.",
+    "exampleTranslation": "這道菜味道很好。",
+    "tag": "食物"
+  },
+  {
+    "french": "épice",
+    "translation": "香料",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Ce curry a beaucoup d'épices.",
+    "exampleTranslation": "這咖哩加了很多香料。",
+    "tag": "食物"
+  },
+  {
+    "french": "sauce",
+    "translation": "醬汁",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La sauce est trop salée.",
+    "exampleTranslation": "醬汁太鹹了。",
+    "tag": "食物"
+  },
+  {
+    "french": "bruit",
+    "translation": "噪音",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Il y a trop de bruit ici.",
+    "exampleTranslation": "這裡太吵了。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "silence",
+    "translation": "安靜",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Un peu de silence, s'il vous plaît !",
+    "exampleTranslation": "請安靜一點！",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "lumière",
+    "translation": "光線",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La lumière entre par la fenêtre.",
+    "exampleTranslation": "光線從窗戶照進來。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "ombre",
+    "translation": "陰影",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "On se repose à l'ombre.",
+    "exampleTranslation": "我們在陰涼處休息。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "odeur",
+    "translation": "氣味",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Quelle bonne odeur de pain !",
+    "exampleTranslation": "麵包的香味真好聞！",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "son",
+    "translation": "聲音",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Baisse le son de la télé.",
+    "exampleTranslation": "把電視音量調小。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "image",
+    "translation": "圖像",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "L'image n'est pas nette.",
+    "exampleTranslation": "這張圖像不清楚。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "forme",
+    "translation": "形狀",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La table a une forme ronde.",
+    "exampleTranslation": "桌子是圓形的。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "poids",
+    "translation": "重量",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Quel est le poids de la valise ?",
+    "exampleTranslation": "行李箱重多少？",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "distance",
+    "translation": "距離",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La distance est de dix kilomètres.",
+    "exampleTranslation": "距離是十公里。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "vitesse",
+    "translation": "速度",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Le train roule à grande vitesse.",
+    "exampleTranslation": "火車高速行駛。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "direction",
+    "translation": "方向",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "On va dans quelle direction ?",
+    "exampleTranslation": "我們往哪個方向走？",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "nord",
+    "translation": "北",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Lille est dans le nord de la France.",
+    "exampleTranslation": "里爾在法國北部。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "sud",
+    "translation": "南",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Il fait chaud dans le sud.",
+    "exampleTranslation": "南部很熱。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "est",
+    "translation": "東",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le soleil se lève à l'est.",
+    "exampleTranslation": "太陽從東邊升起。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "ouest",
+    "translation": "西",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "L'océan est à l'ouest.",
+    "exampleTranslation": "海洋在西邊。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "centre",
+    "translation": "中心",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "J'habite au centre-ville.",
+    "exampleTranslation": "我住在市中心。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "coin",
+    "translation": "角落",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le café est au coin de la rue.",
+    "exampleTranslation": "咖啡館在街角。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "bord",
+    "translation": "邊緣",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "On marche au bord de la mer.",
+    "exampleTranslation": "我們在海邊散步。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "début",
+    "translation": "開始",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Au début, c'était difficile.",
+    "exampleTranslation": "一開始很困難。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "fin",
+    "translation": "結束",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "À la fin du film, j'ai pleuré.",
+    "exampleTranslation": "電影結尾時我哭了。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "partie",
+    "translation": "部分",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Cette partie est la plus difficile.",
+    "exampleTranslation": "這部分是最難的。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "morceau",
+    "translation": "一塊／一段",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Un morceau de gâteau, s'il te plaît.",
+    "exampleTranslation": "請給我一塊蛋糕。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "moitié",
+    "translation": "一半",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "J'ai mangé la moitié de la pizza.",
+    "exampleTranslation": "我吃了一半的披薩。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "niveau",
+    "translation": "程度／水平",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Mon niveau de français s'améliore.",
+    "exampleTranslation": "我的法語程度在進步。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "exemple",
+    "translation": "例子",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Donne-moi un exemple.",
+    "exampleTranslation": "給我一個例子。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "sentiment",
+    "translation": "感受",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Décris-moi ton sentiment.",
+    "exampleTranslation": "描述一下你的感受。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "souvenir",
+    "translation": "回憶",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "J'ai un bon souvenir de ce voyage.",
+    "exampleTranslation": "那趟旅行我有美好的回憶。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "rêve",
+    "translation": "夢",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "J'ai fait un rêve étrange.",
+    "exampleTranslation": "我做了一個奇怪的夢。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "aimable",
+    "translation": "和藹的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "La vendeuse est très aimable.",
+    "exampleTranslation": "店員很和藹。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "agréable",
+    "translation": "愉快的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "C'est une soirée agréable.",
+    "exampleTranslation": "這是個愉快的夜晚。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "désagréable",
+    "translation": "令人不快的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Il a un ton désagréable.",
+    "exampleTranslation": "他的語氣令人不快。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "sympathique",
+    "translation": "友善的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Tes amis sont sympathiques.",
+    "exampleTranslation": "你的朋友很友善。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "honnête",
+    "translation": "誠實的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "C'est une personne honnête.",
+    "exampleTranslation": "他是個誠實的人。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "généreux",
+    "translation": "慷慨的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Il est très généreux avec ses amis.",
+    "exampleTranslation": "他對朋友很慷慨。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "égoïste",
+    "translation": "自私的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Ne sois pas égoïste !",
+    "exampleTranslation": "別這麼自私！",
+    "tag": "形容詞"
+  },
+  {
+    "french": "patient",
+    "translation": "有耐心的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Le professeur est très patient.",
+    "exampleTranslation": "老師很有耐心。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "impatient",
+    "translation": "沒耐心的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Je suis impatient de te voir.",
+    "exampleTranslation": "我等不及要見你。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "prudent",
+    "translation": "謹慎的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Sois prudent sur la route.",
+    "exampleTranslation": "開車小心。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "curieux",
+    "translation": "好奇的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Les enfants sont curieux.",
+    "exampleTranslation": "孩子們很好奇。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "bavard",
+    "translation": "愛說話的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Mon voisin est très bavard.",
+    "exampleTranslation": "我鄰居很愛聊天。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "sportif",
+    "translation": "愛運動的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Elle est très sportive.",
+    "exampleTranslation": "她很愛運動。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "créatif",
+    "translation": "有創意的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "C'est un enfant créatif.",
+    "exampleTranslation": "這是個有創意的孩子。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "organisé",
+    "translation": "有條理的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Il est très organisé au travail.",
+    "exampleTranslation": "他工作很有條理。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "sage",
+    "translation": "乖的／明智的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Sois sage avec mamie.",
+    "exampleTranslation": "跟奶奶在一起要乖。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "bizarre",
+    "translation": "奇怪的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "C'est un bruit bizarre.",
+    "exampleTranslation": "這是個奇怪的聲音。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "normal",
+    "translation": "正常的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "C'est tout à fait normal.",
+    "exampleTranslation": "這完全正常。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "ennuyeux",
+    "translation": "無聊的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Ce film est ennuyeux.",
+    "exampleTranslation": "這部電影很無聊。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "passionnant",
+    "translation": "精彩的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Ce livre est passionnant.",
+    "exampleTranslation": "這本書很精彩。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "fatigant",
+    "translation": "累人的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Ce travail est fatigant.",
+    "exampleTranslation": "這份工作很累人。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "délicieux",
+    "translation": "美味的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Ce gâteau est délicieux.",
+    "exampleTranslation": "這蛋糕很美味。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "magnifique",
+    "translation": "壯麗的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "La vue est magnifique.",
+    "exampleTranslation": "風景很壯麗。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "horrible",
+    "translation": "可怕的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Le temps est horrible aujourd'hui.",
+    "exampleTranslation": "今天天氣糟透了。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "recevoir",
+    "translation": "收到",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "J'ai reçu ton message.",
+    "exampleTranslation": "我收到你的訊息了。",
+    "tag": "動詞"
+  },
+  {
+    "french": "envoyer",
+    "translation": "寄送",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je t'envoie la photo.",
+    "exampleTranslation": "我把照片寄給你。",
+    "tag": "動詞"
+  },
+  {
+    "french": "rendre",
+    "translation": "歸還",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je dois rendre ce livre.",
+    "exampleTranslation": "我得還這本書。",
+    "tag": "動詞"
+  },
+  {
+    "french": "rappeler",
+    "translation": "回電／提醒",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je te rappelle ce soir.",
+    "exampleTranslation": "我今晚回你電話。",
+    "tag": "動詞"
+  },
+  {
+    "french": "raconter",
+    "translation": "講述",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Raconte-moi ta journée.",
+    "exampleTranslation": "跟我說說你的一天。",
+    "tag": "動詞"
+  },
+  {
+    "french": "remercier",
+    "translation": "感謝",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je te remercie pour ton aide.",
+    "exampleTranslation": "謝謝你的幫忙。",
+    "tag": "動詞"
+  },
+  {
+    "french": "inviter",
+    "translation": "邀請",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je t'invite à dîner.",
+    "exampleTranslation": "我請你吃晚餐。",
+    "tag": "動詞"
+  },
+  {
+    "french": "présenter",
+    "translation": "介紹",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je te présente mon frère.",
+    "exampleTranslation": "我跟你介紹我哥哥。",
+    "tag": "動詞"
+  },
+  {
+    "french": "accompagner",
+    "translation": "陪伴",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je t'accompagne à la gare.",
+    "exampleTranslation": "我陪你去車站。",
+    "tag": "動詞"
+  },
+  {
+    "french": "emmener",
+    "translation": "帶（人）去",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "J'emmène les enfants à l'école.",
+    "exampleTranslation": "我帶孩子們去上學。",
+    "tag": "動詞"
+  },
+  {
+    "french": "prêter",
+    "translation": "借出",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Tu peux me prêter dix euros ?",
+    "exampleTranslation": "你可以借我十歐元嗎？",
+    "tag": "動詞"
+  },
+  {
+    "french": "emprunter",
+    "translation": "借入",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "J'emprunte un livre à la bibliothèque.",
+    "exampleTranslation": "我向圖書館借一本書。",
+    "tag": "動詞"
+  },
+  {
+    "french": "offrir",
+    "translation": "贈送",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je lui offre des fleurs.",
+    "exampleTranslation": "我送她一些花。",
+    "tag": "動詞"
+  },
+  {
+    "french": "déménager",
+    "translation": "搬家",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "On déménage le mois prochain.",
+    "exampleTranslation": "我們下個月搬家。",
+    "tag": "動詞"
+  },
+  {
+    "french": "réserver",
+    "translation": "預訂",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je réserve une table pour ce soir.",
+    "exampleTranslation": "我訂今晚的位子。",
+    "tag": "動詞"
+  },
+  {
+    "french": "annuler",
+    "translation": "取消",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je dois annuler le rendez-vous.",
+    "exampleTranslation": "我得取消這個約。",
+    "tag": "動詞"
+  },
+  {
+    "french": "louer",
+    "translation": "租",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "On loue un appartement à la mer.",
+    "exampleTranslation": "我們在海邊租一間公寓。",
+    "tag": "動詞"
+  },
+  {
+    "french": "garer",
+    "translation": "停（車）",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je gare la voiture devant la maison.",
+    "exampleTranslation": "我把車停在房子前面。",
+    "tag": "動詞"
+  },
+  {
+    "french": "réveiller",
+    "translation": "叫醒",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Réveille-moi à sept heures.",
+    "exampleTranslation": "七點叫我起床。",
+    "tag": "動詞"
+  },
+  {
+    "french": "se reposer",
+    "translation": "休息",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je me repose le dimanche.",
+    "exampleTranslation": "我星期日休息。",
+    "tag": "動詞"
+  },
+  {
+    "french": "se promener",
+    "translation": "散步",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "On se promène dans le parc.",
+    "exampleTranslation": "我們在公園散步。",
+    "tag": "動詞"
+  },
+  {
+    "french": "se dépêcher",
+    "translation": "趕快",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Dépêche-toi, on est en retard !",
+    "exampleTranslation": "快點，我們要遲到了！",
+    "tag": "動詞"
+  },
+  {
+    "french": "s'amuser",
+    "translation": "玩得開心",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Les enfants s'amusent bien.",
+    "exampleTranslation": "孩子們玩得很開心。",
+    "tag": "動詞"
+  },
+  {
+    "french": "s'ennuyer",
+    "translation": "覺得無聊",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je m'ennuie à la maison.",
+    "exampleTranslation": "我在家很無聊。",
+    "tag": "動詞"
+  },
+  {
+    "french": "s'occuper",
+    "translation": "照顧／處理",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je m'occupe des enfants ce soir.",
+    "exampleTranslation": "今晚我照顧孩子。",
+    "tag": "動詞"
+  },
+  {
+    "french": "réfléchir",
+    "translation": "思考",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je dois réfléchir avant de répondre.",
+    "exampleTranslation": "我得想一想再回答。",
+    "tag": "動詞"
+  },
+  {
+    "french": "grandir",
+    "translation": "長大",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Les enfants grandissent vite.",
+    "exampleTranslation": "孩子們長得很快。",
+    "tag": "動詞"
+  },
+  {
+    "french": "maigrir",
+    "translation": "變瘦",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Il a maigri cet été.",
+    "exampleTranslation": "他今年夏天瘦了。",
+    "tag": "動詞"
+  },
+  {
+    "french": "grossir",
+    "translation": "變胖",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "J'ai grossi pendant les vacances.",
+    "exampleTranslation": "我假期間胖了。",
+    "tag": "動詞"
+  },
+  {
+    "french": "applaudir",
+    "translation": "鼓掌",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Le public applaudit le chanteur.",
+    "exampleTranslation": "觀眾為歌手鼓掌。",
+    "tag": "動詞"
+  },
+  {
+    "french": "saluer",
+    "translation": "打招呼／致意",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Il me salue chaque matin.",
+    "exampleTranslation": "他每天早上跟我打招呼。",
+    "tag": "動詞"
+  },
+  {
+    "french": "remplir",
+    "translation": "填寫／裝滿",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Remplissez ce formulaire.",
+    "exampleTranslation": "請填寫這份表格。",
+    "tag": "動詞"
+  },
+  {
+    "french": "signer",
+    "translation": "簽名",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Signez ici, s'il vous plaît.",
+    "exampleTranslation": "請在這裡簽名。",
+    "tag": "動詞"
+  },
+  {
+    "french": "vérifier",
+    "translation": "檢查／確認",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je vérifie l'heure du train.",
+    "exampleTranslation": "我確認一下火車時間。",
+    "tag": "動詞"
+  },
+  {
+    "french": "utiliser",
+    "translation": "使用",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "J'utilise mon téléphone pour tout.",
+    "exampleTranslation": "我什麼都用手機。",
+    "tag": "動詞"
+  },
+  {
+    "french": "essayer",
+    "translation": "嘗試／試穿",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je peux essayer cette veste ?",
+    "exampleTranslation": "我可以試穿這件外套嗎？",
+    "tag": "動詞"
+  },
+  {
+    "french": "changer",
+    "translation": "更換",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je voudrais changer de chambre.",
+    "exampleTranslation": "我想換房間。",
+    "tag": "動詞"
+  },
+  {
+    "french": "continuer",
+    "translation": "繼續",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Continue tout droit.",
+    "exampleTranslation": "繼續直走。",
+    "tag": "動詞"
+  },
+  {
+    "french": "arrêter",
+    "translation": "停止",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Arrête de crier !",
+    "exampleTranslation": "別再叫了！",
+    "tag": "動詞"
+  },
+  {
+    "french": "oser",
+    "translation": "敢",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je n'ose pas lui parler.",
+    "exampleTranslation": "我不敢跟他說話。",
+    "tag": "動詞"
+  },
+  {
+    "french": "espérer",
+    "translation": "希望",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "J'espère qu'il fera beau.",
+    "exampleTranslation": "我希望天氣會好。",
+    "tag": "動詞"
+  },
+  {
+    "french": "sembler",
+    "translation": "似乎",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Tu sembles fatigué.",
+    "exampleTranslation": "你看起來很累。",
+    "tag": "動詞"
+  },
+  {
+    "french": "rarement",
+    "translation": "很少",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Je sors rarement le soir.",
+    "exampleTranslation": "我晚上很少出門。",
+    "tag": "副詞"
+  },
+  {
+    "french": "normalement",
+    "translation": "通常",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Normalement, j'arrive à huit heures.",
+    "exampleTranslation": "我通常八點到。",
+    "tag": "副詞"
+  },
+  {
+    "french": "sûrement",
+    "translation": "肯定地",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Il a sûrement raison.",
+    "exampleTranslation": "他肯定是對的。",
+    "tag": "副詞"
+  },
+  {
+    "french": "exactement",
+    "translation": "正好",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "C'est exactement ce que je veux.",
+    "exampleTranslation": "這正是我想要的。",
+    "tag": "副詞"
+  },
+  {
+    "french": "simplement",
+    "translation": "只是／簡單地",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Je veux simplement t'aider.",
+    "exampleTranslation": "我只是想幫你。",
+    "tag": "副詞"
+  },
+  {
+    "french": "complètement",
+    "translation": "完全地",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Je suis complètement d'accord.",
+    "exampleTranslation": "我完全同意。",
+    "tag": "副詞"
+  },
+  {
+    "french": "tellement",
+    "translation": "如此地",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Il fait tellement chaud !",
+    "exampleTranslation": "天氣好熱啊！",
+    "tag": "副詞"
+  },
+  {
+    "french": "d'habitude",
+    "translation": "平常",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "D'habitude, je prends le bus.",
+    "exampleTranslation": "我平常搭公車。",
+    "tag": "副詞"
+  },
+  {
+    "french": "tout de suite",
+    "translation": "馬上",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "J'arrive tout de suite.",
+    "exampleTranslation": "我馬上來。",
+    "tag": "副詞"
+  },
+  {
+    "french": "décrire",
+    "translation": "描述",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Décris-moi ta maison.",
+    "exampleTranslation": "描述一下你的房子。",
+    "tag": "動詞"
+  },
+  {
+    "french": "traduire",
+    "translation": "翻譯",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Peux-tu traduire cette phrase ?",
+    "exampleTranslation": "你能翻譯這個句子嗎？",
+    "tag": "動詞"
+  },
+  {
+    "french": "répéter",
+    "translation": "重複",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Pouvez-vous répéter, s'il vous plaît ?",
+    "exampleTranslation": "可以再說一次嗎？",
+    "tag": "動詞"
+  },
+  {
+    "french": "prononcer",
+    "translation": "發音",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Comment prononce-t-on ce mot ?",
+    "exampleTranslation": "這個字怎麼發音？",
+    "tag": "動詞"
+  },
+  {
+    "french": "corriger",
+    "translation": "改正",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Le professeur corrige les fautes.",
+    "exampleTranslation": "老師改正錯誤。",
+    "tag": "動詞"
+  },
+  {
+    "french": "noter",
+    "translation": "記下",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je note ton adresse.",
+    "exampleTranslation": "我記下你的地址。",
+    "tag": "動詞"
+  },
+  {
+    "french": "copier",
+    "translation": "複製",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Ne copie pas sur ton voisin.",
+    "exampleTranslation": "別抄你鄰座的。",
+    "tag": "動詞"
+  },
+  {
+    "french": "calculer",
+    "translation": "計算",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je calcule le total.",
+    "exampleTranslation": "我計算總額。",
+    "tag": "動詞"
+  },
+  {
+    "french": "compter",
+    "translation": "數",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Compte jusqu'à dix.",
+    "exampleTranslation": "數到十。",
+    "tag": "動詞"
+  },
+  {
+    "french": "deviner",
+    "translation": "猜",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Devine ce que j'ai acheté !",
+    "exampleTranslation": "猜猜我買了什麼！",
+    "tag": "動詞"
+  },
+  {
+    "french": "construire",
+    "translation": "建造",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "On construit une nouvelle école.",
+    "exampleTranslation": "我們蓋一所新學校。",
+    "tag": "動詞"
+  },
+  {
+    "french": "installer",
+    "translation": "安裝",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "J'installe l'application sur mon portable.",
+    "exampleTranslation": "我在手機上安裝這個程式。",
+    "tag": "動詞"
+  },
+  {
+    "french": "télécharger",
+    "translation": "下載",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je télécharge le fichier.",
+    "exampleTranslation": "我下載這個檔案。",
+    "tag": "動詞"
+  },
+  {
+    "french": "imprimer",
+    "translation": "列印",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "J'imprime le document.",
+    "exampleTranslation": "我列印這份文件。",
+    "tag": "動詞"
+  },
+  {
+    "french": "taper",
+    "translation": "打字",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je tape le texte à l'ordinateur.",
+    "exampleTranslation": "我用電腦打字。",
+    "tag": "動詞"
+  },
+  {
+    "french": "supprimer",
+    "translation": "刪除",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "J'ai supprimé le message par erreur.",
+    "exampleTranslation": "我不小心刪掉了訊息。",
+    "tag": "動詞"
+  },
+  {
+    "french": "mesurer",
+    "translation": "測量",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je mesure la table.",
+    "exampleTranslation": "我量這張桌子。",
+    "tag": "動詞"
+  },
+  {
+    "french": "peser",
+    "translation": "秤重",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Le boucher pèse la viande.",
+    "exampleTranslation": "肉販秤肉的重量。",
+    "tag": "動詞"
+  },
+  {
+    "french": "s'habiller",
+    "translation": "穿衣",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je m'habille vite le matin.",
+    "exampleTranslation": "我早上很快穿好衣服。",
+    "tag": "動詞"
+  },
+  {
+    "french": "se coucher",
+    "translation": "就寢",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je me couche à onze heures.",
+    "exampleTranslation": "我十一點睡覺。",
+    "tag": "動詞"
+  },
+  {
+    "french": "se brosser",
+    "translation": "刷（牙）",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je me brosse les dents.",
+    "exampleTranslation": "我刷牙。",
+    "tag": "動詞"
+  },
+  {
+    "french": "se raser",
+    "translation": "刮鬍子",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Il se rase tous les matins.",
+    "exampleTranslation": "他每天早上刮鬍子。",
+    "tag": "動詞"
+  },
+  {
+    "french": "se maquiller",
+    "translation": "化妝",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Elle se maquille avant de sortir.",
+    "exampleTranslation": "她出門前化妝。",
+    "tag": "動詞"
+  },
+  {
+    "french": "se préparer",
+    "translation": "準備",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je me prépare pour la fête.",
+    "exampleTranslation": "我為派對做準備。",
+    "tag": "動詞"
+  },
+  {
+    "french": "s'asseoir",
+    "translation": "坐下",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Assieds-toi, s'il te plaît.",
+    "exampleTranslation": "請坐。",
+    "tag": "動詞"
+  },
+  {
+    "french": "se sentir",
+    "translation": "覺得（身心）",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Je me sens bien aujourd'hui.",
+    "exampleTranslation": "我今天覺得很好。",
+    "tag": "動詞"
+  },
+  {
+    "french": "se tromper",
+    "translation": "弄錯",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Désolé, je me suis trompé.",
+    "exampleTranslation": "抱歉，我弄錯了。",
+    "tag": "動詞"
+  },
+  {
+    "french": "se fâcher",
+    "translation": "生氣",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Il se fâche pour rien.",
+    "exampleTranslation": "他為小事就生氣。",
+    "tag": "動詞"
+  },
+  {
+    "french": "s'inquiéter",
+    "translation": "擔心",
+    "gender": null,
+    "partOfSpeech": "verbe",
+    "example": "Ne t'inquiète pas pour moi.",
+    "exampleTranslation": "別為我擔心。",
+    "tag": "動詞"
+  },
+  {
+    "french": "natation",
+    "translation": "游泳（運動）",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Je fais de la natation le mardi.",
+    "exampleTranslation": "我星期二游泳。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "football",
+    "translation": "足球",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Les enfants jouent au football.",
+    "exampleTranslation": "孩子們踢足球。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "tennis",
+    "translation": "網球",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "On joue au tennis ce week-end.",
+    "exampleTranslation": "我們這週末打網球。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "basket",
+    "translation": "籃球",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Il est grand, il joue au basket.",
+    "exampleTranslation": "他很高，打籃球。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "randonnée",
+    "translation": "健行",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "On fait une randonnée en montagne.",
+    "exampleTranslation": "我們去山上健行。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "danse",
+    "translation": "舞蹈",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Elle prend des cours de danse.",
+    "exampleTranslation": "她上舞蹈課。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "lecture",
+    "translation": "閱讀",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La lecture est mon loisir préféré.",
+    "exampleTranslation": "閱讀是我最愛的休閒。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "concert",
+    "translation": "演唱會",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "On va à un concert ce soir.",
+    "exampleTranslation": "我們今晚去看演唱會。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "spectacle",
+    "translation": "表演",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le spectacle commence à 20 heures.",
+    "exampleTranslation": "表演晚上八點開始。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "théâtre",
+    "translation": "劇場",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Nous allons au théâtre.",
+    "exampleTranslation": "我們去看戲。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "exposition",
+    "translation": "展覽",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Il y a une exposition de photos.",
+    "exampleTranslation": "有一場攝影展。",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "loisir",
+    "translation": "休閒",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Quels sont tes loisirs ?",
+    "exampleTranslation": "你有什麼休閒嗜好？",
+    "tag": "運動休閒"
+  },
+  {
+    "french": "bœuf",
+    "translation": "牛肉",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je prends un steak de bœuf.",
+    "exampleTranslation": "我點一份牛排。",
+    "tag": "食物"
+  },
+  {
+    "french": "porc",
+    "translation": "豬肉",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je ne mange pas de porc.",
+    "exampleTranslation": "我不吃豬肉。",
+    "tag": "食物"
+  },
+  {
+    "french": "agneau",
+    "translation": "羊肉",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "L'agneau est tendre.",
+    "exampleTranslation": "羊肉很嫩。",
+    "tag": "食物"
+  },
+  {
+    "french": "crevette",
+    "translation": "蝦",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "J'adore les crevettes grillées.",
+    "exampleTranslation": "我超愛烤蝦。",
+    "tag": "食物"
+  },
+  {
+    "french": "tarte",
+    "translation": "塔／派",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Une tarte aux pommes, s'il vous plaît.",
+    "exampleTranslation": "請給我一個蘋果派。",
+    "tag": "食物"
+  },
+  {
+    "french": "crêpe",
+    "translation": "可麗餅",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "On mange des crêpes au sucre.",
+    "exampleTranslation": "我們吃糖可麗餅。",
+    "tag": "食物"
+  },
+  {
+    "french": "biscuit",
+    "translation": "餅乾",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Les enfants aiment les biscuits.",
+    "exampleTranslation": "孩子們喜歡餅乾。",
+    "tag": "食物"
+  },
+  {
+    "french": "céréales",
+    "translation": "麥片",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Je mange des céréales le matin.",
+    "exampleTranslation": "我早上吃麥片。",
+    "tag": "食物"
+  },
+  {
+    "french": "vinaigre",
+    "translation": "醋",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "De l'huile et du vinaigre pour la salade.",
+    "exampleTranslation": "沙拉用油和醋。",
+    "tag": "食物"
+  },
+  {
+    "french": "moutarde",
+    "translation": "芥末",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Je mets de la moutarde sur la viande.",
+    "exampleTranslation": "我在肉上抹芥末醬。",
+    "tag": "食物"
+  },
+  {
+    "french": "olive",
+    "translation": "橄欖",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Il y a des olives dans la salade.",
+    "exampleTranslation": "沙拉裡有橄欖。",
+    "tag": "食物"
+  },
+  {
+    "french": "noix",
+    "translation": "堅果／核桃",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Je suis allergique aux noix.",
+    "exampleTranslation": "我對堅果過敏。",
+    "tag": "食物"
+  },
+  {
+    "french": "tempête",
+    "translation": "暴風雨",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Une tempête arrive cette nuit.",
+    "exampleTranslation": "今晚會有暴風雨。",
+    "tag": "自然"
+  },
+  {
+    "french": "brouillard",
+    "translation": "霧",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Il y a du brouillard ce matin.",
+    "exampleTranslation": "今天早上有霧。",
+    "tag": "自然"
+  },
+  {
+    "french": "tonnerre",
+    "translation": "雷",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "J'entends le tonnerre.",
+    "exampleTranslation": "我聽到打雷。",
+    "tag": "自然"
+  },
+  {
+    "french": "éclair",
+    "translation": "閃電",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Un éclair traverse le ciel.",
+    "exampleTranslation": "一道閃電劃過天空。",
+    "tag": "自然"
+  },
+  {
+    "french": "arc-en-ciel",
+    "translation": "彩虹",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Il y a un arc-en-ciel après la pluie.",
+    "exampleTranslation": "雨後出現彩虹。",
+    "tag": "自然"
+  },
+  {
+    "french": "degré",
+    "translation": "度（溫度）",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Il fait vingt degrés aujourd'hui.",
+    "exampleTranslation": "今天二十度。",
+    "tag": "自然"
+  },
+  {
+    "french": "température",
+    "translation": "溫度",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La température baisse le soir.",
+    "exampleTranslation": "晚上氣溫下降。",
+    "tag": "自然"
+  },
+  {
+    "french": "glaçon",
+    "translation": "冰塊",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Tu veux des glaçons dans ton jus ?",
+    "exampleTranslation": "你的果汁要加冰塊嗎？",
+    "tag": "自然"
+  },
+  {
+    "french": "banlieue",
+    "translation": "郊區",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Ils habitent en banlieue.",
+    "exampleTranslation": "他們住在郊區。",
+    "tag": "地點"
+  },
+  {
+    "french": "supermarché",
+    "translation": "超市",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je vais au supermarché ce soir.",
+    "exampleTranslation": "我今晚去超市。",
+    "tag": "地點"
+  },
+  {
+    "french": "pharmacie",
+    "translation": "藥局",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La pharmacie est en face.",
+    "exampleTranslation": "藥局在對面。",
+    "tag": "地點"
+  },
+  {
+    "french": "librairie",
+    "translation": "書店",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "J'achète un roman à la librairie.",
+    "exampleTranslation": "我在書店買一本小說。",
+    "tag": "地點"
+  },
+  {
+    "french": "bibliothèque",
+    "translation": "圖書館",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "J'étudie à la bibliothèque.",
+    "exampleTranslation": "我在圖書館念書。",
+    "tag": "地點"
+  },
+  {
+    "french": "mairie",
+    "translation": "市政府",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Le mariage a lieu à la mairie.",
+    "exampleTranslation": "婚禮在市政廳舉行。",
+    "tag": "地點"
+  },
+  {
+    "french": "commissariat",
+    "translation": "警察局",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je vais au commissariat déclarer le vol.",
+    "exampleTranslation": "我去警察局報竊案。",
+    "tag": "地點"
+  },
+  {
+    "french": "parking",
+    "translation": "停車場",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le parking est plein.",
+    "exampleTranslation": "停車場滿了。",
+    "tag": "地點"
+  },
+  {
+    "french": "ascenseur",
+    "translation": "電梯",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "On prend l'ascenseur jusqu'au cinquième.",
+    "exampleTranslation": "我們搭電梯到六樓。",
+    "tag": "地點"
+  },
+  {
+    "french": "sortie",
+    "translation": "出口",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Où est la sortie ?",
+    "exampleTranslation": "出口在哪裡？",
+    "tag": "地點"
+  },
+  {
+    "french": "étage",
+    "translation": "樓層",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "J'habite au troisième étage.",
+    "exampleTranslation": "我住在四樓。",
+    "tag": "地點"
+  },
+  {
+    "french": "immeuble",
+    "translation": "大樓",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "C'est un grand immeuble moderne.",
+    "exampleTranslation": "這是一棟現代的大樓。",
+    "tag": "地點"
+  },
+  {
+    "french": "usine",
+    "translation": "工廠",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Il travaille dans une usine.",
+    "exampleTranslation": "他在工廠工作。",
+    "tag": "地點"
+  },
+  {
+    "french": "ferme",
+    "translation": "農場",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Mes grands-parents ont une ferme.",
+    "exampleTranslation": "我祖父母有一座農場。",
+    "tag": "地點"
+  },
+  {
+    "french": "foule",
+    "translation": "人群",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Il y a une grande foule au concert.",
+    "exampleTranslation": "演唱會有一大群人。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "queue",
+    "translation": "隊伍／尾巴",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "On fait la queue à la caisse.",
+    "exampleTranslation": "我們在收銀台排隊。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "panne",
+    "translation": "故障",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La voiture est en panne.",
+    "exampleTranslation": "車子拋錨了。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "grève",
+    "translation": "罷工",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Il y a une grève des trains.",
+    "exampleTranslation": "火車罷工了。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "accident",
+    "translation": "意外",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Il y a eu un accident sur la route.",
+    "exampleTranslation": "路上發生了一起車禍。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "incendie",
+    "translation": "火災",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Les pompiers éteignent l'incendie.",
+    "exampleTranslation": "消防員撲滅火災。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "voleur",
+    "translation": "小偷",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le voleur a pris mon sac.",
+    "exampleTranslation": "小偷拿走了我的包。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "poubelle",
+    "translation": "垃圾桶",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Jette ça à la poubelle.",
+    "exampleTranslation": "把那個丟進垃圾桶。",
+    "tag": "居家"
+  },
+  {
+    "french": "ménage",
+    "translation": "家務",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je fais le ménage le samedi.",
+    "exampleTranslation": "我星期六做家事。",
+    "tag": "居家"
+  },
+  {
+    "french": "vaisselle",
+    "translation": "碗盤",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Je fais la vaisselle après le dîner.",
+    "exampleTranslation": "晚餐後我洗碗。",
+    "tag": "居家"
+  },
+  {
+    "french": "courses",
+    "translation": "採買",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Je fais les courses au marché.",
+    "exampleTranslation": "我在市場採買。",
+    "tag": "購物金錢"
+  },
+  {
+    "french": "outil",
+    "translation": "工具",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "J'ai besoin d'un outil pour réparer ça.",
+    "exampleTranslation": "我需要工具來修這個。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "machine",
+    "translation": "機器",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "La machine à laver est en panne.",
+    "exampleTranslation": "洗衣機壞了。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "objet",
+    "translation": "物品",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Quel est cet objet ?",
+    "exampleTranslation": "這是什麼物品？",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "chose",
+    "translation": "東西／事情",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "J'ai une chose à te dire.",
+    "exampleTranslation": "我有件事要跟你說。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "événement",
+    "translation": "事件",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "C'est un événement important.",
+    "exampleTranslation": "這是一件重要的事。",
+    "tag": "社會抽象"
+  },
+  {
+    "french": "durée",
+    "translation": "時長",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Quelle est la durée du film ?",
+    "exampleTranslation": "這部電影多長？",
+    "tag": "時間"
+  },
+  {
+    "french": "avenir",
+    "translation": "未來",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je pense à mon avenir.",
+    "exampleTranslation": "我在思考我的未來。",
+    "tag": "時間"
+  },
+  {
+    "french": "confortable",
+    "translation": "舒適的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Ce fauteuil est très confortable.",
+    "exampleTranslation": "這張扶手椅很舒適。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "moderne",
+    "translation": "現代的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "C'est un appartement moderne.",
+    "exampleTranslation": "這是一間現代化的公寓。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "pratique",
+    "translation": "實用的／方便的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Ce sac est très pratique.",
+    "exampleTranslation": "這個包很實用。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "parfait",
+    "translation": "完美的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Le temps est parfait pour un pique-nique.",
+    "exampleTranslation": "這天氣很適合野餐。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "génial",
+    "translation": "很棒的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "C'est une idée géniale !",
+    "exampleTranslation": "這主意太棒了！",
+    "tag": "形容詞"
+  },
+  {
+    "french": "formidable",
+    "translation": "了不起的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Tu as fait un travail formidable.",
+    "exampleTranslation": "你做得太出色了。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "affreux",
+    "translation": "糟糕的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Quel temps affreux !",
+    "exampleTranslation": "天氣真糟！",
+    "tag": "形容詞"
+  },
+  {
+    "french": "incroyable",
+    "translation": "難以置信的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "C'est une histoire incroyable.",
+    "exampleTranslation": "這是個難以置信的故事。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "occupé",
+    "translation": "忙碌的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Je suis très occupé cette semaine.",
+    "exampleTranslation": "我這週很忙。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "libre",
+    "translation": "有空的／自由的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Tu es libre ce soir ?",
+    "exampleTranslation": "你今晚有空嗎？",
+    "tag": "形容詞"
+  },
+  {
+    "french": "cassé",
+    "translation": "壞掉的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Mon téléphone est cassé.",
+    "exampleTranslation": "我的手機壞了。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "fragile",
+    "translation": "易碎的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Attention, c'est fragile.",
+    "exampleTranslation": "小心，這是易碎品。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "profond",
+    "translation": "深的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Le lac est très profond.",
+    "exampleTranslation": "這座湖很深。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "étroit",
+    "translation": "窄的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "La rue est étroite.",
+    "exampleTranslation": "這條街很窄。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "frais",
+    "translation": "新鮮的／涼的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Le poisson est très frais.",
+    "exampleTranslation": "這魚很新鮮。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "épais",
+    "translation": "厚的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Ce livre est très épais.",
+    "exampleTranslation": "這本書很厚。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "récent",
+    "translation": "最近的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "C'est un modèle récent.",
+    "exampleTranslation": "這是個新款式。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "suivant",
+    "translation": "下一個的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "On descend au prochain arrêt suivant.",
+    "exampleTranslation": "我們在下一站下車。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "dernier",
+    "translation": "最後的／上一個",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "C'est la dernière fois.",
+    "exampleTranslation": "這是最後一次。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "premier",
+    "translation": "第一的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "C'est mon premier jour de travail.",
+    "exampleTranslation": "這是我上班的第一天。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "prochain",
+    "translation": "下一個的",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "La semaine prochaine, je voyage.",
+    "exampleTranslation": "下週我去旅行。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "chaque",
+    "translation": "每一個",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "Chaque matin, je bois un thé.",
+    "exampleTranslation": "每天早上我喝一杯茶。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "plusieurs",
+    "translation": "好幾個",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "J'ai plusieurs questions.",
+    "exampleTranslation": "我有好幾個問題。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "quelques",
+    "translation": "一些",
+    "gender": null,
+    "partOfSpeech": "adjectif",
+    "example": "J'ai acheté quelques fruits.",
+    "exampleTranslation": "我買了一些水果。",
+    "tag": "形容詞"
+  },
+  {
+    "french": "environ",
+    "translation": "大約",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Il y a environ trente personnes.",
+    "exampleTranslation": "大約有三十個人。",
+    "tag": "副詞"
+  }
 ]

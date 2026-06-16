@@ -13,12 +13,14 @@ all content is bundled into the site, so it can be hosted for free on GitHub Pag
 
 | Tab | Description |
 | --- | --- |
-| 📇 Flashcards | A1 (515 words), A2 (503 words), B1 (200 words); flip to see the translation and example, nouns are tagged masculine/feminine, 🔊 speak the word and the example, and you can add your own cards |
+| 📇 Flashcards | A1 (515 words), A2 (503 words), B1 (200 words); every word has a **category tag** (animals, food, verbs, emotions…) you can filter by; flip to see the translation and example, nouns tagged masculine/feminine, 🔊 speak the word and the example, and you can add your own cards |
 | 🎲 Random review | Draw a random card to review, scoped by level or by your word bank |
+| ✏️ Quiz | Multiple-choice quiz: a French word is shown (with 🔊) and you pick the correct meaning; keeps score |
 | ⭐ Word bank | Tap ☆ on any card to mark words you don't know yet; custom cards can be edited or deleted anytime (saved in localStorage) |
 | 🔢 Themed units | Numbers 0–100, the clock, days, months, dates, money, and basic sentence patterns — each line can be spoken individually or all at once |
 | 📖 Grammar | 10 topics each for A1/A2, with explanations and **spoken French examples** |
-| 💬 Dialogues | 56 situations (restaurant, shopping, transport, coworker chat, complaints, gossip, trash talk…); each line plays individually or all at once, with key teaching points |
+| 🔧 Verb conjugation | Conjugation rules (the 3 groups, présent / passé composé / futur) plus a lookup for 20 common verbs, with every form speakable |
+| 💬 Dialogues | 86 situations (restaurant, shopping, transport, coworker chat, complaints, gossip, trash talk, hotel, repairs, support calls…); each line plays individually or all at once, with key teaching points |
 
 ## Project structure
 
@@ -57,9 +59,10 @@ and deploys it to Pages. You only need to do this once in the repo:
 
 ## Editing content (all under `frontend/src/data/`)
 
-- Words: `a1.json` + `a1_extra.json`, `a2.json` + `a2_extra.json`, `b1.json`
-  (fields: `french`, `translation`, `gender` (m/f/null), `partOfSpeech`, `example`, `exampleTranslation`)
+- Words: `a1.json`, `a2.json`, `b1.json` — one file per level (the old `_extra` files are merged in)
+  (fields: `french`, `translation`, `gender` (m/f/null), `partOfSpeech`, `tag`, `example`, `exampleTranslation`)
 - Grammar: `grammar.json` (`level`, `title`, `summary`, `content`, `orderIndex`, `examples[]`)
+- Verbs: `verbs.json` (`inf`, `zh`, `group`, `aux`, `pp`, `futureStem`, `present[6]`); passé composé and futur are derived in `store.js`
 - Dialogues: `dialogues.json` (`category`, `title`, `scene`, `lines[]`, `keyPoints[]`)
 - Themed units: `units.json` (`title`, `intro`, `items[]`); numbers 0–100 are generated in `store.js`
 
@@ -67,4 +70,4 @@ Run `npm run build` again after editing.
 
 ## To do
 
-- B1 currently has 200 words; another 300 are planned (add `b1_extra.json` and import it in `store.js`, the same way A1/A2 do).
+- Vocabulary is being expanded toward 1000 words per level in batches (currently A1 515 / A2 503 / B1 200).

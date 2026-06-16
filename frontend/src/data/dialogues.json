@@ -546,7 +546,7 @@
     "keyPoints": ["un temps de chien = 鬼天氣（口語：很糟的天氣）", "sans arrêt = 不停地", "La météo annonce… = 氣象預報說…", "未來式：il fera beau = 天氣會放晴"]
   },
   {
-    "category": "同事與口語", "level": "A2", "title": "約打羽球", "scene": "邀同事打羽球並開賽",
+    "category": "運動", "level": "A2", "title": "約打羽球", "scene": "邀朋友打羽球並開賽",
     "lines": [
       {"speaker": "A", "french": "Ça te dit de jouer au badminton ce soir ?", "translation": "今晚想打羽球嗎？"},
       {"speaker": "B", "french": "Avec plaisir ! J'adore ça.", "translation": "很樂意！我超愛打。"},
@@ -588,5 +588,369 @@
       {"speaker": "B", "french": "Toi non plus !", "translation": "你也別哭！"}
     ],
     "keyPoints": ["Tu crois que tu peux me battre ? = 你以為你能打敗我嗎", "C'est ce qu'on va voir = 走著瞧", "Tu vas le regretter = 你會後悔的", "J'attends de voir ça = 我等著瞧（挑釁回應）"]
+  },
+  {
+    "category": "社交", "level": "A2", "title": "邀請來家裡", "scene": "邀朋友到家裡作客",
+    "lines": [
+      {"speaker": "A", "french": "Tu veux venir dîner chez moi samedi ?", "translation": "你星期六想來我家吃晚餐嗎？"},
+      {"speaker": "B", "french": "Avec plaisir ! J'apporte quelque chose ?", "translation": "很樂意！要我帶點什麼嗎？"},
+      {"speaker": "A", "french": "Juste une bouteille de vin, si tu veux.", "translation": "帶瓶酒就好，如果你願意的話。"},
+      {"speaker": "B", "french": "Parfait. À quelle heure ?", "translation": "好的。幾點？"},
+      {"speaker": "A", "french": "Vers vingt heures.", "translation": "八點左右。"}
+    ],
+    "keyPoints": ["venir dîner chez moi = 來我家吃晚餐（chez + 人）", "J'apporte quelque chose ? = 要我帶東西嗎", "Vers + 時間 = 大約幾點"]
+  },
+  {
+    "category": "社交", "level": "B1", "title": "祝賀好消息", "scene": "恭喜朋友的好消息",
+    "lines": [
+      {"speaker": "A", "french": "J'ai eu une promotion au travail !", "translation": "我升職了！"},
+      {"speaker": "B", "french": "Félicitations ! C'est génial !", "translation": "恭喜！太棒了！"},
+      {"speaker": "A", "french": "Merci, je suis vraiment content.", "translation": "謝謝，我真的很開心。"},
+      {"speaker": "B", "french": "Il faut fêter ça !", "translation": "這得慶祝一下！"}
+    ],
+    "keyPoints": ["Félicitations ! = 恭喜！", "avoir une promotion = 升職", "Il faut fêter ça ! = 得慶祝一下"]
+  },
+  {
+    "category": "社交", "level": "B1", "title": "安慰朋友", "scene": "朋友難過時給予安慰",
+    "lines": [
+      {"speaker": "A", "french": "Ça ne va pas, j'ai raté mon examen.", "translation": "我很不好，考試沒過。"},
+      {"speaker": "B", "french": "Je suis désolé, ne t'en fais pas.", "translation": "我很遺憾，別太擔心。"},
+      {"speaker": "A", "french": "J'avais pourtant beaucoup travaillé.", "translation": "可是我很努力了。"},
+      {"speaker": "B", "french": "Tu réussiras la prochaine fois, j'en suis sûr.", "translation": "下次你一定會過，我確定。"}
+    ],
+    "keyPoints": ["Ça ne va pas = 我不太好", "Ne t'en fais pas = 別擔心（安慰語）", "Tu réussiras = 你會成功的（未來式鼓勵）"]
+  },
+  {
+    "category": "醫療健康", "level": "A2", "title": "探病問候", "scene": "去探望生病的朋友",
+    "lines": [
+      {"speaker": "A", "french": "Comment tu te sens aujourd'hui ?", "translation": "你今天覺得怎麼樣？"},
+      {"speaker": "B", "french": "Un peu mieux, merci d'être venu.", "translation": "好一點了，謝謝你來。"},
+      {"speaker": "A", "french": "Je t'ai apporté des fruits.", "translation": "我帶了一些水果給你。"},
+      {"speaker": "B", "french": "C'est gentil. Repose-toi bien aussi.", "translation": "你真好。你也好好休息。"}
+    ],
+    "keyPoints": ["Comment tu te sens ? = 你覺得怎樣（身體）", "merci d'être venu = 謝謝你來（過去不定式）", "Repose-toi bien = 好好休息"]
+  },
+  {
+    "category": "社交", "level": "A2", "title": "跟鄰居借東西", "scene": "向鄰居借日用品",
+    "lines": [
+      {"speaker": "A", "french": "Bonjour, je peux vous emprunter du sel ?", "translation": "你好，我可以跟您借點鹽嗎？"},
+      {"speaker": "B", "french": "Bien sûr, entrez. Combien il vous en faut ?", "translation": "當然，請進。您需要多少？"},
+      {"speaker": "A", "french": "Juste un peu, je vous le rends demain.", "translation": "一點點就好，我明天還您。"},
+      {"speaker": "B", "french": "Ne vous inquiétez pas, gardez-le.", "translation": "別客氣，留著用吧。"}
+    ],
+    "keyPoints": ["emprunter à qqn = 向某人借", "Combien il vous en faut ? = 您需要多少（en 代替 du sel）", "rendre = 歸還"]
+  },
+  {
+    "category": "餐廳", "level": "A2", "title": "早餐店點餐", "scene": "在咖啡館點早餐",
+    "lines": [
+      {"speaker": "服務生", "french": "Bonjour, qu'est-ce que je vous sers ?", "translation": "你好，您要點什麼？"},
+      {"speaker": "客人", "french": "Un croissant et un café au lait.", "translation": "一個可頌和一杯咖啡牛奶。"},
+      {"speaker": "服務生", "french": "Sur place ou à emporter ?", "translation": "內用還是外帶？"},
+      {"speaker": "客人", "french": "Sur place, merci.", "translation": "內用，謝謝。"}
+    ],
+    "keyPoints": ["Qu'est-ce que je vous sers ? = 您要點什麼（服務生用語）", "sur place / à emporter = 內用／外帶", "un café au lait = 咖啡牛奶"]
+  },
+  {
+    "category": "餐廳", "level": "B1", "title": "反映餐點問題", "scene": "餐點有問題向服務生反映",
+    "lines": [
+      {"speaker": "客人", "french": "Excusez-moi, ce n'est pas ce que j'ai commandé.", "translation": "不好意思，這不是我點的。"},
+      {"speaker": "服務生", "french": "Oh, je suis désolé. Qu'avez-vous commandé ?", "translation": "噢，很抱歉。您點的是什麼？"},
+      {"speaker": "客人", "french": "Le poisson, pas la viande.", "translation": "是魚，不是肉。"},
+      {"speaker": "服務生", "french": "Je vous l'apporte tout de suite.", "translation": "我馬上幫您送來。"}
+    ],
+    "keyPoints": ["Ce n'est pas ce que j'ai commandé = 這不是我點的", "Qu'avez-vous commandé ? = 您點了什麼（倒裝疑問）", "Je vous l'apporte = 我幫您送來（雙代名詞）"]
+  },
+  {
+    "category": "餐廳", "level": "A1", "title": "冰淇淋店點冰", "scene": "在冰淇淋店選口味",
+    "lines": [
+      {"speaker": "客人", "french": "Bonjour, une glace, s'il vous plaît.", "translation": "你好，請給我一支冰淇淋。"},
+      {"speaker": "店員", "french": "Quel parfum ?", "translation": "什麼口味？"},
+      {"speaker": "客人", "french": "Chocolat et vanille.", "translation": "巧克力和香草。"},
+      {"speaker": "店員", "french": "En cornet ou en pot ?", "translation": "甜筒還是杯裝？"}
+    ],
+    "keyPoints": ["Quel parfum ? = 什麼口味（冰淇淋／優格）", "chocolat, vanille, fraise = 巧克力、香草、草莓", "en cornet / en pot = 甜筒／杯裝"]
+  },
+  {
+    "category": "餐廳", "level": "A2", "title": "電話訂披薩", "scene": "打電話訂披薩外送",
+    "lines": [
+      {"speaker": "店員", "french": "Pizzeria Bella, bonjour !", "translation": "貝拉披薩店，你好！"},
+      {"speaker": "客人", "french": "Bonjour, je voudrais une grande margherita.", "translation": "你好，我想要一個大的瑪格麗特披薩。"},
+      {"speaker": "店員", "french": "C'est pour livrer ? Votre adresse ?", "translation": "要外送嗎？您的地址？"},
+      {"speaker": "客人", "french": "Oui, 10 rue Victor Hugo.", "translation": "對，雨果街十號。"},
+      {"speaker": "店員", "french": "Ce sera prêt dans trente minutes.", "translation": "三十分鐘後好。"}
+    ],
+    "keyPoints": ["pour livrer = 外送", "une grande / petite pizza = 大／小披薩", "Ce sera prêt dans… = …之後會好"]
+  },
+  {
+    "category": "購物", "level": "A2", "title": "問食材新鮮度", "scene": "在市場確認食材新不新鮮",
+    "lines": [
+      {"speaker": "客人", "french": "Le poisson est frais aujourd'hui ?", "translation": "今天的魚新鮮嗎？"},
+      {"speaker": "攤販", "french": "Très frais, il est arrivé ce matin.", "translation": "非常新鮮，今早剛到的。"},
+      {"speaker": "客人", "french": "Parfait, j'en prends deux.", "translation": "太好了，我買兩條。"},
+      {"speaker": "攤販", "french": "Et avec ça ?", "translation": "還要別的嗎？"}
+    ],
+    "keyPoints": ["frais / fraîche = 新鮮的", "il est arrivé ce matin = 今早到的（複合過去）", "j'en prends deux = 我買兩個（en）"]
+  },
+  {
+    "category": "購物", "level": "A2", "title": "店裡找不到商品", "scene": "請店員幫忙找商品",
+    "lines": [
+      {"speaker": "客人", "french": "Excusez-moi, vous avez du lait sans lactose ?", "translation": "不好意思，你們有無乳糖牛奶嗎？"},
+      {"speaker": "店員", "french": "Oui, au fond, dans le rayon frais.", "translation": "有，在最裡面的冷藏區。"},
+      {"speaker": "客人", "french": "Je ne le trouve pas.", "translation": "我找不到。"},
+      {"speaker": "店員", "french": "Je vous montre, suivez-moi.", "translation": "我帶您去，跟我來。"}
+    ],
+    "keyPoints": ["Vous avez… ? = 你們有…嗎", "le rayon frais = 冷藏區", "suivez-moi = 跟我來（命令式）"]
+  },
+  {
+    "category": "購物", "level": "A1", "title": "結帳要袋子", "scene": "結帳時的對話",
+    "lines": [
+      {"speaker": "收銀", "french": "Bonjour, vous avez la carte de fidélité ?", "translation": "你好，您有會員卡嗎？"},
+      {"speaker": "客人", "french": "Non. Je voudrais un sac, s'il vous plaît.", "translation": "沒有。我想要一個袋子，麻煩您。"},
+      {"speaker": "收銀", "french": "Ça fera dix centimes de plus.", "translation": "袋子要多加十分錢。"},
+      {"speaker": "客人", "french": "Pas de problème.", "translation": "沒問題。"}
+    ],
+    "keyPoints": ["la carte de fidélité = 集點／會員卡", "un sac = 購物袋", "dix centimes = 十分（歐元的零頭）"]
+  },
+  {
+    "category": "購物", "level": "B1", "title": "請店員包裝禮物", "scene": "買禮物請店員包裝",
+    "lines": [
+      {"speaker": "客人", "french": "C'est un cadeau, vous pouvez l'emballer ?", "translation": "這是要送禮的，可以幫我包裝嗎？"},
+      {"speaker": "店員", "french": "Bien sûr. Avec un ruban ?", "translation": "當然。要加緞帶嗎？"},
+      {"speaker": "客人", "french": "Oui, et vous pouvez enlever le prix ?", "translation": "好，可以把價標拿掉嗎？"},
+      {"speaker": "店員", "french": "C'est déjà fait.", "translation": "已經拿掉了。"}
+    ],
+    "keyPoints": ["emballer un cadeau = 包裝禮物", "Vous pouvez… ? = 您可以…嗎（禮貌請求）", "enlever le prix = 拿掉價標"]
+  },
+  {
+    "category": "交通", "level": "B1", "title": "租車櫃台", "scene": "在租車公司租車",
+    "lines": [
+      {"speaker": "客人", "french": "Bonjour, je voudrais louer une voiture pour trois jours.", "translation": "你好，我想租車三天。"},
+      {"speaker": "職員", "french": "Automatique ou manuelle ?", "translation": "自排還是手排？"},
+      {"speaker": "客人", "french": "Automatique. L'assurance est comprise ?", "translation": "自排。有含保險嗎？"},
+      {"speaker": "職員", "french": "Oui, et le plein est à rendre.", "translation": "有，還車時要加滿油。"}
+    ],
+    "keyPoints": ["louer une voiture = 租車", "automatique / manuelle = 自排／手排", "l'assurance comprise = 含保險；le plein = 滿油"]
+  },
+  {
+    "category": "交通", "level": "A2", "title": "加油站", "scene": "在加油站加油",
+    "lines": [
+      {"speaker": "客人", "french": "Le plein, s'il vous plaît.", "translation": "請加滿，謝謝。"},
+      {"speaker": "店員", "french": "Essence ou diesel ?", "translation": "汽油還是柴油？"},
+      {"speaker": "客人", "french": "Essence. Je paie à la pompe.", "translation": "汽油。我在加油機付款。"},
+      {"speaker": "店員", "french": "Très bien, pompe numéro trois.", "translation": "好的，三號加油機。"}
+    ],
+    "keyPoints": ["Le plein = 加滿油", "essence / diesel = 汽油／柴油", "payer à la pompe = 在加油機付款"]
+  },
+  {
+    "category": "交通", "level": "A2", "title": "借共享單車", "scene": "詢問共享單車怎麼借",
+    "lines": [
+      {"speaker": "A", "french": "Comment on loue un vélo ici ?", "translation": "這裡怎麼租單車？"},
+      {"speaker": "B", "french": "Tu scannes le code avec l'application.", "translation": "你用 App 掃描那個碼。"},
+      {"speaker": "A", "french": "Et je le rends où ?", "translation": "那要還到哪裡？"},
+      {"speaker": "B", "french": "À n'importe quelle station.", "translation": "任何一個站點都可以。"}
+    ],
+    "keyPoints": ["scanner le code = 掃碼", "l'application = 應用程式", "n'importe quel(le) = 任何一個"]
+  },
+  {
+    "category": "交通", "level": "B1", "title": "火車上查票", "scene": "列車長查票",
+    "lines": [
+      {"speaker": "列車長", "french": "Bonjour, contrôle des billets.", "translation": "你好，查票。"},
+      {"speaker": "乘客", "french": "Voici mon billet.", "translation": "這是我的票。"},
+      {"speaker": "列車長", "french": "Merci. Votre place est en voiture 12.", "translation": "謝謝。您的座位在十二號車廂。"},
+      {"speaker": "乘客", "french": "Ah, je me suis trompé de voiture.", "translation": "啊，我上錯車廂了。"}
+    ],
+    "keyPoints": ["contrôle des billets = 查票", "en voiture 12 = 在十二號車廂", "se tromper de = 弄錯（se tromper de voiture 上錯車廂）"]
+  },
+  {
+    "category": "住宿", "level": "A2", "title": "青年旅館入住", "scene": "在青年旅館辦理入住",
+    "lines": [
+      {"speaker": "客人", "french": "Bonjour, j'ai réservé un lit en dortoir.", "translation": "你好，我訂了一個宿舍床位。"},
+      {"speaker": "櫃台", "french": "Votre passeport, s'il vous plaît.", "translation": "請出示您的護照。"},
+      {"speaker": "客人", "french": "Le petit-déjeuner est inclus ?", "translation": "有含早餐嗎？"},
+      {"speaker": "櫃台", "french": "Oui, et les casiers sont gratuits.", "translation": "有，置物櫃也免費。"}
+    ],
+    "keyPoints": ["un lit en dortoir = 宿舍床位", "inclus = 包含", "un casier = 置物櫃"]
+  },
+  {
+    "category": "住宿", "level": "A2", "title": "叫客房服務", "scene": "打電話到櫃台",
+    "lines": [
+      {"speaker": "客人", "french": "Allô, la réception ? Il manque des serviettes.", "translation": "喂，櫃台嗎？少了毛巾。"},
+      {"speaker": "櫃台", "french": "Je vous en apporte tout de suite.", "translation": "我馬上幫您送來。"},
+      {"speaker": "客人", "french": "Et le chauffage ne marche pas.", "translation": "還有暖氣壞了。"},
+      {"speaker": "櫃台", "french": "J'envoie quelqu'un réparer ça.", "translation": "我派人去修。"}
+    ],
+    "keyPoints": ["la réception = 飯店櫃台", "il manque… = 缺少…", "ne marche pas = 壞了／不能用"]
+  },
+  {
+    "category": "住宿", "level": "A2", "title": "詢問飯店設施", "scene": "問飯店有什麼設施",
+    "lines": [
+      {"speaker": "客人", "french": "Est-ce qu'il y a une piscine ?", "translation": "有游泳池嗎？"},
+      {"speaker": "櫃台", "french": "Oui, au dernier étage, ouverte jusqu'à 22 h.", "translation": "有，在頂樓，開到晚上十點。"},
+      {"speaker": "客人", "french": "Et le wifi est gratuit ?", "translation": "Wi-Fi 免費嗎？"},
+      {"speaker": "櫃台", "french": "Oui, le code est sur votre clé.", "translation": "是的，密碼在您的房卡上。"}
+    ],
+    "keyPoints": ["une piscine = 游泳池", "ouvert jusqu'à… = 開到…（時間）", "le dernier étage = 頂樓"]
+  },
+  {
+    "category": "旅遊", "level": "A2", "title": "旅客服務中心", "scene": "問當地景點與地圖",
+    "lines": [
+      {"speaker": "遊客", "french": "Bonjour, qu'est-ce qu'il y a à visiter ici ?", "translation": "你好，這裡有什麼好玩的？"},
+      {"speaker": "職員", "french": "Le château et le vieux quartier valent le détour.", "translation": "城堡和舊城區很值得一去。"},
+      {"speaker": "遊客", "french": "Vous avez un plan de la ville ?", "translation": "你們有城市地圖嗎？"},
+      {"speaker": "職員", "french": "Bien sûr, le voici. C'est gratuit.", "translation": "當然，在這裡。免費的。"}
+    ],
+    "keyPoints": ["Qu'est-ce qu'il y a à visiter ? = 有什麼可參觀的", "valoir le détour = 值得一去", "un plan de la ville = 城市地圖"]
+  },
+  {
+    "category": "服務", "level": "B1", "title": "手機送修", "scene": "拿故障手機去維修",
+    "lines": [
+      {"speaker": "客人", "french": "Mon écran est cassé, vous pouvez le réparer ?", "translation": "我的螢幕破了，你們能修嗎？"},
+      {"speaker": "技師", "french": "Oui, ça prend environ une heure.", "translation": "可以，大約需要一小時。"},
+      {"speaker": "客人", "french": "Ça coûte combien ?", "translation": "要多少錢？"},
+      {"speaker": "技師", "french": "Quatre-vingts euros, pièce comprise.", "translation": "八十歐元，含零件。"}
+    ],
+    "keyPoints": ["réparer = 修理；l'écran cassé = 破掉的螢幕", "ça prend une heure = 需要一小時", "pièce comprise = 含零件"]
+  },
+  {
+    "category": "服務", "level": "A2", "title": "衣服送乾洗", "scene": "把衣服送去乾洗",
+    "lines": [
+      {"speaker": "客人", "french": "Bonjour, je voudrais faire nettoyer ce manteau.", "translation": "你好，我想送洗這件外套。"},
+      {"speaker": "店員", "french": "D'accord, ce sera prêt vendredi.", "translation": "好的，星期五會好。"},
+      {"speaker": "客人", "french": "Il y a une tache ici.", "translation": "這裡有個污漬。"},
+      {"speaker": "店員", "french": "On va essayer de l'enlever.", "translation": "我們會試著把它去掉。"}
+    ],
+    "keyPoints": ["faire nettoyer = 送洗（使役 faire + 原形）", "une tache = 污漬", "enlever = 去除"]
+  },
+  {
+    "category": "服務", "level": "B1", "title": "客服報網路故障", "scene": "打電話給網路客服",
+    "lines": [
+      {"speaker": "客人", "french": "Bonjour, je n'ai plus de connexion internet.", "translation": "你好，我的網路斷線了。"},
+      {"speaker": "客服", "french": "Depuis quand avez-vous ce problème ?", "translation": "這個問題從什麼時候開始？"},
+      {"speaker": "客人", "french": "Depuis ce matin.", "translation": "從今天早上開始。"},
+      {"speaker": "客服", "french": "Avez-vous essayé de redémarrer la box ?", "translation": "您試過重開數據機嗎？"},
+      {"speaker": "客人", "french": "Oui, mais ça ne marche toujours pas.", "translation": "試過了，但還是不行。"}
+    ],
+    "keyPoints": ["je n'ai plus de connexion = 我沒網路了", "Depuis quand… ? = 從何時開始", "redémarrer = 重新啟動"]
+  },
+  {
+    "category": "服務", "level": "B1", "title": "取消訂閱", "scene": "打電話取消訂閱服務",
+    "lines": [
+      {"speaker": "客人", "french": "Je voudrais résilier mon abonnement.", "translation": "我想取消我的訂閱。"},
+      {"speaker": "客服", "french": "Puis-je vous demander pourquoi ?", "translation": "可以請問原因嗎？"},
+      {"speaker": "客人", "french": "C'est trop cher pour moi.", "translation": "對我來說太貴了。"},
+      {"speaker": "客服", "french": "Je comprends. Ce sera effectif à la fin du mois.", "translation": "我了解。月底生效。"}
+    ],
+    "keyPoints": ["résilier un abonnement = 解除訂閱", "Puis-je vous demander… ? = 可以請問…嗎（禮貌）", "effectif à la fin du mois = 月底生效"]
+  },
+  {
+    "category": "工作學習", "level": "B1", "title": "向老師提問", "scene": "下課後向老師請教",
+    "lines": [
+      {"speaker": "學生", "french": "Excusez-moi, je n'ai pas compris cette règle.", "translation": "不好意思，我沒聽懂這個規則。"},
+      {"speaker": "老師", "french": "Quelle partie exactement ?", "translation": "具體是哪個部分？"},
+      {"speaker": "學生", "french": "L'accord du participe passé.", "translation": "過去分詞的配合。"},
+      {"speaker": "老師", "french": "Je vais vous donner un exemple.", "translation": "我給您舉個例子。"}
+    ],
+    "keyPoints": ["Je n'ai pas compris = 我沒聽懂（複合過去）", "Quelle partie exactement ? = 具體哪一部分", "donner un exemple = 舉例"]
+  },
+  {
+    "category": "工作學習", "level": "B1", "title": "小組分工", "scene": "討論小組報告分工",
+    "lines": [
+      {"speaker": "A", "french": "On se partage le travail comment ?", "translation": "我們怎麼分工？"},
+      {"speaker": "B", "french": "Je peux faire l'introduction.", "translation": "我可以做引言。"},
+      {"speaker": "A", "french": "D'accord, moi je m'occupe de la conclusion.", "translation": "好，我負責結論。"},
+      {"speaker": "B", "french": "On se retrouve jeudi pour tout assembler.", "translation": "我們星期四碰面整合。"}
+    ],
+    "keyPoints": ["se partager le travail = 分工", "s'occuper de = 負責", "assembler = 組合／整合"]
+  },
+  {
+    "category": "工作學習", "level": "B1", "title": "線上會議開場", "scene": "視訊會議開始時",
+    "lines": [
+      {"speaker": "A", "french": "Vous m'entendez bien ?", "translation": "你們聽得清楚嗎？"},
+      {"speaker": "B", "french": "Oui, mais ta caméra est éteinte.", "translation": "聽得到，但你的鏡頭關著。"},
+      {"speaker": "A", "french": "Voilà, c'est mieux comme ça ?", "translation": "好了，這樣好點了嗎？"},
+      {"speaker": "B", "french": "Parfait. On peut commencer.", "translation": "很好。我們可以開始了。"}
+    ],
+    "keyPoints": ["Vous m'entendez ? = 你們聽得到我嗎", "la caméra est éteinte = 鏡頭關著", "On peut commencer = 可以開始了"]
+  },
+  {
+    "category": "休閒", "level": "A2", "title": "約看球賽", "scene": "邀朋友去看比賽",
+    "lines": [
+      {"speaker": "A", "french": "Il y a un match de foot ce soir, ça te tente ?", "translation": "今晚有場足球賽，你想去嗎？"},
+      {"speaker": "B", "french": "Oui ! On regarde au bar ou au stade ?", "translation": "想！我們在酒吧看還是去球場？"},
+      {"speaker": "A", "french": "Au stade, j'ai deux billets.", "translation": "去球場，我有兩張票。"},
+      {"speaker": "B", "french": "Génial, on se retrouve à l'entrée.", "translation": "太棒了，我們在入口碰面。"}
+    ],
+    "keyPoints": ["ça te tente ? = 你想去嗎（口語邀約）", "un match de foot = 足球賽", "le stade = 體育場；l'entrée = 入口"]
+  },
+  {
+    "category": "醫療健康", "level": "A2", "title": "健身房問器材", "scene": "請教健身器材怎麼用",
+    "lines": [
+      {"speaker": "會員", "french": "Excusez-moi, comment marche cette machine ?", "translation": "不好意思，這台機器怎麼用？"},
+      {"speaker": "教練", "french": "Réglez d'abord le poids ici.", "translation": "先在這裡調整重量。"},
+      {"speaker": "會員", "french": "Combien de répétitions vous conseillez ?", "translation": "您建議做幾下？"},
+      {"speaker": "教練", "french": "Commencez par trois séries de dix.", "translation": "先從三組各十下開始。"}
+    ],
+    "keyPoints": ["Comment marche… ? = …怎麼用", "régler le poids = 調整重量", "trois séries de dix = 三組各十下"]
+  },
+  {
+    "category": "運動", "level": "A2", "title": "約踢足球", "scene": "週末揪人踢足球",
+    "lines": [
+      {"speaker": "A", "french": "On joue au foot dimanche au parc ?", "translation": "星期日去公園踢足球好嗎？"},
+      {"speaker": "B", "french": "Oui ! Il nous faut combien de joueurs ?", "translation": "好！我們需要幾個人？"},
+      {"speaker": "A", "french": "Au moins dix, cinq contre cinq.", "translation": "至少十個，五對五。"},
+      {"speaker": "B", "french": "Je préviens les autres.", "translation": "我去通知其他人。"},
+      {"speaker": "A", "french": "N'oublie pas le ballon !", "translation": "別忘了帶球！"}
+    ],
+    "keyPoints": ["jouer au foot = 踢足球（jouer à + 球類）", "cinq contre cinq = 五對五", "il nous faut… = 我們需要…"]
+  },
+  {
+    "category": "運動", "level": "A2", "title": "一起去跑步", "scene": "約朋友晨跑",
+    "lines": [
+      {"speaker": "A", "french": "Ça te dit d'aller courir demain matin ?", "translation": "明天早上想去跑步嗎？"},
+      {"speaker": "B", "french": "D'accord, on court combien ?", "translation": "好啊，我們跑多少？"},
+      {"speaker": "A", "french": "Cinq kilomètres, tranquille.", "translation": "五公里，輕鬆跑。"},
+      {"speaker": "B", "french": "On se retrouve à l'entrée du parc à 7 h.", "translation": "七點在公園入口碰面。"}
+    ],
+    "keyPoints": ["aller courir = 去跑步", "cinq kilomètres = 五公里", "tranquille = 輕鬆地（口語）"]
+  },
+  {
+    "category": "運動", "level": "A2", "title": "去游泳", "scene": "在游泳池",
+    "lines": [
+      {"speaker": "A", "french": "Tu sais nager le crawl ?", "translation": "你會游自由式嗎？"},
+      {"speaker": "B", "french": "Oui, mais je préfère la brasse.", "translation": "會，但我比較喜歡蛙式。"},
+      {"speaker": "A", "french": "On fait quelques longueurs ?", "translation": "我們來游幾趟？"},
+      {"speaker": "B", "french": "D'accord, mais doucement, je débute.", "translation": "好，但慢慢來，我是新手。"}
+    ],
+    "keyPoints": ["le crawl / la brasse = 自由式／蛙式", "faire des longueurs = 游來回（一趟）", "je débute = 我是初學者"]
+  },
+  {
+    "category": "運動", "level": "B1", "title": "打網球", "scene": "球場上對打",
+    "lines": [
+      {"speaker": "A", "french": "On échange quelques balles pour s'échauffer ?", "translation": "我們先對打幾球暖身？"},
+      {"speaker": "B", "french": "Bonne idée. Tu sers en premier.", "translation": "好主意。你先發球。"},
+      {"speaker": "A", "french": "Le score est de quarante à trente.", "translation": "比數是四十比三十。"},
+      {"speaker": "B", "french": "Belle balle ! Tu joues vraiment bien.", "translation": "好球！你打得真好。"}
+    ],
+    "keyPoints": ["s'échauffer = 暖身", "servir = 發球", "échanger des balles = 對打／來回擊球"]
+  },
+  {
+    "category": "運動", "level": "B1", "title": "爬山健行", "scene": "出發前討論路線",
+    "lines": [
+      {"speaker": "A", "french": "Le sentier fait combien de kilomètres ?", "translation": "這條步道有幾公里？"},
+      {"speaker": "B", "french": "Environ douze, avec une belle vue au sommet.", "translation": "大約十二公里，山頂風景很美。"},
+      {"speaker": "A", "french": "Prends de l'eau et de bonnes chaussures.", "translation": "帶水和好走的鞋。"},
+      {"speaker": "B", "french": "C'est parti, on y va !", "translation": "出發吧，我們走！"}
+    ],
+    "keyPoints": ["un sentier = 步道", "la vue au sommet = 山頂的景色", "de bonnes chaussures = 好走的鞋"]
+  },
+  {
+    "category": "運動", "level": "A2", "title": "報名瑜伽課", "scene": "詢問並報名瑜伽課",
+    "lines": [
+      {"speaker": "會員", "french": "Bonjour, il y a des cours de yoga ?", "translation": "你好，有瑜伽課嗎？"},
+      {"speaker": "櫃台", "french": "Oui, le lundi et le jeudi soir.", "translation": "有，星期一和星期四晚上。"},
+      {"speaker": "會員", "french": "C'est pour les débutants ?", "translation": "適合初學者嗎？"},
+      {"speaker": "櫃台", "french": "Oui, le premier cours est gratuit.", "translation": "適合，第一堂課免費。"}
+    ],
+    "keyPoints": ["un cours de yoga = 瑜伽課", "pour les débutants = 適合初學者", "le premier cours est gratuit = 第一堂免費"]
   }
 ]

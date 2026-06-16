@@ -139,5 +139,113 @@
       {"fr": "Tu parles anglais ?", "zh": "你會說英語嗎？"},
       {"fr": "Tu peux répéter, s'il te plaît ?", "zh": "可以再說一次嗎？"}
     ]
+  },
+  {
+    "id": "colors",
+    "category": "主題字彙",
+    "title": "顏色",
+    "intro": "形容詞放在名詞後面，並做性數配合，例：une voiture rouge。",
+    "items": [
+      {"fr": "rouge", "zh": "紅色"},
+      {"fr": "bleu", "zh": "藍色"},
+      {"fr": "vert", "zh": "綠色"},
+      {"fr": "jaune", "zh": "黃色"},
+      {"fr": "orange", "zh": "橙色"},
+      {"fr": "violet", "zh": "紫色"},
+      {"fr": "rose", "zh": "粉紅色"},
+      {"fr": "marron", "zh": "棕色"},
+      {"fr": "noir", "zh": "黑色"},
+      {"fr": "blanc", "zh": "白色"},
+      {"fr": "gris", "zh": "灰色"},
+      {"fr": "C'est de quelle couleur ?", "zh": "這是什麼顏色？"}
+    ]
+  },
+  {
+    "id": "countries",
+    "category": "主題字彙",
+    "title": "國家與國籍",
+    "intro": "說來自哪裡用 Je viens de + 國家；說國籍用 Je suis + 國籍（注意陰陽性）。",
+    "items": [
+      {"fr": "la France", "zh": "法國"},
+      {"fr": "Je suis français.", "zh": "我是法國人。"},
+      {"fr": "Taïwan", "zh": "台灣"},
+      {"fr": "Je suis taïwanais.", "zh": "我是台灣人。"},
+      {"fr": "la Chine", "zh": "中國"},
+      {"fr": "le Japon", "zh": "日本"},
+      {"fr": "les États-Unis", "zh": "美國"},
+      {"fr": "l'Angleterre", "zh": "英國"},
+      {"fr": "l'Allemagne", "zh": "德國"},
+      {"fr": "Je viens de Taïwan.", "zh": "我來自台灣。"},
+      {"fr": "Tu viens d'où ?", "zh": "你來自哪裡？"}
+    ]
+  },
+  {
+    "id": "directions",
+    "category": "主題字彙",
+    "title": "方向與位置",
+    "intro": "問路與指路常用的方位詞。",
+    "items": [
+      {"fr": "à droite", "zh": "在右邊"},
+      {"fr": "à gauche", "zh": "在左邊"},
+      {"fr": "tout droit", "zh": "直走"},
+      {"fr": "en face", "zh": "在對面"},
+      {"fr": "à côté de", "zh": "在……旁邊"},
+      {"fr": "devant", "zh": "在前面"},
+      {"fr": "derrière", "zh": "在後面"},
+      {"fr": "près d'ici", "zh": "在這附近"},
+      {"fr": "loin d'ici", "zh": "離這裡很遠"},
+      {"fr": "Tournez à droite.", "zh": "請右轉。"},
+      {"fr": "C'est par où ?", "zh": "要往哪邊走？"}
+    ]
+  },
+  {
+    "id": "emotions",
+    "category": "主題字彙",
+    "title": "情緒表達",
+    "intro": "用 Je suis… 表達心情，形容詞要配合性別。",
+    "items": [
+      {"fr": "Je suis content.", "zh": "我很開心。"},
+      {"fr": "Je suis triste.", "zh": "我很難過。"},
+      {"fr": "Je suis fatigué.", "zh": "我很累。"},
+      {"fr": "Je suis en colère.", "zh": "我很生氣。"},
+      {"fr": "J'ai peur.", "zh": "我很害怕。"},
+      {"fr": "Je suis surpris.", "zh": "我很驚訝。"},
+      {"fr": "Je suis inquiet.", "zh": "我很擔心。"},
+      {"fr": "Je m'ennuie.", "zh": "我覺得無聊。"},
+      {"fr": "Quelle bonne surprise !", "zh": "真是個驚喜！"},
+      {"fr": "Ça me fait plaisir.", "zh": "這讓我很高興。"}
+    ]
+  },
+  {
+    "id": "restaurant-phrases",
+    "category": "情境用語",
+    "title": "餐廳常用語",
+    "intro": "從點餐到結帳最常用的句子。",
+    "items": [
+      {"fr": "Une table pour deux, s'il vous plaît.", "zh": "兩位的桌子，麻煩您。"},
+      {"fr": "La carte, s'il vous plaît.", "zh": "請給我菜單。"},
+      {"fr": "Je voudrais le menu du jour.", "zh": "我想要今日套餐。"},
+      {"fr": "Qu'est-ce que vous recommandez ?", "zh": "您推薦什麼？"},
+      {"fr": "C'est délicieux !", "zh": "很好吃！"},
+      {"fr": "L'addition, s'il vous plaît.", "zh": "請結帳。"},
+      {"fr": "Je peux payer par carte ?", "zh": "我可以刷卡嗎？"},
+      {"fr": "C'était très bon, merci.", "zh": "很美味，謝謝。"}
+    ]
+  },
+  {
+    "id": "emergency",
+    "category": "情境用語",
+    "title": "緊急與求助",
+    "intro": "遇到緊急狀況時最重要的句子。",
+    "items": [
+      {"fr": "Au secours !", "zh": "救命！"},
+      {"fr": "Aidez-moi, s'il vous plaît !", "zh": "請幫幫我！"},
+      {"fr": "Appelez la police !", "zh": "快報警！"},
+      {"fr": "Appelez une ambulance !", "zh": "叫救護車！"},
+      {"fr": "Il y a un accident.", "zh": "出車禍了。"},
+      {"fr": "Je suis perdu.", "zh": "我迷路了。"},
+      {"fr": "J'ai perdu mon passeport.", "zh": "我的護照不見了。"},
+      {"fr": "Où est l'hôpital le plus proche ?", "zh": "最近的醫院在哪裡？"}
+    ]
   }
 ]

@@ -5,6 +5,9 @@ import {
   DIALOGUES,
   DIALOGUE_CATEGORIES,
   UNITS,
+  VERBS,
+  conjugate,
+  categoriesFor,
   loadCards,
   toggleUnfamiliar,
   addCustomCard,
@@ -16,9 +19,11 @@ import { speakFrench, speakFrenchSequence, stopSpeaking, isSpeechSupported } fro
 const TABS = [
   { key: 'cards', label: '📇 單字卡' },
   { key: 'random', label: '🎲 隨機複習' },
+  { key: 'quiz', label: '✏️ 牛刀小試' },
   { key: 'bank', label: '⭐ 我的單字庫' },
   { key: 'units', label: '🔢 單元主題' },
   { key: 'grammar', label: '📖 文法教學' },
+  { key: 'verbs', label: '🔧 動詞變化' },
   { key: 'dialogues', label: '💬 情境對話' },
 ]
 
@@ -58,9 +63,11 @@ export default function App() {
 
       {tab === 'cards' && <CardsView cards={cards} reload={reload} />}
       {tab === 'random' && <RandomView cards={cards} reload={reload} />}
+      {tab === 'quiz' && <QuizView cards={cards} />}
       {tab === 'bank' && <BankView cards={cards} reload={reload} />}
       {tab === 'units' && <UnitsView />}
       {tab === 'grammar' && <GrammarView />}
+      {tab === 'verbs' && <VerbsView />}
       {tab === 'dialogues' && <DialoguesView />}
     </div>
   )
@@ -114,6 +121,7 @@ function Flashcard({ card, onToggleUnfamiliar, onDelete, onSave }) {
             <div className="badges">
               <GenderBadge gender={card.gender} />
               {card.partOfSpeech && <span className="pos">{card.partOfSpeech}</span>}
+              {card.tag && <span className="tagchip">{card.tag}</span>}
             </div>
             <div className="hint">點擊看翻譯與例句</div>
           </>
@@ -255,7 +263,12 @@ function AddCardForm({ level, reload }) {
 
 function CardsView({ cards, reload }) {
   const [level, setLevel] = useState('A1')
-  const shown = cards.filter((c) => c.level === level)
+  const [category, setCategory] = useState('全部')
+  const categories = ['全部', ...categoriesFor(level)]
+
+  const shown = cards.filter(
+    (c) => c.level === level && (category === '全部' || c.tag === category),
+  )
 
   return (
     <>
@@ -264,12 +277,34 @@ function CardsView({ cards, reload }) {
           <button
             key={lv}
             className={lv === level ? 'level active' : 'level'}
-            onClick={() => setLevel(lv)}
+            onClick={() => {
+              setLevel(lv)
+              setCategory('全部')
+            }}
           >
             {lv}
           </button>
         ))}
       </div>
+
+      <div className="cat-chips">
+        {categories.map((cat) => (
+          <button
+            key={cat}
+            className={cat === category ? 'cat-chip active' : 'cat-chip'}
+            onClick={() => setCategory(cat)}
+          >
+            {cat}
+            {cat !== '全部' && (
+              <span className="cat-count">
+                {cards.filter((c) => c.level === level && c.tag === cat).length}
+              </span>
+            )}
+          </button>
+        ))}
+      </div>
+
+      <p className="muted">{shown.length} 張卡</p>
 
       <AddCardForm level={level} reload={reload} />
 
@@ -465,6 +500,240 @@ function GrammarView() {
             </div>
           )
         })}
+      </div>
+    </>
+  )
+}
+
+function shuffle(arr) {
+  const a = arr.slice()
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
+
+function QuizView({ cards }) {
+  const [scope, setScope] = useState('全部')
+  const [q, setQ] = useState(null)
+  const [picked, setPicked] = useState(null)
+  const [score, setScore] = useState({ correct: 0, total: 0 })
+
+  const pool = useMemo(
+    () => (scope === '全部' ? cards : cards.filter((c) => c.level === scope)),
+    [cards, scope],
+  )
+
+  function newQuestion() {
+    if (pool.length < 4) {
+      setQ(null)
+      return
+    }
+    const answer = pool[Math.floor(Math.random() * pool.length)]
+    const seen = new Set([answer.translation])
+    const distractors = []
+    for (const c of shuffle(pool)) {
+      if (!seen.has(c.translation)) {
+        seen.add(c.translation)
+        distractors.push(c)
+        if (distractors.length === 3) break
+      }
+    }
+    setQ({ answer, options: shuffle([answer, ...distractors]) })
+    setPicked(null)
+  }
+
+  useEffect(() => {
+    newQuestion()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [scope, cards.length])
+
+  function pick(opt) {
+    if (picked) return
+    setPicked(opt)
+    setScore((s) => ({
+      correct: s.correct + (opt.translation === q.answer.translation ? 1 : 0),
+      total: s.total + 1,
+    }))
+  }
+
+  return (
+    <>
+      <div className="levels">
+        {['全部', 'A1', 'A2', 'B1'].map((s) => (
+          <button
+            key={s}
+            className={s === scope ? 'level active' : 'level'}
+            onClick={() => {
+              setScore({ correct: 0, total: 0 })
+              setScope(s)
+            }}
+          >
+            {s}
+          </button>
+        ))}
+      </div>
+
+      <p className="muted">
+        得分：{score.correct} / {score.total}
+      </p>
+
+      {!q ? (
+        <p className="empty">這個範圍的單字不足以出題。</p>
+      ) : (
+        <div className="quiz-card">
+          <div className="quiz-question">
+            <span className="quiz-fr">{q.answer.french}</span>
+            <button className="speak-mini" title="發音" onClick={() => speakFrench(q.answer.french)}>
+              🔊
+            </button>
+          </div>
+          <p className="muted">這個字是什麼意思？</p>
+
+          <div className="quiz-options">
+            {q.options.map((opt) => {
+              let cls = 'quiz-option'
+              if (picked) {
+                if (opt.translation === q.answer.translation) cls += ' correct'
+                else if (opt === picked) cls += ' wrong'
+              }
+              return (
+                <button key={opt.id} className={cls} onClick={() => pick(opt)}>
+                  {opt.translation}
+                </button>
+              )
+            })}
+          </div>
+
+          {picked && (
+            <div className="quiz-feedback">
+              <span className="quiz-result">
+                {picked.translation === q.answer.translation
+                  ? '✅ 答對了！'
+                  : `❌ 答錯了，正解：${q.answer.translation}`}
+              </span>
+              {q.answer.example && (
+                <div className="quiz-example">
+                  <span>🇫🇷 {q.answer.example}</span>
+                  <button
+                    className="speak-mini"
+                    title="唸例句"
+                    onClick={() => speakFrench(q.answer.example)}
+                  >
+                    🔊
+                  </button>
+                  {q.answer.exampleTranslation && (
+                    <div className="quiz-example-zh">{q.answer.exampleTranslation}</div>
+                  )}
+                </div>
+              )}
+              <button className="big-btn" onClick={newQuestion}>
+                下一題 →
+              </button>
+            </div>
+          )}
+        </div>
+      )}
+    </>
+  )
+}
+
+const VERB_GUIDE = [
+  {
+    title: '三大動詞組',
+    content:
+      '法文動詞依原形字尾分三組：\n第一組 -er（最多，規則）：parler, aimer, manger…\n第二組 -ir（規則，變位含 -iss-）：finir, choisir…\n第三組（不規則）：être, avoir, aller, prendre, faire… 需個別記。',
+  },
+  {
+    title: '現在式 présent',
+    content:
+      '第一組 -er 去掉 -er 加字尾：-e, -es, -e, -ons, -ez, -ent。\n例：parler → je parle, nous parlons。\n第二組 -ir：-is, -is, -it, -issons, -issez, -issent。\n例：finir → je finis, nous finissons。\n第三組要逐一記憶（見下方變位表）。',
+  },
+  {
+    title: '複合過去式 passé composé',
+    content:
+      "結構：助動詞（avoir 或 être 的現在式）+ 過去分詞。\n多數用 avoir：j'ai mangé（我吃了）。\n移動／狀態改變動詞與代動詞用 être，且過去分詞與主詞性數配合：elle est allée（她去了）。",
+  },
+  {
+    title: '簡單未來式 futur simple',
+    content:
+      '未來語幹 + 字尾 -ai, -as, -a, -ons, -ez, -ont。\n規則動詞語幹＝原形（-re 去掉 e）：parler → je parlerai。\n不規則語幹要記：être→ser-, avoir→aur-, aller→ir-, faire→fer-。',
+  },
+]
+
+function VerbsView() {
+  const [inf, setInf] = useState(VERBS[0].inf)
+  const verb = VERBS.find((v) => v.inf === inf) ?? VERBS[0]
+  const tables = conjugate(verb)
+
+  const tenseList = [
+    ['現在式 présent', tables.present],
+    ['複合過去式 passé composé', tables.passeCompose],
+    ['未來式 futur simple', tables.futur],
+  ]
+
+  return (
+    <>
+      <div className="grammar-list">
+        {VERB_GUIDE.map((g, i) => (
+          <div key={i} className="grammar-item">
+            <div className="grammar-head static">
+              <span className="grammar-title">{g.title}</span>
+            </div>
+            <div className="grammar-content">{g.content}</div>
+          </div>
+        ))}
+      </div>
+
+      <h3 className="section-title">🔧 動詞變位查詢</h3>
+      <div className="dlg-cats">
+        {VERBS.map((v) => (
+          <button
+            key={v.inf}
+            className={v.inf === inf ? 'chip active' : 'chip'}
+            onClick={() => {
+              stopSpeaking()
+              setInf(v.inf)
+            }}
+          >
+            {v.inf}
+          </button>
+        ))}
+      </div>
+
+      <div className="dlg-card">
+        <div className="dlg-header">
+          <div>
+            <h2>
+              {verb.inf} <span className="muted">· {verb.zh}</span>
+            </h2>
+            <p className="muted">
+              第 {verb.group} 組 · 助動詞 {verb.aux} · 過去分詞 {verb.pp}
+            </p>
+          </div>
+          <button className="big-btn" onClick={() => speakFrench(verb.inf)}>
+            🔊 原形
+          </button>
+        </div>
+
+        {tenseList.map(([label, forms]) => (
+          <div key={label} className="conj-block">
+            <h4>{label}</h4>
+            <div className="conj-grid">
+              {forms.map((form, i) => (
+                <button
+                  key={i}
+                  className="conj-cell"
+                  title="發音"
+                  onClick={() => speakFrench(form)}
+                >
+                  🔊 {form}
+                </button>
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
     </>
   )

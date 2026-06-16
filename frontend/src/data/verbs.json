@@ -1,0 +1,22 @@
+[
+  {"inf":"être","zh":"是","group":3,"aux":"avoir","pp":"été","futureStem":"ser","present":["suis","es","est","sommes","êtes","sont"]},
+  {"inf":"avoir","zh":"有","group":3,"aux":"avoir","pp":"eu","futureStem":"aur","present":["ai","as","a","avons","avez","ont"]},
+  {"inf":"aller","zh":"去","group":3,"aux":"être","pp":"allé","futureStem":"ir","present":["vais","vas","va","allons","allez","vont"]},
+  {"inf":"faire","zh":"做","group":3,"aux":"avoir","pp":"fait","futureStem":"fer","present":["fais","fais","fait","faisons","faites","font"]},
+  {"inf":"dire","zh":"說","group":3,"aux":"avoir","pp":"dit","futureStem":"dir","present":["dis","dis","dit","disons","dites","disent"]},
+  {"inf":"pouvoir","zh":"能夠","group":3,"aux":"avoir","pp":"pu","futureStem":"pourr","present":["peux","peux","peut","pouvons","pouvez","peuvent"]},
+  {"inf":"vouloir","zh":"想要","group":3,"aux":"avoir","pp":"voulu","futureStem":"voudr","present":["veux","veux","veut","voulons","voulez","veulent"]},
+  {"inf":"devoir","zh":"應該／必須","group":3,"aux":"avoir","pp":"dû","futureStem":"devr","present":["dois","dois","doit","devons","devez","doivent"]},
+  {"inf":"savoir","zh":"知道／會","group":3,"aux":"avoir","pp":"su","futureStem":"saur","present":["sais","sais","sait","savons","savez","savent"]},
+  {"inf":"voir","zh":"看見","group":3,"aux":"avoir","pp":"vu","futureStem":"verr","present":["vois","vois","voit","voyons","voyez","voient"]},
+  {"inf":"prendre","zh":"拿／搭乘","group":3,"aux":"avoir","pp":"pris","futureStem":"prendr","present":["prends","prends","prend","prenons","prenez","prennent"]},
+  {"inf":"venir","zh":"來","group":3,"aux":"être","pp":"venu","futureStem":"viendr","present":["viens","viens","vient","venons","venez","viennent"]},
+  {"inf":"mettre","zh":"放置","group":3,"aux":"avoir","pp":"mis","futureStem":"mettr","present":["mets","mets","met","mettons","mettez","mettent"]},
+  {"inf":"boire","zh":"喝","group":3,"aux":"avoir","pp":"bu","futureStem":"boir","present":["bois","bois","boit","buvons","buvez","boivent"]},
+  {"inf":"écrire","zh":"寫","group":3,"aux":"avoir","pp":"écrit","futureStem":"écrir","present":["écris","écris","écrit","écrivons","écrivez","écrivent"]},
+  {"inf":"partir","zh":"離開","group":3,"aux":"être","pp":"parti","futureStem":"partir","present":["pars","pars","part","partons","partez","partent"]},
+  {"inf":"parler","zh":"說（話）","group":1,"aux":"avoir","pp":"parlé","futureStem":"parler","present":["parle","parles","parle","parlons","parlez","parlent"]},
+  {"inf":"manger","zh":"吃","group":1,"aux":"avoir","pp":"mangé","futureStem":"manger","present":["mange","manges","mange","mangeons","mangez","mangent"]},
+  {"inf":"finir","zh":"完成","group":2,"aux":"avoir","pp":"fini","futureStem":"finir","present":["finis","finis","finit","finissons","finissez","finissent"]},
+  {"inf":"vendre","zh":"賣","group":3,"aux":"avoir","pp":"vendu","futureStem":"vendr","present":["vends","vends","vend","vendons","vendez","vendent"]}
+]

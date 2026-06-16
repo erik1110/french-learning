@@ -196,6 +196,83 @@ header h1 { margin: 0 0 4px; font-size: 1.8rem; }
 .unit-fr { font-size: 1rem; color: #2b59ff; }
 .unit-zh { color: #6b7280; font-size: 0.85rem; }
 
+.tagchip {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #eef6ec;
+  color: #2f7d32;
+}
+
+/* category filter chips */
+.cat-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.cat-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 12px;
+  border: 1px solid #d7dbe6;
+  background: #fff;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.cat-chip.active { background: #16a34a; color: #fff; border-color: #16a34a; }
+.cat-count {
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 999px;
+  padding: 0 6px;
+  font-size: 0.72rem;
+}
+.cat-chip.active .cat-count { background: rgba(255, 255, 255, 0.3); }
+
+/* quiz */
+.quiz-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 24px;
+  max-width: 520px;
+  margin: 0 auto;
+  text-align: center;
+}
+.quiz-question { display: flex; align-items: center; justify-content: center; gap: 8px; }
+.quiz-fr { font-size: 1.8rem; font-weight: 700; color: #2b59ff; }
+.quiz-options { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 8px 0; }
+.quiz-option {
+  padding: 14px;
+  border: 1px solid #d7dbe6;
+  background: #fff;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.quiz-option:hover { background: #f0f4ff; }
+.quiz-option.correct { background: #dcfce7; border-color: #16a34a; color: #166534; }
+.quiz-option.wrong { background: #fee2e2; border-color: #dc2626; color: #991b1b; }
+.quiz-feedback { margin-top: 14px; display: flex; flex-direction: column; gap: 10px; align-items: center; }
+.quiz-result { font-weight: 600; }
+.quiz-example { background: #f8f9fc; border-radius: 8px; padding: 8px 12px; font-size: 0.95rem; }
+.quiz-example-zh { color: #6b7280; font-size: 0.85rem; margin-top: 2px; }
+
+/* verb conjugation */
+.section-title { margin: 24px 0 10px; }
+.grammar-head.static { cursor: default; }
+.grammar-head.static:hover { background: #fff; }
+.conj-block { margin-top: 16px; }
+.conj-block h4 { margin: 0 0 8px; color: #2b59ff; font-size: 0.95rem; }
+.conj-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+.conj-cell {
+  text-align: left;
+  padding: 9px 12px;
+  border: 1px solid #e5e8f0;
+  background: #fafbfe;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+.conj-cell:hover { background: #f0f4ff; border-color: #2b59ff; }
+
 /* dialogues */
 .dlg-cats { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
 .chip {

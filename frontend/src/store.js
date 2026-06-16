@@ -5,27 +5,31 @@
 // • User data (word bank marks + custom cards) is stored in localStorage.
 
 import a1 from './data/a1.json'
-import a1Extra from './data/a1_extra.json'
 import a2 from './data/a2.json'
-import a2Extra from './data/a2_extra.json'
 import b1 from './data/b1.json'
 import grammarData from './data/grammar.json'
 import dialoguesData from './data/dialogues.json'
 import unitsData from './data/units.json'
+import verbsData from './data/verbs.json'
 
 export const LEVELS = ['A1', 'A2', 'B1']
 
 // --- seed flashcards: attach a stable id + level (assigned from the file) ---
-// ids are unique within a level: `${level}-${indexInCombinedList}`.
-function levelCards(arrays, level) {
-  return arrays.flat().map((c, i) => ({ ...c, level, id: `${level}-${i}` }))
+// ids are unique within a level: `${level}-${indexInFile}`.
+function levelCards(arr, level) {
+  return arr.map((c, i) => ({ ...c, level, id: `${level}-${i}` }))
 }
 
 export const SEED_CARDS = [
-  ...levelCards([a1, a1Extra], 'A1'),
-  ...levelCards([a2, a2Extra], 'A2'),
-  ...levelCards([b1], 'B1'),
+  ...levelCards(a1, 'A1'),
+  ...levelCards(a2, 'A2'),
+  ...levelCards(b1, 'B1'),
 ]
+
+/** Distinct category tags present at a given level (for the category browser). */
+export function categoriesFor(level) {
+  return [...new Set(SEED_CARDS.filter((c) => c.level === level).map((c) => c.tag).filter(Boolean))]
+}
 
 export const GRAMMAR = grammarData
   .slice()
@@ -77,6 +81,29 @@ const numbersUnit = {
 }
 
 export const UNITS = [numbersUnit, ...unitsData]
+
+// --- verb conjugation (présent stored; passé composé + futur derived) ---
+const SUBJECTS = ['je', 'tu', 'il/elle', 'nous', 'vous', 'ils/elles']
+const AVOIR = ['ai', 'as', 'a', 'avons', 'avez', 'ont']
+const ETRE = ['suis', 'es', 'est', 'sommes', 'êtes', 'sont']
+const FUTUR_ENDINGS = ['ai', 'as', 'a', 'ons', 'ez', 'ont']
+
+// "je" elides to "j'" before a vowel sound.
+function withSubject(subject, form) {
+  if (subject === 'je' && /^[aeiouhâàéèêîïôùû]/i.test(form)) return `j'${form}`
+  return `${subject} ${form}`
+}
+
+export const VERBS = verbsData
+
+/** Build présent / passé composé / futur tables for a verb entry. */
+export function conjugate(v) {
+  const present = v.present.map((f, i) => withSubject(SUBJECTS[i], f))
+  const auxForms = v.aux === 'être' ? ETRE : AVOIR
+  const passeCompose = auxForms.map((a, i) => `${withSubject(SUBJECTS[i], a)} ${v.pp}`)
+  const futur = FUTUR_ENDINGS.map((e, i) => withSubject(SUBJECTS[i], v.futureStem + e))
+  return { subjects: SUBJECTS, present, passeCompose, futur }
+}
 
 // --- localStorage ---
 const K_UNFAMILIAR = 'fl_unfamiliar'
