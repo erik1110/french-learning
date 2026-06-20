@@ -6,6 +6,7 @@ import {
   DIALOGUE_CATEGORIES,
   UNITS,
   VERBS,
+  LESSONS,
   conjugate,
   categoriesFor,
   loadCards,
@@ -14,10 +15,21 @@ import {
   updateCustomCard,
   deleteCustomCard,
 } from './store'
-import { speakFrench, speakFrenchSequence, stopSpeaking, isSpeechSupported } from './speech'
+import {
+  speakFrench,
+  speakFrenchSequence,
+  stopSpeaking,
+  isSpeechSupported,
+  getFrenchVoices,
+  getRate,
+  setRate as persistRate,
+  getVoiceURI,
+  setVoiceURI as persistVoiceURI,
+} from './speech'
 
 const TABS = [
   { key: 'cards', label: '📇 單字卡' },
+  { key: 'lessons', label: '📚 課程複習' },
   { key: 'random', label: '🎲 隨機複習' },
   { key: 'quiz', label: '✏️ 牛刀小試' },
   { key: 'bank', label: '⭐ 我的單字庫' },
@@ -72,6 +84,80 @@ function LinksMenu() {
   )
 }
 
+function SpeechSettings() {
+  const [voices, setVoices] = useState([])
+  const [voiceURI, setVoiceURIState] = useState(getVoiceURI())
+  const [rate, setRateState] = useState(getRate())
+  const [open, setOpen] = useState(false)
+
+  useEffect(() => {
+    if (!isSpeechSupported()) return
+    const load = () => setVoices(getFrenchVoices())
+    load()
+    const synth = window.speechSynthesis
+    synth.addEventListener?.('voiceschanged', load)
+    return () => synth.removeEventListener?.('voiceschanged', load)
+  }, [])
+
+  if (!isSpeechSupported()) return null
+
+  function changeRate(r) {
+    setRateState(r)
+    persistRate(r)
+  }
+  function changeVoice(uri) {
+    setVoiceURIState(uri)
+    persistVoiceURI(uri)
+  }
+
+  return (
+    <div className="speech-settings">
+      <button className="speech-toggle" onClick={() => setOpen((o) => !o)}>
+        🔊 發音設定 · 速度 {rate.toFixed(1)}×
+        <span className="chevron">{open ? '▲' : '▼'}</span>
+      </button>
+      {open && (
+        <div className="speech-panel">
+          <label className="speech-row">
+            <span className="speech-label">速度 {rate.toFixed(1)}×</span>
+            <input
+              type="range"
+              min="0.5"
+              max="1.2"
+              step="0.1"
+              value={rate}
+              onChange={(e) => changeRate(parseFloat(e.target.value))}
+            />
+          </label>
+
+          <label className="speech-row">
+            <span className="speech-label">音色</span>
+            <select value={voiceURI} onChange={(e) => changeVoice(e.target.value)}>
+              <option value="">自動（系統預設法語）</option>
+              {voices.map((v) => (
+                <option key={v.voiceURI} value={v.voiceURI}>
+                  {v.name}（{v.lang}）
+                </option>
+              ))}
+            </select>
+          </label>
+
+          {voices.length === 0 && (
+            <p className="muted">此瀏覽器目前沒有偵測到法語音色，將使用系統預設發音。</p>
+          )}
+
+          <button
+            className="speech-test"
+            onClick={() => speakFrench('Bonjour ! Aujourd’hui, on est jeudi.')}
+          >
+            ▶ 試聽
+          </button>
+        </div>
+      )}
+    </div>
+  )
+}
+
 export default function App() {
   const [tab, setTab] = useState('cards')
   // bumped whenever localStorage changes, to re-read cards everywhere
@@ -94,6 +180,8 @@ export default function App() {
         <p className="warn">⚠️ 此瀏覽器不支援語音合成，發音功能無法使用。</p>
       )}
 
+      <SpeechSettings />
+
       <nav className="tabs">
         {TABS.map((t) => (
           <button
@@ -110,6 +198,7 @@ export default function App() {
       </nav>
 
       {tab === 'cards' && <CardsView cards={cards} reload={reload} />}
+      {tab === 'lessons' && <LessonsView />}
       {tab === 'random' && <RandomView cards={cards} reload={reload} />}
       {tab === 'quiz' && <QuizView cards={cards} />}
       {tab === 'bank' && <BankView cards={cards} reload={reload} />}
@@ -782,6 +871,78 @@ function VerbsView() {
             </div>
           </div>
         ))}
+      </div>
+    </>
+  )
+}
+
+function LessonsView() {
+  const [id, setId] = useState(LESSONS[0].id)
+  const lesson = LESSONS.find((l) => l.id === id) ?? LESSONS[0]
+  const allLines = lesson.sections.flatMap((s) => s.items.map((it) => it.fr))
+
+  return (
+    <>
+      <p className="muted">老師上課教過的內容，按主題整理，可逐句或整段聽發音複習。</p>
+
+      <div className="dlg-cats">
+        {LESSONS.map((l) => (
+          <button
+            key={l.id}
+            className={l.id === id ? 'chip active' : 'chip'}
+            onClick={() => {
+              stopSpeaking()
+              setId(l.id)
+            }}
+          >
+            {l.title}
+          </button>
+        ))}
+      </div>
+
+      <div className="dlg-card">
+        <div className="dlg-header">
+          <div>
+            <h2>{lesson.title}</h2>
+            <p className="muted">
+              {lesson.date} · {lesson.summary}
+            </p>
+          </div>
+          <button className="big-btn" onClick={() => speakFrenchSequence(allLines)}>
+            ▶ 全部播放
+          </button>
+        </div>
+
+        {lesson.sections.map((sec, si) => (
+          <div key={si} className="conj-block">
+            <h4>{sec.heading}</h4>
+            {sec.note && <p className="muted">{sec.note}</p>}
+            <div className="unit-items">
+              {sec.items.map((it, i) => (
+                <button
+                  key={i}
+                  className="unit-item"
+                  title="點擊發音"
+                  onClick={() => speakFrench(it.fr)}
+                >
+                  <span className="unit-fr">🔊 {it.fr}</span>
+                  <span className="unit-zh">{it.zh}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        ))}
+
+        {lesson.points?.length > 0 && (
+          <div className="keypoints">
+            <h3>📌 重點整理</h3>
+            <ul>
+              {lesson.points.map((p, i) => (
+                <li key={i}>{p}</li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
     </>
   )

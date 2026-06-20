@@ -11,6 +11,7 @@ import grammarData from './data/grammar.json'
 import dialoguesData from './data/dialogues.json'
 import unitsData from './data/units.json'
 import verbsData from './data/verbs.json'
+import lessonsData from './data/lessons.json'
 
 export const LEVELS = ['A1', 'A2', 'B1']
 
@@ -37,6 +38,9 @@ export const GRAMMAR = grammarData
 
 export const DIALOGUES = dialoguesData.map((d, i) => ({ ...d, id: i }))
 export const DIALOGUE_CATEGORIES = [...new Set(DIALOGUES.map((d) => d.category))]
+
+// --- "Lessons review" tab: in-class lessons, organised section by section ---
+export const LESSONS = lessonsData
 
 // --- "Units / themes" tab: numbers are generated, the rest come from JSON ---
 const NUMBER_WORDS = [

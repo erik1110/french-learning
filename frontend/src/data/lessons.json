@@ -1,0 +1,127 @@
+[
+  {
+    "id": "etre",
+    "title": "être 動詞與法文的六個人稱",
+    "date": "2026-06-20",
+    "summary": "être 等於英文的 be 動詞，是法文最重要的不規則動詞，先把六個人稱的變位背熟。",
+    "sections": [
+      {
+        "heading": "六個人稱與 être 變位",
+        "note": "法文有六個人稱，每個人稱對應不同的 être 變化。",
+        "items": [
+          {"fr": "Je suis", "zh": "我是"},
+          {"fr": "Tu es", "zh": "你是"},
+          {"fr": "Il est", "zh": "他是"},
+          {"fr": "Elle est", "zh": "她是"},
+          {"fr": "On est", "zh": "我們是／大家是（口語）"},
+          {"fr": "Nous sommes", "zh": "我們是"},
+          {"fr": "Vous êtes", "zh": "您是／你們是"},
+          {"fr": "Ils sont", "zh": "他們是"},
+          {"fr": "Elles sont", "zh": "她們是"}
+        ]
+      },
+      {
+        "heading": "實際造句練習",
+        "note": "用 être 介紹身分、狀態與感受；形容詞要跟主詞做性數配合。",
+        "items": [
+          {"fr": "Je suis taïwanais.", "zh": "我是台灣人。"},
+          {"fr": "Tu es étudiant ?", "zh": "你是學生嗎？"},
+          {"fr": "Elle est fatiguée.", "zh": "她累了。"},
+          {"fr": "On est amis.", "zh": "我們是朋友。"},
+          {"fr": "Nous sommes contents.", "zh": "我們很開心。"},
+          {"fr": "Vous êtes prêts ?", "zh": "你們準備好了嗎？"},
+          {"fr": "Ils sont français.", "zh": "他們是法國人。"}
+        ]
+      }
+    ],
+    "points": [
+      "être = 英文的 be 動詞，屬於第三組不規則動詞，必須整組背起來。",
+      "il / elle / on 都搭配 est；on 在口語中常代替 nous，意思是「我們」。",
+      "形容詞要跟主詞做陰陽性與單複數配合，例如 fatigué（男）→ fatiguée（女）。"
+    ]
+  },
+  {
+    "id": "la-date",
+    "title": "LA DATE — 日期與月份",
+    "date": "2026-06-20",
+    "summary": "一週有七天，從 lundi 開始；學會用 être（nous sommes / on est）來說今天星期幾、幾號、完整日期。",
+    "sections": [
+      {
+        "heading": "1. 一週七天 les jours de la semaine",
+        "note": "Une semaine = 7 jours。注意：法文的星期幾都小寫。",
+        "items": [
+          {"fr": "lundi", "zh": "星期一"},
+          {"fr": "mardi", "zh": "星期二"},
+          {"fr": "mercredi", "zh": "星期三"},
+          {"fr": "jeudi", "zh": "星期四"},
+          {"fr": "vendredi", "zh": "星期五"},
+          {"fr": "samedi", "zh": "星期六"},
+          {"fr": "dimanche", "zh": "星期日"}
+        ]
+      },
+      {
+        "heading": "相對的日子",
+        "note": "以「今天 aujourd'hui」為中心，往前往後各推兩天。",
+        "items": [
+          {"fr": "avant-hier", "zh": "前天（−2）"},
+          {"fr": "hier", "zh": "昨天（−1）"},
+          {"fr": "aujourd'hui", "zh": "今天（0）"},
+          {"fr": "demain", "zh": "明天（+1）"},
+          {"fr": "après-demain", "zh": "後天（+2）"}
+        ]
+      },
+      {
+        "heading": "問今天星期幾",
+        "note": "兩種問法意思相同，回答一律用 être。",
+        "items": [
+          {"fr": "Quel jour sommes-nous aujourd'hui ?", "zh": "今天星期幾？"},
+          {"fr": "Quel jour on est aujourd'hui ?", "zh": "今天星期幾？（口語）"},
+          {"fr": "Nous sommes jeudi.", "zh": "今天是星期四。"},
+          {"fr": "On est jeudi.", "zh": "今天是星期四。（口語）"}
+        ]
+      },
+      {
+        "heading": "問今天幾號",
+        "note": "le combien 問的是「幾號」。",
+        "items": [
+          {"fr": "Nous sommes le combien ?", "zh": "今天幾號？"},
+          {"fr": "On est le combien ?", "zh": "今天幾號？（口語）"},
+          {"fr": "Nous sommes le 29.", "zh": "今天二十九號。"},
+          {"fr": "On est le 29.", "zh": "今天二十九號。（口語）"}
+        ]
+      },
+      {
+        "heading": "問完整日期",
+        "note": "格式：le +（星期）+ 數字 + 月份 +（年）。",
+        "items": [
+          {"fr": "Quelle est la date aujourd'hui ?", "zh": "今天是幾月幾號？"},
+          {"fr": "Nous sommes le jeudi 29 mars 2026.", "zh": "今天是二○二六年三月二十九日（星期四）。"},
+          {"fr": "On est le 29 mars.", "zh": "今天是三月二十九日。（口語）"}
+        ]
+      },
+      {
+        "heading": "十二個月份 les mois",
+        "note": "和星期一樣，月份書寫時都小寫。",
+        "items": [
+          {"fr": "janvier", "zh": "一月"},
+          {"fr": "février", "zh": "二月"},
+          {"fr": "mars", "zh": "三月"},
+          {"fr": "avril", "zh": "四月"},
+          {"fr": "mai", "zh": "五月"},
+          {"fr": "juin", "zh": "六月"},
+          {"fr": "juillet", "zh": "七月"},
+          {"fr": "août", "zh": "八月"},
+          {"fr": "septembre", "zh": "九月"},
+          {"fr": "octobre", "zh": "十月"},
+          {"fr": "novembre", "zh": "十一月"},
+          {"fr": "décembre", "zh": "十二月"}
+        ]
+      }
+    ],
+    "points": [
+      "法文的星期幾和月份書寫時都「小寫」。",
+      "說日期用「le + 數字 + 月份」，只有 1 號用序數 le premier（例：le premier mai）。",
+      "nous sommes…（正式）和 on est…（口語）可以互換，都用來表達日期。"
+    ]
+  }
+]

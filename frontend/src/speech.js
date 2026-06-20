@@ -1,16 +1,70 @@
 // Pronounce French text using the browser's built-in SpeechSynthesis API.
 // No backend, no API key — works offline in modern browsers.
+//
+// Playback rate (speed) and voice (音色) are user-configurable and persisted
+// in localStorage so the choice survives reloads.
 
-let cachedFrenchVoice
+const K_RATE = 'fl_speech_rate'
+const K_VOICE = 'fl_speech_voice' // stores voiceURI
 
-function pickFrenchVoice() {
+const DEFAULT_RATE = 0.8 // slower by default, easier for learners
+
+let cachedFrenchVoices = []
+
+/** All available French voices (fr-*), with fr-FR listed first. */
+export function getFrenchVoices() {
   const voices = window.speechSynthesis?.getVoices() ?? []
-  // Prefer a fr-FR voice, fall back to any French ("fr") voice.
-  return (
-    voices.find((v) => v.lang === 'fr-FR') ||
-    voices.find((v) => v.lang?.toLowerCase().startsWith('fr')) ||
-    null
-  )
+  const french = voices.filter((v) => v.lang?.toLowerCase().startsWith('fr'))
+  return french.sort((a, b) => {
+    const af = a.lang === 'fr-FR' ? 0 : 1
+    const bf = b.lang === 'fr-FR' ? 0 : 1
+    return af - bf || a.name.localeCompare(b.name)
+  })
+}
+
+function read(key, fallback) {
+  try {
+    const v = localStorage.getItem(key)
+    return v == null ? fallback : v
+  } catch {
+    return fallback
+  }
+}
+function write(key, val) {
+  try {
+    localStorage.setItem(key, String(val))
+  } catch {
+    /* storage unavailable — ignore */
+  }
+}
+
+export function getRate() {
+  const r = parseFloat(read(K_RATE, ''))
+  return Number.isFinite(r) ? r : DEFAULT_RATE
+}
+
+export function setRate(rate) {
+  write(K_RATE, rate)
+}
+
+/** voiceURI of the currently selected voice (or '' for auto). */
+export function getVoiceURI() {
+  return read(K_VOICE, '') ?? ''
+}
+
+export function setVoiceURI(uri) {
+  write(K_VOICE, uri ?? '')
+}
+
+/** Resolve the voice to use: the user's choice, else the best French voice. */
+function resolveVoice() {
+  const voices = cachedFrenchVoices.length ? cachedFrenchVoices : getFrenchVoices()
+  const uri = getVoiceURI()
+  if (uri) {
+    const chosen = voices.find((v) => v.voiceURI === uri)
+    if (chosen) return chosen
+  }
+  return voices[0] || null
 }
 
 export function isSpeechSupported() {
@@ -18,11 +72,11 @@ export function isSpeechSupported() {
 }
 
 function buildUtterance(text) {
-  if (!cachedFrenchVoice) cachedFrenchVoice = pickFrenchVoice()
+  const voice = resolveVoice()
   const utterance = new SpeechSynthesisUtterance(text)
-  utterance.lang = 'fr-FR'
-  if (cachedFrenchVoice) utterance.voice = cachedFrenchVoice
-  utterance.rate = 0.9 // slightly slower, easier for learners
+  utterance.lang = voice?.lang || 'fr-FR'
+  if (voice) utterance.voice = voice
+  utterance.rate = getRate()
   return utterance
 }
 
@@ -45,9 +99,10 @@ export function stopSpeaking() {
   if (isSpeechSupported()) window.speechSynthesis.cancel()
 }
 
-// Re-pick the voice when the list becomes available.
+// Voices load asynchronously in some browsers; cache them when available.
 if (isSpeechSupported()) {
+  cachedFrenchVoices = getFrenchVoices()
   window.speechSynthesis.onvoiceschanged = () => {
-    cachedFrenchVoice = pickFrenchVoice()
+    cachedFrenchVoices = getFrenchVoices()
   }
 }

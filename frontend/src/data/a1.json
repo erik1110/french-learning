@@ -468,6 +468,213 @@
     "tag": "時間"
   },
   {
+    "french": "septembre",
+    "translation": "九月",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "La rentrée est en septembre.",
+    "exampleTranslation": "開學在九月。",
+    "tag": "時間"
+  },
+  {
+    "french": "octobre",
+    "translation": "十月",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "En octobre, les feuilles tombent.",
+    "exampleTranslation": "十月時樹葉飄落。",
+    "tag": "時間"
+  },
+  {
+    "french": "novembre",
+    "translation": "十一月",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Il fait froid en novembre.",
+    "exampleTranslation": "十一月天氣很冷。",
+    "tag": "時間"
+  },
+  {
+    "french": "décembre",
+    "translation": "十二月",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Noël est le 25 décembre.",
+    "exampleTranslation": "聖誕節是十二月二十五日。",
+    "tag": "時間"
+  },
+  {
+    "french": "aujourd'hui",
+    "translation": "今天",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Aujourd'hui, on est jeudi.",
+    "exampleTranslation": "今天是星期四。",
+    "tag": "時間"
+  },
+  {
+    "french": "hier",
+    "translation": "昨天",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Hier, j'ai travaillé.",
+    "exampleTranslation": "昨天我工作了。",
+    "tag": "時間"
+  },
+  {
+    "french": "demain",
+    "translation": "明天",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "À demain !",
+    "exampleTranslation": "明天見！",
+    "tag": "時間"
+  },
+  {
+    "french": "avant-hier",
+    "translation": "前天",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Avant-hier, il a plu.",
+    "exampleTranslation": "前天下了雨。",
+    "tag": "時間"
+  },
+  {
+    "french": "après-demain",
+    "translation": "後天",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Après-demain, c'est samedi.",
+    "exampleTranslation": "後天是星期六。",
+    "tag": "時間"
+  },
+  {
+    "french": "date",
+    "translation": "日期",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Quelle est la date aujourd'hui ?",
+    "exampleTranslation": "今天是幾月幾號？",
+    "tag": "時間"
+  },
+  {
+    "french": "anniversaire",
+    "translation": "生日／週年",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Mon anniversaire est le 3 mars.",
+    "exampleTranslation": "我的生日是三月三日。",
+    "tag": "時間"
+  },
+  {
+    "french": "week-end",
+    "translation": "週末",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Bon week-end !",
+    "exampleTranslation": "週末愉快！",
+    "tag": "時間"
+  },
+  {
+    "french": "matin",
+    "translation": "早上",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le matin, je bois un café.",
+    "exampleTranslation": "早上我喝一杯咖啡。",
+    "tag": "時間"
+  },
+  {
+    "french": "midi",
+    "translation": "中午",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "On mange à midi.",
+    "exampleTranslation": "我們中午吃飯。",
+    "tag": "時間"
+  },
+  {
+    "french": "après-midi",
+    "translation": "下午",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Cet après-midi, je suis libre.",
+    "exampleTranslation": "今天下午我有空。",
+    "tag": "時間"
+  },
+  {
+    "french": "soir",
+    "translation": "晚上",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Ce soir, je reste à la maison.",
+    "exampleTranslation": "今晚我待在家。",
+    "tag": "時間"
+  },
+  {
+    "french": "nuit",
+    "translation": "夜晚",
+    "gender": "f",
+    "partOfSpeech": "nom",
+    "example": "Bonne nuit !",
+    "exampleTranslation": "晚安！",
+    "tag": "時間"
+  },
+  {
+    "french": "minuit",
+    "translation": "午夜（凌晨十二點）",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Il est minuit.",
+    "exampleTranslation": "現在是午夜十二點。",
+    "tag": "時間"
+  },
+  {
+    "french": "maintenant",
+    "translation": "現在",
+    "gender": null,
+    "partOfSpeech": "adverbe",
+    "example": "Je suis occupé maintenant.",
+    "exampleTranslation": "我現在很忙。",
+    "tag": "時間"
+  },
+  {
+    "french": "printemps",
+    "translation": "春天",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Au printemps, il fait doux.",
+    "exampleTranslation": "春天天氣溫和。",
+    "tag": "季節"
+  },
+  {
+    "french": "été",
+    "translation": "夏天",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "En été, il fait chaud.",
+    "exampleTranslation": "夏天很熱。",
+    "tag": "季節"
+  },
+  {
+    "french": "automne",
+    "translation": "秋天",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "En automne, il y a du vent.",
+    "exampleTranslation": "秋天常颳風。",
+    "tag": "季節"
+  },
+  {
+    "french": "hiver",
+    "translation": "冬天",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "En hiver, il neige.",
+    "exampleTranslation": "冬天會下雪。",
+    "tag": "季節"
+  },
+  {
     "french": "famille",
     "translation": "家庭",
     "gender": "f",
