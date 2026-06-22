@@ -123,5 +123,51 @@
       "說日期用「le + 數字 + 月份」，只有 1 號用序數 le premier（例：le premier mai）。",
       "nous sommes…（正式）和 on est…（口語）可以互換，都用來表達日期。"
     ]
+  },
+  {
+    "id": "pays-nationalite",
+    "title": "國家、居住地與國籍說法",
+    "date": "2026-06-22",
+    "summary": "用 connaître（認識）+ habiter（居住）+ être（國籍）介紹一個人；重點在國家前介係詞（en / au / aux / à）和國籍形容詞的陰陽性。",
+    "sections": [
+      {
+        "heading": "規則：國家前的介係詞",
+        "note": "看國家的「性別、字首、單複數」決定用哪個介係詞；城市一律用 à。",
+        "items": [
+          {"fr": "en Suisse", "zh": "在瑞士（陰性國家用 en）"},
+          {"fr": "en Espagne", "zh": "在西班牙（母音開頭國家用 en）"},
+          {"fr": "au Portugal", "zh": "在葡萄牙（陽性、子音開頭用 au）"},
+          {"fr": "au Japon", "zh": "在日本（陽性國家用 au）"},
+          {"fr": "aux Pays-Bas", "zh": "在荷蘭（複數國家用 aux）"},
+          {"fr": "aux États-Unis", "zh": "在美國（複數國家用 aux）"},
+          {"fr": "à Taïwan", "zh": "在台灣（不加冠詞的地名用 à）"},
+          {"fr": "à Taipei", "zh": "在台北（城市一律用 à）"}
+        ]
+      },
+      {
+        "heading": "完整句：認識・居住・國籍",
+        "note": "句型：connaître + 國家。habiter + 介係詞 + 國家／城市。être + 國籍（配合性別）。",
+        "items": [
+          {"fr": "Pierre connaît la Suisse. Il habite en Suisse. Il est suisse.", "zh": "彼得認識瑞士，住在瑞士，他是瑞士人。（la Suisse 陰性用 en；suisse 陰陽同形）"},
+          {"fr": "Li Na connaît la Chine. Elle habite en Chine, à Shanghai. Elle est chinoise.", "zh": "李娜認識中國，住在中國上海，她是中國人。（la Chine 陰性用 en；女生 chinois→chinoise）"},
+          {"fr": "A-Mei connaît Taïwan. Elle habite à Taïwan, à Taipei. Elle est taïwanaise.", "zh": "阿美認識台灣，住在台灣台北，她是台灣人。（Taïwan 不加冠詞用 à；女生 taïwanais→taïwanaise）"},
+          {"fr": "Niels connaît les Pays-Bas. Il habite aux Pays-Bas, à Amsterdam. Il est néerlandais.", "zh": "尼爾斯認識荷蘭，住在荷蘭阿姆斯特丹，他是荷蘭人。（複數國家用 aux；néerlandais 或 hollandais）"},
+          {"fr": "Simone connaît l'Allemagne. Elle habite en Allemagne, à Berlin. Elle est allemande.", "zh": "西蒙認識德國，住在德國柏林，她是德國人。（l'Allemagne 母音開頭用 en；女生 allemand→allemande）"},
+          {"fr": "Gina connaît l'Italie. Elle habite en Italie, à Rome. Elle est italienne.", "zh": "吉娜認識義大利，住在義大利羅馬，她是義大利人。（l'Italie 用 en；女生 italien→italienne，雙寫 n）"},
+          {"fr": "José connaît le Portugal. Il habite au Portugal, à Lisbonne. Il est portugais.", "zh": "荷西認識葡萄牙，住在葡萄牙里斯本，他是葡萄牙人。（le Portugal 陽性、子音開頭用 au）"},
+          {"fr": "Pedro connaît l'Espagne. Il habite en Espagne, à Madrid. Il est espagnol.", "zh": "佩德羅認識西班牙，住在西班牙馬德里，他是西班牙人。（l'Espagne 母音開頭用 en；男生 espagnol）"},
+          {"fr": "Jerry connaît les États-Unis. Il habite aux États-Unis, à New York. Il est américain.", "zh": "傑瑞認識美國，住在美國紐約，他是美國人。（複數國家用 aux；男生 américain）"},
+          {"fr": "Akira connaît le Japon. Il habite au Japon, à Tokyo. Il est japonais.", "zh": "晶認識日本，住在日本東京，他是日本人。（le Japon 陽性用 au；男生 japonais）"},
+          {"fr": "Kelly connaît l'Angleterre. Elle habite en Angleterre, à Londres. Elle est anglaise.", "zh": "凱莉認識英格蘭，住在英格蘭倫敦，她是英國人。（l'Angleterre 母音開頭用 en；女生 anglais→anglaise）"},
+          {"fr": "Je connais Taïwan. J'habite à Taïwan, à Taipei. Je suis taïwanais.", "zh": "我認識台灣，住在台灣台北，我是台灣人。（Taïwan 用 à；國籍依說話者性別：男 taïwanais／女 taïwanaise）"}
+        ]
+      }
+    ],
+    "points": [
+      "國家前介係詞：陰性或母音開頭 → en；陽性且子音開頭 → au；複數國家 → aux；城市或不加冠詞的地名（如 Taïwan）→ à。",
+      "國籍形容詞要配合性別：女生通常加 -e，例 allemand→allemande、chinois→chinoise；italien→italienne（雙寫 n）。",
+      "suisse 陰陽同形不變化；國籍、語言當形容詞時小寫。",
+      "動詞 connaître（認識）：je connais、il/elle connaît。"
+    ]
   }
 ]

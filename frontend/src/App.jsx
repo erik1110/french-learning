@@ -876,73 +876,184 @@ function VerbsView() {
   )
 }
 
+const WEEKDAY_LABELS = ['一', '二', '三', '四', '五', '六', '日']
+
+function pad2(n) {
+  return String(n).padStart(2, '0')
+}
+
+function LessonCalendar({ byDate, selectedDate, onPickDate }) {
+  // Build a date -> lessons map and start on the month of the latest lesson.
+  const allDates = Object.keys(byDate).sort()
+  const latest = allDates[allDates.length - 1]
+  const [cursor, setCursor] = useState(() => {
+    const d = selectedDate || latest ? new Date(selectedDate || latest) : new Date()
+    return { y: d.getFullYear(), m: d.getMonth() }
+  })
+
+  function shiftMonth(delta) {
+    setCursor((c) => {
+      const d = new Date(c.y, c.m + delta, 1)
+      return { y: d.getFullYear(), m: d.getMonth() }
+    })
+  }
+
+  const firstDow = (new Date(cursor.y, cursor.m, 1).getDay() + 6) % 7 // 0 = Mon
+  const daysInMonth = new Date(cursor.y, cursor.m + 1, 0).getDate()
+  const cells = [...Array(firstDow).fill(null), ...Array.from({ length: daysInMonth }, (_, i) => i + 1)]
+
+  return (
+    <div className="cal">
+      <div className="cal-header">
+        <button className="cal-nav" onClick={() => shiftMonth(-1)} aria-label="上個月">
+          ‹
+        </button>
+        <span className="cal-title">
+          {cursor.y} 年 {cursor.m + 1} 月
+        </span>
+        <button className="cal-nav" onClick={() => shiftMonth(1)} aria-label="下個月">
+          ›
+        </button>
+      </div>
+
+      <div className="cal-grid">
+        {WEEKDAY_LABELS.map((d) => (
+          <div key={d} className="cal-dow">
+            {d}
+          </div>
+        ))}
+
+        {cells.map((day, i) => {
+          if (!day) return <div key={`e${i}`} className="cal-day empty" />
+          const ds = `${cursor.y}-${pad2(cursor.m + 1)}-${pad2(day)}`
+          const items = byDate[ds] || []
+          const has = items.length > 0
+          const isSel = ds === selectedDate
+
+          return (
+            <button
+              key={ds}
+              type="button"
+              disabled={!has}
+              className={`cal-day${has ? ' has' : ''}${isSel ? ' selected' : ''}`}
+              title={has ? items.map((l) => l.title).join('、') : undefined}
+              onClick={() => has && onPickDate(ds)}
+            >
+              <span className="cal-num">{day}</span>
+              {has && <span className="cal-dot" />}
+              {has && items.length > 1 && <span className="cal-badge">{items.length}</span>}
+            </button>
+          )
+        })}
+      </div>
+
+      <p className="cal-legend">
+        <span className="cal-dot" /> 有課程內容，點日期在右側複習當天的單元
+      </p>
+    </div>
+  )
+}
+
 function LessonsView() {
-  const [id, setId] = useState(LESSONS[0].id)
-  const lesson = LESSONS.find((l) => l.id === id) ?? LESSONS[0]
+  const byDate = useMemo(() => {
+    const m = {}
+    for (const l of LESSONS) (m[l.date] ||= []).push(l)
+    return m
+  }, [])
+  // Default to the most recent lesson.
+  const latest = useMemo(
+    () => [...LESSONS].sort((a, b) => (a.date < b.date ? 1 : -1))[0],
+    [],
+  )
+  const [date, setDate] = useState(latest?.date)
+  const [id, setId] = useState(latest?.id)
+
+  const dayLessons = byDate[date] || []
+  const lesson = dayLessons.find((l) => l.id === id) ?? dayLessons[0] ?? LESSONS[0]
   const allLines = lesson.sections.flatMap((s) => s.items.map((it) => it.fr))
+
+  function pickDate(ds) {
+    stopSpeaking()
+    setDate(ds)
+    // default to the first lesson of that day
+    setId((byDate[ds] || [])[0]?.id)
+  }
+
+  function pick(nextId) {
+    stopSpeaking()
+    setId(nextId)
+  }
 
   return (
     <>
-      <p className="muted">老師上課教過的內容，按主題整理，可逐句或整段聽發音複習。</p>
+      <p className="muted">老師上課教過的內容，依日期整理。點日曆上有圓點的日期即可複習當天的單元。</p>
 
-      <div className="dlg-cats">
-        {LESSONS.map((l) => (
-          <button
-            key={l.id}
-            className={l.id === id ? 'chip active' : 'chip'}
-            onClick={() => {
-              stopSpeaking()
-              setId(l.id)
-            }}
-          >
-            {l.title}
-          </button>
-        ))}
-      </div>
+      <div className="lessons-layout">
+        <LessonCalendar byDate={byDate} selectedDate={date} onPickDate={pickDate} />
 
-      <div className="dlg-card">
-        <div className="dlg-header">
-          <div>
-            <h2>{lesson.title}</h2>
-            <p className="muted">
-              {lesson.date} · {lesson.summary}
-            </p>
-          </div>
-          <button className="big-btn" onClick={() => speakFrenchSequence(allLines)}>
-            ▶ 全部播放
-          </button>
-        </div>
-
-        {lesson.sections.map((sec, si) => (
-          <div key={si} className="conj-block">
-            <h4>{sec.heading}</h4>
-            {sec.note && <p className="muted">{sec.note}</p>}
-            <div className="unit-items">
-              {sec.items.map((it, i) => (
-                <button
-                  key={i}
-                  className="unit-item"
-                  title="點擊發音"
-                  onClick={() => speakFrench(it.fr)}
-                >
-                  <span className="unit-fr">🔊 {it.fr}</span>
-                  <span className="unit-zh">{it.zh}</span>
-                </button>
-              ))}
+        <div className="lessons-main">
+          {dayLessons.length > 1 && (
+            <div className="day-lessons">
+              <span className="day-lessons-label">{date} 當天單元：</span>
+              <div className="day-lessons-chips">
+                {dayLessons.map((l) => (
+                  <button
+                    key={l.id}
+                    className={l.id === lesson.id ? 'chip active' : 'chip'}
+                    onClick={() => pick(l.id)}
+                  >
+                    {l.title}
+                  </button>
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
+          )}
 
-        {lesson.points?.length > 0 && (
-          <div className="keypoints">
-            <h3>📌 重點整理</h3>
-            <ul>
-              {lesson.points.map((p, i) => (
-                <li key={i}>{p}</li>
-              ))}
-            </ul>
+          <div className="dlg-card">
+            <div className="dlg-header">
+              <div>
+                <h2>{lesson.title}</h2>
+                <p className="muted">
+                  {lesson.date} · {lesson.summary}
+                </p>
+              </div>
+              <button className="big-btn" onClick={() => speakFrenchSequence(allLines)}>
+                ▶ 全部播放
+              </button>
+            </div>
+
+            {lesson.sections.map((sec, si) => (
+              <div key={si} className="conj-block">
+                <h4>{sec.heading}</h4>
+                {sec.note && <p className="muted">{sec.note}</p>}
+                <div className="unit-items">
+                  {sec.items.map((it, i) => (
+                    <button
+                      key={i}
+                      className="unit-item"
+                      title="點擊發音"
+                      onClick={() => speakFrench(it.fr)}
+                    >
+                      <span className="unit-fr">🔊 {it.fr}</span>
+                      <span className="unit-zh">{it.zh}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            ))}
+
+            {lesson.points?.length > 0 && (
+              <div className="keypoints">
+                <h3>📌 重點整理</h3>
+                <ul>
+                  {lesson.points.map((p, i) => (
+                    <li key={i}>{p}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
-        )}
+        </div>
       </div>
     </>
   )
