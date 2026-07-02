@@ -169,5 +169,275 @@
       "suisse 陰陽同形不變化；國籍、語言當形容詞時小寫。",
       "動詞 connaître（認識）：je connais、il/elle connaît。"
     ]
+  },
+  {
+    "id": "professions",
+    "title": "Les professions — 職業的陰陽性",
+    "date": "2026-06-29",
+    "summary": "職業名詞會隨陰陽性改字尾，依字尾分成幾種變化規則；也有些男女同形或沒有陰性形式。",
+    "sections": [
+      {
+        "heading": "1. -eur → -euse",
+        "note": "陽性 -eur，陰性改成 -euse。",
+        "items": [
+          {"fr": "danseur, danseuse", "zh": "舞者（男 danseur → 女 danseuse／dancer）"},
+          {"fr": "vendeur, vendeuse", "zh": "售貨員（vendeur → vendeuse／seller）"},
+          {"fr": "serveur, serveuse", "zh": "服務生（serveur → serveuse／waiter）"},
+          {"fr": "coiffeur, coiffeuse", "zh": "髮型師（coiffeur → coiffeuse／hairdresser）"},
+          {"fr": "joueur, joueuse", "zh": "球員（joueur → joueuse／player，如 de tennis、de basket）"},
+          {"fr": "chanteur, chanteuse", "zh": "歌手（chanteur → chanteuse／singer）"}
+        ]
+      },
+      {
+        "heading": "2. 陽性字尾 + e",
+        "note": "陰性直接在陽性後面加 -e（發音常會多出子音）。",
+        "items": [
+          {"fr": "étudiant, étudiante", "zh": "學生（étudiant → étudiante／student）"},
+          {"fr": "président, présidente", "zh": "總統／主席（président → présidente／president）"},
+          {"fr": "commercial, commerciale", "zh": "業務員（commercial → commerciale／salesperson）"},
+          {"fr": "avocat, avocate", "zh": "律師（avocat → avocate／lawyer）"},
+          {"fr": "écrivain, écrivaine", "zh": "作家（écrivain → écrivaine／writer）"}
+        ]
+      },
+      {
+        "heading": "3. -ien → -ienne",
+        "note": "陽性 -ien，陰性改成 -ienne（雙寫 n）。",
+        "items": [
+          {"fr": "comédien, comédienne", "zh": "喜劇／舞台演員（comédien → comédienne／comedian）"},
+          {"fr": "informaticien, informaticienne", "zh": "資訊工程師（informaticien → informaticienne／computer scientist）"}
+        ]
+      },
+      {
+        "heading": "4. -e 男女同形（不變）",
+        "note": "字尾是 -e 的職業，陰陽性拼法相同，只改前面的冠詞。",
+        "items": [
+          {"fr": "artiste", "zh": "藝術家（男女同形／artist）"},
+          {"fr": "journaliste", "zh": "記者（男女同形／journalist）"},
+          {"fr": "dentiste", "zh": "牙醫（男女同形／dentist）"},
+          {"fr": "photographe", "zh": "攝影師（男女同形／photographer）"},
+          {"fr": "cinéaste", "zh": "電影導演（男女同形／director）"},
+          {"fr": "peintre", "zh": "畫家（男女同形／painter）"}
+        ]
+      },
+      {
+        "heading": "5. -teur → -trice",
+        "note": "陽性 -teur，陰性改成 -trice。",
+        "items": [
+          {"fr": "acteur, actrice", "zh": "演員（acteur → actrice／actor）"},
+          {"fr": "réalisateur, réalisatrice", "zh": "導演（réalisateur → réalisatrice／director）"}
+        ]
+      },
+      {
+        "heading": "6. -er → -ère",
+        "note": "陽性 -er，陰性改成 -ère（加重音符號）。",
+        "items": [
+          {"fr": "boulanger, boulangère", "zh": "麵包師傅（boulanger → boulangère／baker）"},
+          {"fr": "banquier, banquière", "zh": "銀行家（banquier → banquière／banker）"},
+          {"fr": "infirmier, infirmière", "zh": "護理師（infirmier → infirmière／nurse）"},
+          {"fr": "couturier, couturière", "zh": "服裝設計師（couturier → couturière／fashion designer）"}
+        ]
+      },
+      {
+        "heading": "7. 沒有陰性形式（Pas de féminin）",
+        "note": "有些職業只有一種形式，男女都用同一個字。",
+        "items": [
+          {"fr": "professeur", "zh": "老師（無陰性形式／teacher）"},
+          {"fr": "ingénieur", "zh": "工程師（無陰性形式／engineer）"},
+          {"fr": "docteur", "zh": "博士／醫生（無陰性形式／doctor）"},
+          {"fr": "médecin", "zh": "醫生（無陰性形式／doctor）"}
+        ]
+      },
+      {
+        "heading": "補充：-phone 語言使用者",
+        "note": "字尾 -phone 表示「說某種語言的人」，男女同形。",
+        "items": [
+          {"fr": "anglophone", "zh": "說英語的人（男女同形／English-speaking）"},
+          {"fr": "francophone", "zh": "說法語的人（男女同形／French-speaking）"}
+        ]
+      }
+    ],
+    "points": [
+      "常見規則：-eur→-euse、-teur→-trice、-er→-ère、-ien→-ienne，其餘多為「陽性 + e」。",
+      "字尾是 -e 的職業（artiste、journaliste、dentiste…）男女同形，只換冠詞：un/une artiste。",
+      "有些職業沒有陰性形式：professeur、ingénieur、médecin、docteur。",
+      "職業前不加冠詞：Je suis professeur.（不是 Je suis un professeur.）"
+    ]
+  },
+  {
+    "id": "avoir-possession",
+    "title": "Le verbe AVOIR — 慣用表達",
+    "date": "2026-07-02",
+    "summary": "avoir（有）除了表示擁有，還用來表達生理感受、心情與害怕；很多在英文用 be 的地方，法文用 avoir。",
+    "sections": [
+      {
+        "heading": "avoir 變位（複習）",
+        "note": "先把 avoir 的六個人稱記熟。",
+        "items": [
+          {"fr": "J'ai", "zh": "我有"},
+          {"fr": "Tu as", "zh": "你有"},
+          {"fr": "Il / Elle / On a", "zh": "他／她／我們有"},
+          {"fr": "Nous avons", "zh": "我們有"},
+          {"fr": "Vous avez", "zh": "您／你們有"},
+          {"fr": "Ils / Elles ont", "zh": "他們／她們有"}
+        ]
+      },
+      {
+        "heading": "生理感受與狀態",
+        "note": "這些在英文用 be，法文一律用 avoir。",
+        "items": [
+          {"fr": "J'ai faim.", "zh": "我餓了。"},
+          {"fr": "J'ai soif.", "zh": "我渴了。"},
+          {"fr": "J'ai chaud.", "zh": "我覺得熱。"},
+          {"fr": "J'ai froid.", "zh": "我覺得冷。"}
+        ]
+      },
+      {
+        "heading": "心情表達",
+        "note": "avoir le cafard（低落）↔ avoir la pêche（有活力）。",
+        "items": [
+          {"fr": "Aujourd'hui, j'ai le cafard.", "zh": "今天我心情很低落。"},
+          {"fr": "Ça va ? Tu n'as pas l'air bien aujourd'hui.", "zh": "還好嗎？你今天看起來不太好。"},
+          {"fr": "Non, j'ai le cafard.", "zh": "不好，我心情很低落。"},
+          {"fr": "Oui, j'ai la pêche !", "zh": "很好，我精神很好、很有活力！"},
+          {"fr": "Je suis de bonne humeur.", "zh": "我心情很好。（正確說法用 être de bonne humeur）"}
+        ]
+      },
+      {
+        "heading": "害怕：avoir peur de…",
+        "note": "avoir peur de + 名詞：怕某樣東西。",
+        "items": [
+          {"fr": "J'ai peur des araignées.", "zh": "我怕蜘蛛。"},
+          {"fr": "Et vous ? Vous avez peur de quoi ?", "zh": "那你們呢？你們怕什麼？"},
+          {"fr": "J'ai peur des serpents.", "zh": "我怕蛇。"},
+          {"fr": "J'ai peur des cafards.", "zh": "我怕蟑螂。"},
+          {"fr": "J'ai peur du noir.", "zh": "我怕黑。"},
+          {"fr": "J'ai peur des fantômes.", "zh": "我怕鬼。"},
+          {"fr": "J'ai peur des insectes.", "zh": "我怕昆蟲。"}
+        ]
+      }
+    ],
+    "points": [
+      "avoir 用來表達生理感受：avoir faim / soif / chaud / froid（英文用 be，法文用 avoir）。",
+      "avoir le cafard = 心情低落、憂鬱；avoir la pêche = 精力充沛、心情好。",
+      "「心情好」的標準說法是 être de bonne humeur（用 être，不是 avoir）。",
+      "avoir peur de + 名詞：j'ai peur des araignées；de + le → du（j'ai peur du noir）。"
+    ]
+  },
+  {
+    "id": "aimer-gouts",
+    "title": "AIMER — 表達喜好",
+    "date": "2026-07-02",
+    "summary": "用 adorer / aimer / détester 表達喜歡的程度；aimer 後面接「定冠詞 + 名詞」或原形動詞。",
+    "sections": [
+      {
+        "heading": "喜好程度（由高到低）",
+        "note": "從最愛到最討厭的七個級距。",
+        "items": [
+          {"fr": "J'adore.", "zh": "我超愛。❤❤❤❤"},
+          {"fr": "J'aime beaucoup.", "zh": "我很喜歡。❤❤❤"},
+          {"fr": "J'aime.", "zh": "我喜歡。❤❤"},
+          {"fr": "J'aime bien.", "zh": "我還蠻喜歡。❤"},
+          {"fr": "Je n'aime pas trop.", "zh": "我不太喜歡。✖"},
+          {"fr": "Je n'aime pas.", "zh": "我不喜歡。✖✖"},
+          {"fr": "Je déteste.", "zh": "我討厭。✖✖✖"}
+        ]
+      },
+      {
+        "heading": "aimer + 定冠詞 + 名詞",
+        "note": "喜歡「某一類」事物，名詞前用 le / la / l' / les（不用 un/une）。",
+        "items": [
+          {"fr": "J'aime le shopping.", "zh": "我喜歡購物。（le：陽性）"},
+          {"fr": "J'aime le cinéma.", "zh": "我喜歡看電影。"},
+          {"fr": "J'aime le café.", "zh": "我喜歡咖啡。"},
+          {"fr": "J'aime la natation.", "zh": "我喜歡游泳。（la：陰性）"},
+          {"fr": "J'aime la plage.", "zh": "我喜歡海灘。"},
+          {"fr": "J'aime la musique.", "zh": "我喜歡音樂。"},
+          {"fr": "J'aime l'opéra.", "zh": "我喜歡歌劇。（l'：母音開頭）"},
+          {"fr": "J'aime l'équitation.", "zh": "我喜歡騎馬。"},
+          {"fr": "J'aime les animaux.", "zh": "我喜歡動物。（les：複數）"},
+          {"fr": "J'aime les voyages.", "zh": "我喜歡旅行。"},
+          {"fr": "J'aime les gâteaux.", "zh": "我喜歡蛋糕。"}
+        ]
+      },
+      {
+        "heading": "aimer + 原形動詞",
+        "note": "喜歡「做某件事」，直接接動詞原形。",
+        "items": [
+          {"fr": "J'adore les voyages.", "zh": "我超愛旅行。"},
+          {"fr": "J'aime dormir.", "zh": "我喜歡睡覺。"},
+          {"fr": "Je n'aime pas le sport.", "zh": "我不喜歡運動。"},
+          {"fr": "Je déteste travailler.", "zh": "我討厭工作。"}
+        ]
+      },
+      {
+        "heading": "問答對話",
+        "note": "用 Est-ce que 問喜好，Et toi ? 反問對方。",
+        "items": [
+          {"fr": "Est-ce que tu aimes le shopping ?", "zh": "你喜歡購物嗎？"},
+          {"fr": "Oui, j'aime bien le shopping.", "zh": "嗯，我還蠻喜歡購物的。"},
+          {"fr": "Non, je n'aime pas le shopping.", "zh": "不，我不喜歡購物。"},
+          {"fr": "Et toi ?", "zh": "那你呢？"}
+        ]
+      }
+    ],
+    "points": [
+      "喜好程度：adorer > aimer beaucoup > aimer > aimer bien > ne pas aimer trop > ne pas aimer > détester。",
+      "aimer 接名詞時用定冠詞 le / la / l' / les（表示喜歡整類事物），不用 un/une。",
+      "aimer 也可以直接接原形動詞：j'aime dormir、je déteste travailler。",
+      "否定用 ne...pas：Je n'aime pas le sport（口語常省略 ne，說 J'aime pas…）。"
+    ]
+  },
+  {
+    "id": "self-intro-questions",
+    "title": "自我介紹綜合：國籍・職業・年齡",
+    "date": "2026-07-02",
+    "summary": "把國籍、居住地、職業、年齡整合起來問答；學會 Est-ce que、Qu'est-ce que、疑問詞 + est-ce que 三種問句。",
+    "sections": [
+      {
+        "heading": "是非問句 Est-ce que…?",
+        "note": "句首加 Est-ce que 就變成問句，回答 Oui / Non。",
+        "items": [
+          {"fr": "Est-ce que tu es taïwanais ?", "zh": "你是台灣人嗎？"},
+          {"fr": "Est-ce que tu es ingénieur logiciel ?", "zh": "你是軟體工程師嗎？"},
+          {"fr": "Est-ce que tu habites au Royaume-Uni ?", "zh": "你住在英國嗎？"},
+          {"fr": "Est-ce que tu habites à Taïwan ?", "zh": "你住在台灣嗎？"},
+          {"fr": "Oui, j'habite au Royaume-Uni, à Londres.", "zh": "是的，我住在英國倫敦。"},
+          {"fr": "Non, je n'habite pas à Taïwan.", "zh": "不，我不住在台灣。"}
+        ]
+      },
+      {
+        "heading": "問職業 Qu'est-ce que…?",
+        "note": "Qu'est-ce que tu fais dans la vie ? = 你是做什麼工作的？職業前不加冠詞。",
+        "items": [
+          {"fr": "Qu'est-ce que tu fais dans la vie ?", "zh": "你是做什麼的？（你的職業是什麼）"},
+          {"fr": "Je suis ingénieur logiciel.", "zh": "我是軟體工程師。"},
+          {"fr": "Je suis professeur de français en ligne.", "zh": "我是線上法語老師。"}
+        ]
+      },
+      {
+        "heading": "問年齡與工作地點",
+        "note": "年齡用 avoir；工作地點用 dans + 冠詞。",
+        "items": [
+          {"fr": "Vous avez quel âge ?", "zh": "您幾歲？"},
+          {"fr": "Où est-ce que tu travailles ?", "zh": "你在哪裡工作？"},
+          {"fr": "Je travaille dans un bureau.", "zh": "我在辦公室工作。"},
+          {"fr": "Je travaille dans une école.", "zh": "我在學校工作。"},
+          {"fr": "Je travaille dans un hôpital.", "zh": "我在醫院工作。"}
+        ]
+      },
+      {
+        "heading": "完整自我介紹範例",
+        "note": "把 connaître + habiter + être（國籍）+ être（職業）串起來。",
+        "items": [
+          {"fr": "Je connais Taïwan. J'habite au Royaume-Uni, à Londres. Je suis taïwanais. Je suis ingénieur logiciel.", "zh": "我認識台灣。我住在英國倫敦。我是台灣人。我是軟體工程師。"}
+        ]
+      }
+    ],
+    "points": [
+      "三種問句：Est-ce que…?（是非題）、Qu'est-ce que…?（問「什麼」）、疑問詞 + est-ce que（Où est-ce que…?）。",
+      "Qu'est-ce que tu fais dans la vie ? = 你是做什麼工作的？",
+      "職業前不加冠詞：Je suis ingénieur / professeur（和英文的 a 不同）。",
+      "年齡用 avoir：Vous avez quel âge ? → J'ai 30 ans；工作地點用 dans un/une…。"
+    ]
   }
 ]

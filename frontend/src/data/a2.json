@@ -5425,5 +5425,113 @@
     "example": "Je dois payer la facture.",
     "exampleTranslation": "我得付帳單。",
     "tag": "購物金錢"
+  },
+  {
+    "french": "danseur",
+    "translation": "舞者（女 danseuse）",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Ce danseur est très doué.",
+    "exampleTranslation": "這位舞者很有天分。",
+    "tag": "職業"
+  },
+  {
+    "french": "président",
+    "translation": "總統／主席（女 présidente）",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le président parle à la télévision.",
+    "exampleTranslation": "總統在電視上發言。",
+    "tag": "職業"
+  },
+  {
+    "french": "commercial",
+    "translation": "業務員（女 commerciale）",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Mon frère est commercial.",
+    "exampleTranslation": "我哥哥是業務員。",
+    "tag": "職業"
+  },
+  {
+    "french": "comédien",
+    "translation": "演員（女 comédienne）",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Ce comédien est très drôle.",
+    "exampleTranslation": "這位演員很好笑。",
+    "tag": "職業"
+  },
+  {
+    "french": "informaticien",
+    "translation": "資訊工程師（女 informaticienne）",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "L'informaticien répare l'ordinateur.",
+    "exampleTranslation": "資訊工程師修理電腦。",
+    "tag": "職業"
+  },
+  {
+    "french": "cinéaste",
+    "translation": "電影導演（男女同形）",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Ce cinéaste est célèbre.",
+    "exampleTranslation": "這位導演很有名。",
+    "tag": "職業"
+  },
+  {
+    "french": "réalisateur",
+    "translation": "導演（女 réalisatrice）",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le réalisateur tourne un film.",
+    "exampleTranslation": "導演在拍一部電影。",
+    "tag": "職業"
+  },
+  {
+    "french": "banquier",
+    "translation": "銀行家（女 banquière）",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le banquier travaille en ville.",
+    "exampleTranslation": "銀行家在市區工作。",
+    "tag": "職業"
+  },
+  {
+    "french": "couturier",
+    "translation": "服裝設計師（女 couturière）",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le couturier crée de belles robes.",
+    "exampleTranslation": "這位服裝設計師設計漂亮的洋裝。",
+    "tag": "職業"
+  },
+  {
+    "french": "docteur",
+    "translation": "醫生／博士（無陰性形式）",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Je vais chez le docteur.",
+    "exampleTranslation": "我去看醫生。",
+    "tag": "職業"
+  },
+  {
+    "french": "anglophone",
+    "translation": "說英語的人（男女同形）",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Il est anglophone.",
+    "exampleTranslation": "他說英語。",
+    "tag": "職業"
+  },
+  {
+    "french": "francophone",
+    "translation": "說法語的人（男女同形）",
+    "gender": "m",
+    "partOfSpeech": "nom",
+    "example": "Le Québec est francophone.",
+    "exampleTranslation": "魁北克是法語區。",
+    "tag": "職業"
   }
 ]
