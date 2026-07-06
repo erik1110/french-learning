@@ -12,6 +12,7 @@ import dialoguesData from './data/dialogues.json'
 import unitsData from './data/units.json'
 import verbsData from './data/verbs.json'
 import lessonsData from './data/lessons.json'
+import courseData from './data/course.json'
 
 export const LEVELS = ['A1', 'A2', 'B1']
 
@@ -41,6 +42,25 @@ export const DIALOGUE_CATEGORIES = [...new Set(DIALOGUES.map((d) => d.category))
 
 // --- "Lessons review" tab: in-class lessons, organised section by section ---
 export const LESSONS = lessonsData
+
+// --- "Learning path" tab: the structured zero-to-conversation course -------
+// Stages contain lessons; lesson sections reference grammar (level +
+// orderIndex), units (id), dialogues (title) and vocab (level + tag), or
+// carry their own teaching items inline.
+export const COURSE = courseData
+export const COURSE_LESSON_COUNT = COURSE.reduce((n, s) => n + s.lessons.length, 0)
+
+export function findGrammar(level, orderIndex) {
+  return GRAMMAR.find((g) => g.level === level && g.orderIndex === orderIndex)
+}
+
+export function findDialogue(title) {
+  return DIALOGUES.find((d) => d.title === title)
+}
+
+export function vocabFor(level, tag) {
+  return SEED_CARDS.filter((c) => c.level === level && c.tag === tag)
+}
 
 // --- "Units / themes" tab: numbers are generated, the rest come from JSON ---
 const NUMBER_WORDS = [
@@ -86,6 +106,10 @@ const numbersUnit = {
 
 export const UNITS = [numbersUnit, ...unitsData]
 
+export function findUnit(id) {
+  return UNITS.find((u) => u.id === id)
+}
+
 // --- verb conjugation (présent stored; passé composé + futur derived) ---
 const SUBJECTS = ['je', 'tu', 'il/elle', 'nous', 'vous', 'ils/elles']
 const AVOIR = ['ai', 'as', 'a', 'avons', 'avez', 'ont']
@@ -112,6 +136,7 @@ export function conjugate(v) {
 // --- localStorage ---
 const K_UNFAMILIAR = 'fl_unfamiliar'
 const K_CUSTOM = 'fl_custom_cards'
+const K_COURSE_DONE = 'fl_course_done'
 
 function read(key, fallback) {
   try {
@@ -131,6 +156,18 @@ function write(key, val) {
 
 export function getUnfamiliarSet() {
   return new Set(read(K_UNFAMILIAR, []))
+}
+
+// --- course progress (completed lesson ids) ---
+export function getDoneLessons() {
+  return new Set(read(K_COURSE_DONE, []))
+}
+
+export function toggleLessonDone(id) {
+  const set = getDoneLessons()
+  if (set.has(id)) set.delete(id)
+  else set.add(id)
+  write(K_COURSE_DONE, [...set])
 }
 
 export function toggleUnfamiliar(id) {

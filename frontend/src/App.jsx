@@ -7,6 +7,14 @@ import {
   UNITS,
   VERBS,
   LESSONS,
+  COURSE,
+  COURSE_LESSON_COUNT,
+  findGrammar,
+  findUnit,
+  findDialogue,
+  vocabFor,
+  getDoneLessons,
+  toggleLessonDone,
   conjugate,
   categoriesFor,
   loadCards,
@@ -28,6 +36,7 @@ import {
 } from './speech'
 
 const TABS = [
+  { key: 'course', label: '🗺️ 學習路徑' },
   { key: 'cards', label: '📇 單字卡' },
   { key: 'lessons', label: '📚 課程複習' },
   { key: 'random', label: '🎲 隨機複習' },
@@ -159,12 +168,20 @@ function SpeechSettings() {
 }
 
 export default function App() {
-  const [tab, setTab] = useState('cards')
+  const [tab, setTab] = useState('course')
   // bumped whenever localStorage changes, to re-read cards everywhere
   const [version, setVersion] = useState(0)
   const reload = () => setVersion((v) => v + 1)
+  // set by the course view to open the cards tab pre-filtered to a category
+  const [cardsPreset, setCardsPreset] = useState(null)
 
   const cards = useMemo(() => loadCards(), [version])
+
+  function goVocab(level, tag) {
+    stopSpeaking()
+    setCardsPreset({ level, tag, ts: Date.now() })
+    setTab('cards')
+  }
 
   return (
     <div className="app">
@@ -197,7 +214,8 @@ export default function App() {
         ))}
       </nav>
 
-      {tab === 'cards' && <CardsView cards={cards} reload={reload} />}
+      {tab === 'course' && <CourseView goVocab={goVocab} />}
+      {tab === 'cards' && <CardsView cards={cards} reload={reload} preset={cardsPreset} />}
       {tab === 'lessons' && <LessonsView />}
       {tab === 'random' && <RandomView cards={cards} reload={reload} />}
       {tab === 'quiz' && <QuizView cards={cards} />}
@@ -396,12 +414,355 @@ function AddCardForm({ level, reload }) {
   )
 }
 
+/* ----------------------------- learning path ----------------------------- */
+
+const SECTION_BADGES = {
+  teach: '🔤 發音教學',
+  grammar: '📖 文法',
+  unit: '🔢 主題',
+  dialogue: '💬 對話',
+  vocab: '📇 單字',
+}
+
+const VOCAB_PREVIEW_LIMIT = 24
+
+function SpeakableItems({ items }) {
+  return (
+    <div className="unit-items">
+      {items.map((it, i) => (
+        <button key={i} className="unit-item" title="點擊發音" onClick={() => speakFrench(it.fr)}>
+          <span className="unit-fr">🔊 {it.fr}</span>
+          <span className="unit-zh">{it.zh}</span>
+        </button>
+      ))}
+    </div>
+  )
+}
+
+function CourseSection({ section, goVocab }) {
+  const badge = <span className="course-badge">{SECTION_BADGES[section.type]}</span>
+
+  if (section.type === 'teach') {
+    return (
+      <div className="course-section">
+        <h4>
+          {badge}
+          {section.heading}
+          <button
+            className="speak-mini"
+            title="全部播放"
+            onClick={() => speakFrenchSequence(section.items.map((it) => it.fr))}
+          >
+            ▶
+          </button>
+        </h4>
+        {section.note && <p className="muted">{section.note}</p>}
+        <SpeakableItems items={section.items} />
+      </div>
+    )
+  }
+
+  if (section.type === 'grammar') {
+    const g = findGrammar(section.level, section.orderIndex)
+    if (!g) return null
+    return (
+      <div className="course-section">
+        <h4>
+          {badge}
+          {g.title}
+          <span className="course-sub">{g.summary}</span>
+        </h4>
+        <div className="grammar-content">
+          {g.content}
+          {g.examples?.length > 0 && (
+            <div className="grammar-examples">
+              <h4>🔊 例句發音</h4>
+              {g.examples.map((ex, i) => (
+                <div key={i} className="gx-line">
+                  <button className="speak-mini" title="唸這句" onClick={() => speakFrench(ex.fr)}>
+                    🔊
+                  </button>
+                  <span className="gx-fr">{ex.fr}</span>
+                  <span className="gx-zh">{ex.zh}</span>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    )
+  }
+
+  if (section.type === 'unit') {
+    const u = findUnit(section.id)
+    if (!u) return null
+    return (
+      <div className="course-section">
+        <h4>
+          {badge}
+          {u.title}
+          <button
+            className="speak-mini"
+            title="全部播放"
+            onClick={() => speakFrenchSequence(u.items.map((it) => it.fr))}
+          >
+            ▶
+          </button>
+        </h4>
+        <p className="muted">{u.intro}</p>
+        <SpeakableItems items={u.items} />
+      </div>
+    )
+  }
+
+  if (section.type === 'dialogue') {
+    const d = findDialogue(section.title)
+    if (!d) return null
+    return (
+      <div className="course-section">
+        <h4>
+          {badge}
+          {d.title}
+          <button
+            className="speak-mini"
+            title="全部播放"
+            onClick={() => speakFrenchSequence(d.lines.map((l) => l.french))}
+          >
+            ▶
+          </button>
+        </h4>
+        <p className="muted">{d.scene}</p>
+        <div className="dlg-lines">
+          {d.lines.map((line, i) => (
+            <div key={i} className="dlg-line">
+              <span className="speaker">{line.speaker}</span>
+              <div className="dlg-text">
+                <div className="dlg-fr">
+                  <span>{line.french}</span>
+                  <button className="speak-mini" title="唸這句" onClick={() => speakFrench(line.french)}>
+                    🔊
+                  </button>
+                </div>
+                <div className="dlg-zh">{line.translation}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+        {d.keyPoints?.length > 0 && (
+          <div className="keypoints">
+            <h3>📌 重點教學</h3>
+            <ul>
+              {d.keyPoints.map((p, i) => (
+                <li key={i}>{p}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    )
+  }
+
+  if (section.type === 'vocab') {
+    const words = vocabFor(section.level, section.tag)
+    const shown = words.slice(0, VOCAB_PREVIEW_LIMIT)
+    return (
+      <div className="course-section">
+        <h4>
+          {badge}
+          {section.tag}
+          <span className="course-sub">
+            {section.level} · 共 {words.length} 個字
+          </span>
+        </h4>
+        {section.note && <p className="muted">{section.note}</p>}
+        <SpeakableItems items={shown.map((c) => ({ fr: c.french, zh: c.translation }))} />
+        <button className="course-more" onClick={() => goVocab(section.level, section.tag)}>
+          📇 到單字卡練習「{section.tag}」全部 {words.length} 個字 →
+        </button>
+      </div>
+    )
+  }
+
+  return null
+}
+
+function CourseLesson({ lesson, index, stage, done, onToggleDone, onBack, prev, next, onGo, goVocab }) {
+  return (
+    <>
+      <button className="course-back" onClick={onBack}>
+        ← 回學習路徑
+      </button>
+
+      <div className="dlg-card">
+        <div className="dlg-header">
+          <div>
+            <p className="course-crumb">
+              第 {stage.stage} 階段 · {stage.title} · 第 {index + 1} 課
+            </p>
+            <h2>{lesson.title}</h2>
+            <p className="muted">🎯 學習目標：{lesson.goal}</p>
+          </div>
+          <button
+            className={done ? 'done-btn on' : 'done-btn'}
+            onClick={() => onToggleDone(lesson.id)}
+          >
+            {done ? '✅ 已完成' : '☑️ 標記完成'}
+          </button>
+        </div>
+
+        {lesson.sections.map((sec, i) => (
+          <CourseSection key={i} section={sec} goVocab={goVocab} />
+        ))}
+
+        {lesson.tips?.length > 0 && (
+          <div className="keypoints">
+            <h3>💡 學習提示</h3>
+            <ul>
+              {lesson.tips.map((t, i) => (
+                <li key={i}>{t}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        <div className="course-nav">
+          {prev ? (
+            <button onClick={() => onGo(prev.id)}>← 上一課：{prev.title}</button>
+          ) : (
+            <span />
+          )}
+          {next ? (
+            <button className="primary" onClick={() => onGo(next.id)}>
+              下一課：{next.title} →
+            </button>
+          ) : (
+            <span />
+          )}
+        </div>
+      </div>
+    </>
+  )
+}
+
+function CourseView({ goVocab }) {
+  const [lessonId, setLessonId] = useState(null)
+  // bumped when progress toggles, to re-read localStorage
+  const [version, setVersion] = useState(0)
+  const done = useMemo(() => getDoneLessons(), [version])
+
+  const flat = useMemo(() => COURSE.flatMap((s) => s.lessons.map((l) => ({ ...l, stage: s }))), [])
+  const doneCount = flat.filter((l) => done.has(l.id)).length
+
+  function toggleDone(id) {
+    toggleLessonDone(id)
+    setVersion((v) => v + 1)
+  }
+
+  function open(id) {
+    stopSpeaking()
+    setLessonId(id)
+    window.scrollTo({ top: 0 })
+  }
+
+  function back() {
+    stopSpeaking()
+    setLessonId(null)
+  }
+
+  if (lessonId) {
+    const idx = flat.findIndex((l) => l.id === lessonId)
+    const lesson = flat[idx]
+    return (
+      <CourseLesson
+        lesson={lesson}
+        index={idx}
+        stage={lesson.stage}
+        done={done.has(lesson.id)}
+        onToggleDone={toggleDone}
+        onBack={back}
+        prev={flat[idx - 1]}
+        next={flat[idx + 1]}
+        onGo={open}
+        goVocab={goVocab}
+      />
+    )
+  }
+
+  return (
+    <>
+      <div className="course-progress">
+        <div className="course-progress-text">
+          <strong>從零開始 → 基礎對話</strong>
+          <span>
+            已完成 {doneCount} / {COURSE_LESSON_COUNT} 課
+          </span>
+        </div>
+        <div className="progress-track">
+          <div
+            className="progress-fill"
+            style={{ width: `${(doneCount / COURSE_LESSON_COUNT) * 100}%` }}
+          />
+        </div>
+        {doneCount === 0 && (
+          <p className="muted">按照順序一課一課學：每課都有教學、單字、文法和對話，學完點「標記完成」。</p>
+        )}
+      </div>
+
+      {COURSE.map((stage) => {
+        const stageDone = stage.lessons.filter((l) => done.has(l.id)).length
+        return (
+          <div key={stage.stage} className="course-stage">
+            <div className="course-stage-head">
+              <h3>
+                <span className="stage-num">第 {stage.stage} 階段</span>
+                {stage.title}
+              </h3>
+              <span className="stage-count">
+                {stageDone} / {stage.lessons.length}
+              </span>
+            </div>
+            <p className="muted">{stage.description}</p>
+
+            <div className="course-lessons">
+              {stage.lessons.map((l) => {
+                const gi = flat.findIndex((f) => f.id === l.id)
+                const isDone = done.has(l.id)
+                return (
+                  <button
+                    key={l.id}
+                    className={isDone ? 'lesson-row done' : 'lesson-row'}
+                    onClick={() => open(l.id)}
+                  >
+                    <span className="lesson-num">{isDone ? '✓' : gi + 1}</span>
+                    <span className="lesson-text">
+                      <span className="lesson-title">{l.title}</span>
+                      <span className="lesson-goal">{l.goal}</span>
+                    </span>
+                    <span className="lesson-arrow">›</span>
+                  </button>
+                )
+              })}
+            </div>
+          </div>
+        )
+      })}
+    </>
+  )
+}
+
 /* -------------------------------- views ---------------------------------- */
 
-function CardsView({ cards, reload }) {
-  const [level, setLevel] = useState('A1')
-  const [category, setCategory] = useState('全部')
+function CardsView({ cards, reload, preset }) {
+  const [level, setLevel] = useState(preset?.level ?? 'A1')
+  const [category, setCategory] = useState(preset?.tag ?? '全部')
   const categories = ['全部', ...categoriesFor(level)]
+
+  // jump requested from the course view
+  useEffect(() => {
+    if (!preset) return
+    setLevel(preset.level)
+    setCategory(preset.tag)
+  }, [preset])
 
   const shown = cards.filter(
     (c) => c.level === level && (category === '全部' || c.tag === category),
