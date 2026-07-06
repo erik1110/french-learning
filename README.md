@@ -13,6 +13,7 @@ all content is bundled into the site, so it can be hosted for free on GitHub Pag
 
 | Tab | Description |
 | --- | --- |
+| 🗺️ Learning path | The default tab: a structured course from zero to basic conversation — 4 stages / 18 lessons (alphabet & pronunciation → nouns & verbs → describing your world → real-life dialogues). Each lesson bundles its own teaching content plus the relevant grammar topics, themed units, dialogues, and vocabulary categories (with a jump to the flashcards tab), and can be marked done (progress saved in localStorage) |
 | 📇 Flashcards | A1 (515 words), A2 (503 words), B1 (200 words); every word has a **category tag** (animals, food, verbs, emotions…) you can filter by; flip to see the translation and example, nouns tagged masculine/feminine, 🔊 speak the word and the example, and you can add your own cards |
 | 🎲 Random review | Draw a random card to review, scoped by level or by your word bank |
 | ✏️ Quiz | Multiple-choice quiz: a French word is shown (with 🔊) and you pick the correct meaning; keeps score |
@@ -65,6 +66,9 @@ and deploys it to Pages. You only need to do this once in the repo:
 - Verbs: `verbs.json` (`inf`, `zh`, `group`, `aux`, `pp`, `futureStem`, `present[6]`); passé composé and futur are derived in `store.js`
 - Dialogues: `dialogues.json` (`category`, `title`, `scene`, `lines[]`, `keyPoints[]`)
 - Themed units: `units.json` (`title`, `intro`, `items[]`); numbers 0–100 are generated in `store.js`
+- Learning path: `course.json` — stages containing lessons; lesson `sections[]` either carry
+  their own `teach` items or reference existing content by `grammar` (level + orderIndex),
+  `unit` (id), `dialogue` (title), or `vocab` (level + tag)
 
 Run `npm run build` again after editing.
 
