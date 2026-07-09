@@ -439,5 +439,230 @@
       "職業前不加冠詞：Je suis ingénieur / professeur（和英文的 a 不同）。",
       "年齡用 avoir：Vous avez quel âge ? → J'ai 30 ans；工作地點用 dans un/une…。"
     ]
+  },
+  {
+    "id": "aimer-themes-ca-preferer",
+    "title": "AIMER 進階：主題單字・ça・préférer",
+    "date": "2026-07-11",
+    "summary": "aimer 完整變位複習，六大主題單字（飲料、食物、休閒、運動、音樂、動物），學會用 ça 回答喜好問題，以及用 préférer 說「更喜歡」。",
+    "sections": [
+      {
+        "heading": "AIMER 完整變位（肯定＋否定）",
+        "note": "講義第一頁的填空練習答案。注意：-e / -es / -ent 字尾都不發音，所以 aime、aimes、aiment 聽起來一模一樣；母音開頭所以 je 縮寫成 j'。",
+        "items": [
+          {"fr": "J'aime", "zh": "我喜歡"},
+          {"fr": "Tu aimes", "zh": "你喜歡"},
+          {"fr": "Il aime", "zh": "他喜歡"},
+          {"fr": "Elle aime", "zh": "她喜歡"},
+          {"fr": "Nous aimons", "zh": "我們喜歡（聽 nous-z-aimons 的連音）"},
+          {"fr": "Vous aimez", "zh": "您／你們喜歡（vous-z-aimez）"},
+          {"fr": "Ils aiment", "zh": "他們喜歡（ils-z-aiment）"},
+          {"fr": "Je n'aime pas", "zh": "我不喜歡（ne 遇母音縮成 n'）"},
+          {"fr": "Tu n'aimes pas", "zh": "你不喜歡"},
+          {"fr": "Il n'aime pas", "zh": "他不喜歡"},
+          {"fr": "Nous n'aimons pas", "zh": "我們不喜歡"},
+          {"fr": "Vous n'aimez pas", "zh": "您／你們不喜歡"},
+          {"fr": "Ils n'aiment pas", "zh": "他們不喜歡"}
+        ]
+      },
+      {
+        "heading": "主題單字 1 · Les boissons 飲料",
+        "note": "背的時候連定冠詞一起背，之後接在 J'aime 後面直接就能用。",
+        "items": [
+          {"fr": "le café", "zh": "咖啡"},
+          {"fr": "le thé", "zh": "茶"},
+          {"fr": "les jus de fruits", "zh": "果汁"},
+          {"fr": "l'eau", "zh": "水（母音開頭用 l'）"},
+          {"fr": "le Coca", "zh": "可樂"},
+          {"fr": "le chocolat chaud", "zh": "熱可可"}
+        ]
+      },
+      {
+        "heading": "主題單字 2 · La nourriture 食物",
+        "items": [
+          {"fr": "les nouilles", "zh": "麵"},
+          {"fr": "la pizza", "zh": "披薩"},
+          {"fr": "les gâteaux", "zh": "蛋糕（單數 le gâteau，複數 -eaux）"},
+          {"fr": "les fruits", "zh": "水果"},
+          {"fr": "le poisson", "zh": "魚"},
+          {"fr": "la viande", "zh": "肉"}
+        ]
+      },
+      {
+        "heading": "主題單字 3 · Les loisirs 休閒",
+        "items": [
+          {"fr": "la randonnée", "zh": "健行"},
+          {"fr": "le cinéma", "zh": "電影（去電影院看電影）"},
+          {"fr": "les voyages", "zh": "旅行"},
+          {"fr": "le sport", "zh": "運動"},
+          {"fr": "le KTV", "zh": "KTV（法國人會說 le karaoké）"},
+          {"fr": "le shopping", "zh": "購物"}
+        ]
+      },
+      {
+        "heading": "主題單字 4 · Le sport 運動",
+        "items": [
+          {"fr": "la natation", "zh": "游泳"},
+          {"fr": "le base-ball", "zh": "棒球"},
+          {"fr": "le football", "zh": "足球"},
+          {"fr": "le yoga", "zh": "瑜珈"},
+          {"fr": "la danse", "zh": "舞蹈"},
+          {"fr": "le jogging", "zh": "慢跑（也可說 la course à pied）"}
+        ]
+      },
+      {
+        "heading": "主題單字 5 · La musique 音樂",
+        "items": [
+          {"fr": "le jazz", "zh": "爵士樂"},
+          {"fr": "le classique", "zh": "古典樂"},
+          {"fr": "l'opéra", "zh": "歌劇"},
+          {"fr": "la pop", "zh": "流行樂"},
+          {"fr": "le rock", "zh": "搖滾樂"},
+          {"fr": "le hip-hop", "zh": "嘻哈"}
+        ]
+      },
+      {
+        "heading": "主題單字 6 · Les animaux 動物",
+        "note": "談「喜不喜歡某種動物」時用複數：J'aime les chats。",
+        "items": [
+          {"fr": "les chats", "zh": "貓"},
+          {"fr": "les chiens", "zh": "狗"},
+          {"fr": "les cafards", "zh": "蟑螂"},
+          {"fr": "les serpents", "zh": "蛇"},
+          {"fr": "les araignées", "zh": "蜘蛛"},
+          {"fr": "les lapins", "zh": "兔子"}
+        ]
+      },
+      {
+        "heading": "用 ça 回答：j'aime ça / je déteste ça",
+        "note": "回答時不想重複整個名詞，就用 ça（那個）代替；問「做某件事」（動詞）也可以用 ça 回答。",
+        "items": [
+          {"fr": "Tu aimes le café ?", "zh": "你喜歡咖啡嗎？"},
+          {"fr": "Oui, j'adore ça.", "zh": "喜歡，我超愛（咖啡）。"},
+          {"fr": "Non, je déteste ça.", "zh": "不，我討厭（咖啡）。"},
+          {"fr": "Tu aimes lire ?", "zh": "你喜歡閱讀嗎？"},
+          {"fr": "Oui, j'aime ça.", "zh": "喜歡，我喜歡（閱讀）。"},
+          {"fr": "Non, j'aime pas trop ça.", "zh": "不，我不太喜歡。（口語省略 ne）"},
+          {"fr": "Tu aimes le Japon ?", "zh": "你喜歡日本嗎？"},
+          {"fr": "Oui, j'aime bien. Oui, je l'aime.", "zh": "喜歡啊。／喜歡，我喜歡它。（國家等特定事物用 le/la 代替）"},
+          {"fr": "Non, je n'aime pas.", "zh": "不，我不喜歡。"}
+        ]
+      },
+      {
+        "heading": "PRÉFÉRER：我更喜歡…",
+        "note": "回答喜好時話鋒一轉：「還可以，但我更喜歡…」。注意變位時 é 變 è：je préfère。",
+        "items": [
+          {"fr": "Tu aimes le jazz ?", "zh": "你喜歡爵士樂嗎？"},
+          {"fr": "Oui, j'aime bien ça, mais je préfère la pop.", "zh": "喜歡，還不錯，但我更喜歡流行樂。"},
+          {"fr": "Non, je n'aime pas trop ça, je préfère le rock.", "zh": "不，我不太喜歡，我比較喜歡搖滾。"}
+        ]
+      }
+    ],
+    "points": [
+      "aime / aimes / aiment 發音完全相同（字尾不發音），聽的時候靠主詞分辨人稱。",
+      "主詞是母音結尾＋動詞母音開頭會連音：nous aimons 唸 nou-z-aimons、ils aiment 唸 il-z-aiment。",
+      "主題單字連定冠詞一起背（le café、la pizza、les chats），套進 J'aime… 就是完整句子。",
+      "ça 代替剛剛提到的「一類事物」：J'adore ça；特定事物（像國家）則用 le/la：le Japon → Je l'aime。",
+      "préférer 的重音變化：原形 préférer，但 je préfère / tu préfères（é → è），發音也跟著變。"
+    ]
+  },
+  {
+    "id": "connaitre-qui-est-ce",
+    "title": "CONNAÎTRE — 你認識…嗎？／Qui est-ce ?",
+    "date": "2026-07-11",
+    "summary": "connaître（認識人或事物）的變位、Vous connaissez… ? 問答，以及用 Qui est-ce ? 介紹名人：C'est… Il est… C'est un…",
+    "sections": [
+      {
+        "heading": "CONNAÎTRE 變位（現在式）",
+        "note": "第三組不規則動詞。單數三個人稱發音相同（/kɔnɛ/，字尾 s / t 不發音）；複數變位多了 -ss-，唸 /kɔnɛs/。il/elle connaît 的 î 上面有長音符。",
+        "items": [
+          {"fr": "Je connais", "zh": "我認識"},
+          {"fr": "Tu connais", "zh": "你認識"},
+          {"fr": "Il connaît", "zh": "他認識（î 有帽子！）"},
+          {"fr": "Elle connaît", "zh": "她認識"},
+          {"fr": "Nous connaissons", "zh": "我們認識"},
+          {"fr": "Vous connaissez", "zh": "您／你們認識"},
+          {"fr": "Ils connaissent", "zh": "他們認識（聽得到 -ss-）"},
+          {"fr": "Elles connaissent", "zh": "她們認識"}
+        ]
+      },
+      {
+        "heading": "Vous connaissez… ? 你認識…嗎？",
+        "note": "問對方認不認識某個人。回答常用 C'est…（這是…）來介紹。",
+        "items": [
+          {"fr": "Vous connaissez Boris ?", "zh": "您認識 Boris 嗎？"},
+          {"fr": "Oui, c'est mon professeur de français.", "zh": "認識，他是我的法文老師。"},
+          {"fr": "Vous connaissez William Shakespeare ?", "zh": "您知道莎士比亞嗎？"},
+          {"fr": "Oui, c'est un écrivain anglais.", "zh": "知道，他是英國作家。"},
+          {"fr": "Non, c'est qui ?", "zh": "不知道，他是誰？"},
+          {"fr": "C'est un écrivain anglais.", "zh": "他是一位英國作家。"}
+        ]
+      },
+      {
+        "heading": "Qui est-ce ? 這是誰？",
+        "note": "介紹一個人的完整句組：C'est＋名字 → Il/Elle est＋國籍 → Il/Elle est＋職業 → C'est un/une＋職業＋國籍。",
+        "items": [
+          {"fr": "Qui est-ce ?", "zh": "這是誰？（正式）"},
+          {"fr": "C'est qui ?", "zh": "這是誰？（口語）"},
+          {"fr": "C'est Jean-Paul Gaultier. Il est français. Il est couturier. C'est un couturier français.", "zh": "這是高緹耶。他是法國人。他是服裝設計師。他是一位法國服裝設計師。"},
+          {"fr": "C'est Ang Lee. Il est taïwanais. Il est réalisateur. C'est un réalisateur taïwanais.", "zh": "這是李安。他是台灣人。他是導演。他是一位台灣導演。"},
+          {"fr": "C'est Haruki Murakami. Il est japonais. Il est écrivain. C'est un écrivain japonais.", "zh": "這是村上春樹。他是日本人。他是作家。他是一位日本作家。"},
+          {"fr": "C'est Céline Dion. Elle est canadienne. Elle est chanteuse. C'est une chanteuse canadienne.", "zh": "這是席琳狄翁。她是加拿大人。她是歌手。她是一位加拿大歌手。"},
+          {"fr": "C'est Serena Williams. Elle est américaine. Elle est joueuse de tennis. C'est une joueuse de tennis américaine.", "zh": "這是小威廉絲。她是美國人。她是網球選手。"},
+          {"fr": "C'est Zhang Ziyi. Elle est chinoise. Elle est actrice. C'est une actrice chinoise.", "zh": "這是章子怡。她是中國人。她是演員。"},
+          {"fr": "C'est Jamie Oliver. Il est anglais. Il est cuisinier. C'est un cuisinier anglais.", "zh": "這是傑米奧利佛。他是英國人。他是廚師。"}
+        ]
+      },
+      {
+        "heading": "職業的陰陽性",
+        "note": "介紹男性用陽性、女性用陰性，拼字和發音都會變。",
+        "items": [
+          {"fr": "couturier, couturière", "zh": "服裝設計師（男／女）"},
+          {"fr": "chanteur, chanteuse", "zh": "歌手（男／女）"},
+          {"fr": "réalisateur, réalisatrice", "zh": "導演（男／女）"},
+          {"fr": "acteur, actrice", "zh": "演員（男／女）"},
+          {"fr": "cuisinier, cuisinière", "zh": "廚師（男／女）"},
+          {"fr": "joueur de tennis, joueuse de tennis", "zh": "網球選手（男／女）"},
+          {"fr": "écrivain, écrivaine", "zh": "作家（男／女）"}
+        ]
+      },
+      {
+        "heading": "國籍的陰陽性",
+        "note": "陰性通常加 -e，字尾發音跟著改變：français /-ɛ/ → française /-ɛz/。",
+        "items": [
+          {"fr": "français, française", "zh": "法國的（男／女）"},
+          {"fr": "canadien, canadienne", "zh": "加拿大的"},
+          {"fr": "anglais, anglaise", "zh": "英國的"},
+          {"fr": "japonais, japonaise", "zh": "日本的"},
+          {"fr": "taïwanais, taïwanaise", "zh": "台灣的"},
+          {"fr": "américain, américaine", "zh": "美國的"},
+          {"fr": "chinois, chinoise", "zh": "中國的"}
+        ]
+      },
+      {
+        "heading": "Quiz：Vous connaissez… ?（課本練習參考答案）",
+        "note": "用「Un/Une＋職業＋國籍？」問，回答直接說名字。這是課堂上的練習題。",
+        "items": [
+          {"fr": "Une actrice française ? — Sophie Marceau.", "zh": "一位法國女演員？——蘇菲瑪索"},
+          {"fr": "Un peintre espagnol ? — Pablo Picasso.", "zh": "一位西班牙畫家？——畢卡索"},
+          {"fr": "Un artiste italien ? — Léonard de Vinci.", "zh": "一位義大利藝術家？——達文西"},
+          {"fr": "Une marque allemande ? — BMW.", "zh": "一個德國品牌？——BMW"},
+          {"fr": "Une marque japonaise ? — Uniqlo, Sony, Toyota.", "zh": "一個日本品牌？"},
+          {"fr": "Un couturier français ? — Jean-Paul Gaultier.", "zh": "一位法國服裝設計師？——高緹耶"},
+          {"fr": "Un chanteur américain ? — Michael Jackson.", "zh": "一位美國歌手？——麥可傑克森"},
+          {"fr": "Un footballeur portugais ? — Cristiano Ronaldo.", "zh": "一位葡萄牙足球員？——C羅"},
+          {"fr": "Un basketteur français ? — Tony Parker.", "zh": "一位法國籃球員？——東尼帕克"},
+          {"fr": "Une chanteuse anglaise ? — Adele.", "zh": "一位英國女歌手？——愛黛兒"},
+          {"fr": "Un réalisateur hong-kongais ? — Wong Kar-wai.", "zh": "一位香港導演？——王家衛"}
+        ]
+      }
+    ],
+    "points": [
+      "connaître = 認識（人）或知道（事物），後面直接接名詞：Je connais Boris / Je connais Paris。",
+      "發音重點：connais / connaît 唸起來一樣 /kɔnɛ/；複數 connaissons / connaissez / connaissent 多了 /s/ 的音。",
+      "拼字陷阱：il/elle connaît 的 î 一定要戴帽子（長音符）。",
+      "介紹身分兩種說法：Il est couturier（不加冠詞）vs C'est un couturier français（加 un/une）——「Il est + 職業」永遠不加冠詞。",
+      "職業和國籍都要跟人物性別配合：Il est chanteur → Elle est chanteuse。"
+    ]
   }
 ]
