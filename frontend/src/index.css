@@ -11,9 +11,10 @@ body {
 }
 
 .app {
-  max-width: 920px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 24px 16px 60px;
+  padding: 24px clamp(16px, 4vw, 40px) 60px;
 }
 
 header h1 { margin: 0 0 4px; font-size: 1.8rem; }
@@ -722,5 +723,46 @@ header h1 { margin: 0 0 4px; font-size: 1.8rem; }
   background: #2b59ff;
   border-color: #2b59ff;
   color: #fff;
+}
+
+/* ------------------------------ responsive ------------------------------- */
+
+/* tablet: give the lesson calendar a bit less width so content breathes */
+@media (max-width: 900px) {
+  .cal { width: 300px; }
+  .lessons-main { flex-basis: 320px; }
+}
+
+/* phones */
+@media (max-width: 640px) {
+  header h1 { font-size: 1.5rem; }
+
+  /* let the tab bar scroll sideways instead of piling into many rows */
+  .tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab { white-space: nowrap; flex: 0 0 auto; }
+
+  /* stack card headers so the play button drops below the title */
+  .dlg-header { flex-direction: column; align-items: stretch; }
+  .dlg-header .big-btn { align-self: flex-start; }
+
+  /* single-column term / conjugation grids on narrow screens */
+  .unit-items { grid-template-columns: 1fr; }
+  .conj-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+
+  /* calendar spans the full width when it wraps above the content */
+  .cal { width: 100%; }
+
+  .dlg-card { padding: 14px; }
+
+  /* course navigation buttons stack full-width */
+  .course-nav { flex-direction: column; }
+  .course-nav button { width: 100%; text-align: center; }
 }
 .course-nav button.primary:hover { background: #1e46d8; }

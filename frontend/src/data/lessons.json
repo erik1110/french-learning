@@ -9,28 +9,76 @@
         "heading": "六個人稱與 être 變位",
         "note": "法文有六個人稱，每個人稱對應不同的 être 變化。",
         "items": [
-          {"fr": "Je suis", "zh": "我是"},
-          {"fr": "Tu es", "zh": "你是"},
-          {"fr": "Il est", "zh": "他是"},
-          {"fr": "Elle est", "zh": "她是"},
-          {"fr": "On est", "zh": "我們是／大家是（口語）"},
-          {"fr": "Nous sommes", "zh": "我們是"},
-          {"fr": "Vous êtes", "zh": "您是／你們是"},
-          {"fr": "Ils sont", "zh": "他們是"},
-          {"fr": "Elles sont", "zh": "她們是"}
+          {
+            "fr": "Je suis",
+            "zh": "我是"
+          },
+          {
+            "fr": "Tu es",
+            "zh": "你是"
+          },
+          {
+            "fr": "Il est",
+            "zh": "他是"
+          },
+          {
+            "fr": "Elle est",
+            "zh": "她是"
+          },
+          {
+            "fr": "On est",
+            "zh": "我們是／大家是（口語）"
+          },
+          {
+            "fr": "Nous sommes",
+            "zh": "我們是"
+          },
+          {
+            "fr": "Vous êtes",
+            "zh": "您是／你們是"
+          },
+          {
+            "fr": "Ils sont",
+            "zh": "他們是"
+          },
+          {
+            "fr": "Elles sont",
+            "zh": "她們是"
+          }
         ]
       },
       {
         "heading": "實際造句練習",
         "note": "用 être 介紹身分、狀態與感受；形容詞要跟主詞做性數配合。",
         "items": [
-          {"fr": "Je suis taïwanais.", "zh": "我是台灣人。"},
-          {"fr": "Tu es étudiant ?", "zh": "你是學生嗎？"},
-          {"fr": "Elle est fatiguée.", "zh": "她累了。"},
-          {"fr": "On est amis.", "zh": "我們是朋友。"},
-          {"fr": "Nous sommes contents.", "zh": "我們很開心。"},
-          {"fr": "Vous êtes prêts ?", "zh": "你們準備好了嗎？"},
-          {"fr": "Ils sont français.", "zh": "他們是法國人。"}
+          {
+            "fr": "Je suis taïwanais.",
+            "zh": "我是台灣人。"
+          },
+          {
+            "fr": "Tu es étudiant ?",
+            "zh": "你是學生嗎？"
+          },
+          {
+            "fr": "Elle est fatiguée.",
+            "zh": "她累了。"
+          },
+          {
+            "fr": "On est amis.",
+            "zh": "我們是朋友。"
+          },
+          {
+            "fr": "Nous sommes contents.",
+            "zh": "我們很開心。"
+          },
+          {
+            "fr": "Vous êtes prêts ?",
+            "zh": "你們準備好了嗎？"
+          },
+          {
+            "fr": "Ils sont français.",
+            "zh": "他們是法國人。"
+          }
         ]
       }
     ],
@@ -50,71 +98,176 @@
         "heading": "1. 一週七天 les jours de la semaine",
         "note": "Une semaine = 7 jours。注意：法文的星期幾都小寫。",
         "items": [
-          {"fr": "lundi", "zh": "星期一"},
-          {"fr": "mardi", "zh": "星期二"},
-          {"fr": "mercredi", "zh": "星期三"},
-          {"fr": "jeudi", "zh": "星期四"},
-          {"fr": "vendredi", "zh": "星期五"},
-          {"fr": "samedi", "zh": "星期六"},
-          {"fr": "dimanche", "zh": "星期日"}
+          {
+            "fr": "lundi",
+            "zh": "星期一"
+          },
+          {
+            "fr": "mardi",
+            "zh": "星期二"
+          },
+          {
+            "fr": "mercredi",
+            "zh": "星期三"
+          },
+          {
+            "fr": "jeudi",
+            "zh": "星期四"
+          },
+          {
+            "fr": "vendredi",
+            "zh": "星期五"
+          },
+          {
+            "fr": "samedi",
+            "zh": "星期六"
+          },
+          {
+            "fr": "dimanche",
+            "zh": "星期日"
+          }
         ]
       },
       {
         "heading": "相對的日子",
         "note": "以「今天 aujourd'hui」為中心，往前往後各推兩天。",
         "items": [
-          {"fr": "avant-hier", "zh": "前天（−2）"},
-          {"fr": "hier", "zh": "昨天（−1）"},
-          {"fr": "aujourd'hui", "zh": "今天（0）"},
-          {"fr": "demain", "zh": "明天（+1）"},
-          {"fr": "après-demain", "zh": "後天（+2）"}
+          {
+            "fr": "avant-hier",
+            "zh": "前天（−2）"
+          },
+          {
+            "fr": "hier",
+            "zh": "昨天（−1）"
+          },
+          {
+            "fr": "aujourd'hui",
+            "zh": "今天（0）"
+          },
+          {
+            "fr": "demain",
+            "zh": "明天（+1）"
+          },
+          {
+            "fr": "après-demain",
+            "zh": "後天（+2）"
+          }
         ]
       },
       {
         "heading": "問今天星期幾",
         "note": "兩種問法意思相同，回答一律用 être。",
         "items": [
-          {"fr": "Quel jour sommes-nous aujourd'hui ?", "zh": "今天星期幾？"},
-          {"fr": "Quel jour on est aujourd'hui ?", "zh": "今天星期幾？（口語）"},
-          {"fr": "Nous sommes jeudi.", "zh": "今天是星期四。"},
-          {"fr": "On est jeudi.", "zh": "今天是星期四。（口語）"}
+          {
+            "fr": "Quel jour sommes-nous aujourd'hui ?",
+            "zh": "今天星期幾？"
+          },
+          {
+            "fr": "Quel jour on est aujourd'hui ?",
+            "zh": "今天星期幾？（口語）"
+          },
+          {
+            "fr": "Nous sommes jeudi.",
+            "zh": "今天是星期四。"
+          },
+          {
+            "fr": "On est jeudi.",
+            "zh": "今天是星期四。（口語）"
+          }
         ]
       },
       {
         "heading": "問今天幾號",
         "note": "le combien 問的是「幾號」。",
         "items": [
-          {"fr": "Nous sommes le combien ?", "zh": "今天幾號？"},
-          {"fr": "On est le combien ?", "zh": "今天幾號？（口語）"},
-          {"fr": "Nous sommes le 29.", "zh": "今天二十九號。"},
-          {"fr": "On est le 29.", "zh": "今天二十九號。（口語）"}
+          {
+            "fr": "Nous sommes le combien ?",
+            "zh": "今天幾號？"
+          },
+          {
+            "fr": "On est le combien ?",
+            "zh": "今天幾號？（口語）"
+          },
+          {
+            "fr": "Nous sommes le 29.",
+            "zh": "今天二十九號。"
+          },
+          {
+            "fr": "On est le 29.",
+            "zh": "今天二十九號。（口語）"
+          }
         ]
       },
       {
         "heading": "問完整日期",
         "note": "格式：le +（星期）+ 數字 + 月份 +（年）。",
         "items": [
-          {"fr": "Quelle est la date aujourd'hui ?", "zh": "今天是幾月幾號？"},
-          {"fr": "Nous sommes le jeudi 29 mars 2026.", "zh": "今天是二○二六年三月二十九日（星期四）。"},
-          {"fr": "On est le 29 mars.", "zh": "今天是三月二十九日。（口語）"}
+          {
+            "fr": "Quelle est la date aujourd'hui ?",
+            "zh": "今天是幾月幾號？"
+          },
+          {
+            "fr": "Nous sommes le jeudi 29 mars 2026.",
+            "zh": "今天是二○二六年三月二十九日（星期四）。"
+          },
+          {
+            "fr": "On est le 29 mars.",
+            "zh": "今天是三月二十九日。（口語）"
+          }
         ]
       },
       {
         "heading": "十二個月份 les mois",
         "note": "和星期一樣，月份書寫時都小寫。",
         "items": [
-          {"fr": "janvier", "zh": "一月"},
-          {"fr": "février", "zh": "二月"},
-          {"fr": "mars", "zh": "三月"},
-          {"fr": "avril", "zh": "四月"},
-          {"fr": "mai", "zh": "五月"},
-          {"fr": "juin", "zh": "六月"},
-          {"fr": "juillet", "zh": "七月"},
-          {"fr": "août", "zh": "八月"},
-          {"fr": "septembre", "zh": "九月"},
-          {"fr": "octobre", "zh": "十月"},
-          {"fr": "novembre", "zh": "十一月"},
-          {"fr": "décembre", "zh": "十二月"}
+          {
+            "fr": "janvier",
+            "zh": "一月"
+          },
+          {
+            "fr": "février",
+            "zh": "二月"
+          },
+          {
+            "fr": "mars",
+            "zh": "三月"
+          },
+          {
+            "fr": "avril",
+            "zh": "四月"
+          },
+          {
+            "fr": "mai",
+            "zh": "五月"
+          },
+          {
+            "fr": "juin",
+            "zh": "六月"
+          },
+          {
+            "fr": "juillet",
+            "zh": "七月"
+          },
+          {
+            "fr": "août",
+            "zh": "八月"
+          },
+          {
+            "fr": "septembre",
+            "zh": "九月"
+          },
+          {
+            "fr": "octobre",
+            "zh": "十月"
+          },
+          {
+            "fr": "novembre",
+            "zh": "十一月"
+          },
+          {
+            "fr": "décembre",
+            "zh": "十二月"
+          }
         ]
       }
     ],
@@ -134,32 +287,92 @@
         "heading": "規則：國家前的介係詞",
         "note": "看國家的「性別、字首、單複數」決定用哪個介係詞；城市一律用 à。",
         "items": [
-          {"fr": "en Suisse", "zh": "在瑞士（陰性國家用 en）"},
-          {"fr": "en Espagne", "zh": "在西班牙（母音開頭國家用 en）"},
-          {"fr": "au Portugal", "zh": "在葡萄牙（陽性、子音開頭用 au）"},
-          {"fr": "au Japon", "zh": "在日本（陽性國家用 au）"},
-          {"fr": "aux Pays-Bas", "zh": "在荷蘭（複數國家用 aux）"},
-          {"fr": "aux États-Unis", "zh": "在美國（複數國家用 aux）"},
-          {"fr": "à Taïwan", "zh": "在台灣（不加冠詞的地名用 à）"},
-          {"fr": "à Taipei", "zh": "在台北（城市一律用 à）"}
+          {
+            "fr": "en Suisse",
+            "zh": "在瑞士（陰性國家用 en）"
+          },
+          {
+            "fr": "en Espagne",
+            "zh": "在西班牙（母音開頭國家用 en）"
+          },
+          {
+            "fr": "au Portugal",
+            "zh": "在葡萄牙（陽性、子音開頭用 au）"
+          },
+          {
+            "fr": "au Japon",
+            "zh": "在日本（陽性國家用 au）"
+          },
+          {
+            "fr": "aux Pays-Bas",
+            "zh": "在荷蘭（複數國家用 aux）"
+          },
+          {
+            "fr": "aux États-Unis",
+            "zh": "在美國（複數國家用 aux）"
+          },
+          {
+            "fr": "à Taïwan",
+            "zh": "在台灣（不加冠詞的地名用 à）"
+          },
+          {
+            "fr": "à Taipei",
+            "zh": "在台北（城市一律用 à）"
+          }
         ]
       },
       {
         "heading": "完整句：認識・居住・國籍",
         "note": "句型：connaître + 國家。habiter + 介係詞 + 國家／城市。être + 國籍（配合性別）。",
         "items": [
-          {"fr": "Pierre connaît la Suisse. Il habite en Suisse. Il est suisse.", "zh": "彼得認識瑞士，住在瑞士，他是瑞士人。（la Suisse 陰性用 en；suisse 陰陽同形）"},
-          {"fr": "Li Na connaît la Chine. Elle habite en Chine, à Shanghai. Elle est chinoise.", "zh": "李娜認識中國，住在中國上海，她是中國人。（la Chine 陰性用 en；女生 chinois→chinoise）"},
-          {"fr": "A-Mei connaît Taïwan. Elle habite à Taïwan, à Taipei. Elle est taïwanaise.", "zh": "阿美認識台灣，住在台灣台北，她是台灣人。（Taïwan 不加冠詞用 à；女生 taïwanais→taïwanaise）"},
-          {"fr": "Niels connaît les Pays-Bas. Il habite aux Pays-Bas, à Amsterdam. Il est néerlandais.", "zh": "尼爾斯認識荷蘭，住在荷蘭阿姆斯特丹，他是荷蘭人。（複數國家用 aux；néerlandais 或 hollandais）"},
-          {"fr": "Simone connaît l'Allemagne. Elle habite en Allemagne, à Berlin. Elle est allemande.", "zh": "西蒙認識德國，住在德國柏林，她是德國人。（l'Allemagne 母音開頭用 en；女生 allemand→allemande）"},
-          {"fr": "Gina connaît l'Italie. Elle habite en Italie, à Rome. Elle est italienne.", "zh": "吉娜認識義大利，住在義大利羅馬，她是義大利人。（l'Italie 用 en；女生 italien→italienne，雙寫 n）"},
-          {"fr": "José connaît le Portugal. Il habite au Portugal, à Lisbonne. Il est portugais.", "zh": "荷西認識葡萄牙，住在葡萄牙里斯本，他是葡萄牙人。（le Portugal 陽性、子音開頭用 au）"},
-          {"fr": "Pedro connaît l'Espagne. Il habite en Espagne, à Madrid. Il est espagnol.", "zh": "佩德羅認識西班牙，住在西班牙馬德里，他是西班牙人。（l'Espagne 母音開頭用 en；男生 espagnol）"},
-          {"fr": "Jerry connaît les États-Unis. Il habite aux États-Unis, à New York. Il est américain.", "zh": "傑瑞認識美國，住在美國紐約，他是美國人。（複數國家用 aux；男生 américain）"},
-          {"fr": "Akira connaît le Japon. Il habite au Japon, à Tokyo. Il est japonais.", "zh": "晶認識日本，住在日本東京，他是日本人。（le Japon 陽性用 au；男生 japonais）"},
-          {"fr": "Kelly connaît l'Angleterre. Elle habite en Angleterre, à Londres. Elle est anglaise.", "zh": "凱莉認識英格蘭，住在英格蘭倫敦，她是英國人。（l'Angleterre 母音開頭用 en；女生 anglais→anglaise）"},
-          {"fr": "Je connais Taïwan. J'habite à Taïwan, à Taipei. Je suis taïwanais.", "zh": "我認識台灣，住在台灣台北，我是台灣人。（Taïwan 用 à；國籍依說話者性別：男 taïwanais／女 taïwanaise）"}
+          {
+            "fr": "Pierre connaît la Suisse. Il habite en Suisse. Il est suisse.",
+            "zh": "彼得認識瑞士，住在瑞士，他是瑞士人。（la Suisse 陰性用 en；suisse 陰陽同形）"
+          },
+          {
+            "fr": "Li Na connaît la Chine. Elle habite en Chine, à Shanghai. Elle est chinoise.",
+            "zh": "李娜認識中國，住在中國上海，她是中國人。（la Chine 陰性用 en；女生 chinois→chinoise）"
+          },
+          {
+            "fr": "A-Mei connaît Taïwan. Elle habite à Taïwan, à Taipei. Elle est taïwanaise.",
+            "zh": "阿美認識台灣，住在台灣台北，她是台灣人。（Taïwan 不加冠詞用 à；女生 taïwanais→taïwanaise）"
+          },
+          {
+            "fr": "Niels connaît les Pays-Bas. Il habite aux Pays-Bas, à Amsterdam. Il est néerlandais.",
+            "zh": "尼爾斯認識荷蘭，住在荷蘭阿姆斯特丹，他是荷蘭人。（複數國家用 aux；néerlandais 或 hollandais）"
+          },
+          {
+            "fr": "Simone connaît l'Allemagne. Elle habite en Allemagne, à Berlin. Elle est allemande.",
+            "zh": "西蒙認識德國，住在德國柏林，她是德國人。（l'Allemagne 母音開頭用 en；女生 allemand→allemande）"
+          },
+          {
+            "fr": "Gina connaît l'Italie. Elle habite en Italie, à Rome. Elle est italienne.",
+            "zh": "吉娜認識義大利，住在義大利羅馬，她是義大利人。（l'Italie 用 en；女生 italien→italienne，雙寫 n）"
+          },
+          {
+            "fr": "José connaît le Portugal. Il habite au Portugal, à Lisbonne. Il est portugais.",
+            "zh": "荷西認識葡萄牙，住在葡萄牙里斯本，他是葡萄牙人。（le Portugal 陽性、子音開頭用 au）"
+          },
+          {
+            "fr": "Pedro connaît l'Espagne. Il habite en Espagne, à Madrid. Il est espagnol.",
+            "zh": "佩德羅認識西班牙，住在西班牙馬德里，他是西班牙人。（l'Espagne 母音開頭用 en；男生 espagnol）"
+          },
+          {
+            "fr": "Jerry connaît les États-Unis. Il habite aux États-Unis, à New York. Il est américain.",
+            "zh": "傑瑞認識美國，住在美國紐約，他是美國人。（複數國家用 aux；男生 américain）"
+          },
+          {
+            "fr": "Akira connaît le Japon. Il habite au Japon, à Tokyo. Il est japonais.",
+            "zh": "晶認識日本，住在日本東京，他是日本人。（le Japon 陽性用 au；男生 japonais）"
+          },
+          {
+            "fr": "Kelly connaît l'Angleterre. Elle habite en Angleterre, à Londres. Elle est anglaise.",
+            "zh": "凱莉認識英格蘭，住在英格蘭倫敦，她是英國人。（l'Angleterre 母音開頭用 en；女生 anglais→anglaise）"
+          },
+          {
+            "fr": "Je connais Taïwan. J'habite à Taïwan, à Taipei. Je suis taïwanais.",
+            "zh": "我認識台灣，住在台灣台北，我是台灣人。（Taïwan 用 à；國籍依說話者性別：男 taïwanais／女 taïwanaise）"
+          }
         ]
       }
     ],
@@ -180,79 +393,172 @@
         "heading": "1. -eur → -euse",
         "note": "陽性 -eur，陰性改成 -euse。",
         "items": [
-          {"fr": "danseur, danseuse", "zh": "舞者（男 danseur → 女 danseuse／dancer）"},
-          {"fr": "vendeur, vendeuse", "zh": "售貨員（vendeur → vendeuse／seller）"},
-          {"fr": "serveur, serveuse", "zh": "服務生（serveur → serveuse／waiter）"},
-          {"fr": "coiffeur, coiffeuse", "zh": "髮型師（coiffeur → coiffeuse／hairdresser）"},
-          {"fr": "joueur, joueuse", "zh": "球員（joueur → joueuse／player，如 de tennis、de basket）"},
-          {"fr": "chanteur, chanteuse", "zh": "歌手（chanteur → chanteuse／singer）"}
+          {
+            "fr": "danseur, danseuse",
+            "zh": "舞者（男 danseur → 女 danseuse／dancer）"
+          },
+          {
+            "fr": "vendeur, vendeuse",
+            "zh": "售貨員（vendeur → vendeuse／seller）"
+          },
+          {
+            "fr": "serveur, serveuse",
+            "zh": "服務生（serveur → serveuse／waiter）"
+          },
+          {
+            "fr": "coiffeur, coiffeuse",
+            "zh": "髮型師（coiffeur → coiffeuse／hairdresser）"
+          },
+          {
+            "fr": "joueur, joueuse",
+            "zh": "球員（joueur → joueuse／player，如 de tennis、de basket）"
+          },
+          {
+            "fr": "chanteur, chanteuse",
+            "zh": "歌手（chanteur → chanteuse／singer）"
+          }
         ]
       },
       {
         "heading": "2. 陽性字尾 + e",
         "note": "陰性直接在陽性後面加 -e（發音常會多出子音）。",
         "items": [
-          {"fr": "étudiant, étudiante", "zh": "學生（étudiant → étudiante／student）"},
-          {"fr": "président, présidente", "zh": "總統／主席（président → présidente／president）"},
-          {"fr": "commercial, commerciale", "zh": "業務員（commercial → commerciale／salesperson）"},
-          {"fr": "avocat, avocate", "zh": "律師（avocat → avocate／lawyer）"},
-          {"fr": "écrivain, écrivaine", "zh": "作家（écrivain → écrivaine／writer）"}
+          {
+            "fr": "étudiant, étudiante",
+            "zh": "學生（étudiant → étudiante／student）"
+          },
+          {
+            "fr": "président, présidente",
+            "zh": "總統／主席（président → présidente／president）"
+          },
+          {
+            "fr": "commercial, commerciale",
+            "zh": "業務員（commercial → commerciale／salesperson）"
+          },
+          {
+            "fr": "avocat, avocate",
+            "zh": "律師（avocat → avocate／lawyer）"
+          },
+          {
+            "fr": "écrivain, écrivaine",
+            "zh": "作家（écrivain → écrivaine／writer）"
+          }
         ]
       },
       {
         "heading": "3. -ien → -ienne",
         "note": "陽性 -ien，陰性改成 -ienne（雙寫 n）。",
         "items": [
-          {"fr": "comédien, comédienne", "zh": "喜劇／舞台演員（comédien → comédienne／comedian）"},
-          {"fr": "informaticien, informaticienne", "zh": "資訊工程師（informaticien → informaticienne／computer scientist）"}
+          {
+            "fr": "comédien, comédienne",
+            "zh": "喜劇／舞台演員（comédien → comédienne／comedian）"
+          },
+          {
+            "fr": "informaticien, informaticienne",
+            "zh": "資訊工程師（informaticien → informaticienne／computer scientist）"
+          }
         ]
       },
       {
         "heading": "4. -e 男女同形（不變）",
         "note": "字尾是 -e 的職業，陰陽性拼法相同，只改前面的冠詞。",
         "items": [
-          {"fr": "artiste", "zh": "藝術家（男女同形／artist）"},
-          {"fr": "journaliste", "zh": "記者（男女同形／journalist）"},
-          {"fr": "dentiste", "zh": "牙醫（男女同形／dentist）"},
-          {"fr": "photographe", "zh": "攝影師（男女同形／photographer）"},
-          {"fr": "cinéaste", "zh": "電影導演（男女同形／director）"},
-          {"fr": "peintre", "zh": "畫家（男女同形／painter）"}
+          {
+            "fr": "artiste",
+            "zh": "藝術家（男女同形／artist）"
+          },
+          {
+            "fr": "journaliste",
+            "zh": "記者（男女同形／journalist）"
+          },
+          {
+            "fr": "dentiste",
+            "zh": "牙醫（男女同形／dentist）"
+          },
+          {
+            "fr": "photographe",
+            "zh": "攝影師（男女同形／photographer）"
+          },
+          {
+            "fr": "cinéaste",
+            "zh": "電影導演（男女同形／director）"
+          },
+          {
+            "fr": "peintre",
+            "zh": "畫家（男女同形／painter）"
+          }
         ]
       },
       {
         "heading": "5. -teur → -trice",
         "note": "陽性 -teur，陰性改成 -trice。",
         "items": [
-          {"fr": "acteur, actrice", "zh": "演員（acteur → actrice／actor）"},
-          {"fr": "réalisateur, réalisatrice", "zh": "導演（réalisateur → réalisatrice／director）"}
+          {
+            "fr": "acteur, actrice",
+            "zh": "演員（acteur → actrice／actor）"
+          },
+          {
+            "fr": "réalisateur, réalisatrice",
+            "zh": "導演（réalisateur → réalisatrice／director）"
+          }
         ]
       },
       {
         "heading": "6. -er → -ère",
         "note": "陽性 -er，陰性改成 -ère（加重音符號）。",
         "items": [
-          {"fr": "boulanger, boulangère", "zh": "麵包師傅（boulanger → boulangère／baker）"},
-          {"fr": "banquier, banquière", "zh": "銀行家（banquier → banquière／banker）"},
-          {"fr": "infirmier, infirmière", "zh": "護理師（infirmier → infirmière／nurse）"},
-          {"fr": "couturier, couturière", "zh": "服裝設計師（couturier → couturière／fashion designer）"}
+          {
+            "fr": "boulanger, boulangère",
+            "zh": "麵包師傅（boulanger → boulangère／baker）"
+          },
+          {
+            "fr": "banquier, banquière",
+            "zh": "銀行家（banquier → banquière／banker）"
+          },
+          {
+            "fr": "infirmier, infirmière",
+            "zh": "護理師（infirmier → infirmière／nurse）"
+          },
+          {
+            "fr": "couturier, couturière",
+            "zh": "服裝設計師（couturier → couturière／fashion designer）"
+          }
         ]
       },
       {
         "heading": "7. 沒有陰性形式（Pas de féminin）",
         "note": "有些職業只有一種形式，男女都用同一個字。",
         "items": [
-          {"fr": "professeur", "zh": "老師（無陰性形式／teacher）"},
-          {"fr": "ingénieur", "zh": "工程師（無陰性形式／engineer）"},
-          {"fr": "docteur", "zh": "博士／醫生（無陰性形式／doctor）"},
-          {"fr": "médecin", "zh": "醫生（無陰性形式／doctor）"}
+          {
+            "fr": "professeur",
+            "zh": "老師（無陰性形式／teacher）"
+          },
+          {
+            "fr": "ingénieur",
+            "zh": "工程師（無陰性形式／engineer）"
+          },
+          {
+            "fr": "docteur",
+            "zh": "博士／醫生（無陰性形式／doctor）"
+          },
+          {
+            "fr": "médecin",
+            "zh": "醫生（無陰性形式／doctor）"
+          }
         ]
       },
       {
         "heading": "補充：-phone 語言使用者",
         "note": "字尾 -phone 表示「說某種語言的人」，男女同形。",
         "items": [
-          {"fr": "anglophone", "zh": "說英語的人（男女同形／English-speaking）"},
-          {"fr": "francophone", "zh": "說法語的人（男女同形／French-speaking）"}
+          {
+            "fr": "anglophone",
+            "zh": "說英語的人（男女同形／English-speaking）"
+          },
+          {
+            "fr": "francophone",
+            "zh": "說法語的人（男女同形／French-speaking）"
+          }
         ]
       }
     ],
@@ -273,46 +579,112 @@
         "heading": "avoir 變位（複習）",
         "note": "先把 avoir 的六個人稱記熟。",
         "items": [
-          {"fr": "J'ai", "zh": "我有"},
-          {"fr": "Tu as", "zh": "你有"},
-          {"fr": "Il / Elle / On a", "zh": "他／她／我們有"},
-          {"fr": "Nous avons", "zh": "我們有"},
-          {"fr": "Vous avez", "zh": "您／你們有"},
-          {"fr": "Ils / Elles ont", "zh": "他們／她們有"}
+          {
+            "fr": "J'ai",
+            "zh": "我有"
+          },
+          {
+            "fr": "Tu as",
+            "zh": "你有"
+          },
+          {
+            "fr": "Il / Elle / On a",
+            "zh": "他／她／我們有"
+          },
+          {
+            "fr": "Nous avons",
+            "zh": "我們有"
+          },
+          {
+            "fr": "Vous avez",
+            "zh": "您／你們有"
+          },
+          {
+            "fr": "Ils / Elles ont",
+            "zh": "他們／她們有"
+          }
         ]
       },
       {
         "heading": "生理感受與狀態",
         "note": "這些在英文用 be，法文一律用 avoir。",
         "items": [
-          {"fr": "J'ai faim.", "zh": "我餓了。"},
-          {"fr": "J'ai soif.", "zh": "我渴了。"},
-          {"fr": "J'ai chaud.", "zh": "我覺得熱。"},
-          {"fr": "J'ai froid.", "zh": "我覺得冷。"}
+          {
+            "fr": "J'ai faim.",
+            "zh": "我餓了。"
+          },
+          {
+            "fr": "J'ai soif.",
+            "zh": "我渴了。"
+          },
+          {
+            "fr": "J'ai chaud.",
+            "zh": "我覺得熱。"
+          },
+          {
+            "fr": "J'ai froid.",
+            "zh": "我覺得冷。"
+          }
         ]
       },
       {
         "heading": "心情表達",
         "note": "avoir le cafard（低落）↔ avoir la pêche（有活力）。",
         "items": [
-          {"fr": "Aujourd'hui, j'ai le cafard.", "zh": "今天我心情很低落。"},
-          {"fr": "Ça va ? Tu n'as pas l'air bien aujourd'hui.", "zh": "還好嗎？你今天看起來不太好。"},
-          {"fr": "Non, j'ai le cafard.", "zh": "不好，我心情很低落。"},
-          {"fr": "Oui, j'ai la pêche !", "zh": "很好，我精神很好、很有活力！"},
-          {"fr": "Je suis de bonne humeur.", "zh": "我心情很好。（正確說法用 être de bonne humeur）"}
+          {
+            "fr": "Aujourd'hui, j'ai le cafard.",
+            "zh": "今天我心情很低落。"
+          },
+          {
+            "fr": "Ça va ? Tu n'as pas l'air bien aujourd'hui.",
+            "zh": "還好嗎？你今天看起來不太好。"
+          },
+          {
+            "fr": "Non, j'ai le cafard.",
+            "zh": "不好，我心情很低落。"
+          },
+          {
+            "fr": "Oui, j'ai la pêche !",
+            "zh": "很好，我精神很好、很有活力！"
+          },
+          {
+            "fr": "Je suis de bonne humeur.",
+            "zh": "我心情很好。（正確說法用 être de bonne humeur）"
+          }
         ]
       },
       {
         "heading": "害怕：avoir peur de…",
         "note": "avoir peur de + 名詞：怕某樣東西。",
         "items": [
-          {"fr": "J'ai peur des araignées.", "zh": "我怕蜘蛛。"},
-          {"fr": "Et vous ? Vous avez peur de quoi ?", "zh": "那你們呢？你們怕什麼？"},
-          {"fr": "J'ai peur des serpents.", "zh": "我怕蛇。"},
-          {"fr": "J'ai peur des cafards.", "zh": "我怕蟑螂。"},
-          {"fr": "J'ai peur du noir.", "zh": "我怕黑。"},
-          {"fr": "J'ai peur des fantômes.", "zh": "我怕鬼。"},
-          {"fr": "J'ai peur des insectes.", "zh": "我怕昆蟲。"}
+          {
+            "fr": "J'ai peur des araignées.",
+            "zh": "我怕蜘蛛。"
+          },
+          {
+            "fr": "Et vous ? Vous avez peur de quoi ?",
+            "zh": "那你們呢？你們怕什麼？"
+          },
+          {
+            "fr": "J'ai peur des serpents.",
+            "zh": "我怕蛇。"
+          },
+          {
+            "fr": "J'ai peur des cafards.",
+            "zh": "我怕蟑螂。"
+          },
+          {
+            "fr": "J'ai peur du noir.",
+            "zh": "我怕黑。"
+          },
+          {
+            "fr": "J'ai peur des fantômes.",
+            "zh": "我怕鬼。"
+          },
+          {
+            "fr": "J'ai peur des insectes.",
+            "zh": "我怕昆蟲。"
+          }
         ]
       }
     ],
@@ -333,50 +705,128 @@
         "heading": "喜好程度（由高到低）",
         "note": "從最愛到最討厭的七個級距。",
         "items": [
-          {"fr": "J'adore.", "zh": "我超愛。❤❤❤❤"},
-          {"fr": "J'aime beaucoup.", "zh": "我很喜歡。❤❤❤"},
-          {"fr": "J'aime.", "zh": "我喜歡。❤❤"},
-          {"fr": "J'aime bien.", "zh": "我還蠻喜歡。❤"},
-          {"fr": "Je n'aime pas trop.", "zh": "我不太喜歡。✖"},
-          {"fr": "Je n'aime pas.", "zh": "我不喜歡。✖✖"},
-          {"fr": "Je déteste.", "zh": "我討厭。✖✖✖"}
+          {
+            "fr": "J'adore.",
+            "zh": "我超愛。❤❤❤❤"
+          },
+          {
+            "fr": "J'aime beaucoup.",
+            "zh": "我很喜歡。❤❤❤"
+          },
+          {
+            "fr": "J'aime.",
+            "zh": "我喜歡。❤❤"
+          },
+          {
+            "fr": "J'aime bien.",
+            "zh": "我還蠻喜歡。❤"
+          },
+          {
+            "fr": "Je n'aime pas trop.",
+            "zh": "我不太喜歡。✖"
+          },
+          {
+            "fr": "Je n'aime pas.",
+            "zh": "我不喜歡。✖✖"
+          },
+          {
+            "fr": "Je déteste.",
+            "zh": "我討厭。✖✖✖"
+          }
         ]
       },
       {
         "heading": "aimer + 定冠詞 + 名詞",
         "note": "喜歡「某一類」事物，名詞前用 le / la / l' / les（不用 un/une）。",
         "items": [
-          {"fr": "J'aime le shopping.", "zh": "我喜歡購物。（le：陽性）"},
-          {"fr": "J'aime le cinéma.", "zh": "我喜歡看電影。"},
-          {"fr": "J'aime le café.", "zh": "我喜歡咖啡。"},
-          {"fr": "J'aime la natation.", "zh": "我喜歡游泳。（la：陰性）"},
-          {"fr": "J'aime la plage.", "zh": "我喜歡海灘。"},
-          {"fr": "J'aime la musique.", "zh": "我喜歡音樂。"},
-          {"fr": "J'aime l'opéra.", "zh": "我喜歡歌劇。（l'：母音開頭）"},
-          {"fr": "J'aime l'équitation.", "zh": "我喜歡騎馬。"},
-          {"fr": "J'aime les animaux.", "zh": "我喜歡動物。（les：複數）"},
-          {"fr": "J'aime les voyages.", "zh": "我喜歡旅行。"},
-          {"fr": "J'aime les gâteaux.", "zh": "我喜歡蛋糕。"}
+          {
+            "fr": "J'aime le shopping.",
+            "zh": "我喜歡購物。（le：陽性）"
+          },
+          {
+            "fr": "J'aime le cinéma.",
+            "zh": "我喜歡看電影。"
+          },
+          {
+            "fr": "J'aime le café.",
+            "zh": "我喜歡咖啡。"
+          },
+          {
+            "fr": "J'aime la natation.",
+            "zh": "我喜歡游泳。（la：陰性）"
+          },
+          {
+            "fr": "J'aime la plage.",
+            "zh": "我喜歡海灘。"
+          },
+          {
+            "fr": "J'aime la musique.",
+            "zh": "我喜歡音樂。"
+          },
+          {
+            "fr": "J'aime l'opéra.",
+            "zh": "我喜歡歌劇。（l'：母音開頭）"
+          },
+          {
+            "fr": "J'aime l'équitation.",
+            "zh": "我喜歡騎馬。"
+          },
+          {
+            "fr": "J'aime les animaux.",
+            "zh": "我喜歡動物。（les：複數）"
+          },
+          {
+            "fr": "J'aime les voyages.",
+            "zh": "我喜歡旅行。"
+          },
+          {
+            "fr": "J'aime les gâteaux.",
+            "zh": "我喜歡蛋糕。"
+          }
         ]
       },
       {
         "heading": "aimer + 原形動詞",
         "note": "喜歡「做某件事」，直接接動詞原形。",
         "items": [
-          {"fr": "J'adore les voyages.", "zh": "我超愛旅行。"},
-          {"fr": "J'aime dormir.", "zh": "我喜歡睡覺。"},
-          {"fr": "Je n'aime pas le sport.", "zh": "我不喜歡運動。"},
-          {"fr": "Je déteste travailler.", "zh": "我討厭工作。"}
+          {
+            "fr": "J'adore les voyages.",
+            "zh": "我超愛旅行。"
+          },
+          {
+            "fr": "J'aime dormir.",
+            "zh": "我喜歡睡覺。"
+          },
+          {
+            "fr": "Je n'aime pas le sport.",
+            "zh": "我不喜歡運動。"
+          },
+          {
+            "fr": "Je déteste travailler.",
+            "zh": "我討厭工作。"
+          }
         ]
       },
       {
         "heading": "問答對話",
         "note": "用 Est-ce que 問喜好，Et toi ? 反問對方。",
         "items": [
-          {"fr": "Est-ce que tu aimes le shopping ?", "zh": "你喜歡購物嗎？"},
-          {"fr": "Oui, j'aime bien le shopping.", "zh": "嗯，我還蠻喜歡購物的。"},
-          {"fr": "Non, je n'aime pas le shopping.", "zh": "不，我不喜歡購物。"},
-          {"fr": "Et toi ?", "zh": "那你呢？"}
+          {
+            "fr": "Est-ce que tu aimes le shopping ?",
+            "zh": "你喜歡購物嗎？"
+          },
+          {
+            "fr": "Oui, j'aime bien le shopping.",
+            "zh": "嗯，我還蠻喜歡購物的。"
+          },
+          {
+            "fr": "Non, je n'aime pas le shopping.",
+            "zh": "不，我不喜歡購物。"
+          },
+          {
+            "fr": "Et toi ?",
+            "zh": "那你呢？"
+          }
         ]
       }
     ],
@@ -397,39 +847,84 @@
         "heading": "是非問句 Est-ce que…?",
         "note": "句首加 Est-ce que 就變成問句，回答 Oui / Non。",
         "items": [
-          {"fr": "Est-ce que tu es taïwanais ?", "zh": "你是台灣人嗎？"},
-          {"fr": "Est-ce que tu es ingénieur logiciel ?", "zh": "你是軟體工程師嗎？"},
-          {"fr": "Est-ce que tu habites au Royaume-Uni ?", "zh": "你住在英國嗎？"},
-          {"fr": "Est-ce que tu habites à Taïwan ?", "zh": "你住在台灣嗎？"},
-          {"fr": "Oui, j'habite au Royaume-Uni, à Londres.", "zh": "是的，我住在英國倫敦。"},
-          {"fr": "Non, je n'habite pas à Taïwan.", "zh": "不，我不住在台灣。"}
+          {
+            "fr": "Est-ce que tu es taïwanais ?",
+            "zh": "你是台灣人嗎？"
+          },
+          {
+            "fr": "Est-ce que tu es ingénieur logiciel ?",
+            "zh": "你是軟體工程師嗎？"
+          },
+          {
+            "fr": "Est-ce que tu habites au Royaume-Uni ?",
+            "zh": "你住在英國嗎？"
+          },
+          {
+            "fr": "Est-ce que tu habites à Taïwan ?",
+            "zh": "你住在台灣嗎？"
+          },
+          {
+            "fr": "Oui, j'habite au Royaume-Uni, à Londres.",
+            "zh": "是的，我住在英國倫敦。"
+          },
+          {
+            "fr": "Non, je n'habite pas à Taïwan.",
+            "zh": "不，我不住在台灣。"
+          }
         ]
       },
       {
         "heading": "問職業 Qu'est-ce que…?",
         "note": "Qu'est-ce que tu fais dans la vie ? = 你是做什麼工作的？職業前不加冠詞。",
         "items": [
-          {"fr": "Qu'est-ce que tu fais dans la vie ?", "zh": "你是做什麼的？（你的職業是什麼）"},
-          {"fr": "Je suis ingénieur logiciel.", "zh": "我是軟體工程師。"},
-          {"fr": "Je suis professeur de français en ligne.", "zh": "我是線上法語老師。"}
+          {
+            "fr": "Qu'est-ce que tu fais dans la vie ?",
+            "zh": "你是做什麼的？（你的職業是什麼）"
+          },
+          {
+            "fr": "Je suis ingénieur logiciel.",
+            "zh": "我是軟體工程師。"
+          },
+          {
+            "fr": "Je suis professeur de français en ligne.",
+            "zh": "我是線上法語老師。"
+          }
         ]
       },
       {
         "heading": "問年齡與工作地點",
         "note": "年齡用 avoir；工作地點用 dans + 冠詞。",
         "items": [
-          {"fr": "Vous avez quel âge ?", "zh": "您幾歲？"},
-          {"fr": "Où est-ce que tu travailles ?", "zh": "你在哪裡工作？"},
-          {"fr": "Je travaille dans un bureau.", "zh": "我在辦公室工作。"},
-          {"fr": "Je travaille dans une école.", "zh": "我在學校工作。"},
-          {"fr": "Je travaille dans un hôpital.", "zh": "我在醫院工作。"}
+          {
+            "fr": "Vous avez quel âge ?",
+            "zh": "您幾歲？"
+          },
+          {
+            "fr": "Où est-ce que tu travailles ?",
+            "zh": "你在哪裡工作？"
+          },
+          {
+            "fr": "Je travaille dans un bureau.",
+            "zh": "我在辦公室工作。"
+          },
+          {
+            "fr": "Je travaille dans une école.",
+            "zh": "我在學校工作。"
+          },
+          {
+            "fr": "Je travaille dans un hôpital.",
+            "zh": "我在醫院工作。"
+          }
         ]
       },
       {
         "heading": "完整自我介紹範例",
         "note": "把 connaître + habiter + être（國籍）+ être（職業）串起來。",
         "items": [
-          {"fr": "Je connais Taïwan. J'habite au Royaume-Uni, à Londres. Je suis taïwanais. Je suis ingénieur logiciel.", "zh": "我認識台灣。我住在英國倫敦。我是台灣人。我是軟體工程師。"}
+          {
+            "fr": "Je connais Taïwan. J'habite au Royaume-Uni, à Londres. Je suis taïwanais. Je suis ingénieur logiciel.",
+            "zh": "我認識台灣。我住在英國倫敦。我是台灣人。我是軟體工程師。"
+          }
         ]
       }
     ],
@@ -450,111 +945,294 @@
         "heading": "AIMER 完整變位（肯定＋否定）",
         "note": "講義第一頁的填空練習答案。注意：-e / -es / -ent 字尾都不發音，所以 aime、aimes、aiment 聽起來一模一樣；母音開頭所以 je 縮寫成 j'。",
         "items": [
-          {"fr": "J'aime", "zh": "我喜歡"},
-          {"fr": "Tu aimes", "zh": "你喜歡"},
-          {"fr": "Il aime", "zh": "他喜歡"},
-          {"fr": "Elle aime", "zh": "她喜歡"},
-          {"fr": "Nous aimons", "zh": "我們喜歡（聽 nous-z-aimons 的連音）"},
-          {"fr": "Vous aimez", "zh": "您／你們喜歡（vous-z-aimez）"},
-          {"fr": "Ils aiment", "zh": "他們喜歡（ils-z-aiment）"},
-          {"fr": "Je n'aime pas", "zh": "我不喜歡（ne 遇母音縮成 n'）"},
-          {"fr": "Tu n'aimes pas", "zh": "你不喜歡"},
-          {"fr": "Il n'aime pas", "zh": "他不喜歡"},
-          {"fr": "Nous n'aimons pas", "zh": "我們不喜歡"},
-          {"fr": "Vous n'aimez pas", "zh": "您／你們不喜歡"},
-          {"fr": "Ils n'aiment pas", "zh": "他們不喜歡"}
+          {
+            "fr": "J'aime",
+            "zh": "我喜歡"
+          },
+          {
+            "fr": "Tu aimes",
+            "zh": "你喜歡"
+          },
+          {
+            "fr": "Il aime",
+            "zh": "他喜歡"
+          },
+          {
+            "fr": "Elle aime",
+            "zh": "她喜歡"
+          },
+          {
+            "fr": "Nous aimons",
+            "zh": "我們喜歡（聽 nous-z-aimons 的連音）"
+          },
+          {
+            "fr": "Vous aimez",
+            "zh": "您／你們喜歡（vous-z-aimez）"
+          },
+          {
+            "fr": "Ils aiment",
+            "zh": "他們喜歡（ils-z-aiment）"
+          },
+          {
+            "fr": "Je n'aime pas",
+            "zh": "我不喜歡（ne 遇母音縮成 n'）"
+          },
+          {
+            "fr": "Tu n'aimes pas",
+            "zh": "你不喜歡"
+          },
+          {
+            "fr": "Il n'aime pas",
+            "zh": "他不喜歡"
+          },
+          {
+            "fr": "Nous n'aimons pas",
+            "zh": "我們不喜歡"
+          },
+          {
+            "fr": "Vous n'aimez pas",
+            "zh": "您／你們不喜歡"
+          },
+          {
+            "fr": "Ils n'aiment pas",
+            "zh": "他們不喜歡"
+          }
         ]
       },
       {
         "heading": "主題單字 1 · Les boissons 飲料",
         "note": "背的時候連定冠詞一起背，之後接在 J'aime 後面直接就能用。",
         "items": [
-          {"fr": "le café", "zh": "咖啡"},
-          {"fr": "le thé", "zh": "茶"},
-          {"fr": "les jus de fruits", "zh": "果汁"},
-          {"fr": "l'eau", "zh": "水（母音開頭用 l'）"},
-          {"fr": "le Coca", "zh": "可樂"},
-          {"fr": "le chocolat chaud", "zh": "熱可可"}
+          {
+            "fr": "le café",
+            "zh": "咖啡"
+          },
+          {
+            "fr": "le thé",
+            "zh": "茶"
+          },
+          {
+            "fr": "les jus de fruits",
+            "zh": "果汁"
+          },
+          {
+            "fr": "l'eau",
+            "zh": "水（母音開頭用 l'）"
+          },
+          {
+            "fr": "le Coca",
+            "zh": "可樂"
+          },
+          {
+            "fr": "le chocolat chaud",
+            "zh": "熱可可"
+          }
         ]
       },
       {
         "heading": "主題單字 2 · La nourriture 食物",
         "items": [
-          {"fr": "les nouilles", "zh": "麵"},
-          {"fr": "la pizza", "zh": "披薩"},
-          {"fr": "les gâteaux", "zh": "蛋糕（單數 le gâteau，複數 -eaux）"},
-          {"fr": "les fruits", "zh": "水果"},
-          {"fr": "le poisson", "zh": "魚"},
-          {"fr": "la viande", "zh": "肉"}
+          {
+            "fr": "les nouilles",
+            "zh": "麵"
+          },
+          {
+            "fr": "la pizza",
+            "zh": "披薩"
+          },
+          {
+            "fr": "les gâteaux",
+            "zh": "蛋糕（單數 le gâteau，複數 -eaux）"
+          },
+          {
+            "fr": "les fruits",
+            "zh": "水果"
+          },
+          {
+            "fr": "le poisson",
+            "zh": "魚"
+          },
+          {
+            "fr": "la viande",
+            "zh": "肉"
+          }
         ]
       },
       {
         "heading": "主題單字 3 · Les loisirs 休閒",
         "items": [
-          {"fr": "la randonnée", "zh": "健行"},
-          {"fr": "le cinéma", "zh": "電影（去電影院看電影）"},
-          {"fr": "les voyages", "zh": "旅行"},
-          {"fr": "le sport", "zh": "運動"},
-          {"fr": "le KTV", "zh": "KTV（法國人會說 le karaoké）"},
-          {"fr": "le shopping", "zh": "購物"}
+          {
+            "fr": "la randonnée",
+            "zh": "健行"
+          },
+          {
+            "fr": "le cinéma",
+            "zh": "電影（去電影院看電影）"
+          },
+          {
+            "fr": "les voyages",
+            "zh": "旅行"
+          },
+          {
+            "fr": "le sport",
+            "zh": "運動"
+          },
+          {
+            "fr": "le KTV",
+            "zh": "KTV（法國人會說 le karaoké）"
+          },
+          {
+            "fr": "le shopping",
+            "zh": "購物"
+          }
         ]
       },
       {
         "heading": "主題單字 4 · Le sport 運動",
         "items": [
-          {"fr": "la natation", "zh": "游泳"},
-          {"fr": "le base-ball", "zh": "棒球"},
-          {"fr": "le football", "zh": "足球"},
-          {"fr": "le yoga", "zh": "瑜珈"},
-          {"fr": "la danse", "zh": "舞蹈"},
-          {"fr": "le jogging", "zh": "慢跑（也可說 la course à pied）"}
+          {
+            "fr": "la natation",
+            "zh": "游泳"
+          },
+          {
+            "fr": "le base-ball",
+            "zh": "棒球"
+          },
+          {
+            "fr": "le football",
+            "zh": "足球"
+          },
+          {
+            "fr": "le yoga",
+            "zh": "瑜珈"
+          },
+          {
+            "fr": "la danse",
+            "zh": "舞蹈"
+          },
+          {
+            "fr": "le jogging",
+            "zh": "慢跑（也可說 la course à pied）"
+          }
         ]
       },
       {
         "heading": "主題單字 5 · La musique 音樂",
         "items": [
-          {"fr": "le jazz", "zh": "爵士樂"},
-          {"fr": "le classique", "zh": "古典樂"},
-          {"fr": "l'opéra", "zh": "歌劇"},
-          {"fr": "la pop", "zh": "流行樂"},
-          {"fr": "le rock", "zh": "搖滾樂"},
-          {"fr": "le hip-hop", "zh": "嘻哈"}
+          {
+            "fr": "le jazz",
+            "zh": "爵士樂"
+          },
+          {
+            "fr": "le classique",
+            "zh": "古典樂"
+          },
+          {
+            "fr": "l'opéra",
+            "zh": "歌劇"
+          },
+          {
+            "fr": "la pop",
+            "zh": "流行樂"
+          },
+          {
+            "fr": "le rock",
+            "zh": "搖滾樂"
+          },
+          {
+            "fr": "le hip-hop",
+            "zh": "嘻哈"
+          }
         ]
       },
       {
         "heading": "主題單字 6 · Les animaux 動物",
         "note": "談「喜不喜歡某種動物」時用複數：J'aime les chats。",
         "items": [
-          {"fr": "les chats", "zh": "貓"},
-          {"fr": "les chiens", "zh": "狗"},
-          {"fr": "les cafards", "zh": "蟑螂"},
-          {"fr": "les serpents", "zh": "蛇"},
-          {"fr": "les araignées", "zh": "蜘蛛"},
-          {"fr": "les lapins", "zh": "兔子"}
+          {
+            "fr": "les chats",
+            "zh": "貓"
+          },
+          {
+            "fr": "les chiens",
+            "zh": "狗"
+          },
+          {
+            "fr": "les cafards",
+            "zh": "蟑螂"
+          },
+          {
+            "fr": "les serpents",
+            "zh": "蛇"
+          },
+          {
+            "fr": "les araignées",
+            "zh": "蜘蛛"
+          },
+          {
+            "fr": "les lapins",
+            "zh": "兔子"
+          }
         ]
       },
       {
         "heading": "用 ça 回答：j'aime ça / je déteste ça",
         "note": "回答時不想重複整個名詞，就用 ça（那個）代替；問「做某件事」（動詞）也可以用 ça 回答。",
         "items": [
-          {"fr": "Tu aimes le café ?", "zh": "你喜歡咖啡嗎？"},
-          {"fr": "Oui, j'adore ça.", "zh": "喜歡，我超愛（咖啡）。"},
-          {"fr": "Non, je déteste ça.", "zh": "不，我討厭（咖啡）。"},
-          {"fr": "Tu aimes lire ?", "zh": "你喜歡閱讀嗎？"},
-          {"fr": "Oui, j'aime ça.", "zh": "喜歡，我喜歡（閱讀）。"},
-          {"fr": "Non, j'aime pas trop ça.", "zh": "不，我不太喜歡。（口語省略 ne）"},
-          {"fr": "Tu aimes le Japon ?", "zh": "你喜歡日本嗎？"},
-          {"fr": "Oui, j'aime bien. Oui, je l'aime.", "zh": "喜歡啊。／喜歡，我喜歡它。（國家等特定事物用 le/la 代替）"},
-          {"fr": "Non, je n'aime pas.", "zh": "不，我不喜歡。"}
+          {
+            "fr": "Tu aimes le café ?",
+            "zh": "你喜歡咖啡嗎？"
+          },
+          {
+            "fr": "Oui, j'adore ça.",
+            "zh": "喜歡，我超愛（咖啡）。"
+          },
+          {
+            "fr": "Non, je déteste ça.",
+            "zh": "不，我討厭（咖啡）。"
+          },
+          {
+            "fr": "Tu aimes lire ?",
+            "zh": "你喜歡閱讀嗎？"
+          },
+          {
+            "fr": "Oui, j'aime ça.",
+            "zh": "喜歡，我喜歡（閱讀）。"
+          },
+          {
+            "fr": "Non, j'aime pas trop ça.",
+            "zh": "不，我不太喜歡。（口語省略 ne）"
+          },
+          {
+            "fr": "Tu aimes le Japon ?",
+            "zh": "你喜歡日本嗎？"
+          },
+          {
+            "fr": "Oui, j'aime bien. Oui, je l'aime.",
+            "zh": "喜歡啊。／喜歡，我喜歡它。（國家等特定事物用 le/la 代替）"
+          },
+          {
+            "fr": "Non, je n'aime pas.",
+            "zh": "不，我不喜歡。"
+          }
         ]
       },
       {
         "heading": "PRÉFÉRER：我更喜歡…",
         "note": "回答喜好時話鋒一轉：「還可以，但我更喜歡…」。注意變位時 é 變 è：je préfère。",
         "items": [
-          {"fr": "Tu aimes le jazz ?", "zh": "你喜歡爵士樂嗎？"},
-          {"fr": "Oui, j'aime bien ça, mais je préfère la pop.", "zh": "喜歡，還不錯，但我更喜歡流行樂。"},
-          {"fr": "Non, je n'aime pas trop ça, je préfère le rock.", "zh": "不，我不太喜歡，我比較喜歡搖滾。"}
+          {
+            "fr": "Tu aimes le jazz ?",
+            "zh": "你喜歡爵士樂嗎？"
+          },
+          {
+            "fr": "Oui, j'aime bien ça, mais je préfère la pop.",
+            "zh": "喜歡，還不錯，但我更喜歡流行樂。"
+          },
+          {
+            "fr": "Non, je n'aime pas trop ça, je préfère le rock.",
+            "zh": "不，我不太喜歡，我比較喜歡搖滾。"
+          }
         ]
       }
     ],
@@ -576,84 +1254,228 @@
         "heading": "CONNAÎTRE 變位（現在式）",
         "note": "第三組不規則動詞。單數三個人稱發音相同（/kɔnɛ/，字尾 s / t 不發音）；複數變位多了 -ss-，唸 /kɔnɛs/。il/elle connaît 的 î 上面有長音符。",
         "items": [
-          {"fr": "Je connais", "zh": "我認識"},
-          {"fr": "Tu connais", "zh": "你認識"},
-          {"fr": "Il connaît", "zh": "他認識（î 有帽子！）"},
-          {"fr": "Elle connaît", "zh": "她認識"},
-          {"fr": "Nous connaissons", "zh": "我們認識"},
-          {"fr": "Vous connaissez", "zh": "您／你們認識"},
-          {"fr": "Ils connaissent", "zh": "他們認識（聽得到 -ss-）"},
-          {"fr": "Elles connaissent", "zh": "她們認識"}
+          {
+            "fr": "Je connais",
+            "zh": "我認識"
+          },
+          {
+            "fr": "Tu connais",
+            "zh": "你認識"
+          },
+          {
+            "fr": "Il connaît",
+            "zh": "他認識（î 有帽子！）"
+          },
+          {
+            "fr": "Elle connaît",
+            "zh": "她認識"
+          },
+          {
+            "fr": "Nous connaissons",
+            "zh": "我們認識"
+          },
+          {
+            "fr": "Vous connaissez",
+            "zh": "您／你們認識"
+          },
+          {
+            "fr": "Ils connaissent",
+            "zh": "他們認識（聽得到 -ss-）"
+          },
+          {
+            "fr": "Elles connaissent",
+            "zh": "她們認識"
+          }
         ]
       },
       {
         "heading": "Vous connaissez… ? 你認識…嗎？",
         "note": "問對方認不認識某個人。回答常用 C'est…（這是…）來介紹。",
         "items": [
-          {"fr": "Vous connaissez Boris ?", "zh": "您認識 Boris 嗎？"},
-          {"fr": "Oui, c'est mon professeur de français.", "zh": "認識，他是我的法文老師。"},
-          {"fr": "Vous connaissez William Shakespeare ?", "zh": "您知道莎士比亞嗎？"},
-          {"fr": "Oui, c'est un écrivain anglais.", "zh": "知道，他是英國作家。"},
-          {"fr": "Non, c'est qui ?", "zh": "不知道，他是誰？"},
-          {"fr": "C'est un écrivain anglais.", "zh": "他是一位英國作家。"}
+          {
+            "fr": "Vous connaissez Boris ?",
+            "zh": "您認識 Boris 嗎？"
+          },
+          {
+            "fr": "Oui, c'est mon professeur de français.",
+            "zh": "認識，他是我的法文老師。"
+          },
+          {
+            "fr": "Vous connaissez William Shakespeare ?",
+            "zh": "您知道莎士比亞嗎？"
+          },
+          {
+            "fr": "Oui, c'est un écrivain anglais.",
+            "zh": "知道，他是英國作家。"
+          },
+          {
+            "fr": "Non, c'est qui ?",
+            "zh": "不知道，他是誰？"
+          },
+          {
+            "fr": "C'est un écrivain anglais.",
+            "zh": "他是一位英國作家。"
+          }
         ]
       },
       {
         "heading": "Qui est-ce ? 這是誰？",
         "note": "介紹一個人的完整句組：C'est＋名字 → Il/Elle est＋國籍 → Il/Elle est＋職業 → C'est un/une＋職業＋國籍。",
         "items": [
-          {"fr": "Qui est-ce ?", "zh": "這是誰？（正式）"},
-          {"fr": "C'est qui ?", "zh": "這是誰？（口語）"},
-          {"fr": "C'est Jean-Paul Gaultier. Il est français. Il est couturier. C'est un couturier français.", "zh": "這是高緹耶。他是法國人。他是服裝設計師。他是一位法國服裝設計師。"},
-          {"fr": "C'est Ang Lee. Il est taïwanais. Il est réalisateur. C'est un réalisateur taïwanais.", "zh": "這是李安。他是台灣人。他是導演。他是一位台灣導演。"},
-          {"fr": "C'est Haruki Murakami. Il est japonais. Il est écrivain. C'est un écrivain japonais.", "zh": "這是村上春樹。他是日本人。他是作家。他是一位日本作家。"},
-          {"fr": "C'est Céline Dion. Elle est canadienne. Elle est chanteuse. C'est une chanteuse canadienne.", "zh": "這是席琳狄翁。她是加拿大人。她是歌手。她是一位加拿大歌手。"},
-          {"fr": "C'est Serena Williams. Elle est américaine. Elle est joueuse de tennis. C'est une joueuse de tennis américaine.", "zh": "這是小威廉絲。她是美國人。她是網球選手。"},
-          {"fr": "C'est Zhang Ziyi. Elle est chinoise. Elle est actrice. C'est une actrice chinoise.", "zh": "這是章子怡。她是中國人。她是演員。"},
-          {"fr": "C'est Jamie Oliver. Il est anglais. Il est cuisinier. C'est un cuisinier anglais.", "zh": "這是傑米奧利佛。他是英國人。他是廚師。"}
+          {
+            "fr": "Qui est-ce ?",
+            "zh": "這是誰？（正式）"
+          },
+          {
+            "fr": "C'est qui ?",
+            "zh": "這是誰？（口語）"
+          },
+          {
+            "fr": "C'est Jean-Paul Gaultier. Il est français. Il est couturier. C'est un couturier français.",
+            "zh": "這是高緹耶。他是法國人。他是服裝設計師。他是一位法國服裝設計師。"
+          },
+          {
+            "fr": "C'est Ang Lee. Il est taïwanais. Il est réalisateur. C'est un réalisateur taïwanais.",
+            "zh": "這是李安。他是台灣人。他是導演。他是一位台灣導演。"
+          },
+          {
+            "fr": "C'est Haruki Murakami. Il est japonais. Il est écrivain. C'est un écrivain japonais.",
+            "zh": "這是村上春樹。他是日本人。他是作家。他是一位日本作家。"
+          },
+          {
+            "fr": "C'est Céline Dion. Elle est canadienne. Elle est chanteuse. C'est une chanteuse canadienne.",
+            "zh": "這是席琳狄翁。她是加拿大人。她是歌手。她是一位加拿大歌手。"
+          },
+          {
+            "fr": "C'est Serena Williams. Elle est américaine. Elle est joueuse de tennis. C'est une joueuse de tennis américaine.",
+            "zh": "這是小威廉絲。她是美國人。她是網球選手。"
+          },
+          {
+            "fr": "C'est Zhang Ziyi. Elle est chinoise. Elle est actrice. C'est une actrice chinoise.",
+            "zh": "這是章子怡。她是中國人。她是演員。"
+          },
+          {
+            "fr": "C'est Jamie Oliver. Il est anglais. Il est cuisinier. C'est un cuisinier anglais.",
+            "zh": "這是傑米奧利佛。他是英國人。他是廚師。"
+          }
         ]
       },
       {
         "heading": "職業的陰陽性",
         "note": "介紹男性用陽性、女性用陰性，拼字和發音都會變。",
         "items": [
-          {"fr": "couturier, couturière", "zh": "服裝設計師（男／女）"},
-          {"fr": "chanteur, chanteuse", "zh": "歌手（男／女）"},
-          {"fr": "réalisateur, réalisatrice", "zh": "導演（男／女）"},
-          {"fr": "acteur, actrice", "zh": "演員（男／女）"},
-          {"fr": "cuisinier, cuisinière", "zh": "廚師（男／女）"},
-          {"fr": "joueur de tennis, joueuse de tennis", "zh": "網球選手（男／女）"},
-          {"fr": "écrivain, écrivaine", "zh": "作家（男／女）"}
+          {
+            "fr": "couturier, couturière",
+            "zh": "服裝設計師（男／女）"
+          },
+          {
+            "fr": "chanteur, chanteuse",
+            "zh": "歌手（男／女）"
+          },
+          {
+            "fr": "réalisateur, réalisatrice",
+            "zh": "導演（男／女）"
+          },
+          {
+            "fr": "acteur, actrice",
+            "zh": "演員（男／女）"
+          },
+          {
+            "fr": "cuisinier, cuisinière",
+            "zh": "廚師（男／女）"
+          },
+          {
+            "fr": "joueur de tennis, joueuse de tennis",
+            "zh": "網球選手（男／女）"
+          },
+          {
+            "fr": "écrivain, écrivaine",
+            "zh": "作家（男／女）"
+          }
         ]
       },
       {
         "heading": "國籍的陰陽性",
         "note": "陰性通常加 -e，字尾發音跟著改變：français /-ɛ/ → française /-ɛz/。",
         "items": [
-          {"fr": "français, française", "zh": "法國的（男／女）"},
-          {"fr": "canadien, canadienne", "zh": "加拿大的"},
-          {"fr": "anglais, anglaise", "zh": "英國的"},
-          {"fr": "japonais, japonaise", "zh": "日本的"},
-          {"fr": "taïwanais, taïwanaise", "zh": "台灣的"},
-          {"fr": "américain, américaine", "zh": "美國的"},
-          {"fr": "chinois, chinoise", "zh": "中國的"}
+          {
+            "fr": "français, française",
+            "zh": "法國的（男／女）"
+          },
+          {
+            "fr": "canadien, canadienne",
+            "zh": "加拿大的"
+          },
+          {
+            "fr": "anglais, anglaise",
+            "zh": "英國的"
+          },
+          {
+            "fr": "japonais, japonaise",
+            "zh": "日本的"
+          },
+          {
+            "fr": "taïwanais, taïwanaise",
+            "zh": "台灣的"
+          },
+          {
+            "fr": "américain, américaine",
+            "zh": "美國的"
+          },
+          {
+            "fr": "chinois, chinoise",
+            "zh": "中國的"
+          }
         ]
       },
       {
         "heading": "Quiz：Vous connaissez… ?（課本練習參考答案）",
         "note": "用「Un/Une＋職業＋國籍？」問，回答直接說名字。這是課堂上的練習題。",
         "items": [
-          {"fr": "Une actrice française ? — Sophie Marceau.", "zh": "一位法國女演員？——蘇菲瑪索"},
-          {"fr": "Un peintre espagnol ? — Pablo Picasso.", "zh": "一位西班牙畫家？——畢卡索"},
-          {"fr": "Un artiste italien ? — Léonard de Vinci.", "zh": "一位義大利藝術家？——達文西"},
-          {"fr": "Une marque allemande ? — BMW.", "zh": "一個德國品牌？——BMW"},
-          {"fr": "Une marque japonaise ? — Uniqlo, Sony, Toyota.", "zh": "一個日本品牌？"},
-          {"fr": "Un couturier français ? — Jean-Paul Gaultier.", "zh": "一位法國服裝設計師？——高緹耶"},
-          {"fr": "Un chanteur américain ? — Michael Jackson.", "zh": "一位美國歌手？——麥可傑克森"},
-          {"fr": "Un footballeur portugais ? — Cristiano Ronaldo.", "zh": "一位葡萄牙足球員？——C羅"},
-          {"fr": "Un basketteur français ? — Tony Parker.", "zh": "一位法國籃球員？——東尼帕克"},
-          {"fr": "Une chanteuse anglaise ? — Adele.", "zh": "一位英國女歌手？——愛黛兒"},
-          {"fr": "Un réalisateur hong-kongais ? — Wong Kar-wai.", "zh": "一位香港導演？——王家衛"}
+          {
+            "fr": "Une actrice française ? — Sophie Marceau.",
+            "zh": "一位法國女演員？——蘇菲瑪索"
+          },
+          {
+            "fr": "Un peintre espagnol ? — Pablo Picasso.",
+            "zh": "一位西班牙畫家？——畢卡索"
+          },
+          {
+            "fr": "Un artiste italien ? — Léonard de Vinci.",
+            "zh": "一位義大利藝術家？——達文西"
+          },
+          {
+            "fr": "Une marque allemande ? — BMW.",
+            "zh": "一個德國品牌？——BMW"
+          },
+          {
+            "fr": "Une marque japonaise ? — Uniqlo, Sony, Toyota.",
+            "zh": "一個日本品牌？"
+          },
+          {
+            "fr": "Un couturier français ? — Jean-Paul Gaultier.",
+            "zh": "一位法國服裝設計師？——高緹耶"
+          },
+          {
+            "fr": "Un chanteur américain ? — Michael Jackson.",
+            "zh": "一位美國歌手？——麥可傑克森"
+          },
+          {
+            "fr": "Un footballeur portugais ? — Cristiano Ronaldo.",
+            "zh": "一位葡萄牙足球員？——C羅"
+          },
+          {
+            "fr": "Un basketteur français ? — Tony Parker.",
+            "zh": "一位法國籃球員？——東尼帕克"
+          },
+          {
+            "fr": "Une chanteuse anglaise ? — Adele.",
+            "zh": "一位英國女歌手？——愛黛兒"
+          },
+          {
+            "fr": "Un réalisateur hong-kongais ? — Wong Kar-wai.",
+            "zh": "一位香港導演？——王家衛"
+          }
         ]
       }
     ],
@@ -663,6 +1485,157 @@
       "拼字陷阱：il/elle connaît 的 î 一定要戴帽子（長音符）。",
       "介紹身分兩種說法：Il est couturier（不加冠詞）vs C'est un couturier français（加 un/une）——「Il est + 職業」永遠不加冠詞。",
       "職業和國籍都要跟人物性別配合：Il est chanteur → Elle est chanteuse。"
+    ]
+  },
+  {
+    "id": "cest-il-est",
+    "title": "C'EST et IL EST — 這是… 他是…",
+    "date": "2026-07-16",
+    "summary": "C'est 用來「辨識、指名」（後面接名詞，要加冠詞或所有格）；Il est 用來「描述」（後面接形容詞）。複數用 Ce sont，但問句一律用單數問。",
+    "sections": [
+      {
+        "heading": "C'EST：辨識、指名（後接名詞）",
+        "note": "C'est = 這是／那是，用來指認一樣東西或一個人，後面接「冠詞 + 名詞」或「所有格 + 名詞」。",
+        "items": [
+          {
+            "fr": "C'est un fruit.",
+            "zh": "這是一個水果。"
+          },
+          {
+            "fr": "C'est mon voisin.",
+            "zh": "這是我的鄰居。"
+          },
+          {
+            "fr": "C'est un dessin de ma fille.",
+            "zh": "這是我女兒畫的一張畫。"
+          },
+          {
+            "fr": "C'est mon cousin.",
+            "zh": "這是我的表（堂）兄弟。"
+          },
+          {
+            "fr": "C'est mon livre.",
+            "zh": "這是我的書。"
+          },
+          {
+            "fr": "C'est une rose.",
+            "zh": "這是一朵玫瑰。"
+          }
+        ]
+      },
+      {
+        "heading": "單數 → 複數：C'est ➜ Ce sont",
+        "note": "指認「很多個」的時候，C'est 要變成 Ce sont，後面的冠詞／所有格與名詞也一起變複數（un→des、mon→mes）。",
+        "items": [
+          {
+            "fr": "C'est un fruit. ➜ Ce sont des fruits.",
+            "zh": "這是一個水果。➜ 這些是水果。"
+          },
+          {
+            "fr": "C'est mon voisin. ➜ Ce sont mes voisins.",
+            "zh": "這是我的鄰居。➜ 這些是我的鄰居。"
+          },
+          {
+            "fr": "C'est un dessin de ma fille. ➜ Ce sont des dessins de ma fille.",
+            "zh": "這是我女兒的一張畫。➜ 這些是我女兒的畫。"
+          },
+          {
+            "fr": "C'est mon cousin. ➜ Ce sont mes cousins.",
+            "zh": "這是我表兄弟。➜ 這些是我的表兄弟。"
+          }
+        ]
+      },
+      {
+        "heading": "問句一律用單數問",
+        "note": "就算答案是複數，發問的時候都用單數：Qu'est-ce que c'est ?（問東西）、Qui est-ce ?／C'est qui ?（問人）。",
+        "items": [
+          {
+            "fr": "Qu'est-ce que c'est ?",
+            "zh": "這是什麼？（問「東西」）"
+          },
+          {
+            "fr": "— C'est un dessin de ma fille. / Ce sont des dessins de ma fille.",
+            "zh": "——這是我女兒的畫。／這些是我女兒的畫。"
+          },
+          {
+            "fr": "Qui est-ce ?",
+            "zh": "這是誰？（問「人」，正式）"
+          },
+          {
+            "fr": "— C'est mon cousin. / Ce sont mes cousins.",
+            "zh": "——這是我表兄弟。／這些是我的表兄弟。"
+          },
+          {
+            "fr": "Qui est-ce ? — C'est Peter Kirov.",
+            "zh": "這是誰？——這是 Peter Kirov。"
+          }
+        ]
+      },
+      {
+        "heading": "IL EST：描述（後接形容詞）",
+        "note": "Il est / Elle est = 他是／她是，用來「描述」顏色、外表、特徵，後面接形容詞（形容詞要跟名詞做陰陽性配合）。",
+        "items": [
+          {
+            "fr": "C'est mon livre. Il est bleu.",
+            "zh": "這是我的書。它是藍色的。"
+          },
+          {
+            "fr": "C'est une rose. Elle est belle.",
+            "zh": "這是一朵玫瑰。它很美。"
+          },
+          {
+            "fr": "C'est Peter. Il est blond.",
+            "zh": "這是 Peter。他是金髮。"
+          },
+          {
+            "fr": "C'est Anna. Elle est brune.",
+            "zh": "這是 Anna。她是深髮色（褐髮）。"
+          }
+        ]
+      },
+      {
+        "heading": "C'EST vs IL EST 對照",
+        "note": "同一個對象：先用 C'est 指認（接名詞），再用 Il/Elle est 描述（接形容詞）。",
+        "items": [
+          {
+            "fr": "C'est un livre. Il est bleu.",
+            "zh": "指認：這是一本書。描述：它是藍色的。"
+          },
+          {
+            "fr": "C'est Peter. Il est blond.",
+            "zh": "指認：這是 Peter。描述：他是金髮。"
+          },
+          {
+            "fr": "C'est Anna. Elle est brune.",
+            "zh": "指認：這是 Anna。描述：她是褐髮。"
+          },
+          {
+            "fr": "C'est une rose. Elle est belle.",
+            "zh": "指認：這是一朵玫瑰。描述：它很美。"
+          }
+        ]
+      },
+      {
+        "heading": "常見錯誤：不要說 Qui est-il ? Il est Peter.",
+        "note": "介紹「這是誰」時要用 Qui est-ce ? 回答用 C'est + 名字。Il est 後面不接名字（名字是名詞，要用 C'est）。",
+        "items": [
+          {
+            "fr": "Qui est-ce ? C'est Peter Kirov.",
+            "zh": "✅ 這是誰？這是 Peter Kirov。"
+          },
+          {
+            "fr": "Qui est-il ? Il est Peter Kirov.",
+            "zh": "❌ 錯誤說法：Il est 後面不接名字。"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "C'est = 辨識／指名，後面接「名詞」（要有冠詞 un/une 或所有格 mon/ma）：C'est un fruit、C'est mon livre。",
+      "Il est / Elle est = 描述，後面接「形容詞」：Il est bleu、Elle est belle；形容詞要跟名詞陰陽性配合。",
+      "複數用 Ce sont（不是 C'est）：C'est un fruit ➜ Ce sont des fruits；冠詞／所有格也要變複數（un→des、mon→mes）。",
+      "問句一律用單數問：Qu'est-ce que c'est ?（問東西）、Qui est-ce ? / C'est qui ?（問人），就算答案是複數也一樣。",
+      "介紹名字用 C'est + 名字，不要用「Il est + 名字」：✅ C'est Peter，❌ Il est Peter。"
     ]
   }
 ]
