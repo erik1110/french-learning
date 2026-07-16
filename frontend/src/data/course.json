@@ -407,5 +407,175 @@
         ]
       }
     ]
+  },
+  {
+    "stage": 5,
+    "title": "談過去：說出「做過什麼」",
+    "description": "現在式說順了嗎？這個階段跨進 A2：用複合過去式和未完成過去式，把發生過的事、以前的習慣都講出來。",
+    "lessons": [
+      {
+        "id": "passe-compose-avoir",
+        "title": "複合過去式（用 avoir）",
+        "goal": "會用 avoir + 過去分詞說「我做了…」",
+        "sections": [
+          { "type": "grammar", "level": "A2", "orderIndex": 1 },
+          {
+            "type": "vocab",
+            "level": "A2",
+            "tag": "動詞",
+            "note": "把常用動詞的過去分詞記起來：manger → mangé、faire → fait、voir → vu。點單字聽發音。"
+          }
+        ],
+        "tips": [
+          "多數動詞用 avoir 當助動詞：J'ai mangé（我吃了）、Tu as fini（你完成了）。",
+          "-er 動詞的過去分詞都是 -é：parler → parlé，發音和原形一樣。",
+          "口語問句：Tu as passé un bon week-end ?（週末過得好嗎？）"
+        ]
+      },
+      {
+        "id": "passe-compose-etre",
+        "title": "複合過去式（用 être）與移動動詞",
+        "goal": "記住用 être 的移動動詞，過去分詞要跟主詞配合",
+        "sections": [
+          { "type": "grammar", "level": "A2", "orderIndex": 2 },
+          {
+            "type": "vocab",
+            "level": "A1",
+            "tag": "地點",
+            "note": "移動動詞常配地點：aller à la gare、arriver à Paris。用這些地點練習「去了哪裡」。"
+          }
+        ],
+        "tips": [
+          "一小群移動／狀態改變動詞用 être：aller, venir, arriver, partir, entrer, sortir, monter, descendre, rester, tomber, naître, mourir。",
+          "用 être 時，過去分詞要跟主詞做性數配合：Elle est allée、Ils sont partis。",
+          "口訣「DR & MRS VANDERTRAMP」可以幫你記這些 être 動詞。"
+        ]
+      },
+      {
+        "id": "imparfait",
+        "title": "未完成過去式與「以前…」",
+        "goal": "會描述過去的狀態、習慣與背景",
+        "sections": [
+          { "type": "grammar", "level": "A2", "orderIndex": 3 },
+          {
+            "type": "vocab",
+            "level": "A1",
+            "tag": "情緒",
+            "note": "imparfait 很適合描述當時的心情與狀態：J'étais content、Il faisait beau。"
+          }
+        ],
+        "tips": [
+          "imparfait 語幹＝現在式 nous 去掉 -ons，再加 -ais, -ais, -ait, -ions, -iez, -aient。",
+          "用來說「以前常做的事」和「當時的背景」：Quand j'étais petit, je jouais au foot。",
+          "être 的語幹不規則：ét-（j'étais、tu étais…）。"
+        ]
+      },
+      {
+        "id": "past-contrast",
+        "title": "兩種過去式怎麼選",
+        "goal": "分辨 passé composé（發生的事）與 imparfait（背景／習慣）",
+        "sections": [
+          { "type": "grammar", "level": "A2", "orderIndex": 4 },
+          { "type": "dialogue", "title": "談興趣嗜好" }
+        ],
+        "tips": [
+          "passé composé＝故事的「事件」（然後發生了…）；imparfait＝故事的「背景」（當時正在…）。",
+          "常見組合：Je dormais quand le téléphone a sonné（我在睡覺時電話響了）。",
+          "背景／描述／習慣用 imparfait，一次性完成的動作用 passé composé。"
+        ]
+      }
+    ]
+  },
+  {
+    "stage": 6,
+    "title": "計畫未來與日常表達",
+    "description": "用未來式談計畫，用代動詞說每天的作息，再學會受詞代名詞、比較級和命令式，讓句子更自然、更道地。",
+    "lessons": [
+      {
+        "id": "futur-simple",
+        "title": "簡單未來式 futur simple",
+        "goal": "會用未來式談計畫與預測",
+        "sections": [
+          { "type": "grammar", "level": "A2", "orderIndex": 5 },
+          {
+            "type": "vocab",
+            "level": "A2",
+            "tag": "旅遊",
+            "note": "用旅遊單字談未來的計畫：Cet été, je voyagerai en France。"
+          }
+        ],
+        "tips": [
+          "規則動詞語幹＝原形（-re 去尾 e），加 -ai, -as, -a, -ons, -ez, -ont。",
+          "不規則語幹要背：être→ser-、avoir→aur-、aller→ir-、faire→fer-、venir→viendr-。",
+          "近未來（aller + 原形）談近期計畫；futur simple 談較遠或較正式的未來。"
+        ]
+      },
+      {
+        "id": "pronominal-verbs",
+        "title": "代動詞與每日作息",
+        "goal": "會用 se lever、se coucher 說一天的作息",
+        "sections": [
+          { "type": "grammar", "level": "A2", "orderIndex": 6 },
+          {
+            "type": "vocab",
+            "level": "A1",
+            "tag": "時間",
+            "note": "配上時間說作息：Je me lève à sept heures、Je me couche à onze heures。"
+          }
+        ],
+        "tips": [
+          "代動詞前面要加反身代名詞：je me、tu te、il se、nous nous、vous vous、ils se。",
+          "作息常用：se réveiller（醒來）、se lever（起床）、se laver（洗澡）、s'habiller（穿衣）、se coucher（就寢）。",
+          "過去式用 être：Je me suis levé(e) tôt。"
+        ]
+      },
+      {
+        "id": "object-pronouns",
+        "title": "受詞代名詞",
+        "goal": "用 le/la/les、lui/leur 代替名詞，句子更精簡",
+        "sections": [
+          { "type": "grammar", "level": "A2", "orderIndex": 7 },
+          { "type": "grammar", "level": "A2", "orderIndex": 8 }
+        ],
+        "tips": [
+          "直接受詞：le（他／它）、la（她／它）、les（他們）——Tu vois Marie ? Oui, je la vois。",
+          "間接受詞（à + 人）：lui（給他／她）、leur（給他們）——Je téléphone à Paul → Je lui téléphone。",
+          "y 代替「à + 地點」，en 代替「de + 名詞／數量」：J'y vais、J'en veux deux。"
+        ]
+      },
+      {
+        "id": "comparatives",
+        "title": "比較級與最高級",
+        "goal": "會說「比較…」「最…」",
+        "sections": [
+          { "type": "grammar", "level": "A2", "orderIndex": 9 },
+          {
+            "type": "vocab",
+            "level": "A2",
+            "tag": "形容詞",
+            "note": "用形容詞做比較：plus grand que（比…大）、moins cher que（比…便宜）。"
+          }
+        ],
+        "tips": [
+          "比較級：plus / moins / aussi + 形容詞 + que：Il est plus grand que moi。",
+          "最高級：le / la / les plus + 形容詞：C'est le plus grand musée de Paris。",
+          "特殊：bon → meilleur（更好）、bien → mieux（更好地）。"
+        ]
+      },
+      {
+        "id": "imperative-daily",
+        "title": "命令式與給建議",
+        "goal": "會用命令式給指令、建議與邀請",
+        "sections": [
+          { "type": "grammar", "level": "A2", "orderIndex": 10 },
+          { "type": "dialogue", "title": "邀請來家裡" }
+        ],
+        "tips": [
+          "命令式用 tu / nous / vous 三個形式，去掉主詞：Regarde !、Regardons !、Regardez !",
+          "-er 動詞的 tu 命令式去掉字尾 s：Mange !（吃吧！）、Va !（去吧！）。",
+          "邀請與建議：Viens chez moi !（來我家！）、Prenons un café。（我們去喝杯咖啡吧。）"
+        ]
+      }
+    ]
   }
 ]

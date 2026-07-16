@@ -133,6 +133,155 @@ export function conjugate(v) {
   return { subjects: SUBJECTS, present, passeCompose, futur }
 }
 
+// --- global search across every content type ---------------------------------
+// Matches a Chinese or French query against vocab, units, grammar, verbs,
+// dialogues and in-class lessons, returning grouped, ranked results.
+
+// Part-of-speech tags are too broad to be useful as a "related topic" (e.g.
+// there are 127 「動詞」cards); topical tags like 運動休閒 / 時間 are.
+const POS_TAGS = new Set([
+  '動詞', '形容詞', '副詞', '名詞', '其他名詞', '介係詞', '連接詞', '常用語', '招呼用語',
+])
+
+function normQuery(s) {
+  return (s ?? '').toString().trim().toLowerCase()
+}
+
+// Score how well `text` matches the already-normalised query `q`.
+// exact > whole-segment > prefix > substring. Returns 0 for no match.
+function scoreText(text, q) {
+  if (!text || !q) return 0
+  const t = text.toString().toLowerCase()
+  if (t === q) return 100
+  const segs = t.split(/[\s,，、；;:：/／()（）.。!！?？·・—－\-]+/).filter(Boolean)
+  if (segs.includes(q)) return 80
+  if (t.startsWith(q)) return 55
+  if (t.includes(q)) return 35
+  return 0
+}
+
+function best(...scores) {
+  return scores.reduce((m, s) => (s > m ? s : m), 0)
+}
+
+export function searchAll(rawQuery) {
+  const q = normQuery(rawQuery)
+  if (!q) return null
+
+  // vocab cards
+  const cardScored = SEED_CARDS.map((c) => ({
+    card: c,
+    score: best(
+      scoreText(c.french, q),
+      scoreText(c.translation, q),
+      scoreText(c.tag, q) * 0.9,
+      scoreText(c.example, q) * 0.5,
+      scoreText(c.exampleTranslation, q) * 0.5,
+    ),
+  }))
+    .filter((x) => x.score > 0)
+    .sort((a, b) => b.score - a.score)
+  const cards = cardScored.map((x) => x.card)
+
+  // related topical categories: tags whose name matches, plus the topical tags
+  // of the strongest card matches (this is what surfaces "運動" when you type 游泳)
+  const catMap = new Map()
+  const addCat = (level, tag, score) => {
+    if (!tag) return
+    const key = `${level}|${tag}`
+    const prev = catMap.get(key)
+    if (!prev || score > prev.score) catMap.set(key, { level, tag, score })
+  }
+  for (const level of LEVELS) {
+    for (const tag of categoriesFor(level)) {
+      const s = scoreText(tag, q)
+      if (s > 0) addCat(level, tag, s + (POS_TAGS.has(tag) ? 0 : 25))
+    }
+  }
+  for (const { card, score } of cardScored.slice(0, 8)) {
+    if (card.tag && !POS_TAGS.has(card.tag)) addCat(card.level, card.tag, score - 10)
+  }
+  const categories = [...catMap.values()]
+    .map((c) => ({ ...c, count: vocabFor(c.level, c.tag).length }))
+    .filter((c) => c.count > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 6)
+
+  // units / themes
+  const units = UNITS.map((u) => ({
+    u,
+    score: best(
+      scoreText(u.title, q),
+      scoreText(u.category, q) * 0.9,
+      scoreText(u.intro, q) * 0.6,
+      ...u.items.slice(0, 80).map((it) => best(scoreText(it.fr, q), scoreText(it.zh, q)) * 0.5),
+    ),
+  }))
+    .filter((x) => x.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .map((x) => x.u)
+
+  // grammar
+  const grammar = GRAMMAR.map((g) => ({
+    g,
+    score: best(
+      scoreText(g.title, q),
+      scoreText(g.summary, q) * 0.8,
+      scoreText(g.content, q) * 0.4,
+      ...(g.examples || []).map((ex) => best(scoreText(ex.fr, q), scoreText(ex.zh, q)) * 0.5),
+    ),
+  }))
+    .filter((x) => x.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .map((x) => x.g)
+
+  // verbs
+  const verbs = VERBS.map((v) => ({
+    v,
+    score: best(scoreText(v.inf, q), scoreText(v.zh, q)),
+  }))
+    .filter((x) => x.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .map((x) => x.v)
+
+  // dialogues
+  const dialogues = DIALOGUES.map((d) => ({
+    d,
+    score: best(
+      scoreText(d.title, q),
+      scoreText(d.category, q) * 0.8,
+      scoreText(d.scene, q) * 0.6,
+      ...d.lines.map((l) => best(scoreText(l.french, q), scoreText(l.translation, q)) * 0.4),
+    ),
+  }))
+    .filter((x) => x.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .map((x) => x.d)
+
+  // in-class lesson reviews
+  const lessons = LESSONS.map((le) => ({
+    le,
+    score: best(
+      scoreText(le.title, q),
+      scoreText(le.summary, q) * 0.7,
+      ...le.sections.map((sec) =>
+        best(
+          scoreText(sec.heading, q),
+          ...sec.items.map((it) => best(scoreText(it.fr, q), scoreText(it.zh, q)) * 0.4),
+        ),
+      ),
+    ),
+  }))
+    .filter((x) => x.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .map((x) => x.le)
+
+  const total =
+    cards.length + units.length + grammar.length + verbs.length + dialogues.length + lessons.length
+
+  return { q: rawQuery.trim(), cards, categories, units, grammar, verbs, dialogues, lessons, total }
+}
+
 // --- localStorage ---
 const K_UNFAMILIAR = 'fl_unfamiliar'
 const K_CUSTOM = 'fl_custom_cards'

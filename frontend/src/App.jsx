@@ -17,6 +17,7 @@ import {
   toggleLessonDone,
   conjugate,
   categoriesFor,
+  searchAll,
   loadCards,
   toggleUnfamiliar,
   addCustomCard,
@@ -36,6 +37,7 @@ import {
 } from './speech'
 
 const TABS = [
+  { key: 'search', label: '🔍 搜尋' },
   { key: 'course', label: '🗺️ 學習路徑' },
   { key: 'cards', label: '📇 單字卡' },
   { key: 'lessons', label: '📚 課程複習' },
@@ -214,6 +216,7 @@ export default function App() {
         ))}
       </nav>
 
+      {tab === 'search' && <SearchView cards={cards} reload={reload} goVocab={goVocab} />}
       {tab === 'course' && <CourseView goVocab={goVocab} />}
       {tab === 'cards' && <CardsView cards={cards} reload={reload} preset={cardsPreset} />}
       {tab === 'lessons' && <LessonsView />}
@@ -439,6 +442,51 @@ function SpeakableItems({ items }) {
   )
 }
 
+// Article + gender info for a noun card. Returns null for non-nouns / genderless
+// words. The definite article elides to l' before a vowel or (mute) h.
+function genderInfo(card) {
+  if (card.gender !== 'm' && card.gender !== 'f') return null
+  const isMasc = card.gender === 'm'
+  const startsVowel = /^[aeiouhâàéèêîïôùûAEIOUH]/.test(card.french || '')
+  const def = startsVowel ? "l'" : isMasc ? 'le' : 'la'
+  const indef = isMasc ? 'un' : 'une'
+  return { isMasc, indef, def, label: isMasc ? '陽性' : '陰性' }
+}
+
+// Vocab list for the learning path: same look as SpeakableItems, but each noun
+// carries an article + gender badge that reveals on hover (always shown on
+// touch devices, which have no hover).
+function VocabItems({ cards }) {
+  return (
+    <div className="unit-items">
+      {cards.map((c, i) => {
+        const g = genderInfo(c)
+        const title = g
+          ? `${g.indef} ${c.french}（${g.def} ${c.french}）· ${g.label}．點擊發音`
+          : '點擊發音'
+        return (
+          <button
+            key={i}
+            className={g ? 'unit-item vocab-item has-gender' : 'unit-item vocab-item'}
+            title={title}
+            onClick={() => speakFrench(c.french)}
+          >
+            <span className="unit-fr">
+              {g && (
+                <span className={g.isMasc ? 'art-badge masc' : 'art-badge fem'}>
+                  {g.indef} · {g.def}
+                </span>
+              )}
+              🔊 {c.french}
+            </span>
+            <span className="unit-zh">{c.translation}</span>
+          </button>
+        )
+      })}
+    </div>
+  )
+}
+
 function CourseSection({ section, goVocab }) {
   const badge = <span className="course-badge">{SECTION_BADGES[section.type]}</span>
 
@@ -575,7 +623,8 @@ function CourseSection({ section, goVocab }) {
           </span>
         </h4>
         {section.note && <p className="muted">{section.note}</p>}
-        <SpeakableItems items={shown.map((c) => ({ fr: c.french, zh: c.translation }))} />
+        <p className="muted vocab-hint">滑鼠移到單字上（手機直接顯示）可看冠詞與陰陽性。</p>
+        <VocabItems cards={shown} />
         <button className="course-more" onClick={() => goVocab(section.level, section.tag)}>
           📇 到單字卡練習「{section.tag}」全部 {words.length} 個字 →
         </button>
@@ -746,6 +795,270 @@ function CourseView({ goVocab }) {
           </div>
         )
       })}
+    </>
+  )
+}
+
+/* -------------------------------- search --------------------------------- */
+
+const SEARCH_SUGGESTIONS = ['國籍', '有', '游泳', '時間', '日期', '顏色', '家人', '點餐']
+
+function SearchVerbBlock({ verb }) {
+  const { present } = conjugate(verb)
+  return (
+    <div className="conj-block">
+      <h4>
+        {verb.inf} <span className="muted">· {verb.zh}（第 {verb.group} 組）</span>
+      </h4>
+      <div className="conj-grid">
+        {present.map((f, i) => (
+          <button key={i} className="conj-cell" title="發音" onClick={() => speakFrench(f)}>
+            🔊 {f}
+          </button>
+        ))}
+      </div>
+      <p className="muted">以上為現在式；完整過去／未來變位請見「🔧 動詞變化」分頁。</p>
+    </div>
+  )
+}
+
+function SearchUnitBlock({ unit }) {
+  const preview = unit.items.slice(0, 12)
+  return (
+    <div className="conj-block">
+      <h4>
+        {unit.title}
+        <button
+          className="speak-mini"
+          title="全部播放"
+          onClick={() => speakFrenchSequence(unit.items.map((it) => it.fr))}
+        >
+          ▶
+        </button>
+      </h4>
+      <p className="muted">{unit.intro}</p>
+      <SpeakableItems items={preview} />
+      {unit.items.length > preview.length && (
+        <p className="muted">…共 {unit.items.length} 個，到「🔢 單元主題」看完整列表。</p>
+      )}
+    </div>
+  )
+}
+
+function SearchGrammarBlock({ g }) {
+  return (
+    <div className="course-section">
+      <h4>
+        {g.title}
+        <span className="course-sub">{g.summary}</span>
+      </h4>
+      <div className="grammar-content">
+        {g.content}
+        {g.examples?.length > 0 && (
+          <div className="grammar-examples">
+            <h4>🔊 例句發音</h4>
+            {g.examples.map((ex, i) => (
+              <div key={i} className="gx-line">
+                <button className="speak-mini" title="唸這句" onClick={() => speakFrench(ex.fr)}>
+                  🔊
+                </button>
+                <span className="gx-fr">{ex.fr}</span>
+                <span className="gx-zh">{ex.zh}</span>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
+function SearchDialogueBlock({ d }) {
+  return (
+    <div className="conj-block">
+      <h4>
+        {d.title}
+        <button
+          className="speak-mini"
+          title="全部播放"
+          onClick={() => speakFrenchSequence(d.lines.map((l) => l.french))}
+        >
+          ▶
+        </button>
+      </h4>
+      <p className="muted">
+        {d.category} · {d.scene}
+      </p>
+      <div className="dlg-lines">
+        {d.lines.map((line, i) => (
+          <div key={i} className="dlg-line">
+            <span className="speaker">{line.speaker}</span>
+            <div className="dlg-text">
+              <div className="dlg-fr">
+                <span>{line.french}</span>
+                <button className="speak-mini" title="唸這句" onClick={() => speakFrench(line.french)}>
+                  🔊
+                </button>
+              </div>
+              <div className="dlg-zh">{line.translation}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+const SEARCH_CARD_LIMIT = 18
+
+function SearchView({ cards, reload, goVocab }) {
+  const [query, setQuery] = useState('')
+
+  const liveById = useMemo(() => {
+    const m = new Map()
+    for (const c of cards) m.set(c.id, c)
+    return m
+  }, [cards])
+
+  const results = useMemo(() => searchAll(query), [query])
+
+  return (
+    <>
+      <div className="search-box">
+        <span className="search-icon">🔍</span>
+        <input
+          className="search-input"
+          type="search"
+          placeholder="輸入中文或法文，例如：國籍、有、游泳、時間…"
+          value={query}
+          onChange={(e) => {
+            stopSpeaking()
+            setQuery(e.target.value)
+          }}
+          autoFocus
+        />
+        {query && (
+          <button className="search-clear" title="清除" onClick={() => setQuery('')}>
+            ✕
+          </button>
+        )}
+      </div>
+
+      <div className="search-suggest">
+        <span className="muted">試試：</span>
+        {SEARCH_SUGGESTIONS.map((s) => (
+          <button key={s} className="chip" onClick={() => setQuery(s)}>
+            {s}
+          </button>
+        ))}
+      </div>
+
+      {!results ? (
+        <p className="muted">
+          輸入關鍵字，一次找到相關的主題單元、文法、動詞變化、單字卡（含造句）與情境對話。
+        </p>
+      ) : results.total === 0 ? (
+        <p className="empty">找不到與「{results.q}」相關的內容，換個關鍵字試試看。</p>
+      ) : (
+        <>
+          <p className="muted search-count">
+            找到 {results.total} 筆與「{results.q}」相關的結果
+          </p>
+
+          {results.units.length > 0 && (
+            <section className="search-group">
+              <h3 className="search-group-title">🔢 主題單元</h3>
+              {results.units.slice(0, 4).map((u) => (
+                <SearchUnitBlock key={u.id} unit={u} />
+              ))}
+            </section>
+          )}
+
+          {results.grammar.length > 0 && (
+            <section className="search-group">
+              <h3 className="search-group-title">📖 文法教學</h3>
+              {results.grammar.slice(0, 4).map((g) => (
+                <SearchGrammarBlock key={`${g.level}-${g.orderIndex}`} g={g} />
+              ))}
+            </section>
+          )}
+
+          {results.verbs.length > 0 && (
+            <section className="search-group">
+              <h3 className="search-group-title">🔧 動詞變化</h3>
+              {results.verbs.slice(0, 3).map((v) => (
+                <SearchVerbBlock key={v.inf} verb={v} />
+              ))}
+            </section>
+          )}
+
+          {results.cards.length > 0 && (
+            <section className="search-group">
+              <h3 className="search-group-title">📇 單字卡（點卡片看造句）</h3>
+              <div className="grid">
+                {results.cards.slice(0, SEARCH_CARD_LIMIT).map((c) => (
+                  <Flashcard
+                    key={c.id}
+                    card={liveById.get(c.id) ?? c}
+                    onToggleUnfamiliar={(id) => {
+                      toggleUnfamiliar(id)
+                      reload()
+                    }}
+                  />
+                ))}
+              </div>
+              {results.cards.length > SEARCH_CARD_LIMIT && (
+                <p className="muted">
+                  …還有 {results.cards.length - SEARCH_CARD_LIMIT} 張，用下方「相關單字主題」或「📇 單字卡」分頁瀏覽全部。
+                </p>
+              )}
+            </section>
+          )}
+
+          {results.categories.length > 0 && (
+            <section className="search-group">
+              <h3 className="search-group-title">🏷️ 相關單字主題</h3>
+              <div className="search-cats">
+                {results.categories.map((c) => (
+                  <button
+                    key={`${c.level}-${c.tag}`}
+                    className="search-cat"
+                    onClick={() => goVocab(c.level, c.tag)}
+                  >
+                    <span className="search-cat-tag">{c.tag}</span>
+                    <span className="search-cat-meta">
+                      {c.level} · {c.count} 個字 →
+                    </span>
+                  </button>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {results.dialogues.length > 0 && (
+            <section className="search-group">
+              <h3 className="search-group-title">💬 情境對話</h3>
+              {results.dialogues.slice(0, 3).map((d) => (
+                <SearchDialogueBlock key={d.id} d={d} />
+              ))}
+            </section>
+          )}
+
+          {results.lessons.length > 0 && (
+            <section className="search-group">
+              <h3 className="search-group-title">📚 課程複習</h3>
+              {results.lessons.slice(0, 4).map((le) => (
+                <div key={le.id} className="search-lesson">
+                  <strong>{le.title}</strong>
+                  <span className="muted"> · {le.date}</span>
+                  <p className="muted">{le.summary}</p>
+                </div>
+              ))}
+              <p className="muted">到「📚 課程複習」點對應日期即可複習完整內容。</p>
+            </section>
+          )}
+        </>
+      )}
     </>
   )
 }
