@@ -1637,5 +1637,497 @@
       "問句一律用單數問：Qu'est-ce que c'est ?（問東西）、Qui est-ce ? / C'est qui ?（問人），就算答案是複數也一樣。",
       "介紹名字用 C'est + 名字，不要用「Il est + 名字」：✅ C'est Peter，❌ Il est Peter。"
     ]
+  },
+  {
+    "id": "faire-jouer",
+    "date": "2026-07-29",
+    "title": "FAIRE et JOUER — 做／玩與介係詞",
+    "summary": "faire 和 jouer 都能表達從事活動，但介係詞不同：FAIRE + de（運動／活動／樂器）、JOUER + à（遊戲／球類）、JOUER + de（樂器）。de 和 à 都要跟冠詞縮合。",
+    "sections": [
+      {
+        "heading": "JOUER 變位（現在式）",
+        "note": "第一組規則 -er 動詞：去掉 -er 加字尾 -e/-es/-e/-ons/-ez/-ent。je / tu / il / ils 的字尾不發音，聽起來一樣。",
+        "items": [
+          {
+            "fr": "Je joue",
+            "zh": "我玩（遊戲、運動）"
+          },
+          {
+            "fr": "Tu joues",
+            "zh": "你玩"
+          },
+          {
+            "fr": "Il / elle joue",
+            "zh": "他／她玩"
+          },
+          {
+            "fr": "Nous jouons",
+            "zh": "我們玩"
+          },
+          {
+            "fr": "Vous jouez",
+            "zh": "您／你們玩"
+          },
+          {
+            "fr": "Ils / elles jouent",
+            "zh": "他們／她們玩"
+          }
+        ]
+      },
+      {
+        "heading": "FAIRE 變位（現在式）",
+        "note": "第三組不規則動詞，非常重要。注意兩個特殊變化：vous faites（不是 faisez）、ils font（不是 faisent）；nous faisons 的 ai 唸 /ə/。",
+        "items": [
+          {
+            "fr": "Je fais",
+            "zh": "我做"
+          },
+          {
+            "fr": "Tu fais",
+            "zh": "你做"
+          },
+          {
+            "fr": "Il / elle fait",
+            "zh": "他／她做"
+          },
+          {
+            "fr": "Nous faisons",
+            "zh": "我們做"
+          },
+          {
+            "fr": "Vous faites",
+            "zh": "您／你們做（特殊！）"
+          },
+          {
+            "fr": "Ils font",
+            "zh": "他們做（特殊！）"
+          }
+        ]
+      },
+      {
+        "heading": "FAIRE + de → 運動、活動、樂器",
+        "note": "faire 表達「從事某項運動／活動」。de 要跟冠詞縮合：de+le=du、de+la=de la、de+l'=de l'、de+les=des。",
+        "items": [
+          {
+            "fr": "Je fais du tennis.",
+            "zh": "我打網球。（運動用 faire）"
+          },
+          {
+            "fr": "Je fais de la guitare.",
+            "zh": "我彈吉他。"
+          },
+          {
+            "fr": "Je fais de l'équitation.",
+            "zh": "我騎馬。"
+          },
+          {
+            "fr": "Je fais des exercices.",
+            "zh": "我做運動／練習。"
+          }
+        ]
+      },
+      {
+        "heading": "JOUER + à → 遊戲、球類運動",
+        "note": "jouer à 表達「玩遊戲」或「打球類運動」。à 要跟冠詞縮合：à+le=au、à+la=à la、à+l'=à l'、à+les=aux。",
+        "items": [
+          {
+            "fr": "Je joue à Candy Crush.",
+            "zh": "我玩 Candy Crush。"
+          },
+          {
+            "fr": "Je joue au tennis.",
+            "zh": "我打網球。（球類用 jouer à）"
+          },
+          {
+            "fr": "Je joue à la Playstation.",
+            "zh": "我玩 PlayStation。"
+          },
+          {
+            "fr": "Je joue à l'ordinateur.",
+            "zh": "我玩電腦。"
+          },
+          {
+            "fr": "Je joue aux cartes.",
+            "zh": "我玩紙牌。"
+          }
+        ]
+      },
+      {
+        "heading": "JOUER + de → 樂器",
+        "note": "jouer de 表達「演奏樂器」。de 一樣要縮合：du、de la、de l'、des。樂器也可以用 faire de。",
+        "items": [
+          {
+            "fr": "Je joue du piano.",
+            "zh": "我彈鋼琴。"
+          },
+          {
+            "fr": "Je joue de la guitare.",
+            "zh": "我彈吉他。"
+          },
+          {
+            "fr": "Je joue de l'harmonica.",
+            "zh": "我吹口琴。"
+          },
+          {
+            "fr": "Je joue des percussions.",
+            "zh": "我打擊樂器。"
+          }
+        ]
+      },
+      {
+        "heading": "FAIRE 慣用語：家務",
+        "note": "有些日常家事固定用 faire，不能用 jouer。",
+        "items": [
+          {
+            "fr": "Je fais le ménage.",
+            "zh": "我打掃／做家事。"
+          },
+          {
+            "fr": "Je fais la cuisine.",
+            "zh": "我做飯。"
+          },
+          {
+            "fr": "Je fais les courses.",
+            "zh": "我採買（買菜）。"
+          }
+        ]
+      },
+      {
+        "heading": "練習一：Étienne 很忙，填正確介係詞",
+        "note": "Étienne est très occupé.（Étienne 很忙。）依「faire + de／jouer + à／jouer + de」規則選介係詞並縮合。",
+        "items": [
+          {
+            "fr": "Le lundi, il fait du volley-ball.",
+            "zh": "星期一他打排球。"
+          },
+          {
+            "fr": "Le mardi, il joue aux échecs.",
+            "zh": "星期二他下西洋棋。"
+          },
+          {
+            "fr": "Le mercredi, il joue du violon.",
+            "zh": "星期三他拉小提琴。（樂器 → jouer de + le = du）"
+          },
+          {
+            "fr": "Le jeudi, il fait de l'escalade.",
+            "zh": "星期四他去攀岩。"
+          },
+          {
+            "fr": "Le vendredi, il joue au football.",
+            "zh": "星期五他踢足球。"
+          },
+          {
+            "fr": "Le samedi, il joue aux jeux-vidéo.",
+            "zh": "星期六他打電動。"
+          },
+          {
+            "fr": "Le dimanche, il fait de la boxe.",
+            "zh": "星期日他練拳擊。"
+          }
+        ]
+      },
+      {
+        "heading": "練習二：faire 或 jouer + 介係詞（有時兩種都可）",
+        "note": "樂器可用 jouer de 或 faire de；遊戲用 jouer à；運動用 faire de。",
+        "items": [
+          {
+            "fr": "Je joue du / fais du saxophone avec mon frère.",
+            "zh": "我和哥哥一起吹薩克斯風。"
+          },
+          {
+            "fr": "Ils font de la gymnastique tous les week-ends.",
+            "zh": "他們每個週末做體操。"
+          },
+          {
+            "fr": "Tu joues au poker ?",
+            "zh": "你玩撲克牌嗎？"
+          },
+          {
+            "fr": "Nous jouons de la / faisons de la trompette dans un orchestre.",
+            "zh": "我們在管弦樂團吹小號。"
+          },
+          {
+            "fr": "Vous jouez au mah-jong avec vos parents ?",
+            "zh": "你們和父母打麻將嗎？"
+          },
+          {
+            "fr": "Elle joue au / fait du ping-pong une fois par semaine.",
+            "zh": "她一週打一次乒乓球。"
+          }
+        ]
+      },
+      {
+        "heading": "更多運動說法（補充）",
+        "note": "對戰遊戲、球類多用 jouer à；其他運動多用 faire de。",
+        "items": [
+          {
+            "fr": "faire du yoga",
+            "zh": "做瑜伽"
+          },
+          {
+            "fr": "jouer au badminton",
+            "zh": "打羽毛球"
+          },
+          {
+            "fr": "faire de la natation",
+            "zh": "游泳"
+          },
+          {
+            "fr": "faire du jogging",
+            "zh": "慢跑"
+          },
+          {
+            "fr": "faire du vélo",
+            "zh": "騎腳踏車"
+          },
+          {
+            "fr": "faire de la musculation",
+            "zh": "重量訓練"
+          },
+          {
+            "fr": "faire de la danse",
+            "zh": "跳舞"
+          },
+          {
+            "fr": "faire de la boxe thaï",
+            "zh": "練泰拳"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "FAIRE + de（運動／活動／樂器）：faire du tennis、faire de la guitare；de 要縮合成 du / de la / de l' / des。",
+      "JOUER + à（遊戲／球類運動）：jouer au football、jouer aux cartes；à 要縮合成 au / à la / à l' / aux。",
+      "JOUER + de（樂器）：jouer du piano、jouer de la guitare；樂器可用 jouer de，也可用 faire de。",
+      "FAIRE 是第三組不規則動詞，記住特殊變位：vous faites、ils font。",
+      "家務固定用 faire：faire le ménage（打掃）、faire la cuisine（做飯）、faire les courses（採買）。"
+    ]
+  },
+  {
+    "id": "aimer-jaime-jenaimepas",
+    "date": "2026-07-28",
+    "title": "AIMER — J'aime / Je n'aime pas 表達喜好",
+    "summary": "用 aimer 說喜歡什麼、不喜歡什麼：aimer 後面接「定冠詞 + 名詞」（le / la / les / l'）。搭配三大主題：飲料 les boissons、食物 la nourriture、休閒 les loisirs，並用 adorer / détester 表達程度。",
+    "sections": [
+      {
+        "heading": "AIMER 變位（現在式）",
+        "note": "第一組規則 -er 動詞。je 遇到母音開頭要縮寫成 j'（j'aime）。字尾 -e / -es / -ent 不發音，je / tu / il / ils 聽起來一樣。",
+        "items": [
+          {
+            "fr": "J'aime",
+            "zh": "我喜歡（je → j'）"
+          },
+          {
+            "fr": "Tu aimes",
+            "zh": "你喜歡"
+          },
+          {
+            "fr": "Il / elle aime",
+            "zh": "他／她喜歡"
+          },
+          {
+            "fr": "Nous aimons",
+            "zh": "我們喜歡"
+          },
+          {
+            "fr": "Vous aimez",
+            "zh": "您／你們喜歡"
+          },
+          {
+            "fr": "Ils / elles aiment",
+            "zh": "他們／她們喜歡"
+          }
+        ]
+      },
+      {
+        "heading": "核心用法：aimer + 定冠詞 + 名詞",
+        "note": "表達喜好一定要加定冠詞（le 陽性／la 陰性／les 複數／l' 母音開頭），表示「泛指整一類」。英文 I like coffee 不加冠詞，但法文一定要說 J'aime le café。",
+        "items": [
+          {
+            "fr": "J'aime le café.",
+            "zh": "我喜歡咖啡。（陽性 → le）"
+          },
+          {
+            "fr": "J'aime la pizza.",
+            "zh": "我喜歡披薩。（陰性 → la）"
+          },
+          {
+            "fr": "J'aime les fruits.",
+            "zh": "我喜歡水果。（複數 → les）"
+          },
+          {
+            "fr": "J'aime l'eau.",
+            "zh": "我喜歡水。（母音開頭 → l'）"
+          }
+        ]
+      },
+      {
+        "heading": "否定：Je n'aime pas…",
+        "note": "否定用 ne … pas 把動詞包起來；aime 是母音開頭，ne 要縮寫成 n'。喜好句的定冠詞在否定時「不變」（le / la / les 保留）。",
+        "items": [
+          {
+            "fr": "Je n'aime pas le thé.",
+            "zh": "我不喜歡茶。"
+          },
+          {
+            "fr": "Je n'aime pas la viande.",
+            "zh": "我不喜歡肉。"
+          },
+          {
+            "fr": "Je n'aime pas les gâteaux.",
+            "zh": "我不喜歡蛋糕。"
+          },
+          {
+            "fr": "Tu n'aimes pas le sport ?",
+            "zh": "你不喜歡運動嗎？"
+          }
+        ]
+      },
+      {
+        "heading": "表達喜好的程度（從最愛到最討厭）",
+        "note": "adorer（超愛）和 détester（討厭）也一樣接定冠詞。可用 beaucoup（很）、bien（蠻）調整強弱。",
+        "items": [
+          {
+            "fr": "J'adore le chocolat chaud.",
+            "zh": "我超愛熱巧克力。（最喜歡）"
+          },
+          {
+            "fr": "J'aime beaucoup le cinéma.",
+            "zh": "我很喜歡看電影。"
+          },
+          {
+            "fr": "J'aime bien les voyages.",
+            "zh": "我蠻喜歡旅行。"
+          },
+          {
+            "fr": "Je n'aime pas beaucoup le KTV.",
+            "zh": "我不太喜歡唱 KTV。"
+          },
+          {
+            "fr": "Je déteste le shopping.",
+            "zh": "我討厭購物。（最討厭）"
+          }
+        ]
+      },
+      {
+        "heading": "主題一：LES BOISSONS 飲料",
+        "note": "用 J'aime / Je n'aime pas + 定冠詞造句。點每一句聽發音。",
+        "items": [
+          {
+            "fr": "J'aime le café.",
+            "zh": "我喜歡咖啡。"
+          },
+          {
+            "fr": "J'aime le thé.",
+            "zh": "我喜歡茶。"
+          },
+          {
+            "fr": "J'aime les jus de fruits.",
+            "zh": "我喜歡果汁。"
+          },
+          {
+            "fr": "J'aime l'eau.",
+            "zh": "我喜歡水。"
+          },
+          {
+            "fr": "J'aime le Coca.",
+            "zh": "我喜歡可樂。"
+          },
+          {
+            "fr": "J'aime le chocolat chaud.",
+            "zh": "我喜歡熱巧克力。"
+          }
+        ]
+      },
+      {
+        "heading": "主題二：LA NOURRITURE 食物",
+        "note": "les nouilles、les fruits、les gâteaux 是複數用 les；la pizza、la viande 是陰性用 la；le poisson 是陽性用 le。",
+        "items": [
+          {
+            "fr": "J'aime les nouilles.",
+            "zh": "我喜歡麵。"
+          },
+          {
+            "fr": "J'aime la pizza.",
+            "zh": "我喜歡披薩。"
+          },
+          {
+            "fr": "J'aime les gâteaux.",
+            "zh": "我喜歡蛋糕。"
+          },
+          {
+            "fr": "J'aime les fruits.",
+            "zh": "我喜歡水果。"
+          },
+          {
+            "fr": "Je n'aime pas le poisson.",
+            "zh": "我不喜歡魚。"
+          },
+          {
+            "fr": "Je n'aime pas la viande.",
+            "zh": "我不喜歡肉。"
+          }
+        ]
+      },
+      {
+        "heading": "主題三：LES LOISIRS 休閒娛樂",
+        "note": "休閒活動也用定冠詞：la randonnée（健行）、le cinéma（電影）、les voyages（旅行）。",
+        "items": [
+          {
+            "fr": "J'aime la randonnée.",
+            "zh": "我喜歡健行。"
+          },
+          {
+            "fr": "J'aime le cinéma.",
+            "zh": "我喜歡看電影。"
+          },
+          {
+            "fr": "J'aime les voyages.",
+            "zh": "我喜歡旅行。"
+          },
+          {
+            "fr": "J'aime le sport.",
+            "zh": "我喜歡運動。"
+          },
+          {
+            "fr": "J'aime le KTV.",
+            "zh": "我喜歡唱 KTV。"
+          },
+          {
+            "fr": "J'aime le shopping.",
+            "zh": "我喜歡逛街購物。"
+          }
+        ]
+      },
+      {
+        "heading": "問答練習",
+        "note": "問對方喜好用 Qu'est-ce que tu aimes ?（你喜歡什麼？）回答用 J'aime… / Je n'aime pas…。要問特定類別可加 comme（作為）。",
+        "items": [
+          {
+            "fr": "Qu'est-ce que tu aimes ?",
+            "zh": "你喜歡什麼？"
+          },
+          {
+            "fr": "Tu aimes le café ? — Oui, j'aime le café.",
+            "zh": "你喜歡咖啡嗎？——是的，我喜歡咖啡。"
+          },
+          {
+            "fr": "Tu aimes le poisson ? — Non, je n'aime pas le poisson.",
+            "zh": "你喜歡魚嗎？——不，我不喜歡魚。"
+          },
+          {
+            "fr": "Qu'est-ce que tu aimes comme boisson ? — J'aime le thé.",
+            "zh": "你喜歡什麼飲料？——我喜歡茶。"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "表達喜好：aimer / adorer / détester 後面接「定冠詞 + 名詞」（le / la / les / l'），表示泛指整類：J'aime le café，不是 J'aime café。",
+      "程度由強到弱：adorer（超愛）> aimer beaucoup（很喜歡）> aimer bien（蠻喜歡）> ne pas aimer（不喜歡）> détester（討厭）。",
+      "否定用 ne … pas；aime 母音開頭 → n'aime pas。喜好句的定冠詞在否定時不變（不像不定冠詞會變成 de）。",
+      "三大主題：les boissons（飲料）、la nourriture（食物）、les loisirs（休閒娛樂）。",
+      "問喜好：Qu'est-ce que tu aimes ?，或直接問 Tu aimes… ?；點每個句子可以聽發音。"
+    ]
   }
 ]
