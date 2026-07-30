@@ -70,12 +70,50 @@ header h1 { margin: 0 0 4px; font-size: 1.8rem; }
 .center { text-align: center; margin-top: 16px; }
 
 /* lesson calendar */
+.lessons-viewtoggle {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 14px;
+}
 .lessons-layout {
   display: flex;
   flex-wrap: wrap;
   gap: 18px;
   align-items: flex-start;
 }
+/* quick-browse list (alternative to the calendar) */
+.lesson-list {
+  flex: 0 0 auto;
+  width: 340px;
+  max-width: 100%;
+  max-height: 460px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 4px;
+  border: 1px solid #e5e8f0;
+  border-radius: 12px;
+  background: #fff;
+}
+.lesson-list-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  text-align: left;
+  padding: 9px 12px;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  background: transparent;
+  cursor: pointer;
+}
+.lesson-list-row:hover { background: #f0f4ff; }
+.lesson-list-row.active { background: #2b59ff; }
+.lesson-list-date { font-size: 0.75rem; color: #6b7280; }
+.lesson-list-title { font-size: 0.92rem; color: #1f2330; line-height: 1.35; }
+.lesson-list-row.active .lesson-list-date,
+.lesson-list-row.active .lesson-list-title { color: #fff; }
 .lessons-main {
   flex: 1 1 360px;
   min-width: 0;
@@ -287,13 +325,60 @@ header h1 { margin: 0 0 4px; font-size: 1.8rem; }
 .search-cat-tag { font-size: 1rem; font-weight: 600; color: #1f2330; }
 .search-cat-meta { font-size: 0.82rem; color: #6b7280; }
 .search-lesson {
+  display: block;
+  width: 100%;
+  text-align: left;
   background: #fff;
+  border: 1px solid #e5e8f0;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   padding: 14px 16px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
-.search-lesson p { margin: 4px 0 0; }
+.search-lesson:hover { background: #f0f4ff; border-color: #2b59ff; }
+.search-lesson-head {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+.search-lesson-head strong { color: #1f2330; }
+
+/* clickable result titles that jump to the matching tab */
+.search-jump {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  background: transparent;
+  padding: 0;
+  font: inherit;
+  font-weight: inherit;
+  color: #2b59ff;
+  cursor: pointer;
+  text-align: left;
+}
+.search-jump:hover { text-decoration: underline; }
+.search-jump .muted { font-weight: 400; }
+.search-jump-arrow {
+  color: #2b59ff;
+  font-weight: 700;
+  margin-left: auto;
+  padding-left: 6px;
+}
+.search-lesson:hover .search-jump-arrow { transform: translateX(2px); }
+.search-open {
+  margin-top: 12px;
+  border: 1px dashed #c7ccd8;
+  background: #f7f9ff;
+  color: #2b59ff;
+  border-radius: 10px;
+  padding: 9px 14px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.search-open:hover { background: #eef2ff; border-color: #2b59ff; }
 
 /* speech settings */
 .speech-settings { margin: 4px 0 12px; }
@@ -499,6 +584,18 @@ header h1 { margin: 0 0 4px; font-size: 1.8rem; }
   padding: 4px 18px 18px; white-space: pre-line; line-height: 1.7;
   color: #374151; border-top: 1px solid #eef0f5;
 }
+
+/* speakable grammar body: one 🔊 per line that contains French */
+.gc-line { margin: 2px 0; }
+.gc-text { white-space: pre-wrap; }
+.gc-gap { height: 0.7em; }
+.gc-speak {
+  margin-left: 6px;
+  vertical-align: middle;
+  opacity: 0.55;
+  transition: opacity 0.15s ease;
+}
+.gc-line:hover .gc-speak { opacity: 1; }
 
 .grammar-examples { margin-top: 14px; background: #f8f9fc; border-radius: 8px; padding: 10px 12px; }
 .grammar-examples h4 { margin: 0 0 8px; font-size: 0.9rem; color: #2b59ff; }

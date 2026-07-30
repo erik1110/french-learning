@@ -174,8 +174,14 @@ export default function App() {
   // bumped whenever localStorage changes, to re-read cards everywhere
   const [version, setVersion] = useState(0)
   const reload = () => setVersion((v) => v + 1)
-  // set by the course view to open the cards tab pre-filtered to a category
+  // presets let one tab jump into another with an item pre-selected
+  // (used by the course + search views). `ts` forces the target effect to re-run.
   const [cardsPreset, setCardsPreset] = useState(null)
+  const [unitPreset, setUnitPreset] = useState(null)
+  const [grammarPreset, setGrammarPreset] = useState(null)
+  const [verbPreset, setVerbPreset] = useState(null)
+  const [dialoguePreset, setDialoguePreset] = useState(null)
+  const [lessonPreset, setLessonPreset] = useState(null)
 
   const cards = useMemo(() => loadCards(), [version])
 
@@ -183,6 +189,31 @@ export default function App() {
     stopSpeaking()
     setCardsPreset({ level, tag, ts: Date.now() })
     setTab('cards')
+  }
+  function goUnit(id) {
+    stopSpeaking()
+    setUnitPreset({ id, ts: Date.now() })
+    setTab('units')
+  }
+  function goGrammar(level, orderIndex) {
+    stopSpeaking()
+    setGrammarPreset({ level, orderIndex, ts: Date.now() })
+    setTab('grammar')
+  }
+  function goVerb(inf) {
+    stopSpeaking()
+    setVerbPreset({ inf, ts: Date.now() })
+    setTab('verbs')
+  }
+  function goDialogue(id) {
+    stopSpeaking()
+    setDialoguePreset({ id, ts: Date.now() })
+    setTab('dialogues')
+  }
+  function goLesson(date, id) {
+    stopSpeaking()
+    setLessonPreset({ date, id, ts: Date.now() })
+    setTab('lessons')
   }
 
   return (
@@ -216,17 +247,28 @@ export default function App() {
         ))}
       </nav>
 
-      {tab === 'search' && <SearchView cards={cards} reload={reload} goVocab={goVocab} />}
+      {tab === 'search' && (
+        <SearchView
+          cards={cards}
+          reload={reload}
+          goVocab={goVocab}
+          goUnit={goUnit}
+          goGrammar={goGrammar}
+          goVerb={goVerb}
+          goDialogue={goDialogue}
+          goLesson={goLesson}
+        />
+      )}
       {tab === 'course' && <CourseView goVocab={goVocab} />}
       {tab === 'cards' && <CardsView cards={cards} reload={reload} preset={cardsPreset} />}
-      {tab === 'lessons' && <LessonsView />}
+      {tab === 'lessons' && <LessonsView preset={lessonPreset} />}
       {tab === 'random' && <RandomView cards={cards} reload={reload} />}
       {tab === 'quiz' && <QuizView cards={cards} />}
       {tab === 'bank' && <BankView cards={cards} reload={reload} />}
-      {tab === 'units' && <UnitsView />}
-      {tab === 'grammar' && <GrammarView />}
-      {tab === 'verbs' && <VerbsView />}
-      {tab === 'dialogues' && <DialoguesView />}
+      {tab === 'units' && <UnitsView preset={unitPreset} />}
+      {tab === 'grammar' && <GrammarView preset={grammarPreset} />}
+      {tab === 'verbs' && <VerbsView preset={verbPreset} />}
+      {tab === 'dialogues' && <DialoguesView preset={dialoguePreset} />}
     </div>
   )
 }
@@ -442,6 +484,45 @@ function SpeakableItems({ items }) {
   )
 }
 
+// Pull the French portion out of a mixed zh/fr grammar line so it can be spoken.
+// Drops CJK characters and CJK/fullwidth punctuation, keeps Latin + accents.
+function frenchFromLine(line) {
+  return String(line)
+    .replace(/[㐀-鿿豈-﫿぀-ヿ]/g, '') // CJK / kana
+    .replace(/[‘’“”　-〿＀-￯]/g, ' ') // CJK/fullwidth punct
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+// Renders a grammar explanation body line by line, adding a 🔊 button to every
+// line that contains French so the teaching text (not just the examples) speaks.
+function GrammarContent({ text }) {
+  const lines = String(text).split('\n')
+  return (
+    <div className="gc">
+      {lines.map((line, i) => {
+        if (line.trim() === '') return <div key={i} className="gc-gap" />
+        const fr = frenchFromLine(line)
+        const speakable = /[a-zA-ZÀ-ÿ]/.test(fr)
+        return (
+          <div key={i} className="gc-line">
+            <span className="gc-text">{line}</span>
+            {speakable && (
+              <button
+                className="speak-mini gc-speak"
+                title="唸出這行的法文"
+                onClick={() => speakFrench(fr)}
+              >
+                🔊
+              </button>
+            )}
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
 // Article + gender info for a noun card. Returns null for non-nouns / genderless
 // words. The definite article elides to l' before a vowel or (mute) h.
 function genderInfo(card) {
@@ -521,7 +602,7 @@ function CourseSection({ section, goVocab }) {
           <span className="course-sub">{g.summary}</span>
         </h4>
         <div className="grammar-content">
-          {g.content}
+          <GrammarContent text={g.content} />
           {g.examples?.length > 0 && (
             <div className="grammar-examples">
               <h4>🔊 例句發音</h4>
@@ -803,12 +884,15 @@ function CourseView({ goVocab }) {
 
 const SEARCH_SUGGESTIONS = ['國籍', '有', '游泳', '時間', '日期', '顏色', '家人', '點餐']
 
-function SearchVerbBlock({ verb }) {
+function SearchVerbBlock({ verb, onOpen }) {
   const { present } = conjugate(verb)
   return (
     <div className="conj-block">
       <h4>
-        {verb.inf} <span className="muted">· {verb.zh}（第 {verb.group} 組）</span>
+        <button className="search-jump" onClick={onOpen} title="到「動詞變化」分頁開啟">
+          {verb.inf} <span className="muted">· {verb.zh}（第 {verb.group} 組）</span>
+          <span className="search-jump-arrow">→</span>
+        </button>
       </h4>
       <div className="conj-grid">
         {present.map((f, i) => (
@@ -817,17 +901,22 @@ function SearchVerbBlock({ verb }) {
           </button>
         ))}
       </div>
-      <p className="muted">以上為現在式；完整過去／未來變位請見「🔧 動詞變化」分頁。</p>
+      <button className="search-open" onClick={onOpen}>
+        🔧 到「動詞變化」看 {verb.inf} 完整變位 →
+      </button>
     </div>
   )
 }
 
-function SearchUnitBlock({ unit }) {
+function SearchUnitBlock({ unit, onOpen }) {
   const preview = unit.items.slice(0, 12)
   return (
     <div className="conj-block">
       <h4>
-        {unit.title}
+        <button className="search-jump" onClick={onOpen} title="到「單元主題」分頁開啟">
+          {unit.title}
+          <span className="search-jump-arrow">→</span>
+        </button>
         <button
           className="speak-mini"
           title="全部播放"
@@ -839,21 +928,26 @@ function SearchUnitBlock({ unit }) {
       <p className="muted">{unit.intro}</p>
       <SpeakableItems items={preview} />
       {unit.items.length > preview.length && (
-        <p className="muted">…共 {unit.items.length} 個，到「🔢 單元主題」看完整列表。</p>
+        <button className="search-open" onClick={onOpen}>
+          🔢 到「單元主題」看全部 {unit.items.length} 個 →
+        </button>
       )}
     </div>
   )
 }
 
-function SearchGrammarBlock({ g }) {
+function SearchGrammarBlock({ g, onOpen }) {
   return (
     <div className="course-section">
       <h4>
-        {g.title}
+        <button className="search-jump" onClick={onOpen} title="到「文法教學」分頁開啟">
+          {g.title}
+          <span className="search-jump-arrow">→</span>
+        </button>
         <span className="course-sub">{g.summary}</span>
       </h4>
       <div className="grammar-content">
-        {g.content}
+        <GrammarContent text={g.content} />
         {g.examples?.length > 0 && (
           <div className="grammar-examples">
             <h4>🔊 例句發音</h4>
@@ -873,11 +967,14 @@ function SearchGrammarBlock({ g }) {
   )
 }
 
-function SearchDialogueBlock({ d }) {
+function SearchDialogueBlock({ d, onOpen }) {
   return (
     <div className="conj-block">
       <h4>
-        {d.title}
+        <button className="search-jump" onClick={onOpen} title="到「情境對話」分頁開啟">
+          {d.title}
+          <span className="search-jump-arrow">→</span>
+        </button>
         <button
           className="speak-mini"
           title="全部播放"
@@ -911,7 +1008,7 @@ function SearchDialogueBlock({ d }) {
 
 const SEARCH_CARD_LIMIT = 18
 
-function SearchView({ cards, reload, goVocab }) {
+function SearchView({ cards, reload, goVocab, goUnit, goGrammar, goVerb, goDialogue, goLesson }) {
   const [query, setQuery] = useState('')
 
   const liveById = useMemo(() => {
@@ -969,7 +1066,7 @@ function SearchView({ cards, reload, goVocab }) {
             <section className="search-group">
               <h3 className="search-group-title">🔢 主題單元</h3>
               {results.units.slice(0, 4).map((u) => (
-                <SearchUnitBlock key={u.id} unit={u} />
+                <SearchUnitBlock key={u.id} unit={u} onOpen={() => goUnit(u.id)} />
               ))}
             </section>
           )}
@@ -978,7 +1075,11 @@ function SearchView({ cards, reload, goVocab }) {
             <section className="search-group">
               <h3 className="search-group-title">📖 文法教學</h3>
               {results.grammar.slice(0, 4).map((g) => (
-                <SearchGrammarBlock key={`${g.level}-${g.orderIndex}`} g={g} />
+                <SearchGrammarBlock
+                  key={`${g.level}-${g.orderIndex}`}
+                  g={g}
+                  onOpen={() => goGrammar(g.level, g.orderIndex)}
+                />
               ))}
             </section>
           )}
@@ -987,7 +1088,7 @@ function SearchView({ cards, reload, goVocab }) {
             <section className="search-group">
               <h3 className="search-group-title">🔧 動詞變化</h3>
               {results.verbs.slice(0, 3).map((v) => (
-                <SearchVerbBlock key={v.inf} verb={v} />
+                <SearchVerbBlock key={v.inf} verb={v} onOpen={() => goVerb(v.inf)} />
               ))}
             </section>
           )}
@@ -1039,7 +1140,7 @@ function SearchView({ cards, reload, goVocab }) {
             <section className="search-group">
               <h3 className="search-group-title">💬 情境對話</h3>
               {results.dialogues.slice(0, 3).map((d) => (
-                <SearchDialogueBlock key={d.id} d={d} />
+                <SearchDialogueBlock key={d.id} d={d} onOpen={() => goDialogue(d.id)} />
               ))}
             </section>
           )}
@@ -1048,13 +1149,20 @@ function SearchView({ cards, reload, goVocab }) {
             <section className="search-group">
               <h3 className="search-group-title">📚 課程複習</h3>
               {results.lessons.slice(0, 4).map((le) => (
-                <div key={le.id} className="search-lesson">
-                  <strong>{le.title}</strong>
-                  <span className="muted"> · {le.date}</span>
-                  <p className="muted">{le.summary}</p>
-                </div>
+                <button
+                  key={le.id}
+                  className="search-lesson"
+                  onClick={() => goLesson(le.date, le.id)}
+                  title="到「課程複習」開啟這個單元"
+                >
+                  <span className="search-lesson-head">
+                    <strong>{le.title}</strong>
+                    <span className="muted"> · {le.date}</span>
+                    <span className="search-jump-arrow">→</span>
+                  </span>
+                  <span className="muted">{le.summary}</span>
+                </button>
               ))}
-              <p className="muted">到「📚 課程複習」點對應日期即可複習完整內容。</p>
             </section>
           )}
         </>
@@ -1253,10 +1361,18 @@ function BankView({ cards, reload }) {
   )
 }
 
-function GrammarView() {
+function GrammarView({ preset }) {
   const [level, setLevel] = useState('A1')
   const [openId, setOpenId] = useState(null)
   const shown = GRAMMAR.filter((g) => g.level === level)
+
+  // jump requested from the search view: switch level + open that item
+  useEffect(() => {
+    if (preset?.level != null && preset?.orderIndex != null) {
+      setLevel(preset.level)
+      setOpenId(`${preset.level}-${preset.orderIndex}`)
+    }
+  }, [preset])
 
   return (
     <>
@@ -1287,7 +1403,7 @@ function GrammarView() {
               </button>
               {open && (
                 <div className="grammar-content">
-                  {g.content}
+                  <GrammarContent text={g.content} />
                   {g.examples?.length > 0 && (
                     <div className="grammar-examples">
                       <h4>🔊 例句發音</h4>
@@ -1473,10 +1589,15 @@ const VERB_GUIDE = [
   },
 ]
 
-function VerbsView() {
+function VerbsView({ preset }) {
   const [inf, setInf] = useState(VERBS[0].inf)
   const verb = VERBS.find((v) => v.inf === inf) ?? VERBS[0]
   const tables = conjugate(verb)
+
+  // jump requested from the search view
+  useEffect(() => {
+    if (preset?.inf) setInf(preset.inf)
+  }, [preset])
 
   const tenseList = [
     ['現在式 présent', tables.present],
@@ -1492,7 +1613,9 @@ function VerbsView() {
             <div className="grammar-head static">
               <span className="grammar-title">{g.title}</span>
             </div>
-            <div className="grammar-content">{g.content}</div>
+            <div className="grammar-content">
+              <GrammarContent text={g.content} />
+            </div>
           </div>
         ))}
       </div>
@@ -1628,7 +1751,29 @@ function LessonCalendar({ byDate, selectedDate, onPickDate }) {
   )
 }
 
-function LessonsView() {
+// Chronological list of every lesson (newest first) for quick browsing.
+function LessonList({ selectedId, onPick }) {
+  const sorted = useMemo(
+    () => [...LESSONS].sort((a, b) => (a.date < b.date ? 1 : -1)),
+    [],
+  )
+  return (
+    <div className="lesson-list">
+      {sorted.map((l) => (
+        <button
+          key={l.id}
+          className={l.id === selectedId ? 'lesson-list-row active' : 'lesson-list-row'}
+          onClick={() => onPick(l.date, l.id)}
+        >
+          <span className="lesson-list-date">{l.date}</span>
+          <span className="lesson-list-title">{l.title}</span>
+        </button>
+      ))}
+    </div>
+  )
+}
+
+function LessonsView({ preset }) {
   const byDate = useMemo(() => {
     const m = {}
     for (const l of LESSONS) (m[l.date] ||= []).push(l)
@@ -1641,6 +1786,17 @@ function LessonsView() {
   )
   const [date, setDate] = useState(latest?.date)
   const [id, setId] = useState(latest?.id)
+  // 'calendar' = date lookup, 'list' = quick browse all lessons
+  const [view, setView] = useState('calendar')
+
+  // jump requested from the search view: select that date + lesson
+  useEffect(() => {
+    if (preset?.date) {
+      stopSpeaking()
+      setDate(preset.date)
+      setId(preset.id ?? (byDate[preset.date] || [])[0]?.id)
+    }
+  }, [preset, byDate])
 
   const dayLessons = byDate[date] || []
   const lesson = dayLessons.find((l) => l.id === id) ?? dayLessons[0] ?? LESSONS[0]
@@ -1658,12 +1814,37 @@ function LessonsView() {
     setId(nextId)
   }
 
+  function pickLesson(ds, lessonId) {
+    stopSpeaking()
+    setDate(ds)
+    setId(lessonId)
+  }
+
   return (
     <>
-      <p className="muted">老師上課教過的內容，依日期整理。點日曆上有圓點的日期即可複習當天的單元。</p>
+      <p className="muted">老師上課教過的內容，依日期整理。用日曆依日期查詢，或切到「列表」快速瀏覽所有單元。</p>
+
+      <div className="lessons-viewtoggle">
+        <button
+          className={view === 'calendar' ? 'chip active' : 'chip'}
+          onClick={() => setView('calendar')}
+        >
+          📅 日曆
+        </button>
+        <button
+          className={view === 'list' ? 'chip active' : 'chip'}
+          onClick={() => setView('list')}
+        >
+          📋 列表
+        </button>
+      </div>
 
       <div className="lessons-layout">
-        <LessonCalendar byDate={byDate} selectedDate={date} onPickDate={pickDate} />
+        {view === 'calendar' ? (
+          <LessonCalendar byDate={byDate} selectedDate={date} onPickDate={pickDate} />
+        ) : (
+          <LessonList selectedId={lesson.id} onPick={pickLesson} />
+        )}
 
         <div className="lessons-main">
           {dayLessons.length > 1 && (
@@ -1733,9 +1914,17 @@ function LessonsView() {
   )
 }
 
-function UnitsView() {
+function UnitsView({ preset }) {
   const [id, setId] = useState(UNITS[0].id)
   const unit = UNITS.find((u) => u.id === id) ?? UNITS[0]
+
+  // jump requested from the search view
+  useEffect(() => {
+    if (preset?.id) {
+      stopSpeaking()
+      setId(preset.id)
+    }
+  }, [preset])
 
   return (
     <>
@@ -1786,13 +1975,25 @@ function UnitsView() {
   )
 }
 
-function DialoguesView() {
+function DialoguesView({ preset }) {
   const [category, setCategory] = useState(DIALOGUE_CATEGORIES[0])
   const inCategory = DIALOGUES.filter((d) => d.category === category)
   const [dialogueId, setDialogueId] = useState(inCategory[0]?.id)
 
   const dialogue =
     DIALOGUES.find((d) => d.id === dialogueId) ?? inCategory[0] ?? DIALOGUES[0]
+
+  // jump requested from the search view: switch category + select the dialogue
+  useEffect(() => {
+    if (preset?.id != null) {
+      const d = DIALOGUES.find((x) => x.id === preset.id)
+      if (d) {
+        stopSpeaking()
+        setCategory(d.category)
+        setDialogueId(d.id)
+      }
+    }
+  }, [preset])
 
   function pickCategory(cat) {
     setCategory(cat)

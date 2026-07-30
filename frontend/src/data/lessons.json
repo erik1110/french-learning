@@ -1962,6 +1962,60 @@
         ]
       },
       {
+        "heading": "定冠詞四分類：LE / LA / L' / LES",
+        "note": "AIMER + 名詞時，依名詞的陰陽性與開頭選定冠詞：陽性 → le、陰性 → la、母音（或啞音 h）開頭 → l'、複數 → les。",
+        "items": [
+          {
+            "fr": "J'aime le shopping.",
+            "zh": "我喜歡逛街。（LE 陽性）"
+          },
+          {
+            "fr": "J'aime le cinéma.",
+            "zh": "我喜歡看電影。（LE 陽性）"
+          },
+          {
+            "fr": "J'aime le café.",
+            "zh": "我喜歡咖啡。（LE 陽性）"
+          },
+          {
+            "fr": "J'aime la natation.",
+            "zh": "我喜歡游泳。（LA 陰性）"
+          },
+          {
+            "fr": "J'aime la plage.",
+            "zh": "我喜歡海灘。（LA 陰性）"
+          },
+          {
+            "fr": "J'aime la musique.",
+            "zh": "我喜歡音樂。（LA 陰性）"
+          },
+          {
+            "fr": "J'aime l'opéra.",
+            "zh": "我喜歡歌劇。（L' 母音開頭）"
+          },
+          {
+            "fr": "J'aime l'alcool.",
+            "zh": "我喜歡（喝）酒。（L' 母音開頭）"
+          },
+          {
+            "fr": "J'aime l'équitation.",
+            "zh": "我喜歡騎馬。（L' 母音開頭）"
+          },
+          {
+            "fr": "J'aime les animaux.",
+            "zh": "我喜歡動物。（LES 複數）"
+          },
+          {
+            "fr": "J'aime les voyages.",
+            "zh": "我喜歡旅行。（LES 複數）"
+          },
+          {
+            "fr": "J'aime les gâteaux.",
+            "zh": "我喜歡蛋糕。（LES 複數）"
+          }
+        ]
+      },
+      {
         "heading": "否定：Je n'aime pas…",
         "note": "否定用 ne … pas 把動詞包起來；aime 是母音開頭，ne 要縮寫成 n'。喜好句的定冠詞在否定時「不變」（le / la / les 保留）。",
         "items": [
@@ -2100,6 +2154,28 @@
         ]
       },
       {
+        "heading": "Est-ce que 疑問句",
+        "note": "Est-ce que 放句首就能把直述句變問句，後面語序不變（比句尾上揚更清楚、比倒裝更口語）。回答用 Oui, j'aime… / Non, je n'aime pas…，最後常加 Et toi ?（你呢？）。",
+        "items": [
+          {
+            "fr": "Est-ce que tu aimes le shopping ?",
+            "zh": "你喜歡逛街嗎？"
+          },
+          {
+            "fr": "Oui, j'aime bien le shopping.",
+            "zh": "是的，我蠻喜歡逛街。"
+          },
+          {
+            "fr": "Non, je n'aime pas le shopping.",
+            "zh": "不，我不喜歡逛街。"
+          },
+          {
+            "fr": "Et toi ?",
+            "zh": "你呢？"
+          }
+        ]
+      },
+      {
         "heading": "問答練習",
         "note": "問對方喜好用 Qu'est-ce que tu aimes ?（你喜歡什麼？）回答用 J'aime… / Je n'aime pas…。要問特定類別可加 comme（作為）。",
         "items": [
@@ -2127,7 +2203,9 @@
       "程度由強到弱：adorer（超愛）> aimer beaucoup（很喜歡）> aimer bien（蠻喜歡）> ne pas aimer（不喜歡）> détester（討厭）。",
       "否定用 ne … pas；aime 母音開頭 → n'aime pas。喜好句的定冠詞在否定時不變（不像不定冠詞會變成 de）。",
       "三大主題：les boissons（飲料）、la nourriture（食物）、les loisirs（休閒娛樂）。",
-      "問喜好：Qu'est-ce que tu aimes ?，或直接問 Tu aimes… ?；點每個句子可以聽發音。"
+      "問喜好：Qu'est-ce que tu aimes ?，或直接問 Tu aimes… ?；點每個句子可以聽發音。",
+      "定冠詞看名詞分四類：陽性 le、陰性 la、母音開頭 l'、複數 les（le café / la musique / l'opéra / les animaux）。",
+      "三種問法：句尾上揚 Tu aimes… ?、Est-ce que tu aimes… ?、Qu'est-ce que tu aimes ?；回答後可加 Et toi ?（你呢？）。"
     ]
   }
 ]
