@@ -1,27 +1,34 @@
 # French Learning
 
-A website for learning French, covering **A1 / A2 / B1** with flashcards, grammar
-lessons, themed units, and situational dialogues. It is a **frontend-only** app —
-all content is bundled into the site, so it can be hosted for free on GitHub Pages
-(no backend or database required).
+A website for learning French, covering **A1 / A2 / B1** with flashcards, spaced
+repetition, grammar lessons, themed units, and situational dialogues. It is a
+**frontend-only** app — all content is bundled into the site, so it can be hosted
+for free on GitHub Pages (no backend or database required).
 
 - **Frontend:** React 18 + Vite (reads bundled JSON data)
 - **Pronunciation:** the browser's built-in Web Speech API (free, no API key)
-- **Personal data:** the word bank and custom flashcards are stored in the browser's **localStorage**
+- **Personal data:** word bank, custom cards, review schedule, course progress and
+  settings all live in the browser's **localStorage**
+- **Every view has its own URL** (`#/cards?level=A1&tag=動物`), so the back button,
+  refresh and shared links all work
+- **Light / dark / follow-system** colour scheme
 
 ## Features
 
-| Tab | Description |
+| Section | Description |
 | --- | --- |
-| 🗺️ Learning path | The default tab: a structured course from zero to basic conversation — 4 stages / 18 lessons (alphabet & pronunciation → nouns & verbs → describing your world → real-life dialogues). Each lesson bundles its own teaching content plus the relevant grammar topics, themed units, dialogues, and vocabulary categories (with a jump to the flashcards tab), and can be marked done (progress saved in localStorage) |
-| 📇 Flashcards | A1 (515 words), A2 (503 words), B1 (200 words); every word has a **category tag** (animals, food, verbs, emotions…) you can filter by; flip to see the translation and example, nouns tagged masculine/feminine, 🔊 speak the word and the example, and you can add your own cards |
-| 🎲 Random review | Draw a random card to review, scoped by level or by your word bank |
-| ✏️ Quiz | Multiple-choice quiz: a French word is shown (with 🔊) and you pick the correct meaning; keeps score |
-| ⭐ Word bank | Tap ☆ on any card to mark words you don't know yet; custom cards can be edited or deleted anytime (saved in localStorage) |
-| 🔢 Themed units | Numbers 0–100, the clock, days, months, dates, money, and basic sentence patterns — each line can be spoken individually or all at once |
-| 📖 Grammar | 10 topics each for A1/A2, with explanations and **spoken French examples** |
-| 🔧 Verb conjugation | Conjugation rules (the 3 groups, présent / passé composé / futur) plus a lookup for 20 common verbs, with every form speakable |
-| 💬 Dialogues | 86 situations (restaurant, shopping, transport, coworker chat, complaints, gossip, trash talk, hotel, repairs, support calls…); each line plays individually or all at once, with key teaching points |
+| 🏠 Home | Today's dashboard: daily-goal ring, study streak, how many cards are due, a one-tap jump into the next unfinished lesson, a 14-day activity chart and quick links |
+| 🗺️ Learning path | A structured course from zero to basic conversation — 4 stages / 18 lessons (alphabet & pronunciation → nouns & verbs → describing your world → real-life dialogues). Each lesson bundles its own teaching content plus the relevant grammar topics, themed units, dialogues and vocabulary categories, has a jump list of its sections, and can be marked done |
+| 📅 Lesson review | What the teacher covered in class, organised by date — browse via calendar or a searchable list |
+| 🔁 Daily review | Spaced repetition over your word bank (or any level): grade each card 不會 / 普通 / 很熟 and it comes back after 1, 2, 4, 8, 16, 32 or 60 days. Keyboard: space to reveal, 1–3 to grade, S to speak |
+| 📇 Flashcards | A1 (515 words), A2 (503), B1 (200); filter by level, topic tag, or study state (not started / learning / starred), search inside the level, flip for the translation + example, nouns tagged masculine/feminine, and add your own cards. Rendered in batches so big levels stay fast |
+| ✏️ Quiz | Three modes — 法→中, 中→法 and 🎧 listening (pick the word you hear). Scope it to a level, your word bank, or just what's due. Answers feed back into the review schedule. Keyboard: 1–4 to answer, Enter for the next question |
+| ⭐ Word bank | Everything you starred plus your custom cards, grouped by mastery (due / not yet reviewed / learning / mastered) |
+| 🔢 Themed units | Numbers 0–100, the clock, days, months, dates, money and basic sentence patterns — each line speaks individually or all at once |
+| 📘 Grammar | 10 topics each for A1/A2, searchable, with explanations and **spoken French examples** |
+| 🔧 Verb conjugation | Conjugation rules (the 3 groups, présent / passé composé / futur) plus a searchable lookup for 20 common verbs, every form speakable |
+| 💬 Dialogues | 86 situations (restaurant, shopping, transport, coworker chat, complaints, hotel, repairs, support calls…); each line plays individually or all at once, with key teaching points |
+| 🔍 Search | One query across vocabulary, themed units, grammar, verbs, dialogues and class lessons, filterable by result type. Press <kbd>/</kbd> or <kbd>⌘K</kbd> from anywhere |
 
 ## Project structure
 
@@ -29,9 +36,15 @@ all content is bundled into the site, so it can be hosted for free on GitHub Pag
 french-learning/
 ├── frontend/                    React + Vite
 │   ├── src/
-│   │   ├── App.jsx              tabbed UI and all features
-│   │   ├── store.js             loads JSON data + localStorage + number generator
+│   │   ├── App.jsx              app shell: sidebar / bottom nav, top bar, settings
+│   │   ├── router.js            hash routing (#/cards?level=A1) — back button + shareable links
+│   │   ├── store.js             loads JSON data + localStorage + number generator + search
+│   │   ├── srs.js               spaced-repetition schedule, daily stats, study streak
+│   │   ├── theme.js             light / dark / follow-system colour scheme
 │   │   ├── speech.js            Web Speech API pronunciation (single line / whole sequence)
+│   │   ├── ui.jsx               shared components (flashcard, panels, progress, term lists…)
+│   │   ├── index.css            design tokens + all component styles (both themes)
+│   │   ├── views/               one file per section (Home, Course, Cards, Review, Quiz…)
 │   │   └── data/                JSON data: words, grammar, dialogues, themed units
 │   └── vite.config.js           base: './' (works under a GitHub Pages sub-path)
 └── .github/workflows/deploy.yml GitHub Actions: build and deploy to Pages automatically
@@ -60,7 +73,7 @@ and deploys it to Pages. You only need to do this once in the repo:
 
 ## Editing content (all under `frontend/src/data/`)
 
-- Words: `a1.json`, `a2.json`, `b1.json` — one file per level (the old `_extra` files are merged in)
+- Words: `a1.json`, `a2.json`, `b1.json` — one file per level
   (fields: `french`, `translation`, `gender` (m/f/null), `partOfSpeech`, `tag`, `example`, `exampleTranslation`)
 - Grammar: `grammar.json` (`level`, `title`, `summary`, `content`, `orderIndex`, `examples[]`)
 - Verbs: `verbs.json` (`inf`, `zh`, `group`, `aux`, `pp`, `futureStem`, `present[6]`); passé composé and futur are derived in `store.js`
@@ -71,6 +84,18 @@ and deploys it to Pages. You only need to do this once in the repo:
   `unit` (id), `dialogue` (title), or `vocab` (level + tag)
 
 Run `npm run build` again after editing.
+
+## localStorage keys
+
+| Key | What it stores |
+| --- | --- |
+| `fl_unfamiliar` | ids of starred (word bank) cards |
+| `fl_custom_cards` | your own flashcards |
+| `fl_course_done` | completed learning-path lessons |
+| `fl_srs` | per-card review box + next due date |
+| `fl_stats` | reviews / correct / newly learned per day (drives the streak) |
+| `fl_goal` | daily review target |
+| `fl_theme`, `fl_speech_rate`, `fl_speech_voice` | appearance and pronunciation settings |
 
 ## To do
 

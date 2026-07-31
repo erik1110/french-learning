@@ -50,6 +50,21 @@ export const LESSONS = lessonsData
 export const COURSE = courseData
 export const COURSE_LESSON_COUNT = COURSE.reduce((n, s) => n + s.lessons.length, 0)
 
+/** Every course lesson in order, each carrying its stage and 1-based number. */
+export const COURSE_FLAT = COURSE.flatMap((stage) =>
+  stage.lessons.map((l) => ({ ...l, stage })),
+).map((l, i) => ({ ...l, number: i + 1 }))
+
+export function findCourseLesson(id) {
+  return COURSE_FLAT.find((l) => l.id === id)
+}
+
+/** The first lesson the learner hasn't ticked off (or the last one if all done). */
+export function nextCourseLesson(doneSet) {
+  return COURSE_FLAT.find((l) => !doneSet.has(l.id)) ?? COURSE_FLAT[COURSE_FLAT.length - 1]
+}
+
+
 export function findGrammar(level, orderIndex) {
   return GRAMMAR.find((g) => g.level === level && g.orderIndex === orderIndex)
 }

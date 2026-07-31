@@ -71,12 +71,43 @@ export function isSpeechSupported() {
   return typeof window !== 'undefined' && 'speechSynthesis' in window
 }
 
+// --- playback state, so the UI can show "playing" and offer a stop button ---
+const listeners = new Set()
+let queued = 0
+let sequence = false // true while a whole block (dialogue / unit) is playing
+
+function snapshot() {
+  return { speaking: queued > 0, remaining: queued, sequence: sequence && queued > 0 }
+}
+
+function notify() {
+  const state = snapshot()
+  for (const fn of listeners) fn(state)
+}
+
+/** Subscribe to playback changes; returns an unsubscribe function. */
+export function subscribeSpeaking(fn) {
+  listeners.add(fn)
+  fn(snapshot())
+  return () => listeners.delete(fn)
+}
+
+export function isSpeaking() {
+  return queued > 0
+}
+
 function buildUtterance(text) {
   const voice = resolveVoice()
   const utterance = new SpeechSynthesisUtterance(text)
   utterance.lang = voice?.lang || 'fr-FR'
   if (voice) utterance.voice = voice
   utterance.rate = getRate()
+  const done = () => {
+    queued = Math.max(0, queued - 1)
+    notify()
+  }
+  utterance.onend = done
+  utterance.onerror = done
   return utterance
 }
 
@@ -84,6 +115,9 @@ function buildUtterance(text) {
 export function speakFrench(text) {
   if (!isSpeechSupported() || !text) return
   window.speechSynthesis.cancel()
+  queued = 1
+  sequence = false
+  notify()
   window.speechSynthesis.speak(buildUtterance(text))
 }
 
@@ -91,12 +125,20 @@ export function speakFrench(text) {
 export function speakFrenchSequence(texts) {
   if (!isSpeechSupported()) return
   window.speechSynthesis.cancel()
-  texts.filter(Boolean).forEach((t) => window.speechSynthesis.speak(buildUtterance(t)))
+  const lines = texts.filter(Boolean)
+  queued = lines.length
+  sequence = true
+  notify()
+  lines.forEach((t) => window.speechSynthesis.speak(buildUtterance(t)))
 }
 
 /** Stop any ongoing speech. */
 export function stopSpeaking() {
-  if (isSpeechSupported()) window.speechSynthesis.cancel()
+  if (!isSpeechSupported()) return
+  window.speechSynthesis.cancel()
+  queued = 0
+  sequence = false
+  notify()
 }
 
 // Voices load asynchronously in some browsers; cache them when available.
