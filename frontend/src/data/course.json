@@ -14,32 +14,110 @@
             "heading": "法文字母表",
             "note": "法文字母和英文一樣是 26 個，但唸法不同。點每個字母聽發音，特別注意 E、G、J、R、U、W 這幾個和英文差很多的字母。",
             "items": [
-              { "fr": "A", "zh": "啊 /a/" },
-              { "fr": "B", "zh": "貝 /be/" },
-              { "fr": "C", "zh": "誰 /se/" },
-              { "fr": "D", "zh": "德 /de/" },
-              { "fr": "E", "zh": "呃 /ə/" },
-              { "fr": "F", "zh": "欸夫 /ɛf/" },
-              { "fr": "G", "zh": "熱 /ʒe/" },
-              { "fr": "H", "zh": "阿許 /aʃ/" },
-              { "fr": "I", "zh": "衣 /i/" },
-              { "fr": "J", "zh": "紀 /ʒi/" },
-              { "fr": "K", "zh": "卡 /ka/" },
-              { "fr": "L", "zh": "欸勒 /ɛl/" },
-              { "fr": "M", "zh": "欸姆 /ɛm/" },
-              { "fr": "N", "zh": "欸恩 /ɛn/" },
-              { "fr": "O", "zh": "喔 /o/" },
-              { "fr": "P", "zh": "佩 /pe/" },
-              { "fr": "Q", "zh": "屈 /ky/" },
-              { "fr": "R", "zh": "欸喝 /ɛʁ/（小舌音）" },
-              { "fr": "S", "zh": "欸斯 /ɛs/" },
-              { "fr": "T", "zh": "特 /te/" },
-              { "fr": "U", "zh": "淤 /y/（圓唇唸「衣」）" },
-              { "fr": "V", "zh": "維 /ve/" },
-              { "fr": "W", "zh": "杜布勒維 /dubləve/" },
-              { "fr": "X", "zh": "伊克斯 /iks/" },
-              { "fr": "Y", "zh": "伊格黑克 /iɡʁɛk/" },
-              { "fr": "Z", "zh": "賊德 /zɛd/" }
+              {
+                "fr": "A",
+                "zh": "啊 /a/"
+              },
+              {
+                "fr": "B",
+                "zh": "貝 /be/"
+              },
+              {
+                "fr": "C",
+                "zh": "誰 /se/"
+              },
+              {
+                "fr": "D",
+                "zh": "德 /de/"
+              },
+              {
+                "fr": "E",
+                "zh": "呃 /ə/"
+              },
+              {
+                "fr": "F",
+                "zh": "欸夫 /ɛf/"
+              },
+              {
+                "fr": "G",
+                "zh": "熱 /ʒe/"
+              },
+              {
+                "fr": "H",
+                "zh": "阿許 /aʃ/"
+              },
+              {
+                "fr": "I",
+                "zh": "衣 /i/"
+              },
+              {
+                "fr": "J",
+                "zh": "紀 /ʒi/"
+              },
+              {
+                "fr": "K",
+                "zh": "卡 /ka/"
+              },
+              {
+                "fr": "L",
+                "zh": "欸勒 /ɛl/"
+              },
+              {
+                "fr": "M",
+                "zh": "欸姆 /ɛm/"
+              },
+              {
+                "fr": "N",
+                "zh": "欸恩 /ɛn/"
+              },
+              {
+                "fr": "O",
+                "zh": "喔 /o/"
+              },
+              {
+                "fr": "P",
+                "zh": "佩 /pe/"
+              },
+              {
+                "fr": "Q",
+                "zh": "屈 /ky/"
+              },
+              {
+                "fr": "R",
+                "zh": "欸喝 /ɛʁ/（小舌音）"
+              },
+              {
+                "fr": "S",
+                "zh": "欸斯 /ɛs/"
+              },
+              {
+                "fr": "T",
+                "zh": "特 /te/"
+              },
+              {
+                "fr": "U",
+                "zh": "淤 /y/（圓唇唸「衣」）"
+              },
+              {
+                "fr": "V",
+                "zh": "維 /ve/"
+              },
+              {
+                "fr": "W",
+                "zh": "杜布勒維 /dubləve/"
+              },
+              {
+                "fr": "X",
+                "zh": "伊克斯 /iks/"
+              },
+              {
+                "fr": "Y",
+                "zh": "伊格黑克 /iɡʁɛk/"
+              },
+              {
+                "fr": "Z",
+                "zh": "賊德 /zɛd/"
+              }
             ]
           },
           {
@@ -47,12 +125,30 @@
             "heading": "重音符號與特殊字母",
             "note": "這些符號不是裝飾，會改變發音或區分單字。點例字聽發音。",
             "items": [
-              { "fr": "café", "zh": "é（尖音符）：唸 /e/，像「欸」收緊 → café 咖啡" },
-              { "fr": "père", "zh": "è（重音符）：唸 /ɛ/，嘴巴張開的「欸」→ père 爸爸" },
-              { "fr": "fête", "zh": "ê（長音符）：也唸 /ɛ/ → fête 節日" },
-              { "fr": "français", "zh": "ç（軟音符）：c 唸 /s/ 而不是 /k/ → français 法文" },
-              { "fr": "Noël", "zh": "ë（分音符）：兩個母音分開唸 → Noël 聖誕節" },
-              { "fr": "où", "zh": "ù：只出現在 où（哪裡），發音同 ou" }
+              {
+                "fr": "café",
+                "zh": "é（尖音符）：唸 /e/，像「欸」收緊 → café 咖啡"
+              },
+              {
+                "fr": "père",
+                "zh": "è（重音符）：唸 /ɛ/，嘴巴張開的「欸」→ père 爸爸"
+              },
+              {
+                "fr": "fête",
+                "zh": "ê（長音符）：也唸 /ɛ/ → fête 節日"
+              },
+              {
+                "fr": "français",
+                "zh": "ç（軟音符）：c 唸 /s/ 而不是 /k/ → français 法文"
+              },
+              {
+                "fr": "Noël",
+                "zh": "ë（分音符）：兩個母音分開唸 → Noël 聖誕節"
+              },
+              {
+                "fr": "où",
+                "zh": "ù：只出現在 où（哪裡），發音同 ou"
+              }
             ]
           }
         ],
@@ -72,13 +168,34 @@
             "heading": "母音組合",
             "note": "法文拼字很規則：同樣的字母組合幾乎永遠唸同一個音。記住這些組合，大部分的字都能自己唸。",
             "items": [
-              { "fr": "bonjour", "zh": "ou 唸 /u/（烏）→ bonjour 你好" },
-              { "fr": "moi", "zh": "oi 唸 /wa/（哇）→ moi 我" },
-              { "fr": "maison", "zh": "ai 唸 /ɛ/（欸）→ maison 房子" },
-              { "fr": "eau", "zh": "au / eau 唸 /o/（喔）→ eau 水" },
-              { "fr": "deux", "zh": "eu 唸 /ø/（呃，圓唇）→ deux 二" },
-              { "fr": "tu", "zh": "u 唸 /y/（圓唇的「衣」）→ tu 你" },
-              { "fr": "qui", "zh": "qu 唸 /k/ → qui 誰" }
+              {
+                "fr": "bonjour",
+                "zh": "ou 唸 /u/（烏）→ bonjour 你好"
+              },
+              {
+                "fr": "moi",
+                "zh": "oi 唸 /wa/（哇）→ moi 我"
+              },
+              {
+                "fr": "maison",
+                "zh": "ai 唸 /ɛ/（欸）→ maison 房子"
+              },
+              {
+                "fr": "eau",
+                "zh": "au / eau 唸 /o/（喔）→ eau 水"
+              },
+              {
+                "fr": "deux",
+                "zh": "eu 唸 /ø/（呃，圓唇）→ deux 二"
+              },
+              {
+                "fr": "tu",
+                "zh": "u 唸 /y/（圓唇的「衣」）→ tu 你"
+              },
+              {
+                "fr": "qui",
+                "zh": "qu 唸 /k/ → qui 誰"
+              }
             ]
           },
           {
@@ -86,11 +203,26 @@
             "heading": "鼻母音",
             "note": "法文的招牌：母音從鼻子出來，後面的 n / m 本身不發音。",
             "items": [
-              { "fr": "bon", "zh": "on 唸 /ɔ̃/（甕）→ bon 好" },
-              { "fr": "enfant", "zh": "an / en 唸 /ɑ̃/（骯）→ enfant 小孩" },
-              { "fr": "vin", "zh": "in / ain 唸 /ɛ̃/（安）→ vin 葡萄酒" },
-              { "fr": "pain", "zh": "pain 麵包（ain 同樣唸 /ɛ̃/）" },
-              { "fr": "lundi", "zh": "un 唸 /œ̃/ → lundi 星期一" }
+              {
+                "fr": "bon",
+                "zh": "on 唸 /ɔ̃/（甕）→ bon 好"
+              },
+              {
+                "fr": "enfant",
+                "zh": "an / en 唸 /ɑ̃/（骯）→ enfant 小孩"
+              },
+              {
+                "fr": "vin",
+                "zh": "in / ain 唸 /ɛ̃/（安）→ vin 葡萄酒"
+              },
+              {
+                "fr": "pain",
+                "zh": "pain 麵包（ain 同樣唸 /ɛ̃/）"
+              },
+              {
+                "fr": "lundi",
+                "zh": "un 唸 /œ̃/ → lundi 星期一"
+              }
             ]
           },
           {
@@ -98,13 +230,34 @@
             "heading": "子音與不發音的字母",
             "note": "法文很多字母寫了但不唸，這是初學最容易唸錯的地方。",
             "items": [
-              { "fr": "chat", "zh": "ch 唸 /ʃ/（噓）→ chat 貓" },
-              { "fr": "montagne", "zh": "gn 唸 /ɲ/（尼）→ montagne 山" },
-              { "fr": "merci", "zh": "r 是小舌音 → merci 謝謝" },
-              { "fr": "hôtel", "zh": "h 永遠不發音 → hôtel 旅館" },
-              { "fr": "petit", "zh": "字尾子音通常不發音 → petit 唸「puh-TEE」，t 不唸" },
-              { "fr": "madame", "zh": "字尾的 e 不發音 → madame 女士" },
-              { "fr": "vous êtes", "zh": "連音 liaison：vous êtes 唸 vou-z-êtes" }
+              {
+                "fr": "chat",
+                "zh": "ch 唸 /ʃ/（噓）→ chat 貓"
+              },
+              {
+                "fr": "montagne",
+                "zh": "gn 唸 /ɲ/（尼）→ montagne 山"
+              },
+              {
+                "fr": "merci",
+                "zh": "r 是小舌音 → merci 謝謝"
+              },
+              {
+                "fr": "hôtel",
+                "zh": "h 永遠不發音 → hôtel 旅館"
+              },
+              {
+                "fr": "petit",
+                "zh": "字尾子音通常不發音 → petit 唸「puh-TEE」，t 不唸"
+              },
+              {
+                "fr": "madame",
+                "zh": "字尾的 e 不發音 → madame 女士"
+              },
+              {
+                "fr": "vous êtes",
+                "zh": "連音 liaison：vous êtes 唸 vou-z-êtes"
+              }
             ]
           }
         ],
@@ -124,26 +277,81 @@
             "heading": "最常用的問候句",
             "note": "這 15 句是法語日常的骨架，全部背起來就能應付基本社交。",
             "items": [
-              { "fr": "Bonjour !", "zh": "日安！（白天通用的「你好」）" },
-              { "fr": "Bonsoir !", "zh": "晚上好！（傍晚以後用）" },
-              { "fr": "Salut !", "zh": "嗨！／掰！（朋友之間，見面道別都可用）" },
-              { "fr": "Comment ça va ?", "zh": "你好嗎？" },
-              { "fr": "Ça va bien, merci.", "zh": "我很好，謝謝。" },
-              { "fr": "Et toi ?", "zh": "你呢？（對朋友）" },
-              { "fr": "Et vous ?", "zh": "您呢？（對長輩、陌生人）" },
-              { "fr": "Merci beaucoup.", "zh": "非常感謝。" },
-              { "fr": "De rien.", "zh": "不客氣。" },
-              { "fr": "Au revoir !", "zh": "再見！" },
-              { "fr": "À bientôt !", "zh": "回頭見！" },
-              { "fr": "À demain !", "zh": "明天見！" },
-              { "fr": "Bonne journée !", "zh": "祝你有美好的一天！" },
-              { "fr": "Bonne nuit !", "zh": "晚安！（睡前說的）" },
-              { "fr": "Excusez-moi. / Pardon.", "zh": "不好意思。／抱歉。" }
+              {
+                "fr": "Bonjour !",
+                "zh": "日安！（白天通用的「你好」）"
+              },
+              {
+                "fr": "Bonsoir !",
+                "zh": "晚上好！（傍晚以後用）"
+              },
+              {
+                "fr": "Salut !",
+                "zh": "嗨！／掰！（朋友之間，見面道別都可用）"
+              },
+              {
+                "fr": "Comment ça va ?",
+                "zh": "你好嗎？"
+              },
+              {
+                "fr": "Ça va bien, merci.",
+                "zh": "我很好，謝謝。"
+              },
+              {
+                "fr": "Et toi ?",
+                "zh": "你呢？（對朋友）"
+              },
+              {
+                "fr": "Et vous ?",
+                "zh": "您呢？（對長輩、陌生人）"
+              },
+              {
+                "fr": "Merci beaucoup.",
+                "zh": "非常感謝。"
+              },
+              {
+                "fr": "De rien.",
+                "zh": "不客氣。"
+              },
+              {
+                "fr": "Au revoir !",
+                "zh": "再見！"
+              },
+              {
+                "fr": "À bientôt !",
+                "zh": "回頭見！"
+              },
+              {
+                "fr": "À demain !",
+                "zh": "明天見！"
+              },
+              {
+                "fr": "Bonne journée !",
+                "zh": "祝你有美好的一天！"
+              },
+              {
+                "fr": "Bonne nuit !",
+                "zh": "晚安！（睡前說的）"
+              },
+              {
+                "fr": "Excusez-moi. / Pardon.",
+                "zh": "不好意思。／抱歉。"
+              }
             ]
           },
-          { "type": "vocab", "level": "A1", "tag": "招呼用語" },
-          { "type": "dialogue", "title": "日常打招呼" },
-          { "type": "dialogue", "title": "感謝與回應" }
+          {
+            "type": "vocab",
+            "level": "A1",
+            "tag": "招呼用語"
+          },
+          {
+            "type": "dialogue",
+            "title": "日常打招呼"
+          },
+          {
+            "type": "dialogue",
+            "title": "感謝與回應"
+          }
         ],
         "tips": [
           "tu（你）對朋友、vous（您）對陌生人和長輩——法國人很在意這個分別。",
@@ -155,10 +363,23 @@
         "title": "自我介紹",
         "goal": "能說出自己的名字、國籍、住哪裡",
         "sections": [
-          { "type": "unit", "id": "self-intro" },
-          { "type": "grammar", "level": "A1", "orderIndex": 2 },
-          { "type": "unit", "id": "countries" },
-          { "type": "dialogue", "title": "自我介紹" }
+          {
+            "type": "unit",
+            "id": "self-intro"
+          },
+          {
+            "type": "grammar",
+            "level": "A1",
+            "orderIndex": 2
+          },
+          {
+            "type": "unit",
+            "id": "countries"
+          },
+          {
+            "type": "dialogue",
+            "title": "自我介紹"
+          }
         ],
         "tips": [
           "Je m'appelle…（我叫…）＋ Je suis taïwanais(e)（我是台灣人）＋ J'habite à…（我住在…）三句就是完整的自我介紹。",
@@ -177,14 +398,21 @@
         "title": "名詞的性別與冠詞",
         "goal": "知道 le / la / un / une 怎麼分，背名詞連冠詞一起背",
         "sections": [
-          { "type": "grammar", "level": "A1", "orderIndex": 1 },
+          {
+            "type": "grammar",
+            "level": "A1",
+            "orderIndex": 1
+          },
           {
             "type": "vocab",
             "level": "A1",
             "tag": "動物",
             "note": "用動物單字練習陰陽性：un chien（狗，陽性）、une souris（老鼠，陰性）。"
           },
-          { "type": "unit", "id": "colors" }
+          {
+            "type": "unit",
+            "id": "colors"
+          }
         ],
         "tips": [
           "性別沒有邏輯，只能連冠詞一起背：不要背 chien，要背 un chien。",
@@ -196,8 +424,15 @@
         "title": "être（是）與 avoir（有）",
         "goal": "能用兩個最重要的動詞說「我是…」「我有…」「我 N 歲」",
         "sections": [
-          { "type": "grammar", "level": "A1", "orderIndex": 3 },
-          { "type": "unit", "id": "basic-sentences" }
+          {
+            "type": "grammar",
+            "level": "A1",
+            "orderIndex": 3
+          },
+          {
+            "type": "unit",
+            "id": "basic-sentences"
+          }
         ],
         "tips": [
           "說年齡用 avoir 不用 être：J'ai 30 ans（直譯是「我有 30 歲」）。",
@@ -210,9 +445,19 @@
         "title": "數字與價格",
         "goal": "聽懂 0–100、會問價格",
         "sections": [
-          { "type": "unit", "id": "numbers" },
-          { "type": "unit", "id": "money" },
-          { "type": "vocab", "level": "A1", "tag": "數字" }
+          {
+            "type": "unit",
+            "id": "numbers"
+          },
+          {
+            "type": "unit",
+            "id": "money"
+          },
+          {
+            "type": "vocab",
+            "level": "A1",
+            "tag": "數字"
+          }
         ],
         "tips": [
           "70 = 60+10（soixante-dix）、80 = 4×20（quatre-vingts）、90 = 4×20+10：法文數字最怪的地方，多唸幾次就習慣了。",
@@ -224,7 +469,11 @@
         "title": "-er 動詞與日常動作",
         "goal": "會變位規則動詞，能說出每天做的事",
         "sections": [
-          { "type": "grammar", "level": "A1", "orderIndex": 4 },
+          {
+            "type": "grammar",
+            "level": "A1",
+            "orderIndex": 4
+          },
           {
             "type": "vocab",
             "level": "A1",
@@ -242,10 +491,24 @@
         "title": "否定句與疑問句",
         "goal": "會說「不…」、會用三種方式問問題",
         "sections": [
-          { "type": "grammar", "level": "A1", "orderIndex": 5 },
-          { "type": "grammar", "level": "A1", "orderIndex": 6 },
-          { "type": "unit", "id": "questions" },
-          { "type": "dialogue", "title": "問廁所在哪" }
+          {
+            "type": "grammar",
+            "level": "A1",
+            "orderIndex": 5
+          },
+          {
+            "type": "grammar",
+            "level": "A1",
+            "orderIndex": 6
+          },
+          {
+            "type": "unit",
+            "id": "questions"
+          },
+          {
+            "type": "dialogue",
+            "title": "問廁所在哪"
+          }
         ],
         "tips": [
           "否定像三明治：ne + 動詞 + pas → Je ne parle pas anglais。口語常省略 ne：Je parle pas。",
@@ -264,9 +527,20 @@
         "title": "家人與所有格",
         "goal": "能介紹家人：這是我媽媽、我有一個哥哥",
         "sections": [
-          { "type": "grammar", "level": "A1", "orderIndex": 9 },
-          { "type": "vocab", "level": "A1", "tag": "家庭人物" },
-          { "type": "dialogue", "title": "介紹家人" }
+          {
+            "type": "grammar",
+            "level": "A1",
+            "orderIndex": 9
+          },
+          {
+            "type": "vocab",
+            "level": "A1",
+            "tag": "家庭人物"
+          },
+          {
+            "type": "dialogue",
+            "title": "介紹家人"
+          }
         ],
         "tips": [
           "mon / ma / mes 跟著「後面名詞」的性別走，不是跟著說話的人：ma mère（我媽媽），男生女生都這樣說。",
@@ -278,15 +552,27 @@
         "title": "形容詞與描述",
         "goal": "能描述人和東西：大的、小的、漂亮的、有趣的",
         "sections": [
-          { "type": "grammar", "level": "A1", "orderIndex": 8 },
-          { "type": "grammar", "level": "A1", "orderIndex": 7 },
+          {
+            "type": "grammar",
+            "level": "A1",
+            "orderIndex": 8
+          },
+          {
+            "type": "grammar",
+            "level": "A1",
+            "orderIndex": 7
+          },
           {
             "type": "vocab",
             "level": "A1",
             "tag": "形容詞",
             "note": "形容詞要跟名詞做性數配合：un petit chat → une petite maison。"
           },
-          { "type": "vocab", "level": "A1", "tag": "情緒" }
+          {
+            "type": "vocab",
+            "level": "A1",
+            "tag": "情緒"
+          }
         ],
         "tips": [
           "多數形容詞放名詞後面：un vin rouge（紅酒）。",
@@ -298,11 +584,31 @@
         "title": "時間、星期與日期",
         "goal": "會說幾點鐘、星期幾、幾月幾號",
         "sections": [
-          { "type": "unit", "id": "clock" },
-          { "type": "unit", "id": "days" },
-          { "type": "unit", "id": "months" },
-          { "type": "unit", "id": "dates" },
-          { "type": "vocab", "level": "A1", "tag": "時間" }
+          {
+            "type": "unit",
+            "id": "clock"
+          },
+          {
+            "type": "unit",
+            "id": "clock-24h"
+          },
+          {
+            "type": "unit",
+            "id": "days"
+          },
+          {
+            "type": "unit",
+            "id": "months"
+          },
+          {
+            "type": "unit",
+            "id": "dates"
+          },
+          {
+            "type": "vocab",
+            "level": "A1",
+            "tag": "時間"
+          }
         ],
         "tips": [
           "問時間：Quelle heure est-il ?（現在幾點？）／ Il est trois heures（三點）。",
@@ -315,9 +621,20 @@
         "title": "地點、方位與近未來",
         "goal": "會說在哪裡、去哪裡，以及「我要去做…」",
         "sections": [
-          { "type": "grammar", "level": "A1", "orderIndex": 10 },
-          { "type": "unit", "id": "directions" },
-          { "type": "vocab", "level": "A1", "tag": "地點" }
+          {
+            "type": "grammar",
+            "level": "A1",
+            "orderIndex": 10
+          },
+          {
+            "type": "unit",
+            "id": "directions"
+          },
+          {
+            "type": "vocab",
+            "level": "A1",
+            "tag": "地點"
+          }
         ],
         "tips": [
           "aller + 原形動詞＝最好用的未來式：Je vais manger（我要去吃／我等一下會吃）。",
@@ -336,12 +653,32 @@
         "title": "咖啡館與餐廳",
         "goal": "能在咖啡館和餐廳點餐、結帳",
         "sections": [
-          { "type": "unit", "id": "restaurant-phrases" },
-          { "type": "vocab", "level": "A1", "tag": "飲料" },
-          { "type": "vocab", "level": "A1", "tag": "食物" },
-          { "type": "dialogue", "title": "咖啡館點咖啡" },
-          { "type": "dialogue", "title": "餐廳點餐" },
-          { "type": "dialogue", "title": "餐廳付款" }
+          {
+            "type": "unit",
+            "id": "restaurant-phrases"
+          },
+          {
+            "type": "vocab",
+            "level": "A1",
+            "tag": "飲料"
+          },
+          {
+            "type": "vocab",
+            "level": "A1",
+            "tag": "食物"
+          },
+          {
+            "type": "dialogue",
+            "title": "咖啡館點咖啡"
+          },
+          {
+            "type": "dialogue",
+            "title": "餐廳點餐"
+          },
+          {
+            "type": "dialogue",
+            "title": "餐廳付款"
+          }
         ],
         "tips": [
           "點餐萬用句：Je voudrais…（我想要…）比 Je veux 有禮貌得多。",
@@ -353,10 +690,23 @@
         "title": "購物與市場",
         "goal": "能在麵包店、市場買東西、問價格",
         "sections": [
-          { "type": "vocab", "level": "A1", "tag": "購物金錢" },
-          { "type": "dialogue", "title": "麵包店買麵包" },
-          { "type": "dialogue", "title": "市場買菜" },
-          { "type": "dialogue", "title": "問營業時間" }
+          {
+            "type": "vocab",
+            "level": "A1",
+            "tag": "購物金錢"
+          },
+          {
+            "type": "dialogue",
+            "title": "麵包店買麵包"
+          },
+          {
+            "type": "dialogue",
+            "title": "市場買菜"
+          },
+          {
+            "type": "dialogue",
+            "title": "問營業時間"
+          }
         ],
         "tips": [
           "進店裡先說 Bonjour——在法國不打招呼就開口買東西很失禮。",
@@ -368,9 +718,19 @@
         "title": "問路與交通",
         "goal": "會問路、搭地鐵買票",
         "sections": [
-          { "type": "vocab", "level": "A1", "tag": "交通" },
-          { "type": "dialogue", "title": "問路" },
-          { "type": "dialogue", "title": "地鐵買票" }
+          {
+            "type": "vocab",
+            "level": "A1",
+            "tag": "交通"
+          },
+          {
+            "type": "dialogue",
+            "title": "問路"
+          },
+          {
+            "type": "dialogue",
+            "title": "地鐵買票"
+          }
         ],
         "tips": [
           "問路開頭：Excusez-moi, où est… ?（不好意思，…在哪裡？）",
@@ -382,10 +742,22 @@
         "title": "天氣與社交閒聊",
         "goal": "能閒聊天氣、道歉、祝賀——維持一段簡單的對話",
         "sections": [
-          { "type": "unit", "id": "emotions" },
-          { "type": "dialogue", "title": "天氣閒聊" },
-          { "type": "dialogue", "title": "道歉" },
-          { "type": "dialogue", "title": "祝賀生日" }
+          {
+            "type": "unit",
+            "id": "emotions"
+          },
+          {
+            "type": "dialogue",
+            "title": "天氣閒聊"
+          },
+          {
+            "type": "dialogue",
+            "title": "道歉"
+          },
+          {
+            "type": "dialogue",
+            "title": "祝賀生日"
+          }
         ],
         "tips": [
           "天氣是最安全的話題：Il fait beau !（天氣真好！）／ Quel temps !（這什麼天氣！）",
@@ -397,9 +769,18 @@
         "title": "旅遊求生句",
         "goal": "出國玩用得上：買門票、問 WiFi、緊急求助",
         "sections": [
-          { "type": "unit", "id": "emergency" },
-          { "type": "dialogue", "title": "博物館買門票" },
-          { "type": "dialogue", "title": "問 WiFi 密碼" }
+          {
+            "type": "unit",
+            "id": "emergency"
+          },
+          {
+            "type": "dialogue",
+            "title": "博物館買門票"
+          },
+          {
+            "type": "dialogue",
+            "title": "問 WiFi 密碼"
+          }
         ],
         "tips": [
           "救命三句：Au secours !（救命！）、Appelez la police !（叫警察！）、J'ai besoin d'aide（我需要幫助）。",
@@ -418,7 +799,11 @@
         "title": "複合過去式（用 avoir）",
         "goal": "會用 avoir + 過去分詞說「我做了…」",
         "sections": [
-          { "type": "grammar", "level": "A2", "orderIndex": 1 },
+          {
+            "type": "grammar",
+            "level": "A2",
+            "orderIndex": 1
+          },
           {
             "type": "vocab",
             "level": "A2",
@@ -437,7 +822,11 @@
         "title": "複合過去式（用 être）與移動動詞",
         "goal": "記住用 être 的移動動詞，過去分詞要跟主詞配合",
         "sections": [
-          { "type": "grammar", "level": "A2", "orderIndex": 2 },
+          {
+            "type": "grammar",
+            "level": "A2",
+            "orderIndex": 2
+          },
           {
             "type": "vocab",
             "level": "A1",
@@ -456,7 +845,11 @@
         "title": "未完成過去式與「以前…」",
         "goal": "會描述過去的狀態、習慣與背景",
         "sections": [
-          { "type": "grammar", "level": "A2", "orderIndex": 3 },
+          {
+            "type": "grammar",
+            "level": "A2",
+            "orderIndex": 3
+          },
           {
             "type": "vocab",
             "level": "A1",
@@ -475,8 +868,15 @@
         "title": "兩種過去式怎麼選",
         "goal": "分辨 passé composé（發生的事）與 imparfait（背景／習慣）",
         "sections": [
-          { "type": "grammar", "level": "A2", "orderIndex": 4 },
-          { "type": "dialogue", "title": "談興趣嗜好" }
+          {
+            "type": "grammar",
+            "level": "A2",
+            "orderIndex": 4
+          },
+          {
+            "type": "dialogue",
+            "title": "談興趣嗜好"
+          }
         ],
         "tips": [
           "passé composé＝故事的「事件」（然後發生了…）；imparfait＝故事的「背景」（當時正在…）。",
@@ -496,7 +896,11 @@
         "title": "簡單未來式 futur simple",
         "goal": "會用未來式談計畫與預測",
         "sections": [
-          { "type": "grammar", "level": "A2", "orderIndex": 5 },
+          {
+            "type": "grammar",
+            "level": "A2",
+            "orderIndex": 5
+          },
           {
             "type": "vocab",
             "level": "A2",
@@ -515,7 +919,11 @@
         "title": "代動詞與每日作息",
         "goal": "會用 se lever、se coucher 說一天的作息",
         "sections": [
-          { "type": "grammar", "level": "A2", "orderIndex": 6 },
+          {
+            "type": "grammar",
+            "level": "A2",
+            "orderIndex": 6
+          },
           {
             "type": "vocab",
             "level": "A1",
@@ -534,8 +942,16 @@
         "title": "受詞代名詞",
         "goal": "用 le/la/les、lui/leur 代替名詞，句子更精簡",
         "sections": [
-          { "type": "grammar", "level": "A2", "orderIndex": 7 },
-          { "type": "grammar", "level": "A2", "orderIndex": 8 }
+          {
+            "type": "grammar",
+            "level": "A2",
+            "orderIndex": 7
+          },
+          {
+            "type": "grammar",
+            "level": "A2",
+            "orderIndex": 8
+          }
         ],
         "tips": [
           "直接受詞：le（他／它）、la（她／它）、les（他們）——Tu vois Marie ? Oui, je la vois。",
@@ -548,7 +964,11 @@
         "title": "比較級與最高級",
         "goal": "會說「比較…」「最…」",
         "sections": [
-          { "type": "grammar", "level": "A2", "orderIndex": 9 },
+          {
+            "type": "grammar",
+            "level": "A2",
+            "orderIndex": 9
+          },
           {
             "type": "vocab",
             "level": "A2",
@@ -567,8 +987,15 @@
         "title": "命令式與給建議",
         "goal": "會用命令式給指令、建議與邀請",
         "sections": [
-          { "type": "grammar", "level": "A2", "orderIndex": 10 },
-          { "type": "dialogue", "title": "邀請來家裡" }
+          {
+            "type": "grammar",
+            "level": "A2",
+            "orderIndex": 10
+          },
+          {
+            "type": "dialogue",
+            "title": "邀請來家裡"
+          }
         ],
         "tips": [
           "命令式用 tu / nous / vous 三個形式，去掉主詞：Regarde !、Regardons !、Regardez !",

@@ -2207,5 +2207,659 @@
       "定冠詞看名詞分四類：陽性 le、陰性 la、母音開頭 l'、複數 les（le café / la musique / l'opéra / les animaux）。",
       "三種問法：句尾上揚 Tu aimes… ?、Est-ce que tu aimes… ?、Qu'est-ce que tu aimes ?；回答後可加 Et toi ?（你呢？）。"
     ]
+  },
+  {
+    "id": "restaurant-commander",
+    "date": "2026-08-07",
+    "title": "在法國餐廳點餐 — Comment parler au restaurant",
+    "summary": "整理自 Guillaume Posé《Comment parler au restaurant en France ?》教材：從進門帶位、要菜單、問菜色與價錢、用餐中提出要求、處理送錯或太冷的餐點，到甜點、咖啡與結帳，附餐廳必備單字與文化須知。",
+    "sections": [
+      {
+        "heading": "① 進門與入座 — Arriver au restaurant",
+        "note": "法國很多餐廳不能自己找位子坐，要等服務生說 Suivez-moi 或 Installez-vous ici 才入座。熱門餐廳建議先訂位。",
+        "items": [
+          {
+            "fr": "Bonjour, vous avez une table pour deux personnes, s'il vous plaît ?",
+            "zh": "您好，請問有兩人的位子嗎？"
+          },
+          {
+            "fr": "Bonjour, j'ai une réservation au nom de Jean Dupont.",
+            "zh": "您好，我有訂位，名字是 Jean Dupont。"
+          },
+          {
+            "fr": "C'est possible de manger en terrasse ?",
+            "zh": "可以坐外面露天座嗎？"
+          },
+          {
+            "fr": "Est-ce qu'on peut s'installer à l'intérieur ?",
+            "zh": "我們可以坐室內嗎？"
+          },
+          {
+            "fr": "Vous avez réservé ?",
+            "zh": "您有訂位嗎？（服務生）"
+          },
+          {
+            "fr": "Combien de personnes ?",
+            "zh": "幾位？（服務生）"
+          },
+          {
+            "fr": "Suivez-moi, s'il vous plaît.",
+            "zh": "請跟我來。（服務生）"
+          },
+          {
+            "fr": "Installez-vous ici.",
+            "zh": "請坐這裡。（服務生）"
+          }
+        ]
+      },
+      {
+        "heading": "② 要菜單與點餐 — Demander la carte et commander",
+        "note": "Est-ce que je pourrais avoir… 是最禮貌的萬用句型。點餐時用 Je vais prendre…（我要點…），比 Je veux 客氣得多。",
+        "items": [
+          {
+            "fr": "Est-ce que je pourrais avoir la carte, s'il vous plaît ?",
+            "zh": "可以給我菜單嗎？"
+          },
+          {
+            "fr": "Je vais prendre...",
+            "zh": "我要點…"
+          },
+          {
+            "fr": "En entrée, je prends...",
+            "zh": "前菜我要…"
+          },
+          {
+            "fr": "Comme plat, je prends...",
+            "zh": "主菜我要…"
+          },
+          {
+            "fr": "Qu'est-ce que vous me conseillez ?",
+            "zh": "您推薦什麼？"
+          },
+          {
+            "fr": "Vous avez fait votre choix ?",
+            "zh": "您決定好了嗎？（服務生）"
+          },
+          {
+            "fr": "Vous prenez une entrée ?",
+            "zh": "您要點前菜嗎？（服務生）"
+          },
+          {
+            "fr": "Quelle cuisson pour la viande ?",
+            "zh": "肉要幾分熟？（服務生）"
+          },
+          {
+            "fr": "Et comme boisson ?",
+            "zh": "那飲料呢？（服務生）"
+          }
+        ]
+      },
+      {
+        "heading": "③ 問菜色 — Poser des questions sur les plats",
+        "note": "口語問法常把疑問詞放句尾：C'est quoi ? / Il y a quoi dedans ? 比 Qu'est-ce que c'est 更日常。",
+        "items": [
+          {
+            "fr": "C'est quoi exactement ?",
+            "zh": "這到底是什麼？"
+          },
+          {
+            "fr": "Il y a quoi dedans ?",
+            "zh": "裡面有什麼？"
+          },
+          {
+            "fr": "C'est servi avec quoi ?",
+            "zh": "會配什麼一起上？"
+          },
+          {
+            "fr": "Qu'est-ce qu'il y a comme accompagnement ?",
+            "zh": "配菜有什麼？"
+          },
+          {
+            "fr": "C'est un plat chaud ou froid ?",
+            "zh": "這是熱食還是冷盤？"
+          },
+          {
+            "fr": "C'est épicé ?",
+            "zh": "這個會辣嗎？"
+          },
+          {
+            "fr": "C'est une grande portion ?",
+            "zh": "份量大嗎？"
+          },
+          {
+            "fr": "Qu'est-ce qu'il y a dans le menu du jour ?",
+            "zh": "今日套餐有什麼？"
+          }
+        ]
+      },
+      {
+        "heading": "④ 服務生的回答 — Les réponses du serveur",
+        "note": "à base de…（以…為基底）、accompagné de…（配上…）、fait maison（自家手作）是菜色說明最常出現的三個說法。",
+        "items": [
+          {
+            "fr": "C'est un plat à base de...",
+            "zh": "這是一道以…為主的菜。"
+          },
+          {
+            "fr": "C'est fait avec...",
+            "zh": "這是用…做的。"
+          },
+          {
+            "fr": "C'est servi avec des légumes / des frites / du riz / de la salade.",
+            "zh": "會配蔬菜／薯條／米飯／沙拉。"
+          },
+          {
+            "fr": "C'est accompagné de...",
+            "zh": "會搭配…一起上。"
+          },
+          {
+            "fr": "Ce n'est pas très épicé.",
+            "zh": "不會很辣。"
+          },
+          {
+            "fr": "C'est assez copieux.",
+            "zh": "份量相當多。"
+          },
+          {
+            "fr": "C'est une spécialité de la maison.",
+            "zh": "這是本店的招牌菜。"
+          },
+          {
+            "fr": "C'est notre plat le plus populaire.",
+            "zh": "這是我們最受歡迎的一道。"
+          },
+          {
+            "fr": "Je vous conseille plutôt le...",
+            "zh": "我比較推薦…"
+          },
+          {
+            "fr": "C'est fait maison.",
+            "zh": "這是自家手作的。"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 問價錢 — Poser des questions sur le prix",
+        "note": "compris 是「已包含」的意思：C'est compris dans le prix ? 就是「這個有含在價格裡嗎？」",
+        "items": [
+          {
+            "fr": "C'est combien ?",
+            "zh": "這多少錢？"
+          },
+          {
+            "fr": "Ça coûte combien ?",
+            "zh": "這要多少錢？"
+          },
+          {
+            "fr": "C'est compris dans le menu ?",
+            "zh": "這有含在套餐裡嗎？"
+          },
+          {
+            "fr": "C'est compris dans le prix ?",
+            "zh": "這有含在價格裡嗎？"
+          },
+          {
+            "fr": "Il y a un supplément pour ça ?",
+            "zh": "這個要另外加價嗎？"
+          },
+          {
+            "fr": "C'est combien en plus ?",
+            "zh": "要另外加多少？"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ 用餐中提出要求 — Demander quelque chose pendant le repas",
+        "note": "萬用句型：Est-ce que je pourrais avoir + 東西 ?（可以給我…嗎？）東西不夠時用 plus de…（多一點…）。",
+        "items": [
+          {
+            "fr": "Est-ce que je pourrais avoir du pain ?",
+            "zh": "可以給我一些麵包嗎？"
+          },
+          {
+            "fr": "Est-ce que je pourrais avoir plus de pain ?",
+            "zh": "可以再多給我一些麵包嗎？"
+          },
+          {
+            "fr": "Est-ce que je pourrais avoir une carafe d'eau ?",
+            "zh": "可以給我一壺水嗎？"
+          },
+          {
+            "fr": "Est-ce que je pourrais avoir du sel ?",
+            "zh": "可以給我一點鹽嗎？"
+          },
+          {
+            "fr": "Excusez-moi, il manque un couteau.",
+            "zh": "不好意思，少了一支刀子。"
+          }
+        ]
+      },
+      {
+        "heading": "⑦ 遇到問題 — Les petits problèmes",
+        "note": "抱怨一律先說 Excusez-moi 再講事情。要求重新加熱：Est-ce que vous pourriez le réchauffer ?",
+        "items": [
+          {
+            "fr": "Excusez-moi, je pense qu'il y a une erreur.",
+            "zh": "不好意思，我想這裡有點錯誤。"
+          },
+          {
+            "fr": "Je n'ai pas commandé ça.",
+            "zh": "我沒有點這個。"
+          },
+          {
+            "fr": "Je pense que ce n'est pas mon plat.",
+            "zh": "我想這不是我的餐。"
+          },
+          {
+            "fr": "J'avais demandé un jus d'orange.",
+            "zh": "我剛剛點的是柳橙汁。"
+          },
+          {
+            "fr": "Excusez-moi, nous attendons depuis longtemps.",
+            "zh": "不好意思，我們已經等很久了。"
+          },
+          {
+            "fr": "Excusez-moi, le plat est un peu froid. Est-ce que vous pourriez le réchauffer, s'il vous plaît ?",
+            "zh": "不好意思，這道菜有點冷，可以請您加熱一下嗎？"
+          },
+          {
+            "fr": "Excusez-moi, il manque le pain.",
+            "zh": "不好意思，麵包沒有送來。"
+          },
+          {
+            "fr": "Je n'ai pas de couteau.",
+            "zh": "我沒有刀子。"
+          }
+        ]
+      },
+      {
+        "heading": "⑧ 服務生的回應 — Le serveur répond",
+        "note": "tout de suite（馬上）是服務生處理問題時的高頻字。",
+        "items": [
+          {
+            "fr": "Ah, je suis désolé.",
+            "zh": "啊，很抱歉。"
+          },
+          {
+            "fr": "Je vais vérifier en cuisine.",
+            "zh": "我去廚房確認一下。"
+          },
+          {
+            "fr": "Je vais corriger ça.",
+            "zh": "我來處理／更正。"
+          },
+          {
+            "fr": "Je vous apporte ça tout de suite.",
+            "zh": "我馬上幫您送來。"
+          },
+          {
+            "fr": "Je vous le change tout de suite.",
+            "zh": "我馬上幫您換一份。"
+          },
+          {
+            "fr": "Ça arrive dans quelques minutes.",
+            "zh": "再幾分鐘就好了。"
+          }
+        ]
+      },
+      {
+        "heading": "⑨ 甜點、咖啡與結帳 — Le dessert, le café et l'addition",
+        "note": "法國不會自動送帳單，要主動說 Est-ce que je pourrais avoir l'addition ?。payer 與 régler 都是「付錢」，régler 更正式。",
+        "items": [
+          {
+            "fr": "Qu'est-ce que vous avez comme desserts ?",
+            "zh": "你們有什麼甜點？"
+          },
+          {
+            "fr": "Je vais prendre un fondant au chocolat.",
+            "zh": "我要一份熔岩巧克力蛋糕。"
+          },
+          {
+            "fr": "Et un café, s'il vous plaît.",
+            "zh": "再加一杯咖啡，麻煩您。"
+          },
+          {
+            "fr": "Est-ce que je pourrais avoir l'addition, s'il vous plaît ?",
+            "zh": "可以幫我結帳嗎？"
+          },
+          {
+            "fr": "On peut payer séparément ?",
+            "zh": "我們可以分開付嗎？"
+          },
+          {
+            "fr": "Je vais régler toute l'addition.",
+            "zh": "我來付全部。"
+          },
+          {
+            "fr": "Je paie par carte.",
+            "zh": "我刷卡。"
+          },
+          {
+            "fr": "Je paie en espèces.",
+            "zh": "我付現金。"
+          },
+          {
+            "fr": "Excusez-moi, je pense qu'il y a une erreur sur l'addition.",
+            "zh": "不好意思，我想帳單有錯。"
+          },
+          {
+            "fr": "J'ai pris un verre, pas une bouteille.",
+            "zh": "我點的是一杯，不是一瓶。"
+          }
+        ]
+      },
+      {
+        "heading": "⑩ 牛排的熟度 — Les cuissons de la viande",
+        "note": "由生到熟共四級。法國人很少點 bien cuit，一般以 saignant 或 à point 為主。",
+        "items": [
+          {
+            "fr": "bleu",
+            "zh": "近乎全生（只封表面）"
+          },
+          {
+            "fr": "saignant",
+            "zh": "三分熟"
+          },
+          {
+            "fr": "à point",
+            "zh": "五分熟"
+          },
+          {
+            "fr": "bien cuit",
+            "zh": "全熟"
+          },
+          {
+            "fr": "Les Français préfèrent rarement la viande bien cuite.",
+            "zh": "法國人很少偏好全熟的肉。"
+          }
+        ]
+      },
+      {
+        "heading": "⑪ 餐廳單字：人物與場地 — Les personnes et les lieux",
+        "note": "serveur（男服務生）／serveuse（女服務生）是陰陽性成對的字。",
+        "items": [
+          {
+            "fr": "un client",
+            "zh": "客人"
+          },
+          {
+            "fr": "un serveur",
+            "zh": "男服務生"
+          },
+          {
+            "fr": "une serveuse",
+            "zh": "女服務生"
+          },
+          {
+            "fr": "le chef",
+            "zh": "主廚"
+          },
+          {
+            "fr": "le cuisinier",
+            "zh": "廚師"
+          },
+          {
+            "fr": "le patron du restaurant",
+            "zh": "餐廳老闆"
+          },
+          {
+            "fr": "l'entrée",
+            "zh": "入口（也可指前菜）"
+          },
+          {
+            "fr": "la salle",
+            "zh": "用餐區"
+          },
+          {
+            "fr": "la terrasse",
+            "zh": "露天座"
+          },
+          {
+            "fr": "le comptoir",
+            "zh": "吧台"
+          },
+          {
+            "fr": "la cuisine",
+            "zh": "廚房"
+          },
+          {
+            "fr": "les toilettes",
+            "zh": "廁所（恆為複數）"
+          }
+        ]
+      },
+      {
+        "heading": "⑫ 餐廳單字：桌上與菜單 — La table et la carte",
+        "note": "最容易搞混：la carte 是「菜單」，le menu 是「套餐」；le menu du jour 是今日套餐。",
+        "items": [
+          {
+            "fr": "une assiette",
+            "zh": "盤子"
+          },
+          {
+            "fr": "un verre",
+            "zh": "杯子"
+          },
+          {
+            "fr": "une fourchette",
+            "zh": "叉子"
+          },
+          {
+            "fr": "un couteau",
+            "zh": "刀子"
+          },
+          {
+            "fr": "une cuillère",
+            "zh": "湯匙"
+          },
+          {
+            "fr": "une serviette",
+            "zh": "餐巾"
+          },
+          {
+            "fr": "une nappe",
+            "zh": "桌巾"
+          },
+          {
+            "fr": "une carafe d'eau",
+            "zh": "一壺水（免費）"
+          },
+          {
+            "fr": "une bouteille",
+            "zh": "一瓶（要付費）"
+          },
+          {
+            "fr": "une corbeille de pain",
+            "zh": "麵包籃"
+          },
+          {
+            "fr": "la carte",
+            "zh": "菜單"
+          },
+          {
+            "fr": "le menu du jour",
+            "zh": "今日套餐"
+          },
+          {
+            "fr": "le plat principal",
+            "zh": "主菜"
+          },
+          {
+            "fr": "le dessert",
+            "zh": "甜點"
+          },
+          {
+            "fr": "la boisson",
+            "zh": "飲料"
+          },
+          {
+            "fr": "la spécialité de la maison",
+            "zh": "招牌菜"
+          }
+        ]
+      },
+      {
+        "heading": "⑬ 餐廳單字：菜色與飲料 — Les plats et les boissons",
+        "note": "à base de viande／de poisson＝以肉／魚為主的菜。飲料的量詞：un verre de（一杯）、une bouteille de（一瓶）。",
+        "items": [
+          {
+            "fr": "une soupe",
+            "zh": "湯"
+          },
+          {
+            "fr": "une salade",
+            "zh": "沙拉"
+          },
+          {
+            "fr": "un plat à base de viande",
+            "zh": "肉類料理"
+          },
+          {
+            "fr": "un plat à base de poisson",
+            "zh": "魚類料理"
+          },
+          {
+            "fr": "un accompagnement",
+            "zh": "配菜"
+          },
+          {
+            "fr": "des légumes",
+            "zh": "蔬菜"
+          },
+          {
+            "fr": "des frites",
+            "zh": "薯條"
+          },
+          {
+            "fr": "une sauce",
+            "zh": "醬汁"
+          },
+          {
+            "fr": "un apéritif",
+            "zh": "餐前酒"
+          },
+          {
+            "fr": "un verre de vin",
+            "zh": "一杯葡萄酒"
+          },
+          {
+            "fr": "une bouteille de vin",
+            "zh": "一瓶葡萄酒"
+          },
+          {
+            "fr": "une bouteille d'eau",
+            "zh": "一瓶水"
+          },
+          {
+            "fr": "une boisson gazeuse",
+            "zh": "氣泡飲料"
+          },
+          {
+            "fr": "un jus de fruit",
+            "zh": "果汁"
+          },
+          {
+            "fr": "un café",
+            "zh": "咖啡"
+          },
+          {
+            "fr": "un thé",
+            "zh": "茶"
+          }
+        ]
+      },
+      {
+        "heading": "⑭ 餐廳單字：甜點與常用動詞 — Les desserts et les verbes",
+        "note": "un café gourmand 是法國特有的甜點盤：一杯咖啡配好幾種迷你甜點。付款用 payer 或 régler，後面接 par carte（刷卡）或 en espèces（付現）。",
+        "items": [
+          {
+            "fr": "une glace",
+            "zh": "冰淇淋"
+          },
+          {
+            "fr": "un gâteau",
+            "zh": "蛋糕"
+          },
+          {
+            "fr": "un fondant au chocolat",
+            "zh": "熔岩巧克力蛋糕"
+          },
+          {
+            "fr": "une mousse au chocolat",
+            "zh": "巧克力慕斯"
+          },
+          {
+            "fr": "une panna cotta",
+            "zh": "奶酪"
+          },
+          {
+            "fr": "un macaron",
+            "zh": "馬卡龍"
+          },
+          {
+            "fr": "une meringue",
+            "zh": "蛋白霜"
+          },
+          {
+            "fr": "un café gourmand",
+            "zh": "咖啡配迷你甜點拼盤"
+          },
+          {
+            "fr": "l'addition",
+            "zh": "帳單"
+          },
+          {
+            "fr": "le ticket",
+            "zh": "收據"
+          },
+          {
+            "fr": "le pourboire",
+            "zh": "小費"
+          },
+          {
+            "fr": "réserver",
+            "zh": "訂位"
+          },
+          {
+            "fr": "commander",
+            "zh": "點餐"
+          },
+          {
+            "fr": "choisir",
+            "zh": "選擇"
+          },
+          {
+            "fr": "goûter",
+            "zh": "嚐"
+          },
+          {
+            "fr": "manger",
+            "zh": "吃"
+          },
+          {
+            "fr": "boire",
+            "zh": "喝"
+          },
+          {
+            "fr": "payer par carte",
+            "zh": "刷卡付款"
+          },
+          {
+            "fr": "régler en espèces",
+            "zh": "付現金"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "熱門餐廳建議先訂位（réserver）；很多餐廳不能自己入座，要等服務生說 Suivez-moi 或 Installez-vous ici。",
+      "la carafe d'eau（一壺自來水）是免費的，la bouteille d'eau（瓶裝水）要付費。麵包 le pain 通常也是免費的。",
+      "服務費已含在價格裡（le service est compris）。小費 le pourboire 不強制，但給了會讓人開心。",
+      "餐前很多法國人會先來一杯 apéritif 開胃。",
+      "很多餐廳有 menu du jour（今日套餐），由主廚決定內容，通常比單點便宜。",
+      "營業時間很固定：午餐大約 12h–14h，晚餐大約 19h–22h，其他時間廚房通常關閉。",
+      "肉的熟度四級：bleu → saignant → à point → bien cuit，法國人很少點全熟。",
+      "最禮貌的萬用句型是 Est-ce que je pourrais avoir... ?（可以給我…嗎？），從要菜單、要麵包到要帳單都能用。"
+    ]
   }
 ]

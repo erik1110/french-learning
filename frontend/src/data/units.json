@@ -3,22 +3,200 @@
     "id": "clock",
     "category": "時間",
     "title": "時鐘：怎麼說幾點",
-    "intro": "用 Il est … heure(s) 表達時間；et quart =十五分、et demie =半、moins le quart =差一刻。",
+    "intro": "問時間用 Quelle heure est-il ?，回答一律以 Il est… 開頭。1 點是 une heure（單數），2 點以上 heures 要加 s；分鐘直接接在後面，過半小時可改用 moins（差…分）。et quart = 15 分、et demie = 半、moins le quart = 差一刻。",
     "items": [
-      {"fr": "Quelle heure est-il ?", "zh": "現在幾點？"},
-      {"fr": "Il est une heure.", "zh": "一點。"},
-      {"fr": "Il est deux heures.", "zh": "兩點。"},
-      {"fr": "Il est trois heures et quart.", "zh": "三點十五分（三點一刻）。"},
-      {"fr": "Il est quatre heures et demie.", "zh": "四點半。"},
-      {"fr": "Il est cinq heures moins le quart.", "zh": "差一刻五點（四點四十五）。"},
-      {"fr": "Il est six heures dix.", "zh": "六點十分。"},
-      {"fr": "Il est sept heures moins dix.", "zh": "差十分七點（六點五十）。"},
-      {"fr": "Il est midi.", "zh": "中午十二點。"},
-      {"fr": "Il est minuit.", "zh": "午夜十二點。"},
-      {"fr": "Il est midi et demi.", "zh": "中午十二點半。"},
-      {"fr": "huit heures du matin", "zh": "早上八點"},
-      {"fr": "trois heures de l'après-midi", "zh": "下午三點"},
-      {"fr": "neuf heures du soir", "zh": "晚上九點"}
+      {
+        "fr": "Quelle heure est-il ?",
+        "zh": "現在幾點？（標準問法）"
+      },
+      {
+        "fr": "Il est quelle heure ?",
+        "zh": "現在幾點？（口語，疑問詞放句尾）"
+      },
+      {
+        "fr": "Vous avez l'heure, s'il vous plaît ?",
+        "zh": "請問現在幾點？（問路人最自然的說法）"
+      },
+      {
+        "fr": "Il est une heure.",
+        "zh": "一點。（1 點用 une，heure 不加 s）"
+      },
+      {
+        "fr": "Il est deux heures.",
+        "zh": "兩點。（2 點以上 heures 要加 s）"
+      },
+      {
+        "fr": "Il est trois heures cinq.",
+        "zh": "三點五分。（分鐘直接接在 heures 後面）"
+      },
+      {
+        "fr": "Il est six heures dix.",
+        "zh": "六點十分。"
+      },
+      {
+        "fr": "Il est huit heures vingt.",
+        "zh": "八點二十分。"
+      },
+      {
+        "fr": "Il est neuf heures vingt-cinq.",
+        "zh": "九點二十五分。"
+      },
+      {
+        "fr": "Il est trois heures et quart.",
+        "zh": "三點十五分（三點一刻）。"
+      },
+      {
+        "fr": "Il est quatre heures et demie.",
+        "zh": "四點半。（heure 陰性，demie 要加 e）"
+      },
+      {
+        "fr": "Il est cinq heures moins le quart.",
+        "zh": "差一刻五點（四點四十五）。"
+      },
+      {
+        "fr": "Il est sept heures moins dix.",
+        "zh": "差十分七點（六點五十）。"
+      },
+      {
+        "fr": "Il est dix heures moins vingt.",
+        "zh": "差二十分十點（九點四十）。"
+      },
+      {
+        "fr": "Il est deux heures pile.",
+        "zh": "兩點整。（口語）"
+      },
+      {
+        "fr": "Il est trois heures précises.",
+        "zh": "三點整。（正式）"
+      },
+      {
+        "fr": "Il est midi.",
+        "zh": "中午十二點。（不說 douze heures）"
+      },
+      {
+        "fr": "Il est minuit.",
+        "zh": "午夜十二點。"
+      },
+      {
+        "fr": "Il est midi et demi.",
+        "zh": "中午十二點半。（midi 陽性，demi 不加 e）"
+      },
+      {
+        "fr": "Il est minuit et demi.",
+        "zh": "午夜十二點半。"
+      },
+      {
+        "fr": "deux heures du matin",
+        "zh": "凌晨兩點"
+      },
+      {
+        "fr": "huit heures du matin",
+        "zh": "早上八點"
+      },
+      {
+        "fr": "trois heures de l'après-midi",
+        "zh": "下午三點"
+      },
+      {
+        "fr": "neuf heures du soir",
+        "zh": "晚上九點"
+      }
+    ]
+  },
+  {
+    "id": "clock-24h",
+    "category": "時間",
+    "title": "24 小時制與約時間",
+    "intro": "法國的火車、電影、營業時間一律用 24 小時制：直接念「數字 + heures + 分鐘」，不用 et quart / et demie / moins。約時間用 à + 時間。",
+    "items": [
+      {
+        "fr": "Il est quatorze heures.",
+        "zh": "14:00 — 下午兩點"
+      },
+      {
+        "fr": "Il est quatorze heures trente.",
+        "zh": "14:30 — 下午兩點半（不說 et demie）"
+      },
+      {
+        "fr": "Il est seize heures quarante-cinq.",
+        "zh": "16:45 — 下午四點四十五"
+      },
+      {
+        "fr": "Il est dix-huit heures quinze.",
+        "zh": "18:15 — 傍晚六點十五"
+      },
+      {
+        "fr": "Il est vingt heures.",
+        "zh": "20:00 — 晚上八點"
+      },
+      {
+        "fr": "Il est vingt-trois heures cinquante.",
+        "zh": "23:50 — 晚上十一點五十"
+      },
+      {
+        "fr": "Il est zéro heure trente.",
+        "zh": "00:30 — 凌晨零點半（zéro heure 不加 s）"
+      },
+      {
+        "fr": "À quelle heure ?",
+        "zh": "幾點？（約時間用 à）"
+      },
+      {
+        "fr": "À quelle heure est-ce que tu arrives ?",
+        "zh": "你幾點到？"
+      },
+      {
+        "fr": "Le train part à huit heures douze.",
+        "zh": "火車 8:12 出發。"
+      },
+      {
+        "fr": "Le film commence à vingt heures trente.",
+        "zh": "電影 20:30 開始。"
+      },
+      {
+        "fr": "Le magasin ouvre à neuf heures.",
+        "zh": "商店九點開門。"
+      },
+      {
+        "fr": "Le magasin ferme à dix-neuf heures.",
+        "zh": "商店 19:00 關門。"
+      },
+      {
+        "fr": "de neuf heures à dix-huit heures",
+        "zh": "從九點到十八點（營業時間寫法）"
+      },
+      {
+        "fr": "On se retrouve à midi.",
+        "zh": "我們中午見。"
+      },
+      {
+        "fr": "Rendez-vous à sept heures et demie.",
+        "zh": "約七點半見。"
+      },
+      {
+        "fr": "vers huit heures",
+        "zh": "大約八點左右"
+      },
+      {
+        "fr": "dans environ dix minutes",
+        "zh": "大約再十分鐘"
+      },
+      {
+        "fr": "Il est presque midi.",
+        "zh": "快中午了。"
+      },
+      {
+        "fr": "Je suis à l'heure.",
+        "zh": "我準時。"
+      },
+      {
+        "fr": "Je suis en avance.",
+        "zh": "我早到了。"
+      },
+      {
+        "fr": "Je suis en retard.",
+        "zh": "我遲到了。"
+      }
     ]
   },
   {
@@ -27,15 +205,42 @@
     "title": "星期",
     "intro": "法文一週從 lundi（星期一）開始；星期名稱都是陽性，且不大寫。",
     "items": [
-      {"fr": "lundi", "zh": "星期一"},
-      {"fr": "mardi", "zh": "星期二"},
-      {"fr": "mercredi", "zh": "星期三"},
-      {"fr": "jeudi", "zh": "星期四"},
-      {"fr": "vendredi", "zh": "星期五"},
-      {"fr": "samedi", "zh": "星期六"},
-      {"fr": "dimanche", "zh": "星期日"},
-      {"fr": "Aujourd'hui, c'est lundi.", "zh": "今天是星期一。"},
-      {"fr": "On est quel jour aujourd'hui ?", "zh": "今天星期幾？"}
+      {
+        "fr": "lundi",
+        "zh": "星期一"
+      },
+      {
+        "fr": "mardi",
+        "zh": "星期二"
+      },
+      {
+        "fr": "mercredi",
+        "zh": "星期三"
+      },
+      {
+        "fr": "jeudi",
+        "zh": "星期四"
+      },
+      {
+        "fr": "vendredi",
+        "zh": "星期五"
+      },
+      {
+        "fr": "samedi",
+        "zh": "星期六"
+      },
+      {
+        "fr": "dimanche",
+        "zh": "星期日"
+      },
+      {
+        "fr": "Aujourd'hui, c'est lundi.",
+        "zh": "今天是星期一。"
+      },
+      {
+        "fr": "On est quel jour aujourd'hui ?",
+        "zh": "今天星期幾？"
+      }
     ]
   },
   {
@@ -44,18 +249,54 @@
     "title": "月份",
     "intro": "十二個月份，全部都是陽性，書寫時不大寫。",
     "items": [
-      {"fr": "janvier", "zh": "一月"},
-      {"fr": "février", "zh": "二月"},
-      {"fr": "mars", "zh": "三月"},
-      {"fr": "avril", "zh": "四月"},
-      {"fr": "mai", "zh": "五月"},
-      {"fr": "juin", "zh": "六月"},
-      {"fr": "juillet", "zh": "七月"},
-      {"fr": "août", "zh": "八月"},
-      {"fr": "septembre", "zh": "九月"},
-      {"fr": "octobre", "zh": "十月"},
-      {"fr": "novembre", "zh": "十一月"},
-      {"fr": "décembre", "zh": "十二月"}
+      {
+        "fr": "janvier",
+        "zh": "一月"
+      },
+      {
+        "fr": "février",
+        "zh": "二月"
+      },
+      {
+        "fr": "mars",
+        "zh": "三月"
+      },
+      {
+        "fr": "avril",
+        "zh": "四月"
+      },
+      {
+        "fr": "mai",
+        "zh": "五月"
+      },
+      {
+        "fr": "juin",
+        "zh": "六月"
+      },
+      {
+        "fr": "juillet",
+        "zh": "七月"
+      },
+      {
+        "fr": "août",
+        "zh": "八月"
+      },
+      {
+        "fr": "septembre",
+        "zh": "九月"
+      },
+      {
+        "fr": "octobre",
+        "zh": "十月"
+      },
+      {
+        "fr": "novembre",
+        "zh": "十一月"
+      },
+      {
+        "fr": "décembre",
+        "zh": "十二月"
+      }
     ]
   },
   {
@@ -64,12 +305,30 @@
     "title": "日期表達",
     "intro": "用「le + 數字 + 月份」表示日期；只有 1 號用序數 premier。",
     "items": [
-      {"fr": "Quelle est la date aujourd'hui ?", "zh": "今天幾號？"},
-      {"fr": "C'est le premier janvier.", "zh": "一月一日（1號用 premier）。"},
-      {"fr": "C'est le 14 juillet.", "zh": "七月十四日（國慶日）。"},
-      {"fr": "Mon anniversaire est le 3 mars.", "zh": "我的生日是三月三日。"},
-      {"fr": "On est le 25 décembre.", "zh": "今天是十二月二十五日。"},
-      {"fr": "en deux mille vingt-quatre", "zh": "在二○二四年"}
+      {
+        "fr": "Quelle est la date aujourd'hui ?",
+        "zh": "今天幾號？"
+      },
+      {
+        "fr": "C'est le premier janvier.",
+        "zh": "一月一日（1號用 premier）。"
+      },
+      {
+        "fr": "C'est le 14 juillet.",
+        "zh": "七月十四日（國慶日）。"
+      },
+      {
+        "fr": "Mon anniversaire est le 3 mars.",
+        "zh": "我的生日是三月三日。"
+      },
+      {
+        "fr": "On est le 25 décembre.",
+        "zh": "今天是十二月二十五日。"
+      },
+      {
+        "fr": "en deux mille vingt-quatre",
+        "zh": "在二○二四年"
+      }
     ]
   },
   {
@@ -78,16 +337,46 @@
     "title": "金錢與價格怎麼說",
     "intro": "價格用 euro(s)；小數部分直接接數字，如 3,50 € 念 trois euros cinquante。",
     "items": [
-      {"fr": "Combien ça coûte ?", "zh": "這多少錢？"},
-      {"fr": "Ça coûte dix euros.", "zh": "這要十歐元。"},
-      {"fr": "C'est trois euros cinquante.", "zh": "這是三歐五十（3,50 €）。"},
-      {"fr": "deux euros vingt", "zh": "兩歐二十（2,20 €）"},
-      {"fr": "un billet de vingt euros", "zh": "一張二十歐元的紙鈔"},
-      {"fr": "une pièce de deux euros", "zh": "一個兩歐元的硬幣"},
-      {"fr": "Ça fait combien en tout ?", "zh": "一共多少錢？"},
-      {"fr": "C'est gratuit.", "zh": "這是免費的。"},
-      {"fr": "C'est trop cher !", "zh": "太貴了！"},
-      {"fr": "Je peux payer par carte ?", "zh": "我可以刷卡嗎？"}
+      {
+        "fr": "Combien ça coûte ?",
+        "zh": "這多少錢？"
+      },
+      {
+        "fr": "Ça coûte dix euros.",
+        "zh": "這要十歐元。"
+      },
+      {
+        "fr": "C'est trois euros cinquante.",
+        "zh": "這是三歐五十（3,50 €）。"
+      },
+      {
+        "fr": "deux euros vingt",
+        "zh": "兩歐二十（2,20 €）"
+      },
+      {
+        "fr": "un billet de vingt euros",
+        "zh": "一張二十歐元的紙鈔"
+      },
+      {
+        "fr": "une pièce de deux euros",
+        "zh": "一個兩歐元的硬幣"
+      },
+      {
+        "fr": "Ça fait combien en tout ?",
+        "zh": "一共多少錢？"
+      },
+      {
+        "fr": "C'est gratuit.",
+        "zh": "這是免費的。"
+      },
+      {
+        "fr": "C'est trop cher !",
+        "zh": "太貴了！"
+      },
+      {
+        "fr": "Je peux payer par carte ?",
+        "zh": "我可以刷卡嗎？"
+      }
     ]
   },
   {
@@ -96,18 +385,54 @@
     "title": "我有一隻狗：常用基本句",
     "intro": "最常用的 J'ai…（我有／我覺得）與 Je suis…（我是）句型。",
     "items": [
-      {"fr": "J'ai un chien.", "zh": "我有一隻狗。"},
-      {"fr": "J'ai un chat.", "zh": "我有一隻貓。"},
-      {"fr": "J'ai faim.", "zh": "我餓了。"},
-      {"fr": "J'ai soif.", "zh": "我渴了。"},
-      {"fr": "J'ai froid.", "zh": "我覺得冷。"},
-      {"fr": "J'ai chaud.", "zh": "我覺得熱。"},
-      {"fr": "J'ai vingt ans.", "zh": "我二十歲。"},
-      {"fr": "Je suis fatigué.", "zh": "我累了。"},
-      {"fr": "Je voudrais un café.", "zh": "我想要一杯咖啡。"},
-      {"fr": "Il y a un problème.", "zh": "有個問題。"},
-      {"fr": "Je ne comprends pas.", "zh": "我不懂。"},
-      {"fr": "Je ne sais pas.", "zh": "我不知道。"}
+      {
+        "fr": "J'ai un chien.",
+        "zh": "我有一隻狗。"
+      },
+      {
+        "fr": "J'ai un chat.",
+        "zh": "我有一隻貓。"
+      },
+      {
+        "fr": "J'ai faim.",
+        "zh": "我餓了。"
+      },
+      {
+        "fr": "J'ai soif.",
+        "zh": "我渴了。"
+      },
+      {
+        "fr": "J'ai froid.",
+        "zh": "我覺得冷。"
+      },
+      {
+        "fr": "J'ai chaud.",
+        "zh": "我覺得熱。"
+      },
+      {
+        "fr": "J'ai vingt ans.",
+        "zh": "我二十歲。"
+      },
+      {
+        "fr": "Je suis fatigué.",
+        "zh": "我累了。"
+      },
+      {
+        "fr": "Je voudrais un café.",
+        "zh": "我想要一杯咖啡。"
+      },
+      {
+        "fr": "Il y a un problème.",
+        "zh": "有個問題。"
+      },
+      {
+        "fr": "Je ne comprends pas.",
+        "zh": "我不懂。"
+      },
+      {
+        "fr": "Je ne sais pas.",
+        "zh": "我不知道。"
+      }
     ]
   },
   {
@@ -116,13 +441,34 @@
     "title": "自我介紹常用句",
     "intro": "初次見面介紹自己的年齡、國籍、居住地與語言。",
     "items": [
-      {"fr": "Je m'appelle Marie.", "zh": "我叫瑪莉。"},
-      {"fr": "J'ai vingt-cinq ans.", "zh": "我二十五歲。"},
-      {"fr": "Je suis taïwanais.", "zh": "我是台灣人。"},
-      {"fr": "J'habite à Taipei.", "zh": "我住在台北。"},
-      {"fr": "Je parle chinois et un peu français.", "zh": "我說中文和一點法語。"},
-      {"fr": "Je suis étudiant.", "zh": "我是學生。"},
-      {"fr": "Enchanté !", "zh": "幸會！"}
+      {
+        "fr": "Je m'appelle Marie.",
+        "zh": "我叫瑪莉。"
+      },
+      {
+        "fr": "J'ai vingt-cinq ans.",
+        "zh": "我二十五歲。"
+      },
+      {
+        "fr": "Je suis taïwanais.",
+        "zh": "我是台灣人。"
+      },
+      {
+        "fr": "J'habite à Taipei.",
+        "zh": "我住在台北。"
+      },
+      {
+        "fr": "Je parle chinois et un peu français.",
+        "zh": "我說中文和一點法語。"
+      },
+      {
+        "fr": "Je suis étudiant.",
+        "zh": "我是學生。"
+      },
+      {
+        "fr": "Enchanté !",
+        "zh": "幸會！"
+      }
     ]
   },
   {
@@ -131,13 +477,34 @@
     "title": "問問題常用句",
     "intro": "認識新朋友、問資訊時最常用的問句。",
     "items": [
-      {"fr": "Comment tu t'appelles ?", "zh": "你叫什麼名字？"},
-      {"fr": "Tu as quel âge ?", "zh": "你幾歲？"},
-      {"fr": "Tu viens d'où ?", "zh": "你來自哪裡？"},
-      {"fr": "Qu'est-ce que c'est ?", "zh": "這是什麼？"},
-      {"fr": "Où sont les toilettes ?", "zh": "廁所在哪裡？"},
-      {"fr": "Tu parles anglais ?", "zh": "你會說英語嗎？"},
-      {"fr": "Tu peux répéter, s'il te plaît ?", "zh": "可以再說一次嗎？"}
+      {
+        "fr": "Comment tu t'appelles ?",
+        "zh": "你叫什麼名字？"
+      },
+      {
+        "fr": "Tu as quel âge ?",
+        "zh": "你幾歲？"
+      },
+      {
+        "fr": "Tu viens d'où ?",
+        "zh": "你來自哪裡？"
+      },
+      {
+        "fr": "Qu'est-ce que c'est ?",
+        "zh": "這是什麼？"
+      },
+      {
+        "fr": "Où sont les toilettes ?",
+        "zh": "廁所在哪裡？"
+      },
+      {
+        "fr": "Tu parles anglais ?",
+        "zh": "你會說英語嗎？"
+      },
+      {
+        "fr": "Tu peux répéter, s'il te plaît ?",
+        "zh": "可以再說一次嗎？"
+      }
     ]
   },
   {
@@ -146,18 +513,54 @@
     "title": "顏色",
     "intro": "形容詞放在名詞後面，並做性數配合，例：une voiture rouge。",
     "items": [
-      {"fr": "rouge", "zh": "紅色"},
-      {"fr": "bleu", "zh": "藍色"},
-      {"fr": "vert", "zh": "綠色"},
-      {"fr": "jaune", "zh": "黃色"},
-      {"fr": "orange", "zh": "橙色"},
-      {"fr": "violet", "zh": "紫色"},
-      {"fr": "rose", "zh": "粉紅色"},
-      {"fr": "marron", "zh": "棕色"},
-      {"fr": "noir", "zh": "黑色"},
-      {"fr": "blanc", "zh": "白色"},
-      {"fr": "gris", "zh": "灰色"},
-      {"fr": "C'est de quelle couleur ?", "zh": "這是什麼顏色？"}
+      {
+        "fr": "rouge",
+        "zh": "紅色"
+      },
+      {
+        "fr": "bleu",
+        "zh": "藍色"
+      },
+      {
+        "fr": "vert",
+        "zh": "綠色"
+      },
+      {
+        "fr": "jaune",
+        "zh": "黃色"
+      },
+      {
+        "fr": "orange",
+        "zh": "橙色"
+      },
+      {
+        "fr": "violet",
+        "zh": "紫色"
+      },
+      {
+        "fr": "rose",
+        "zh": "粉紅色"
+      },
+      {
+        "fr": "marron",
+        "zh": "棕色"
+      },
+      {
+        "fr": "noir",
+        "zh": "黑色"
+      },
+      {
+        "fr": "blanc",
+        "zh": "白色"
+      },
+      {
+        "fr": "gris",
+        "zh": "灰色"
+      },
+      {
+        "fr": "C'est de quelle couleur ?",
+        "zh": "這是什麼顏色？"
+      }
     ]
   },
   {
@@ -166,17 +569,50 @@
     "title": "國家與國籍",
     "intro": "說來自哪裡用 Je viens de + 國家；說國籍用 Je suis + 國籍（注意陰陽性）。",
     "items": [
-      {"fr": "la France", "zh": "法國"},
-      {"fr": "Je suis français.", "zh": "我是法國人。"},
-      {"fr": "Taïwan", "zh": "台灣"},
-      {"fr": "Je suis taïwanais.", "zh": "我是台灣人。"},
-      {"fr": "la Chine", "zh": "中國"},
-      {"fr": "le Japon", "zh": "日本"},
-      {"fr": "les États-Unis", "zh": "美國"},
-      {"fr": "l'Angleterre", "zh": "英國"},
-      {"fr": "l'Allemagne", "zh": "德國"},
-      {"fr": "Je viens de Taïwan.", "zh": "我來自台灣。"},
-      {"fr": "Tu viens d'où ?", "zh": "你來自哪裡？"}
+      {
+        "fr": "la France",
+        "zh": "法國"
+      },
+      {
+        "fr": "Je suis français.",
+        "zh": "我是法國人。"
+      },
+      {
+        "fr": "Taïwan",
+        "zh": "台灣"
+      },
+      {
+        "fr": "Je suis taïwanais.",
+        "zh": "我是台灣人。"
+      },
+      {
+        "fr": "la Chine",
+        "zh": "中國"
+      },
+      {
+        "fr": "le Japon",
+        "zh": "日本"
+      },
+      {
+        "fr": "les États-Unis",
+        "zh": "美國"
+      },
+      {
+        "fr": "l'Angleterre",
+        "zh": "英國"
+      },
+      {
+        "fr": "l'Allemagne",
+        "zh": "德國"
+      },
+      {
+        "fr": "Je viens de Taïwan.",
+        "zh": "我來自台灣。"
+      },
+      {
+        "fr": "Tu viens d'où ?",
+        "zh": "你來自哪裡？"
+      }
     ]
   },
   {
@@ -185,17 +621,50 @@
     "title": "方向與位置",
     "intro": "問路與指路常用的方位詞。",
     "items": [
-      {"fr": "à droite", "zh": "在右邊"},
-      {"fr": "à gauche", "zh": "在左邊"},
-      {"fr": "tout droit", "zh": "直走"},
-      {"fr": "en face", "zh": "在對面"},
-      {"fr": "à côté de", "zh": "在……旁邊"},
-      {"fr": "devant", "zh": "在前面"},
-      {"fr": "derrière", "zh": "在後面"},
-      {"fr": "près d'ici", "zh": "在這附近"},
-      {"fr": "loin d'ici", "zh": "離這裡很遠"},
-      {"fr": "Tournez à droite.", "zh": "請右轉。"},
-      {"fr": "C'est par où ?", "zh": "要往哪邊走？"}
+      {
+        "fr": "à droite",
+        "zh": "在右邊"
+      },
+      {
+        "fr": "à gauche",
+        "zh": "在左邊"
+      },
+      {
+        "fr": "tout droit",
+        "zh": "直走"
+      },
+      {
+        "fr": "en face",
+        "zh": "在對面"
+      },
+      {
+        "fr": "à côté de",
+        "zh": "在……旁邊"
+      },
+      {
+        "fr": "devant",
+        "zh": "在前面"
+      },
+      {
+        "fr": "derrière",
+        "zh": "在後面"
+      },
+      {
+        "fr": "près d'ici",
+        "zh": "在這附近"
+      },
+      {
+        "fr": "loin d'ici",
+        "zh": "離這裡很遠"
+      },
+      {
+        "fr": "Tournez à droite.",
+        "zh": "請右轉。"
+      },
+      {
+        "fr": "C'est par où ?",
+        "zh": "要往哪邊走？"
+      }
     ]
   },
   {
@@ -204,16 +673,46 @@
     "title": "情緒表達",
     "intro": "用 Je suis… 表達心情，形容詞要配合性別。",
     "items": [
-      {"fr": "Je suis content.", "zh": "我很開心。"},
-      {"fr": "Je suis triste.", "zh": "我很難過。"},
-      {"fr": "Je suis fatigué.", "zh": "我很累。"},
-      {"fr": "Je suis en colère.", "zh": "我很生氣。"},
-      {"fr": "J'ai peur.", "zh": "我很害怕。"},
-      {"fr": "Je suis surpris.", "zh": "我很驚訝。"},
-      {"fr": "Je suis inquiet.", "zh": "我很擔心。"},
-      {"fr": "Je m'ennuie.", "zh": "我覺得無聊。"},
-      {"fr": "Quelle bonne surprise !", "zh": "真是個驚喜！"},
-      {"fr": "Ça me fait plaisir.", "zh": "這讓我很高興。"}
+      {
+        "fr": "Je suis content.",
+        "zh": "我很開心。"
+      },
+      {
+        "fr": "Je suis triste.",
+        "zh": "我很難過。"
+      },
+      {
+        "fr": "Je suis fatigué.",
+        "zh": "我很累。"
+      },
+      {
+        "fr": "Je suis en colère.",
+        "zh": "我很生氣。"
+      },
+      {
+        "fr": "J'ai peur.",
+        "zh": "我很害怕。"
+      },
+      {
+        "fr": "Je suis surpris.",
+        "zh": "我很驚訝。"
+      },
+      {
+        "fr": "Je suis inquiet.",
+        "zh": "我很擔心。"
+      },
+      {
+        "fr": "Je m'ennuie.",
+        "zh": "我覺得無聊。"
+      },
+      {
+        "fr": "Quelle bonne surprise !",
+        "zh": "真是個驚喜！"
+      },
+      {
+        "fr": "Ça me fait plaisir.",
+        "zh": "這讓我很高興。"
+      }
     ]
   },
   {
@@ -222,14 +721,38 @@
     "title": "餐廳常用語",
     "intro": "從點餐到結帳最常用的句子。",
     "items": [
-      {"fr": "Une table pour deux, s'il vous plaît.", "zh": "兩位的桌子，麻煩您。"},
-      {"fr": "La carte, s'il vous plaît.", "zh": "請給我菜單。"},
-      {"fr": "Je voudrais le menu du jour.", "zh": "我想要今日套餐。"},
-      {"fr": "Qu'est-ce que vous recommandez ?", "zh": "您推薦什麼？"},
-      {"fr": "C'est délicieux !", "zh": "很好吃！"},
-      {"fr": "L'addition, s'il vous plaît.", "zh": "請結帳。"},
-      {"fr": "Je peux payer par carte ?", "zh": "我可以刷卡嗎？"},
-      {"fr": "C'était très bon, merci.", "zh": "很美味，謝謝。"}
+      {
+        "fr": "Une table pour deux, s'il vous plaît.",
+        "zh": "兩位的桌子，麻煩您。"
+      },
+      {
+        "fr": "La carte, s'il vous plaît.",
+        "zh": "請給我菜單。"
+      },
+      {
+        "fr": "Je voudrais le menu du jour.",
+        "zh": "我想要今日套餐。"
+      },
+      {
+        "fr": "Qu'est-ce que vous recommandez ?",
+        "zh": "您推薦什麼？"
+      },
+      {
+        "fr": "C'est délicieux !",
+        "zh": "很好吃！"
+      },
+      {
+        "fr": "L'addition, s'il vous plaît.",
+        "zh": "請結帳。"
+      },
+      {
+        "fr": "Je peux payer par carte ?",
+        "zh": "我可以刷卡嗎？"
+      },
+      {
+        "fr": "C'était très bon, merci.",
+        "zh": "很美味，謝謝。"
+      }
     ]
   },
   {
@@ -238,14 +761,38 @@
     "title": "緊急與求助",
     "intro": "遇到緊急狀況時最重要的句子。",
     "items": [
-      {"fr": "Au secours !", "zh": "救命！"},
-      {"fr": "Aidez-moi, s'il vous plaît !", "zh": "請幫幫我！"},
-      {"fr": "Appelez la police !", "zh": "快報警！"},
-      {"fr": "Appelez une ambulance !", "zh": "叫救護車！"},
-      {"fr": "Il y a un accident.", "zh": "出車禍了。"},
-      {"fr": "Je suis perdu.", "zh": "我迷路了。"},
-      {"fr": "J'ai perdu mon passeport.", "zh": "我的護照不見了。"},
-      {"fr": "Où est l'hôpital le plus proche ?", "zh": "最近的醫院在哪裡？"}
+      {
+        "fr": "Au secours !",
+        "zh": "救命！"
+      },
+      {
+        "fr": "Aidez-moi, s'il vous plaît !",
+        "zh": "請幫幫我！"
+      },
+      {
+        "fr": "Appelez la police !",
+        "zh": "快報警！"
+      },
+      {
+        "fr": "Appelez une ambulance !",
+        "zh": "叫救護車！"
+      },
+      {
+        "fr": "Il y a un accident.",
+        "zh": "出車禍了。"
+      },
+      {
+        "fr": "Je suis perdu.",
+        "zh": "我迷路了。"
+      },
+      {
+        "fr": "J'ai perdu mon passeport.",
+        "zh": "我的護照不見了。"
+      },
+      {
+        "fr": "Où est l'hôpital le plus proche ?",
+        "zh": "最近的醫院在哪裡？"
+      }
     ]
   }
 ]
