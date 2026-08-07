@@ -13,6 +13,65 @@ export function useSpeaking() {
   return state
 }
 
+/* ------------------------------- clipboard -------------------------------- */
+
+/**
+ * Copy text to the clipboard. Falls back to a hidden textarea for browsers
+ * (or non-HTTPS origins) where the async Clipboard API isn't available.
+ */
+export async function copyText(text) {
+  if (!text) return false
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(text)
+      return true
+    }
+  } catch {
+    /* permission denied or insecure context — try the fallback below */
+  }
+  try {
+    const ta = document.createElement('textarea')
+    ta.value = text
+    ta.setAttribute('readonly', '')
+    ta.style.position = 'fixed'
+    ta.style.top = '-1000px'
+    ta.style.opacity = '0'
+    document.body.appendChild(ta)
+    ta.select()
+    const ok = document.execCommand('copy')
+    document.body.removeChild(ta)
+    return ok
+  } catch {
+    return false
+  }
+}
+
+/** 📋 button that briefly turns into ✅ once the text is on the clipboard. */
+export function CopyButton({ text, label = '複製', className = '' }) {
+  const [copied, setCopied] = useState(false)
+
+  useEffect(() => {
+    if (!copied) return
+    const id = setTimeout(() => setCopied(false), 1400)
+    return () => clearTimeout(id)
+  }, [copied])
+
+  return (
+    <button
+      type="button"
+      className={copied ? `copy-btn copied ${className}` : `copy-btn ${className}`}
+      title={copied ? '已複製！' : label}
+      aria-label={copied ? '已複製' : label}
+      onClick={async (e) => {
+        e.stopPropagation()
+        if (await copyText(text)) setCopied(true)
+      }}
+    >
+      {copied ? '✅' : '📋'}
+    </button>
+  )
+}
+
 /** Small round 🔊 button used inline next to a line of French. */
 export function SpeakButton({ text, label = '唸這句', className = '' }) {
   return (
@@ -284,6 +343,11 @@ export function Flashcard({ card, onToggleUnfamiliar, onDelete, onSave, autoFlip
             🔊 例句
           </button>
         )}
+        {/* one button — the action bar is too narrow on phones for two */}
+        <CopyButton
+          text={card.example ? `${card.french}\n${card.example}` : card.french}
+          label={card.example ? '複製單字與例句' : `複製「${card.french}」`}
+        />
         {card.custom && onSave && (
           <button type="button" className="icon-action" title="編輯" aria-label="編輯卡片" onClick={() => setEditing(true)}>
             ✏️
@@ -342,23 +406,29 @@ export function CardEditor({ card, onSubmit, onCancel }) {
 
 /* --------------------------- speakable term lists -------------------------- */
 
+// A term is a row with two controls (speak + copy), so the clickable area is a
+// nested <button> rather than the row itself — no button-inside-button.
+function Term({ fr, zh, title, badge }) {
+  return (
+    <div className="term">
+      <button type="button" className="term-main" title={title ?? '點擊發音'} onClick={() => speakFrench(fr)}>
+        <span className="term-fr">
+          <span className="term-speaker" aria-hidden="true">🔊</span>
+          {fr}
+          {badge}
+        </span>
+        <span className="term-zh">{zh}</span>
+      </button>
+      <CopyButton text={fr} label={`複製「${fr}」`} className="term-copy" />
+    </div>
+  )
+}
+
 export function SpeakableItems({ items }) {
   return (
     <div className="term-grid">
       {items.map((it, i) => (
-        <button
-          key={i}
-          type="button"
-          className="term"
-          title="點擊發音"
-          onClick={() => speakFrench(it.fr)}
-        >
-          <span className="term-fr">
-            <span className="term-speaker" aria-hidden="true">🔊</span>
-            {it.fr}
-          </span>
-          <span className="term-zh">{it.zh}</span>
-        </button>
+        <Term key={i} fr={it.fr} zh={it.zh} />
       ))}
     </div>
   )
@@ -371,26 +441,38 @@ export function VocabItems({ cards }) {
       {cards.map((c, i) => {
         const g = genderInfo(c)
         return (
-          <button
+          <Term
             key={i}
-            type="button"
-            className="term"
+            fr={c.french}
+            zh={c.translation}
             title={g ? `${g.indef} ${c.french}（${g.def} ${c.french}）· ${g.label}．點擊發音` : '點擊發音'}
-            onClick={() => speakFrench(c.french)}
-          >
-            <span className="term-fr">
-              <span className="term-speaker" aria-hidden="true">🔊</span>
-              {c.french}
-              {g && (
+            badge={
+              g && (
                 <span className={g.isMasc ? 'art-badge masc' : 'art-badge fem'}>
                   {g.indef} · {g.def}
                 </span>
-              )}
-            </span>
-            <span className="term-zh">{c.translation}</span>
-          </button>
+              )
+            }
+          />
         )
       })}
+    </div>
+  )
+}
+
+/** Conjugation table: every form speaks and copies. */
+export function ConjGrid({ forms }) {
+  return (
+    <div className="conj-grid">
+      {forms.map((form, i) => (
+        <div key={i} className="conj-cell">
+          <button type="button" className="conj-main" title="點擊發音" onClick={() => speakFrench(form)}>
+            <span className="term-speaker" aria-hidden="true">🔊</span>
+            {form}
+          </button>
+          <CopyButton text={form} label={`複製「${form}」`} className="term-copy" />
+        </div>
+      ))}
     </div>
   )
 }
@@ -416,11 +498,15 @@ export function GrammarContent({ text }) {
         .map((line, i) => {
           if (line.trim() === '') return <div key={i} className="prose-gap" />
           const fr = frenchFromLine(line)
+          const speakable = /[a-zA-ZÀ-ÿ]/.test(fr)
           return (
             <div key={i} className="prose-line">
               <span className="prose-text">{line}</span>
-              {/[a-zA-ZÀ-ÿ]/.test(fr) && (
-                <SpeakButton text={fr} label="唸出這行的法文" className="prose-speak" />
+              {speakable && (
+                <span className="prose-tools">
+                  <SpeakButton text={fr} label="唸出這行的法文" />
+                  <CopyButton text={fr} label={`複製「${fr}」`} />
+                </span>
               )}
             </div>
           )
@@ -439,6 +525,7 @@ export function GrammarBody({ grammar }) {
           {grammar.examples.map((ex, i) => (
             <div key={i} className="example-line">
               <SpeakButton text={ex.fr} />
+              <CopyButton text={ex.fr} label={`複製「${ex.fr}」`} />
               <span className="example-fr">{ex.fr}</span>
               <span className="example-zh">{ex.zh}</span>
             </div>
@@ -459,6 +546,7 @@ export function DialogueLines({ lines }) {
             <div className="dlg-fr">
               <span>{line.french}</span>
               <SpeakButton text={line.french} />
+              <CopyButton text={line.french} label={`複製「${line.french}」`} />
             </div>
             <div className="dlg-zh">{line.translation}</div>
           </div>

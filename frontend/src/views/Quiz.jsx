@@ -3,7 +3,7 @@ import { LEVELS } from '../store'
 import { dayKey, getSrs, gradeCard } from '../srs'
 import { speakFrench } from '../speech'
 import { replaceQuery } from '../router'
-import { EmptyState, PageHeader, Segmented } from '../ui'
+import { CopyButton, EmptyState, PageHeader, Segmented } from '../ui'
 
 const MODES = [
   { key: 'fr-zh', label: '法 → 中', hint: '看法文選中文' },
@@ -226,6 +226,7 @@ export default function QuizView({ cards, route }) {
               </p>
               <p className="quiz-word">
                 {q.answer.french} · {q.answer.translation}
+                <CopyButton text={q.answer.french} label={`複製「${q.answer.french}」`} />
               </p>
               {q.answer.example && (
                 <div className="quiz-example">
@@ -239,6 +240,7 @@ export default function QuizView({ cards, route }) {
                     >
                       🔊
                     </button>
+                    <CopyButton text={q.answer.example} label="複製例句" />
                   </p>
                   {q.answer.exampleTranslation && (
                     <p className="muted">{q.answer.exampleTranslation}</p>

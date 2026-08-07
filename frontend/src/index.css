@@ -520,6 +520,50 @@ kbd {
   transform: scale(1.2);
 }
 
+/* copy-to-clipboard button — sits next to any French word or example */
+.copy-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+  padding: 0 3px;
+  border-radius: var(--r-sm);
+  font-size: 0.82rem;
+  line-height: 1;
+  opacity: 0.5;
+  transition: transform 0.12s ease, opacity 0.15s ease;
+}
+.copy-btn:hover {
+  opacity: 1;
+  transform: scale(1.18);
+}
+.copy-btn.copied {
+  opacity: 1;
+  animation: copy-pop 0.28s ease;
+}
+.copy-btn-lg {
+  font-size: 1rem;
+  padding: 6px 8px;
+  opacity: 0.75;
+}
+@keyframes copy-pop {
+  0% {
+    transform: scale(0.7);
+  }
+  60% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* touch devices have no hover, so never hide the affordance there */
+@media (hover: none) {
+  .copy-btn {
+    opacity: 0.85;
+  }
+}
+
 .toggle {
   display: inline-flex;
   align-items: center;
@@ -1321,7 +1365,19 @@ kbd {
   background: var(--surface-3);
 }
 .card-actions .icon-action {
-  flex: 0 0 46px;
+  flex: 0 0 42px;
+}
+/* the copy button in a card's action bar matches the other actions */
+.card-actions .copy-btn {
+  flex: 0 0 40px;
+  opacity: 1;
+  border-left: 1px solid var(--border);
+  background: var(--surface-2);
+  font-size: 0.88rem;
+}
+.card-actions .copy-btn:hover {
+  background: var(--surface-3);
+  transform: none;
 }
 .card-actions .icon-action.danger {
   color: var(--danger);
@@ -1379,22 +1435,36 @@ kbd {
   gap: var(--sp-2);
   margin-top: var(--sp-3);
 }
+/* row = speak area (fills the row) + copy button, side by side */
 .term {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2px;
-  padding: 9px 12px;
+  align-items: stretch;
   border: 1px solid var(--border);
   border-radius: var(--r-sm);
   background: var(--surface);
-  text-align: left;
-  cursor: pointer;
+  overflow: hidden;
   transition: border-color 0.12s ease, background 0.12s ease;
 }
 .term:hover {
   border-color: var(--brand);
   background: var(--brand-softer);
+}
+.term-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 9px 4px 9px 12px;
+  border: none;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+.term-copy {
+  align-self: center;
+  padding: 8px 9px;
 }
 .term-fr {
   display: flex;
@@ -1430,13 +1500,21 @@ kbd {
 .prose-gap {
   height: 0.7em;
 }
-.prose-speak {
-  opacity: 0.4;
+.prose-tools {
+  display: inline-flex;
+  align-items: center;
+  gap: 1px;
+  opacity: 0.35;
   transition: opacity 0.15s ease;
 }
-.prose-line:hover .prose-speak,
-.prose-speak:focus-visible {
+.prose-line:hover .prose-tools,
+.prose-tools:focus-within {
   opacity: 1;
+}
+@media (hover: none) {
+  .prose-tools {
+    opacity: 0.8;
+  }
 }
 
 .grammar-body {
@@ -1697,6 +1775,9 @@ kbd {
   margin-top: var(--sp-4);
 }
 .conj-title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
   margin: 0 0 var(--sp-2);
   color: var(--brand);
   font-size: var(--fs-md);
@@ -1708,19 +1789,28 @@ kbd {
 }
 .conj-cell {
   display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 9px 12px;
+  align-items: stretch;
   border: 1px solid var(--border);
   border-radius: var(--r-sm);
   background: var(--surface-2);
-  text-align: left;
-  font-size: var(--fs-md);
-  cursor: pointer;
+  overflow: hidden;
 }
 .conj-cell:hover {
   border-color: var(--brand);
   background: var(--brand-softer);
+}
+.conj-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 4px 9px 12px;
+  border: none;
+  background: transparent;
+  text-align: left;
+  font-size: var(--fs-md);
+  cursor: pointer;
 }
 .guide {
   display: grid;

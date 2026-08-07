@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import { conjugate, searchAll, toggleUnfamiliar } from '../store'
 import { navigate, replaceQuery } from '../router'
-import { speakFrench } from '../speech'
 import {
+  ConjGrid,
   DialogueLines,
   EmptyState,
   Flashcard,
@@ -203,19 +203,7 @@ export default function SearchView({ cards, reload, route }) {
                     onOpen={() => navigate(`/verbs/${encodeURIComponent(v.inf)}`)}
                     openLabel={`🔧 看 ${v.inf} 完整變位 →`}
                   >
-                    <div className="conj-grid">
-                      {present.map((f, i) => (
-                        <button
-                          key={i}
-                          type="button"
-                          className="conj-cell"
-                          onClick={() => speakFrench(f)}
-                        >
-                          <span className="term-speaker" aria-hidden="true">🔊</span>
-                          {f}
-                        </button>
-                      ))}
-                    </div>
+                    <ConjGrid forms={present} />
                   </ResultBlock>
                 )
               })}

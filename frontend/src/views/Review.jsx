@@ -3,7 +3,15 @@ import { LEVELS, toggleUnfamiliar } from '../store'
 import { GRADES, buildQueue, countsFor, getGoal, gradeCard, masteryOf, getCardState, todayStats } from '../srs'
 import { speakFrench } from '../speech'
 import { navigate, replaceQuery } from '../router'
-import { EmptyState, GenderBadge, PageHeader, ProgressBar, Segmented, genderInfo } from '../ui'
+import {
+  CopyButton,
+  EmptyState,
+  GenderBadge,
+  PageHeader,
+  ProgressBar,
+  Segmented,
+  genderInfo,
+} from '../ui'
 
 const SCOPES = [
   { key: 'bank', label: '⭐ 單字庫' },
@@ -211,6 +219,7 @@ export default function ReviewView({ cards, reload, route }) {
               <button type="button" className="btn btn-ghost" onClick={() => say(card.french)}>
                 🔊 發音<kbd>S</kbd>
               </button>
+              <CopyButton text={card.french} label={`複製「${card.french}」`} className="copy-btn-lg" />
             </div>
 
             {flipped ? (
@@ -229,6 +238,7 @@ export default function ReviewView({ cards, reload, route }) {
                       >
                         🔊
                       </button>
+                      <CopyButton text={card.example} label="複製例句" />
                     </p>
                     {card.exampleTranslation && <p className="muted">{card.exampleTranslation}</p>}
                   </div>

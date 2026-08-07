@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { VERBS, conjugate } from '../store'
 import { speakFrench } from '../speech'
 import { navigate } from '../router'
-import { GrammarContent, PageHeader, SearchField } from '../ui'
+import { ConjGrid, CopyButton, GrammarContent, PageHeader, SearchField } from '../ui'
 
 const VERB_GUIDE = [
   {
@@ -99,26 +99,21 @@ export default function VerbsView({ route }) {
             <button type="button" className="btn" onClick={() => speakFrench(verb.inf)}>
               🔊 原形
             </button>
+            <CopyButton
+              text={tenses.map(([label, forms]) => `${label}\n${forms.join('\n')}`).join('\n\n')}
+              label="複製全部變位"
+              className="copy-btn-lg"
+            />
           </div>
         </div>
 
         {tenses.map(([label, forms]) => (
           <div key={label} className="conj-block">
-            <h3 className="conj-title">{label}</h3>
-            <div className="conj-grid">
-              {forms.map((form, i) => (
-                <button
-                  key={i}
-                  type="button"
-                  className="conj-cell"
-                  title="發音"
-                  onClick={() => speakFrench(form)}
-                >
-                  <span className="term-speaker" aria-hidden="true">🔊</span>
-                  {form}
-                </button>
-              ))}
-            </div>
+            <h3 className="conj-title">
+              {label}
+              <CopyButton text={forms.join('\n')} label={`複製 ${label} 六個變位`} />
+            </h3>
+            <ConjGrid forms={forms} />
           </div>
         ))}
       </section>
