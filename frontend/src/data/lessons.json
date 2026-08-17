@@ -2861,5 +2861,933 @@
       "肉的熟度四級：bleu → saignant → à point → bien cuit，法國人很少點全熟。",
       "最禮貌的萬用句型是 Est-ce que je pourrais avoir... ?（可以給我…嗎？），從要菜單、要麵包到要帳單都能用。"
     ]
+  },
+  {
+    "id": "le-temps-heure",
+    "date": "2026-08-08",
+    "title": "LE TEMPS — 幾點幾分・星期・日期・季節",
+    "summary": "temps 一字兩義（時間／天氣）。這堂課把「幾點」的日常說法與 24 小時官方說法、時長 la durée、星期與 le lundi 的差別、月份日期、四季與計時物品一次整理，並附課堂三題練習的完整詳解。",
+    "sections": [
+      {
+        "heading": "① 兩個核心問句 — Quelle heure est-il ? / Quel temps fait-il ?",
+        "note": "le temps 同時是「時間」和「天氣」。問幾點用 heure，問天氣用 temps。兩句的 il 都是「假主詞」，不指任何人，回答也一定用 il。",
+        "items": [
+          {
+            "fr": "Quelle heure est-il ?",
+            "zh": "現在幾點？（標準問法，動詞主詞倒裝）"
+          },
+          {
+            "fr": "Il est 10 heures.",
+            "zh": "現在十點。"
+          },
+          {
+            "fr": "Vous avez l'heure ?",
+            "zh": "請問現在幾點？（最禮貌，字面是「您有時間嗎」，問路人時用這句）"
+          },
+          {
+            "fr": "Quelle heure il est ?",
+            "zh": "現在幾點？（口語，不倒裝；朋友之間用）"
+          },
+          {
+            "fr": "Quel temps fait-il ?",
+            "zh": "天氣如何？"
+          },
+          {
+            "fr": "Il fait beau.",
+            "zh": "天氣很好。"
+          }
+        ]
+      },
+      {
+        "heading": "② 日常說法 — l'expression usuelle",
+        "note": "公式：Il est + 數字 + heure(s)。一點是 une heure（heure 是陰性，所以用 une 不是 un）。半小時和一刻鐘用 et demie / et quart，差幾分用 moins。",
+        "items": [
+          {
+            "fr": "Il est une heure.",
+            "zh": "一點。（陰性 une，不能說 un heure）"
+          },
+          {
+            "fr": "Il est deux heures.",
+            "zh": "兩點。（連音：deu-zeur）"
+          },
+          {
+            "fr": "Il est dix heures.",
+            "zh": "十點。（連音：di-zeur）"
+          },
+          {
+            "fr": "Il est midi.",
+            "zh": "中午十二點。（不說 douze heures）"
+          },
+          {
+            "fr": "Il est minuit.",
+            "zh": "半夜十二點。"
+          },
+          {
+            "fr": "Il est huit heures et quart.",
+            "zh": "八點十五分。（quart = 四分之一小時）"
+          },
+          {
+            "fr": "Il est huit heures et demie.",
+            "zh": "八點半。（demie 要加 e，配合陰性的 heure）"
+          },
+          {
+            "fr": "Il est midi et demi.",
+            "zh": "十二點半。（midi 是陽性，demi 不加 e — 常考陷阱）"
+          },
+          {
+            "fr": "Il est neuf heures moins le quart.",
+            "zh": "差十五分九點（8:45）。moins = 減、還差"
+          },
+          {
+            "fr": "Il est neuf heures moins dix.",
+            "zh": "差十分九點（8:50）。"
+          }
+        ]
+      },
+      {
+        "heading": "③ 官方說法 — l'expression officielle（24 小時制）",
+        "note": "車站、機場、電視、正式場合用 24 小時制：直接把分鐘唸出來，不用 et quart / et demie / moins le quart。書寫是 8 h 00、20 h 45。",
+        "items": [
+          {
+            "fr": "huit heures — 8 h 00",
+            "zh": "早上八點（日常說法也是 huit heures）"
+          },
+          {
+            "fr": "vingt heures — 20 h 00",
+            "zh": "晚上八點（日常說法：huit heures du soir）"
+          },
+          {
+            "fr": "huit heures quinze — 8 h 15",
+            "zh": "8:15（日常：huit heures et quart）"
+          },
+          {
+            "fr": "vingt heures quinze — 20 h 15",
+            "zh": "20:15"
+          },
+          {
+            "fr": "huit heures quarante-cinq — 8 h 45",
+            "zh": "8:45（日常：neuf heures moins le quart）"
+          },
+          {
+            "fr": "vingt heures quarante-cinq — 20 h 45",
+            "zh": "20:45"
+          },
+          {
+            "fr": "douze heures — 12 h 00",
+            "zh": "中午十二點（= midi）"
+          },
+          {
+            "fr": "zéro heure — 0 h 00",
+            "zh": "半夜十二點（= minuit）"
+          }
+        ]
+      },
+      {
+        "heading": "④ 一天的時段 — matin / midi / après-midi / soir",
+        "note": "順序：matin → midi → après-midi → soir → nuit。日常說法要區分早上或晚上時，後面加 du matin / de l'après-midi / du soir。",
+        "items": [
+          {
+            "fr": "le matin",
+            "zh": "早上"
+          },
+          {
+            "fr": "midi",
+            "zh": "中午"
+          },
+          {
+            "fr": "l'après-midi",
+            "zh": "下午"
+          },
+          {
+            "fr": "le soir",
+            "zh": "晚上"
+          },
+          {
+            "fr": "la nuit",
+            "zh": "夜裡"
+          },
+          {
+            "fr": "Il est sept heures du matin.",
+            "zh": "早上七點（= 7 h 00）。"
+          },
+          {
+            "fr": "Il est sept heures du soir.",
+            "zh": "晚上七點（= 19 h 00）。"
+          },
+          {
+            "fr": "Je pointe à 7 heures.",
+            "zh": "我七點打卡上班。（pointer = 打卡；注意變位是 je pointe）"
+          },
+          {
+            "fr": "Passez une bonne journée !",
+            "zh": "祝您有美好的一天！（道別時說，也可簡短說 Bonne journée !）"
+          },
+          {
+            "fr": "Bonne soirée !",
+            "zh": "祝有個美好的夜晚！（傍晚以後道別用這句）"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 時長 — LA DURÉE",
+        "note": "「幾點」是時間點，「多久」是 la durée。demi 放在名詞前面不變化（une demi-heure），放在後面才配合（une heure et demie）。萬用句型：passer + 一段時間 + à + 原形動詞。",
+        "items": [
+          {
+            "fr": "un quart d'heure",
+            "zh": "一刻鐘（= 15 minutes）"
+          },
+          {
+            "fr": "une demi-heure",
+            "zh": "半小時（= 30 minutes；demi 在前面不加 e）"
+          },
+          {
+            "fr": "trois quarts d'heure",
+            "zh": "四十五分鐘（= 45 minutes）"
+          },
+          {
+            "fr": "une heure et demie",
+            "zh": "一個半小時（= 90 minutes）"
+          },
+          {
+            "fr": "toute la journée",
+            "zh": "一整天"
+          },
+          {
+            "fr": "toute la soirée",
+            "zh": "整個晚上"
+          },
+          {
+            "fr": "J'ai passé toute la journée à étudier le français !",
+            "zh": "我花了一整天讀法文！"
+          },
+          {
+            "fr": "Il a passé deux heures à téléphoner.",
+            "zh": "他花了兩小時講電話。"
+          },
+          {
+            "fr": "Elle a pris huit jours de vacances.",
+            "zh": "她放了一星期的假。（法文的 huit jours = 一週）"
+          },
+          {
+            "fr": "quinze jours",
+            "zh": "兩星期（= deux semaines，法國人習慣這樣算）"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ 星期 — LES JOURS",
+        "note": "法文一週從星期一開始，七個名稱全部小寫，句中也不大寫。une semaine = 7 jours。",
+        "items": [
+          {
+            "fr": "lundi",
+            "zh": "星期一"
+          },
+          {
+            "fr": "mardi",
+            "zh": "星期二"
+          },
+          {
+            "fr": "mercredi",
+            "zh": "星期三（注意拼字有兩個 r：mer-cre-di）"
+          },
+          {
+            "fr": "jeudi",
+            "zh": "星期四"
+          },
+          {
+            "fr": "vendredi",
+            "zh": "星期五"
+          },
+          {
+            "fr": "samedi",
+            "zh": "星期六"
+          },
+          {
+            "fr": "dimanche",
+            "zh": "星期日"
+          },
+          {
+            "fr": "le week-end",
+            "zh": "週末"
+          }
+        ]
+      },
+      {
+        "heading": "⑦ lundi 還是 le lundi ？差一個冠詞，意思完全不同",
+        "note": "沒有冠詞 = 這一次；加上 le = 每一次的習慣。這是本課最重要的文法點。",
+        "items": [
+          {
+            "fr": "Lundi, je suis à Berlin.",
+            "zh": "（這個）星期一我在柏林。= ce lundi，只講一次"
+          },
+          {
+            "fr": "Le lundi, je suis à Lyon.",
+            "zh": "每個星期一我都在里昂。= tous les lundis，講習慣"
+          },
+          {
+            "fr": "Le lundi et le jeudi, je suis à Lyon.",
+            "zh": "每週一和週四我都在里昂。"
+          },
+          {
+            "fr": "Je travaille du lundi au vendredi.",
+            "zh": "我週一到週五上班。（du... au... 表示範圍）"
+          },
+          {
+            "fr": "Qu'est-ce que tu fais samedi ?",
+            "zh": "你這個星期六要做什麼？"
+          }
+        ]
+      },
+      {
+        "heading": "⑧ 月份與日期 — LES MOIS / LA DATE",
+        "note": "月份也一律小寫。日期公式：le + 數字 + 月份；只有 1 號用序數 le premier（1er），其他都用一般數字。問日期用 On est quel jour ? / Quelle est la date ?",
+        "items": [
+          {
+            "fr": "janvier / février / mars",
+            "zh": "一月／二月／三月"
+          },
+          {
+            "fr": "avril / mai / juin",
+            "zh": "四月／五月／六月"
+          },
+          {
+            "fr": "juillet / août / septembre",
+            "zh": "七月／八月／九月"
+          },
+          {
+            "fr": "octobre / novembre / décembre",
+            "zh": "十月／十一月／十二月"
+          },
+          {
+            "fr": "Nous sommes le 18 mai.",
+            "zh": "今天是五月十八日。（正式）"
+          },
+          {
+            "fr": "On est le 18 mai.",
+            "zh": "今天是五月十八日。（口語，最常用）"
+          },
+          {
+            "fr": "On est le 1er janvier.",
+            "zh": "今天是一月一日。（1 號要唸 le premier）"
+          },
+          {
+            "fr": "En août, je suis en vacances.",
+            "zh": "八月我放假。（月份前用 en）"
+          },
+          {
+            "fr": "Mon anniversaire est le 3 mars.",
+            "zh": "我的生日是三月三日。"
+          },
+          {
+            "fr": "Le 14 juillet, c'est la fête nationale.",
+            "zh": "七月十四日是法國國慶日。"
+          }
+        ]
+      },
+      {
+        "heading": "⑨ 四季 — LES SAISONS",
+        "note": "四季都是陽性。只有春天用 au printemps（因為 printemps 是子音開頭），其他三個母音開頭的季節用 en。",
+        "items": [
+          {
+            "fr": "le printemps — au printemps",
+            "zh": "春天 — 在春天"
+          },
+          {
+            "fr": "l'été — en été",
+            "zh": "夏天 — 在夏天"
+          },
+          {
+            "fr": "l'automne — en automne",
+            "zh": "秋天 — 在秋天"
+          },
+          {
+            "fr": "l'hiver — en hiver",
+            "zh": "冬天 — 在冬天"
+          },
+          {
+            "fr": "une saison / les quatre saisons",
+            "zh": "一個季節／四季"
+          },
+          {
+            "fr": "Quelle est ta saison préférée ?",
+            "zh": "你最喜歡哪個季節？"
+          }
+        ]
+      },
+      {
+        "heading": "⑩ 計時的物品 — LES OBJETS",
+        "note": "四種「鐘錶」用途不同：戴在手上、放在床頭、掛在牆上、立在廣場上，各有各的字。",
+        "items": [
+          {
+            "fr": "une montre",
+            "zh": "手錶（戴在身上的）"
+          },
+          {
+            "fr": "un réveil",
+            "zh": "鬧鐘（réveiller 叫醒 → 名詞 réveil）"
+          },
+          {
+            "fr": "une pendule",
+            "zh": "掛鐘、座鐘（家裡牆上那種）"
+          },
+          {
+            "fr": "une horloge",
+            "zh": "大鐘（車站、教堂、Big Ben 那種）"
+          },
+          {
+            "fr": "un agenda",
+            "zh": "行事曆、記事本"
+          },
+          {
+            "fr": "un calendrier",
+            "zh": "月曆"
+          }
+        ]
+      },
+      {
+        "heading": "⑪ 課堂練習① 詳解 — Quelle heure est-il ? Trouvez plusieurs possibilités.",
+        "note": "同一個鐘面有兩種答案：日常說法＋官方說法。下午的官方說法要把小時加 12。",
+        "items": [
+          {
+            "fr": "a. dix heures moins le quart — 9 h 45 / 21 h 45",
+            "zh": "9:45。官方說法：neuf heures quarante-cinq／vingt et une heures quarante-cinq。"
+          },
+          {
+            "fr": "b. onze heures et quart — 11 h 15 / 23 h 15",
+            "zh": "11:15。官方說法：onze heures quinze／vingt-trois heures quinze。"
+          },
+          {
+            "fr": "c. quatre heures — 16 h 00 seize heures",
+            "zh": "4:00。下午的話官方說 seize heures。"
+          },
+          {
+            "fr": "d. une heure et demie — 13 h 30 treize heures trente",
+            "zh": "1:30。注意 demie 要加 e（heure 陰性）。"
+          },
+          {
+            "fr": "e. midi ou minuit — douze heures / zéro heure",
+            "zh": "12:00。兩根針都指 12：白天是 midi（douze heures），半夜是 minuit（zéro heure）。"
+          },
+          {
+            "fr": "f. sept heures — 19 h 00 dix-neuf heures",
+            "zh": "7:00。晚上的話官方說 dix-neuf heures。"
+          }
+        ]
+      },
+      {
+        "heading": "⑫ 課堂練習② 詳解 — Vrai ou faux ?（Raphaël 的行事曆）",
+        "note": "行事曆：週一 9h 西文課／週二 15h 牙醫／週四 15h 西文課＋20h 與 Alain 和 Martine 晚餐／週五 整天圖書館／週六 整天 Émilie／週日 10h 網球＋16h 電影。",
+        "items": [
+          {
+            "fr": "1. Raphaël a un rendez-vous mardi après-midi. → VRAI",
+            "zh": "✓ 對。週二 15h 看牙醫，看醫生也算 rendez-vous（預約）。"
+          },
+          {
+            "fr": "2. Deux après-midi par semaine, Raphaël a un cours d'espagnol. → FAUX",
+            "zh": "✗ 錯。西文課一週兩次沒錯，但週一那堂是「早上 9h」，只有週四那堂在下午。"
+          },
+          {
+            "fr": "3. Le week-end, il voit Émilie. → VRAI",
+            "zh": "✓ 對。週六一整天都是 Émilie。"
+          },
+          {
+            "fr": "4. Il fait du sport dimanche matin. → VRAI",
+            "zh": "✓ 對。週日 10h 和 Nicolas 打網球。"
+          },
+          {
+            "fr": "5. Il va au cinéma dimanche après-midi. → VRAI",
+            "zh": "✓ 對。週日 16h 看電影，16h 屬於下午。"
+          },
+          {
+            "fr": "6. Mercredi, il passe toute la journée à la bibliothèque. → FAUX",
+            "zh": "✗ 錯。整天待圖書館的是「星期五」，星期三是空的。"
+          },
+          {
+            "fr": "7. Il n'a pas de rendez-vous jeudi matin. → VRAI",
+            "zh": "✓ 對。週四只有下午的課和晚上的晚餐，早上沒安排。"
+          },
+          {
+            "fr": "8. Il voit Alain et Martine un soir du week-end. → FAUX",
+            "zh": "✗ 錯。晚餐是「星期四」晚上，是平日不是週末。"
+          }
+        ]
+      },
+      {
+        "heading": "⑬ 課堂練習③ 詳解 — Associez les phrases de même sens.",
+        "note": "答案：1-d、2-f、3-e、4-b、5-c、6-a。重點是把日常說法換算成官方說法。",
+        "items": [
+          {
+            "fr": "1. Il est parti à 6 h 30 du soir. → d. Il est parti à 18 h 30.",
+            "zh": "晚上 6:30 = 18:30（6 + 12）。"
+          },
+          {
+            "fr": "2. Elle a pris huit jours de vacances. → f. Elle a pris une semaine.",
+            "zh": "法文的 huit jours 就是「一星期」，不是八天。"
+          },
+          {
+            "fr": "3. J'ai un rendez-vous à midi. → e. J'ai rendez-vous à 12 h 00.",
+            "zh": "midi = 12 h 00。"
+          },
+          {
+            "fr": "4. Il est resté trois quarts d'heure à la banque. → b. Il est resté 45 minutes.",
+            "zh": "trois quarts d'heure = 3 × 15 = 45 分鐘。"
+          },
+          {
+            "fr": "5. Il est quatre heures moins le quart. → c. Il est 15 h 45.",
+            "zh": "差一刻四點 = 3:45，下午就是 15 h 45。"
+          },
+          {
+            "fr": "6. Il est minuit. → a. Il est zéro heure.",
+            "zh": "minuit = 0 h 00。"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "le temps 有兩個意思：問「幾點」→ Quelle heure est-il ?；問「天氣」→ Quel temps fait-il ?。兩句都用假主詞 il。",
+      "一點是 une heure（heure 陰性）；十二點用 midi / minuit，不說 douze heures（官方說法除外）。",
+      "et demie 配 heure 要加 e，但 midi et demi / minuit et demi 不加 e。",
+      "日常說法才有 et quart / et demie / moins le quart；24 小時官方說法直接唸分鐘（huit heures quarante-cinq）。",
+      "lundi = 這個星期一（一次）；le lundi = 每個星期一（習慣）＝ tous les lundis。",
+      "星期和月份一律小寫；日期只有 1 號用序數 le premier。",
+      "季節：au printemps，但 en été / en automne / en hiver。",
+      "時長 la durée：un quart d'heure（15分）、une demi-heure（30分）、trois quarts d'heure（45分）；huit jours = 一週，quinze jours = 兩週。",
+      "萬用句型 passer + 時間 + à + 原形動詞：J'ai passé la journée à lire.（我花了一天看書。）"
+    ]
+  },
+  {
+    "id": "la-meteo-saisons",
+    "date": "2026-08-08",
+    "title": "LA MÉTÉO ET LES SAISONS — 天氣與季節",
+    "summary": "講天氣的四種句型（Il fait + 形容詞、Il pleut 這類無人稱動詞、Le ciel est + 形容詞、Il y a + 名詞）、天氣的名詞／形容詞／動詞三大字表，以及四季描寫填空與課堂練習的完整詳解。",
+    "sections": [
+      {
+        "heading": "① 講天氣的四種句型 — 一個天氣可以有很多種說法",
+        "note": "這是本課的骨架。同一個天氣，換句型就換詞性：形容詞用 Il fait / Le ciel est / C'est，名詞用 Il y a，動詞則是無人稱的 Il pleut / Il neige。",
+        "items": [
+          {
+            "fr": "Quel temps fait-il ?",
+            "zh": "天氣如何？（萬用問句）"
+          },
+          {
+            "fr": "Il fait + 形容詞",
+            "zh": "Il fait beau. 天氣好。（最常用）"
+          },
+          {
+            "fr": "Il + 無人稱動詞",
+            "zh": "Il pleut. 在下雨。／Il neige. 在下雪。"
+          },
+          {
+            "fr": "Le ciel est + 形容詞",
+            "zh": "Le ciel est nuageux. 天空多雲。"
+          },
+          {
+            "fr": "C'est + 形容詞",
+            "zh": "C'est nuageux. 多雲的。（口語）"
+          },
+          {
+            "fr": "Il y a + 名詞",
+            "zh": "Il y a des nuages. 有雲。／Il y a du vent. 有風。"
+          }
+        ]
+      },
+      {
+        "heading": "② Il fait... — 最常用的天氣句",
+        "note": "Il fait 後面永遠接「陽性單數形容詞」，因為主詞 il 不指任何東西，不需要配合。",
+        "items": [
+          {
+            "fr": "Il fait beau.",
+            "zh": "天氣很好、晴朗。"
+          },
+          {
+            "fr": "Il fait chaud.",
+            "zh": "很熱。"
+          },
+          {
+            "fr": "Il fait froid.",
+            "zh": "很冷。"
+          },
+          {
+            "fr": "Il fait lourd.",
+            "zh": "很悶熱、濕悶。（lourd 原意「重」）"
+          },
+          {
+            "fr": "Il fait gris.",
+            "zh": "陰陰的、灰濛濛。"
+          },
+          {
+            "fr": "Il fait doux.",
+            "zh": "天氣溫和宜人。"
+          },
+          {
+            "fr": "Il fait mauvais.",
+            "zh": "天氣很差。"
+          },
+          {
+            "fr": "Il fait 30 degrés.",
+            "zh": "有 30 度。"
+          }
+        ]
+      },
+      {
+        "heading": "③ 無人稱動詞 — Il pleut / Il neige",
+        "note": "PLEUVOIR（下雨）和 NEIGER（下雪）只有第三人稱單數的 il 形式，沒有 je pleus 這種說法。",
+        "items": [
+          {
+            "fr": "Il pleut. (PLEUVOIR)",
+            "zh": "在下雨。（原形 pleuvoir）"
+          },
+          {
+            "fr": "Il neige. (NEIGER)",
+            "zh": "在下雪。（原形 neiger）"
+          },
+          {
+            "fr": "Il pleut beaucoup en automne.",
+            "zh": "秋天常下雨。"
+          },
+          {
+            "fr": "Il neige rarement à Taïwan.",
+            "zh": "台灣很少下雪。"
+          },
+          {
+            "fr": "La pluie tombe.",
+            "zh": "雨在下。（用名詞 + tomber 的說法）"
+          },
+          {
+            "fr": "La neige tombe.",
+            "zh": "雪在下。"
+          }
+        ]
+      },
+      {
+        "heading": "④ 天氣相關名詞 — les noms",
+        "note": "配 Il y a 使用時要加部分冠詞：il y a du vent / de la pluie / des nuages。",
+        "items": [
+          {
+            "fr": "la météo",
+            "zh": "天氣預報、天氣"
+          },
+          {
+            "fr": "le temps",
+            "zh": "天氣／時間（一字兩義）"
+          },
+          {
+            "fr": "le ciel",
+            "zh": "天空"
+          },
+          {
+            "fr": "le soleil",
+            "zh": "太陽"
+          },
+          {
+            "fr": "le vent",
+            "zh": "風（發音 /vɑ̃/，和 vin 葡萄酒 /vɛ̃/ 不一樣，要分清楚）"
+          },
+          {
+            "fr": "la pluie (les pluies)",
+            "zh": "雨／降雨"
+          },
+          {
+            "fr": "la neige",
+            "zh": "雪"
+          },
+          {
+            "fr": "un nuage (les nuages)",
+            "zh": "雲"
+          },
+          {
+            "fr": "un orage (les orages)",
+            "zh": "雷雨、暴風雨"
+          },
+          {
+            "fr": "le brouillard",
+            "zh": "霧"
+          },
+          {
+            "fr": "une averse (des averses)",
+            "zh": "陣雨"
+          },
+          {
+            "fr": "la montagne",
+            "zh": "山區"
+          },
+          {
+            "fr": "le bord de la mer",
+            "zh": "海邊"
+          },
+          {
+            "fr": "le sommet (les sommets)",
+            "zh": "山頂、頂峰"
+          },
+          {
+            "fr": "la journée",
+            "zh": "白天、一整天"
+          },
+          {
+            "fr": "la fin",
+            "zh": "結束、末期（la fin de l'automne 秋末）"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 天氣相關形容詞 — les adjectifs（-eux → -euse）",
+        "note": "本課的拼字重點：陽性 -eux 的形容詞，變陰性時改成 -euse。例：nuageux → nuageuse。",
+        "items": [
+          {
+            "fr": "nuageux / nuageuse",
+            "zh": "多雲的（← un nuage）"
+          },
+          {
+            "fr": "pluvieux / pluvieuse",
+            "zh": "多雨的（← la pluie）"
+          },
+          {
+            "fr": "orageux / orageuse",
+            "zh": "有雷雨的、暴風雨的（← un orage）"
+          },
+          {
+            "fr": "ensoleillé / ensoleillée",
+            "zh": "晴朗的、陽光充足的（← le soleil）"
+          },
+          {
+            "fr": "enneigé / enneigée",
+            "zh": "積雪的、被雪覆蓋的（← la neige）"
+          },
+          {
+            "fr": "couvert / couverte",
+            "zh": "陰天的、烏雲密布的（Le temps est couvert.）"
+          },
+          {
+            "fr": "beau / belle",
+            "zh": "天氣好的、美麗的"
+          },
+          {
+            "fr": "froid / froide",
+            "zh": "寒冷的"
+          },
+          {
+            "fr": "doux / douce",
+            "zh": "溫和的、宜人的"
+          },
+          {
+            "fr": "fort / forte",
+            "zh": "強烈的（des pluies fortes 大雨）"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ 天氣相關動詞 — les verbes",
+        "note": "每個天氣名詞都有它固定搭配的動詞，這是聽懂氣象報告的關鍵：太陽 brille、風 souffle、雨雪 tombe、雷雨 éclate。",
+        "items": [
+          {
+            "fr": "briller — Le soleil brille.",
+            "zh": "閃耀、照耀 → 陽光普照。"
+          },
+          {
+            "fr": "souffler — Le vent souffle.",
+            "zh": "吹 → 風在吹。"
+          },
+          {
+            "fr": "tomber — La neige / La pluie tombe.",
+            "zh": "落下 → 下雪／下雨。"
+          },
+          {
+            "fr": "éclater — L'orage éclate.",
+            "zh": "爆發、打響 → 雷雨交加。"
+          },
+          {
+            "fr": "se couvrir — Le ciel se couvre.",
+            "zh": "變陰、被雲覆蓋 → 天空轉陰。"
+          },
+          {
+            "fr": "se lever — Le soleil se lève.",
+            "zh": "升起 → 太陽升起。"
+          },
+          {
+            "fr": "se coucher — Le soleil se couche tard.",
+            "zh": "落下 → 太陽很晚才下山。"
+          },
+          {
+            "fr": "le lever du soleil",
+            "zh": "日出（名詞用法）"
+          },
+          {
+            "fr": "le coucher du soleil",
+            "zh": "日落"
+          }
+        ]
+      },
+      {
+        "heading": "⑦ 同一個天氣的三種說法（公式練習）",
+        "note": "記住這個對照表，考試填空幾乎都在考它：名詞 → 形容詞 → 動詞句。",
+        "items": [
+          {
+            "fr": "Le ciel est nuageux. / C'est nuageux. / Il y a des nuages.",
+            "zh": "多雲：形容詞 nuageux ↔ 名詞 nuages。"
+          },
+          {
+            "fr": "Le ciel est pluvieux. / C'est pluvieux. / Il y a de la pluie.",
+            "zh": "有雨：形容詞 pluvieux ↔ 名詞 pluie；也可說 Il y a des averses.（有陣雨）"
+          },
+          {
+            "fr": "Le temps est ensoleillé. / Il y a du soleil. / Le soleil brille.",
+            "zh": "晴天的三種說法。"
+          },
+          {
+            "fr": "Le temps est orageux. / Il y a des orages. / L'orage éclate.",
+            "zh": "雷雨的三種說法。"
+          },
+          {
+            "fr": "Il y a du vent. / Le vent souffle.",
+            "zh": "有風／風在吹。（沒有 venteux 這個常用字，用這兩句就好）"
+          },
+          {
+            "fr": "Le temps est couvert. / Le ciel se couvre.",
+            "zh": "陰天／天色轉陰。"
+          }
+        ]
+      },
+      {
+        "heading": "⑧ 課堂練習 詳解 — Associez les noms et les adjectifs.",
+        "note": "答案：1-c、2-b、3-d、4-a。從名詞推形容詞，就是加字尾 -eux / -é。",
+        "items": [
+          {
+            "fr": "1. Le soleil → c. Ensoleillé",
+            "zh": "太陽 → 晴朗的"
+          },
+          {
+            "fr": "2. La pluie → b. Pluvieux",
+            "zh": "雨 → 多雨的"
+          },
+          {
+            "fr": "3. Les nuages → d. Nuageux",
+            "zh": "雲 → 多雲的"
+          },
+          {
+            "fr": "4. L'orage → a. Orageux",
+            "zh": "雷雨 → 有雷雨的"
+          }
+        ]
+      },
+      {
+        "heading": "⑨ 課堂練習 詳解 — Regardez les dessins et classez les expressions.",
+        "note": "五張圖，每張圖可以放進好幾個說法（形容詞句＋動詞句＋il y a 句）。",
+        "items": [
+          {
+            "fr": "a. Le temps est couvert. / Il y a des nuages. / Le ciel est nuageux.",
+            "zh": "陰天：整片天被雲蓋住。"
+          },
+          {
+            "fr": "b. Le temps est pluvieux. / Il pleut. / La pluie tombe.",
+            "zh": "雨天。"
+          },
+          {
+            "fr": "c. Il neige. / La neige tombe.",
+            "zh": "下雪。"
+          },
+          {
+            "fr": "d. Le temps est ensoleillé. / Le soleil brille.",
+            "zh": "晴天。"
+          },
+          {
+            "fr": "e. Le vent souffle. / Il y a du vent.",
+            "zh": "起風。"
+          }
+        ]
+      },
+      {
+        "heading": "⑩ 課堂練習 詳解 — Soulignez le verbe correct.",
+        "note": "考的就是「名詞 ＋ 專屬動詞」的固定搭配。",
+        "items": [
+          {
+            "fr": "1. La neige tombe.",
+            "zh": "雪「落下」，不能用 se couvre。"
+          },
+          {
+            "fr": "2. Le soleil brille.",
+            "zh": "太陽「照耀」，不會 tomber。"
+          },
+          {
+            "fr": "3. L'orage éclate.",
+            "zh": "雷雨「爆發、打響」。"
+          },
+          {
+            "fr": "4. Le vent souffle.",
+            "zh": "風「吹」，不會 briller。"
+          },
+          {
+            "fr": "5. Le ciel se couvre.",
+            "zh": "天空「轉陰」被雲蓋住（se lever 是升起，不合）。"
+          },
+          {
+            "fr": "6. La pluie tombe.",
+            "zh": "雨「落下」。"
+          }
+        ]
+      },
+      {
+        "heading": "⑪ 四季描寫填空 詳解 — Les quatre saisons",
+        "note": "四段完整範文，是描述季節天氣最好的模板，建議整段背下來。注意季節前的介係詞：au printemps，但 en été / en automne / en hiver。",
+        "items": [
+          {
+            "fr": "Au printemps, le ciel est un peu nuageux. Mais les nuages ne restent en général pas très longtemps. Il fait assez beau. Il fait doux.",
+            "zh": "春天：天空有點多雲，但雲通常不會停留太久。天氣相當好，很溫和。"
+          },
+          {
+            "fr": "En été, le soleil se couche tard. À la montagne, le temps est souvent orageux et des orages éclatent parfois le soir. Au bord de la mer, les journées sont très ensoleillées. Il fait chaud.",
+            "zh": "夏天：太陽很晚才下山。山區常有雷雨，傍晚偶爾雷雨交加。海邊白天陽光非常充足。天氣很熱。（注意 journées 是陰性複數，所以 ensoleillées 加 -es）"
+          },
+          {
+            "fr": "En automne, le temps est pluvieux : il pleut presque tous les jours et les pluies sont fortes. Les températures sont assez douces et un peu plus froides vers la fin de l'automne.",
+            "zh": "秋天：天氣多雨，幾乎每天下雨而且雨勢很大。氣溫相當溫和，到秋末會再冷一些。（températures 陰性複數 → douces / froides）"
+          },
+          {
+            "fr": "En hiver, il neige rarement dans les grandes villes. La neige tombe surtout en montagne et les sommets sont enneigés jusqu'à la fin du printemps. En général il fait froid.",
+            "zh": "冬天：大城市很少下雪。雪主要下在山區，山頂一直積雪到春末。整體來說很冷。（sommets 陽性複數 → enneigés）"
+          }
+        ]
+      },
+      {
+        "heading": "⑫ 看懂法國氣象預報 — 常聽到的句子",
+        "note": "電視氣象（la météo）語速快，先抓這幾個關鍵說法就能聽懂大意。",
+        "items": [
+          {
+            "fr": "Les températures vont chuter en toute région.",
+            "zh": "各地氣溫將會下降。（chuter = 驟降）"
+          },
+          {
+            "fr": "Encore quelques passages nuageux.",
+            "zh": "還會有一些雲層通過。（un passage nuageux 雲系通過）"
+          },
+          {
+            "fr": "Le soleil va reprendre le dessus.",
+            "zh": "太陽將重新佔上風（轉晴）。"
+          },
+          {
+            "fr": "Il fera beau demain.",
+            "zh": "明天會是好天氣。（簡單未來式）"
+          },
+          {
+            "fr": "Il y aura des averses dans le sud.",
+            "zh": "南部將有陣雨。"
+          },
+          {
+            "fr": "Quel temps fait-il à Paris aujourd'hui ?",
+            "zh": "巴黎今天天氣如何？"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "同一個天氣有四種句型：Il fait + 形容詞／Il pleut 這類無人稱動詞／Le ciel est + 形容詞／Il y a + 名詞。",
+      "Il fait 後面的形容詞永遠是陽性單數（Il fait beau / chaud / froid / lourd / gris），因為 il 不指任何東西。",
+      "PLEUVOIR 和 NEIGER 只有 il 這個人稱：Il pleut. / Il neige.。",
+      "名詞 → 形容詞的字尾規則：nuage → nuageux、pluie → pluvieux、orage → orageux；陰性把 -eux 改成 -euse。",
+      "soleil → ensoleillé、neige → enneigé 用的是 -é 字尾（過去分詞型），陰性加 -e、複數加 -s。",
+      "固定搭配的動詞：le soleil brille／le vent souffle／la pluie（la neige）tombe／l'orage éclate／le ciel se couvre。",
+      "le vent /vɑ̃/ 和 le vin /vɛ̃/ 鼻母音不同，唸錯會變成「葡萄酒」。",
+      "季節介係詞：au printemps，但 en été / en automne / en hiver。",
+      "形容詞要跟名詞做性數配合：les journées sont ensoleillées（陰複）、les sommets sont enneigés（陽複）。"
+    ]
   }
 ]
