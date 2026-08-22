@@ -1,7 +1,15 @@
 import { useMemo, useState } from 'react'
 import { DIALOGUES, DIALOGUE_CATEGORIES } from '../store'
 import { navigate } from '../router'
-import { DialogueLines, EmptyState, KeyPoints, PageHeader, PlayAllButton, SearchField } from '../ui'
+import {
+  DialogueLines,
+  EmptyState,
+  KeyPoints,
+  PageHeader,
+  PlayAllButton,
+  SearchField,
+  SpeakableItems,
+} from '../ui'
 
 export default function DialoguesView({ route }) {
   const [q, setQ] = useState('')
@@ -86,6 +94,12 @@ export default function DialoguesView({ route }) {
                 </div>
               </div>
               <DialogueLines lines={dialogue.lines} />
+              {dialogue.vocab?.length > 0 && (
+                <div className="conj-block">
+                  <h3 className="conj-title">🔤 對話單字</h3>
+                  <SpeakableItems items={dialogue.vocab} />
+                </div>
+              )}
               <KeyPoints points={dialogue.keyPoints} />
             </section>
           )}

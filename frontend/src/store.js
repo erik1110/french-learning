@@ -267,6 +267,7 @@ export function searchAll(rawQuery) {
       scoreText(d.category, q) * 0.8,
       scoreText(d.scene, q) * 0.6,
       ...d.lines.map((l) => best(scoreText(l.french, q), scoreText(l.translation, q)) * 0.4),
+      ...(d.vocab ?? []).map((v) => best(scoreText(v.fr, q), scoreText(v.zh, q)) * 0.4),
     ),
   }))
     .filter((x) => x.score > 0)

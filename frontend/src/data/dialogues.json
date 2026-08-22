@@ -952,5 +952,284 @@
       {"speaker": "櫃台", "french": "Oui, le premier cours est gratuit.", "translation": "適合，第一堂課免費。"}
     ],
     "keyPoints": ["un cours de yoga = 瑜伽課", "pour les débutants = 適合初學者", "le premier cours est gratuit = 第一堂免費"]
+  },
+  {
+    "category": "時間與天氣", "level": "A1", "title": "路上問時間", "scene": "在街上跟陌生人問現在幾點",
+    "lines": [
+      {"speaker": "A", "french": "Excusez-moi, vous avez l'heure, s'il vous plaît ?", "translation": "不好意思，請問現在幾點？"},
+      {"speaker": "B", "french": "Oui, bien sûr. Il est trois heures et quart.", "translation": "當然。現在三點十五分。"},
+      {"speaker": "A", "french": "Trois heures et quart... Merci beaucoup !", "translation": "三點十五分…非常感謝！"},
+      {"speaker": "B", "french": "Vous avez rendez-vous ?", "translation": "您有約嗎？"},
+      {"speaker": "A", "french": "Oui, à trois heures et demie, et je suis en retard.", "translation": "有，三點半，而我快遲到了。"},
+      {"speaker": "B", "french": "Ne vous inquiétez pas, c'est à cinq minutes d'ici.", "translation": "別擔心，離這裡只要五分鐘。"},
+      {"speaker": "A", "french": "Ah, parfait. Bonne journée !", "translation": "太好了。祝您有美好的一天！"},
+      {"speaker": "B", "french": "Bonne journée à vous aussi !", "translation": "也祝您有美好的一天！"}
+    ],
+    "vocab": [
+      {"fr": "Excusez-moi", "zh": "不好意思（叫住陌生人）"},
+      {"fr": "Vous avez l'heure ?", "zh": "請問現在幾點？（最禮貌的問法）"},
+      {"fr": "Il est... heures", "zh": "現在…點（回答時間的固定句型）"},
+      {"fr": "et quart", "zh": "又一刻鐘、15 分"},
+      {"fr": "et demie", "zh": "半（配陰性的 heure 要加 e）"},
+      {"fr": "un rendez-vous", "zh": "約會、預約"},
+      {"fr": "être en retard", "zh": "遲到"},
+      {"fr": "être à l'heure", "zh": "準時"},
+      {"fr": "s'inquiéter", "zh": "擔心（Ne vous inquiétez pas 別擔心）"},
+      {"fr": "à cinq minutes d'ici", "zh": "離這裡五分鐘路程"},
+      {"fr": "Bonne journée !", "zh": "祝有美好的一天！（白天道別）"}
+    ],
+    "keyPoints": ["Vous avez l'heure ? 字面是「您有時間嗎」，問陌生人時比 Quelle heure est-il ? 更自然禮貌。", "回答時間一律用假主詞 il：Il est trois heures et quart.", "三種狀態要分清楚：être en retard 遲到／être à l'heure 準時／être en avance 提早。", "à + 時間 + d'ici = 離這裡多久路程：c'est à cinq minutes d'ici."]
+  },
+  {
+    "category": "時間與天氣", "level": "A2", "title": "約時間碰面", "scene": "跟朋友敲明天見面的時間和地點",
+    "lines": [
+      {"speaker": "A", "french": "On se voit demain ?", "translation": "我們明天見？"},
+      {"speaker": "B", "french": "D'accord. À quelle heure ?", "translation": "好啊。幾點？"},
+      {"speaker": "A", "french": "Vers midi, ça te va ?", "translation": "中午左右，你方便嗎？"},
+      {"speaker": "B", "french": "Midi, c'est un peu tôt pour moi. On dit une heure et demie ?", "translation": "中午對我有點早。約一點半好嗎？"},
+      {"speaker": "A", "french": "Parfait. On se retrouve où ?", "translation": "好。我們在哪碰面？"},
+      {"speaker": "B", "french": "Devant le café, en face de la gare.", "translation": "咖啡館前面，車站對面。"},
+      {"speaker": "A", "french": "Ça marche. À demain, treize heures trente !", "translation": "沒問題。明天 13:30 見！"},
+      {"speaker": "B", "french": "À demain ! Et n'oublie pas ton parapluie, il va pleuvoir.", "translation": "明天見！別忘了帶傘，會下雨。"}
+    ],
+    "vocab": [
+      {"fr": "On se voit ?", "zh": "我們見個面？"},
+      {"fr": "À quelle heure ?", "zh": "幾點？"},
+      {"fr": "vers", "zh": "大約（vers midi 中午左右）"},
+      {"fr": "Ça te va ?", "zh": "你這樣可以嗎？"},
+      {"fr": "tôt / tard", "zh": "早／晚"},
+      {"fr": "On dit... ?", "zh": "那就約…好嗎？（提議時間）"},
+      {"fr": "se retrouver", "zh": "碰面、會合"},
+      {"fr": "devant", "zh": "在…前面"},
+      {"fr": "en face de", "zh": "在…對面"},
+      {"fr": "Ça marche.", "zh": "沒問題、就這麼辦（口語）"},
+      {"fr": "À demain !", "zh": "明天見！"},
+      {"fr": "un parapluie", "zh": "雨傘"}
+    ],
+    "keyPoints": ["約時間三句組合：À quelle heure ?（幾點）→ Vers midi（大約中午）→ Ça te va ?（你方便嗎）。", "On dit une heure et demie ? 是「那就約一點半？」的口語提議法。", "口語約時間用日常說法（une heure et demie），最後確認時常改用 24 小時制（treize heures trente）比較不會搞錯早晚。", "Ça marche. 是超高頻的口語同意句，等於 D'accord."]
+  },
+  {
+    "category": "時間與天氣", "level": "A2", "title": "遲到與改約", "scene": "打電話跟朋友說自己會晚到",
+    "lines": [
+      {"speaker": "A", "french": "Allô Julie ? Je suis désolé, je vais être en retard.", "translation": "喂 Julie？抱歉，我會遲到。"},
+      {"speaker": "B", "french": "Ah bon ? Tu arrives à quelle heure ?", "translation": "是喔？你幾點會到？"},
+      {"speaker": "A", "french": "J'ai un quart d'heure de retard, à peu près.", "translation": "我大概會晚十五分鐘。"},
+      {"speaker": "B", "french": "Ce n'est pas grave, je t'attends au café.", "translation": "沒關係，我在咖啡館等你。"},
+      {"speaker": "A", "french": "Merci. On peut décaler à sept heures et demie si tu préfères.", "translation": "謝謝。你想的話我們可以延到七點半。"},
+      {"speaker": "B", "french": "Non, non, viens quand tu peux.", "translation": "不用不用，你能到再來就好。"},
+      {"speaker": "A", "french": "D'accord, j'arrive dès que possible.", "translation": "好，我盡快到。"},
+      {"speaker": "B", "french": "À tout à l'heure !", "translation": "等一下見！"}
+    ],
+    "vocab": [
+      {"fr": "Allô ?", "zh": "喂？（只用在電話裡）"},
+      {"fr": "Je suis désolé(e).", "zh": "我很抱歉。"},
+      {"fr": "être en retard", "zh": "遲到"},
+      {"fr": "un quart d'heure de retard", "zh": "遲到十五分鐘"},
+      {"fr": "à peu près", "zh": "大約、差不多"},
+      {"fr": "Ce n'est pas grave.", "zh": "沒關係、不要緊。"},
+      {"fr": "attendre", "zh": "等待"},
+      {"fr": "décaler", "zh": "把時間往後延"},
+      {"fr": "préférer", "zh": "比較喜歡、偏好"},
+      {"fr": "dès que possible", "zh": "盡快"},
+      {"fr": "À tout à l'heure !", "zh": "等一下見！"}
+    ],
+    "keyPoints": ["遲到三步驟：道歉 Je suis désolé(e) → 說明 Je vais être en retard → 給出時間 J'ai un quart d'heure de retard.", "固定說法 avoir + 時間 + de retard：j'ai dix minutes de retard（我遲到十分鐘）。", "décaler à + 時間 = 改約到…，是改時間最常用的動詞。", "道別語的距離：À tout de suite（馬上見）→ À tout à l'heure（等一下，同一天）→ À plus tard（晚點）→ À demain（明天）。"]
+  },
+  {
+    "category": "時間與天氣", "level": "A2", "title": "這禮拜的行程", "scene": "朋友互問這一週的安排",
+    "lines": [
+      {"speaker": "A", "french": "Qu'est-ce que tu fais cette semaine ?", "translation": "你這禮拜要做什麼？"},
+      {"speaker": "B", "french": "Lundi, je suis à Berlin pour le travail.", "translation": "這個星期一我要去柏林出差。"},
+      {"speaker": "A", "french": "Et le reste de la semaine ?", "translation": "那其他天呢？"},
+      {"speaker": "B", "french": "Le mardi et le jeudi, j'ai toujours mon cours d'espagnol.", "translation": "每週二和週四我固定有西班牙文課。"},
+      {"speaker": "A", "french": "Tu es libre vendredi soir, alors ?", "translation": "那你星期五晚上有空嗎？"},
+      {"speaker": "B", "french": "Vendredi, je passe toute la journée à la bibliothèque, mais je suis libre le soir.", "translation": "星期五我一整天都在圖書館，不過晚上有空。"},
+      {"speaker": "A", "french": "Super. Et le week-end ?", "translation": "太好了。那週末呢？"},
+      {"speaker": "B", "french": "Dimanche matin, je joue au tennis, comme tous les dimanches.", "translation": "星期天早上我打網球，跟每個星期天一樣。"}
+    ],
+    "vocab": [
+      {"fr": "cette semaine", "zh": "這個星期"},
+      {"fr": "pour le travail", "zh": "因公、出差"},
+      {"fr": "le reste", "zh": "其餘、剩下的"},
+      {"fr": "toujours", "zh": "總是、固定"},
+      {"fr": "un cours", "zh": "一堂課"},
+      {"fr": "être libre", "zh": "有空"},
+      {"fr": "passer la journée", "zh": "度過一整天"},
+      {"fr": "la bibliothèque", "zh": "圖書館"},
+      {"fr": "le week-end", "zh": "週末"},
+      {"fr": "tous les dimanches", "zh": "每個星期天"},
+      {"fr": "jouer au tennis", "zh": "打網球（jouer à + 運動）"}
+    ],
+    "keyPoints": ["Lundi（不加冠詞）= 這個星期一，只發生一次；Le mardi = 每個星期二的習慣，等於 tous les mardis。", "問行程：Qu'est-ce que tu fais cette semaine ? 問有沒有空：Tu es libre vendredi soir ?", "passer toute la journée à + 地點／原形動詞 = 一整天待在…／花一整天做…。", "「有空」用 être libre，「沒空」說 je ne suis pas libre 或 je suis occupé(e)。"]
+  },
+  {
+    "category": "時間與天氣", "level": "A1", "title": "問日期與生日", "scene": "確認今天幾號，順便聊生日",
+    "lines": [
+      {"speaker": "A", "french": "On est quel jour aujourd'hui ?", "translation": "今天星期幾？"},
+      {"speaker": "B", "french": "On est mercredi, le 12 août.", "translation": "今天是八月十二號星期三。"},
+      {"speaker": "A", "french": "Déjà ! Alors c'est bientôt ton anniversaire, non ?", "translation": "這麼快！那你生日快到了吧？"},
+      {"speaker": "B", "french": "Oui, c'est le 20 août.", "translation": "對，是八月二十號。"},
+      {"speaker": "A", "french": "Tu es né en quelle année ?", "translation": "你哪一年出生的？"},
+      {"speaker": "B", "french": "En 1995. Et toi, c'est quand ton anniversaire ?", "translation": "1995 年。你呢，你生日什麼時候？"},
+      {"speaker": "A", "french": "Le 1er janvier. Facile à retenir !", "translation": "一月一號。很好記！"},
+      {"speaker": "B", "french": "Alors on fêtera ça au Nouvel An !", "translation": "那我們就在新年一起慶祝！"}
+    ],
+    "vocab": [
+      {"fr": "On est quel jour ?", "zh": "今天星期幾？"},
+      {"fr": "On est le combien ?", "zh": "今天幾號？"},
+      {"fr": "aujourd'hui", "zh": "今天"},
+      {"fr": "déjà", "zh": "已經"},
+      {"fr": "bientôt", "zh": "快要、不久"},
+      {"fr": "un anniversaire", "zh": "生日"},
+      {"fr": "être né(e)", "zh": "出生"},
+      {"fr": "une année", "zh": "年"},
+      {"fr": "le 1er (premier)", "zh": "一號（唯一用序數的日期）"},
+      {"fr": "retenir", "zh": "記住"},
+      {"fr": "fêter", "zh": "慶祝"},
+      {"fr": "le Nouvel An", "zh": "新年"}
+    ],
+    "keyPoints": ["問日期兩句：On est quel jour ?（星期幾）／On est le combien ?（幾號）。回答 On est le 12 août.", "日期公式：le + 數字 + 月份；只有 1 號用序數 le premier（寫成 1er）。", "年份前面加 en：Je suis né en 1995.", "星期和月份在法文一律小寫，跟英文不一樣。"]
+  },
+  {
+    "category": "時間與天氣", "level": "A2", "title": "早上的作息", "scene": "聊幾點起床、幾點上下班",
+    "lines": [
+      {"speaker": "A", "french": "Tu te lèves à quelle heure le matin ?", "translation": "你早上幾點起床？"},
+      {"speaker": "B", "french": "Mon réveil sonne à six heures et demie.", "translation": "我的鬧鐘六點半響。"},
+      {"speaker": "A", "french": "Si tôt ! Tu commences à quelle heure ?", "translation": "這麼早！你幾點上班？"},
+      {"speaker": "B", "french": "Je pointe à sept heures et demie, du lundi au vendredi.", "translation": "我週一到週五七點半打卡。"},
+      {"speaker": "A", "french": "Et tu finis quand ?", "translation": "那你幾點下班？"},
+      {"speaker": "B", "french": "Vers dix-sept heures, sauf le vendredi.", "translation": "大約下午五點，星期五除外。"},
+      {"speaker": "A", "french": "Le vendredi, tu finis plus tôt ?", "translation": "星期五你比較早下班？"},
+      {"speaker": "B", "french": "Oui, à midi. Et le samedi, je fais la grasse matinée !", "translation": "對，中午。然後星期六我就睡到自然醒！"}
+    ],
+    "vocab": [
+      {"fr": "se lever", "zh": "起床"},
+      {"fr": "se coucher", "zh": "就寢、睡覺"},
+      {"fr": "un réveil", "zh": "鬧鐘"},
+      {"fr": "sonner", "zh": "響"},
+      {"fr": "tôt", "zh": "早"},
+      {"fr": "commencer", "zh": "開始（上班）"},
+      {"fr": "pointer", "zh": "打卡"},
+      {"fr": "du lundi au vendredi", "zh": "從週一到週五"},
+      {"fr": "finir", "zh": "結束（下班）"},
+      {"fr": "vers", "zh": "大約"},
+      {"fr": "sauf", "zh": "除了…以外"},
+      {"fr": "faire la grasse matinée", "zh": "睡到很晚才起床"}
+    ],
+    "keyPoints": ["作息動詞是反身動詞：se lever 起床／se coucher 睡覺，問法 Tu te lèves à quelle heure ?", "上下班用 commencer / finir；pointer 是打卡：Je pointe à 7 h 30.", "du... au... 表示範圍：du lundi au vendredi（週一到週五）。", "faire la grasse matinée 是法文很好用的慣用語，字面「做肥美的早晨」＝賴床睡到飽。"]
+  },
+  {
+    "category": "時間與天氣", "level": "A2", "title": "看明天的天氣預報", "scene": "出門前互相確認明天天氣",
+    "lines": [
+      {"speaker": "A", "french": "Tu as vu la météo pour demain ?", "translation": "你看了明天的天氣預報嗎？"},
+      {"speaker": "B", "french": "Oui, on annonce de la pluie toute la journée.", "translation": "看了，預報說會下一整天的雨。"},
+      {"speaker": "A", "french": "Encore ! Il pleut presque tous les jours en ce moment.", "translation": "又下！最近幾乎每天下雨。"},
+      {"speaker": "B", "french": "C'est l'automne. Les températures vont chuter aussi.", "translation": "秋天嘛。氣溫也會下降。"},
+      {"speaker": "A", "french": "Il va faire combien ?", "translation": "會有幾度？"},
+      {"speaker": "B", "french": "Quinze degrés l'après-midi, et il y aura du vent.", "translation": "下午十五度，而且會有風。"},
+      {"speaker": "A", "french": "Bon, je prends mon parapluie et un manteau.", "translation": "好吧，我帶傘和外套。"},
+      {"speaker": "B", "french": "Bonne idée. Le ciel se couvre déjà.", "translation": "好主意。天空已經開始轉陰了。"}
+    ],
+    "vocab": [
+      {"fr": "la météo", "zh": "天氣預報"},
+      {"fr": "annoncer", "zh": "預報、宣布"},
+      {"fr": "la pluie", "zh": "雨"},
+      {"fr": "toute la journée", "zh": "一整天"},
+      {"fr": "presque", "zh": "幾乎"},
+      {"fr": "en ce moment", "zh": "最近、目前"},
+      {"fr": "l'automne", "zh": "秋天"},
+      {"fr": "les températures", "zh": "氣溫"},
+      {"fr": "chuter", "zh": "驟降"},
+      {"fr": "un degré", "zh": "度"},
+      {"fr": "le vent", "zh": "風"},
+      {"fr": "un manteau", "zh": "大衣、外套"},
+      {"fr": "se couvrir", "zh": "（天空）轉陰"}
+    ],
+    "keyPoints": ["問預報：Tu as vu la météo ? 回答常用 On annonce...（預報說會…）。", "講未來天氣用 aller + 原形：Il va pleuvoir. / Les températures vont chuter. / Il va faire quinze degrés.", "il y aura 是 il y a 的未來式（將會有）：il y aura du vent.", "Le ciel se couvre. = 天空轉陰，se couvrir 是天氣課的重點動詞。"]
+  },
+  {
+    "category": "時間與天氣", "level": "A2", "title": "下雨改計畫", "scene": "雨太大，臨時改變週末計畫",
+    "lines": [
+      {"speaker": "A", "french": "Il pleut trop fort, on annule le pique-nique ?", "translation": "雨太大了，野餐要取消嗎？"},
+      {"speaker": "B", "french": "Attends, ce sont juste des averses. Ça va s'arrêter.", "translation": "等等，只是陣雨。會停的。"},
+      {"speaker": "A", "french": "Tu crois ? Le ciel est tout gris.", "translation": "你覺得會嗎？天空一片灰。"},
+      {"speaker": "B", "french": "On peut y aller quand même, avec un parapluie.", "translation": "我們還是可以去啊，帶把傘。"},
+      {"speaker": "A", "french": "Sinon, on va au musée ? Il fait meilleur à l'intérieur.", "translation": "不然我們去博物館？室內舒服多了。"},
+      {"speaker": "B", "french": "D'accord, on décale le pique-nique à dimanche.", "translation": "好，野餐延到星期天。"},
+      {"speaker": "A", "french": "Il fera beau dimanche ?", "translation": "星期天會是好天氣嗎？"},
+      {"speaker": "B", "french": "Oui, le soleil revient ce week-end.", "translation": "會，這個週末太陽會回來。"}
+    ],
+    "vocab": [
+      {"fr": "il pleut fort", "zh": "雨下得很大"},
+      {"fr": "annuler", "zh": "取消"},
+      {"fr": "un pique-nique", "zh": "野餐"},
+      {"fr": "une averse", "zh": "陣雨"},
+      {"fr": "s'arrêter", "zh": "停止"},
+      {"fr": "tout gris", "zh": "灰濛濛一片"},
+      {"fr": "quand même", "zh": "還是、仍然"},
+      {"fr": "sinon", "zh": "不然、否則"},
+      {"fr": "un musée", "zh": "博物館"},
+      {"fr": "à l'intérieur", "zh": "在室內"},
+      {"fr": "décaler", "zh": "延期"},
+      {"fr": "Il fera beau.", "zh": "天氣會很好。（faire 的未來式）"}
+    ],
+    "keyPoints": ["une averse 是短暫的陣雨，la pluie 是雨本身；雨很大說 il pleut fort。", "quand même（還是、仍然）和 sinon（不然）是口語裡出現率極高的兩個小詞。", "Il fait meilleur... = 這裡天氣／環境比較舒服，是 il fait bon 的比較級說法。", "未來天氣可以用簡單未來式：il fera beau（會是好天氣）、le soleil revient 也能用現在式表達最近的未來。"]
+  },
+  {
+    "category": "時間與天氣", "level": "A2", "title": "聊四季", "scene": "聊最喜歡的季節和各季天氣",
+    "lines": [
+      {"speaker": "A", "french": "Quelle est ta saison préférée ?", "translation": "你最喜歡哪個季節？"},
+      {"speaker": "B", "french": "Le printemps, sans hésiter. Il fait doux et il y a des fleurs partout.", "translation": "春天，毫不猶豫。天氣溫和，到處都是花。"},
+      {"speaker": "A", "french": "Moi, je préfère l'été. J'adore la mer et les longues journées.", "translation": "我比較喜歡夏天。我超愛海和長長的白天。"},
+      {"speaker": "B", "french": "Mais en été, il fait trop chaud et trop lourd à Taïwan.", "translation": "可是台灣的夏天太熱又太悶。"},
+      {"speaker": "A", "french": "C'est vrai. Et en hiver, il ne neige jamais chez nous.", "translation": "沒錯。而且我們這裡冬天從來不下雪。"},
+      {"speaker": "B", "french": "En France, la neige tombe surtout en montagne.", "translation": "在法國，雪主要下在山區。"},
+      {"speaker": "A", "french": "Et l'automne, tu aimes ?", "translation": "那秋天呢，你喜歡嗎？"},
+      {"speaker": "B", "french": "En automne, il pleut souvent, mais les couleurs sont magnifiques.", "translation": "秋天常下雨，但顏色非常美。"}
+    ],
+    "vocab": [
+      {"fr": "une saison", "zh": "季節"},
+      {"fr": "préféré(e)", "zh": "最喜歡的"},
+      {"fr": "sans hésiter", "zh": "毫不猶豫"},
+      {"fr": "le printemps", "zh": "春天（au printemps 在春天）"},
+      {"fr": "il fait doux", "zh": "天氣溫和宜人"},
+      {"fr": "partout", "zh": "到處"},
+      {"fr": "l'été", "zh": "夏天（en été 在夏天）"},
+      {"fr": "il fait lourd", "zh": "天氣悶熱"},
+      {"fr": "l'hiver", "zh": "冬天（en hiver 在冬天）"},
+      {"fr": "ne... jamais", "zh": "從不"},
+      {"fr": "la montagne", "zh": "山區"},
+      {"fr": "l'automne", "zh": "秋天（en automne 在秋天）"},
+      {"fr": "magnifique", "zh": "壯麗的、非常美的"}
+    ],
+    "keyPoints": ["季節介係詞：只有春天用 au printemps，其他三個母音開頭的季節用 en（en été / en automne / en hiver）。", "問喜好：Quelle est ta saison préférée ? 回答用 Je préfère + 季節。", "否定 ne... jamais（從不）把動詞夾在中間：il ne neige jamais.", "天氣形容詞跟在 il fait 後面永遠是陽性單數：il fait doux / chaud / lourd / froid."]
+  },
+  {
+    "category": "時間與天氣", "level": "A2", "title": "問山上的天氣", "scene": "出發去山上前先打電話問當地天氣",
+    "lines": [
+      {"speaker": "A", "french": "Bonjour, je voudrais savoir quel temps il fait chez vous.", "translation": "您好，我想知道你們那邊天氣如何。"},
+      {"speaker": "B", "french": "Bonjour ! Aujourd'hui, le soleil brille, mais il fait froid.", "translation": "您好！今天陽光普照，但很冷。"},
+      {"speaker": "A", "french": "Il y a de la neige ?", "translation": "有雪嗎？"},
+      {"speaker": "B", "french": "Oui, les sommets sont enneigés depuis novembre.", "translation": "有，山頂從十一月就積雪了。"},
+      {"speaker": "A", "french": "Et le vent ? Il souffle fort ?", "translation": "那風呢？風很大嗎？"},
+      {"speaker": "B", "french": "Ce matin, oui. Cet après-midi, ce sera plus calme.", "translation": "今天早上是。下午會比較平靜。"},
+      {"speaker": "A", "french": "Parfait, on arrive samedi vers dix heures.", "translation": "太好了，我們星期六十點左右到。"},
+      {"speaker": "B", "french": "Très bien, prenez des vêtements chauds !", "translation": "好的，記得帶保暖衣物！"}
+    ],
+    "vocab": [
+      {"fr": "je voudrais savoir", "zh": "我想知道（禮貌說法）"},
+      {"fr": "chez vous", "zh": "你們那裡"},
+      {"fr": "briller", "zh": "（太陽）照耀"},
+      {"fr": "il fait froid", "zh": "天氣很冷"},
+      {"fr": "la neige", "zh": "雪"},
+      {"fr": "un sommet", "zh": "山頂"},
+      {"fr": "enneigé(e)", "zh": "積雪的"},
+      {"fr": "depuis", "zh": "自從…以來"},
+      {"fr": "souffler", "zh": "（風）吹"},
+      {"fr": "fort", "zh": "強烈地"},
+      {"fr": "calme", "zh": "平靜的"},
+      {"fr": "des vêtements chauds", "zh": "保暖衣物"}
+    ],
+    "keyPoints": ["間接問句：Je voudrais savoir quel temps il fait...，主詞動詞不倒裝，比直接問更禮貌。", "天氣的固定搭配動詞：le soleil brille／le vent souffle／la neige tombe。", "depuis + 時間點 = 從…以來：enneigés depuis novembre（十一月以來就積雪）。", "ce sera 是 c'est 的未來式（將會是）：ce sera plus calme."]
   }
 ]
