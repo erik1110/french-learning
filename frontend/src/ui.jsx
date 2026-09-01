@@ -95,7 +95,9 @@ export function PlayAllButton({ lines, className = 'btn btn-primary' }) {
   // Only a running *sequence* turns this into a stop button — a single 🔊 tap
   // elsewhere on the page shouldn't relabel every play-all button.
   const { sequence } = useSpeaking()
-  const list = (lines || []).filter(Boolean)
+  // Keep the French only — a Chinese label on a line would come out garbled in
+  // a French voice, and explanation-only lines shouldn't be read at all.
+  const list = (lines || []).filter(Boolean).map(frenchFromLine).filter(hasFrench)
   if (list.length === 0) return null
   return (
     <button
@@ -408,18 +410,41 @@ export function CardEditor({ card, onSubmit, onCancel }) {
 
 // A term is a row with two controls (speak + copy), so the clickable area is a
 // nested <button> rather than the row itself — no button-inside-button.
+//
+// Some rows are pure Chinese explanation (a rule, a mnemonic). Those get no 🔊
+// at all, and rows that mix a Chinese label with French only ever speak the
+// French part — the voice is a French one, so Chinese would come out garbled.
 function Term({ fr, zh, title, badge }) {
+  const speech = frenchFromLine(fr)
+  const speakable = hasFrench(speech)
+
+  const body = (
+    <>
+      <span className="term-fr">
+        {speakable && (
+          <span className="term-speaker" aria-hidden="true">🔊</span>
+        )}
+        {fr}
+        {badge}
+      </span>
+      <span className="term-zh">{zh}</span>
+    </>
+  )
+
+  if (!speakable) {
+    return (
+      <div className="term">
+        <div className="term-main term-plain">{body}</div>
+      </div>
+    )
+  }
+
   return (
     <div className="term">
-      <button type="button" className="term-main" title={title ?? '點擊發音'} onClick={() => speakFrench(fr)}>
-        <span className="term-fr">
-          <span className="term-speaker" aria-hidden="true">🔊</span>
-          {fr}
-          {badge}
-        </span>
-        <span className="term-zh">{zh}</span>
+      <button type="button" className="term-main" title={title ?? '點擊發音'} onClick={() => speakFrench(speech)}>
+        {body}
       </button>
-      <CopyButton text={fr} label={`複製「${fr}」`} className="term-copy" />
+      <CopyButton text={speech} label={`複製「${speech}」`} className="term-copy" />
     </div>
   )
 }
@@ -481,6 +506,11 @@ export function ConjGrid({ forms }) {
 
 // Pull the French portion out of a mixed zh/fr grammar line so it can be
 // spoken. Drops CJK characters and CJK/fullwidth punctuation, keeps Latin.
+/** Does this string still hold something a French voice can read out? */
+export function hasFrench(text) {
+  return /[a-zA-ZÀ-ÿ]/.test(text)
+}
+
 export function frenchFromLine(line) {
   return String(line)
     .replace(/[㐀-鿿豈-﫿぀-ヿ]/g, '')
@@ -498,7 +528,7 @@ export function GrammarContent({ text }) {
         .map((line, i) => {
           if (line.trim() === '') return <div key={i} className="prose-gap" />
           const fr = frenchFromLine(line)
-          const speakable = /[a-zA-ZÀ-ÿ]/.test(fr)
+          const speakable = hasFrench(fr)
           return (
             <div key={i} className="prose-line">
               <span className="prose-text">{line}</span>

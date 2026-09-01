@@ -1462,6 +1462,11 @@ kbd {
   text-align: left;
   cursor: pointer;
 }
+/* Explanation-only row: no French to speak, so it must not look clickable. */
+.term-plain {
+  cursor: default;
+  padding-right: 12px;
+}
 .term-copy {
   align-self: center;
   padding: 8px 9px;

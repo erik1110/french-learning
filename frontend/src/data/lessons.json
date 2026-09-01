@@ -2865,28 +2865,28 @@
   {
     "id": "le-temps-heure",
     "date": "2026-08-17",
-    "title": "LE TEMPS — 幾點幾分・星期・日期・季節",
-    "summary": "時間與日期從零開始講清楚：先分辨「日常說法」和「24 小時官方說法」兩套系統，再用一小時的完整示範表學會 et quart / et demie / moins，接著是日期公式 le + 日 + 月、星期月份、介係詞總表，最後附課堂三題練習的完整詳解。",
+    "title": "LE TEMPS ① L'HEURE — 怎麼說幾點幾分",
+    "summary": "從零開始學說時間：先分清楚「日常說法」和「24 小時官方說法」，再用一張從 8 點走到 9 點的完整示範表，把 et quart / et demie / moins 一次弄懂。附課堂時鐘題詳解。",
     "sections": [
       {
         "heading": "① 先搞懂：法文說時間有「兩套系統」",
         "note": "這是最容易混亂的地方。同一個時刻，法文有兩種唸法，用的場合不同。先分清楚，後面就不會亂。",
         "items": [
           {
-            "fr": "【日常說法】Il est neuf heures moins le quart.",
-            "zh": "朋友聊天、問路人用的。12 小時制，會用「一刻 quart、半 demie、差 moins」。"
+            "fr": "Il est neuf heures moins le quart.",
+            "zh": "【日常說法】8:45。朋友聊天、問路人用的，12 小時制，會用「一刻 quart、半 demie、差 moins」。"
           },
           {
-            "fr": "【官方說法】Il est huit heures quarante-cinq.",
-            "zh": "車站、機場、電視、正式邀約用的。24 小時制，直接把數字唸出來。"
+            "fr": "Il est huit heures quarante-cinq.",
+            "zh": "【官方說法】同樣是 8:45。車站、機場、電視、正式邀約用的，24 小時制，直接把數字唸出來。"
           },
           {
             "fr": "兩句都是 8:45",
-            "zh": "同一個時間，兩種說法。日常說法比較口語，官方說法比較清楚不會搞錯早晚。"
+            "zh": "同一個時間，兩種說法。日常說法比較口語，官方說法比較清楚、不會搞錯早上還是晚上。"
           },
           {
-            "fr": "先學日常說法就好",
-            "zh": "官方說法只是「照數字唸」，最後再看一眼就會了。難的是日常說法，所以我們從它開始。"
+            "fr": "先把日常說法學好",
+            "zh": "官方說法只是「照數字唸」，最後看一眼就會。難的是日常說法，所以我們從它開始。"
           }
         ]
       },
@@ -2930,23 +2930,23 @@
       },
       {
         "heading": "③ 第二步：最重要的觀念 — 把一小時切成兩半",
-        "note": "法文人看時鐘時，腦中會把鐘面切一半。分針在右半邊（1～30 分）用「加法」，分針走到左半邊（31～59 分）就改用「減法」，而且小時要跳到下一個。這一條學會，時間就通了。",
+        "note": "法文人看時鐘時，腦中會把鐘面切一半。分針在右半邊（1～30 分）用「加法」；走到左半邊（31～59 分）就改用「減法」，而且小時要跳到下一個。這一條學會，時間就通了。",
         "items": [
           {
-            "fr": "右半邊 1～30 分 → 用「加」",
-            "zh": "小時照舊，把分鐘直接接在後面。例：8:10 → Il est huit heures dix."
+            "fr": "Il est huit heures dix.",
+            "zh": "8:10 →【加法】分針在右半邊（1～30 分）：小時照舊，分鐘直接接在後面。"
           },
           {
-            "fr": "左半邊 31～59 分 → 用「減」moins",
-            "zh": "小時要進到「下一個整點」，再說「差幾分」。例：8:50 → Il est neuf heures moins dix.（差 10 分到 9 點）"
+            "fr": "Il est neuf heures moins dix.",
+            "zh": "8:50 →【減法】分針在左半邊（31～59 分）：小時跳到下一個整點，再說「差幾分」moins。"
           },
           {
-            "fr": "差幾分怎麼算？用 60 減",
+            "fr": "差幾分怎麼算？用 60 減分鐘",
             "zh": "8:50 → 60 − 50 = 10 → neuf heures moins dix。8:35 → 60 − 35 = 25 → neuf heures moins vingt-cinq。"
           },
           {
-            "fr": "為什麼是 neuf 不是 huit ？",
-            "zh": "因為 8:50 在法文的想法是「快到 9 點了，還差 10 分」，所以講的是 9 點，不是 8 點。這跟中文「八點五十」的思路不一樣，要特別轉過來。"
+            "fr": "為什麼小時要進位？",
+            "zh": "因為 8:50 在法文的想法是「快到 9 點了，還差 10 分」，所以講的是 9 點不是 8 點。這跟中文「八點五十」的思路不一樣，要特別轉過來。"
           }
         ]
       },
@@ -2955,86 +2955,86 @@
         "note": "把這 13 句唸熟，任何時間都會說了。注意 8 h 30 是分水嶺：在它之前用「八點＋幾分」，在它之後全部變成「九點－幾分」。",
         "items": [
           {
-            "fr": "8 h 00 — Il est huit heures.",
-            "zh": "八點整"
+            "fr": "Il est huit heures.",
+            "zh": "8 h 00 — 八點整"
           },
           {
-            "fr": "8 h 05 — Il est huit heures cinq.",
-            "zh": "八點五分（加法）"
+            "fr": "Il est huit heures cinq.",
+            "zh": "8 h 05 — 八點五分（加法）"
           },
           {
-            "fr": "8 h 10 — Il est huit heures dix.",
-            "zh": "八點十分（加法）"
+            "fr": "Il est huit heures dix.",
+            "zh": "8 h 10 — 八點十分（加法）"
           },
           {
-            "fr": "8 h 15 — Il est huit heures et quart.",
-            "zh": "八點十五分。quart = 四分之一小時，所以 15 分說「et quart」"
+            "fr": "Il est huit heures et quart.",
+            "zh": "8 h 15 — 八點十五分。quart = 四分之一小時，所以 15 分說 et quart"
           },
           {
-            "fr": "8 h 20 — Il est huit heures vingt.",
-            "zh": "八點二十分（加法）"
+            "fr": "Il est huit heures vingt.",
+            "zh": "8 h 20 — 八點二十分（加法）"
           },
           {
-            "fr": "8 h 25 — Il est huit heures vingt-cinq.",
-            "zh": "八點二十五分（加法）"
+            "fr": "Il est huit heures vingt-cinq.",
+            "zh": "8 h 25 — 八點二十五分（加法）"
           },
           {
-            "fr": "8 h 30 — Il est huit heures et demie.",
-            "zh": "八點半。demie = 一半 ←★ 分水嶺，過了這裡就換成減法"
+            "fr": "Il est huit heures et demie.",
+            "zh": "8 h 30 — 八點半。demie = 一半 ★分水嶺，過了這裡就換成減法"
           },
           {
-            "fr": "8 h 35 — Il est neuf heures moins vingt-cinq.",
-            "zh": "差 25 分九點（60−35=25，小時跳到 9）"
+            "fr": "Il est neuf heures moins vingt-cinq.",
+            "zh": "8 h 35 — 差 25 分九點（60−35=25，小時跳到 9）"
           },
           {
-            "fr": "8 h 40 — Il est neuf heures moins vingt.",
-            "zh": "差 20 分九點（60−40=20）"
+            "fr": "Il est neuf heures moins vingt.",
+            "zh": "8 h 40 — 差 20 分九點（60−40=20）"
           },
           {
-            "fr": "8 h 45 — Il est neuf heures moins le quart.",
-            "zh": "差一刻九點（45 分 = 差 15 分 = moins le quart）"
+            "fr": "Il est neuf heures moins le quart.",
+            "zh": "8 h 45 — 差一刻九點（45 分＝差 15 分＝moins le quart）"
           },
           {
-            "fr": "8 h 50 — Il est neuf heures moins dix.",
-            "zh": "差 10 分九點（60−50=10）"
+            "fr": "Il est neuf heures moins dix.",
+            "zh": "8 h 50 — 差 10 分九點（60−50=10）"
           },
           {
-            "fr": "8 h 55 — Il est neuf heures moins cinq.",
-            "zh": "差 5 分九點（60−55=5）"
+            "fr": "Il est neuf heures moins cinq.",
+            "zh": "8 h 55 — 差 5 分九點（60−55=5）"
           },
           {
-            "fr": "9 h 00 — Il est neuf heures.",
-            "zh": "九點整，新的一輪重新開始"
+            "fr": "Il est neuf heures.",
+            "zh": "9 h 00 — 九點整，新的一輪重新開始"
           }
         ]
       },
       {
         "heading": "⑤ 拼字陷阱：quart、demie、midi et demi",
-        "note": "這幾個字很像但寫法不同，是考試最愛考、也最常寫錯的地方。看 ✓ 和 ✗ 一次記起來。",
+        "note": "這幾個字很像但寫法不同，是最常寫錯的地方。每一條都給你「✓ 正確」和「✗ 錯誤」的對照。",
         "items": [
           {
-            "fr": "✓ et quart（15 分）",
-            "zh": "✗ et le quart — 加法的 quart 前面「不加 le」"
+            "fr": "et quart",
+            "zh": "15 分。✓ 加法的 quart 前面不加 le｜✗ et le quart"
           },
           {
-            "fr": "✓ moins le quart（差 15 分）",
-            "zh": "✗ moins quart — 減法的 quart 前面「一定要加 le」"
+            "fr": "moins le quart",
+            "zh": "差 15 分（45 分）。✓ 減法的 quart 前面一定要加 le｜✗ moins quart"
           },
           {
-            "fr": "✓ huit heures et demie",
-            "zh": "✗ huit heures et demi — demie 要加 e，因為配的是陰性的 heure"
+            "fr": "Il est huit heures et demie.",
+            "zh": "八點半。✓ demie 要加 e，因為配的是陰性的 heure｜✗ et demi"
           },
           {
-            "fr": "✓ midi et demi / minuit et demi",
-            "zh": "✗ midi et demie — midi 和 minuit 是陽性，demi 不加 e"
+            "fr": "Il est midi et demi.",
+            "zh": "十二點半。✓ midi 和 minuit 是陽性，demi 不加 e｜✗ midi et demie"
           },
           {
-            "fr": "✓ Il est une heure.",
-            "zh": "✗ Il est un heure. — heure 陰性，1 點一定用 une"
+            "fr": "Il est une heure.",
+            "zh": "一點。✓ heure 陰性，一定用 une｜✗ un heure"
           },
           {
-            "fr": "✓ Il est midi.",
-            "zh": "✗ Il est douze heures.（日常聊天時）— 白天 12 點用 midi"
+            "fr": "Il est midi.",
+            "zh": "中午十二點。✓ 日常聊天用 midi｜✗ douze heures（那是官方說法）"
           }
         ]
       },
@@ -3043,36 +3043,36 @@
         "note": "官方說法沒有 et quart、沒有 et demie、沒有 moins，看到數字就唸數字。下午的時間＝小時 + 12。",
         "items": [
           {
-            "fr": "下午 1 點 → 1 + 12 = 13 → treize heures",
-            "zh": "13 h 00"
+            "fr": "treize heures",
+            "zh": "13 h 00 = 下午 1 點（1 + 12 = 13）"
           },
           {
-            "fr": "下午 2 點半 → 2 + 12 = 14 → quatorze heures trente",
-            "zh": "14 h 30（不能說 quatorze heures et demie）"
+            "fr": "quatorze heures trente",
+            "zh": "14 h 30 = 下午 2 點半（2 + 12 = 14；官方說法不能用 et demie）"
           },
           {
-            "fr": "下午 3 點 45 → 3 + 12 = 15 → quinze heures quarante-cinq",
-            "zh": "15 h 45（日常說法是 quatre heures moins le quart）"
+            "fr": "quinze heures quarante-cinq",
+            "zh": "15 h 45 = 下午 3 點 45（日常說法：quatre heures moins le quart）"
           },
           {
-            "fr": "晚上 7 點 → 7 + 12 = 19 → dix-neuf heures",
-            "zh": "19 h 00"
+            "fr": "dix-neuf heures",
+            "zh": "19 h 00 = 晚上 7 點（7 + 12 = 19）"
           },
           {
-            "fr": "晚上 8 點 15 → 8 + 12 = 20 → vingt heures quinze",
-            "zh": "20 h 15"
+            "fr": "vingt heures quinze",
+            "zh": "20 h 15 = 晚上 8 點 15"
           },
           {
-            "fr": "晚上 9 點 45 → 9 + 12 = 21 → vingt et une heures quarante-cinq",
-            "zh": "21 h 45 ← 注意是 une！因為 heures 陰性，21 唸 vingt et une"
+            "fr": "vingt et une heures quarante-cinq",
+            "zh": "21 h 45 = 晚上 9 點 45 ← 注意是 une！因為 heures 陰性，21 唸 vingt et une"
           },
           {
-            "fr": "中午 → douze heures（= midi）",
-            "zh": "12 h 00"
+            "fr": "douze heures",
+            "zh": "12 h 00 = 中午（= midi）"
           },
           {
-            "fr": "半夜 → zéro heure（= minuit）",
-            "zh": "0 h 00，官方說法唸「零點」"
+            "fr": "zéro heure",
+            "zh": "0 h 00 = 半夜（= minuit），官方說法唸「零點」"
           }
         ]
       },
@@ -3107,8 +3107,8 @@
         ]
       },
       {
-        "heading": "⑧ 問時間與約時間的常用句",
-        "note": "問「幾點」用 heure；問「天氣」用 temps（le temps 一字兩義）。約時間時，「在幾點」要加介係詞 à。",
+        "heading": "⑧ 問時間、約時間的常用句",
+        "note": "問「幾點」用 heure；問「天氣」用 temps（le temps 一字兩義）。約時間時，「在幾點」前面要加介係詞 à。",
         "items": [
           {
             "fr": "Quelle heure est-il ?",
@@ -3145,7 +3145,54 @@
         ]
       },
       {
-        "heading": "⑨ 一天的時段與作息",
+        "heading": "練習詳解 — Quelle heure est-il ? Trouvez plusieurs possibilités.",
+        "note": "課堂第一題：同一個鐘面有兩種答案，日常說法＋官方說法。下午的官方說法要把小時加 12。",
+        "items": [
+          {
+            "fr": "dix heures moins le quart",
+            "zh": "a. 9:45。官方說法：neuf heures quarante-cinq／vingt et une heures quarante-cinq。"
+          },
+          {
+            "fr": "onze heures et quart",
+            "zh": "b. 11:15。官方說法：onze heures quinze／vingt-trois heures quinze。"
+          },
+          {
+            "fr": "quatre heures",
+            "zh": "c. 4:00。下午的話官方說法是 seize heures。"
+          },
+          {
+            "fr": "une heure et demie",
+            "zh": "d. 1:30。官方說法 treize heures trente。注意 demie 要加 e。"
+          },
+          {
+            "fr": "midi ou minuit",
+            "zh": "e. 12:00。兩根針都指 12：白天是 midi（douze heures），半夜是 minuit（zéro heure）。"
+          },
+          {
+            "fr": "sept heures",
+            "zh": "f. 7:00。晚上的話官方說法是 dix-neuf heures。"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "所有時間句都用 Il est 開頭；il 是假主詞，沒有意思。",
+      "★ 最重要的一條：分針在 1～30 分用「加」（huit heures dix）；超過 30 分改用「減」，而且小時要跳到下一個（8:50 = neuf heures moins dix）。差幾分用 60 減。",
+      "15 分 = et quart（不加 le）；45 分 = moins le quart（一定要加 le）；30 分 = et demie。",
+      "1 點是 une heure（heure 陰性）；白天 12 點是 midi，半夜 12 點是 minuit。",
+      "midi et demi 不加 e（陽性），但 huit heures et demie 要加 e（陰性）。",
+      "24 小時官方制只有一條規則：照數字唸，下午的小時 + 12。21 點是 vingt et une heures（une！）。",
+      "12 小時制要分早晚時，後面加 du matin / de l'après-midi / du soir。"
+    ]
+  },
+  {
+    "id": "le-temps-journee",
+    "date": "2026-08-17",
+    "title": "LE TEMPS ② 一天的時段與時間長度",
+    "summary": "一天怎麼切（matin / midi / après-midi / soir）、作息怎麼講，以及最容易混淆的「時間點」vs「時間長度」：à huit heures et quart 是幾點，un quart d'heure 是多久。附課堂配對題詳解。",
+    "sections": [
+      {
+        "heading": "① 一天的時段 — 從早到晚",
         "note": "順序：le matin → midi → l'après-midi → le soir → la nuit。時段前面用定冠詞 le / l'。",
         "items": [
           {
@@ -3169,16 +3216,8 @@
             "zh": "夜裡"
           },
           {
-            "fr": "Je me lève à sept heures.",
-            "zh": "我七點起床。（se lever 起床）"
-          },
-          {
-            "fr": "Je pointe à sept heures et demie.",
-            "zh": "我七點半打卡。（pointer 打卡）"
-          },
-          {
-            "fr": "Je me couche à onze heures.",
-            "zh": "我十一點睡覺。（se coucher 就寢）"
+            "fr": "Le matin, je bois un café.",
+            "zh": "早上我會喝一杯咖啡。（講習慣時用 le matin）"
           },
           {
             "fr": "Bonne journée !",
@@ -3191,28 +3230,126 @@
         ]
       },
       {
-        "heading": "⑩ 時間點 vs 時間長度 — LA DURÉE",
-        "note": "「幾點」是時間「點」（用 à），「多久」是時間「長度」（la durée）。同樣是 quart 和 demie，用在長度時寫法不一樣，要分開記。",
+        "heading": "② jour 還是 journée？matin 還是 matinée？",
+        "note": "法文有兩組長得很像的字：短的（jour / matin / soir / an）當「時間單位」用，長的（journée / matinée / soirée / année）強調「這段時間的過程和內容」。",
+        "items": [
+          {
+            "fr": "un jour",
+            "zh": "一天（單位）：Je travaille cinq jours par semaine."
+          },
+          {
+            "fr": "la journée",
+            "zh": "整個白天（過程）：J'ai passé toute la journée à lire."
+          },
+          {
+            "fr": "le matin",
+            "zh": "早上（時間點）：Je pars le matin."
+          },
+          {
+            "fr": "la matinée",
+            "zh": "整個上午（過程）：J'ai passé la matinée au bureau."
+          },
+          {
+            "fr": "le soir",
+            "zh": "晚上（時間點）：Je rentre le soir."
+          },
+          {
+            "fr": "la soirée",
+            "zh": "整個晚上（過程）：Bonne soirée !"
+          },
+          {
+            "fr": "un an",
+            "zh": "一年（單位）：J'ai vingt-cinq ans."
+          },
+          {
+            "fr": "une année",
+            "zh": "一整年（過程）：Bonne année !"
+          }
+        ]
+      },
+      {
+        "heading": "③ 作息：起床、上班、下班、睡覺",
+        "note": "起床和睡覺是「反身動詞」，主詞後面要多一個 me / te / se。問法：Tu te lèves à quelle heure ?",
+        "items": [
+          {
+            "fr": "Je me lève à sept heures.",
+            "zh": "我七點起床。（se lever 起床）"
+          },
+          {
+            "fr": "Mon réveil sonne à six heures et demie.",
+            "zh": "我的鬧鐘六點半響。"
+          },
+          {
+            "fr": "Je pointe à sept heures et demie.",
+            "zh": "我七點半打卡。（pointer 打卡）"
+          },
+          {
+            "fr": "Je commence à huit heures.",
+            "zh": "我八點開始上班。"
+          },
+          {
+            "fr": "Je finis à dix-sept heures.",
+            "zh": "我五點下班。"
+          },
+          {
+            "fr": "Je me couche à onze heures.",
+            "zh": "我十一點睡覺。（se coucher 就寢）"
+          },
+          {
+            "fr": "Je fais la grasse matinée le samedi.",
+            "zh": "我星期六會睡到自然醒。（慣用語）"
+          }
+        ]
+      },
+      {
+        "heading": "④ 最容易混淆：時間「點」vs 時間「長度」",
+        "note": "同樣是 quart 和 demi，用在「幾點」和用在「多久」時，寫法完全不一樣。左右對照著看就清楚了。",
         "items": [
           {
             "fr": "à huit heures et quart",
-            "zh": "在八點十五分（時間點）"
+            "zh": "【幾點】在八點十五分 ← 用 et，沒有 d'"
           },
           {
             "fr": "un quart d'heure",
-            "zh": "十五分鐘（時間長度）← 有 d'，而且是 un 不是 et"
+            "zh": "【多久】十五分鐘 ← 用 un，中間有 d'"
+          },
+          {
+            "fr": "à huit heures et demie",
+            "zh": "【幾點】在八點半 ← demie 加 e"
           },
           {
             "fr": "une demi-heure",
-            "zh": "半小時（長度）← demi 放在名詞前面不變化，中間有連字號"
+            "zh": "【多久】半小時 ← demi 放在名詞前不加 e，中間有連字號"
+          },
+          {
+            "fr": "Il est une heure et demie.",
+            "zh": "【幾點】現在一點半"
           },
           {
             "fr": "une heure et demie",
-            "zh": "一個半小時（長度）← demi 放在後面就要加 e"
+            "zh": "【多久】一個半小時（同樣的字，看句子判斷）"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 時間長度怎麼說 — LA DURÉE",
+        "note": "講「做了多久」用這些說法。分鐘用 quart / demi 拆，天數以上法國人有自己的習慣算法。",
+        "items": [
+          {
+            "fr": "un quart d'heure",
+            "zh": "十五分鐘"
+          },
+          {
+            "fr": "une demi-heure",
+            "zh": "半小時"
           },
           {
             "fr": "trois quarts d'heure",
-            "zh": "四十五分鐘（長度）"
+            "zh": "四十五分鐘（三個十五分）"
+          },
+          {
+            "fr": "une heure et demie",
+            "zh": "一個半小時"
           },
           {
             "fr": "toute la journée",
@@ -3223,271 +3360,51 @@
             "zh": "整個晚上"
           },
           {
-            "fr": "J'ai passé deux heures à étudier.",
-            "zh": "我花了兩小時讀書。← passer + 時間 + à + 原形動詞"
-          },
-          {
             "fr": "huit jours",
-            "zh": "一星期（法國人習慣這樣說，不是八天）"
+            "zh": "一星期 ← 法國人習慣這樣說，不是八天"
           },
           {
             "fr": "quinze jours",
-            "zh": "兩星期"
+            "zh": "兩星期 ← 同樣的習慣算法"
+          },
+          {
+            "fr": "Elle a pris une semaine de vacances.",
+            "zh": "她放了一星期的假。"
           }
         ]
       },
       {
-        "heading": "⑪ 說日期前，先會數字 1–31",
-        "note": "日期就是「數字 + 月份」，所以數字要先熟。注意 21 和 31 中間有 et，其他都用連字號。",
+        "heading": "⑥ 「花了多少時間做某事」— passer 句型",
+        "note": "萬用公式：passer + 一段時間 + à + 原形動詞。這是講「花時間做…」唯一要記的句型。",
         "items": [
           {
-            "fr": "1 un ／ 2 deux ／ 3 trois ／ 4 quatre ／ 5 cinq",
-            "zh": "一到五"
+            "fr": "J'ai passé la journée à lire.",
+            "zh": "我花了一整天看書。"
           },
           {
-            "fr": "6 six ／ 7 sept ／ 8 huit ／ 9 neuf ／ 10 dix",
-            "zh": "六到十"
+            "fr": "Il a passé deux heures à téléphoner.",
+            "zh": "他花了兩小時講電話。"
           },
           {
-            "fr": "11 onze ／ 12 douze ／ 13 treize ／ 14 quatorze ／ 15 quinze",
-            "zh": "十一到十五"
+            "fr": "J'ai passé toute la soirée à étudier le français.",
+            "zh": "我花了整個晚上讀法文。"
           },
           {
-            "fr": "16 seize ／ 17 dix-sept ／ 18 dix-huit ／ 19 dix-neuf ／ 20 vingt",
-            "zh": "十六到二十（16 是獨立的字 seize，17 之後才是 dix- 開頭）"
+            "fr": "Il est resté trois quarts d'heure à la banque.",
+            "zh": "他在銀行待了四十五分鐘。（rester 停留）"
           },
           {
-            "fr": "21 vingt et un ／ 22 vingt-deux ／ 23 vingt-trois",
-            "zh": "二十一到二十三（21 要用 et，不加連字號）"
+            "fr": "Ça prend combien de temps ?",
+            "zh": "這要花多久時間？"
           },
           {
-            "fr": "24 vingt-quatre ／ 25 vingt-cinq ／ 26 vingt-six",
-            "zh": "二十四到二十六"
-          },
-          {
-            "fr": "27 vingt-sept ／ 28 vingt-huit ／ 29 vingt-neuf",
-            "zh": "二十七到二十九"
-          },
-          {
-            "fr": "30 trente ／ 31 trente et un",
-            "zh": "三十、三十一（31 一樣用 et）"
+            "fr": "Ça prend une demi-heure.",
+            "zh": "要花半小時。"
           }
         ]
       },
       {
-        "heading": "⑫ 一週七天 — 沒有冠詞 vs 有冠詞，意思完全不同",
-        "note": "法文的星期一律小寫。前面「不加 le」＝這一次；「加 le」＝每一次的習慣。這是本課最容易被考的文法點。",
-        "items": [
-          {
-            "fr": "lundi ／ mardi ／ mercredi",
-            "zh": "星期一／二／三（mercredi 有兩個 r）"
-          },
-          {
-            "fr": "jeudi ／ vendredi",
-            "zh": "星期四／五"
-          },
-          {
-            "fr": "samedi ／ dimanche",
-            "zh": "星期六／日"
-          },
-          {
-            "fr": "le week-end",
-            "zh": "週末"
-          },
-          {
-            "fr": "Lundi, je suis à Berlin.",
-            "zh": "（這個）星期一我在柏林。← 沒有 le，指這一次"
-          },
-          {
-            "fr": "Le lundi, je suis à Lyon.",
-            "zh": "每個星期一我都在里昂。← 加了 le，指習慣，等於 tous les lundis"
-          },
-          {
-            "fr": "Je travaille du lundi au vendredi.",
-            "zh": "我週一到週五上班。← du... au... 表示範圍"
-          },
-          {
-            "fr": "On est lundi.",
-            "zh": "今天星期一。（問星期幾時的回答）"
-          }
-        ]
-      },
-      {
-        "heading": "⑬ 十二個月份",
-        "note": "月份也一律小寫。放在句子裡表示「在幾月」時，前面加 en。",
-        "items": [
-          {
-            "fr": "janvier ／ février ／ mars",
-            "zh": "一月／二月／三月"
-          },
-          {
-            "fr": "avril ／ mai ／ juin",
-            "zh": "四月／五月／六月"
-          },
-          {
-            "fr": "juillet ／ août ／ septembre",
-            "zh": "七月／八月／九月（août 唸 /ut/，t 要發音）"
-          },
-          {
-            "fr": "octobre ／ novembre ／ décembre",
-            "zh": "十月／十一月／十二月"
-          },
-          {
-            "fr": "en janvier",
-            "zh": "在一月"
-          },
-          {
-            "fr": "en août",
-            "zh": "在八月"
-          },
-          {
-            "fr": "au mois de mai",
-            "zh": "在五月（比較正式的說法）"
-          }
-        ]
-      },
-      {
-        "heading": "⑭ 日期公式：le ＋ 日 ＋ 月（順序跟中文相反！）",
-        "note": "中文說「8 月 17 日」是先月後日，法文剛好相反：先講幾號、再講幾月。公式只有一條：le + 數字 + 月份。除了 1 號以外，全部用一般數字，不用「第幾」。",
-        "items": [
-          {
-            "fr": "8 月 17 日 → le 17 août",
-            "zh": "先寫 17，再寫 août。唸作 le dix-sept août"
-          },
-          {
-            "fr": "1 月 1 日 → le 1er janvier",
-            "zh": "唯一的例外：1 號要用序數 premier（寫成 1er）"
-          },
-          {
-            "fr": "7 月 14 日 → le 14 juillet",
-            "zh": "法國國慶日"
-          },
-          {
-            "fr": "12 月 25 日 → le 25 décembre",
-            "zh": "聖誕節"
-          },
-          {
-            "fr": "✗ le 17 de août",
-            "zh": "錯：中間不加 de，法文不像西班牙文"
-          },
-          {
-            "fr": "✗ le dix-septième août",
-            "zh": "錯：除了 1 號，日期都用一般數字（dix-sept），不用序數"
-          },
-          {
-            "fr": "✗ août 17 ／ ✗ le 17 Août",
-            "zh": "錯：順序不能顛倒，月份也不能大寫"
-          }
-        ]
-      },
-      {
-        "heading": "⑮ 問日期、答日期：三種問法配三種答法",
-        "note": "問「星期幾」和問「幾號」是兩個不同的問句，別搞混。回答時 On est... 是口語最常用的說法，Nous sommes... 比較正式。",
-        "items": [
-          {
-            "fr": "On est quel jour ?",
-            "zh": "今天星期幾？→ On est lundi."
-          },
-          {
-            "fr": "On est le combien ?",
-            "zh": "今天幾號？→ On est le 17."
-          },
-          {
-            "fr": "Quelle est la date d'aujourd'hui ?",
-            "zh": "今天的日期是？→ On est le 17 août."
-          },
-          {
-            "fr": "On est le mercredi 17 août 2026.",
-            "zh": "今天是 2026 年 8 月 17 日星期三。← 完整順序：星期 + 日 + 月 + 年"
-          },
-          {
-            "fr": "Nous sommes le 17 août.",
-            "zh": "今天是八月十七日。（正式說法，用 être 動詞）"
-          },
-          {
-            "fr": "Aujourd'hui, c'est mercredi.",
-            "zh": "今天是星期三。（用 c'est 也可以）"
-          },
-          {
-            "fr": "2026 → deux mille vingt-six",
-            "zh": "年份唸法：兩千 + 二十六"
-          },
-          {
-            "fr": "Je suis né en 1995.",
-            "zh": "我 1995 年出生。← 年份前面加 en"
-          }
-        ]
-      },
-      {
-        "heading": "⑯ 介係詞總表：什麼時候用 à / le / en / au（背這張就夠）",
-        "note": "講時間日期最容易錯的就是介係詞。哪一種時間單位配哪一個字，整理成一張表最清楚。",
-        "items": [
-          {
-            "fr": "à + 時刻",
-            "zh": "à huit heures 在八點 ／ à midi 在中午"
-          },
-          {
-            "fr": "le + 日期",
-            "zh": "le 17 août 八月十七日"
-          },
-          {
-            "fr": "星期不加介係詞",
-            "zh": "lundi 這個星期一 ／ le lundi 每個星期一"
-          },
-          {
-            "fr": "en + 月份",
-            "zh": "en août 在八月"
-          },
-          {
-            "fr": "en + 年份",
-            "zh": "en 2026 在 2026 年"
-          },
-          {
-            "fr": "au printemps，但 en été / en automne / en hiver",
-            "zh": "季節：只有春天用 au，其他三個母音開頭的用 en"
-          },
-          {
-            "fr": "le + 時段",
-            "zh": "le matin 早上 ／ l'après-midi 下午 ／ le soir 晚上"
-          },
-          {
-            "fr": "de... à...",
-            "zh": "de 9 heures à 17 heures 從九點到五點 ／ du lundi au vendredi 從週一到週五"
-          }
-        ]
-      },
-      {
-        "heading": "⑰ 四季 — LES SAISONS",
-        "note": "四季都是陽性名詞。只有 printemps 是子音開頭，所以用 au；其他三個母音開頭，用 en。",
-        "items": [
-          {
-            "fr": "le printemps — au printemps",
-            "zh": "春天 — 在春天"
-          },
-          {
-            "fr": "l'été — en été",
-            "zh": "夏天 — 在夏天"
-          },
-          {
-            "fr": "l'automne — en automne",
-            "zh": "秋天 — 在秋天"
-          },
-          {
-            "fr": "l'hiver — en hiver",
-            "zh": "冬天 — 在冬天"
-          },
-          {
-            "fr": "une saison ／ les quatre saisons",
-            "zh": "一個季節／四季"
-          },
-          {
-            "fr": "Quelle est ta saison préférée ?",
-            "zh": "你最喜歡哪個季節？"
-          }
-        ]
-      },
-      {
-        "heading": "⑱ 計時的物品 — LES OBJETS",
+        "heading": "⑦ 計時的物品 — LES OBJETS",
         "note": "四種「鐘錶」用途不同，各有各的字：戴手上、放床頭、掛牆上、立在廣場。",
         "items": [
           {
@@ -3517,115 +3434,580 @@
         ]
       },
       {
-        "heading": "練習詳解 ① — Quelle heure est-il ? Trouvez plusieurs possibilités.",
-        "note": "同一個鐘面有兩種答案：日常說法＋官方說法。下午的官方說法要把小時加 12。",
+        "heading": "練習詳解 — Associez les phrases de même sens.",
+        "note": "課堂第三題：把意思相同的兩句配對。答案 1-d、2-f、3-e、4-b、5-c、6-a，考的就是「日常說法 ↔ 官方說法」和「時長換算」。",
         "items": [
           {
-            "fr": "a. dix heures moins le quart — 9 h 45 / 21 h 45",
-            "zh": "9:45。官方說法：neuf heures quarante-cinq／vingt et une heures quarante-cinq。"
+            "fr": "Il est parti à 6 h 30 du soir. = Il est parti à 18 h 30.",
+            "zh": "1 → d。晚上 6:30 = 18:30（6 + 12）。"
           },
           {
-            "fr": "b. onze heures et quart — 11 h 15 / 23 h 15",
-            "zh": "11:15。官方說法：onze heures quinze／vingt-trois heures quinze。"
+            "fr": "Elle a pris huit jours de vacances. = Elle a pris une semaine.",
+            "zh": "2 → f。法文的 huit jours 就是「一星期」。"
           },
           {
-            "fr": "c. quatre heures — 16 h 00 seize heures",
-            "zh": "4:00。下午的話官方說 seize heures。"
+            "fr": "J'ai un rendez-vous à midi. = J'ai rendez-vous à 12 h 00.",
+            "zh": "3 → e。midi = 12 h 00。"
           },
           {
-            "fr": "d. une heure et demie — 13 h 30 treize heures trente",
-            "zh": "1:30。注意 demie 要加 e（heure 陰性）。"
+            "fr": "Il est resté trois quarts d'heure à la banque. = Il est resté 45 minutes.",
+            "zh": "4 → b。trois quarts d'heure = 3 × 15 = 45 分鐘。"
           },
           {
-            "fr": "e. midi ou minuit — douze heures / zéro heure",
-            "zh": "12:00。兩根針都指 12：白天是 midi（douze heures），半夜是 minuit（zéro heure）。"
+            "fr": "Il est quatre heures moins le quart. = Il est 15 h 45.",
+            "zh": "5 → c。差一刻四點 = 3:45，下午就是 15 h 45。"
           },
           {
-            "fr": "f. sept heures — 19 h 00 dix-neuf heures",
-            "zh": "7:00。晚上的話官方說 dix-neuf heures。"
-          }
-        ]
-      },
-      {
-        "heading": "練習詳解 ② — Vrai ou faux ?（Raphaël 的行事曆）",
-        "note": "行事曆：週一 9h 西文課／週二 15h 牙醫／週四 15h 西文課＋20h 與 Alain 和 Martine 晚餐／週五 整天圖書館／週六 整天 Émilie／週日 10h 網球＋16h 電影。",
-        "items": [
-          {
-            "fr": "1. Raphaël a un rendez-vous mardi après-midi. → VRAI",
-            "zh": "✓ 對。週二 15h 看牙醫，看醫生也算 rendez-vous（預約）。"
-          },
-          {
-            "fr": "2. Deux après-midi par semaine, Raphaël a un cours d'espagnol. → FAUX",
-            "zh": "✗ 錯。西文課一週兩次沒錯，但週一那堂是「早上 9h」，只有週四那堂在下午。"
-          },
-          {
-            "fr": "3. Le week-end, il voit Émilie. → VRAI",
-            "zh": "✓ 對。週六一整天都是 Émilie。"
-          },
-          {
-            "fr": "4. Il fait du sport dimanche matin. → VRAI",
-            "zh": "✓ 對。週日 10h 和 Nicolas 打網球。"
-          },
-          {
-            "fr": "5. Il va au cinéma dimanche après-midi. → VRAI",
-            "zh": "✓ 對。週日 16h 看電影，16h 屬於下午。"
-          },
-          {
-            "fr": "6. Mercredi, il passe toute la journée à la bibliothèque. → FAUX",
-            "zh": "✗ 錯。整天待圖書館的是「星期五」，星期三是空的。"
-          },
-          {
-            "fr": "7. Il n'a pas de rendez-vous jeudi matin. → VRAI",
-            "zh": "✓ 對。週四只有下午的課和晚上的晚餐，早上沒安排。"
-          },
-          {
-            "fr": "8. Il voit Alain et Martine un soir du week-end. → FAUX",
-            "zh": "✗ 錯。晚餐是「星期四」晚上，是平日不是週末。"
-          }
-        ]
-      },
-      {
-        "heading": "練習詳解 ③ — Associez les phrases de même sens.",
-        "note": "答案：1-d、2-f、3-e、4-b、5-c、6-a。重點是把日常說法換算成官方說法。",
-        "items": [
-          {
-            "fr": "1. Il est parti à 6 h 30 du soir. → d. Il est parti à 18 h 30.",
-            "zh": "晚上 6:30 = 18:30（6 + 12）。"
-          },
-          {
-            "fr": "2. Elle a pris huit jours de vacances. → f. Elle a pris une semaine.",
-            "zh": "法文的 huit jours 就是「一星期」，不是八天。"
-          },
-          {
-            "fr": "3. J'ai un rendez-vous à midi. → e. J'ai rendez-vous à 12 h 00.",
-            "zh": "midi = 12 h 00。"
-          },
-          {
-            "fr": "4. Il est resté trois quarts d'heure à la banque. → b. Il est resté 45 minutes.",
-            "zh": "trois quarts d'heure = 3 × 15 = 45 分鐘。"
-          },
-          {
-            "fr": "5. Il est quatre heures moins le quart. → c. Il est 15 h 45.",
-            "zh": "差一刻四點 = 3:45，下午就是 15 h 45。"
-          },
-          {
-            "fr": "6. Il est minuit. → a. Il est zéro heure.",
-            "zh": "minuit = 0 h 00。"
+            "fr": "Il est minuit. = Il est zéro heure.",
+            "zh": "6 → a。minuit = 0 h 00。"
           }
         ]
       }
     ],
     "points": [
-      "所有時間句都用 Il est 開頭；il 是假主詞，沒有意思。",
-      "★ 最重要的一條：分針在 1～30 分用「加」（huit heures dix）；超過 30 分改用「減」，而且小時要跳到下一個（8:50 = neuf heures moins dix）。差幾分用 60 減。",
-      "15 分 = et quart（不加 le）；45 分 = moins le quart（一定要加 le）；30 分 = et demie。",
-      "1 點是 une heure（heure 陰性）；白天 12 點是 midi，半夜 12 點是 minuit。midi et demi 不加 e，但 huit heures et demie 要加 e。",
-      "24 小時官方制只有一條規則：照數字唸，下午的小時 + 12（15 h 45 = quinze heures quarante-cinq）。21 點是 vingt et une heures。",
-      "★ 日期公式 le + 日 + 月，順序跟中文相反：「8 月 17 日」→ le 17 août。只有 1 號用序數 le premier。",
-      "lundi（沒有冠詞）= 這個星期一，只有一次；le lundi = 每個星期一的習慣。",
-      "介係詞：à 八點 ／ le 十七號 ／ en 八月 ／ en 2026 ／ au printemps 但 en été ／ le matin。",
-      "時間點和時間長度分開記：à huit heures et quart（八點十五分）vs un quart d'heure（十五分鐘）。",
-      "星期和月份在法文一律小寫。"
+      "一天的順序：le matin → midi → l'après-midi → le soir → la nuit，前面用定冠詞。",
+      "短字（jour / matin / soir / an）是時間單位；長字（journée / matinée / soirée / année）強調過程，所以是 Bonne journée ! 而不是 Bon jour !",
+      "★ 時間點 vs 時間長度要分開記：à huit heures et quart（八點十五分）vs un quart d'heure（十五分鐘，有 d'）。",
+      "une demi-heure：demi 在名詞前不變化、有連字號；une heure et demie：demi 在後面就要加 e。",
+      "huit jours = 一星期，quinze jours = 兩星期（法國人的習慣算法）。",
+      "萬用句型 passer + 時間 + à + 原形動詞：J'ai passé la journée à lire.",
+      "起床睡覺是反身動詞：je me lève / je me couche。"
+    ]
+  },
+  {
+    "id": "le-temps-date",
+    "date": "2026-08-17",
+    "title": "LE TEMPS ③ LES JOURS / LA DATE — 星期與日期",
+    "summary": "日期就是「數字 + 月份」，所以先把 1–31 練熟；再學七天、十二個月，以及最重要的日期公式 le + 日 + 月（順序跟中文相反）。附課堂行事曆判斷題詳解。",
+    "sections": [
+      {
+        "heading": "① 說日期前，先會數字 1–31",
+        "note": "日期就是「數字 + 月份」，數字要先熟。注意 21 和 31 中間有 et，其他都用連字號。",
+        "items": [
+          {
+            "fr": "un, deux, trois, quatre, cinq",
+            "zh": "1、2、3、4、5"
+          },
+          {
+            "fr": "six, sept, huit, neuf, dix",
+            "zh": "6、7、8、9、10"
+          },
+          {
+            "fr": "onze, douze, treize, quatorze, quinze",
+            "zh": "11、12、13、14、15"
+          },
+          {
+            "fr": "seize, dix-sept, dix-huit, dix-neuf, vingt",
+            "zh": "16、17、18、19、20 ← 16 是獨立的字 seize，17 之後才是 dix- 開頭"
+          },
+          {
+            "fr": "vingt et un, vingt-deux, vingt-trois",
+            "zh": "21、22、23 ← 21 用 et，而且不加連字號"
+          },
+          {
+            "fr": "vingt-quatre, vingt-cinq, vingt-six",
+            "zh": "24、25、26"
+          },
+          {
+            "fr": "vingt-sept, vingt-huit, vingt-neuf",
+            "zh": "27、28、29"
+          },
+          {
+            "fr": "trente, trente et un",
+            "zh": "30、31 ← 31 一樣用 et"
+          }
+        ]
+      },
+      {
+        "heading": "② 一週七天 — LES JOURS",
+        "note": "法文的星期一律小寫，句子中間也不大寫。一週從星期一開始（une semaine = 7 jours）。",
+        "items": [
+          {
+            "fr": "lundi, mardi, mercredi",
+            "zh": "星期一、二、三 ← mercredi 有兩個 r"
+          },
+          {
+            "fr": "jeudi, vendredi",
+            "zh": "星期四、五"
+          },
+          {
+            "fr": "samedi, dimanche",
+            "zh": "星期六、日"
+          },
+          {
+            "fr": "le week-end",
+            "zh": "週末"
+          },
+          {
+            "fr": "On est lundi.",
+            "zh": "今天星期一。（問星期幾時的回答）"
+          },
+          {
+            "fr": "Je travaille du lundi au vendredi.",
+            "zh": "我週一到週五上班。← du... au... 表示範圍"
+          }
+        ]
+      },
+      {
+        "heading": "③ lundi 還是 le lundi？差一個冠詞，意思完全不同",
+        "note": "前面「不加 le」＝這一次；「加 le」＝每一次的習慣。這是最容易被考的文法點。",
+        "items": [
+          {
+            "fr": "Lundi, je suis à Berlin.",
+            "zh": "（這個）星期一我在柏林。← 沒有 le，只指這一次"
+          },
+          {
+            "fr": "Le lundi, je suis à Lyon.",
+            "zh": "每個星期一我都在里昂。← 加了 le，指習慣，等於 tous les lundis"
+          },
+          {
+            "fr": "Le lundi et le jeudi, je suis à Lyon.",
+            "zh": "每週一和週四我都在里昂。"
+          },
+          {
+            "fr": "Tous les dimanches, je joue au tennis.",
+            "zh": "每個星期天我都打網球。（tous les + 複數 = le + 單數）"
+          },
+          {
+            "fr": "Qu'est-ce que tu fais samedi ?",
+            "zh": "你這個星期六要做什麼？（問這一次）"
+          }
+        ]
+      },
+      {
+        "heading": "④ 十二個月份 — LES MOIS",
+        "note": "月份也一律小寫。表示「在幾月」時，前面加 en。",
+        "items": [
+          {
+            "fr": "janvier, février, mars",
+            "zh": "一月、二月、三月"
+          },
+          {
+            "fr": "avril, mai, juin",
+            "zh": "四月、五月、六月"
+          },
+          {
+            "fr": "juillet, août, septembre",
+            "zh": "七月、八月、九月 ← août 唸 /ut/，t 要發音"
+          },
+          {
+            "fr": "octobre, novembre, décembre",
+            "zh": "十月、十一月、十二月"
+          },
+          {
+            "fr": "en janvier",
+            "zh": "在一月"
+          },
+          {
+            "fr": "en août",
+            "zh": "在八月"
+          },
+          {
+            "fr": "au mois de mai",
+            "zh": "在五月（比較正式的說法）"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 日期公式：le ＋ 日 ＋ 月（順序跟中文相反！）",
+        "note": "中文「8 月 17 日」是先月後日，法文剛好相反：先講幾號、再講幾月。公式只有一條：le + 數字 + 月份。除了 1 號以外全部用一般數字，不用「第幾」。",
+        "items": [
+          {
+            "fr": "le 17 août",
+            "zh": "8 月 17 日。先寫 17 再寫 août，唸作 le dix-sept août"
+          },
+          {
+            "fr": "le 1er janvier",
+            "zh": "1 月 1 日。唯一的例外：1 號要用序數 premier（寫成 1er）"
+          },
+          {
+            "fr": "le 14 juillet",
+            "zh": "7 月 14 日，法國國慶日"
+          },
+          {
+            "fr": "le 25 décembre",
+            "zh": "12 月 25 日，聖誕節"
+          },
+          {
+            "fr": "le 2 mai",
+            "zh": "5 月 2 日（2 號之後就恢復用一般數字 deux）"
+          },
+          {
+            "fr": "三個常見錯誤，不要這樣寫",
+            "zh": "✗ le 17 de août（中間不加 de）｜✗ le dix-septième août（除了 1 號都用一般數字）｜✗ août 17、le 17 Août（順序不能顛倒，月份不大寫）"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ 問日期、答日期：三種問法配三種答法",
+        "note": "問「星期幾」和問「幾號」是兩個不同的問句，別搞混。回答用 On est... 最口語，Nous sommes... 比較正式。",
+        "items": [
+          {
+            "fr": "On est quel jour ?",
+            "zh": "今天星期幾？→ On est lundi."
+          },
+          {
+            "fr": "On est le combien ?",
+            "zh": "今天幾號？→ On est le 17."
+          },
+          {
+            "fr": "Quelle est la date d'aujourd'hui ?",
+            "zh": "今天的日期是？→ On est le 17 août."
+          },
+          {
+            "fr": "Nous sommes le 17 août.",
+            "zh": "今天是八月十七日。（正式說法）"
+          },
+          {
+            "fr": "Aujourd'hui, c'est mercredi.",
+            "zh": "今天是星期三。（用 c'est 也可以）"
+          },
+          {
+            "fr": "C'est quand, ton anniversaire ?",
+            "zh": "你生日什麼時候？→ C'est le 20 août."
+          },
+          {
+            "fr": "Je suis né en 1995.",
+            "zh": "我 1995 年出生。← 年份前面加 en"
+          },
+          {
+            "fr": "deux mille vingt-six",
+            "zh": "2026 的唸法：兩千 + 二十六"
+          }
+        ]
+      },
+      {
+        "heading": "練習詳解 — Vrai ou faux ?（Raphaël 的行事曆）",
+        "note": "課堂第二題。行事曆內容：週一 9h 西文課／週二 15h 牙醫／週四 15h 西文課＋20h 與 Alain 和 Martine 晚餐／週五 整天圖書館／週六 整天 Émilie／週日 10h 網球＋16h 電影。",
+        "items": [
+          {
+            "fr": "Raphaël a un rendez-vous mardi après-midi.",
+            "zh": "1. ✓ VRAI — 週二 15h 看牙醫，看醫生也算 rendez-vous（預約）。"
+          },
+          {
+            "fr": "Deux après-midi par semaine, Raphaël a un cours d'espagnol.",
+            "zh": "2. ✗ FAUX — 西文課一週兩次沒錯，但週一那堂是「早上 9h」，只有週四那堂在下午。"
+          },
+          {
+            "fr": "Le week-end, il voit Émilie.",
+            "zh": "3. ✓ VRAI — 週六一整天都是 Émilie。"
+          },
+          {
+            "fr": "Il fait du sport dimanche matin.",
+            "zh": "4. ✓ VRAI — 週日 10h 和 Nicolas 打網球。"
+          },
+          {
+            "fr": "Il va au cinéma dimanche après-midi.",
+            "zh": "5. ✓ VRAI — 週日 16h 看電影，16h 屬於下午。"
+          },
+          {
+            "fr": "Mercredi, il passe toute la journée à la bibliothèque.",
+            "zh": "6. ✗ FAUX — 整天待圖書館的是「星期五」，星期三是空的。"
+          },
+          {
+            "fr": "Il n'a pas de rendez-vous jeudi matin.",
+            "zh": "7. ✓ VRAI — 週四只有下午的課和晚上的晚餐，早上沒安排。"
+          },
+          {
+            "fr": "Il voit Alain et Martine un soir du week-end.",
+            "zh": "8. ✗ FAUX — 晚餐是「星期四」晚上，是平日不是週末。"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★ 日期公式：le + 日 + 月，順序跟中文相反。「8 月 17 日」→ le 17 août。",
+      "只有 1 號用序數 le premier（1er），其他日期都用一般數字。",
+      "中間不加 de（✗ le 17 de août），月份和星期一律小寫。",
+      "lundi（沒有冠詞）= 這個星期一，只有一次；le lundi = 每個星期一的習慣 = tous les lundis。",
+      "問星期幾：On est quel jour ?；問幾號：On est le combien ?",
+      "月份前面用 en（en août），年份前面也用 en（en 1995）。",
+      "21 和 31 中間有 et（vingt et un / trente et un），其他數字用連字號。"
+    ]
+  },
+  {
+    "id": "le-temps-complet",
+    "date": "2026-08-17",
+    "title": "LE TEMPS ④ 完整說法 — 把日期和時間串起來",
+    "summary": "學會了幾點、星期、日期之後，最後一步是把它們組成一句完整的話。以「現在是 2026 年 9 月 1 日星期二 19:20」為例，一步一步拆解，再附介係詞總表和常見錯誤整理。",
+    "sections": [
+      {
+        "heading": "① 先懂一個關鍵：日期和時間「主詞不一樣」",
+        "note": "這是很多人卡住的地方。法文講日期用 on est / nous sommes（主詞是「我們」），講時間用 il est（假主詞）。主詞不同，所以不能擠成一句，要用 et 連起來。",
+        "items": [
+          {
+            "fr": "On est mardi.",
+            "zh": "今天星期二。← 日期用 on est（口語）"
+          },
+          {
+            "fr": "Nous sommes mardi.",
+            "zh": "今天星期二。← 日期用 nous sommes（正式），意思一樣"
+          },
+          {
+            "fr": "C'est mardi.",
+            "zh": "今天星期二。← 也可以用 c'est"
+          },
+          {
+            "fr": "Il est dix-neuf heures.",
+            "zh": "現在 19 點。← 時間一定用 il est"
+          },
+          {
+            "fr": "On est mardi et il est dix-neuf heures.",
+            "zh": "★ 兩個主詞不一樣（on vs il），所以用 et 連接成兩個子句。"
+          },
+          {
+            "fr": "Nous sommes le 1er septembre.",
+            "zh": "✗ Il est mardi. 是錯的 —— 日期不能用 il est，要用 on est／nous sommes／c'est。"
+          }
+        ]
+      },
+      {
+        "heading": "② 一步一步組出完整句：「2026 年 9 月 1 日星期二 19:20」",
+        "note": "把要說的東西拆成零件，一個一個換成法文，最後照順序組起來。法文的日期順序是「由小到大」：星期 → 幾號 → 月 → 年，跟中文完全相反。",
+        "items": [
+          {
+            "fr": "mardi",
+            "zh": "第 1 步｜星期二 → mardi（小寫，不加冠詞）"
+          },
+          {
+            "fr": "le 1er",
+            "zh": "第 2 步｜1 日 → le 1er，唸作 le premier（只有 1 號用序數）"
+          },
+          {
+            "fr": "septembre",
+            "zh": "第 3 步｜9 月 → septembre（小寫）"
+          },
+          {
+            "fr": "deux mille vingt-six",
+            "zh": "第 4 步｜2026 → deux mille vingt-six"
+          },
+          {
+            "fr": "le mardi 1er septembre 2026",
+            "zh": "第 5 步｜照「星期 → 日 → 月 → 年」串起來，最前面加 le"
+          },
+          {
+            "fr": "On est le mardi 1er septembre 2026.",
+            "zh": "第 6 步｜日期配 être：加上 On est"
+          },
+          {
+            "fr": "Il est dix-neuf heures vingt.",
+            "zh": "第 7 步｜時間另外一句：19:20 用官方說法"
+          },
+          {
+            "fr": "On est le mardi 1er septembre 2026 et il est dix-neuf heures vingt.",
+            "zh": "★ 完整答案：現在是 2026 年 9 月 1 日星期二 19:20。"
+          },
+          {
+            "fr": "On est mardi 1er septembre et il est sept heures vingt du soir.",
+            "zh": "★ 口語版本：省略年份，時間改用 12 小時制加 du soir。"
+          }
+        ]
+      },
+      {
+        "heading": "③ 完整句的組裝規則整理",
+        "note": "把上面那句拆開看，就是四條規則。之後任何日期時間都能照這個模子套。",
+        "items": [
+          {
+            "fr": "le mardi 1er septembre 2026",
+            "zh": "公式 le ＋ 星期 ＋ 日 ＋ 月 ＋ 年，順序由小到大，跟中文相反。中文「2026 年 9 月 1 日星期二」就是這樣排。"
+          },
+          {
+            "fr": "星期可以省略",
+            "zh": "只想講日期時：On est le 1er septembre 2026."
+          },
+          {
+            "fr": "年份也可以省略",
+            "zh": "同一年裡講日期通常不說年：On est le 1er septembre."
+          },
+          {
+            "fr": "Il est dix-neuf heures vingt.",
+            "zh": "時間永遠獨立一句，用 Il est ＋ 時間。"
+          },
+          {
+            "fr": "正式場合用官方時間",
+            "zh": "dix-neuf heures vingt（19:20），寫成 19 h 20。"
+          },
+          {
+            "fr": "聊天用日常時間",
+            "zh": "sept heures vingt du soir（晚上 7 點 20）。"
+          }
+        ]
+      },
+      {
+        "heading": "④ 多練幾個完整句",
+        "note": "把每一句都唸出來，注意日期的順序和時間的兩種說法。",
+        "items": [
+          {
+            "fr": "On est le lundi 17 août 2026 et il est huit heures quarante-cinq.",
+            "zh": "2026 年 8 月 17 日星期一，8:45。日常說法時間可換成 neuf heures moins le quart。"
+          },
+          {
+            "fr": "On est le jeudi 1er janvier 2026 et il est midi.",
+            "zh": "2026 年 1 月 1 日星期四，中午 12 點。（1 號用 1er）"
+          },
+          {
+            "fr": "On est le vendredi 25 décembre 2026 et il est vingt et une heures trente.",
+            "zh": "2026 年 12 月 25 日星期五，21:30。日常說法：neuf heures et demie du soir。"
+          },
+          {
+            "fr": "On est le dimanche 14 juillet et il est minuit.",
+            "zh": "7 月 14 日星期日，半夜 12 點。"
+          },
+          {
+            "fr": "Nous sommes le mercredi 2 septembre 2026 et il est quatorze heures quinze.",
+            "zh": "2026 年 9 月 2 日星期三，14:15。日常說法：deux heures et quart de l'après-midi。"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 今天、明天、昨天怎麼接上去",
+        "note": "在句首加上時間副詞就好，動詞跟著改時態。這三句是日常最常用的。",
+        "items": [
+          {
+            "fr": "Aujourd'hui, on est mardi 1er septembre.",
+            "zh": "今天是 9 月 1 日星期二。"
+          },
+          {
+            "fr": "Demain, on sera mercredi 2 septembre.",
+            "zh": "明天是 9 月 2 日星期三。（sera 是 être 的未來式）"
+          },
+          {
+            "fr": "Hier, on était lundi 31 août.",
+            "zh": "昨天是 8 月 31 日星期一。（était 是 être 的過去式）"
+          },
+          {
+            "fr": "après-demain",
+            "zh": "後天"
+          },
+          {
+            "fr": "avant-hier",
+            "zh": "前天"
+          },
+          {
+            "fr": "la semaine prochaine",
+            "zh": "下星期（le mois prochain 下個月）"
+          },
+          {
+            "fr": "la semaine dernière",
+            "zh": "上星期（le mois dernier 上個月）"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ 介係詞總表：什麼時候用 à / le / en / au",
+        "note": "講時間日期最容易錯的就是介係詞。哪一種時間單位配哪一個字，整理成一張表最清楚，背這張就夠。",
+        "items": [
+          {
+            "fr": "à huit heures",
+            "zh": "à + 時刻：在八點（à midi 在中午、à minuit 在半夜）"
+          },
+          {
+            "fr": "le 17 août",
+            "zh": "le + 日期：八月十七日"
+          },
+          {
+            "fr": "lundi / le lundi",
+            "zh": "星期不加介係詞：lundi 這個星期一／le lundi 每個星期一"
+          },
+          {
+            "fr": "en août",
+            "zh": "en + 月份：在八月"
+          },
+          {
+            "fr": "en 2026",
+            "zh": "en + 年份：在 2026 年"
+          },
+          {
+            "fr": "au printemps, en été, en automne, en hiver",
+            "zh": "季節：只有春天用 au，其他三個母音開頭的用 en"
+          },
+          {
+            "fr": "le matin, l'après-midi, le soir",
+            "zh": "le + 時段：早上、下午、晚上"
+          },
+          {
+            "fr": "de neuf heures à dix-sept heures",
+            "zh": "de... à...：從九點到五點（du lundi au vendredi 從週一到週五）"
+          }
+        ]
+      },
+      {
+        "heading": "⑦ 四季 — LES SAISONS",
+        "note": "四季都是陽性名詞。只有 printemps 是子音開頭所以用 au，其他三個母音開頭用 en。",
+        "items": [
+          {
+            "fr": "le printemps — au printemps",
+            "zh": "春天 — 在春天"
+          },
+          {
+            "fr": "l'été — en été",
+            "zh": "夏天 — 在夏天"
+          },
+          {
+            "fr": "l'automne — en automne",
+            "zh": "秋天 — 在秋天"
+          },
+          {
+            "fr": "l'hiver — en hiver",
+            "zh": "冬天 — 在冬天"
+          },
+          {
+            "fr": "une saison, les quatre saisons",
+            "zh": "一個季節、四季"
+          },
+          {
+            "fr": "Quelle est ta saison préférée ?",
+            "zh": "你最喜歡哪個季節？"
+          }
+        ]
+      },
+      {
+        "heading": "⑧ 常見錯誤總整理",
+        "note": "把整個時間日期單元最常錯的地方收在這裡。每一條的法文都是「正確版本」，中文欄位標出錯誤寫法。",
+        "items": [
+          {
+            "fr": "On est le 17 août.",
+            "zh": "✓ 正確｜✗ On est le 17 de août（不加 de）｜✗ On est août 17（順序不能顛倒）"
+          },
+          {
+            "fr": "le 1er janvier",
+            "zh": "✓ 只有 1 號用序數｜✗ le dix-septième août（其他日期用一般數字）"
+          },
+          {
+            "fr": "On est mardi.",
+            "zh": "✓ 日期用 on est / nous sommes / c'est｜✗ Il est mardi."
+          },
+          {
+            "fr": "Il est une heure.",
+            "zh": "✓ heure 陰性用 une｜✗ Il est un heure."
+          },
+          {
+            "fr": "Il est midi et demi.",
+            "zh": "✓ midi 陽性，demi 不加 e｜✗ midi et demie"
+          },
+          {
+            "fr": "Il est neuf heures moins le quart.",
+            "zh": "✓ moins 後面一定有 le｜✗ moins quart"
+          },
+          {
+            "fr": "en 2026",
+            "zh": "✓ 年份用 en｜✗ à 2026"
+          },
+          {
+            "fr": "un quart d'heure",
+            "zh": "✓ 講「多久」時有 d'｜✗ 跟 à huit heures et quart（幾點）搞混"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★ 日期用 on est / nous sommes / c'est，時間用 il est。主詞不同，所以要用 et 連成兩句。",
+      "★ 完整公式：On est + le + 星期 + 日 + 月 + 年 + et il est + 時間。",
+      "日期順序由小到大（星期→日→月→年），跟中文完全相反。",
+      "範例：現在是 2026 年 9 月 1 日星期二 19:20 → On est le mardi 1er septembre 2026 et il est dix-neuf heures vingt.",
+      "口語可以省略年份、星期，時間也可改用 12 小時制 + du soir。",
+      "介係詞：à 幾點／le 幾號／en 幾月・幾年／au printemps 但 en été／le matin。",
+      "✗ Il est mardi. 是最常見的錯誤 —— 日期不能用 il est。"
     ]
   },
   {
@@ -3643,24 +4025,24 @@
             "zh": "天氣如何？（萬用問句）"
           },
           {
-            "fr": "Il fait + 形容詞",
-            "zh": "Il fait beau. 天氣好。（最常用）"
+            "fr": "Il fait beau.",
+            "zh": "【Il fait + 形容詞】天氣很好。最常用的天氣句型。"
           },
           {
-            "fr": "Il + 無人稱動詞",
-            "zh": "Il pleut. 在下雨。／Il neige. 在下雪。"
+            "fr": "Il pleut. / Il neige.",
+            "zh": "【Il + 無人稱動詞】在下雨／在下雪。"
           },
           {
-            "fr": "Le ciel est + 形容詞",
-            "zh": "Le ciel est nuageux. 天空多雲。"
+            "fr": "Le ciel est nuageux.",
+            "zh": "【Le ciel est + 形容詞】天空多雲。"
           },
           {
-            "fr": "C'est + 形容詞",
-            "zh": "C'est nuageux. 多雲的。（口語）"
+            "fr": "C'est nuageux.",
+            "zh": "【C'est + 形容詞】多雲的。（口語）"
           },
           {
-            "fr": "Il y a + 名詞",
-            "zh": "Il y a des nuages. 有雲。／Il y a du vent. 有風。"
+            "fr": "Il y a des nuages.",
+            "zh": "【Il y a + 名詞】有雲。（Il y a du vent 有風）"
           }
         ]
       },
@@ -3925,20 +4307,20 @@
         "note": "答案：1-c、2-b、3-d、4-a。從名詞推形容詞，就是加字尾 -eux / -é。",
         "items": [
           {
-            "fr": "1. Le soleil → c. Ensoleillé",
-            "zh": "太陽 → 晴朗的"
+            "fr": "le soleil — ensoleillé",
+            "zh": "1-c｜太陽 → 晴朗的"
           },
           {
-            "fr": "2. La pluie → b. Pluvieux",
-            "zh": "雨 → 多雨的"
+            "fr": "la pluie — pluvieux",
+            "zh": "2-b｜雨 → 多雨的"
           },
           {
-            "fr": "3. Les nuages → d. Nuageux",
-            "zh": "雲 → 多雲的"
+            "fr": "les nuages — nuageux",
+            "zh": "3-d｜雲 → 多雲的"
           },
           {
-            "fr": "4. L'orage → a. Orageux",
-            "zh": "雷雨 → 有雷雨的"
+            "fr": "l'orage — orageux",
+            "zh": "4-a｜雷雨 → 有雷雨的"
           }
         ]
       },
@@ -3947,24 +4329,24 @@
         "note": "五張圖，每張圖可以放進好幾個說法（形容詞句＋動詞句＋il y a 句）。",
         "items": [
           {
-            "fr": "a. Le temps est couvert. / Il y a des nuages. / Le ciel est nuageux.",
-            "zh": "陰天：整片天被雲蓋住。"
+            "fr": "Le temps est couvert. / Il y a des nuages. / Le ciel est nuageux.",
+            "zh": "a｜陰天：整片天被雲蓋住。"
           },
           {
-            "fr": "b. Le temps est pluvieux. / Il pleut. / La pluie tombe.",
-            "zh": "雨天。"
+            "fr": "Le temps est pluvieux. / Il pleut. / La pluie tombe.",
+            "zh": "b｜雨天。"
           },
           {
-            "fr": "c. Il neige. / La neige tombe.",
-            "zh": "下雪。"
+            "fr": "Il neige. / La neige tombe.",
+            "zh": "c｜下雪。"
           },
           {
-            "fr": "d. Le temps est ensoleillé. / Le soleil brille.",
-            "zh": "晴天。"
+            "fr": "Le temps est ensoleillé. / Le soleil brille.",
+            "zh": "d｜晴天。"
           },
           {
-            "fr": "e. Le vent souffle. / Il y a du vent.",
-            "zh": "起風。"
+            "fr": "Le vent souffle. / Il y a du vent.",
+            "zh": "e｜起風。"
           }
         ]
       },
@@ -3973,28 +4355,28 @@
         "note": "考的就是「名詞 ＋ 專屬動詞」的固定搭配。",
         "items": [
           {
-            "fr": "1. La neige tombe.",
-            "zh": "雪「落下」，不能用 se couvre。"
+            "fr": "La neige tombe.",
+            "zh": "1｜雪「落下」，不能用 se couvre。"
           },
           {
-            "fr": "2. Le soleil brille.",
-            "zh": "太陽「照耀」，不會 tomber。"
+            "fr": "Le soleil brille.",
+            "zh": "2｜太陽「照耀」，不會 tomber。"
           },
           {
-            "fr": "3. L'orage éclate.",
-            "zh": "雷雨「爆發、打響」。"
+            "fr": "L'orage éclate.",
+            "zh": "3｜雷雨「爆發、打響」。"
           },
           {
-            "fr": "4. Le vent souffle.",
-            "zh": "風「吹」，不會 briller。"
+            "fr": "Le vent souffle.",
+            "zh": "4｜風「吹」，不會 briller。"
           },
           {
-            "fr": "5. Le ciel se couvre.",
-            "zh": "天空「轉陰」被雲蓋住（se lever 是升起，不合）。"
+            "fr": "Le ciel se couvre.",
+            "zh": "5｜天空「轉陰」被雲蓋住（se lever 是升起，不合）。"
           },
           {
-            "fr": "6. La pluie tombe.",
-            "zh": "雨「落下」。"
+            "fr": "La pluie tombe.",
+            "zh": "6｜雨「落下」。"
           }
         ]
       },
