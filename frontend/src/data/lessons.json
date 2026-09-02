@@ -4444,5 +4444,758 @@
       "季節介係詞：au printemps，但 en été / en automne / en hiver。",
       "形容詞要跟名詞做性數配合：les journées sont ensoleillées（陰複）、les sommets sont enneigés（陽複）。"
     ]
+  },
+  {
+    "id": "aller-lieu",
+    "date": "2026-09-02",
+    "title": "ALLER ① 變位與「去某個地方」— à / au / chez",
+    "summary": "ALLER（去）是法文最重要的不規則動詞之一。這堂課先背熟六個人稱變位，再學核心規則：地點用 à（à + le 要縮寫成 au），人或職業用 chez，最後是 On y va ? / Allons-y ! 的用法。附課堂練習詳解。",
+    "sections": [
+      {
+        "heading": "① ALLER 的六個人稱變位（要整組背起來）",
+        "note": "aller 是 -er 結尾，但它是第三組「不規則動詞」，變位完全不照 -er 的規則走。只有 nous 和 vous 看得出 all- 的原形，其他四個都變成 v- 開頭。",
+        "items": [
+          {
+            "fr": "Je vais",
+            "zh": "我去"
+          },
+          {
+            "fr": "Tu vas",
+            "zh": "你去"
+          },
+          {
+            "fr": "Il va / Elle va / On va",
+            "zh": "他去／她去／我們去（口語）"
+          },
+          {
+            "fr": "Nous allons",
+            "zh": "我們去 ← 只有這裡看得到原形 aller 的 all-"
+          },
+          {
+            "fr": "Vous allez",
+            "zh": "您去／你們去 ← 這裡也看得到 all-"
+          },
+          {
+            "fr": "Ils vont / Elles vont",
+            "zh": "他們去／她們去"
+          },
+          {
+            "fr": "aller",
+            "zh": "原形：去（英文的 go）"
+          }
+        ]
+      },
+      {
+        "heading": "② 記變位的訣竅：四個 v ＋ 兩個 all",
+        "note": "六個變位分成兩組看就很好記：je / tu / il / ils 這四個是 v- 開頭（vais, vas, va, vont），只有 nous / vous 保留原形的 all-（allons, allez）。",
+        "items": [
+          {
+            "fr": "vais, vas, va, vont",
+            "zh": "四個 v 開頭：je vais／tu vas／il va／ils vont"
+          },
+          {
+            "fr": "allons, allez",
+            "zh": "兩個 all 開頭：nous allons／vous allez"
+          },
+          {
+            "fr": "Comment ça va ?",
+            "zh": "你好嗎？← 最常聽到的 aller，這裡是「身體狀況如何」的意思"
+          },
+          {
+            "fr": "Ça va bien, merci.",
+            "zh": "我很好，謝謝。"
+          },
+          {
+            "fr": "Je vais bien.",
+            "zh": "我很好。← aller 也用來講身體狀況，不是只有「去」"
+          }
+        ]
+      },
+      {
+        "heading": "③ 核心規則：aller ＋ à ＋ 地點（à 遇到冠詞要縮寫）",
+        "note": "★ 最重要的一節。去「地方」用介係詞 à，但 à 碰到定冠詞 le 和 les 時一定要縮寫，不能寫成 à le。碰到 la 和 l' 則保持原樣。",
+        "items": [
+          {
+            "fr": "à + le = au",
+            "zh": "縮寫！← 這是必考點，不能寫成 à le"
+          },
+          {
+            "fr": "à + les = aux",
+            "zh": "縮寫！← 也不能寫成 à les"
+          },
+          {
+            "fr": "à + la = à la",
+            "zh": "不縮寫，原樣保留"
+          },
+          {
+            "fr": "à + l' = à l'",
+            "zh": "不縮寫（母音或啞音 h 開頭的字）"
+          },
+          {
+            "fr": "Je vais au restaurant.",
+            "zh": "我去餐廳。（le restaurant → au）"
+          },
+          {
+            "fr": "Je vais à la pharmacie.",
+            "zh": "我去藥局。（la pharmacie → à la）"
+          },
+          {
+            "fr": "Je vais à l'hôtel.",
+            "zh": "我去飯店。（l'hôtel 母音開頭 → à l'）"
+          },
+          {
+            "fr": "Je vais aux toilettes.",
+            "zh": "我去廁所。（les toilettes 複數 → aux）"
+          },
+          {
+            "fr": "Je vais à Berlin.",
+            "zh": "我去柏林。← 城市名前面不加冠詞，直接 à + 城市"
+          }
+        ]
+      },
+      {
+        "heading": "④ 陽性地點 — 用 au",
+        "note": "這些地方是陽性名詞（le），所以 à + le 縮寫成 au。",
+        "items": [
+          {
+            "fr": "au restaurant",
+            "zh": "去餐廳"
+          },
+          {
+            "fr": "au magasin",
+            "zh": "去商店"
+          },
+          {
+            "fr": "au parc",
+            "zh": "去公園"
+          },
+          {
+            "fr": "au bureau",
+            "zh": "去辦公室"
+          },
+          {
+            "fr": "au garage",
+            "zh": "去修車廠"
+          },
+          {
+            "fr": "au cabinet médical",
+            "zh": "去診所"
+          },
+          {
+            "fr": "au cabinet dentaire",
+            "zh": "去牙醫診所"
+          },
+          {
+            "fr": "au supermarché",
+            "zh": "去超市"
+          },
+          {
+            "fr": "au marché",
+            "zh": "去市場"
+          },
+          {
+            "fr": "au cinéma",
+            "zh": "去電影院"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 陰性地點 — 用 à la（商店大多是 -erie 結尾）",
+        "note": "好消息：法文的商店幾乎都是 -erie 結尾，而 -erie 結尾一律是陰性，所以全部用 à la。每一家店都是從「職人的名字」變來的。",
+        "items": [
+          {
+            "fr": "à la boulangerie",
+            "zh": "去麵包店（← le boulanger 麵包師傅）"
+          },
+          {
+            "fr": "à la boucherie",
+            "zh": "去肉舖（← le boucher 肉販）"
+          },
+          {
+            "fr": "à la charcuterie",
+            "zh": "去豬肉熟食店（← le charcutier）"
+          },
+          {
+            "fr": "à la poissonnerie",
+            "zh": "去魚舖（← le poissonnier 魚販）"
+          },
+          {
+            "fr": "à la fromagerie",
+            "zh": "去起司店（← le fromager 起司商）"
+          },
+          {
+            "fr": "à la chocolaterie",
+            "zh": "去巧克力店（← le chocolatier）"
+          },
+          {
+            "fr": "à la cordonnerie",
+            "zh": "去修鞋店（← le cordonnier 鞋匠）"
+          },
+          {
+            "fr": "à la pharmacie",
+            "zh": "去藥局（← le pharmacien 藥師）"
+          },
+          {
+            "fr": "à la piscine",
+            "zh": "去游泳池"
+          },
+          {
+            "fr": "à la cantine",
+            "zh": "去員工／學生餐廳"
+          },
+          {
+            "fr": "à la mer",
+            "zh": "去海邊"
+          },
+          {
+            "fr": "à la montagne",
+            "zh": "去山上"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ 母音開頭的地點 — 用 à l'",
+        "note": "名詞是母音或啞音 h 開頭時，冠詞縮成 l'，所以寫 à l'。這時候看不出陰陽性，要另外記。",
+        "items": [
+          {
+            "fr": "à l'hôtel",
+            "zh": "去飯店（l'hôtel 是陽性，h 不發音）"
+          },
+          {
+            "fr": "à l'école",
+            "zh": "去學校（l'école 是陰性）"
+          },
+          {
+            "fr": "à l'aéroport",
+            "zh": "去機場（陽性）"
+          },
+          {
+            "fr": "à l'hôpital",
+            "zh": "去醫院（陽性）"
+          },
+          {
+            "fr": "à l'université",
+            "zh": "去大學（陰性）"
+          },
+          {
+            "fr": "à l'épicerie",
+            "zh": "去雜貨店（陰性）"
+          }
+        ]
+      },
+      {
+        "heading": "⑦ 遇到「人」就不用 à，要用 chez",
+        "note": "★ 第二個核心規則：目的地是「人」或「職業」時，一律用 chez，不用 à。chez 的意思是「到某人的家／某人的店裡」。",
+        "items": [
+          {
+            "fr": "Je vais chez des amis.",
+            "zh": "我去朋友家。"
+          },
+          {
+            "fr": "Je vais chez mes parents.",
+            "zh": "我去我爸媽家。"
+          },
+          {
+            "fr": "Je vais chez Paul.",
+            "zh": "我去 Paul 家。（人名直接接）"
+          },
+          {
+            "fr": "Je vais chez le médecin.",
+            "zh": "我去看醫生。（職業也用 chez）"
+          },
+          {
+            "fr": "Je vais chez le dentiste.",
+            "zh": "我去看牙醫。"
+          },
+          {
+            "fr": "Je vais chez le coiffeur.",
+            "zh": "我去理髮。"
+          },
+          {
+            "fr": "Je vais à la boucherie.",
+            "zh": "我去肉舖。← 說「店」用 à la"
+          },
+          {
+            "fr": "Je vais chez le boucher.",
+            "zh": "我去肉販那裡。← 說「人」用 chez，意思一樣"
+          }
+        ]
+      },
+      {
+        "heading": "⑧ chez ＋ 重讀人稱代名詞（chez moi、chez lui…）",
+        "note": "chez 後面接代名詞時，要用「重讀形」（moi / toi / lui / elle…），不能用 je / tu / il。這組代名詞在介係詞後面都是這樣用。",
+        "items": [
+          {
+            "fr": "chez moi",
+            "zh": "在我家／回我家"
+          },
+          {
+            "fr": "chez toi",
+            "zh": "在你家"
+          },
+          {
+            "fr": "chez lui",
+            "zh": "在他家"
+          },
+          {
+            "fr": "chez elle",
+            "zh": "在她家"
+          },
+          {
+            "fr": "chez nous",
+            "zh": "在我們家"
+          },
+          {
+            "fr": "chez vous",
+            "zh": "在您家／你們家"
+          },
+          {
+            "fr": "chez eux",
+            "zh": "在他們家"
+          },
+          {
+            "fr": "chez elles",
+            "zh": "在她們家"
+          },
+          {
+            "fr": "Je suis fatiguée, je vais rentrer chez moi.",
+            "zh": "我累了，我要回家了。（rentrer 回去）"
+          },
+          {
+            "fr": "On va dîner chez Paul ce soir, tu viens ?",
+            "zh": "今晚我們要去 Paul 家吃晚餐，你來嗎？"
+          },
+          {
+            "fr": "On va dîner chez eux ce soir, tu viens ?",
+            "zh": "今晚我們要去他們家吃晚餐，你來嗎？"
+          }
+        ]
+      },
+      {
+        "heading": "⑨ 出發吧！On y va ? / Allons-y ! / Allez-y !",
+        "note": "y 是代替「地點」的小代名詞（等於「那裡」）。這幾句是法國人天天在講的固定用語，整句背起來就好。",
+        "items": [
+          {
+            "fr": "On y va ?",
+            "zh": "我們走吧？／要出發了嗎？（最口語）"
+          },
+          {
+            "fr": "Allons-y !",
+            "zh": "我們走吧！（nous 的命令式）"
+          },
+          {
+            "fr": "Allez-y !",
+            "zh": "您請！／你們去吧！（vous 的命令式，也有「請便、開始吧」的意思）"
+          },
+          {
+            "fr": "Vas-y !",
+            "zh": "你去吧！／加油！（tu 的命令式，命令式要多加一個 s）"
+          },
+          {
+            "fr": "J'y vais.",
+            "zh": "我要走了。（y 放在動詞前面）"
+          },
+          {
+            "fr": "Tu y vas comment ?",
+            "zh": "你要怎麼去（那裡）？"
+          }
+        ]
+      },
+      {
+        "heading": "練習詳解 — Répondez aux questions, selon le modèle.",
+        "note": "課堂第一題：照範例回答。重點在選對介係詞 —— 地方用 à/au/à la，人用 chez，遇到不定冠詞（une école）則用 dans。",
+        "items": [
+          {
+            "fr": "Je vais à la mer.",
+            "zh": "1. 範例。問句 Vous allez à la mer ou à la montagne en été ?（夏天你去海邊還是山上？）"
+          },
+          {
+            "fr": "Je vais au restaurant. / Je vais à la cantine.",
+            "zh": "2. le restaurant 陽性 → au；la cantine 陰性 → à la。"
+          },
+          {
+            "fr": "Je vais au bureau le matin.",
+            "zh": "3. le bureau 陽性 → au。（另一個選項是 à la piscine）"
+          },
+          {
+            "fr": "Je vais chez l'épicier. / Je vais au supermarché.",
+            "zh": "4. ★ l'épicier 是「人」（雜貨商）→ chez；le supermarché 是「地方」→ au。"
+          },
+          {
+            "fr": "Je vais dans une école de langue. / Je vais chez un professeur.",
+            "zh": "5. ★ une école 是不定冠詞，這時用 dans（在…裡面）而不是 à；un professeur 是人 → chez。"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★ ALLER 變位：je vais／tu vas／il va／nous allons／vous allez／ils vont。四個 v 開頭 ＋ 兩個 all 開頭。",
+      "★ 地點用 à，但 à + le = au、à + les = aux 一定要縮寫；à la 和 à l' 不縮寫。",
+      "商店幾乎都是 -erie 結尾、都是陰性，所以是 à la boulangerie / à la boucherie / à la poissonnerie…",
+      "★ 目的地是「人」或「職業」時用 chez，不用 à：chez le médecin、chez mes parents、chez Paul。",
+      "同一件事兩種說法：à la boucherie（去肉舖）= chez le boucher（去肉販那裡）。",
+      "chez 後面的代名詞要用重讀形：chez moi / toi / lui / elle / nous / vous / eux / elles。",
+      "城市名前面不加冠詞，直接 à Berlin、à Paris。",
+      "遇到不定冠詞的地方要用 dans：dans une école de langue。",
+      "aller 也用來講身體狀況：Comment ça va ? / Je vais bien."
+    ]
+  },
+  {
+    "id": "aller-pays-transport",
+    "date": "2026-09-02",
+    "title": "ALLER ② 去國家、交通方式與近未來 aller + 原形",
+    "summary": "去國家要用 en / au / aux，看國家的陰陽性和單複數決定；交通方式分成 en（坐進去的）和 à（跨上去或靠自己的）。最後補上 aller + 原形動詞的近未來用法。附課堂兩題練習詳解。",
+    "sections": [
+      {
+        "heading": "① 去國家：en / au / aux 三選一",
+        "note": "★ 核心規則。國家名有陰陽性，介係詞跟著變。判斷方法：字尾是 -e 的國家多半是陰性（用 en），其他是陽性（用 au），複數國家用 aux。",
+        "items": [
+          {
+            "fr": "en France",
+            "zh": "陰性國家用 en。字尾是 -e 的國家多半是陰性：en Chine、en Allemagne。"
+          },
+          {
+            "fr": "au Japon",
+            "zh": "陽性國家用 au。多半是子音結尾：au Canada、au Portugal。"
+          },
+          {
+            "fr": "aux États-Unis",
+            "zh": "國名本身是複數就用 aux：aux Pays-Bas、aux Philippines。"
+          },
+          {
+            "fr": "en Angola",
+            "zh": "母音開頭的國家不管陰陽性，一律用 en：en Iran、en Israël。"
+          },
+          {
+            "fr": "à Paris",
+            "zh": "城市不分陰陽性，一律用 à：à Berlin、à Taipei。"
+          }
+        ]
+      },
+      {
+        "heading": "② 常見國家一覽",
+        "note": "把國名和介係詞一起背，不要分開記。注意 le Mexique 是少數「-e 結尾卻是陽性」的例外。",
+        "items": [
+          {
+            "fr": "Je vais en France.",
+            "zh": "我去法國。（la France 陰性）"
+          },
+          {
+            "fr": "Je vais en Chine.",
+            "zh": "我去中國。（la Chine 陰性）"
+          },
+          {
+            "fr": "Je vais en Allemagne.",
+            "zh": "我去德國。（l'Allemagne 陰性）"
+          },
+          {
+            "fr": "Je vais en Belgique.",
+            "zh": "我去比利時。（la Belgique 陰性）"
+          },
+          {
+            "fr": "Je vais en Espagne.",
+            "zh": "我去西班牙。（l'Espagne 陰性）"
+          },
+          {
+            "fr": "Je vais en Italie.",
+            "zh": "我去義大利。（l'Italie 陰性）"
+          },
+          {
+            "fr": "Je vais en Corse.",
+            "zh": "我去科西嘉島。（la Corse 陰性）"
+          },
+          {
+            "fr": "Je vais en Hollande.",
+            "zh": "我去荷蘭。（la Hollande 陰性）"
+          },
+          {
+            "fr": "Je vais au Japon.",
+            "zh": "我去日本。（le Japon 陽性）"
+          },
+          {
+            "fr": "Je vais au Canada.",
+            "zh": "我去加拿大。（le Canada 陽性）"
+          },
+          {
+            "fr": "Je vais au Vietnam.",
+            "zh": "我去越南。（le Vietnam 陽性）"
+          },
+          {
+            "fr": "Je vais au Portugal.",
+            "zh": "我去葡萄牙。（le Portugal 陽性）"
+          },
+          {
+            "fr": "Je vais au Mexique.",
+            "zh": "我去墨西哥。★ le Mexique 是 -e 結尾但陽性，是例外"
+          },
+          {
+            "fr": "Je vais aux États-Unis.",
+            "zh": "我去美國。（les États-Unis 複數）"
+          },
+          {
+            "fr": "Je vais en Angola.",
+            "zh": "我去安哥拉。（l'Angola 陽性，但母音開頭 → 用 en）"
+          },
+          {
+            "fr": "Je vais à Taïwan.",
+            "zh": "我去台灣。（Taïwan 當地名用 à）"
+          }
+        ]
+      },
+      {
+        "heading": "③ 交通方式：en 還是 à？看你「坐進去」還是「跨上去」",
+        "note": "★ 第二個核心規則，非常好記：可以「坐進車廂裡」的用 en；「跨在上面」或「靠自己身體」的用 à。",
+        "items": [
+          {
+            "fr": "en voiture",
+            "zh": "整個人坐進車廂／機艙裡面的，用 en：en train、en avion。"
+          },
+          {
+            "fr": "à pied",
+            "zh": "跨在上面或用自己身體的，用 à：à vélo、à cheval。"
+          },
+          {
+            "fr": "Je vais à Berlin en voiture.",
+            "zh": "我開車去柏林。"
+          },
+          {
+            "fr": "Je vais à Berlin en avion.",
+            "zh": "我搭飛機去柏林。"
+          },
+          {
+            "fr": "Je vais à Berlin en train.",
+            "zh": "我搭火車去柏林。"
+          },
+          {
+            "fr": "Je vais au bureau à pied.",
+            "zh": "我走路去辦公室。"
+          },
+          {
+            "fr": "Je vais au bureau à vélo.",
+            "zh": "我騎腳踏車去辦公室。"
+          },
+          {
+            "fr": "Tu y vas comment ?",
+            "zh": "你要怎麼去？（問交通方式）"
+          }
+        ]
+      },
+      {
+        "heading": "④ 交通工具單字 — en 這一組",
+        "note": "這些都是「坐進去」的，前面用 en，而且不加冠詞（不說 en la voiture）。",
+        "items": [
+          {
+            "fr": "en voiture",
+            "zh": "開車、搭車"
+          },
+          {
+            "fr": "en train",
+            "zh": "搭火車"
+          },
+          {
+            "fr": "en avion",
+            "zh": "搭飛機"
+          },
+          {
+            "fr": "en bus",
+            "zh": "搭公車（市區）"
+          },
+          {
+            "fr": "en car",
+            "zh": "搭客運、遊覽車 ← 注意 un car 是長途巴士，不是英文的 car"
+          },
+          {
+            "fr": "en métro",
+            "zh": "搭地鐵"
+          },
+          {
+            "fr": "en bateau",
+            "zh": "搭船"
+          },
+          {
+            "fr": "en ferry",
+            "zh": "搭渡輪"
+          },
+          {
+            "fr": "en taxi",
+            "zh": "搭計程車"
+          },
+          {
+            "fr": "en camion",
+            "zh": "搭卡車"
+          },
+          {
+            "fr": "en tuk-tuk",
+            "zh": "搭嘟嘟車"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 交通工具單字 — à 這一組",
+        "note": "這些是「跨上去」或「靠自己」的，前面用 à。moto 兩種都可以說（à moto / en moto）。",
+        "items": [
+          {
+            "fr": "à pied",
+            "zh": "走路（le pied 腳）"
+          },
+          {
+            "fr": "à vélo",
+            "zh": "騎腳踏車"
+          },
+          {
+            "fr": "à bicyclette",
+            "zh": "騎腳踏車（比較正式的說法）"
+          },
+          {
+            "fr": "à moto",
+            "zh": "騎機車（也有人說 en moto）"
+          },
+          {
+            "fr": "à cheval",
+            "zh": "騎馬"
+          },
+          {
+            "fr": "à trottinette",
+            "zh": "騎滑板車"
+          },
+          {
+            "fr": "à rollers",
+            "zh": "溜直排輪"
+          },
+          {
+            "fr": "à ski",
+            "zh": "滑雪"
+          },
+          {
+            "fr": "en canoë",
+            "zh": "划獨木舟（要坐進去，所以是 en）"
+          },
+          {
+            "fr": "en stop",
+            "zh": "搭便車（faire du stop 攔便車）"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ aller ＋ 原形動詞 ＝ 近未來（futur proche）",
+        "note": "aller 除了「去」，還有一個超好用的功能：後面接原形動詞，表示「即將要做某事」。這是初學者表達未來最簡單的方法，不用學未來式。",
+        "items": [
+          {
+            "fr": "Je vais manger.",
+            "zh": "我要去吃飯了。（aller 變位 + 原形動詞）"
+          },
+          {
+            "fr": "Je vais rentrer chez moi.",
+            "zh": "我要回家了。"
+          },
+          {
+            "fr": "On va dîner chez Paul ce soir.",
+            "zh": "今晚我們要去 Paul 家吃晚餐。"
+          },
+          {
+            "fr": "Tu vas partir quand ?",
+            "zh": "你什麼時候要出發？"
+          },
+          {
+            "fr": "Il va pleuvoir.",
+            "zh": "要下雨了。"
+          },
+          {
+            "fr": "Nous allons voyager en France.",
+            "zh": "我們要去法國旅行。"
+          },
+          {
+            "fr": "Vous allez prendre le train ?",
+            "zh": "您要搭火車嗎？"
+          },
+          {
+            "fr": "Ils vont arriver à huit heures.",
+            "zh": "他們八點會到。"
+          },
+          {
+            "fr": "tu viens ?",
+            "zh": "你來嗎？← venir 的 tu 變位是 viens（講義上寫的 tu viennes 是筆誤）"
+          }
+        ]
+      },
+      {
+        "heading": "練習詳解 — Complétez les phrases, selon le modèle.",
+        "note": "課堂第三題：每句要填三格 ——「aller 的變位」＋「國家的介係詞」＋「交通方式的介係詞」。全部的交通工具都是坐進去的，所以第三格一律填 en。",
+        "items": [
+          {
+            "fr": "Ils vont en Corse en ferry.",
+            "zh": "1. 範例。la Corse 陰性 → en；ferry 坐進去 → en。"
+          },
+          {
+            "fr": "Vous allez en Belgique en train ?",
+            "zh": "2. vous → allez；la Belgique 陰性 → en；train → en。"
+          },
+          {
+            "fr": "Il va en Angola en bateau.",
+            "zh": "3. il → va；l'Angola 母音開頭 → en；bateau → en。"
+          },
+          {
+            "fr": "Elles vont au Mexique en avion.",
+            "zh": "4. elles → vont；★ le Mexique 陽性 → au（不是 en）；avion → en。"
+          },
+          {
+            "fr": "Tu vas en Hollande en car ?",
+            "zh": "5. tu → vas；la Hollande 陰性 → en；car 客運 → en。"
+          },
+          {
+            "fr": "Nous allons au Portugal en voiture.",
+            "zh": "6. nous → allons；le Portugal 陽性 → au；voiture → en。"
+          }
+        ]
+      },
+      {
+        "heading": "練習詳解 — Cherchez des moyens de transport.",
+        "note": "課堂第四題：把交通工具接在 On peut voyager... 後面。關鍵是每一個都要選對 en 或 à。",
+        "items": [
+          {
+            "fr": "On peut voyager en camion.",
+            "zh": "可以搭卡車旅行。（坐進去 → en）"
+          },
+          {
+            "fr": "On peut voyager à pied.",
+            "zh": "可以走路旅行。（靠自己 → à）"
+          },
+          {
+            "fr": "On peut voyager à trottinette.",
+            "zh": "可以騎滑板車旅行。（跨上去 → à）"
+          },
+          {
+            "fr": "On peut voyager à cheval.",
+            "zh": "可以騎馬旅行。（跨上去 → à）"
+          },
+          {
+            "fr": "On peut voyager à vélo.",
+            "zh": "可以騎腳踏車旅行。（= à bicyclette）"
+          },
+          {
+            "fr": "On peut voyager en métro, en bus, en train.",
+            "zh": "可以搭地鐵、公車、火車。（都坐進去 → en）"
+          },
+          {
+            "fr": "On peut voyager en stop.",
+            "zh": "可以搭便車旅行。"
+          },
+          {
+            "fr": "On peut voyager à rollers, à ski.",
+            "zh": "可以溜直排輪、滑雪。（靠自己 → à）"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★ 去國家：陰性用 en（en France）／陽性用 au（au Japon）／複數用 aux（aux États-Unis）／母音開頭一律用 en（en Angola）。",
+      "判斷陰陽性的訣竅：-e 結尾多半是陰性。例外要記：le Mexique 是陽性 → au Mexique。",
+      "城市一律用 à：à Paris、à Berlin、à Taïwan。",
+      "★ 交通方式：坐得進去的用 en（en voiture / en train / en avion）；跨上去或靠自己的用 à（à pied / à vélo / à cheval）。",
+      "交通方式後面不加冠詞：說 en voiture，不說 en la voiture。",
+      "un car 是長途客運，un bus 才是市區公車，別跟英文的 car 搞混。",
+      "★ aller + 原形動詞 = 近未來：Je vais manger.（我要去吃飯了）—— 初學者表達未來最簡單的方法。",
+      "venir 的 tu 變位是 tu viens，不是 tu viennes。"
+    ]
   }
 ]
