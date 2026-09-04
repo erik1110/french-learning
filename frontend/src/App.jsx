@@ -26,6 +26,7 @@ import UnitsView from './views/Units'
 import GrammarView from './views/Grammar'
 import VerbsView from './views/Verbs'
 import DialoguesView from './views/Dialogues'
+import GameView from './views/Game'
 import SearchView from './views/Search'
 
 const NAV = [
@@ -40,6 +41,7 @@ const NAV = [
   {
     title: '練習',
     items: [
+      { tab: 'game', path: '/game', icon: '🎮', label: '巴黎生活' },
       { tab: 'review', path: '/review', icon: '🔁', label: '每日複習', badge: 'due' },
       { tab: 'cards', path: '/cards', icon: '📇', label: '單字卡' },
       { tab: 'quiz', path: '/quiz', icon: '✏️', label: '牛刀小試' },
@@ -59,7 +61,7 @@ const NAV = [
 ]
 
 const ALL_NAV = NAV.flatMap((g) => g.items)
-const BOTTOM_NAV = ['home', 'course', 'review', 'cards'].map((t) =>
+const BOTTOM_NAV = ['home', 'course', 'game', 'review'].map((t) =>
   ALL_NAV.find((i) => i.tab === t),
 )
 
@@ -351,6 +353,7 @@ export default function App() {
           {route.tab === 'grammar' && <GrammarView route={route} />}
           {route.tab === 'verbs' && <VerbsView route={route} />}
           {route.tab === 'dialogues' && <DialoguesView route={route} />}
+          {route.tab === 'game' && <GameView route={route} />}
           {route.tab === 'search' && <SearchView cards={cards} reload={reload} route={route} />}
         </main>
       </div>

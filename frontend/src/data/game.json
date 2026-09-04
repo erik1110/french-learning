@@ -1,0 +1,3610 @@
+[
+  {
+    "id": "cafe-bonjour",
+    "icon": "☕",
+    "title": "第 1 天：街角咖啡館",
+    "place": "巴黎 · 瑪黑區",
+    "time": "09:30",
+    "weather": "☀️",
+    "level": "A1",
+    "goal": "用法文打招呼並點一杯咖啡",
+    "topic": "打招呼",
+    "npc": {
+      "name": "Camille",
+      "role": "咖啡館店員",
+      "avatar": "camille"
+    },
+    "intro": "你剛下飛機、拖著行李走進街角的小咖啡館。店員 Camille 抬起頭對你微笑。在法國，進門先說 Bonjour 是基本禮貌，不打招呼會被認為很沒禮貌。",
+    "vocab": [
+      {
+        "fr": "Bonjour",
+        "zh": "你好（白天）"
+      },
+      {
+        "fr": "Bonsoir",
+        "zh": "你好（傍晚以後）"
+      },
+      {
+        "fr": "Ça va ?",
+        "zh": "你好嗎？"
+      },
+      {
+        "fr": "s'il vous plaît",
+        "zh": "請、麻煩您"
+      },
+      {
+        "fr": "un café",
+        "zh": "一杯咖啡（在法國指濃縮咖啡）"
+      },
+      {
+        "fr": "C'est tout.",
+        "zh": "就這些。"
+      },
+      {
+        "fr": "payer par carte",
+        "zh": "刷卡付款"
+      },
+      {
+        "fr": "Bonne journée !",
+        "zh": "祝你有美好的一天！"
+      },
+      {
+        "fr": "Au revoir",
+        "zh": "再見"
+      }
+    ],
+    "steps": [
+      {
+        "npc": {
+          "fr": "Bonjour ! Bienvenue. Ça va ?",
+          "zh": "您好！歡迎。您好嗎？"
+        },
+        "prompt": "店員跟你打招呼了，最自然的回答是？",
+        "options": [
+          {
+            "fr": "Bonjour ! Ça va bien, merci. Et vous ?",
+            "zh": "您好！我很好，謝謝。您呢？",
+            "why": "法國人打招呼一定會「回問」對方。Ça va bien, merci 之後加一句 Et vous ?（您呢），對話才完整。對不認識的人一律用 vous。",
+            "correct": true
+          },
+          {
+            "fr": "Bonne nuit !",
+            "zh": "晚安（睡覺前）",
+            "why": "Bonne nuit 只在睡覺前說。白天打招呼用 Bonjour，傍晚以後用 Bonsoir。",
+            "correct": false
+          },
+          {
+            "fr": "Ça va, et toi ?",
+            "zh": "還好，你呢？",
+            "why": "文法沒錯，但 toi 是「你」，對第一次見面的店員要用 vous（您）。跟朋友才用 toi。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Qu'est-ce que vous prenez ?",
+          "zh": "您要點什麼？"
+        },
+        "prompt": "你想要一杯咖啡，怎麼說最禮貌？",
+        "options": [
+          {
+            "fr": "Un café, s'il vous plaît.",
+            "zh": "請給我一杯咖啡。",
+            "why": "點餐最簡單的萬用公式：東西 + s'il vous plaît。在法國說 un café，送來的是小杯濃縮咖啡；想喝大杯加牛奶的要說 un café crème。",
+            "correct": true
+          },
+          {
+            "fr": "Je veux un café.",
+            "zh": "我要一杯咖啡。",
+            "why": "Je veux（我要）在法文聽起來很強硬、不禮貌。改成 Je voudrais（我想要），或直接說 Un café, s'il vous plaît。",
+            "correct": false
+          },
+          {
+            "fr": "J'ai un café.",
+            "zh": "我有一杯咖啡。",
+            "why": "avoir 是「有」。你現在還沒拿到咖啡，不能用 J'ai。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Un café. Et avec ceci ?",
+          "zh": "一杯咖啡。還要別的嗎？"
+        },
+        "prompt": "你不需要別的了，怎麼結束點餐？",
+        "options": [
+          {
+            "fr": "C'est tout, merci.",
+            "zh": "這樣就好，謝謝。",
+            "why": "C'est tout = 就這些。這是結束點餐的固定說法，短又自然。",
+            "correct": true
+          },
+          {
+            "fr": "Non, merci beaucoup pour tout.",
+            "zh": "不用了，非常感謝您的一切。",
+            "why": "文法對，但太隆重了，像在告別。點餐時說 C'est tout, merci. 就夠了。",
+            "correct": false
+          },
+          {
+            "fr": "Oui, c'est tout.",
+            "zh": "要，就這些。",
+            "why": "自相矛盾：Oui 表示「還要」，後面卻說「就這些」。要嘛回 Non，要嘛直接說 C'est tout。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Ça fait 2 euros 50, s'il vous plaît.",
+          "zh": "總共 2 歐元 50，麻煩您。"
+        },
+        "prompt": "你想刷卡，怎麼問？",
+        "options": [
+          {
+            "fr": "Je peux payer par carte ?",
+            "zh": "我可以刷卡嗎？",
+            "why": "payer par carte = 刷卡；payer en espèces = 付現金。小店有時會有最低消費（un minimum），刷卡前可以先問。",
+            "correct": true
+          },
+          {
+            "fr": "Je peux payer avec carte ?",
+            "zh": "我可以用卡付嗎？",
+            "why": "介係詞用錯了。刷卡是固定說法 par carte，不是 avec carte。",
+            "correct": false
+          },
+          {
+            "fr": "Combien ça coûte ?",
+            "zh": "這多少錢？",
+            "why": "這是在問價錢，但店員剛剛已經說了 2 euros 50。這裡要問的是「付款方式」。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Bien sûr. Voilà. Bonne journée !",
+          "zh": "當然可以。給您。祝您有美好的一天！"
+        },
+        "prompt": "離開前你要怎麼回應？",
+        "options": [
+          {
+            "fr": "Merci, bonne journée à vous aussi !",
+            "zh": "謝謝，也祝您有美好的一天！",
+            "why": "對方祝你 bonne journée，回一句 à vous aussi（您也是）最自然。傍晚以後則改說 bonne soirée。",
+            "correct": true
+          },
+          {
+            "fr": "Merci, bonne nuit !",
+            "zh": "謝謝，晚安！",
+            "why": "早上 09:30 不能說 bonne nuit。白天用 bonne journée，傍晚用 bonne soirée，睡前才用 bonne nuit。",
+            "correct": false
+          },
+          {
+            "fr": "Au revoir, bonjour !",
+            "zh": "再見，你好！",
+            "why": "Bonjour 是見面時說的，道別不能用。離開時說 Au revoir 就好。",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "order": 1,
+    "chapter": "第一章 · 初到巴黎"
+  },
+  {
+    "id": "boulangerie",
+    "icon": "🥖",
+    "title": "第 2 天：麵包店的早晨",
+    "place": "巴黎 · 第 11 區",
+    "time": "08:15",
+    "weather": "⛅",
+    "level": "A1",
+    "goal": "買到可頌和長棍麵包，並聽懂價錢",
+    "topic": "買東西",
+    "npc": {
+      "name": "M. Bernard",
+      "role": "麵包師傅",
+      "avatar": "bernard"
+    },
+    "intro": "巷口的麵包店飄出剛出爐的味道。法國人幾乎每天都去 boulangerie 買新鮮麵包，這是最好的日常法文練習場。",
+    "vocab": [
+      {
+        "fr": "Je voudrais...",
+        "zh": "我想要…（買東西最禮貌的說法）"
+      },
+      {
+        "fr": "un croissant",
+        "zh": "可頌（陽性）"
+      },
+      {
+        "fr": "une baguette",
+        "zh": "長棍麵包（陰性）"
+      },
+      {
+        "fr": "le pain",
+        "zh": "麵包（陽性）"
+      },
+      {
+        "fr": "Ça fait...",
+        "zh": "總共…（店員報價）"
+      },
+      {
+        "fr": "Vous pouvez répéter ?",
+        "zh": "您可以再說一次嗎？"
+      },
+      {
+        "fr": "Pardon ?",
+        "zh": "抱歉？（沒聽清楚時）"
+      },
+      {
+        "fr": "Voilà",
+        "zh": "給您（遞東西時）"
+      },
+      {
+        "fr": "un euro",
+        "zh": "一歐元"
+      }
+    ],
+    "steps": [
+      {
+        "npc": {
+          "fr": "Bonjour ! Vous désirez ?",
+          "zh": "您好！您想要什麼？"
+        },
+        "prompt": "你想買兩個可頌，怎麼說？",
+        "options": [
+          {
+            "fr": "Bonjour, je voudrais deux croissants, s'il vous plaît.",
+            "zh": "您好，我想要兩個可頌，麻煩您。",
+            "why": "je voudrais 是 vouloir 的委婉形，等於英文的 I would like，買東西用它最保險。數量放在名詞前面：deux croissants（複數要加 s）。",
+            "correct": true
+          },
+          {
+            "fr": "Bonjour, je veux deux croissants.",
+            "zh": "您好，我要兩個可頌。",
+            "why": "Je veux 太直接，聽起來像命令。買東西請用 Je voudrais。",
+            "correct": false
+          },
+          {
+            "fr": "Bonjour, j'aime deux croissants.",
+            "zh": "您好，我喜歡兩個可頌。",
+            "why": "aimer 是「喜歡」不是「要買」。J'aime les croissants 意思是「我（一直都）喜歡可頌」。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Deux croissants. Et avec ceci ?",
+          "zh": "兩個可頌。還要別的嗎？"
+        },
+        "prompt": "你還想要一條長棍麵包。",
+        "options": [
+          {
+            "fr": "Une baguette aussi, s'il vous plaît.",
+            "zh": "也要一條長棍，麻煩您。",
+            "why": "aussi = 也。la baguette 是陰性名詞，所以用 une，不能用 un。",
+            "correct": true
+          },
+          {
+            "fr": "Un baguette aussi.",
+            "zh": "也要一條長棍。",
+            "why": "冠詞錯了。baguette 是陰性，要說 une baguette。記法：-ette 結尾幾乎都是陰性。",
+            "correct": false
+          },
+          {
+            "fr": "Une pain aussi.",
+            "zh": "也要一個麵包。",
+            "why": "兩個問題：le pain 是陽性要用 un；而且你要的是長棍，直接說 une baguette 更精準。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Très bien. Ça fait 4 euros 20.",
+          "zh": "好的。總共 4 歐元 20。"
+        },
+        "prompt": "你沒聽清楚價錢，怎麼請他再說一次？",
+        "options": [
+          {
+            "fr": "Pardon, vous pouvez répéter, s'il vous plaît ?",
+            "zh": "抱歉，您可以再說一次嗎？",
+            "why": "★ 出國最實用的一句。另一句同樣好用：Vous pouvez parler plus lentement ?（您可以說慢一點嗎？）",
+            "correct": true
+          },
+          {
+            "fr": "Quoi ?",
+            "zh": "啥？",
+            "why": "Quoi ? 非常不禮貌，就像中文的「啥？」。沒聽清楚要說 Pardon ? 或 Comment ?",
+            "correct": false
+          },
+          {
+            "fr": "Je ne comprends pas français.",
+            "zh": "我不懂法文。",
+            "why": "少了冠詞，正確是 Je ne comprends pas le français。而且你只是沒聽清楚，不是完全聽不懂。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Bien sûr. Ça fait quatre euros vingt.",
+          "zh": "當然。總共四歐元二十。"
+        },
+        "prompt": "你拿出一張 5 歐元紙鈔要付錢。",
+        "options": [
+          {
+            "fr": "Voilà cinq euros.",
+            "zh": "給您五歐元。",
+            "why": "Voilà = 「這裡、給您」，遞東西給別人時說。找零叫 la monnaie。",
+            "correct": true
+          },
+          {
+            "fr": "Voici cinq euros pour vous s'il vous plaît merci.",
+            "zh": "這裡給您五歐元麻煩您謝謝。",
+            "why": "太長了，禮貌用語疊太多反而奇怪。遞錢時說 Voilà 就好。",
+            "correct": false
+          },
+          {
+            "fr": "Je donne cinq euros.",
+            "zh": "我給五歐元。",
+            "why": "文法對但生硬，法國人不會這樣說。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Petit jeu ! « Le » ou « la » ? ... baguette !",
+          "zh": "小遊戲！是 le 還是 la ？…長棍麵包！"
+        },
+        "prompt": "🎲 陰陽性小遊戲：baguette 是陰性還是陽性？",
+        "options": [
+          {
+            "fr": "la baguette",
+            "zh": "陰性",
+            "why": "baguette 是陰性。★ 好用的訣竅：-ette 結尾的字幾乎都是陰性 —— la baguette、la trottinette（滑板車）、la fourchette（叉子）。",
+            "correct": true
+          },
+          {
+            "fr": "le baguette",
+            "zh": "陽性",
+            "why": "錯。-ette 結尾是「陰性」的強烈信號，要用 la baguette / une baguette。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Bravo ! Encore une : « le » ou « la » ? ... pain !",
+          "zh": "答對了！再一題：是 le 還是 la ？…麵包！"
+        },
+        "prompt": "🎲 陰陽性小遊戲：pain 是陰性還是陽性？",
+        "options": [
+          {
+            "fr": "le pain",
+            "zh": "陽性",
+            "why": "le pain 是陽性。麵包店裡整理一下：le pain（陽）、le croissant（陽）、la baguette（陰）、la brioche（陰）。",
+            "correct": true
+          },
+          {
+            "fr": "la pain",
+            "zh": "陰性",
+            "why": "錯。pain 是陽性名詞，要說 le pain / un pain。",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "order": 2,
+    "chapter": "第一章 · 初到巴黎"
+  },
+  {
+    "id": "heure-rue",
+    "icon": "⏰",
+    "title": "第 3 天：在路上問時間",
+    "place": "巴黎 · 共和廣場",
+    "time": "14:35",
+    "weather": "🌤️",
+    "level": "A1",
+    "goal": "問到現在幾點，並聽懂 moins 的說法",
+    "topic": "問幾點",
+    "npc": {
+      "name": "Léa",
+      "role": "路過的巴黎人",
+      "avatar": "lea"
+    },
+    "intro": "你的手機沒電了，而 15 分鐘後有個約。你在共和廣場攔下一位看起來很友善的路人。",
+    "vocab": [
+      {
+        "fr": "Vous avez l'heure ?",
+        "zh": "請問現在幾點？（最禮貌）"
+      },
+      {
+        "fr": "Quelle heure est-il ?",
+        "zh": "現在幾點？"
+      },
+      {
+        "fr": "Il est...",
+        "zh": "現在是…（回答時間）"
+      },
+      {
+        "fr": "et quart",
+        "zh": "又 15 分"
+      },
+      {
+        "fr": "et demie",
+        "zh": "又 30 分"
+      },
+      {
+        "fr": "moins le quart",
+        "zh": "差 15 分"
+      },
+      {
+        "fr": "un rendez-vous",
+        "zh": "約會、預約"
+      },
+      {
+        "fr": "à pied",
+        "zh": "走路"
+      },
+      {
+        "fr": "en face de",
+        "zh": "在…對面"
+      }
+    ],
+    "steps": [
+      {
+        "npc": {
+          "fr": "Oui ? Je peux vous aider ?",
+          "zh": "有事嗎？我能幫您嗎？"
+        },
+        "prompt": "你想問現在幾點，最禮貌的問法是？",
+        "options": [
+          {
+            "fr": "Excusez-moi, vous avez l'heure, s'il vous plaît ?",
+            "zh": "不好意思，請問現在幾點？",
+            "why": "★ 問陌生人時間的標準說法，字面是「您有時間嗎」。也可以用 Quelle heure est-il ?，但這句更自然。",
+            "correct": true
+          },
+          {
+            "fr": "Quel temps fait-il ?",
+            "zh": "天氣如何？",
+            "why": "問錯東西了！le temps 有兩個意思：天氣和時間。問「幾點」一定要用 heure。",
+            "correct": false
+          },
+          {
+            "fr": "Quelle heure tu as ?",
+            "zh": "你幾點？",
+            "why": "兩個問題：對陌生人不能用 tu 要用 vous；而且這個句型不自然，法文不說 avoir une heure。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Il est trois heures moins vingt-cinq.",
+          "zh": "現在差二十五分三點。"
+        },
+        "prompt": "她說的是幾點？（24 小時制怎麼寫）",
+        "options": [
+          {
+            "fr": "Il est 14 h 35.",
+            "zh": "14:35",
+            "why": "★ moins 是「還差」：差 25 分到 3 點 = 2:35，下午就是 14 h 35。分針過了 30 分，法文就改用「下一個整點 − 幾分」。",
+            "correct": true
+          },
+          {
+            "fr": "Il est 15 h 25.",
+            "zh": "15:25",
+            "why": "看到 vingt-cinq 就寫成 25 分，是最常見的錯誤。moins 要「往回減」，從 3 點減 25 分。",
+            "correct": false
+          },
+          {
+            "fr": "Il est 2 h 35.",
+            "zh": "凌晨 2:35",
+            "why": "時間算對了，但現在是下午，24 小時制要寫 14 h 35。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Vous avez rendez-vous ?",
+          "zh": "您有約嗎？"
+        },
+        "prompt": "你的約是三點十五分。",
+        "options": [
+          {
+            "fr": "Oui, à trois heures et quart.",
+            "zh": "有，三點十五分。",
+            "why": "et quart = 又一刻鐘（15 分）。「在幾點」前面要加介係詞 à。",
+            "correct": true
+          },
+          {
+            "fr": "Oui, à trois heures et quarte.",
+            "zh": "有，三點又一刻。",
+            "why": "拼字錯了。是 quart（一刻鐘），沒有 e。",
+            "correct": false
+          },
+          {
+            "fr": "Oui, en trois heures.",
+            "zh": "有，在三小時內。",
+            "why": "介係詞錯了。「在幾點」用 à；en trois heures 意思會變成「花三小時」。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Alors vous avez encore vingt minutes. C'est où ?",
+          "zh": "那您還有二十分鐘。在哪裡呢？"
+        },
+        "prompt": "你的約在車站對面的咖啡館。",
+        "options": [
+          {
+            "fr": "C'est au café en face de la gare.",
+            "zh": "在車站對面的咖啡館。",
+            "why": "en face de = 在…對面。au café 是 à + le café 的縮寫。",
+            "correct": true
+          },
+          {
+            "fr": "C'est à le café en face de la gare.",
+            "zh": "在車站對面的咖啡館。",
+            "why": "★ à + le 一定要縮寫成 au，法文沒有 à le 這種寫法。",
+            "correct": false
+          },
+          {
+            "fr": "C'est dans le café à face la gare.",
+            "zh": "在車站對面裡的咖啡館。",
+            "why": "en face de 是固定片語，不能拆開寫成 à face。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Parfait, c'est à cinq minutes à pied. Bonne journée !",
+          "zh": "太好了，走路五分鐘就到。祝您有美好的一天！"
+        },
+        "prompt": "你要道謝並道別。",
+        "options": [
+          {
+            "fr": "Merci beaucoup, bonne journée !",
+            "zh": "非常感謝，祝您有美好的一天！",
+            "why": "à cinq minutes à pied = 走路五分鐘的距離。注意：距離用 à + 時間，走路也用 à pied。",
+            "correct": true
+          },
+          {
+            "fr": "Merci beaucoup, en pied !",
+            "zh": "非常感謝，用腳！",
+            "why": "走路是 à pied，不是 en pied。只有坐得進去的交通工具才用 en（en métro / en bus）。",
+            "correct": false
+          },
+          {
+            "fr": "Merci, bonne nuit !",
+            "zh": "謝謝，晚安！",
+            "why": "下午兩點多不能說 bonne nuit，那是睡前用的。",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "order": 3,
+    "chapter": "第一章 · 初到巴黎"
+  },
+  {
+    "id": "ecole-date",
+    "icon": "📅",
+    "title": "第 4 天：語言學校報到",
+    "place": "巴黎 · 索邦大學附近",
+    "time": "10:00",
+    "weather": "☁️",
+    "level": "A1",
+    "goal": "說對今天星期幾、幾號，還有自己的生日",
+    "topic": "今天幾號",
+    "npc": {
+      "name": "Mme Roux",
+      "role": "語言學校櫃台",
+      "avatar": "roux"
+    },
+    "intro": "你來到語言學校報名。櫃台的 Roux 女士會問你今天的日期和出生年月日 —— 這是最好的日期練習。",
+    "vocab": [
+      {
+        "fr": "l'inscription",
+        "zh": "報名、註冊"
+      },
+      {
+        "fr": "On est quel jour ?",
+        "zh": "今天星期幾？"
+      },
+      {
+        "fr": "On est le combien ?",
+        "zh": "今天幾號？"
+      },
+      {
+        "fr": "la date de naissance",
+        "zh": "出生日期"
+      },
+      {
+        "fr": "Je suis né(e)...",
+        "zh": "我出生於…"
+      },
+      {
+        "fr": "le premier",
+        "zh": "一號（唯一用序數的日期）"
+      },
+      {
+        "fr": "le cours",
+        "zh": "課程"
+      },
+      {
+        "fr": "À lundi !",
+        "zh": "星期一見！"
+      }
+    ],
+    "steps": [
+      {
+        "npc": {
+          "fr": "Bonjour ! Vous venez pour l'inscription ?",
+          "zh": "您好！您是來報名的嗎？"
+        },
+        "prompt": "你十點有預約。",
+        "options": [
+          {
+            "fr": "Oui, bonjour madame. J'ai rendez-vous à dix heures.",
+            "zh": "是的，您好女士。我十點有預約。",
+            "why": "★ 對女性職員加一句 madame 才禮貌（男性用 monsieur）。avoir rendez-vous = 有預約，時刻前面用 à。",
+            "correct": true
+          },
+          {
+            "fr": "Oui, bonjour. J'ai un rendez-vous en dix heures.",
+            "zh": "是的，您好。我在十小時內有個約。",
+            "why": "時刻要用 à：à dix heures。en dix heures 是「花十小時」。",
+            "correct": false
+          },
+          {
+            "fr": "Oui, salut !",
+            "zh": "是啊，嗨！",
+            "why": "Salut 是朋友之間的「嗨」，正式場合、對長輩或職員都要用 Bonjour。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Très bien. On est quel jour aujourd'hui ?",
+          "zh": "好的。今天星期幾？"
+        },
+        "prompt": "今天是星期五。",
+        "options": [
+          {
+            "fr": "On est vendredi.",
+            "zh": "今天星期五。",
+            "why": "回答星期用 On est + 星期。法文的星期一律小寫，而且這裡前面不加冠詞。",
+            "correct": true
+          },
+          {
+            "fr": "Il est vendredi.",
+            "zh": "現在是星期五。",
+            "why": "★ 最常見的錯誤！日期不能用 il est —— il est 只用在「幾點」。日期要用 on est / nous sommes / c'est。",
+            "correct": false
+          },
+          {
+            "fr": "On est le vendredi.",
+            "zh": "我們在每個星期五。",
+            "why": "加了 le 意思就變成「每個星期五」的習慣。講「今天」不加冠詞。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Et on est le combien ?",
+          "zh": "那今天幾號？"
+        },
+        "prompt": "今天是 9 月 4 日。",
+        "options": [
+          {
+            "fr": "On est le 4 septembre.",
+            "zh": "今天是九月四日。",
+            "why": "★ 日期公式：le + 日 + 月，順序跟中文相反。中文說「9 月 4 日」，法文說 le 4 septembre。",
+            "correct": true
+          },
+          {
+            "fr": "On est le septembre 4.",
+            "zh": "今天是九月四。",
+            "why": "順序顛倒了。法文一定先講幾號、再講幾月。",
+            "correct": false
+          },
+          {
+            "fr": "On est le 4 de septembre.",
+            "zh": "今天是九月的四日。",
+            "why": "中間不加 de，那是西班牙文的習慣。法文就是 le 4 septembre。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Parfait. Et votre date de naissance ?",
+          "zh": "很好。那您的出生日期呢？"
+        },
+        "prompt": "你的生日是 1995 年 1 月 1 日。",
+        "options": [
+          {
+            "fr": "Je suis né le 1er janvier 1995.",
+            "zh": "我出生於 1995 年 1 月 1 日。",
+            "why": "★ 1 號是唯一用序數的日期：le premier（寫成 1er）。年份直接接在月份後面，不用加介係詞。",
+            "correct": true
+          },
+          {
+            "fr": "Je suis né le 1 janvier 1995.",
+            "zh": "我出生於 1995 年 1 月 1 日。",
+            "why": "1 號一定要寫成 1er 並唸 premier。只有 1 號是例外，2 號以後才用一般數字。",
+            "correct": false
+          },
+          {
+            "fr": "Je suis né en le 1er janvier.",
+            "zh": "我出生在一月一日。",
+            "why": "en 只用在月份和年份（en janvier / en 1995）。接完整日期時用 le。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Le cours commence lundi. À lundi !",
+          "zh": "課程星期一開始。星期一見！"
+        },
+        "prompt": "你要回應她的道別。",
+        "options": [
+          {
+            "fr": "Merci, à lundi !",
+            "zh": "謝謝，星期一見！",
+            "why": "★ à + 時間 = 「到時候見」：à lundi（週一見）、à demain（明天見）、à bientôt（回頭見）、à tout à l'heure（等一下見）。",
+            "correct": true
+          },
+          {
+            "fr": "Merci, au lundi !",
+            "zh": "謝謝，到每個星期一！",
+            "why": "星期前面不加冠詞，所以是 à lundi，不是 au lundi。",
+            "correct": false
+          },
+          {
+            "fr": "Merci, à le lundi !",
+            "zh": "謝謝，到那個星期一！",
+            "why": "同樣的錯誤，而且 à + le 一定要縮寫成 au。正確就是簡單的 à lundi。",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "order": 4,
+    "chapter": "第一章 · 初到巴黎"
+  },
+  {
+    "id": "toilettes",
+    "icon": "🚻",
+    "title": "第 5 天：我想去廁所",
+    "place": "巴黎 · 拉丁區咖啡館",
+    "time": "11:20",
+    "weather": "🌧️",
+    "level": "A1",
+    "goal": "問到廁所在哪裡，並聽懂方向和密碼",
+    "topic": "找廁所",
+    "npc": {
+      "name": "Hugo",
+      "role": "咖啡館服務生",
+      "avatar": "hugo"
+    },
+    "intro": "在巴黎，公共廁所不多，通常要進咖啡館借用。這一句學會，出國就不會慌張。",
+    "vocab": [
+      {
+        "fr": "les toilettes",
+        "zh": "廁所（永遠是複數！）"
+      },
+      {
+        "fr": "Où sont les toilettes ?",
+        "zh": "廁所在哪裡？"
+      },
+      {
+        "fr": "à droite",
+        "zh": "在右邊"
+      },
+      {
+        "fr": "à gauche",
+        "zh": "在左邊"
+      },
+      {
+        "fr": "tout droit",
+        "zh": "直走"
+      },
+      {
+        "fr": "au fond",
+        "zh": "在最裡面"
+      },
+      {
+        "fr": "il faut",
+        "zh": "需要、必須"
+      },
+      {
+        "fr": "un code",
+        "zh": "密碼"
+      }
+    ],
+    "steps": [
+      {
+        "npc": {
+          "fr": "Vous avez besoin de quelque chose ?",
+          "zh": "您需要什麼嗎？"
+        },
+        "prompt": "你想問廁所在哪裡。",
+        "options": [
+          {
+            "fr": "Excusez-moi, où sont les toilettes, s'il vous plaît ?",
+            "zh": "不好意思，請問廁所在哪裡？",
+            "why": "★ 出國最實用的一句。les toilettes 在法文永遠是複數，所以動詞要用 sont（複數），不是 est。",
+            "correct": true
+          },
+          {
+            "fr": "Où est la toilette ?",
+            "zh": "梳妝在哪裡？",
+            "why": "法文的廁所一定用複數 les toilettes。單數的 la toilette 意思是「梳洗打扮」，完全不同。",
+            "correct": false
+          },
+          {
+            "fr": "Je veux aller au toilette.",
+            "zh": "我要去廁所。",
+            "why": "兩個錯：要用複數 aux toilettes（à + les）；而且 Je veux 太直接，可以說 Je voudrais aller aux toilettes。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Au fond à droite, après le bar.",
+          "zh": "在最裡面右手邊，過了吧台。"
+        },
+        "prompt": "你沒聽清楚方向，想確認左邊還是右邊。",
+        "options": [
+          {
+            "fr": "Pardon, c'est à droite ou à gauche ?",
+            "zh": "抱歉，是右邊還是左邊？",
+            "why": "★ 方向三兄弟：à droite（右）、à gauche（左）、tout droit（直走）。注意 droite（右，有 e）和 droit（直，沒有 e）只差一個字母。",
+            "correct": true
+          },
+          {
+            "fr": "Pardon, c'est à droit ou à gauche ?",
+            "zh": "抱歉，是直的還是左邊？",
+            "why": "à droit 不存在。右邊是 à droite（有 e），直走才是 tout droit（沒有 e）。",
+            "correct": false
+          },
+          {
+            "fr": "Pardon, où est le fond ?",
+            "zh": "抱歉，最裡面在哪裡？",
+            "why": "文法沒錯但很奇怪。直接確認左右比較實用。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "À droite. Il faut un code : un, neuf, quatre, deux.",
+          "zh": "右邊。要輸入密碼：一、九、四、二。"
+        },
+        "prompt": "你沒記住密碼，要請他重複。",
+        "options": [
+          {
+            "fr": "Un code ? Vous pouvez répéter, s'il vous plaît ?",
+            "zh": "密碼？您可以再說一次嗎？",
+            "why": "il faut = 需要、必須（無人稱句型，後面直接接名詞或原形動詞）。聽數字最容易漏掉，這句一定要會。",
+            "correct": true
+          },
+          {
+            "fr": "Un code ? Je ne comprends pas rien.",
+            "zh": "密碼？我沒有什麼都不懂。",
+            "why": "雙重否定錯誤。要嘛說 Je ne comprends pas（我不懂），要嘛說 Je ne comprends rien（我什麼都不懂），不能兩個一起用。",
+            "correct": false
+          },
+          {
+            "fr": "Un code ? C'est combien ?",
+            "zh": "密碼？多少錢？",
+            "why": "C'est combien 是問價錢。廁所密碼不用錢，這裡要問的是號碼。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Un, neuf, quatre, deux.",
+          "zh": "一、九、四、二。"
+        },
+        "prompt": "密碼是 1942，他是怎麼唸的？",
+        "options": [
+          {
+            "fr": "Merci, je note : un, neuf, quatre, deux.",
+            "zh": "謝謝，我記下來：1-9-4-2。",
+            "why": "★ 門鎖密碼、電話號碼，法國人習慣「一個數字一個數字」唸，不會唸成完整的大數字。",
+            "correct": true
+          },
+          {
+            "fr": "Merci : mille neuf cent quarante-deux.",
+            "zh": "謝謝：一千九百四十二。",
+            "why": "那是把 1942 當成一個數字唸。密碼要一個一個唸才對。",
+            "correct": false
+          },
+          {
+            "fr": "Merci : dix-neuf quarante-deux.",
+            "zh": "謝謝：十九四十二。",
+            "why": "那是「1942 年」的年份唸法。密碼不這樣唸。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Petit jeu ! « Le » ou « la » ? ... toilettes ! Attention, c'est un piège.",
+          "zh": "小遊戲！是 le 還是 la ？…廁所！小心，這是陷阱題。"
+        },
+        "prompt": "🎲 陰陽性小遊戲：toilettes 該用哪個冠詞？",
+        "options": [
+          {
+            "fr": "les toilettes",
+            "zh": "永遠用複數",
+            "why": "★ 陷阱就在這裡：toilettes 沒有單數用法，一律是 les toilettes（陰性複數）。所以「去廁所」是 aller aux toilettes（à + les = aux）。",
+            "correct": true
+          },
+          {
+            "fr": "le toilette",
+            "zh": "陽性單數",
+            "why": "法文沒有這種用法。廁所固定是複數的 les toilettes。",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "order": 5,
+    "chapter": "第一章 · 初到巴黎"
+  },
+  {
+    "id": "metro-ticket",
+    "icon": "🎫",
+    "title": "第 6 天：地鐵站買票",
+    "place": "巴黎 · Châtelet 站",
+    "time": "09:05",
+    "weather": "☁️",
+    "level": "A2",
+    "goal": "買到地鐵票，並問出去羅浮宮要搭哪一線",
+    "topic": "搭車",
+    "npc": {
+      "name": "Karim",
+      "role": "地鐵站務員",
+      "avatar": "karim"
+    },
+    "intro": "Châtelet 是全巴黎最大的轉運站，五條地鐵線在這裡交會。你要買票，順便問路。",
+    "vocab": [
+      {
+        "fr": "un ticket",
+        "zh": "地鐵／公車票"
+      },
+      {
+        "fr": "un carnet",
+        "zh": "十張套票"
+      },
+      {
+        "fr": "une ligne",
+        "zh": "路線（幾號線）"
+      },
+      {
+        "fr": "la direction",
+        "zh": "方向（終點站名）"
+      },
+      {
+        "fr": "descendre",
+        "zh": "下車"
+      },
+      {
+        "fr": "monter",
+        "zh": "上車"
+      },
+      {
+        "fr": "changer",
+        "zh": "轉車"
+      },
+      {
+        "fr": "C'est direct ?",
+        "zh": "是直達嗎？"
+      },
+      {
+        "fr": "prendre le métro",
+        "zh": "搭地鐵"
+      },
+      {
+        "fr": "Pour aller à...",
+        "zh": "要去…的話…？"
+      }
+    ],
+    "steps": [
+      {
+        "npc": {
+          "fr": "Bonjour, je peux vous aider ?",
+          "zh": "您好，需要幫忙嗎？"
+        },
+        "prompt": "你想買一張地鐵票。",
+        "options": [
+          {
+            "fr": "Bonjour, je voudrais un ticket de métro, s'il vous plaît.",
+            "zh": "您好，我想要一張地鐵票。",
+            "why": "★ 單張地鐵票是 un ticket；十張一組的套票叫 un carnet；長期使用的儲值卡是 Navigo。",
+            "correct": true
+          },
+          {
+            "fr": "Bonjour, je voudrais un billet de métro.",
+            "zh": "您好，我想要一張地鐵票券。",
+            "why": "un billet 用在火車、飛機、演唱會、博物館。地鐵和公車的票要用 un ticket。",
+            "correct": false
+          },
+          {
+            "fr": "Bonjour, un métro s'il vous plaît.",
+            "zh": "您好，請給我一台地鐵。",
+            "why": "un métro 是「一班地鐵／地鐵系統」，不是票。要說 un ticket。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Un ticket ou un carnet de dix ?",
+          "zh": "一張還是十張的套票？"
+        },
+        "prompt": "你要買十張套票，並問價錢。",
+        "options": [
+          {
+            "fr": "Un carnet, s'il vous plaît. C'est combien ?",
+            "zh": "十張套票，麻煩您。多少錢？",
+            "why": "C'est combien ? 是問價錢最常用的說法，也可以說 Ça coûte combien ?",
+            "correct": true
+          },
+          {
+            "fr": "Un carnet. Combien d'argent ?",
+            "zh": "十張套票。多少錢財？",
+            "why": "Combien d'argent 生硬又不自然。問價錢說 C'est combien ? 就好。",
+            "correct": false
+          },
+          {
+            "fr": "Un carnet. Combien vous payez ?",
+            "zh": "十張套票。您付多少錢？",
+            "why": "主客顛倒了，變成在問對方付多少。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Ça fait 17 euros 35.",
+          "zh": "總共 17 歐元 35。"
+        },
+        "prompt": "你想問去羅浮宮要搭哪一線。",
+        "options": [
+          {
+            "fr": "Pour aller au Louvre, c'est quelle ligne ?",
+            "zh": "請問去羅浮宮是哪一線？",
+            "why": "★ 問路萬用句型：Pour aller à + 地點, ... ? 只要會這一句，全巴黎都能問路。au Louvre 是 à + le Louvre 的縮寫。",
+            "correct": true
+          },
+          {
+            "fr": "Pour aller à le Louvre, c'est quelle ligne ?",
+            "zh": "請問去羅浮宮是哪一線？",
+            "why": "à + le 一定要縮寫成 au，法文沒有 à le。",
+            "correct": false
+          },
+          {
+            "fr": "Comment je vais dans le Louvre ?",
+            "zh": "我要怎麼進到羅浮宮裡面？",
+            "why": "dans 是「在…裡面」。去某個地方要用 à / au。標準說法是 Pour aller au Louvre… ?",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Ligne 1, direction La Défense. Vous descendez à Palais-Royal.",
+          "zh": "1 號線，往 La Défense 方向。在 Palais-Royal 站下車。"
+        },
+        "prompt": "你要複述確認，並問是不是直達。",
+        "options": [
+          {
+            "fr": "Je descends à Palais-Royal. C'est direct ?",
+            "zh": "我在 Palais-Royal 下車。是直達嗎？",
+            "why": "★ descendre 下車、monter 上車、changer 轉車。在某站下車用 à。巴黎地鐵不是用「往東往西」，而是用「終點站名」表示方向。",
+            "correct": true
+          },
+          {
+            "fr": "Je descends en Palais-Royal.",
+            "zh": "我在 Palais-Royal 下車。",
+            "why": "在某一站要用 à，不是 en。en 用在國家（en France）和交通工具（en métro）。",
+            "correct": false
+          },
+          {
+            "fr": "Je tombe à Palais-Royal.",
+            "zh": "我在 Palais-Royal 跌倒。",
+            "why": "tomber 是「跌倒、掉落」！下車一定要用 descendre。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Oui, c'est direct. Bon voyage !",
+          "zh": "是的，直達。旅途愉快！"
+        },
+        "prompt": "你想說「我現在每天都搭地鐵」。",
+        "options": [
+          {
+            "fr": "Merci ! Je prends le métro tous les jours maintenant.",
+            "zh": "謝謝！我現在每天都搭地鐵。",
+            "why": "★ 搭交通工具用動詞 prendre：prendre le métro / le bus / le train。tous les jours = 每天。",
+            "correct": true
+          },
+          {
+            "fr": "Merci ! Je prends au métro tous les jours.",
+            "zh": "謝謝！我每天搭地鐵。",
+            "why": "prendre 後面直接接受詞，不加介係詞：prendre le métro。",
+            "correct": false
+          },
+          {
+            "fr": "Merci ! Je prends le métro tout le jour.",
+            "zh": "謝謝！我一整天都搭地鐵。",
+            "why": "tout le jour 不是「每天」。每天是 tous les jours；一整天是 toute la journée。",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "order": 6,
+    "chapter": "第二章 · 在城市裡移動"
+  },
+  {
+    "id": "louvre",
+    "icon": "🖼️",
+    "title": "第 7 天：問路去羅浮宮",
+    "place": "巴黎 · 塞納河畔",
+    "time": "10:40",
+    "weather": "☀️",
+    "level": "A2",
+    "goal": "問到羅浮宮的方向和開放時間",
+    "topic": "問路",
+    "npc": {
+      "name": "Sophie",
+      "role": "路過的巴黎人",
+      "avatar": "sophie"
+    },
+    "intro": "羅浮宮（le musée du Louvre）是世界最大的博物館，蒙娜麗莎就在裡面。你沿著塞納河走，但好像迷路了。",
+    "vocab": [
+      {
+        "fr": "Pour aller à... ?",
+        "zh": "要去…怎麼走？"
+      },
+      {
+        "fr": "tout droit",
+        "zh": "直走"
+      },
+      {
+        "fr": "à gauche",
+        "zh": "左轉、左邊"
+      },
+      {
+        "fr": "à droite",
+        "zh": "右轉、右邊"
+      },
+      {
+        "fr": "le feu",
+        "zh": "紅綠燈"
+      },
+      {
+        "fr": "C'est loin ?",
+        "zh": "很遠嗎？"
+      },
+      {
+        "fr": "ouvrir",
+        "zh": "開門"
+      },
+      {
+        "fr": "fermer",
+        "zh": "關門"
+      },
+      {
+        "fr": "fermé",
+        "zh": "關閉的、休息的"
+      },
+      {
+        "fr": "un musée",
+        "zh": "博物館（陽性）"
+      }
+    ],
+    "steps": [
+      {
+        "npc": {
+          "fr": "Bonjour, vous cherchez quelque chose ?",
+          "zh": "您好，您在找什麼嗎？"
+        },
+        "prompt": "你要問怎麼去羅浮宮。",
+        "options": [
+          {
+            "fr": "Oui, pardon. Pour aller au musée du Louvre, s'il vous plaît ?",
+            "zh": "是的，抱歉。請問羅浮宮怎麼走？",
+            "why": "★ 問路的萬用公式：Pour aller à + 地點, s'il vous plaît ? 學會這一句，全法國都問得到路。",
+            "correct": true
+          },
+          {
+            "fr": "Oui. Où est le Louvre ?",
+            "zh": "羅浮宮在哪？",
+            "why": "文法沒錯，但太直接。前面加 pardon、後面加 s'il vous plaît 會禮貌很多。",
+            "correct": false
+          },
+          {
+            "fr": "Oui. Comment je peux aller le Louvre ?",
+            "zh": "我怎麼能去羅浮宮？",
+            "why": "少了介係詞。去某地要用 à：aller au Louvre。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "C'est tout droit, puis vous tournez à gauche au feu.",
+          "zh": "直走，然後在紅綠燈左轉。"
+        },
+        "prompt": "你要複述一次並問遠不遠。",
+        "options": [
+          {
+            "fr": "Tout droit, puis à gauche. C'est loin ?",
+            "zh": "直走，然後左轉。會很遠嗎？",
+            "why": "★ tout droit 直走（沒有 e）、à gauche 左轉。問距離：C'est loin ?（遠嗎）／C'est près ?（近嗎）。",
+            "correct": true
+          },
+          {
+            "fr": "Tout droite, puis à gauche.",
+            "zh": "直走，然後左轉。",
+            "why": "拼字錯了。直走是 tout droit（沒有 e）；à droite（有 e）是「右邊」，兩個字很容易搞混。",
+            "correct": false
+          },
+          {
+            "fr": "Tout droit, puis à droite.",
+            "zh": "直走，然後右轉。",
+            "why": "聽錯方向了。她說的是 à gauche（左轉），不是 à droite（右轉）。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Non, c'est à dix minutes à pied.",
+          "zh": "不遠，走路十分鐘。"
+        },
+        "prompt": "你要確認「走路十分鐘」。",
+        "options": [
+          {
+            "fr": "Dix minutes à pied, très bien. Merci !",
+            "zh": "走路十分鐘，太好了。謝謝！",
+            "why": "★ à dix minutes à pied = 走路十分鐘的距離。距離用 à + 時間；走路也是 à pied。",
+            "correct": true
+          },
+          {
+            "fr": "Dix minutes en pied.",
+            "zh": "十分鐘用腳。",
+            "why": "走路固定是 à pied。en 只用在坐得進去的交通工具：en métro、en bus、en voiture。",
+            "correct": false
+          },
+          {
+            "fr": "Dix minutes par pied.",
+            "zh": "十分鐘經由腳。",
+            "why": "par 不能用在交通方式。正確就是 à pied。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Le musée ouvre à neuf heures et ferme à dix-huit heures.",
+          "zh": "博物館九點開門，十八點關門。"
+        },
+        "prompt": "18 h 換成日常說法是幾點？",
+        "options": [
+          {
+            "fr": "Il ferme à six heures du soir, d'accord.",
+            "zh": "六點關門，了解。",
+            "why": "★ 18 h = 6 + 12，日常說法是 six heures du soir。ouvrir 開門／fermer 關門。",
+            "correct": true
+          },
+          {
+            "fr": "Il ferme à huit heures du soir.",
+            "zh": "晚上八點關門。",
+            "why": "聽錯了：dix-huit（18）不是 huit（8）。18 點是晚上六點。",
+            "correct": false
+          },
+          {
+            "fr": "Il ferme à dix-huit heures du soir.",
+            "zh": "十八點晚上關門。",
+            "why": "24 小時制本身已經分得出早晚，不用再加 du soir，兩套系統不能混用。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Attention, le musée est fermé le mardi !",
+          "zh": "注意，博物館每週二休館！"
+        },
+        "prompt": "le mardi 這裡是什麼意思？",
+        "options": [
+          {
+            "fr": "Le mardi ? Donc tous les mardis, d'accord.",
+            "zh": "每週二？所以是每一個星期二，了解。",
+            "why": "★ le mardi（有冠詞）= 每個星期二的習慣，等於 tous les mardis。如果只說 mardi（沒冠詞），指的才是「這個星期二」。",
+            "correct": true
+          },
+          {
+            "fr": "Mardi ? Donc seulement ce mardi.",
+            "zh": "星期二？所以只有這個星期二。",
+            "why": "有 le 就是「每週二」。要指某一次才會說 mardi（不加冠詞）。",
+            "correct": false
+          },
+          {
+            "fr": "Le mardi ? Donc il ouvre le mardi.",
+            "zh": "每週二？所以每週二開門。",
+            "why": "意思相反了。fermé 是「關閉的」，le musée est fermé le mardi = 每週二休館。",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "order": 7,
+    "chapter": "第二章 · 在城市裡移動"
+  },
+  {
+    "id": "tour-eiffel",
+    "icon": "🗼",
+    "title": "第 8 天：登上艾菲爾鐵塔",
+    "place": "巴黎 · 戰神廣場",
+    "time": "16:00",
+    "weather": "🌤️",
+    "level": "A2",
+    "goal": "買到門票，並說出自己怎麼來的",
+    "topic": "景點與交通",
+    "npc": {
+      "name": "Antoine",
+      "role": "售票口人員",
+      "avatar": "antoine"
+    },
+    "intro": "la tour Eiffel 高 330 公尺，1889 年為世界博覽會而建。注意：塔是 la tour（陰性），不要跟 le tour（一圈）搞混。",
+    "vocab": [
+      {
+        "fr": "la tour Eiffel",
+        "zh": "艾菲爾鐵塔（la tour 陰性）"
+      },
+      {
+        "fr": "un billet",
+        "zh": "門票（景點／火車／飛機）"
+      },
+      {
+        "fr": "monter",
+        "zh": "上去、登上"
+      },
+      {
+        "fr": "l'ascenseur",
+        "zh": "電梯（陽性）"
+      },
+      {
+        "fr": "l'escalier",
+        "zh": "樓梯（陽性）"
+      },
+      {
+        "fr": "venir de",
+        "zh": "來自…"
+      },
+      {
+        "fr": "toutes les heures",
+        "zh": "每個整點"
+      },
+      {
+        "fr": "revenir",
+        "zh": "再回來"
+      },
+      {
+        "fr": "scintiller",
+        "zh": "閃爍發光"
+      }
+    ],
+    "steps": [
+      {
+        "npc": {
+          "fr": "Bonjour ! Vous voulez monter à la tour Eiffel ?",
+          "zh": "您好！您想上艾菲爾鐵塔嗎？"
+        },
+        "prompt": "你要買兩張票。",
+        "options": [
+          {
+            "fr": "Oui, je voudrais deux billets, s'il vous plaît.",
+            "zh": "是的，我想要兩張票。",
+            "why": "★ 景點門票是 un billet；地鐵票才是 un ticket，兩個不能混用。monter = 上去。",
+            "correct": true
+          },
+          {
+            "fr": "Oui, je voudrais deux tickets pour la tour.",
+            "zh": "是的，我想要兩張塔的票。",
+            "why": "ticket 是地鐵、公車票。博物館、景點、火車、演唱會的票都用 billet。",
+            "correct": false
+          },
+          {
+            "fr": "Oui, deux billets pour le tour Eiffel.",
+            "zh": "是的，兩張環艾菲爾的票。",
+            "why": "★ 陰陽性錯了，意思差很多：la tour = 塔（陰性）；le tour = 一圈、環遊（le Tour de France 是環法自行車賽）。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Par l'ascenseur ou par l'escalier ?",
+          "zh": "搭電梯還是走樓梯？"
+        },
+        "prompt": "你想搭電梯，因為比較快。",
+        "options": [
+          {
+            "fr": "Par l'ascenseur, s'il vous plaît. C'est plus rapide.",
+            "zh": "搭電梯，麻煩您。比較快。",
+            "why": "l'ascenseur 電梯、l'escalier 樓梯。plus rapide = 比較快（比較級用 plus + 形容詞）。",
+            "correct": true
+          },
+          {
+            "fr": "Par l'escalier, c'est plus rapide.",
+            "zh": "走樓梯，比較快。",
+            "why": "escalier 是樓梯，要爬 674 階才到第二層，一點都不快。",
+            "correct": false
+          },
+          {
+            "fr": "Par le ascenseur.",
+            "zh": "搭電梯。",
+            "why": "ascenseur 是母音開頭，冠詞一定要縮寫成 l'ascenseur。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Ça fait 58 euros. Vous venez d'où ?",
+          "zh": "總共 58 歐元。您從哪裡來？"
+        },
+        "prompt": "你來自台灣。",
+        "options": [
+          {
+            "fr": "Je viens de Taïwan.",
+            "zh": "我來自台灣。",
+            "why": "★ venir de = 來自。陰性國家用 de（je viens de France），陽性國家用 du（je viens du Japon）。",
+            "correct": true
+          },
+          {
+            "fr": "Je viens à Taïwan.",
+            "zh": "我要去台灣。",
+            "why": "à 是「去」，de 才是「來自」。Je vais à Taïwan = 我要去台灣。",
+            "correct": false
+          },
+          {
+            "fr": "Je suis de Taïwan depuis.",
+            "zh": "我從台灣自從。",
+            "why": "depuis 是「自從」，這裡多餘而且句子不完整。說 Je viens de Taïwan 或 Je suis taïwanais(e) 就好。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Super ! Vous êtes venu comment aujourd'hui ?",
+          "zh": "太好了！您今天是怎麼來的？"
+        },
+        "prompt": "你搭 6 號線地鐵，再走一小段路。",
+        "options": [
+          {
+            "fr": "En métro, ligne 6, et puis à pied.",
+            "zh": "搭地鐵 6 號線，然後走路。",
+            "why": "★ 交通方式的黃金規則：坐得進去的用 en（en métro / en bus / en voiture）；靠自己身體的用 à（à pied / à vélo / à cheval）。",
+            "correct": true
+          },
+          {
+            "fr": "À métro et puis en pied.",
+            "zh": "用地鐵然後坐腳。",
+            "why": "兩個都反了！坐得進去的是 en métro；用自己的腳是 à pied。",
+            "correct": false
+          },
+          {
+            "fr": "Par le métro et par pied.",
+            "zh": "經由地鐵和經由腳。",
+            "why": "交通方式不用 par。正確是 en métro 和 à pied。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "La tour scintille toutes les heures, le soir. Ne ratez pas ça !",
+          "zh": "鐵塔晚上每個整點會閃燈。別錯過了！"
+        },
+        "prompt": "toutes les heures 是什麼意思？",
+        "options": [
+          {
+            "fr": "Toutes les heures ? Je reviens ce soir alors !",
+            "zh": "每個整點？那我晚上再回來！",
+            "why": "★ toutes les heures = 每個整點。同一個結構：tous les jours（每天）、toutes les semaines（每週）。revenir = 再回來。",
+            "correct": true
+          },
+          {
+            "fr": "Toute l'heure ? Je reviens ce soir.",
+            "zh": "整個小時？我晚上回來。",
+            "why": "toute l'heure 不是「每小時」。每小時是 toutes les heures（複數）；tout à l'heure 則是「等一下」。",
+            "correct": false
+          },
+          {
+            "fr": "Toutes les heures ? Je viens ce soir encore une fois.",
+            "zh": "每個整點？我晚上再來一次。",
+            "why": "太囉唆了。「再回來」法文有專門的動詞 revenir，直接說 je reviens 就好。",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "order": 8,
+    "chapter": "第二章 · 在城市裡移動"
+  },
+  {
+    "id": "montmartre",
+    "icon": "⛪",
+    "title": "第 9 天：蒙馬特的山丘",
+    "place": "巴黎 · 蒙馬特",
+    "time": "17:30",
+    "weather": "🌅",
+    "level": "A2",
+    "goal": "爬上聖心堂，並跟街頭畫家聊天",
+    "topic": "景點與職業",
+    "npc": {
+      "name": "Yasmine",
+      "role": "街頭畫家",
+      "avatar": "yasmine"
+    },
+    "intro": "蒙馬特是巴黎最高的山丘，白色的聖心堂（le Sacré-Cœur）矗立在頂端。小丘廣場上有許多街頭畫家。",
+    "vocab": [
+      {
+        "fr": "monter",
+        "zh": "上去、爬上"
+      },
+      {
+        "fr": "une marche",
+        "zh": "一級階梯"
+      },
+      {
+        "fr": "le funiculaire",
+        "zh": "斜坡纜車"
+      },
+      {
+        "fr": "préférer",
+        "zh": "比較喜歡"
+      },
+      {
+        "fr": "un portrait",
+        "zh": "肖像畫"
+      },
+      {
+        "fr": "un peintre",
+        "zh": "畫家"
+      },
+      {
+        "fr": "C'est combien ?",
+        "zh": "多少錢？"
+      },
+      {
+        "fr": "une église",
+        "zh": "教堂（陰性）"
+      },
+      {
+        "fr": "dans la vie",
+        "zh": "在生活中（問職業用）"
+      }
+    ],
+    "steps": [
+      {
+        "npc": {
+          "fr": "Bonjour ! Vous montez au Sacré-Cœur ?",
+          "zh": "您好！您要上聖心堂嗎？"
+        },
+        "prompt": "你要問走哪個方向。",
+        "options": [
+          {
+            "fr": "Oui, mais c'est quelle direction ?",
+            "zh": "是的，但是哪個方向呢？",
+            "why": "monter à = 上去（蒙馬特在山丘上）。la direction 是陰性，所以疑問詞要用 quelle（陰性形）。",
+            "correct": true
+          },
+          {
+            "fr": "Oui, mais c'est quel direction ?",
+            "zh": "是的，但是哪個方向？",
+            "why": "la direction 是陰性名詞，疑問形容詞要配合陰性：quelle direction。",
+            "correct": false
+          },
+          {
+            "fr": "Oui, mais où c'est la direction ?",
+            "zh": "是的，但方向在哪裡？",
+            "why": "句型混亂。要問 C'est quelle direction ? 或更口語的 C'est par où ?",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Il y a 222 marches, ou le funiculaire.",
+          "zh": "有 222 級階梯，或者可以搭纜車。"
+        },
+        "prompt": "你走了一整天很累，想搭纜車。",
+        "options": [
+          {
+            "fr": "Je suis fatigué, je préfère le funiculaire.",
+            "zh": "我累了，我比較想搭纜車。",
+            "why": "★ 「累了」用 être：Je suis fatigué（男）／fatiguée（女）。le funiculaire 是蒙馬特的斜坡纜車，可以直接用地鐵票搭。",
+            "correct": true
+          },
+          {
+            "fr": "J'ai fatigué, je préfère le funiculaire.",
+            "zh": "我有累了，我比較想搭纜車。",
+            "why": "「累了」是狀態，要用 être 不是 avoir：Je suis fatigué(e)。",
+            "correct": false
+          },
+          {
+            "fr": "Je suis fatigué, je préfère les marches.",
+            "zh": "我累了，我比較想走階梯。",
+            "why": "邏輯不通：累了還要爬 222 級階梯嗎？les marches = 階梯。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Bon choix. Vous voulez un portrait ? Je suis peintre.",
+          "zh": "好選擇。您想要一張肖像畫嗎？我是畫家。"
+        },
+        "prompt": "你想問畫一張多少錢。",
+        "options": [
+          {
+            "fr": "C'est combien pour un portrait ?",
+            "zh": "畫一張肖像多少錢？",
+            "why": "C'est combien ? 是問價錢最自然的說法。蒙馬特的小丘廣場（Place du Tertre）以街頭畫家聞名。",
+            "correct": true
+          },
+          {
+            "fr": "Combien c'est un portrait ?",
+            "zh": "多少是一張肖像？",
+            "why": "語序不對。要說 C'est combien ? 或 Ça coûte combien ?",
+            "correct": false
+          },
+          {
+            "fr": "Quel est le prix de un portrait ?",
+            "zh": "一張肖像的價格是多少？",
+            "why": "de + un 要縮寫成 d'un。而且這句太正式，口語直接說 C'est combien ?",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Vingt euros. Et vous, vous faites quoi dans la vie ?",
+          "zh": "二十歐元。那您呢，您是做什麼的？"
+        },
+        "prompt": "你是工程師，怎麼說？",
+        "options": [
+          {
+            "fr": "Je suis ingénieur.",
+            "zh": "我是工程師。",
+            "why": "★ 超重要規則：講職業時 être 後面「不加冠詞」。Je suis ingénieur、Je suis étudiant、Je suis professeur —— 這跟英文 I am an engineer 不一樣。",
+            "correct": true
+          },
+          {
+            "fr": "Je suis un ingénieur.",
+            "zh": "我是一個工程師。",
+            "why": "講職業、國籍、宗教時，être 後面不加冠詞。要說 Je suis ingénieur。",
+            "correct": false
+          },
+          {
+            "fr": "J'ai ingénieur.",
+            "zh": "我有工程師。",
+            "why": "職業用 être（是），不是 avoir（有）。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Petit jeu ! « Un » ou « une » ? ... église !",
+          "zh": "小遊戲！是 un 還是 une ？…教堂！"
+        },
+        "prompt": "🎲 陰陽性小遊戲：église 是陰性還是陽性？",
+        "options": [
+          {
+            "fr": "une église",
+            "zh": "陰性",
+            "why": "★ église 是陰性。它母音開頭寫成 l'église，冠詞被縮寫掉了，看不出陰陽性 —— 這種字一定要用 un/une 來記。字尾 -ise、-ette、-tion 多半是陰性。",
+            "correct": true
+          },
+          {
+            "fr": "un église",
+            "zh": "陽性",
+            "why": "錯。église 是陰性名詞：une église、la belle église。",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "order": 9,
+    "chapter": "第二章 · 在城市裡移動"
+  },
+  {
+    "id": "marche",
+    "icon": "🥕",
+    "title": "第 10 天：巴士底市集",
+    "place": "巴黎 · 巴士底市集",
+    "time": "09:50",
+    "weather": "☀️",
+    "level": "A2",
+    "goal": "用重量單位買菜，並聽懂找零",
+    "topic": "買東西",
+    "npc": {
+      "name": "Mme Petit",
+      "role": "市場菜販",
+      "avatar": "petit"
+    },
+    "intro": "巴黎的露天市集一週開兩三天，比超市新鮮也便宜。買菜要會講「多少重量」，這是數量表達最好的練習。",
+    "vocab": [
+      {
+        "fr": "un kilo de...",
+        "zh": "一公斤的…"
+      },
+      {
+        "fr": "une livre de...",
+        "zh": "半公斤（500 克）的…"
+      },
+      {
+        "fr": "une tomate",
+        "zh": "番茄（陰性）"
+      },
+      {
+        "fr": "une carotte",
+        "zh": "紅蘿蔔（陰性）"
+      },
+      {
+        "fr": "un œuf",
+        "zh": "蛋（陽性）"
+      },
+      {
+        "fr": "la monnaie",
+        "zh": "零錢、找零"
+      },
+      {
+        "fr": "ouvert(e)",
+        "zh": "營業中的"
+      },
+      {
+        "fr": "Avec ça ?",
+        "zh": "還要別的嗎？"
+      }
+    ],
+    "steps": [
+      {
+        "npc": {
+          "fr": "Bonjour ! Qu'est-ce qu'il vous faut ?",
+          "zh": "您好！您需要什麼？"
+        },
+        "prompt": "你要買一公斤番茄。",
+        "options": [
+          {
+            "fr": "Bonjour, je voudrais un kilo de tomates, s'il vous plaît.",
+            "zh": "您好，我想要一公斤番茄。",
+            "why": "★ 數量公式：數量 + de + 名詞（中間不加冠詞）。un kilo de tomates、une bouteille d'eau、beaucoup de gens。",
+            "correct": true
+          },
+          {
+            "fr": "Je voudrais un kilo des tomates.",
+            "zh": "我想要一公斤的那些番茄。",
+            "why": "數量後面只接 de，不加冠詞。des 是不定冠詞，這裡不能用。",
+            "correct": false
+          },
+          {
+            "fr": "Je voudrais un kilo de les tomates.",
+            "zh": "我想要一公斤的那些番茄。",
+            "why": "同樣的錯，而且 de + les 一定要縮寫成 des。正確就是 un kilo de tomates。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Voilà. Avec ça ?",
+          "zh": "好了。還要別的嗎？"
+        },
+        "prompt": "你還要半公斤紅蘿蔔和六顆蛋。",
+        "options": [
+          {
+            "fr": "Une livre de carottes et six œufs.",
+            "zh": "半公斤紅蘿蔔和六顆蛋。",
+            "why": "★ une livre = 半公斤（500 克），法國市場很常用。發音陷阱：un œuf 唸 /œf/（f 發音），但複數 des œufs 唸 /ø/（f 不發音）。",
+            "correct": true
+          },
+          {
+            "fr": "Une livre des carottes.",
+            "zh": "半公斤的那些紅蘿蔔。",
+            "why": "數量後面用 de，不用 des。",
+            "correct": false
+          },
+          {
+            "fr": "Un livre de carottes.",
+            "zh": "一本紅蘿蔔的書。",
+            "why": "★ 陰陽性差很多！une livre = 半公斤；un livre = 一本書。冠詞錯一個字，意思完全變了。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Six œufs. Ça fait 8 euros 60.",
+          "zh": "六顆蛋。總共 8 歐元 60。"
+        },
+        "prompt": "你拿出一張 10 歐元。",
+        "options": [
+          {
+            "fr": "Voilà dix euros.",
+            "zh": "給您十歐元。",
+            "why": "遞錢時說 Voilà。等一下找回來的零錢叫 la monnaie。",
+            "correct": true
+          },
+          {
+            "fr": "Voilà dix euro.",
+            "zh": "給您十歐元。",
+            "why": "複數要加 s：dix euros。",
+            "correct": false
+          },
+          {
+            "fr": "Voilà dix euros de monnaie.",
+            "zh": "給您十歐元的找零。",
+            "why": "la monnaie 是「找零、零錢」，你給的是錢，不是找零。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Et voilà votre monnaie : un euro quarante.",
+          "zh": "這是找您的零錢：1 歐元 40。"
+        },
+        "prompt": "你想問她每個星期天有沒有開。",
+        "options": [
+          {
+            "fr": "Merci ! Vous êtes ouverte le dimanche ?",
+            "zh": "謝謝！您每個星期天有開嗎？",
+            "why": "★ le dimanche（有冠詞）= 每個星期天。ouvert(e) 是「開著的」，對女性店家用陰性 ouverte。",
+            "correct": true
+          },
+          {
+            "fr": "Merci ! Vous êtes ouverte dimanche ?",
+            "zh": "謝謝！您這個星期天有開嗎？",
+            "why": "沒有冠詞就變成「這個星期天」。要問「每個星期天」一定要加 le。",
+            "correct": false
+          },
+          {
+            "fr": "Merci ! Vous êtes ouvert au dimanche ?",
+            "zh": "謝謝！您在星期天有開嗎？",
+            "why": "星期前面不加 au。正確是 le dimanche。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Petit jeu ! « Le » ou « la » ? ... carotte !",
+          "zh": "小遊戲！是 le 還是 la ？…紅蘿蔔！"
+        },
+        "prompt": "🎲 陰陽性小遊戲：carotte 是陰性還是陽性？",
+        "options": [
+          {
+            "fr": "la carotte",
+            "zh": "陰性",
+            "why": "★ la carotte 是陰性（又是 -otte / -ette 結尾）。市場裡：la tomate（陰）、la carotte（陰）、la pomme（陰）、le chou（陽）、le poisson（陽）。",
+            "correct": true
+          },
+          {
+            "fr": "le carotte",
+            "zh": "陽性",
+            "why": "錯。carotte 是陰性，要說 la carotte / une carotte。",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "order": 10,
+    "chapter": "第三章 · 生活與採買"
+  },
+  {
+    "id": "appartement-genre",
+    "icon": "🏠",
+    "title": "第 11 天：室友的陰陽性大挑戰",
+    "place": "巴黎 · 第 18 區公寓",
+    "time": "19:00",
+    "weather": "🌙",
+    "level": "A1",
+    "goal": "連續答對 8 題陰陽性",
+    "topic": "陰陽性遊戲",
+    "npc": {
+      "name": "Julie",
+      "role": "室友",
+      "avatar": "julie"
+    },
+    "intro": "你搬進跟 Julie 合租的小公寓。她說要玩個遊戲幫你記單字的陰陽性 —— 她說出一個東西，你要回答 le 還是 la。",
+    "vocab": [
+      {
+        "fr": "la table",
+        "zh": "桌子（陰）"
+      },
+      {
+        "fr": "le lit",
+        "zh": "床（陽）"
+      },
+      {
+        "fr": "la chaise",
+        "zh": "椅子（陰）"
+      },
+      {
+        "fr": "le frigo",
+        "zh": "冰箱（陽）"
+      },
+      {
+        "fr": "la fenêtre",
+        "zh": "窗戶（陰）"
+      },
+      {
+        "fr": "la salle de bains",
+        "zh": "浴室（陰）"
+      },
+      {
+        "fr": "le téléphone",
+        "zh": "電話（陽）"
+      },
+      {
+        "fr": "la clé",
+        "zh": "鑰匙（陰）"
+      },
+      {
+        "fr": "un appartement",
+        "zh": "公寓（陽）"
+      }
+    ],
+    "steps": [
+      {
+        "npc": {
+          "fr": "Bienvenue ! On joue ? Je dis un mot, tu dis « le » ou « la ». Prêt ? ... table !",
+          "zh": "歡迎！來玩吧？我說一個字，你回答 le 或 la。準備好了嗎？…桌子！"
+        },
+        "prompt": "🎲 第 1 題：table",
+        "options": [
+          {
+            "fr": "la table",
+            "zh": "陰性",
+            "why": "la table 是陰性。-e 結尾的名詞多半是陰性，這是最常用的判斷法（但有例外）。",
+            "correct": true
+          },
+          {
+            "fr": "le table",
+            "zh": "陽性",
+            "why": "錯。桌子是 la table / une table。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Oui ! Suivant : ... lit !",
+          "zh": "答對！下一題：…床！"
+        },
+        "prompt": "🎲 第 2 題：lit",
+        "options": [
+          {
+            "fr": "le lit",
+            "zh": "陽性",
+            "why": "le lit 是陽性。子音結尾的名詞多半是陽性（lit 的 t 不發音，但拼字是子音結尾）。",
+            "correct": true
+          },
+          {
+            "fr": "la lit",
+            "zh": "陰性",
+            "why": "錯。床是 le lit / un lit。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Bravo ! ... chaise !",
+          "zh": "太棒了！…椅子！"
+        },
+        "prompt": "🎲 第 3 題：chaise",
+        "options": [
+          {
+            "fr": "la chaise",
+            "zh": "陰性",
+            "why": "la chaise 是陰性。-aise / -ise 結尾通常是陰性。順便記：s'asseoir sur une chaise（坐在椅子上）。",
+            "correct": true
+          },
+          {
+            "fr": "le chaise",
+            "zh": "陽性",
+            "why": "錯。椅子是 la chaise / une chaise。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Excellent ! ... frigo !",
+          "zh": "太好了！…冰箱！"
+        },
+        "prompt": "🎲 第 4 題：frigo",
+        "options": [
+          {
+            "fr": "le frigo",
+            "zh": "陽性",
+            "why": "★ le frigo 是陽性（réfrigérateur 的口語縮寫）。-o 結尾幾乎都是陽性：le vélo、le métro、le stylo、le photo… 等等，la photo 是例外！",
+            "correct": true
+          },
+          {
+            "fr": "la frigo",
+            "zh": "陰性",
+            "why": "錯。冰箱是 le frigo / un frigo。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Tu progresses vite ! ... fenêtre !",
+          "zh": "你進步很快！…窗戶！"
+        },
+        "prompt": "🎲 第 5 題：fenêtre",
+        "options": [
+          {
+            "fr": "la fenêtre",
+            "zh": "陰性",
+            "why": "la fenêtre 是陰性。房間裡對照著記：la fenêtre（窗，陰）、la porte（門，陰）、le mur（牆，陽）、le sol（地板，陽）。",
+            "correct": true
+          },
+          {
+            "fr": "le fenêtre",
+            "zh": "陽性",
+            "why": "錯。窗戶是 la fenêtre / une fenêtre。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Encore une ! ... salle de bains !",
+          "zh": "再一題！…浴室！"
+        },
+        "prompt": "🎲 第 6 題：salle de bains",
+        "options": [
+          {
+            "fr": "la salle de bains",
+            "zh": "陰性",
+            "why": "★ 關鍵在第一個字：la salle（廳、房間）是陰性，所以整組都是陰性 —— la salle de bains（浴室）、la salle à manger（飯廳）、la salle de classe（教室）。",
+            "correct": true
+          },
+          {
+            "fr": "le salle de bains",
+            "zh": "陽性",
+            "why": "錯。決定陰陽性的是主詞 la salle，不是後面的 bains。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Presque fini ! ... téléphone !",
+          "zh": "快結束了！…電話！"
+        },
+        "prompt": "🎲 第 7 題：téléphone",
+        "options": [
+          {
+            "fr": "le téléphone",
+            "zh": "陽性",
+            "why": "★ le téléphone 是陽性。這幾個字尾幾乎都是陽性：-eau（le bureau）、-ment（l'appartement）、-isme（le tourisme）、-phone（le téléphone）。",
+            "correct": true
+          },
+          {
+            "fr": "la téléphone",
+            "zh": "陰性",
+            "why": "錯。電話是 le téléphone / un téléphone。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Dernière question ! ... clé !",
+          "zh": "最後一題！…鑰匙！"
+        },
+        "prompt": "🎲 第 8 題：clé（小心，這是例外）",
+        "options": [
+          {
+            "fr": "la clé",
+            "zh": "陰性",
+            "why": "★ 陷阱題：-é 結尾通常是陽性（le café、le marché），但 la clé 是陰性！同樣的例外還有 la télé、la clé USB。例外只能硬記。",
+            "correct": true
+          },
+          {
+            "fr": "le clé",
+            "zh": "陽性",
+            "why": "錯。雖然 -é 結尾多半是陽性，但 clé 是有名的例外，要用 la clé。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Huit sur huit ! Tu apprends vite. On dîne à quelle heure ?",
+          "zh": "八題全對！你學很快。我們幾點吃晚餐？"
+        },
+        "prompt": "跟室友約八點吃飯。",
+        "options": [
+          {
+            "fr": "À huit heures, ça te va ?",
+            "zh": "八點，你可以嗎？",
+            "why": "★ 跟室友、朋友熟了就用 tu：ça te va ?（你方便嗎）。對不熟的人才說 ça vous va ?",
+            "correct": true
+          },
+          {
+            "fr": "À huit heures, ça vous va ?",
+            "zh": "八點，您可以嗎？",
+            "why": "文法沒錯，但對同住的室友用 vous 會顯得很生疏。朋友之間用 tu。",
+            "correct": false
+          },
+          {
+            "fr": "En huit heures, ça te va ?",
+            "zh": "在八小時內，你可以嗎？",
+            "why": "時刻要用 à。en huit heures 意思是「花八小時」。",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "order": 11,
+    "chapter": "第三章 · 生活與採買"
+  },
+  {
+    "id": "restaurant-diner",
+    "icon": "🍽️",
+    "title": "第 12 天：第一次上餐廳",
+    "place": "巴黎 · 聖日耳曼德佩",
+    "time": "20:15",
+    "weather": "🌙",
+    "level": "A2",
+    "goal": "順利點餐，並學會要帳單",
+    "topic": "餐廳",
+    "npc": {
+      "name": "Marc",
+      "role": "餐廳服務生",
+      "avatar": "marc"
+    },
+    "intro": "法國餐廳晚餐大約 19:30 才開始。注意一個大陷阱：la carte 才是菜單，le menu 是套餐 —— 跟英文剛好相反。",
+    "vocab": [
+      {
+        "fr": "Bonsoir",
+        "zh": "晚安（傍晚以後打招呼）"
+      },
+      {
+        "fr": "réserver",
+        "zh": "訂位"
+      },
+      {
+        "fr": "la carte",
+        "zh": "菜單"
+      },
+      {
+        "fr": "le menu",
+        "zh": "套餐（不是菜單！）"
+      },
+      {
+        "fr": "conseiller",
+        "zh": "推薦"
+      },
+      {
+        "fr": "Je vais prendre...",
+        "zh": "我要點…"
+      },
+      {
+        "fr": "une carafe d'eau",
+        "zh": "一壺自來水（免費）"
+      },
+      {
+        "fr": "l'addition",
+        "zh": "帳單（陰性）"
+      },
+      {
+        "fr": "Bon appétit !",
+        "zh": "祝用餐愉快！"
+      }
+    ],
+    "steps": [
+      {
+        "npc": {
+          "fr": "Bonsoir ! Vous avez réservé ?",
+          "zh": "晚安！您有訂位嗎？"
+        },
+        "prompt": "你沒訂位，想問有沒有兩人的位子。",
+        "options": [
+          {
+            "fr": "Bonsoir. Non, vous avez une table pour deux ?",
+            "zh": "晚安。沒有，請問有兩人的位子嗎？",
+            "why": "★ 晚上要說 Bonsoir 不是 Bonjour。réserver = 訂位；une table pour deux = 兩人桌。",
+            "correct": true
+          },
+          {
+            "fr": "Bonjour. Non, une table pour deux.",
+            "zh": "您好。沒有，兩人桌。",
+            "why": "晚上 20:15 要說 Bonsoir。Bonjour 只用在白天。",
+            "correct": false
+          },
+          {
+            "fr": "Bonsoir. Non, je n'ai pas réservé une table.",
+            "zh": "晚安。沒有，我沒有訂一張桌子。",
+            "why": "否定句裡的不定冠詞要變成 de：je n'ai pas réservé de table。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Suivez-moi. Voici la carte.",
+          "zh": "請跟我來。這是菜單。"
+        },
+        "prompt": "你想問他推薦什麼。",
+        "options": [
+          {
+            "fr": "Merci. Qu'est-ce que vous me conseillez ?",
+            "zh": "謝謝。您推薦什麼？",
+            "why": "★ 點餐必學句。conseiller = 推薦、建議。不知道要吃什麼時問這句最好用。",
+            "correct": true
+          },
+          {
+            "fr": "Merci. Où est le menu ?",
+            "zh": "謝謝。套餐在哪裡？",
+            "why": "★ 經典陷阱：le menu 在法文是「套餐」，不是菜單！菜單是 la carte，而且他剛剛已經給你了。",
+            "correct": false
+          },
+          {
+            "fr": "Merci. Qu'est-ce que vous me recommandez le menu ?",
+            "zh": "謝謝。您推薦我套餐什麼？",
+            "why": "句子結構亂了。說 Qu'est-ce que vous me conseillez ? 就好。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Le poisson du jour est excellent.",
+          "zh": "今日鮮魚非常棒。"
+        },
+        "prompt": "你決定點魚。",
+        "options": [
+          {
+            "fr": "D'accord, je vais prendre le poisson.",
+            "zh": "好，我要點魚。",
+            "why": "★ 點餐說 Je vais prendre…（我要點…）比 Je veux 客氣得多，也可以說 Je prends…。du jour = 今日的。",
+            "correct": true
+          },
+          {
+            "fr": "D'accord, je veux le poisson.",
+            "zh": "好，我要魚。",
+            "why": "Je veux 太直接。點餐用 Je vais prendre 或 Je voudrais。",
+            "correct": false
+          },
+          {
+            "fr": "D'accord, j'aime le poisson.",
+            "zh": "好，我喜歡魚。",
+            "why": "J'aime le poisson 是在說「我喜歡吃魚」這個習慣，不是在點餐。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Et comme boisson ?",
+          "zh": "那飲料呢？"
+        },
+        "prompt": "你想要免費的自來水。",
+        "options": [
+          {
+            "fr": "Une carafe d'eau, s'il vous plaît.",
+            "zh": "請給我一壺自來水。",
+            "why": "★ 省錢小知識：une carafe d'eau（一壺自來水）在法國餐廳是免費的；une bouteille d'eau（瓶裝水）要另外付費。",
+            "correct": true
+          },
+          {
+            "fr": "Un carafe d'eau.",
+            "zh": "一壺水。",
+            "why": "la carafe 是陰性名詞，要用 une carafe。",
+            "correct": false
+          },
+          {
+            "fr": "Une carafe de l'eau.",
+            "zh": "一壺那個水。",
+            "why": "容器／數量後面接 de + 名詞，不加冠詞。正確是 une carafe d'eau（de + eau 縮寫成 d'eau）。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Très bien. Bon appétit !",
+          "zh": "好的。祝您用餐愉快！"
+        },
+        "prompt": "你想說等一下要結帳。",
+        "options": [
+          {
+            "fr": "Merci ! L'addition plus tard, s'il vous plaît.",
+            "zh": "謝謝！等一下再結帳，麻煩您。",
+            "why": "★ 帳單是 l'addition（陰性）。要結帳時就說 L'addition, s'il vous plaît. 在法國服務費已含在價格裡，小費不強制。",
+            "correct": true
+          },
+          {
+            "fr": "Merci ! Le compte plus tard.",
+            "zh": "謝謝！等一下算帳。",
+            "why": "le compte 是「帳戶、計算」。餐廳帳單的專用字是 l'addition。",
+            "correct": false
+          },
+          {
+            "fr": "Merci ! La facture plus tard.",
+            "zh": "謝謝！等一下請款單。",
+            "why": "la facture 是商業發票、水電帳單。在餐廳要說 l'addition。",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "order": 12,
+    "chapter": "第三章 · 生活與採買"
+  },
+  {
+    "id": "nombres-telecom",
+    "icon": "🔢",
+    "title": "第 13 天：辦手機門號",
+    "place": "巴黎 · 里沃利街",
+    "time": "15:20",
+    "weather": "⛅",
+    "level": "A1",
+    "goal": "聽懂並說出法文數字（含 70／80／90）",
+    "topic": "數字",
+    "npc": {
+      "name": "Nadia",
+      "role": "電信行店員",
+      "avatar": "nadia"
+    },
+    "intro": "法文數字最難的是 70、80、90 —— 法文沒有這三個字！法國人用「60+10」「4×20」「4×20+10」來算。這一關把它練熟。",
+    "vocab": [
+      {
+        "fr": "un forfait",
+        "zh": "電信方案、月租"
+      },
+      {
+        "fr": "un portable",
+        "zh": "手機"
+      },
+      {
+        "fr": "soixante-dix",
+        "zh": "70（＝60+10）"
+      },
+      {
+        "fr": "quatre-vingts",
+        "zh": "80（＝4×20）"
+      },
+      {
+        "fr": "quatre-vingt-dix",
+        "zh": "90（＝4×20+10）"
+      },
+      {
+        "fr": "soixante et onze",
+        "zh": "71（有 et）"
+      },
+      {
+        "fr": "un numéro de téléphone",
+        "zh": "電話號碼"
+      },
+      {
+        "fr": "coûter",
+        "zh": "價值、要價"
+      },
+      {
+        "fr": "par mois",
+        "zh": "每個月"
+      },
+      {
+        "fr": "J'ai ... ans.",
+        "zh": "我…歲（用 avoir！）"
+      }
+    ],
+    "steps": [
+      {
+        "npc": {
+          "fr": "Bonjour ! Vous voulez un forfait mobile ?",
+          "zh": "您好！您想辦門號方案嗎？"
+        },
+        "prompt": "你想辦一個門號方案。",
+        "options": [
+          {
+            "fr": "Oui, je voudrais un forfait, s'il vous plaît.",
+            "zh": "是的，我想辦一個方案。",
+            "why": "un forfait = 電信方案（月租、吃到飽）。手機本身叫 un portable。",
+            "correct": true
+          },
+          {
+            "fr": "Oui, je voudrais un téléphone.",
+            "zh": "是的，我想要一支電話。",
+            "why": "un téléphone 是「電話機」。你要辦的是門號方案，要說 un forfait。",
+            "correct": false
+          },
+          {
+            "fr": "Oui, j'ai un forfait.",
+            "zh": "是的，我有一個方案。",
+            "why": "j'ai 是「我有」。你還沒有，要說 je voudrais（我想要）。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Le forfait coûte soixante-douze euros par mois.",
+          "zh": "方案每個月 72 歐元。"
+        },
+        "prompt": "soixante-douze 是多少錢？",
+        "options": [
+          {
+            "fr": "Soixante-douze, c'est 72.",
+            "zh": "soixante-douze ＝ 72",
+            "why": "★ 法文沒有「七十」這個字！70 = soixante-dix（60+10），所以 72 = soixante-douze（60+12）。",
+            "correct": true
+          },
+          {
+            "fr": "Soixante-douze, c'est 62.",
+            "zh": "soixante-douze ＝ 62",
+            "why": "soixante 是 60 沒錯，但後面接的是 douze（12），60+12=72。62 是 soixante-deux。",
+            "correct": false
+          },
+          {
+            "fr": "Soixante-douze, c'est 612.",
+            "zh": "soixante-douze ＝ 612",
+            "why": "不是把數字接在一起唸，是加法：60 + 12 = 72。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Avec la promotion, ça fait quatre-vingt-quinze euros pour trois mois.",
+          "zh": "促銷價三個月九十五歐元。"
+        },
+        "prompt": "quatre-vingt-quinze 是多少？",
+        "options": [
+          {
+            "fr": "Quatre-vingt-quinze, c'est 95.",
+            "zh": "quatre-vingt-quinze ＝ 95",
+            "why": "★ 80 是 quatre-vingts，字面意思是「四個二十」（4×20）。95 = 80 + 15 = quatre-vingt-quinze。",
+            "correct": true
+          },
+          {
+            "fr": "Quatre-vingt-quinze, c'est 80.",
+            "zh": "quatre-vingt-quinze ＝ 80",
+            "why": "quatre-vingts 才是 80，後面還有 quinze（15）要加上去。",
+            "correct": false
+          },
+          {
+            "fr": "Quatre-vingt-quinze, c'est 425.",
+            "zh": "quatre-vingt-quinze ＝ 425",
+            "why": "quatre-vingt 是固定的「80」，不是 4 和 25 分開唸。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Quel est votre numéro de téléphone ?",
+          "zh": "您的電話號碼是幾號？"
+        },
+        "prompt": "你的號碼是 06 12 34 56 78，法國人怎麼唸？",
+        "options": [
+          {
+            "fr": "Zéro six, douze, trente-quatre, cinquante-six, soixante-dix-huit.",
+            "zh": "06-12-34-56-78",
+            "why": "★ 法國電話號碼固定「兩位一組」唸：06 / 12 / 34 / 56 / 78 → 零六、十二、三十四、五十六、七十八。",
+            "correct": true
+          },
+          {
+            "fr": "Zéro, six, un, deux, trois, quatre, cinq, six, sept, huit.",
+            "zh": "一個一個唸",
+            "why": "法國人報電話不會一個一個數字唸，一定是兩位一組。",
+            "correct": false
+          },
+          {
+            "fr": "Six millions cent vingt-trois mille...",
+            "zh": "當成一個大數字唸",
+            "why": "不能把整串當成一個大數字。要兩位兩位拆開。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Parfait. Et vous avez quel âge ?",
+          "zh": "好的。那您幾歲？"
+        },
+        "prompt": "你 31 歲。",
+        "options": [
+          {
+            "fr": "J'ai trente et un ans.",
+            "zh": "我 31 歲。",
+            "why": "★ 年齡一定用 avoir：J'ai 31 ans。31 寫成 trente et un（有 et、不加連字號），而且 ans（歲）不能省略。",
+            "correct": true
+          },
+          {
+            "fr": "Je suis trente et un ans.",
+            "zh": "我是 31 歲。",
+            "why": "★ 這是華語使用者最常犯的錯：年齡用 avoir 不是 être。要說 J'ai 31 ans。",
+            "correct": false
+          },
+          {
+            "fr": "J'ai trente-un.",
+            "zh": "我有三十一。",
+            "why": "兩個問題：31 要寫 trente et un；而且一定要加 ans。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Petit jeu ! Comment on dit 71 en français ?",
+          "zh": "小遊戲！71 的法文怎麼說？"
+        },
+        "prompt": "🎲 71 怎麼說？",
+        "options": [
+          {
+            "fr": "soixante et onze",
+            "zh": "71",
+            "why": "71 = 60 + 11 = soixante et onze。★ 注意只有 71 有 et，72 以後就沒有了：soixante-douze、soixante-treize…",
+            "correct": true
+          },
+          {
+            "fr": "septante et un",
+            "zh": "71（另一種說法）",
+            "why": "septante 在比利時和瑞士確實這樣說，但法國本土不用。在巴黎和考試裡要說 soixante et onze。",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "order": 13,
+    "chapter": "第四章 · 課堂內容總複習"
+  },
+  {
+    "id": "pays-nationalite-game",
+    "icon": "🌍",
+    "title": "第 14 天：語言學校迎新會",
+    "place": "巴黎 · 語言學校交誼廳",
+    "time": "11:00",
+    "weather": "☀️",
+    "level": "A1",
+    "goal": "說出自己從哪來、是哪國人、要去哪個國家",
+    "topic": "國家與國籍",
+    "npc": {
+      "name": "Emma",
+      "role": "德國同學",
+      "avatar": "emma"
+    },
+    "intro": "迎新會上大家互相自我介紹。兩個規則要記：國家前面用 en / au / aux，國籍當形容詞時不加冠詞、而且要跟性別配合。",
+    "vocab": [
+      {
+        "fr": "venir de",
+        "zh": "來自…"
+      },
+      {
+        "fr": "un pays",
+        "zh": "國家"
+      },
+      {
+        "fr": "une nationalité",
+        "zh": "國籍"
+      },
+      {
+        "fr": "taïwanais / taïwanaise",
+        "zh": "台灣人（男／女）"
+      },
+      {
+        "fr": "allemand / allemande",
+        "zh": "德國人（男／女）"
+      },
+      {
+        "fr": "japonais / japonaise",
+        "zh": "日本人（男／女）"
+      },
+      {
+        "fr": "en France",
+        "zh": "在／去法國（陰性）"
+      },
+      {
+        "fr": "au Japon",
+        "zh": "在／去日本（陽性）"
+      },
+      {
+        "fr": "aux États-Unis",
+        "zh": "在／去美國（複數）"
+      },
+      {
+        "fr": "l'année prochaine",
+        "zh": "明年"
+      }
+    ],
+    "steps": [
+      {
+        "npc": {
+          "fr": "Salut ! Moi c'est Emma. Tu viens d'où ?",
+          "zh": "嗨！我叫 Emma。你從哪裡來？"
+        },
+        "prompt": "同學問你從哪來。",
+        "options": [
+          {
+            "fr": "Je viens de Taïwan.",
+            "zh": "我來自台灣。",
+            "why": "★ venir de = 來自。同學之間用 tu，不用 vous。Taïwan 前面不加冠詞，直接 de Taïwan。",
+            "correct": true
+          },
+          {
+            "fr": "Je viens à Taïwan.",
+            "zh": "我要去台灣。",
+            "why": "à 是「去」，de 才是「從…來」。Je vais à Taïwan 是「我要去台灣」。",
+            "correct": false
+          },
+          {
+            "fr": "Je viens du Taïwan.",
+            "zh": "我來自那個台灣。",
+            "why": "Taïwan 不加冠詞。陽性國家才用 du（je viens du Japon）。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Ah, et tu es taïwanais alors ?",
+          "zh": "啊，所以你是台灣人囉？"
+        },
+        "prompt": "回答你的國籍。",
+        "options": [
+          {
+            "fr": "Oui, je suis taïwanais.",
+            "zh": "是的，我是台灣人。",
+            "why": "★ 講國籍時 être 後面「不加冠詞」，而且國籍當形容詞用時要小寫：je suis taïwanais。",
+            "correct": true
+          },
+          {
+            "fr": "Oui, je suis un taïwanais.",
+            "zh": "是的，我是一個台灣人。",
+            "why": "國籍、職業、宗教接在 être 後面時都不加冠詞。要說 je suis taïwanais。",
+            "correct": false
+          },
+          {
+            "fr": "Oui, j'ai taïwanais.",
+            "zh": "是的，我有台灣人。",
+            "why": "國籍用 être（是），不是 avoir（有）。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Moi je suis allemande. Et Yuki, elle est japonaise.",
+          "zh": "我是德國人。而 Yuki，她是日本人。"
+        },
+        "prompt": "為什麼是 allemande、japonaise，而不是 allemand、japonais？",
+        "options": [
+          {
+            "fr": "Elle est allemande.",
+            "zh": "她是德國人（陰性加 e）",
+            "why": "★ 國籍是形容詞，要跟「人」的性別配合：allemand（男）→ allemande（女）；japonais → japonaise；français → française。",
+            "correct": true
+          },
+          {
+            "fr": "Elle est allemand.",
+            "zh": "她是德國人（不加 e）",
+            "why": "Emma 是女生，形容詞要用陰性 allemande，字尾要加 e。",
+            "correct": false
+          },
+          {
+            "fr": "Elle est une allemande.",
+            "zh": "她是一個德國人",
+            "why": "加了冠詞就錯了。être 後面接國籍時不加冠詞。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Tu pars en vacances cet été ? Tu vas où ?",
+          "zh": "今年夏天你要去度假嗎？要去哪？"
+        },
+        "prompt": "你要去日本和韓國。",
+        "options": [
+          {
+            "fr": "Je vais au Japon et en Corée.",
+            "zh": "我要去日本和韓國。",
+            "why": "★ 陽性國家用 au（le Japon → au Japon）；陰性國家用 en（la Corée → en Corée）。",
+            "correct": true
+          },
+          {
+            "fr": "Je vais en Japon et au Corée.",
+            "zh": "我要去日本和韓國。",
+            "why": "反了。le Japon 是陽性要用 au；la Corée 是陰性要用 en。",
+            "correct": false
+          },
+          {
+            "fr": "Je vais à Japon et à Corée.",
+            "zh": "我要去日本和韓國。",
+            "why": "à 只用在城市（à Paris、à Tokyo）。國家要用 en / au / aux。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Super ! Et l'année prochaine ?",
+          "zh": "太好了！那明年呢？"
+        },
+        "prompt": "你明年要去美國。",
+        "options": [
+          {
+            "fr": "Je vais aux États-Unis.",
+            "zh": "我要去美國。",
+            "why": "★ 國名本身是複數就用 aux：les États-Unis → aux États-Unis；les Pays-Bas → aux Pays-Bas。",
+            "correct": true
+          },
+          {
+            "fr": "Je vais en États-Unis.",
+            "zh": "我要去美國。",
+            "why": "en 用在陰性單數國家。複數國家要用 aux。",
+            "correct": false
+          },
+          {
+            "fr": "Je vais au États-Unis.",
+            "zh": "我要去美國。",
+            "why": "au 是陽性「單數」。États-Unis 是複數，要用 aux。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Petit jeu ! « en » ou « au » ? ... Portugal !",
+          "zh": "小遊戲！是 en 還是 au ？…葡萄牙！"
+        },
+        "prompt": "🎲 去葡萄牙要用哪個介係詞？",
+        "options": [
+          {
+            "fr": "au Portugal",
+            "zh": "陽性 → au",
+            "why": "le Portugal 是陽性國家 → au Portugal。訣竅：子音結尾的國家多半是陽性（le Japon、le Canada、le Maroc）。",
+            "correct": true
+          },
+          {
+            "fr": "en Portugal",
+            "zh": "陰性 → en",
+            "why": "en 用在陰性國家（en France、en Chine）。Portugal 是陽性，要用 au。",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "order": 14,
+    "chapter": "第四章 · 課堂內容總複習"
+  },
+  {
+    "id": "se-presenter",
+    "icon": "🙋",
+    "title": "第 15 天：認識新朋友",
+    "place": "巴黎 · 拉丁區咖啡館",
+    "time": "16:30",
+    "weather": "🌤️",
+    "level": "A1",
+    "goal": "用 être 和 avoir 完整介紹自己",
+    "topic": "自我介紹",
+    "npc": {
+      "name": "Thomas",
+      "role": "新認識的朋友",
+      "avatar": "thomas"
+    },
+    "intro": "自我介紹最容易錯的是 être 和 avoir 用反：名字用 s'appeler、年齡用 avoir、職業和國籍用 être。這一關一次練完。",
+    "vocab": [
+      {
+        "fr": "s'appeler",
+        "zh": "名叫（反身動詞）"
+      },
+      {
+        "fr": "Je m'appelle...",
+        "zh": "我叫…"
+      },
+      {
+        "fr": "J'ai ... ans.",
+        "zh": "我…歲"
+      },
+      {
+        "fr": "habiter",
+        "zh": "住"
+      },
+      {
+        "fr": "un ingénieur",
+        "zh": "工程師"
+      },
+      {
+        "fr": "un frère",
+        "zh": "哥哥／弟弟"
+      },
+      {
+        "fr": "une sœur",
+        "zh": "姊姊／妹妹"
+      },
+      {
+        "fr": "Enchanté !",
+        "zh": "幸會！（男生說）"
+      },
+      {
+        "fr": "Enchantée !",
+        "zh": "幸會！（女生說）"
+      }
+    ],
+    "steps": [
+      {
+        "npc": {
+          "fr": "Salut ! Comment tu t'appelles ?",
+          "zh": "嗨！你叫什麼名字？"
+        },
+        "prompt": "說出你的名字。",
+        "options": [
+          {
+            "fr": "Je m'appelle Erik.",
+            "zh": "我叫 Erik。",
+            "why": "★ s'appeler 是反身動詞，主詞後面要多一個代名詞：je m'appelle / tu t'appelles / il s'appelle。",
+            "correct": true
+          },
+          {
+            "fr": "Je suis appelé Erik.",
+            "zh": "我被叫做 Erik。",
+            "why": "文法上是被動式，法國人不這樣自我介紹。要說 Je m'appelle…",
+            "correct": false
+          },
+          {
+            "fr": "Mon nom Erik.",
+            "zh": "我的名字 Erik。",
+            "why": "少了動詞。可以說 Mon nom, c'est Erik，但最自然的是 Je m'appelle Erik。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Enchanté ! Tu as quel âge ?",
+          "zh": "幸會！你幾歲？"
+        },
+        "prompt": "你 29 歲。",
+        "options": [
+          {
+            "fr": "J'ai vingt-neuf ans.",
+            "zh": "我 29 歲。",
+            "why": "★ 年齡用 avoir，而且 ans 不能省略：J'ai 29 ans。",
+            "correct": true
+          },
+          {
+            "fr": "Je suis vingt-neuf ans.",
+            "zh": "我是 29 歲。",
+            "why": "★ 年齡一定用 avoir 不是 être。中文說「我是 29 歲」，法文說「我有 29 年」。",
+            "correct": false
+          },
+          {
+            "fr": "J'ai vingt-neuf.",
+            "zh": "我有 29。",
+            "why": "少了 ans。法文說年齡一定要把「歲」講出來。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Et tu fais quoi ? Tu es étudiant ?",
+          "zh": "那你是做什麼的？你是學生嗎？"
+        },
+        "prompt": "你是工程師。",
+        "options": [
+          {
+            "fr": "Non, je suis ingénieur.",
+            "zh": "不是，我是工程師。",
+            "why": "★ 職業接在 être 後面不加冠詞：je suis ingénieur / étudiant / professeur。",
+            "correct": true
+          },
+          {
+            "fr": "Non, je suis un ingénieur.",
+            "zh": "不是，我是一個工程師。",
+            "why": "講職業時不加冠詞，這跟英文 I am an engineer 不一樣。",
+            "correct": false
+          },
+          {
+            "fr": "Non, j'ai ingénieur.",
+            "zh": "不是，我有工程師。",
+            "why": "職業用 être（是），不是 avoir（有）。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Tu habites où ?",
+          "zh": "你住哪裡？"
+        },
+        "prompt": "你住在巴黎。",
+        "options": [
+          {
+            "fr": "J'habite à Paris.",
+            "zh": "我住在巴黎。",
+            "why": "★ 城市前面用 à：à Paris、à Taipei。habiter 後面可以直接接 à + 城市。",
+            "correct": true
+          },
+          {
+            "fr": "J'habite en Paris.",
+            "zh": "我住在巴黎。",
+            "why": "en 用在陰性國家（en France）。城市要用 à。",
+            "correct": false
+          },
+          {
+            "fr": "J'habite au Paris.",
+            "zh": "我住在巴黎。",
+            "why": "au 用在陽性國家（au Japon）。城市不加冠詞，直接 à Paris。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Tu as des frères et sœurs ?",
+          "zh": "你有兄弟姊妹嗎？"
+        },
+        "prompt": "你有一個姊姊。",
+        "options": [
+          {
+            "fr": "Oui, j'ai une sœur.",
+            "zh": "有，我有一個姊姊。",
+            "why": "★ 「有」家人用 avoir。une sœur 是陰性，用 une。",
+            "correct": true
+          },
+          {
+            "fr": "Oui, je suis une sœur.",
+            "zh": "有，我是一個姊姊。",
+            "why": "être 是「是」。你「有」一個姊姊，要用 avoir。",
+            "correct": false
+          },
+          {
+            "fr": "Oui, j'ai un sœur.",
+            "zh": "有，我有一個姊姊。",
+            "why": "la sœur 是陰性名詞，要用 une sœur。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Petit jeu ! être ou avoir ? Dis-moi ton âge.",
+          "zh": "小遊戲！用 être 還是 avoir ？…「我 30 歲」"
+        },
+        "prompt": "🎲 「我 30 歲」怎麼說？",
+        "options": [
+          {
+            "fr": "J'ai trente ans.",
+            "zh": "用 avoir",
+            "why": "★ 年齡永遠用 avoir。整理一下：名字用 s'appeler、年齡用 avoir、國籍和職業用 être。",
+            "correct": true
+          },
+          {
+            "fr": "Je suis trente ans.",
+            "zh": "用 être",
+            "why": "錯。法文的年齡是「擁有幾年」，一定用 avoir：J'ai 30 ans。",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "order": 15,
+    "chapter": "第四章 · 課堂內容總複習"
+  },
+  {
+    "id": "professions-game",
+    "icon": "💼",
+    "title": "第 16 天：朋友家的晚餐",
+    "place": "巴黎 · 第 9 區公寓",
+    "time": "20:30",
+    "weather": "🌙",
+    "level": "A2",
+    "goal": "說出職業，並做對陰陽性變化",
+    "topic": "職業",
+    "npc": {
+      "name": "Claire",
+      "role": "朋友的室友",
+      "avatar": "claire"
+    },
+    "intro": "晚餐派對上最常被問的就是「你是做什麼的」。職業接在 être 後面不加冠詞，而且很多職業有陰陽性兩種寫法。",
+    "vocab": [
+      {
+        "fr": "dans la vie",
+        "zh": "（問職業用）你是做什麼的"
+      },
+      {
+        "fr": "un professeur",
+        "zh": "老師"
+      },
+      {
+        "fr": "un infirmier / une infirmière",
+        "zh": "護理師（男／女）"
+      },
+      {
+        "fr": "un serveur / une serveuse",
+        "zh": "服務生（男／女）"
+      },
+      {
+        "fr": "un boulanger / une boulangère",
+        "zh": "麵包師（男／女）"
+      },
+      {
+        "fr": "travailler",
+        "zh": "工作"
+      },
+      {
+        "fr": "une entreprise",
+        "zh": "公司"
+      },
+      {
+        "fr": "un hôpital",
+        "zh": "醫院"
+      },
+      {
+        "fr": "le travail",
+        "zh": "工作（名詞）"
+      }
+    ],
+    "steps": [
+      {
+        "npc": {
+          "fr": "Alors, qu'est-ce que tu fais dans la vie ?",
+          "zh": "那麼，你是做什麼的？"
+        },
+        "prompt": "你是老師。",
+        "options": [
+          {
+            "fr": "Je suis professeur.",
+            "zh": "我是老師。",
+            "why": "★ 職業接 être 不加冠詞。faire dans la vie 是問職業最口語的說法。",
+            "correct": true
+          },
+          {
+            "fr": "Je suis un professeur.",
+            "zh": "我是一個老師。",
+            "why": "講職業時不加冠詞，要說 je suis professeur。",
+            "correct": false
+          },
+          {
+            "fr": "Je fais professeur.",
+            "zh": "我做老師。",
+            "why": "faire 是用在問句 qu'est-ce que tu fais，回答時要用 être。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Et mon amie Marie, elle travaille à l'hôpital.",
+          "zh": "我朋友 Marie 在醫院工作。"
+        },
+        "prompt": "Marie 是護理師，怎麼說？",
+        "options": [
+          {
+            "fr": "Elle est infirmière.",
+            "zh": "她是護理師。",
+            "why": "★ 職業要跟性別配合：un infirmier（男）→ une infirmière（女）。-ier 結尾變成 -ière。",
+            "correct": true
+          },
+          {
+            "fr": "Elle est infirmier.",
+            "zh": "她是護理師（陽性）。",
+            "why": "Marie 是女生，要用陰性 infirmière。",
+            "correct": false
+          },
+          {
+            "fr": "Elle est une infirmière.",
+            "zh": "她是一個護理師。",
+            "why": "陰陽性對了，但職業前面不加冠詞。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Et toi, tu travailles où ?",
+          "zh": "那你呢，你在哪裡工作？"
+        },
+        "prompt": "你在一家公司上班。",
+        "options": [
+          {
+            "fr": "Je travaille dans une entreprise.",
+            "zh": "我在一家公司工作。",
+            "why": "★ 在某個「場所裡面」工作用 dans；如果是特定機構可以用 à：je travaille à l'hôpital。",
+            "correct": true
+          },
+          {
+            "fr": "Je travaille en une entreprise.",
+            "zh": "我在一家公司工作。",
+            "why": "en 不能接不定冠詞。要用 dans une entreprise。",
+            "correct": false
+          },
+          {
+            "fr": "Je travaille à une entreprise.",
+            "zh": "我在一家公司工作。",
+            "why": "à 後面接定冠詞的特定地點（à l'hôpital）。接不定冠詞時用 dans。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Tu aimes ton travail ?",
+          "zh": "你喜歡你的工作嗎？"
+        },
+        "prompt": "你很喜歡。",
+        "options": [
+          {
+            "fr": "Oui, j'aime beaucoup mon travail.",
+            "zh": "是的，我很喜歡我的工作。",
+            "why": "★ beaucoup 放在動詞後面：j'aime beaucoup...，不是 j'aime mon travail beaucoup。",
+            "correct": true
+          },
+          {
+            "fr": "Oui, j'aime mon travail beaucoup.",
+            "zh": "是的，我喜歡我的工作很多。",
+            "why": "語序不對。beaucoup 要緊跟在動詞後面。",
+            "correct": false
+          },
+          {
+            "fr": "Oui, je suis aimer mon travail.",
+            "zh": "是的，我是喜歡我的工作。",
+            "why": "aimer 本身就是動詞，前面不用再加 être。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Petit jeu ! Le féminin de « un serveur » ?",
+          "zh": "小遊戲！un serveur 的陰性是？"
+        },
+        "prompt": "🎲 男服務生 un serveur，女服務生怎麼說？",
+        "options": [
+          {
+            "fr": "une serveuse",
+            "zh": "陰性",
+            "why": "★ -eur 結尾的職業，陰性多半變成 -euse：serveur → serveuse；vendeur → vendeuse；coiffeur → coiffeuse。",
+            "correct": true
+          },
+          {
+            "fr": "une serveure",
+            "zh": "陰性",
+            "why": "法文沒有 -eure 這種寫法。-eur 要變成 -euse。",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "order": 16,
+    "chapter": "第四章 · 課堂內容總複習"
+  },
+  {
+    "id": "meteo-voisin",
+    "icon": "🌤️",
+    "title": "第 17 天：跟鄰居聊天氣",
+    "place": "巴黎 · 盧森堡公園",
+    "time": "10:15",
+    "weather": "⛅",
+    "level": "A1",
+    "goal": "用四種句型描述天氣",
+    "topic": "天氣",
+    "npc": {
+      "name": "Gilles",
+      "role": "樓下的鄰居",
+      "avatar": "gilles"
+    },
+    "intro": "天氣是法國人最愛的開場話題。記住四種句型：Il fait + 形容詞、Il pleut 這種無人稱動詞、Le ciel est + 形容詞、Il y a + 名詞。",
+    "vocab": [
+      {
+        "fr": "Quel temps fait-il ?",
+        "zh": "天氣如何？"
+      },
+      {
+        "fr": "Il fait beau.",
+        "zh": "天氣很好。"
+      },
+      {
+        "fr": "Il fait froid.",
+        "zh": "很冷。"
+      },
+      {
+        "fr": "Il pleut.",
+        "zh": "在下雨。"
+      },
+      {
+        "fr": "Il neige.",
+        "zh": "在下雪。"
+      },
+      {
+        "fr": "Il y a du vent.",
+        "zh": "有風。"
+      },
+      {
+        "fr": "nuageux",
+        "zh": "多雲的"
+      },
+      {
+        "fr": "la météo",
+        "zh": "天氣預報"
+      },
+      {
+        "fr": "en été",
+        "zh": "在夏天"
+      },
+      {
+        "fr": "au printemps",
+        "zh": "在春天"
+      }
+    ],
+    "steps": [
+      {
+        "npc": {
+          "fr": "Bonjour voisin ! Quel temps fait-il aujourd'hui ?",
+          "zh": "早安鄰居！今天天氣如何？"
+        },
+        "prompt": "今天天氣很好。",
+        "options": [
+          {
+            "fr": "Il fait beau aujourd'hui.",
+            "zh": "今天天氣很好。",
+            "why": "★ Il fait + 形容詞是最常用的天氣句型。這個 il 是假主詞，不指任何人。",
+            "correct": true
+          },
+          {
+            "fr": "Il est beau aujourd'hui.",
+            "zh": "他今天很帥。",
+            "why": "Il est beau 是「他很帥」，在講人。天氣要用 Il fait beau。",
+            "correct": false
+          },
+          {
+            "fr": "C'est fait beau aujourd'hui.",
+            "zh": "天氣被做得很好。",
+            "why": "句型混亂了。就是簡單的 Il fait beau。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Oui ! Mais on annonce de la pluie pour demain.",
+          "zh": "是啊！不過預報說明天會下雨。"
+        },
+        "prompt": "用「即將」的說法講明天會下雨。",
+        "options": [
+          {
+            "fr": "Ah bon ? Il va pleuvoir demain.",
+            "zh": "是喔？明天要下雨了。",
+            "why": "★ 講近未來用 aller + 原形動詞：il va pleuvoir（要下雨了）。pleuvoir 只有 il 這個人稱。",
+            "correct": true
+          },
+          {
+            "fr": "Ah bon ? Il va pleut demain.",
+            "zh": "是喔？明天要下雨。",
+            "why": "aller 後面一定接「原形動詞」。pleut 是變位過的，原形是 pleuvoir。",
+            "correct": false
+          },
+          {
+            "fr": "Ah bon ? Il pleuvra beaucoup de pluie.",
+            "zh": "是喔？明天會下很多雨。",
+            "why": "pleuvoir 本身已經是「下雨」，後面再加 de la pluie 就重複了。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Et il y a beaucoup de vent en ce moment.",
+          "zh": "而且最近風很大。"
+        },
+        "prompt": "用名詞的說法講「有風」。",
+        "options": [
+          {
+            "fr": "Oui, il y a du vent tous les jours.",
+            "zh": "對，每天都有風。",
+            "why": "★ 天氣用「名詞」時要搭配 il y a，而且要加部分冠詞：il y a du vent / de la pluie / des nuages。",
+            "correct": true
+          },
+          {
+            "fr": "Oui, il fait du vent tous les jours.",
+            "zh": "對，每天都刮風。",
+            "why": "風是名詞，要用 il y a du vent。il fait 後面接的是形容詞（il fait beau / froid）。",
+            "correct": false
+          },
+          {
+            "fr": "Oui, il y a vent tous les jours.",
+            "zh": "對，每天都有風。",
+            "why": "少了部分冠詞。要說 il y a du vent。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Vous préférez quelle saison ?",
+          "zh": "您比較喜歡哪個季節？"
+        },
+        "prompt": "你喜歡夏天，因為很熱。",
+        "options": [
+          {
+            "fr": "J'aime l'été, parce qu'il fait chaud.",
+            "zh": "我喜歡夏天，因為很熱。",
+            "why": "★ 季節當名詞時加冠詞（j'aime l'été）；但講「在夏天」時要說 en été，不加冠詞。",
+            "correct": true
+          },
+          {
+            "fr": "J'aime en été, parce qu'il fait chaud.",
+            "zh": "我喜歡在夏天，因為很熱。",
+            "why": "aimer 後面直接接名詞加定冠詞：j'aime l'été。en été 是「在夏天」，用在時間副詞。",
+            "correct": false
+          },
+          {
+            "fr": "J'aime l'été, parce qu'il est chaud.",
+            "zh": "我喜歡夏天，因為它很熱。",
+            "why": "天氣要用 il fait chaud，不是 il est chaud。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Petit jeu ! Complétez : le ciel est ... ?",
+          "zh": "小遊戲！填空：天空很多雲。"
+        },
+        "prompt": "🎲 「天空多雲」的形容詞是？",
+        "options": [
+          {
+            "fr": "Le ciel est nuageux.",
+            "zh": "多雲的",
+            "why": "★ 名詞 un nuage（雲）→ 形容詞 nuageux（多雲的）。同一組：pluie → pluvieux、orage → orageux、soleil → ensoleillé。",
+            "correct": true
+          },
+          {
+            "fr": "Le ciel est nuage.",
+            "zh": "雲",
+            "why": "nuage 是名詞（一朵雲），不能直接當形容詞用。形容詞是 nuageux。",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "order": 17,
+    "chapter": "第四章 · 課堂內容總複習"
+  },
+  {
+    "id": "rendez-vous",
+    "icon": "🗓️",
+    "title": "第 18 天：跟朋友約下次見面",
+    "place": "巴黎 · 河岸邊",
+    "time": "18:30",
+    "weather": "🌇",
+    "level": "A2",
+    "goal": "把日期和時間組成一句完整的話",
+    "topic": "日期與時間",
+    "npc": {
+      "name": "Lucas",
+      "role": "語言學校同學",
+      "avatar": "lucas"
+    },
+    "intro": "這一關把時間和日期整合起來。關鍵：日期用 on est，時間用 il est，兩個主詞不同，要用 et 連成兩句。",
+    "vocab": [
+      {
+        "fr": "On est quel jour ?",
+        "zh": "今天星期幾？"
+      },
+      {
+        "fr": "On est le combien ?",
+        "zh": "今天幾號？"
+      },
+      {
+        "fr": "Il est quelle heure ?",
+        "zh": "現在幾點？"
+      },
+      {
+        "fr": "et demie",
+        "zh": "又 30 分"
+      },
+      {
+        "fr": "moins le quart",
+        "zh": "差 15 分"
+      },
+      {
+        "fr": "la semaine prochaine",
+        "zh": "下星期"
+      },
+      {
+        "fr": "On se voit...",
+        "zh": "我們…見面"
+      },
+      {
+        "fr": "Ça te va ?",
+        "zh": "你方便嗎？"
+      },
+      {
+        "fr": "À demain !",
+        "zh": "明天見！"
+      }
+    ],
+    "steps": [
+      {
+        "npc": {
+          "fr": "Dis, on est quel jour aujourd'hui ?",
+          "zh": "欸，今天星期幾？"
+        },
+        "prompt": "今天是星期二。",
+        "options": [
+          {
+            "fr": "On est mardi.",
+            "zh": "今天星期二。",
+            "why": "★ 日期用 on est / nous sommes / c'est，不加冠詞。加了 le（le mardi）意思會變成「每個星期二」。",
+            "correct": true
+          },
+          {
+            "fr": "Il est mardi.",
+            "zh": "現在是星期二。",
+            "why": "★ 最常見的錯誤：il est 只用在「幾點」。日期要用 on est。",
+            "correct": false
+          },
+          {
+            "fr": "On est le mardi.",
+            "zh": "我們在每個星期二。",
+            "why": "加了 le 就變成「每週二」的習慣。講今天不加冠詞。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Et on est le combien ?",
+          "zh": "那今天幾號？"
+        },
+        "prompt": "今天是 9 月 15 日。",
+        "options": [
+          {
+            "fr": "On est le 15 septembre.",
+            "zh": "今天是九月十五日。",
+            "why": "★ 日期公式：le + 日 + 月，順序跟中文相反。中文「9月15日」→ 法文 le 15 septembre。",
+            "correct": true
+          },
+          {
+            "fr": "On est le septembre 15.",
+            "zh": "今天是九月十五。",
+            "why": "順序顛倒了。法文先講幾號再講幾月。",
+            "correct": false
+          },
+          {
+            "fr": "On est le 15 de septembre.",
+            "zh": "今天是九月的十五日。",
+            "why": "中間不加 de，那是西班牙文的習慣。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Merci ! Et il est quelle heure ?",
+          "zh": "謝謝！那現在幾點？"
+        },
+        "prompt": "現在是 18:30。",
+        "options": [
+          {
+            "fr": "Il est dix-huit heures trente.",
+            "zh": "現在 18:30。",
+            "why": "★ 時間用 il est。官方 24 小時制直接唸數字；日常說法是 six heures et demie du soir。",
+            "correct": true
+          },
+          {
+            "fr": "On est dix-huit heures trente.",
+            "zh": "我們是 18:30。",
+            "why": "時間要用 il est，on est 是用在日期。",
+            "correct": false
+          },
+          {
+            "fr": "Il est dix-huit heures et demie.",
+            "zh": "現在十八點半。",
+            "why": "24 小時制不用 et demie，要說 dix-huit heures trente。et demie 只用在 12 小時制。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "On se voit demain ? À quelle heure ?",
+          "zh": "我們明天見？幾點？"
+        },
+        "prompt": "約早上七點半。",
+        "options": [
+          {
+            "fr": "À sept heures et demie, ça te va ?",
+            "zh": "七點半，你方便嗎？",
+            "why": "★ 「在幾點」用 à。12 小時制的 30 分說 et demie（配陰性的 heure 要加 e）。ça te va ? 是問朋友方不方便。",
+            "correct": true
+          },
+          {
+            "fr": "En sept heures et demie, ça te va ?",
+            "zh": "在七個半小時內，你方便嗎？",
+            "why": "時刻要用 à。en sept heures 是「花七小時」。",
+            "correct": false
+          },
+          {
+            "fr": "À sept heures et demi, ça te va ?",
+            "zh": "七點半，你方便嗎？",
+            "why": "demie 要加 e，因為配的是陰性的 heure。只有 midi et demi / minuit et demi 不加 e。",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "npc": {
+          "fr": "Parfait ! Tu peux me redire la date et l'heure ?",
+          "zh": "太好了！你可以再說一次日期和時間嗎？"
+        },
+        "prompt": "把日期和時間組成一句完整的話。",
+        "options": [
+          {
+            "fr": "On est le mardi 15 septembre et il est dix-huit heures trente.",
+            "zh": "今天是 9 月 15 日星期二，現在 18:30。",
+            "why": "★ 完整公式：On est + le + 星期 + 日 + 月 ＋ et ＋ il est + 時間。兩個主詞不同（on / il），所以要分成兩個子句用 et 連起來。",
+            "correct": true
+          },
+          {
+            "fr": "Il est le mardi 15 septembre et dix-huit heures trente.",
+            "zh": "現在是九月十五日星期二和十八點半。",
+            "why": "日期不能用 il est。要說 On est le mardi 15 septembre et il est…",
+            "correct": false
+          },
+          {
+            "fr": "On est le mardi 15 septembre à dix-huit heures trente.",
+            "zh": "我們在九月十五日星期二的十八點半。",
+            "why": "à 是「在某個時刻做某事」。單純陳述現在時間要另起一句用 il est。",
+            "correct": false
+          }
+        ]
+      }
+    ],
+    "order": 18,
+    "chapter": "第四章 · 課堂內容總複習"
+  }
+]

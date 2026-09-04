@@ -11,6 +11,7 @@
 //   #/bank
 //   #/units/numbers       #/grammar/A1/3       #/verbs/aller
 //   #/dialogues/12        #/search?q=國籍
+//   #/game                #/game/cafe-bonjour
 
 import { useEffect, useState } from 'react'
 
