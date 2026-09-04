@@ -255,6 +255,232 @@ const SCENES = {
     </>
   ),
 
+  // 🏥 pharmacy
+  pharmacy: (
+    <>
+      {F.wall('#eaf3ef')}
+      <rect width="400" height="24" fill="#1f8f5f" />
+      {F.floor(152, '#cddbd4')}
+      <rect y="146" width="400" height="8" fill="#a3b8ae" />
+      {/* green cross */}
+      <g fill="#1f8f5f">
+        <rect x="176" y="36" width="48" height="16" rx="3" />
+        <rect x="192" y="20" width="16" height="48" rx="3" />
+      </g>
+      {/* shelves of boxes */}
+      {[26, 300].map((x) => (
+        <g key={x}>
+          <rect x={x} y="56" width="74" height="94" rx="4" fill="#dfe9e4" stroke="#b6c8c0" strokeWidth="2" />
+          {[64, 92, 120].map((y) => <rect key={y} x={x} y={y + 12} width="74" height="4" fill="#b6c8c0" />)}
+          <g>
+            {[0, 1, 2].map((r) =>
+              [0, 1, 2].map((k) => (
+                <rect key={`${r}-${k}`} x={x + 7 + k * 22} y={62 + r * 28} width="16" height="14" rx="2"
+                  fill={['#e0533f', '#2f7d5f', '#e8b04a'][(r + k) % 3]} />
+              )),
+            )}
+          </g>
+        </g>
+      ))}
+      {/* counter */}
+      <rect x="118" y="112" width="164" height="40" rx="4" fill="#cfd9e0" />
+      <rect x="118" y="104" width="164" height="10" rx="4" fill="#eef3f6" />
+      <rect x="228" y="80" width="44" height="26" rx="3" fill="#3a4a5c" />
+      <rect x="233" y="85" width="34" height="14" rx="2" fill="#8fd3b0" />
+    </>
+  ),
+
+  // 🧥 clothes boutique
+  boutique: (
+    <>
+      {F.wall('#f2e9e2')}
+      {F.floor(152, '#c9b7a6')}
+      <rect y="146" width="400" height="8" fill="#a08d7c" />
+      {/* rail of clothes */}
+      <rect x="24" y="52" width="150" height="5" rx="2" fill="#8a8a8a" />
+      {[0, 1, 2, 3, 4].map((i) => {
+        const x = 36 + i * 28
+        const c = ['#c2455c', '#3f6fd8', '#2f9e78', '#e0863a', '#8a56b8'][i]
+        return (
+          <g key={i}>
+            <path d={`M${x} 57l-6 6v4h12v-4Z`} fill={c} />
+            <path d={`M${x - 12} 67h24l4 46h-32Z`} fill={c} />
+          </g>
+        )
+      })}
+      {/* mirror */}
+      <rect x="196" y="44" width="46" height="108" rx="22" fill="#dfe7ec" stroke="#a89684" strokeWidth="4" />
+      {/* fitting cabins */}
+      <rect x="266" y="40" width="118" height="112" rx="4" fill="#b8a08c" />
+      <rect x="272" y="46" width="50" height="106" fill="#8a6a52" />
+      <rect x="328" y="46" width="50" height="106" fill="#8a6a52" />
+      <path d="M272 46h50v106h-50Z" fill="#a4634f" opacity="0.75" />
+      {/* counter */}
+      <rect x="20" y="120" width="120" height="32" rx="4" fill="#8a6a52" />
+      <rect x="20" y="114" width="120" height="9" rx="4" fill="#c9a889" />
+    </>
+  ),
+
+  // 🚆 train station
+  station: (
+    <>
+      <linearGradient id="sky-station" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stopColor="#f8cf9a" />
+        <stop offset="100%" stopColor="#cfe0ef" />
+      </linearGradient>
+      <rect width="400" height="220" fill="url(#sky-station)" />
+      {/* glass roof arches */}
+      <path d="M0 96V52q100-40 200-40t200 40v44Z" fill="#dce7ef" opacity="0.85" />
+      <g stroke="#9aa9b6" strokeWidth="2" opacity="0.8">
+        {[0, 1, 2, 3, 4, 5, 6, 7].map((k) => <line key={k} x1={k * 52} y1="16" x2={k * 52} y2="96" />)}
+        <line x1="0" y1="60" x2="400" y2="60" />
+      </g>
+      <rect y="150" width="400" height="70" fill="#9aa3ae" />
+      <rect y="146" width="400" height="6" fill="#78818c" />
+      {/* train */}
+      <rect x="222" y="86" width="178" height="62" rx="10" fill="#cfd6de" />
+      <path d="M222 86h-30q-12 12 0 24v38h30Z" fill="#dfe5ec" />
+      <rect x="236" y="96" width="150" height="22" rx="4" fill="#2f4a6b" />
+      <rect x="222" y="130" width="178" height="8" fill="#8fa0b4" />
+      <g fill="#d0453f"><rect x="222" y="120" width="178" height="5" /></g>
+      {/* platform sign */}
+      <rect x="34" y="58" width="96" height="30" rx="4" fill="#1f4d8f" />
+      <text x="82" y="79" fontSize="17" fontWeight="700" textAnchor="middle" fill="#fff">VOIE 7</text>
+      <rect x="78" y="88" width="6" height="60" fill="#4a5563" />
+    </>
+  ),
+
+  // 🎬 cinema
+  cinema: (
+    <>
+      {F.wall('#241a2e')}
+      <rect width="400" height="120" fill="#31223f" />
+      {F.floor(150, '#3b1f24')}
+      <rect y="146" width="400" height="6" fill="#25141a" />
+      {/* marquee lights */}
+      <rect x="30" y="20" width="340" height="60" rx="8" fill="#12202f" stroke="#f2b01e" strokeWidth="3" />
+      <g fill="#ffd75e">
+        {Array.from({ length: 14 }, (_, i) => <circle key={i} cx={44 + i * 24.5} cy="26" r="3.2" />)}
+        {Array.from({ length: 14 }, (_, i) => <circle key={`b${i}`} cx={44 + i * 24.5} cy="74" r="3.2" />)}
+      </g>
+      <g fill="#f2e6c8">
+        <rect x="66" y="38" width="120" height="8" rx="3" />
+        <rect x="66" y="54" width="80" height="7" rx="3" />
+        <rect x="214" y="38" width="120" height="8" rx="3" />
+        <rect x="214" y="54" width="66" height="7" rx="3" />
+      </g>
+      {/* box office */}
+      <rect x="140" y="96" width="120" height="54" rx="5" fill="#4a2c34" />
+      <rect x="152" y="104" width="96" height="30" rx="3" fill="#f7e6b8" opacity="0.9" />
+      {/* poster boards */}
+      {[24, 320].map((x) => (
+        <g key={x}>
+          <rect x={x} y="94" width="56" height="56" rx="3" fill="#12202f" stroke="#8a6a48" strokeWidth="2" />
+          <path d={`M${x + 6} 144l14-22 10 12 10-16 12 26Z`} fill="#5c7f9e" />
+        </g>
+      ))}
+    </>
+  ),
+
+  // ✈️ airport terminal
+  airport: (
+    <>
+      {F.wall('#e9eef4')}
+      <path d="M0 104V56q100-34 200-34t200 34v48Z" fill="#f4f7fa" />
+      <g stroke="#c6d0da" strokeWidth="2">
+        {[0, 1, 2, 3, 4, 5, 6, 7].map((k) => <line key={k} x1={k * 52} y1="20" x2={k * 52} y2="104" />)}
+        <line x1="0" y1="64" x2="400" y2="64" />
+      </g>
+      {F.floor(150, '#cdd6df')}
+      <rect y="146" width="400" height="6" fill="#a8b3bf" />
+      {/* window with a plane */}
+      <rect x="240" y="52" width="146" height="66" rx="6" fill="#a9cde8" stroke="#8fa4b6" strokeWidth="3" />
+      <g fill="#f4f7fa">
+        <path d="M292 88l34-8 18-12 4 6-12 12 22-4 6 4-24 10-30 6Z" />
+      </g>
+      {/* departures board */}
+      <rect x="24" y="46" width="150" height="60" rx="5" fill="#16233f" />
+      <g fill="#f2b01e">
+        {[0, 1, 2, 3].map((r) => <rect key={r} x="34" y={56 + r * 13} width={104 - r * 16} height="6" rx="2" />)}
+      </g>
+      {/* info desk + trolley */}
+      <rect x="150" y="112" width="120" height="38" rx="4" fill="#2f5aa8" />
+      <rect x="150" y="106" width="120" height="9" rx="4" fill="#e9eef4" />
+      <g fill="#7c8794">
+        <rect x="304" y="118" width="46" height="6" rx="2" />
+        <rect x="304" y="124" width="6" height="24" />
+        <circle cx="310" cy="150" r="4" /><circle cx="346" cy="150" r="4" />
+        <rect x="316" y="100" width="32" height="24" rx="3" fill="#b8492f" />
+      </g>
+    </>
+  ),
+
+  // 🏨 hotel lobby
+  hotel: (
+    <>
+      {F.wall('#f0e6d8')}
+      <rect width="400" height="18" fill="#c9b393" />
+      {F.floor(150, '#8a6a4a')}
+      <rect y="146" width="400" height="6" fill="#6b4f36" />
+      {/* reception desk + key board */}
+      <rect x="200" y="102" width="186" height="48" rx="4" fill="#6b4a30" />
+      <rect x="200" y="94" width="186" height="11" rx="4" fill="#a8804f" />
+      <rect x="266" y="36" width="112" height="52" rx="4" fill="#8a6a48" />
+      <g fill="#e8c877">
+        {[0, 1, 2].map((r) =>
+          [0, 1, 2, 3, 4].map((k) => <circle key={`${r}-${k}`} cx={280 + k * 21} cy={48 + r * 16} r="4" />),
+        )}
+      </g>
+      {/* lamp + plant + sofa */}
+      <rect x="228" y="72" width="6" height="24" fill="#4a3a28" />
+      <path d="M218 72l13-16 13 16Z" fill="#f0d79a" />
+      <g>
+        <rect x="26" y="118" width="90" height="32" rx="6" fill="#7d5c8c" />
+        <rect x="26" y="98" width="90" height="24" rx="8" fill="#8e6a9e" />
+      </g>
+      <g>
+        <rect x="146" y="126" width="18" height="24" rx="3" fill="#a8763f" />
+        <circle cx="155" cy="112" r="18" fill="#4f7c3f" />
+        <circle cx="142" cy="120" r="12" fill="#5f9049" />
+        <circle cx="168" cy="120" r="12" fill="#5f9049" />
+      </g>
+    </>
+  ),
+
+  // 🎟️ Versailles
+  versailles: (
+    <>
+      <linearGradient id="sky-vers" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stopColor="#9ecbe8" />
+        <stop offset="100%" stopColor="#e2eef6" />
+      </linearGradient>
+      <rect width="400" height="220" fill="url(#sky-vers)" />
+      <rect y="152" width="400" height="68" fill="#b9a77f" />
+      {/* palace facade */}
+      <rect x="0" y="60" width="400" height="92" fill="#e6d8b4" />
+      <rect x="0" y="54" width="400" height="10" fill="#c9b48c" />
+      <g fill="#8fa4b6">
+        {Array.from({ length: 11 }, (_, k) => (
+          <rect key={k} x={14 + k * 35} y="78" width="20" height="38" rx="10" />
+        ))}
+        {Array.from({ length: 11 }, (_, k) => (
+          <rect key={`b${k}`} x={14 + k * 35} y="124" width="20" height="26" rx="3" />
+        ))}
+      </g>
+      {/* gilded gate */}
+      <g stroke="#d4a72c" strokeWidth="3" fill="none">
+        {Array.from({ length: 9 }, (_, k) => <line key={k} x1={160 + k * 10} y1="112" x2={160 + k * 10} y2="152" />)}
+        <line x1="156" y1="114" x2="244" y2="114" />
+      </g>
+      {/* parterre */}
+      <g fill="#7ba85c">
+        <ellipse cx="80" cy="186" rx="62" ry="20" />
+        <ellipse cx="320" cy="186" rx="62" ry="20" />
+      </g>
+      <ellipse cx="200" cy="196" rx="46" ry="14" fill="#8fc0dd" />
+    </>
+  ),
+
   // 🖼️ Louvre
   louvre: (
     <>
@@ -511,6 +737,22 @@ export const SCENE_BACKDROP = {
   'professions-game': 'apartment',
   'meteo-voisin': 'park',
   'rendez-vous': 'street',
+  pharmacie: 'pharmacy',
+  'objets-perdus': 'metro',
+  vetements: 'boutique',
+  'rdv-medecin': 'apartment',
+  'gare-lyon': 'station',
+  cinema: 'cinema',
+  'apero-bar': 'restaurant',
+  'en-classe': 'school',
+  aeroport: 'airport',
+  hotel: 'hotel',
+  taxi: 'street',
+  'office-tourisme': 'shop',
+  versailles: 'versailles',
+  photo: 'eiffel',
+  souvenirs: 'boutique',
+  'regime-alimentaire': 'restaurant',
 }
 
 export default function Scenery({ sceneId, className = '' }) {

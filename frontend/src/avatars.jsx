@@ -30,6 +30,22 @@ export const CAST = {
   claire:   { skin: '#f3cba7', hair: '#7d3a2a', cut: 'bob',   top: '#8a56b8', acc: 'earrings' },
   gilles:   { skin: '#e9c19c', hair: '#a8a49c', cut: 'short', top: '#4a6b8a', acc: 'scarf' },
   lucas:    { skin: '#dda878', hair: '#1d1712', cut: 'buzz',  top: '#2f5aa8', acc: null },
+  julien:   { skin: '#f1c6a0', hair: '#5a4632', cut: 'short', top: '#e9f0f4', acc: 'glasses' },
+  sarah:    { skin: '#c98a5c', hair: '#1f1712', cut: 'bun',   top: '#2f4a72', acc: null },
+  ines:     { skin: '#e3ab7d', hair: '#22190f', cut: 'long',  top: '#b8323f', acc: 'earrings' },
+  blanc:    { skin: '#f4d0ad', hair: '#b9b3a6', cut: 'bob',   top: '#5c7f9e', acc: 'glasses' },
+  paul:     { skin: '#eebd94', hair: '#31261b', cut: 'short', top: '#1f4d3a', acc: 'cap' },
+  chloe:    { skin: '#f5d2b0', hair: '#c98a3e', cut: 'wavy',  top: '#7a3fa8', acc: null },
+  remi:     { skin: '#d9a173', hair: '#241b13', cut: 'curly', top: '#3a3f4d', acc: 'apron' },
+  girard:   { skin: '#eec39d', hair: '#8f8a82', cut: 'short', top: '#4a5c78', acc: 'glasses' },
+  fatou:    { skin: '#8d5a35', hair: '#17110c', cut: 'bun',   top: '#1f4d8f', acc: 'scarf' },
+  olivier:  { skin: '#f0c4a0', hair: '#3d2c1e', cut: 'short', top: '#22304a', acc: 'bowtie' },
+  momo:     { skin: '#b97a4a', hair: '#1a1410', cut: 'buzz',  top: '#3f6a4a', acc: 'cap' },
+  lena:     { skin: '#f5d2b0', hair: '#a8642e', cut: 'bob',   top: '#1f7a8c', acc: null },
+  bastien:  { skin: '#e9bc92', hair: '#4a3a26', cut: 'curly', top: '#6b4a8c', acc: null },
+  manon:    { skin: '#f3cba7', hair: '#c9a13e', cut: 'long',  top: '#2f9e78', acc: 'earrings' },
+  aicha:    { skin: '#a9683c', hair: '#1c1510', cut: 'wavy',  top: '#c2455c', acc: 'earrings' },
+  theo:     { skin: '#e5b183', hair: '#241c14', cut: 'short', top: '#2b2b33', acc: 'apron' },
 }
 
 const FALLBACK = CAST.player
