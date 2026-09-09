@@ -5197,5 +5197,245 @@
       "★ aller + 原形動詞 = 近未來：Je vais manger.（我要去吃飯了）—— 初學者表達未來最簡單的方法。",
       "venir 的 tu 變位是 tu viens，不是 tu viennes。"
     ]
+  },
+  {
+    "id": "aller-devoirs",
+    "date": "2026-09-02",
+    "title": "ALLER ③ 回家作業詳解 — 練習題與交通工具",
+    "summary": "9/2 的兩份回家作業完整解答：LE VERBE ALLER 的五題問答（重點在 à / chez / dans 怎麼選），以及 LES TRANSPORTS 十個交通工具（含陰陽性、動詞搭配、en 還是 à）。",
+    "sections": [
+      {
+        "heading": "① 作業一 · 解題原則：先看「去哪裡」是什麼",
+        "note": "這份作業每題給你兩個選項，挑一個回答就好。真正在考的是「介係詞選哪個」—— 只有三種可能：地方用 à（碰到 le 要縮寫成 au）、人用 chez、前面是不定冠詞用 dans。",
+        "items": [
+          {
+            "fr": "Je vais à la mer.",
+            "zh": "地方 ＋ 陰性 → à la（la mer 海邊）"
+          },
+          {
+            "fr": "Je vais au restaurant.",
+            "zh": "地方 ＋ 陽性 → au（à + le restaurant 縮寫）"
+          },
+          {
+            "fr": "Je vais à l'école.",
+            "zh": "地方 ＋ 母音開頭 → à l'"
+          },
+          {
+            "fr": "Je vais chez l'épicier.",
+            "zh": "★ 目的地是「人」→ 一律用 chez"
+          },
+          {
+            "fr": "Je vais dans une école de langue.",
+            "zh": "★ 前面是不定冠詞 une → 用 dans，不能用 à"
+          }
+        ]
+      },
+      {
+        "heading": "② 作業一 · 五題完整答案",
+        "note": "每題兩個選項都是對的，下面把兩種答案都寫出來，你可以照自己的情況選。括號裡是為什麼。",
+        "items": [
+          {
+            "fr": "Je vais à la mer.",
+            "zh": "1.（範例）Vous allez à la mer ou à la montagne en été ?（夏天你去海邊還是山上？）la mer 和 la montagne 都是陰性 → 兩個都用 à la。"
+          },
+          {
+            "fr": "Je vais au restaurant.",
+            "zh": "2. Vous allez au restaurant ou à la cantine à midi ?（中午你去餐廳還是員工餐廳？）le restaurant 陽性 → au（à + le）。"
+          },
+          {
+            "fr": "Je vais à la cantine.",
+            "zh": "2. 另一個答案。la cantine 陰性 → à la，不縮寫。"
+          },
+          {
+            "fr": "Je vais au bureau le matin.",
+            "zh": "3. Vous allez à la piscine ou au bureau le matin ?（早上你去游泳池還是辦公室？）le bureau 陽性 → au bureau。"
+          },
+          {
+            "fr": "Je vais à la piscine le matin.",
+            "zh": "3. 另一個答案。la piscine 陰性 → à la piscine。"
+          },
+          {
+            "fr": "Je vais chez l'épicier.",
+            "zh": "4.（你作業空白這題）Vous allez chez l'épicier ou au supermarché ?（你去雜貨商那裡還是超市？）★ l'épicier 是「賣雜貨的人」，是人就一定用 chez。"
+          },
+          {
+            "fr": "Je vais au supermarché.",
+            "zh": "4. 另一個答案。le supermarché 是「地方」→ au。同一題裡一個用 chez、一個用 au，就是在考這個對比。"
+          },
+          {
+            "fr": "Je vais dans une école de langue.",
+            "zh": "5.（你作業空白這題）Vous allez dans une école de langue ou chez un professeur ?（你去語言學校還是去老師那裡？）★ une école 是不定冠詞，這時候要用 dans，不能說 à une école。"
+          },
+          {
+            "fr": "Je vais chez un professeur.",
+            "zh": "5. 另一個答案。un professeur 是人 → chez。"
+          }
+        ]
+      },
+      {
+        "heading": "③ 為什麼第 4、5 題特別容易錯",
+        "note": "這兩題是整份作業的重點，把三條規則放在一起對照就清楚了。",
+        "items": [
+          {
+            "fr": "Je vais à la boulangerie.",
+            "zh": "【店 → à】說「店」這個地方，用 à la。"
+          },
+          {
+            "fr": "Je vais chez le boulanger.",
+            "zh": "【人 → chez】說「麵包師傅」這個人，用 chez。意思一樣，但介係詞不同。"
+          },
+          {
+            "fr": "Je vais à l'école.",
+            "zh": "【定冠詞 → à】特指那間學校（我的學校）。"
+          },
+          {
+            "fr": "Je vais dans une école de langue.",
+            "zh": "【不定冠詞 → dans】隨便一間語言學校，用 dans。"
+          },
+          {
+            "fr": "Je vais chez le médecin.",
+            "zh": "職業也算「人」：chez le médecin、chez le dentiste、chez le coiffeur。"
+          },
+          {
+            "fr": "Je vais chez moi.",
+            "zh": "chez 後面接代名詞要用重讀形：chez moi / toi / lui / elle / nous / vous / eux。"
+          }
+        ]
+      },
+      {
+        "heading": "④ 作業二 · LES TRANSPORTS 十個答案",
+        "note": "第二份作業是把圖片配上交通工具的名字。下面是十題的答案，順便把冠詞一起記起來 —— 冠詞就是陰陽性，一定要跟名詞一起背。",
+        "items": [
+          {
+            "fr": "le train",
+            "zh": "1. 火車（陽性）"
+          },
+          {
+            "fr": "le métro",
+            "zh": "2. 地鐵（陽性）"
+          },
+          {
+            "fr": "le bus",
+            "zh": "3. 公車（陽性，字尾 s 要發音 /bys/）"
+          },
+          {
+            "fr": "le taxi",
+            "zh": "4. 計程車（陽性）"
+          },
+          {
+            "fr": "la voiture",
+            "zh": "5. 汽車（★ 陰性）"
+          },
+          {
+            "fr": "l'avion",
+            "zh": "6. 飛機（陽性，母音開頭所以縮寫成 l'，要記 un avion）"
+          },
+          {
+            "fr": "le bateau",
+            "zh": "7. 船（陽性，複數是 bateaux）"
+          },
+          {
+            "fr": "la moto",
+            "zh": "8. 機車、重機（★ 陰性，是 la motocyclette 的縮寫）"
+          },
+          {
+            "fr": "le scooter",
+            "zh": "9. 速可達（陽性，英文外來語）"
+          },
+          {
+            "fr": "le vélo",
+            "zh": "10. 腳踏車（陽性，也可說 la bicyclette）"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 交通工具的陰陽性怎麼記",
+        "note": "十個裡面只有兩個是陰性，其他八個全部陽性 —— 把那兩個記起來就好，剩下的一律用 le。",
+        "items": [
+          {
+            "fr": "la voiture, la moto",
+            "zh": "★ 只有這兩個是陰性。記法：兩個都是 -o 或 -e 結尾的縮寫字。"
+          },
+          {
+            "fr": "le train, le métro, le bus, le taxi",
+            "zh": "其餘全部陽性（一）"
+          },
+          {
+            "fr": "le bateau, le scooter, le vélo",
+            "zh": "其餘全部陽性（二）"
+          },
+          {
+            "fr": "un avion",
+            "zh": "l'avion 母音開頭看不出陰陽性，要靠 un / le avion 的 un 來記 —— 它是陽性。"
+          },
+          {
+            "fr": "la bicyclette",
+            "zh": "vélo 的正式說法，這個是陰性（-ette 結尾）。所以 le vélo（陽）＝ la bicyclette（陰），同義但冠詞不同。"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ 交通工具要搭什麼動詞和介係詞",
+        "note": "光背名字不夠，要會放進句子。三種用法：搭乘用 prendre、講「怎麼去」用 en 或 à、講「開車」用 conduire。",
+        "items": [
+          {
+            "fr": "Je prends le train.",
+            "zh": "★ 搭乘用 prendre ＋ 定冠詞：prendre le train / le métro / le bus / un taxi。"
+          },
+          {
+            "fr": "Je vais à Lyon en train.",
+            "zh": "★ 坐得進去的交通工具用 en，而且不加冠詞：en train / en métro / en bus / en voiture / en avion / en bateau / en taxi。"
+          },
+          {
+            "fr": "Je vais au bureau à vélo.",
+            "zh": "★ 跨上去或靠自己的用 à：à vélo / à moto / à scooter / à pied / à cheval。"
+          },
+          {
+            "fr": "Je vais au bureau à pied.",
+            "zh": "走路是 à pied，不是 en pied。"
+          },
+          {
+            "fr": "Elle conduit une voiture.",
+            "zh": "conduire = 駕駛（開車的動作）。"
+          },
+          {
+            "fr": "On y va comment ?",
+            "zh": "問對方怎麼去：On y va comment ? 或 Tu y vas comment ?"
+          }
+        ]
+      },
+      {
+        "heading": "⑦ 四組最容易搞混的交通工具字",
+        "note": "考試和實際搭車時最常出錯的四組，一起記。",
+        "items": [
+          {
+            "fr": "le bus / le car",
+            "zh": "le bus 是市區公車；le car 是長途客運、遊覽車。跟英文的 car（汽車）完全不同。"
+          },
+          {
+            "fr": "un ticket / un billet",
+            "zh": "un ticket 是地鐵、公車票；un billet 是火車、飛機、演唱會、博物館的票。"
+          },
+          {
+            "fr": "la moto / le scooter",
+            "zh": "la moto 是打檔重機（陰性）；le scooter 是速可達（陽性）。"
+          },
+          {
+            "fr": "le vélo / la bicyclette",
+            "zh": "同一個東西。le vélo 口語常用（陽性），la bicyclette 較正式（陰性）。"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★ 作業一考的只有一件事：à（地方）／chez（人）／dans（不定冠詞的地方）。",
+      "à + le = au、à + les = aux 一定要縮寫；à la 和 à l' 不縮寫。",
+      "第 4 題：l'épicier 是「人」→ chez l'épicier；le supermarché 是「地方」→ au supermarché。",
+      "第 5 題：une école 前面是不定冠詞 → 用 dans une école；un professeur 是人 → chez un professeur。",
+      "★ 十個交通工具裡只有 la voiture 和 la moto 是陰性，其他八個都是陽性。",
+      "l'avion 母音開頭看不出性別，要記 un avion（陽性）。",
+      "搭乘用 prendre ＋ 定冠詞（je prends le métro）；講「怎麼去」坐進去的用 en（en métro），跨上去的用 à（à vélo、à pied）。",
+      "le bus（市區公車）≠ le car（長途客運）；un ticket（地鐵票）≠ un billet（火車票）。"
+    ]
   }
 ]
