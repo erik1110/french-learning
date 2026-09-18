@@ -5437,5 +5437,826 @@
       "搭乘用 prendre ＋ 定冠詞（je prends le métro）；講「怎麼去」坐進去的用 en（en métro），跨上去的用 à（à vélo、à pied）。",
       "le bus（市區公車）≠ le car（長途客運）；un ticket（地鐵票）≠ un billet（火車票）。"
     ]
+  },
+  {
+    "id": "passe-compose-avoir",
+    "date": "2026-09-15",
+    "title": "LE PASSÉ COMPOSÉ ① 基本觀念與 AVOIR 助動詞",
+    "summary": "複合過去式是法文講「做過什麼」的時態。公式只有一條：助動詞（avoir 或 être）＋ 過去分詞。這一課先搞懂為什麼叫「複合」、什麼時候用它，再把最常用的 AVOIR 版本和過去分詞表一次學完。",
+    "sections": [
+      {
+        "heading": "① 為什麼叫「複合」過去式？",
+        "note": "因為它是「兩個字」組成的 —— 不像中文只要加「了」，法文要先放一個助動詞，再放動詞的過去分詞。這兩個字缺一不可。",
+        "items": [
+          {
+            "fr": "J'ai travaillé.",
+            "zh": "我工作了。← ai（助動詞）＋ travaillé（過去分詞），兩個字合起來才是一個過去式"
+          },
+          {
+            "fr": "Je travaille.",
+            "zh": "我（現在）工作。← 現在式只有一個字"
+          },
+          {
+            "fr": "助動詞 ＋ 過去分詞",
+            "zh": "這就是全部的公式。難的地方只有兩個：助動詞要選 avoir 還是 être、過去分詞怎麼變。"
+          },
+          {
+            "fr": "Aujourd'hui, je travaille.",
+            "zh": "今天我工作。（現在式）"
+          },
+          {
+            "fr": "Hier, j'ai travaillé.",
+            "zh": "昨天我工作了。（複合過去式）"
+          },
+          {
+            "fr": "Aujourd'hui, je vais au cinéma.",
+            "zh": "今天我去看電影。（現在式）"
+          },
+          {
+            "fr": "Hier, je suis allé au cinéma.",
+            "zh": "昨天我去看了電影。（複合過去式，這個動詞用 être）"
+          }
+        ]
+      },
+      {
+        "heading": "② 什麼時候用它？跟 imparfait 的差別",
+        "note": "老師上課特別提到這組對比：複合過去式講「發生的事件、動作」；未完成過去式（imparfait）講「當時的狀態、背景」。同一句話裡常常兩個一起出現。",
+        "items": [
+          {
+            "fr": "Le passé composé",
+            "zh": "複合過去式 → 講「事件、動作」，某個時間點發生、結束了的事"
+          },
+          {
+            "fr": "L'imparfait",
+            "zh": "未完成過去式 → 講「狀態、背景」，當時是什麼樣子、持續著的"
+          },
+          {
+            "fr": "Hier, quand je suis arrivé à Paris, il faisait beau.",
+            "zh": "★ 課堂例句：昨天我到巴黎的時候，天氣很好。suis arrivé（抵達 = 動作，一瞬間）用複合過去式；faisait（天氣好 = 背景狀態，持續著）用 imparfait。"
+          },
+          {
+            "fr": "Ça y est, j'ai enfin trouvé un emploi.",
+            "zh": "★ 課堂例句：就是這樣，我終於找到工作了！ça y est = 成了、就這樣；enfin = 終於。「找到」是一個動作 → 複合過去式。"
+          },
+          {
+            "fr": "這一課只教複合過去式",
+            "zh": "imparfait 是下一個階段的內容，先把「事件、動作」用複合過去式講好就夠了。"
+          }
+        ]
+      },
+      {
+        "heading": "③ AVOIR 的六個人稱（助動詞第一步）",
+        "note": "大部分的動詞都用 avoir 當助動詞，所以 avoir 的變位一定要滾瓜爛熟。它本身就是不規則動詞。",
+        "items": [
+          {
+            "fr": "J'ai",
+            "zh": "我有（je + ai 要縮寫成 j'ai）"
+          },
+          {
+            "fr": "Tu as",
+            "zh": "你有"
+          },
+          {
+            "fr": "Il a / Elle a / On a",
+            "zh": "他有／她有／我們有（口語）"
+          },
+          {
+            "fr": "Nous avons",
+            "zh": "我們有"
+          },
+          {
+            "fr": "Vous avez",
+            "zh": "您有／你們有"
+          },
+          {
+            "fr": "Ils ont / Elles ont",
+            "zh": "他們有／她們有"
+          },
+          {
+            "fr": "Vous avez choisi ?",
+            "zh": "★ 課堂例句：您選好了嗎？（餐廳點餐超常聽到）avez（助動詞）＋ choisi（choisir 的過去分詞）"
+          },
+          {
+            "fr": "J'ai mangé une pizza.",
+            "zh": "我吃了一個披薩。"
+          }
+        ]
+      },
+      {
+        "heading": "④ 過去分詞怎麼變？三大類 ＋ 例外",
+        "note": "★ 這是整課最需要背的地方。課本把過去分詞依「結尾的發音」分成三大類：-é、-u、-i，剩下的是例外。",
+        "items": [
+          {
+            "fr": "Tous les verbes en -er → -é",
+            "zh": "【第一類 -é】所有 -er 結尾的動詞，把 -er 換成 -é。這類最多也最好記，沒有例外。"
+          },
+          {
+            "fr": "manger → mangé",
+            "zh": "吃 → 吃過"
+          },
+          {
+            "fr": "regarder → regardé",
+            "zh": "看 → 看過"
+          },
+          {
+            "fr": "travailler → travaillé",
+            "zh": "工作 → 工作過"
+          },
+          {
+            "fr": "trouver → trouvé",
+            "zh": "找到 → 找到了"
+          },
+          {
+            "fr": "parler → parlé",
+            "zh": "說 → 說過"
+          },
+          {
+            "fr": "passer → passé",
+            "zh": "度過 → 度過了"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 第二類：過去分詞結尾是 -u",
+        "note": "大部分 -re 和 -oir 結尾的動詞會變成 -u。這類最多，要一個一個記。",
+        "items": [
+          {
+            "fr": "lire → lu",
+            "zh": "讀"
+          },
+          {
+            "fr": "voir → vu",
+            "zh": "看見"
+          },
+          {
+            "fr": "boire → bu",
+            "zh": "喝"
+          },
+          {
+            "fr": "entendre → entendu",
+            "zh": "聽見"
+          },
+          {
+            "fr": "attendre → attendu",
+            "zh": "等待"
+          },
+          {
+            "fr": "répondre → répondu",
+            "zh": "回答"
+          },
+          {
+            "fr": "perdre → perdu",
+            "zh": "遺失"
+          },
+          {
+            "fr": "vouloir → voulu",
+            "zh": "想要"
+          },
+          {
+            "fr": "devoir → dû",
+            "zh": "必須（有長音符）"
+          },
+          {
+            "fr": "pouvoir → pu",
+            "zh": "能夠"
+          },
+          {
+            "fr": "savoir → su",
+            "zh": "知道"
+          },
+          {
+            "fr": "croire → cru",
+            "zh": "相信"
+          },
+          {
+            "fr": "falloir → fallu",
+            "zh": "必須（無人稱）"
+          },
+          {
+            "fr": "courir → couru",
+            "zh": "跑"
+          },
+          {
+            "fr": "connaître → connu",
+            "zh": "認識"
+          },
+          {
+            "fr": "disparaître → disparu",
+            "zh": "消失"
+          },
+          {
+            "fr": "recevoir → reçu",
+            "zh": "收到（有軟音符 ç）"
+          },
+          {
+            "fr": "venir → venu",
+            "zh": "來"
+          },
+          {
+            "fr": "vivre → vécu",
+            "zh": "生活"
+          },
+          {
+            "fr": "pleuvoir → plu",
+            "zh": "下雨"
+          },
+          {
+            "fr": "plaire → plu",
+            "zh": "討人喜歡（★ 跟 pleuvoir 同形，看句子判斷）"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ 第三類：過去分詞結尾是 -i（含 -is、-it）",
+        "note": "-ir 結尾的規則動詞變成 -i；另外有一組變成 -is 或 -it。",
+        "items": [
+          {
+            "fr": "finir → fini",
+            "zh": "結束"
+          },
+          {
+            "fr": "grandir → grandi",
+            "zh": "長大"
+          },
+          {
+            "fr": "choisir → choisi",
+            "zh": "選擇"
+          },
+          {
+            "fr": "prendre → pris",
+            "zh": "拿、搭乘"
+          },
+          {
+            "fr": "apprendre → appris",
+            "zh": "學習"
+          },
+          {
+            "fr": "comprendre → compris",
+            "zh": "理解"
+          },
+          {
+            "fr": "mettre → mis",
+            "zh": "放"
+          },
+          {
+            "fr": "dire → dit",
+            "zh": "說"
+          },
+          {
+            "fr": "écrire → écrit",
+            "zh": "寫"
+          },
+          {
+            "fr": "conduire → conduit",
+            "zh": "駕駛"
+          },
+          {
+            "fr": "★ prendre 家族一起記",
+            "zh": "prendre → pris、apprendre → appris、comprendre → compris，三個長得一樣，一起背最快。"
+          }
+        ]
+      },
+      {
+        "heading": "⑦ 例外組：一定要硬背的幾個",
+        "note": "這幾個不照任何規則，但都是超高頻動詞，背起來最划算。",
+        "items": [
+          {
+            "fr": "faire → fait",
+            "zh": "做"
+          },
+          {
+            "fr": "être → été",
+            "zh": "是（être 的過去分詞居然是 été）"
+          },
+          {
+            "fr": "avoir → eu",
+            "zh": "有（唸 /y/，只有一個母音的音）"
+          },
+          {
+            "fr": "ouvrir → ouvert",
+            "zh": "打開"
+          },
+          {
+            "fr": "découvrir → découvert",
+            "zh": "發現"
+          },
+          {
+            "fr": "offrir → offert",
+            "zh": "贈送"
+          },
+          {
+            "fr": "souffrir → souffert",
+            "zh": "受苦"
+          },
+          {
+            "fr": "peindre → peint",
+            "zh": "繪畫"
+          },
+          {
+            "fr": "craindre → craint",
+            "zh": "害怕"
+          },
+          {
+            "fr": "★ -vrir 和 -frir 結尾 → -vert / -fert",
+            "zh": "ouvrir/découvrir → ouvert/découvert；offrir/souffrir → offert/souffert。這四個有規律可循。"
+          }
+        ]
+      },
+      {
+        "heading": "⑧ ★ 用 AVOIR 時，過去分詞「不」跟主詞配合",
+        "note": "★ 這是整課最重要的一條規則，也是最常錯的地方。助動詞是 avoir 的時候，過去分詞永遠是原本的樣子，不管主詞是男是女、是單數還是複數。",
+        "items": [
+          {
+            "fr": "Il a mangé une pizza.",
+            "zh": "他吃了一個披薩。"
+          },
+          {
+            "fr": "Elle a mangé une pizza.",
+            "zh": "她吃了一個披薩。★ 主詞是「她」，mangé 還是不加 e"
+          },
+          {
+            "fr": "Ils ont fini les devoirs.",
+            "zh": "他們寫完功課了。"
+          },
+          {
+            "fr": "Elles ont fini les devoirs.",
+            "zh": "她們寫完功課了。★ 主詞是「她們」複數，fini 還是不加任何字尾"
+          },
+          {
+            "fr": "Nous avons passé un très bon week-end.",
+            "zh": "我們度過了一個很棒的週末。（nous 複數，passé 不變）"
+          },
+          {
+            "fr": "J'ai travaillé.",
+            "zh": "✓ 正確寫法｜✗ 投影片上的 j'ai travaillée 多了一個 e，是筆誤 —— 用 avoir 時過去分詞不做配合"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★ 複合過去式公式：助動詞（avoir / être）＋ 過去分詞。兩個字缺一不可。",
+      "複合過去式講「事件、動作」；imparfait 講「狀態、背景」。例：quand je suis arrivé（動作），il faisait beau（背景）。",
+      "AVOIR 變位：j'ai / tu as / il a / nous avons / vous avez / ils ont。",
+      "★ 過去分詞三大類：-er 動詞 → -é（無例外）；多數 -re / -oir → -u；多數 -ir → -i，另有 -is / -it 一組。",
+      "例外要硬背：faire → fait、être → été、avoir → eu、ouvrir → ouvert、offrir → offert。",
+      "★★ 用 AVOIR 當助動詞時，過去分詞「不」跟主詞配合：Elle a mangé（不是 mangée）、Elles ont fini（不是 finies）。",
+      "prendre / apprendre / comprendre → pris / appris / compris，三個一起背。"
+    ]
+  },
+  {
+    "id": "passe-compose-etre",
+    "date": "2026-09-15",
+    "title": "LE PASSÉ COMPOSÉ ② ÊTRE 助動詞與 15 個移動動詞",
+    "summary": "少數動詞不用 avoir 而是用 être 當助動詞 —— 老師說的「大概 15 個，都是方向性、移動性的動詞」。這一課用「être 之家」的圖記住它們，並學會用 être 時過去分詞必須跟主詞做性數配合。",
+    "sections": [
+      {
+        "heading": "① 哪些動詞要用 ÊTRE？",
+        "note": "★ 判斷原則：表示「位置改變、移動」的動詞用 être（法文說 les verbes de changement de lieu, de déplacement）。數量大約 15 個，是固定的一份清單，背起來就好。",
+        "items": [
+          {
+            "fr": "Les verbes de changement de lieu",
+            "zh": "改變地點的動詞 → 用 être"
+          },
+          {
+            "fr": "Les verbes de déplacement",
+            "zh": "移動的動詞 → 用 être"
+          },
+          {
+            "fr": "Il est allé au cinéma.",
+            "zh": "他去了電影院。（aller 是移動 → être）"
+          },
+          {
+            "fr": "Il a mangé une pizza.",
+            "zh": "他吃了披薩。（manger 不是移動 → avoir）"
+          },
+          {
+            "fr": "Tous les autres verbes prennent avoir.",
+            "zh": "除了這 15 個以外，其他動詞全部用 avoir。"
+          }
+        ]
+      },
+      {
+        "heading": "② 15 個 ÊTRE 動詞 — 用「相反詞」成對記",
+        "note": "課本用一張「être 之家」的圖來記：一個人來到房子、上山、進門、待著、出門、下山、跌倒、離開。下面用「相反詞配對」整理，兩個兩個背最快。",
+        "items": [
+          {
+            "fr": "aller ↔ venir",
+            "zh": "去 ↔ 來"
+          },
+          {
+            "fr": "arriver ↔ partir",
+            "zh": "抵達 ↔ 出發"
+          },
+          {
+            "fr": "entrer ↔ sortir",
+            "zh": "進入 ↔ 出去"
+          },
+          {
+            "fr": "monter ↔ descendre",
+            "zh": "上去 ↔ 下來"
+          },
+          {
+            "fr": "naître ↔ mourir",
+            "zh": "出生 ↔ 死亡"
+          },
+          {
+            "fr": "rester",
+            "zh": "停留（沒移動，但也算位置類，要用 être）"
+          },
+          {
+            "fr": "passer",
+            "zh": "經過"
+          },
+          {
+            "fr": "retourner",
+            "zh": "返回、往返"
+          },
+          {
+            "fr": "tomber",
+            "zh": "跌倒、掉落"
+          },
+          {
+            "fr": "rentrer",
+            "zh": "回家（課本圖上沒有，但同一類，也用 être）"
+          },
+          {
+            "fr": "devenir",
+            "zh": "變成（venir 的家族，跟著用 être）"
+          },
+          {
+            "fr": "revenir",
+            "zh": "再回來（venir 家族）"
+          }
+        ]
+      },
+      {
+        "heading": "③ 這 15 個動詞的過去分詞",
+        "note": "左邊原形、右邊過去分詞。好消息：大部分很規則，-er 結尾一樣變 -é。",
+        "items": [
+          {
+            "fr": "naître → né",
+            "zh": "出生 → 出生了"
+          },
+          {
+            "fr": "mourir → mort",
+            "zh": "死亡 → 死了（★ 不規則，要硬背）"
+          },
+          {
+            "fr": "aller → allé",
+            "zh": "去 → 去了"
+          },
+          {
+            "fr": "venir → venu",
+            "zh": "來 → 來了（★ -u 結尾）"
+          },
+          {
+            "fr": "monter → monté",
+            "zh": "上去"
+          },
+          {
+            "fr": "descendre → descendu",
+            "zh": "下來（★ -u 結尾）"
+          },
+          {
+            "fr": "entrer → entré",
+            "zh": "進入"
+          },
+          {
+            "fr": "sortir → sorti",
+            "zh": "出去（★ -i 結尾）"
+          },
+          {
+            "fr": "arriver → arrivé",
+            "zh": "抵達"
+          },
+          {
+            "fr": "partir → parti",
+            "zh": "離開（★ -i 結尾）"
+          },
+          {
+            "fr": "rester → resté",
+            "zh": "停留"
+          },
+          {
+            "fr": "passer → passé",
+            "zh": "經過"
+          },
+          {
+            "fr": "retourner → retourné",
+            "zh": "返回"
+          },
+          {
+            "fr": "tomber → tombé",
+            "zh": "跌倒"
+          },
+          {
+            "fr": "devenir → devenu",
+            "zh": "變成（跟 venir 一樣）"
+          }
+        ]
+      },
+      {
+        "heading": "④ ★ 用 ÊTRE 時，過去分詞「要」跟主詞配合",
+        "note": "★ 這是 être 和 avoir 最大的差別，也是考試必考。用 être 的時候，過去分詞要當成形容詞看待 —— 主詞是陰性就加 e，是複數就加 s。",
+        "items": [
+          {
+            "fr": "Il est allé au cinéma.",
+            "zh": "他去了電影院。（陽性單數 → 原形 allé）"
+          },
+          {
+            "fr": "Elle est allée à l'université.",
+            "zh": "她去了大學。（★ 陰性單數 → 加 e）"
+          },
+          {
+            "fr": "Ils sont partis tard.",
+            "zh": "他們很晚才出發。（★ 陽性複數 → 加 s）"
+          },
+          {
+            "fr": "Elles sont parties à Tokyo.",
+            "zh": "她們出發去東京了。（★ 陰性複數 → 加 es）"
+          },
+          {
+            "fr": "allé / allée / allés / allées",
+            "zh": "配合公式：陽性單數不變／陰性加 e／複數加 s／陰性複數加 es。跟形容詞規則一模一樣。"
+          },
+          {
+            "fr": "Je suis allé.",
+            "zh": "我去了。（說話的人是男生）"
+          },
+          {
+            "fr": "Je suis allée.",
+            "zh": "我去了。（說話的人是女生 → 加 e）"
+          },
+          {
+            "fr": "Nous sommes arrivés.",
+            "zh": "我們到了。（一群人裡只要有一個男生就用陽性複數）"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 一張表看懂 AVOIR 和 ÊTRE 的差別",
+        "note": "把兩課的重點並排對照，這是整個複合過去式最核心的分界線。",
+        "items": [
+          {
+            "fr": "J'ai mangé. / Elle a mangé.",
+            "zh": "【AVOIR】過去分詞不變 —— 不管主詞是誰"
+          },
+          {
+            "fr": "Je suis allé. / Elle est allée.",
+            "zh": "【ÊTRE】過去分詞要配合 —— 陰性加 e"
+          },
+          {
+            "fr": "Ils ont fini les devoirs.",
+            "zh": "【AVOIR】複數主詞，fini 還是不加 s"
+          },
+          {
+            "fr": "Ils sont partis tard.",
+            "zh": "【ÊTRE】複數主詞，parti 要加 s"
+          },
+          {
+            "fr": "manger, voir, prendre, faire, vouloir",
+            "zh": "【AVOIR】大部分動詞都屬於這一類 —— 動作類的動詞。"
+          },
+          {
+            "fr": "aller, venir, arriver, partir, entrer, sortir",
+            "zh": "【ÊTRE】只有這 15 個移動、位置改變的動詞。"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ 陷阱：有些動詞兩個助動詞都可以用",
+        "note": "★ 進階但很實用：passer、monter、descendre、sortir、rentrer、retourner 這幾個，如果後面直接接受詞（做某件事），就改用 avoir，而且過去分詞不配合。",
+        "items": [
+          {
+            "fr": "Mon père est descendu dans le garage.",
+            "zh": "我爸下去車庫了。（沒有受詞，是「他自己下去」→ être）"
+          },
+          {
+            "fr": "Mon père a descendu les valises.",
+            "zh": "我爸把行李搬下去了。（★ 有受詞 les valises → 改用 avoir）"
+          },
+          {
+            "fr": "Nous sommes passés devant la gare.",
+            "zh": "我們經過了車站。（沒受詞 → être）"
+          },
+          {
+            "fr": "Nous avons passé un très bon week-end.",
+            "zh": "★ 我們度過了很棒的週末。（有受詞 un week-end → avoir，這就是練習裡的那一題）"
+          },
+          {
+            "fr": "Elle est sortie avec des amis.",
+            "zh": "她跟朋友出去了。（沒受詞 → être）"
+          },
+          {
+            "fr": "Elle a sorti son portefeuille.",
+            "zh": "她拿出了皮夾。（有受詞 → avoir）"
+          },
+          {
+            "fr": "判斷方法：後面有沒有直接接東西",
+            "zh": "有東西 → avoir；沒有、只是人在移動 → être。"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★ 用 être 的是「改變位置、移動」的動詞，大約 15 個，是固定清單，其餘全部用 avoir。",
+      "成對記最快：aller↔venir、arriver↔partir、entrer↔sortir、monter↔descendre、naître↔mourir，再加 rester、passer、retourner、tomber、rentrer、devenir、revenir。",
+      "不規則過去分詞要注意：mourir → mort、venir → venu、descendre → descendu、sortir → sorti、partir → parti。",
+      "★★ 用 ÊTRE 時過去分詞要跟主詞做性數配合：allé / allée / allés / allées。",
+      "★★ 用 AVOIR 時過去分詞完全不變：a mangé / ont mangé，永遠一樣。",
+      "女生講自己一定要記得加 e：Je suis allée、Je suis sortie、Je suis arrivée。",
+      "陷阱：passer / monter / descendre / sortir 後面若直接接受詞，改用 avoir（Nous avons passé un bon week-end）。"
+    ]
+  },
+  {
+    "id": "passe-compose-exercices",
+    "date": "2026-09-15",
+    "title": "LE PASSÉ COMPOSÉ ③ 兩份課堂練習完整詳解",
+    "summary": "把課堂上兩份練習（AVEC ÊTRE 八題、ÊTRE et AVOIR 八題）逐題解答，每題說明為什麼選這個助動詞、過去分詞要不要配合。",
+    "sections": [
+      {
+        "heading": "① 作答三步驟 — 每一題都照這個順序想",
+        "note": "不要憑感覺猜。照這三步走，任何一題都能推出答案。",
+        "items": [
+          {
+            "fr": "avoir ou être ?",
+            "zh": "第 1 步：先問自己這個動詞用哪個助動詞。是移動類 15 個之一 → être；其他 → avoir。"
+          },
+          {
+            "fr": "第 2 步：助動詞配合主詞變位",
+            "zh": "je → ai / suis；tu → as / es；il → a / est；nous → avons / sommes；vous → avez / êtes；ils → ont / sont。"
+          },
+          {
+            "fr": "第 3 步：過去分詞要不要配合？",
+            "zh": "★ 用 être → 要（陰加 e、複加 s）；用 avoir → 不用，寫原形就好。"
+          }
+        ]
+      },
+      {
+        "heading": "② 練習一 · AVEC ÊTRE（八題全部用 être）",
+        "note": "這份練習的動詞全部是移動類，所以助動詞一律 être，重點在「過去分詞的性數配合」。",
+        "items": [
+          {
+            "fr": "Hier, je suis allé(e) à Carrefour pour acheter du chocolat.",
+            "zh": "1.（aller）昨天我去家樂福買巧克力。je 是男生寫 allé、女生寫 allée。pour + 原形動詞 = 為了做…"
+          },
+          {
+            "fr": "Dimanche dernier, tu es venu(e) chez moi.",
+            "zh": "2.（動詞未標，依文意是 venir）上個星期天你來我家。chez moi = 我家 → 搭 venir 最自然。"
+          },
+          {
+            "fr": "En 2008, Obama est devenu président des États-Unis.",
+            "zh": "3.（devenir）2008 年歐巴馬成為美國總統。Obama 是男生 → devenu 不加 e。★ 注意職業前面不加冠詞。"
+          },
+          {
+            "fr": "Beyoncé est née le 9 septembre 1981.",
+            "zh": "4.（naître）碧昂絲生於 1981 年 9 月 9 日。★ Beyoncé 是女生 → né 要加 e 變成 née。"
+          },
+          {
+            "fr": "L'année dernière, nous sommes partis en vacances au Portugal.",
+            "zh": "5.（partir）去年我們去葡萄牙度假。nous 複數 → parti 加 s。★ 投影片寫 L'année dernier 是筆誤，année 是陰性要寫 dernière。"
+          },
+          {
+            "fr": "Hier, vous êtes arrivé(e)(s) en retard au bureau.",
+            "zh": "6.（arriver）昨天你們上班遲到了。vous 可能是「您」（單數）或「你們」（複數），所以配合有四種寫法。en retard = 遲到。"
+          },
+          {
+            "fr": "Le week-end dernier, Paul et son frère sont morts dans un accident.",
+            "zh": "7.（mourir）上週末保羅和他弟弟死於一場意外。兩個男生 → 陽性複數 morts。★ mourir 的過去分詞是 mort，不規則。"
+          },
+          {
+            "fr": "Samedi dernier, Elsa et sa sœur sont sorties en boîte.",
+            "zh": "8.（sortir）上週六艾爾莎和她妹妹去夜店了。★ 兩個都是女生 → 陰性複數 sorties（加 es）。en boîte = 去夜店。"
+          }
+        ]
+      },
+      {
+        "heading": "③ 練習二 · ÊTRE et AVOIR（混合題，要自己判斷）",
+        "note": "★ 這份才是真正的考題型：每一題要先判斷用哪個助動詞。前三題老師課堂上已經寫好，後五題是你要填的。",
+        "items": [
+          {
+            "fr": "Samedi, mon frère a vu le nouveau film de Spielberg.",
+            "zh": "1.（voir）星期六我哥看了史匹柏的新片。voir 不是移動 → avoir。過去分詞 vu（-u 類）。主詞不影響，不配合。"
+          },
+          {
+            "fr": "Il y a trois jours, tu as pris le bus pour aller à Tainan.",
+            "zh": "2.（prendre）三天前你搭公車去台南。prendre → avoir，過去分詞 pris。★ il y a + 時間 = 「…之前」。"
+          },
+          {
+            "fr": "Ce matin, elles sont arrivées en retard.",
+            "zh": "3.（arriver）今天早上她們遲到了。★ arriver 是移動 → être；elles 陰性複數 → arrivées 加 es。"
+          },
+          {
+            "fr": "Mon père est descendu dans le garage.",
+            "zh": "4.（descendre）我爸下去車庫。★ 沒有受詞，只是人往下移動 → être。mon père 陽性單數 → descendu 不變。"
+          },
+          {
+            "fr": "Nous avons passé un très bon week-end.",
+            "zh": "5.（passer）我們度過了一個很棒的週末。★★ 陷阱題！passer 雖然在 être 清單裡，但這裡後面接了受詞 un week-end → 改用 avoir，而且 passé 不配合。"
+          },
+          {
+            "fr": "Avant-hier soir, je suis sorti(e) avec des amis.",
+            "zh": "6.（sortir）前天晚上我跟朋友出去。★ 沒有受詞 → être。avant-hier = 前天。女生要寫 sortie。"
+          },
+          {
+            "fr": "Hier matin, il a voulu faire un jogging dans le parc.",
+            "zh": "7.（vouloir）昨天早上他想去公園慢跑。vouloir → avoir，過去分詞 voulu。★ 後面再接原形動詞 faire。"
+          },
+          {
+            "fr": "Est-ce que vous avez connu mon grand-père ?",
+            "zh": "8.（connaître）您認識過我爺爺嗎？connaître → avoir，過去分詞 connu。★ 用複合過去式的 connaître 意思是「曾經認識、見過」。"
+          }
+        ]
+      },
+      {
+        "heading": "④ 這兩份練習考了哪些觀念",
+        "note": "把錯最多的地方整理出來，複習時看這一段就好。",
+        "items": [
+          {
+            "fr": "助動詞選錯",
+            "zh": "只有移動類用 être。voir、prendre、vouloir、connaître、passer（有受詞）全部是 avoir。"
+          },
+          {
+            "fr": "忘記做性數配合",
+            "zh": "用 être 時：elles sont arrivées（陰複 +es）、Elsa et sa sœur sont sorties（陰複 +es）、Beyoncé est née（陰單 +e）。"
+          },
+          {
+            "fr": "多做了性數配合",
+            "zh": "用 avoir 時不要加：a vu（不是 a vue）、avons passé（不是 avons passés）。"
+          },
+          {
+            "fr": "不規則過去分詞",
+            "zh": "voir → vu、prendre → pris、vouloir → voulu、connaître → connu、mourir → mort、descendre → descendu。"
+          },
+          {
+            "fr": "passer 的雙助動詞",
+            "zh": "Nous avons passé un week-end（有受詞→avoir）vs Nous sommes passés devant la gare（沒受詞→être）。"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 練習裡出現的時間副詞",
+        "note": "講過去的事一定會用到這些時間詞，順便一起記。看到它們就知道要用過去式。",
+        "items": [
+          {
+            "fr": "hier",
+            "zh": "昨天"
+          },
+          {
+            "fr": "avant-hier",
+            "zh": "前天"
+          },
+          {
+            "fr": "hier matin",
+            "zh": "昨天早上"
+          },
+          {
+            "fr": "hier soir",
+            "zh": "昨天晚上"
+          },
+          {
+            "fr": "ce matin",
+            "zh": "今天早上"
+          },
+          {
+            "fr": "il y a trois jours",
+            "zh": "三天前（★ il y a + 一段時間 = …之前）"
+          },
+          {
+            "fr": "dimanche dernier",
+            "zh": "上個星期天"
+          },
+          {
+            "fr": "samedi dernier",
+            "zh": "上個星期六"
+          },
+          {
+            "fr": "le week-end dernier",
+            "zh": "上週末"
+          },
+          {
+            "fr": "l'année dernière",
+            "zh": "去年（année 陰性 → dernière）"
+          },
+          {
+            "fr": "le mois dernier",
+            "zh": "上個月"
+          },
+          {
+            "fr": "en 2008",
+            "zh": "在 2008 年（年份用 en）"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★ 作答三步驟：① 選助動詞（移動類用 être）→ ② 助動詞跟主詞變位 → ③ 判斷過去分詞要不要配合。",
+      "練習一全部用 être，重點在配合：Beyoncé est née（+e）、nous sommes partis（+s）、Elsa et sa sœur sont sorties（+es）、Paul et son frère sont morts。",
+      "★★ 練習二第 5 題是陷阱：Nous avons passé un très bon week-end —— passer 後面有受詞，所以改用 avoir 而且不配合。",
+      "練習二用 avoir 的：a vu、as pris、avons passé、a voulu、avez connu；用 être 的：sont arrivées、est descendu、suis sorti(e)。",
+      "vous 的配合有四種可能：arrivé（您·男）／arrivée（您·女）／arrivés（你們）／arrivées（她們）。",
+      "時間副詞看到就知道要用過去式：hier、avant-hier、ce matin、il y a trois jours、dimanche dernier、l'année dernière。",
+      "投影片兩處筆誤：j'ai travaillée 應為 j'ai travaillé（avoir 不配合）；L'année dernier 應為 L'année dernière。"
+    ]
   }
 ]
