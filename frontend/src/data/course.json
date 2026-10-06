@@ -420,6 +420,449 @@
         ]
       },
       {
+        "id": "articles-contractions",
+        "title": "★ 總整理：冠詞 le/la/l'/les 與縮寫 au/aux/du/des",
+        "goal": "看到任何名詞都知道前面該放哪個字，不再被 au / aux / du / des 搞混",
+        "sections": [
+          {
+            "type": "teach",
+            "heading": "① 先分清楚三種冠詞",
+            "note": "法文的名詞前面幾乎一定要有冠詞。冠詞分三種，用途完全不同 —— 這是所有混亂的源頭。",
+            "items": [
+              {
+                "fr": "le / la / l' / les",
+                "zh": "【定冠詞】特指那個東西，或講整體概念。英文的 the。"
+              },
+              {
+                "fr": "un / une / des",
+                "zh": "【不定冠詞】隨便一個、數得出來的。英文的 a / some。"
+              },
+              {
+                "fr": "du / de la / de l' / des",
+                "zh": "【部分冠詞】不可數的一部分。英文沒有對應，像 some water。"
+              },
+              {
+                "fr": "le chien",
+                "zh": "那隻狗（特指）"
+              },
+              {
+                "fr": "un chien",
+                "zh": "一隻狗（隨便一隻）"
+              },
+              {
+                "fr": "J'aime le café.",
+                "zh": "我喜歡咖啡。（整體概念 → 定冠詞）"
+              },
+              {
+                "fr": "Je voudrais un café.",
+                "zh": "我想要一杯咖啡。（具體一杯 → 不定冠詞）"
+              },
+              {
+                "fr": "Je bois du café.",
+                "zh": "我在喝咖啡。（喝的是咖啡的一部分 → 部分冠詞）"
+              }
+            ]
+          },
+          {
+            "type": "teach",
+            "heading": "② 定冠詞 le / la / l' / les 怎麼選",
+            "note": "★ 只看兩件事：名詞是陰性還是陽性、是不是母音開頭。",
+            "items": [
+              {
+                "fr": "le ＋ 陽性單數",
+                "zh": "le livre（書）、le train（火車）、le café（咖啡）"
+              },
+              {
+                "fr": "la ＋ 陰性單數",
+                "zh": "la table（桌子）、la voiture（汽車）、la pluie（雨）"
+              },
+              {
+                "fr": "l' ＋ 母音或啞音 h 開頭",
+                "zh": "l'avion（飛機）、l'école（學校）、l'hôtel（飯店）、l'heure（小時）"
+              },
+              {
+                "fr": "les ＋ 複數（不分陰陽）",
+                "zh": "les livres、les tables、les enfants"
+              },
+              {
+                "fr": "★ l' 看不出陰陽性",
+                "zh": "l'avion 是陽性（un avion）、l'école 是陰性（une école）。這種字一定要用 un/une 來記。"
+              }
+            ]
+          },
+          {
+            "type": "teach",
+            "heading": "③ ★ 語言全部都是陽性 — le français, l'anglais…",
+            "note": "★ 這是固定規則，沒有例外：所有語言名稱都是陽性。母音開頭的縮寫成 l'，但它仍然是陽性。",
+            "items": [
+              {
+                "fr": "le français",
+                "zh": "法文（陽性）"
+              },
+              {
+                "fr": "l'anglais",
+                "zh": "英文（★ 母音開頭縮寫成 l'，但它是陽性 → un anglais）"
+              },
+              {
+                "fr": "le japonais",
+                "zh": "日文（陽性）"
+              },
+              {
+                "fr": "le mandarin",
+                "zh": "中文、普通話（陽性）"
+              },
+              {
+                "fr": "le chinois",
+                "zh": "中文（陽性）"
+              },
+              {
+                "fr": "l'espagnol",
+                "zh": "西班牙文（陽性，母音開頭）"
+              },
+              {
+                "fr": "l'allemand",
+                "zh": "德文（陽性，母音開頭）"
+              },
+              {
+                "fr": "le coréen",
+                "zh": "韓文（陽性）"
+              },
+              {
+                "fr": "J'apprends le français.",
+                "zh": "我學法文。（學某個語言要加定冠詞）"
+              },
+              {
+                "fr": "Je parle français.",
+                "zh": "我說法文。（★ 例外：parler 後面直接接語言，不加冠詞）"
+              },
+              {
+                "fr": "Je parle bien le français.",
+                "zh": "我法文說得很好。（有副詞修飾時又要加回冠詞）"
+              },
+              {
+                "fr": "Comment on dit ça en français ?",
+                "zh": "這個用法文怎麼說？（★ en + 語言，不加冠詞，而且小寫）"
+              }
+            ]
+          },
+          {
+            "type": "teach",
+            "heading": "④ ★ 縮寫規則 — au / aux / du / des 從哪來的",
+            "note": "★ 這四個不是新的字，是「介係詞 + 定冠詞」黏在一起。只有 le 和 les 會被黏住，la 和 l' 不會。",
+            "items": [
+              {
+                "fr": "à + le = au",
+                "zh": "✓ au restaurant｜✗ à le restaurant（法文沒有這種寫法）"
+              },
+              {
+                "fr": "à + les = aux",
+                "zh": "✓ aux toilettes｜✗ à les toilettes"
+              },
+              {
+                "fr": "à + la = à la",
+                "zh": "不縮寫：à la boulangerie"
+              },
+              {
+                "fr": "à + l' = à l'",
+                "zh": "不縮寫：à l'école"
+              },
+              {
+                "fr": "de + le = du",
+                "zh": "✓ du piano｜✗ de le piano"
+              },
+              {
+                "fr": "de + les = des",
+                "zh": "✓ des enfants｜✗ de les enfants"
+              },
+              {
+                "fr": "de + la = de la",
+                "zh": "不縮寫：de la guitare"
+              },
+              {
+                "fr": "de + l' = de l'",
+                "zh": "不縮寫：de l'eau"
+              },
+              {
+                "fr": "★ 記法：只有 le 和 les 會縮寫",
+                "zh": "陰性的 la 和母音的 l' 永遠保持原樣，因為唸起來本來就順。"
+              }
+            ]
+          },
+          {
+            "type": "teach",
+            "heading": "⑤ 縮寫在實際句子裡長什麼樣",
+            "note": "把 ③ 的規則放進最常用的幾個句型，一次看懂。",
+            "items": [
+              {
+                "fr": "Je vais au restaurant.",
+                "zh": "我去餐廳。（à + le restaurant）"
+              },
+              {
+                "fr": "Je vais à la boulangerie.",
+                "zh": "我去麵包店。（la 不縮寫）"
+              },
+              {
+                "fr": "Je vais à l'école.",
+                "zh": "我去學校。（l' 不縮寫）"
+              },
+              {
+                "fr": "Je vais aux toilettes.",
+                "zh": "我去廁所。（à + les toilettes，廁所永遠複數）"
+              },
+              {
+                "fr": "Je joue du piano.",
+                "zh": "我彈鋼琴。（de + le piano）"
+              },
+              {
+                "fr": "Je joue de la guitare.",
+                "zh": "我彈吉他。（la 不縮寫）"
+              },
+              {
+                "fr": "Je joue au tennis.",
+                "zh": "我打網球。（★ 運動用 à，樂器用 de）"
+              },
+              {
+                "fr": "Je viens du Japon.",
+                "zh": "我來自日本。（de + le Japon）"
+              },
+              {
+                "fr": "Je viens de France.",
+                "zh": "我來自法國。（★ 陰性國家的 de 後面不加冠詞）"
+              },
+              {
+                "fr": "le mot de passe du wifi",
+                "zh": "Wi-Fi 的密碼（de + le wifi）"
+              }
+            ]
+          },
+          {
+            "type": "teach",
+            "heading": "⑥ ★ 國家：怎麼知道用 en / au / aux",
+            "note": "★ 這是你最常問的。規則只有三條，而且先判斷國家的陰陽性就解決八成。",
+            "items": [
+              {
+                "fr": "陰性國家 → en",
+                "zh": "字尾是 -e 的國家幾乎都是陰性：en France, en Chine, en Allemagne"
+              },
+              {
+                "fr": "陽性國家 → au",
+                "zh": "其他字尾（多半是子音）是陽性：au Japon, au Canada, au Portugal"
+              },
+              {
+                "fr": "複數國家 → aux",
+                "zh": "國名本身是複數：aux États-Unis, aux Pays-Bas, aux Philippines"
+              },
+              {
+                "fr": "母音開頭 → 一律 en",
+                "zh": "不管陰陽性，母音開頭都用 en：en Iran, en Angola, en Israël, en Iraq"
+              },
+              {
+                "fr": "城市 → 一律 à",
+                "zh": "城市不分陰陽性：à Paris, à Tokyo, à Taipei, à Berlin"
+              },
+              {
+                "fr": "au Mexique, au Cambodge, au Zimbabwe",
+                "zh": "★ 唯一要硬背的例外：這幾個 -e 結尾「卻是陽性」，所以用 au 不是 en。"
+              }
+            ]
+          },
+          {
+            "type": "teach",
+            "heading": "⑦ 常見國家一覽 — 直接連介係詞一起背",
+            "note": "不要背國名，要背「介係詞 + 國名」整組。這樣用的時候不用再想。",
+            "items": [
+              {
+                "fr": "en France",
+                "zh": "法國（陰）"
+              },
+              {
+                "fr": "en Chine",
+                "zh": "中國（陰）"
+              },
+              {
+                "fr": "en Allemagne",
+                "zh": "德國（陰）"
+              },
+              {
+                "fr": "en Espagne",
+                "zh": "西班牙（陰）"
+              },
+              {
+                "fr": "en Italie",
+                "zh": "義大利（陰）"
+              },
+              {
+                "fr": "en Belgique",
+                "zh": "比利時（陰）"
+              },
+              {
+                "fr": "en Suisse",
+                "zh": "瑞士（陰）"
+              },
+              {
+                "fr": "en Angleterre",
+                "zh": "英國（陰）"
+              },
+              {
+                "fr": "en Corée",
+                "zh": "韓國（陰）"
+              },
+              {
+                "fr": "en Russie",
+                "zh": "俄羅斯（陰）"
+              },
+              {
+                "fr": "en Inde",
+                "zh": "印度（陰）"
+              },
+              {
+                "fr": "en Thaïlande",
+                "zh": "泰國（陰）"
+              },
+              {
+                "fr": "au Japon",
+                "zh": "日本（陽）"
+              },
+              {
+                "fr": "au Canada",
+                "zh": "加拿大（陽）"
+              },
+              {
+                "fr": "au Portugal",
+                "zh": "葡萄牙（陽）"
+              },
+              {
+                "fr": "au Vietnam",
+                "zh": "越南（陽）"
+              },
+              {
+                "fr": "au Maroc",
+                "zh": "摩洛哥（陽）"
+              },
+              {
+                "fr": "au Brésil",
+                "zh": "巴西（陽）"
+              },
+              {
+                "fr": "au Mexique",
+                "zh": "墨西哥（★ -e 結尾卻是陽性，例外）"
+              },
+              {
+                "fr": "aux États-Unis",
+                "zh": "美國（複數）"
+              },
+              {
+                "fr": "aux Pays-Bas",
+                "zh": "荷蘭（複數）"
+              },
+              {
+                "fr": "à Taïwan",
+                "zh": "台灣（★ 當地名用 à，不加冠詞）"
+              },
+              {
+                "fr": "à Singapour",
+                "zh": "新加坡（當城市國家，用 à）"
+              }
+            ]
+          },
+          {
+            "type": "teach",
+            "heading": "⑧ 「去」和「來自」的介係詞不一樣",
+            "note": "★ 同一個國家，講「去」和講「來自」用的字不同。這是另一個常錯的地方。",
+            "items": [
+              {
+                "fr": "Je vais en France.",
+                "zh": "我去法國。（去 → en）"
+              },
+              {
+                "fr": "Je viens de France.",
+                "zh": "我來自法國。（★ 來自陰性國家 → de，不加冠詞）"
+              },
+              {
+                "fr": "Je vais au Japon.",
+                "zh": "我去日本。（去 → au）"
+              },
+              {
+                "fr": "Je viens du Japon.",
+                "zh": "我來自日本。（★ 來自陽性國家 → du = de + le）"
+              },
+              {
+                "fr": "Je vais aux États-Unis.",
+                "zh": "我去美國。（去 → aux）"
+              },
+              {
+                "fr": "Je viens des États-Unis.",
+                "zh": "我來自美國。（★ 來自複數國家 → des = de + les）"
+              },
+              {
+                "fr": "Je vais à Paris.",
+                "zh": "我去巴黎。（城市 → à）"
+              },
+              {
+                "fr": "Je viens de Paris.",
+                "zh": "我來自巴黎。（城市 → de）"
+              }
+            ]
+          },
+          {
+            "type": "teach",
+            "heading": "⑨ 一張表收尾 — 看到什麼用什麼",
+            "note": "最後把所有情況壓成一張速查表。背這個就夠應付日常。",
+            "items": [
+              {
+                "fr": "à + 時刻",
+                "zh": "à huit heures（八點）"
+              },
+              {
+                "fr": "le + 日期",
+                "zh": "le 17 août（八月十七日）"
+              },
+              {
+                "fr": "en + 月份 / 年份",
+                "zh": "en août、en 2026"
+              },
+              {
+                "fr": "au printemps / en été",
+                "zh": "季節：只有春天用 au"
+              },
+              {
+                "fr": "à + 城市",
+                "zh": "à Paris"
+              },
+              {
+                "fr": "en / au / aux + 國家",
+                "zh": "en France / au Japon / aux États-Unis"
+              },
+              {
+                "fr": "chez + 人",
+                "zh": "chez le médecin、chez moi"
+              },
+              {
+                "fr": "dans + 不定冠詞的地方",
+                "zh": "dans une école"
+              },
+              {
+                "fr": "en + 坐得進去的交通工具",
+                "zh": "en train、en voiture"
+              },
+              {
+                "fr": "à + 跨上去的交通工具",
+                "zh": "à pied、à vélo"
+              }
+            ]
+          }
+        ],
+        "tips": [
+          "★ 語言全部是陽性：le français、l'anglais、le japonais、le mandarin。l' 只是因為母音開頭縮寫，它還是陽性。",
+          "★ 只有 le 和 les 會被縮寫：à+le=au、à+les=aux、de+le=du、de+les=des。la 和 l' 永遠不縮寫。",
+          "★ 國家三條規則：陰性（多半 -e 結尾）→ en；陽性 → au；複數 → aux；母音開頭一律 en；城市一律 à。",
+          "唯一常見例外：le Mexique 是 -e 結尾卻是陽性 → au Mexique。",
+          "「去」和「來自」不同：vais en France ↔ viens de France；vais au Japon ↔ viens du Japon。",
+          "parler 後面直接接語言不加冠詞（Je parle français），但有副詞時要加回來（Je parle bien le français）。",
+          "背名詞時一定要連冠詞一起背：不要背 avion，要背 un avion。"
+        ]
+      },
+      {
         "id": "etre-avoir",
         "title": "être（是）與 avoir（有）",
         "goal": "能用兩個最重要的動詞說「我是…」「我有…」「我 N 歲」",

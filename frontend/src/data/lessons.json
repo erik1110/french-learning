@@ -86,6 +86,150 @@
       "être = 英文的 be 動詞，屬於第三組不規則動詞，必須整組背起來。",
       "il / elle / on 都搭配 est；on 在口語中常代替 nous，意思是「我們」。",
       "形容詞要跟主詞做陰陽性與單複數配合，例如 fatigué（男）→ fatiguée（女）。"
+    ],
+    "drill": [
+      {
+        "fr": "Je suis",
+        "zh": "我是"
+      },
+      {
+        "fr": "Tu es",
+        "zh": "你是"
+      },
+      {
+        "fr": "Il est",
+        "zh": "他是"
+      },
+      {
+        "fr": "Nous sommes",
+        "zh": "我們是"
+      },
+      {
+        "fr": "Vous êtes",
+        "zh": "您是／你們是"
+      },
+      {
+        "fr": "Ils sont",
+        "zh": "他們是"
+      },
+      {
+        "fr": "Je suis taïwanais.",
+        "zh": "我是台灣人"
+      },
+      {
+        "fr": "Elle est fatiguée.",
+        "zh": "她累了"
+      },
+      {
+        "fr": "Nous sommes contents.",
+        "zh": "我們很開心"
+      },
+      {
+        "fr": "Vous êtes prêts ?",
+        "zh": "你們準備好了嗎？"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "「我是台灣人」的法文是？",
+        "options": [
+          "Je suis taïwanais.",
+          "Je es taïwanais.",
+          "J'ai taïwanais."
+        ],
+        "answer": 0,
+        "why": "je 的 être 變位是 suis。國籍接在 être 後面不加冠詞。"
+      },
+      {
+        "q": "nous 搭配 être 要用哪個變位？",
+        "options": [
+          "sommes",
+          "êtes",
+          "sont"
+        ],
+        "answer": 0,
+        "why": "nous sommes。êtes 是 vous 用的，sont 是 ils/elles 用的。"
+      },
+      {
+        "q": "vous êtes 的中文是？",
+        "options": [
+          "您是／你們是",
+          "我們是",
+          "他們是"
+        ],
+        "answer": 0,
+        "why": "vous 有兩個意思：對一個人表示尊敬的「您」，或對多人的「你們」。"
+      },
+      {
+        "q": "il / elle / on 三個人稱共用哪個變位？",
+        "options": [
+          "est",
+          "sont",
+          "es"
+        ],
+        "answer": 0,
+        "why": "這三個都是第三人稱單數，一律用 est。"
+      },
+      {
+        "q": "on est 在口語中通常是什麼意思？",
+        "options": [
+          "我們是",
+          "他是",
+          "你是"
+        ],
+        "answer": 0,
+        "why": "on 在口語裡幾乎都代替 nous，意思是「我們」，但動詞變位跟 il 一樣用 est。"
+      },
+      {
+        "q": "「她累了」正確的寫法是？",
+        "options": [
+          "Elle est fatiguée.",
+          "Elle est fatigué.",
+          "Elle a fatiguée."
+        ],
+        "answer": 0,
+        "why": "主詞是陰性，形容詞要加 e：fatigué → fatiguée。而且「累」是狀態，用 être。"
+      },
+      {
+        "q": "ils / elles 的 être 變位是？",
+        "options": [
+          "sont",
+          "sommes",
+          "est"
+        ],
+        "answer": 0,
+        "why": "第三人稱複數用 sont。"
+      },
+      {
+        "q": "être 屬於第幾組動詞？",
+        "options": [
+          "第三組（不規則）",
+          "第一組（-er）",
+          "第二組（-ir）"
+        ],
+        "answer": 0,
+        "why": "être 是最重要的不規則動詞，六個變位都要整組背。"
+      },
+      {
+        "q": "「你是學生嗎？」怎麼說？",
+        "options": [
+          "Tu es étudiant ?",
+          "Tu est étudiant ?",
+          "Tu as étudiant ?"
+        ],
+        "answer": 0,
+        "why": "tu 的變位是 es（不是 est）。職業前面不加冠詞。"
+      },
+      {
+        "q": "「我們是朋友」用 on 怎麼說？",
+        "options": [
+          "On est amis.",
+          "On sommes amis.",
+          "On sont amis."
+        ],
+        "answer": 0,
+        "why": "on 雖然意思是「我們」，動詞一律跟 il 一樣用 est。"
+      }
     ]
   },
   {
@@ -275,6 +419,138 @@
       "法文的星期幾和月份書寫時都「小寫」。",
       "說日期用「le + 數字 + 月份」，只有 1 號用序數 le premier（例：le premier mai）。",
       "nous sommes…（正式）和 on est…（口語）可以互換，都用來表達日期。"
+    ],
+    "drill": [
+      {
+        "fr": "lundi",
+        "zh": "星期一"
+      },
+      {
+        "fr": "mardi",
+        "zh": "星期二"
+      },
+      {
+        "fr": "mercredi",
+        "zh": "星期三"
+      },
+      {
+        "fr": "jeudi",
+        "zh": "星期四"
+      },
+      {
+        "fr": "vendredi",
+        "zh": "星期五"
+      },
+      {
+        "fr": "samedi",
+        "zh": "星期六"
+      },
+      {
+        "fr": "dimanche",
+        "zh": "星期日"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "法文的一週從星期幾開始？",
+        "options": [
+          "lundi（星期一）",
+          "dimanche（星期日）",
+          "samedi（星期六）"
+        ],
+        "answer": 0,
+        "why": "法文的第一天是 lundi，跟英文日曆從 Sunday 開始不一樣。"
+      },
+      {
+        "q": "星期三的法文拼法是？",
+        "options": [
+          "mercredi",
+          "mecredi",
+          "merkredi"
+        ],
+        "answer": 0,
+        "why": "mercredi 有兩個 r：mer-cre-di，是最常拼錯的一天。"
+      },
+      {
+        "q": "法文的星期要大寫還是小寫？",
+        "options": [
+          "一律小寫",
+          "一律大寫",
+          "句首才大寫"
+        ],
+        "answer": 0,
+        "why": "法文的星期和月份都是小寫，跟英文不一樣。"
+      },
+      {
+        "q": "「今天星期幾？」的口語問法是？",
+        "options": [
+          "On est quel jour ?",
+          "Il est quel jour ?",
+          "Quel jour as-tu ?"
+        ],
+        "answer": 0,
+        "why": "日期用 on est／nous sommes／c'est，不能用 il est（那是講幾點的）。"
+      },
+      {
+        "q": "「今天是八月十七日」怎麼說？",
+        "options": [
+          "On est le 17 août.",
+          "On est août 17.",
+          "On est le 17 de août."
+        ],
+        "answer": 0,
+        "why": "日期公式：le + 日 + 月，順序跟中文相反，中間不加 de。"
+      },
+      {
+        "q": "只有哪一天要用序數？",
+        "options": [
+          "1 號（le premier）",
+          "最後一天",
+          "每個月 15 號"
+        ],
+        "answer": 0,
+        "why": "只有 1 號寫成 le 1er（premier），2 號以後都用一般數字。"
+      },
+      {
+        "q": "「在八月」的法文是？",
+        "options": [
+          "en août",
+          "à août",
+          "le août"
+        ],
+        "answer": 0,
+        "why": "月份前面用 en。à 用在時刻，le 用在日期。"
+      },
+      {
+        "q": "une semaine 等於幾天？",
+        "options": [
+          "7 jours",
+          "5 jours",
+          "8 jours"
+        ],
+        "answer": 0,
+        "why": "une semaine = 7 jours。注意法國人說 huit jours 時口語指「一星期」。"
+      },
+      {
+        "q": "「星期六和星期日」的法文是？",
+        "options": [
+          "samedi et dimanche",
+          "dimanche et samedi",
+          "sabredi et dimange"
+        ],
+        "answer": 0,
+        "why": "samedi（六）在前，dimanche（日）在後，因為法文一週最後一天是星期日。"
+      },
+      {
+        "q": "比較正式的「今天是…」說法是？",
+        "options": [
+          "Nous sommes le 17 août.",
+          "Il est le 17 août.",
+          "On a le 17 août."
+        ],
+        "answer": 0,
+        "why": "Nous sommes 是正式說法，On est 是口語，兩個都對；日期不能用 il est 或 avoir。"
+      }
     ]
   },
   {
@@ -381,6 +657,142 @@
       "國籍形容詞要配合性別：女生通常加 -e，例 allemand→allemande、chinois→chinoise；italien→italienne（雙寫 n）。",
       "suisse 陰陽同形不變化；國籍、語言當形容詞時小寫。",
       "動詞 connaître（認識）：je connais、il/elle connaît。"
+    ],
+    "drill": [
+      {
+        "fr": "Je viens de Taïwan.",
+        "zh": "我來自台灣。"
+      },
+      {
+        "fr": "Je suis taïwanais.",
+        "zh": "我是台灣人。（男）"
+      },
+      {
+        "fr": "Je suis taïwanaise.",
+        "zh": "我是台灣人。（女）"
+      },
+      {
+        "fr": "J'habite à Taipei.",
+        "zh": "我住在台北。"
+      },
+      {
+        "fr": "Je vais en France.",
+        "zh": "我要去法國。"
+      },
+      {
+        "fr": "Je vais au Japon.",
+        "zh": "我要去日本。"
+      },
+      {
+        "fr": "Je vais aux États-Unis.",
+        "zh": "我要去美國。"
+      },
+      {
+        "fr": "Tu viens d'où ?",
+        "zh": "你從哪裡來？"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "「我來自台灣」的法文是？",
+        "options": [
+          "Je viens de Taïwan.",
+          "Je viens à Taïwan.",
+          "Je viens du Taïwan."
+        ],
+        "answer": 0,
+        "why": "venir de = 來自。à 是「去」；Taïwan 不加冠詞所以不用 du。"
+      },
+      {
+        "q": "「我是台灣人」（男生說）正確寫法？",
+        "options": [
+          "Je suis taïwanais.",
+          "Je suis un taïwanais.",
+          "J'ai taïwanais."
+        ],
+        "answer": 0,
+        "why": "國籍接在 être 後面「不加冠詞」，而且當形容詞用時小寫。"
+      },
+      {
+        "q": "女生要怎麼說「我是台灣人」？",
+        "options": [
+          "Je suis taïwanaise.",
+          "Je suis taïwanais.",
+          "Je suis la taïwanaise."
+        ],
+        "answer": 0,
+        "why": "國籍是形容詞，要跟說話者的性別配合，陰性加 e。"
+      },
+      {
+        "q": "「我要去法國」的法文是？",
+        "options": [
+          "Je vais en France.",
+          "Je vais au France.",
+          "Je vais à France."
+        ],
+        "answer": 0,
+        "why": "la France 是陰性國家，用 en。"
+      },
+      {
+        "q": "「我要去日本」的法文是？",
+        "options": [
+          "Je vais au Japon.",
+          "Je vais en Japon.",
+          "Je vais à Japon."
+        ],
+        "answer": 0,
+        "why": "le Japon 是陽性國家，用 au（à + le）。"
+      },
+      {
+        "q": "「我要去美國」的法文是？",
+        "options": [
+          "Je vais aux États-Unis.",
+          "Je vais en États-Unis.",
+          "Je vais au États-Unis."
+        ],
+        "answer": 0,
+        "why": "les États-Unis 本身是複數，用 aux（à + les）。"
+      },
+      {
+        "q": "去「城市」要用哪個介係詞？",
+        "options": [
+          "à（à Paris）",
+          "en（en Paris）",
+          "au（au Paris）"
+        ],
+        "answer": 0,
+        "why": "城市不分陰陽性，一律用 à：à Paris、à Taipei、à Berlin。"
+      },
+      {
+        "q": "陰性國家多半有什麼特徵？",
+        "options": [
+          "字尾是 -e",
+          "字尾是子音",
+          "字尾是 -s"
+        ],
+        "answer": 0,
+        "why": "-e 結尾多半是陰性（la France、la Chine）；但 le Mexique 是有名的例外。"
+      },
+      {
+        "q": "「我住在台北」怎麼說？",
+        "options": [
+          "J'habite à Taipei.",
+          "J'habite en Taipei.",
+          "J'habite au Taipei."
+        ],
+        "answer": 0,
+        "why": "habiter 後面接城市用 à。接國家才會用 en / au / aux。"
+      },
+      {
+        "q": "母音開頭的國家（如 Iran、Angola）用哪個介係詞？",
+        "options": [
+          "一律 en",
+          "一律 au",
+          "一律 à"
+        ],
+        "answer": 0,
+        "why": "母音開頭的國家不管陰陽性都用 en：en Iran、en Angola、en Israël。"
+      }
     ]
   },
   {
@@ -567,6 +979,142 @@
       "字尾是 -e 的職業（artiste、journaliste、dentiste…）男女同形，只換冠詞：un/une artiste。",
       "有些職業沒有陰性形式：professeur、ingénieur、médecin、docteur。",
       "職業前不加冠詞：Je suis professeur.（不是 Je suis un professeur.）"
+    ],
+    "drill": [
+      {
+        "fr": "Je suis ingénieur.",
+        "zh": "我是工程師。"
+      },
+      {
+        "fr": "Elle est infirmière.",
+        "zh": "她是護理師。"
+      },
+      {
+        "fr": "Il est serveur.",
+        "zh": "他是服務生。"
+      },
+      {
+        "fr": "Elle est serveuse.",
+        "zh": "她是服務生。"
+      },
+      {
+        "fr": "Qu'est-ce que tu fais dans la vie ?",
+        "zh": "你是做什麼的？"
+      },
+      {
+        "fr": "Je travaille dans une entreprise.",
+        "zh": "我在一家公司工作。"
+      },
+      {
+        "fr": "Je suis étudiant.",
+        "zh": "我是學生。"
+      },
+      {
+        "fr": "Elle est professeure.",
+        "zh": "她是老師。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "「我是工程師」正確的說法是？",
+        "options": [
+          "Je suis ingénieur.",
+          "Je suis un ingénieur.",
+          "J'ai ingénieur."
+        ],
+        "answer": 0,
+        "why": "★ 講職業時 être 後面不加冠詞，這跟英文 I am an engineer 不一樣。"
+      },
+      {
+        "q": "un serveur 的陰性形是？",
+        "options": [
+          "une serveuse",
+          "une serveure",
+          "une serveur"
+        ],
+        "answer": 0,
+        "why": "-eur 結尾的職業，陰性多半變成 -euse：serveur → serveuse、vendeur → vendeuse。"
+      },
+      {
+        "q": "un infirmier 的陰性形是？",
+        "options": [
+          "une infirmière",
+          "une infirmiere",
+          "une infirmieuse"
+        ],
+        "answer": 0,
+        "why": "-ier 結尾變成 -ière，要加重音符號：infirmier → infirmière。"
+      },
+      {
+        "q": "問別人職業最口語的說法是？",
+        "options": [
+          "Qu'est-ce que tu fais dans la vie ?",
+          "Quel est ton travail dans la vie ?",
+          "Qui es-tu dans la vie ?"
+        ],
+        "answer": 0,
+        "why": "faire dans la vie 是問職業的固定說法，字面是「你在人生中做什麼」。"
+      },
+      {
+        "q": "「我在一家公司工作」怎麼說？",
+        "options": [
+          "Je travaille dans une entreprise.",
+          "Je travaille en une entreprise.",
+          "Je travaille à une entreprise."
+        ],
+        "answer": 0,
+        "why": "接不定冠詞的場所用 dans。接定冠詞的特定機構才用 à（à l'hôpital）。"
+      },
+      {
+        "q": "哪一句是對的？",
+        "options": [
+          "Elle est professeure.",
+          "Elle est une professeure.",
+          "Elle a professeure."
+        ],
+        "answer": 0,
+        "why": "職業不加冠詞，而且用 être 不是 avoir。"
+      },
+      {
+        "q": "職業的陰陽性要跟什麼配合？",
+        "options": [
+          "跟那個人的性別",
+          "跟說話者的性別",
+          "不用配合"
+        ],
+        "answer": 0,
+        "why": "職業是形容詞性質，要跟「擔任這個職業的人」的性別配合。"
+      },
+      {
+        "q": "un boulanger（麵包師）的陰性形是？",
+        "options": [
+          "une boulangère",
+          "une boulangeuse",
+          "une boulangere"
+        ],
+        "answer": 0,
+        "why": "-ger 結尾變 -gère：boulanger → boulangère，e 上面要加重音符號。"
+      },
+      {
+        "q": "「我是學生」（女生）怎麼說？",
+        "options": [
+          "Je suis étudiante.",
+          "Je suis étudiant.",
+          "Je suis une étudiante."
+        ],
+        "answer": 0,
+        "why": "女生要加 e 變 étudiante；而且不加冠詞。"
+      },
+      {
+        "q": "哪些字接在 être 後面都不加冠詞？",
+        "options": [
+          "職業、國籍、宗教",
+          "只有職業",
+          "只有國籍"
+        ],
+        "answer": 0,
+        "why": "職業、國籍、宗教三類接在 être 後面都不加冠詞：je suis ingénieur / taïwanais / bouddhiste。"
+      }
     ]
   },
   {
@@ -693,6 +1241,150 @@
       "avoir le cafard = 心情低落、憂鬱；avoir la pêche = 精力充沛、心情好。",
       "「心情好」的標準說法是 être de bonne humeur（用 être，不是 avoir）。",
       "avoir peur de + 名詞：j'ai peur des araignées；de + le → du（j'ai peur du noir）。"
+    ],
+    "drill": [
+      {
+        "fr": "J'ai",
+        "zh": "我有"
+      },
+      {
+        "fr": "Tu as",
+        "zh": "你有"
+      },
+      {
+        "fr": "Il a",
+        "zh": "他有"
+      },
+      {
+        "fr": "Nous avons",
+        "zh": "我們有"
+      },
+      {
+        "fr": "Vous avez",
+        "zh": "您有／你們有"
+      },
+      {
+        "fr": "Ils ont",
+        "zh": "他們有"
+      },
+      {
+        "fr": "J'ai vingt-cinq ans.",
+        "zh": "我二十五歲。"
+      },
+      {
+        "fr": "J'ai faim.",
+        "zh": "我餓了。"
+      },
+      {
+        "fr": "J'ai soif.",
+        "zh": "我渴了。"
+      },
+      {
+        "fr": "J'ai froid.",
+        "zh": "我冷。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "「我二十五歲」的法文是？",
+        "options": [
+          "J'ai vingt-cinq ans.",
+          "Je suis vingt-cinq ans.",
+          "J'ai vingt-cinq."
+        ],
+        "answer": 0,
+        "why": "★ 年齡一定用 avoir，而且 ans 不能省略。中文說「我是 25 歲」，法文說「我有 25 年」。"
+      },
+      {
+        "q": "「我餓了」怎麼說？",
+        "options": [
+          "J'ai faim.",
+          "Je suis faim.",
+          "J'ai la faim."
+        ],
+        "answer": 0,
+        "why": "生理感受用 avoir，而且不加冠詞：j'ai faim / soif / froid / chaud。"
+      },
+      {
+        "q": "nous 的 avoir 變位是？",
+        "options": [
+          "avons",
+          "avez",
+          "ont"
+        ],
+        "answer": 0,
+        "why": "nous avons。avez 是 vous，ont 是 ils/elles。"
+      },
+      {
+        "q": "哪一句是對的？",
+        "options": [
+          "Elle a chaud.",
+          "Elle est chaude.",
+          "Elle a chaude."
+        ],
+        "answer": 0,
+        "why": "「覺得熱」用 avoir chaud，而且 chaud 不做性數配合。Elle est chaude 意思完全不一樣。"
+      },
+      {
+        "q": "ils 的 avoir 變位是？",
+        "options": [
+          "ont",
+          "sont",
+          "avons"
+        ],
+        "answer": 0,
+        "why": "ils ont（有）。sont 是 être 的變位（是）。"
+      },
+      {
+        "q": "「我有一隻狗」怎麼說？",
+        "options": [
+          "J'ai un chien.",
+          "Je suis un chien.",
+          "J'ai le chien."
+        ],
+        "answer": 0,
+        "why": "擁有某物用 avoir + 不定冠詞。Je suis un chien 是「我是一隻狗」。"
+      },
+      {
+        "q": "j'ai 為什麼不是 je ai ?",
+        "options": [
+          "je 遇到母音要縮寫成 j'",
+          "這是例外沒有規則",
+          "因為 avoir 不規則"
+        ],
+        "answer": 0,
+        "why": "je 後面接母音或啞音 h 開頭的字時一律縮寫：j'ai、j'habite、j'aime。"
+      },
+      {
+        "q": "「你幾歲？」怎麼問？",
+        "options": [
+          "Tu as quel âge ?",
+          "Tu es quel âge ?",
+          "Quel âge es-tu ?"
+        ],
+        "answer": 0,
+        "why": "問年齡也用 avoir：Tu as quel âge ? 或正式一點的 Quel âge avez-vous ?"
+      },
+      {
+        "q": "「我們有兩個小孩」怎麼說？",
+        "options": [
+          "Nous avons deux enfants.",
+          "Nous sommes deux enfants.",
+          "Nous avons deux enfant."
+        ],
+        "answer": 0,
+        "why": "擁有用 avoir；複數名詞要加 s：deux enfants。"
+      },
+      {
+        "q": "avoir 和 être 最常被搞混的地方是？",
+        "options": [
+          "年齡和生理感受要用 avoir",
+          "國籍要用 avoir",
+          "職業要用 avoir"
+        ],
+        "answer": 0,
+        "why": "年齡（j'ai 25 ans）和生理感受（j'ai faim）用 avoir；國籍和職業用 être。"
+      }
     ]
   },
   {
@@ -835,6 +1527,142 @@
       "aimer 接名詞時用定冠詞 le / la / l' / les（表示喜歡整類事物），不用 un/une。",
       "aimer 也可以直接接原形動詞：j'aime dormir、je déteste travailler。",
       "否定用 ne...pas：Je n'aime pas le sport（口語常省略 ne，說 J'aime pas…）。"
+    ],
+    "drill": [
+      {
+        "fr": "J'aime le café.",
+        "zh": "我喜歡咖啡。"
+      },
+      {
+        "fr": "Je n'aime pas le thé.",
+        "zh": "我不喜歡茶。"
+      },
+      {
+        "fr": "J'adore voyager.",
+        "zh": "我超愛旅行。"
+      },
+      {
+        "fr": "Je déteste attendre.",
+        "zh": "我討厭等待。"
+      },
+      {
+        "fr": "Tu aimes le chocolat ?",
+        "zh": "你喜歡巧克力嗎？"
+      },
+      {
+        "fr": "J'aime beaucoup la musique.",
+        "zh": "我很喜歡音樂。"
+      },
+      {
+        "fr": "Moi aussi.",
+        "zh": "我也是。"
+      },
+      {
+        "fr": "Moi non plus.",
+        "zh": "我也不是。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "「我喜歡咖啡」的法文是？",
+        "options": [
+          "J'aime le café.",
+          "J'aime café.",
+          "J'aime du café."
+        ],
+        "answer": 0,
+        "why": "★ aimer 後面接「定冠詞」表示整體的喜好：j'aime le café（咖啡這個東西我都喜歡）。"
+      },
+      {
+        "q": "「我不喜歡茶」怎麼說？",
+        "options": [
+          "Je n'aime pas le thé.",
+          "Je n'aime pas de thé.",
+          "Je ne aime pas le thé."
+        ],
+        "answer": 0,
+        "why": "★ aimer 的否定句「不」把冠詞改成 de，定冠詞 le 保持不變。而且 ne 遇到母音要縮寫成 n'。"
+      },
+      {
+        "q": "beaucoup 要放在哪裡？",
+        "options": [
+          "動詞後面：J'aime beaucoup la musique.",
+          "句尾：J'aime la musique beaucoup.",
+          "動詞前面：Je beaucoup aime la musique."
+        ],
+        "answer": 0,
+        "why": "程度副詞緊跟在動詞後面。"
+      },
+      {
+        "q": "比 aimer 更強烈的「超愛」是哪個字？",
+        "options": [
+          "adorer",
+          "préférer",
+          "vouloir"
+        ],
+        "answer": 0,
+        "why": "強度順序：détester（討厭）< ne pas aimer < aimer < adorer（超愛）。"
+      },
+      {
+        "q": "aimer 後面接動詞時要用什麼形式？",
+        "options": [
+          "原形動詞（J'aime voyager）",
+          "現在式變位",
+          "過去分詞"
+        ],
+        "answer": 0,
+        "why": "兩個動詞連用時，第二個一律用原形：j'aime voyager、j'adore chanter。"
+      },
+      {
+        "q": "別人說「我喜歡」，你要附和「我也是」怎麼說？",
+        "options": [
+          "Moi aussi.",
+          "Moi non plus.",
+          "Moi aussi pas."
+        ],
+        "answer": 0,
+        "why": "肯定句的附和用 Moi aussi。"
+      },
+      {
+        "q": "別人說「我不喜歡」，你要附和「我也不喜歡」怎麼說？",
+        "options": [
+          "Moi non plus.",
+          "Moi aussi.",
+          "Moi pas aussi."
+        ],
+        "answer": 0,
+        "why": "★ 否定句的附和要用 Moi non plus，不能用 Moi aussi。"
+      },
+      {
+        "q": "「你喜歡巧克力嗎？」最口語的問法是？",
+        "options": [
+          "Tu aimes le chocolat ?",
+          "Aimes-tu le chocolat ?",
+          "Est-ce tu aimes chocolat ?"
+        ],
+        "answer": 0,
+        "why": "口語直接用「直述句 + 問號」，語尾上揚就是問句。倒裝比較正式。"
+      },
+      {
+        "q": "J'aime le café 和 Je voudrais un café 差在哪？",
+        "options": [
+          "前者講整體喜好，後者是現在要點一杯",
+          "意思一樣",
+          "前者比較客氣"
+        ],
+        "answer": 0,
+        "why": "aimer + 定冠詞 = 一直以來的喜好；要點餐、要東西時用 je voudrais + 不定冠詞。"
+      },
+      {
+        "q": "「我討厭等待」的法文是？",
+        "options": [
+          "Je déteste attendre.",
+          "Je déteste attends.",
+          "Je déteste l'attendre."
+        ],
+        "answer": 0,
+        "why": "détester 後面接原形動詞，不加冠詞也不變位。"
+      }
     ]
   },
   {
@@ -933,6 +1761,142 @@
       "Qu'est-ce que tu fais dans la vie ? = 你是做什麼工作的？",
       "職業前不加冠詞：Je suis ingénieur / professeur（和英文的 a 不同）。",
       "年齡用 avoir：Vous avez quel âge ? → J'ai 30 ans；工作地點用 dans un/une…。"
+    ],
+    "drill": [
+      {
+        "fr": "Je m'appelle Erik.",
+        "zh": "我叫 Erik。"
+      },
+      {
+        "fr": "Comment tu t'appelles ?",
+        "zh": "你叫什麼名字？"
+      },
+      {
+        "fr": "J'ai vingt-neuf ans.",
+        "zh": "我二十九歲。"
+      },
+      {
+        "fr": "Je suis taïwanais.",
+        "zh": "我是台灣人。"
+      },
+      {
+        "fr": "Je suis ingénieur.",
+        "zh": "我是工程師。"
+      },
+      {
+        "fr": "J'habite à Taipei.",
+        "zh": "我住在台北。"
+      },
+      {
+        "fr": "Enchanté !",
+        "zh": "幸會！（男生說）"
+      },
+      {
+        "fr": "Enchantée !",
+        "zh": "幸會！（女生說）"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "「我叫 Erik」的法文是？",
+        "options": [
+          "Je m'appelle Erik.",
+          "Je appelle Erik.",
+          "Mon nom Erik."
+        ],
+        "answer": 0,
+        "why": "s'appeler 是反身動詞，主詞後面要多一個代名詞：je m'appelle / tu t'appelles / il s'appelle。"
+      },
+      {
+        "q": "自我介紹時，名字、年齡、職業分別用哪個動詞？",
+        "options": [
+          "s'appeler / avoir / être",
+          "être / être / être",
+          "avoir / avoir / être"
+        ],
+        "answer": 0,
+        "why": "★ 名字用 s'appeler、年齡用 avoir、職業和國籍用 être。這三個最常搞混。"
+      },
+      {
+        "q": "「我二十九歲」怎麼說？",
+        "options": [
+          "J'ai vingt-neuf ans.",
+          "Je suis vingt-neuf ans.",
+          "J'ai vingt-neuf."
+        ],
+        "answer": 0,
+        "why": "年齡用 avoir，而且一定要加 ans。"
+      },
+      {
+        "q": "「我是工程師」怎麼說？",
+        "options": [
+          "Je suis ingénieur.",
+          "Je suis un ingénieur.",
+          "J'ai ingénieur."
+        ],
+        "answer": 0,
+        "why": "職業接在 être 後面不加冠詞。"
+      },
+      {
+        "q": "「我住在台北」怎麼說？",
+        "options": [
+          "J'habite à Taipei.",
+          "J'habite en Taipei.",
+          "Je suis à Taipei habite."
+        ],
+        "answer": 0,
+        "why": "城市前面用 à。habiter 的 je 變位是 habite，而且要縮寫成 j'habite。"
+      },
+      {
+        "q": "女生要怎麼說「幸會」？",
+        "options": [
+          "Enchantée !",
+          "Enchanté !",
+          "Enchant !"
+        ],
+        "answer": 0,
+        "why": "enchanté 是形容詞，女生說要加 e：Enchantée。"
+      },
+      {
+        "q": "「你叫什麼名字？」的口語問法是？",
+        "options": [
+          "Comment tu t'appelles ?",
+          "Comment tu appelles ?",
+          "Quel tu t'appelles ?"
+        ],
+        "answer": 0,
+        "why": "反身代名詞 te 不能省略，而且遇到母音要縮寫成 t'。"
+      },
+      {
+        "q": "哪一句是錯的？",
+        "options": [
+          "Je suis vingt-cinq ans.",
+          "J'ai vingt-cinq ans.",
+          "Je suis taïwanais."
+        ],
+        "answer": 0,
+        "why": "★ 年齡不能用 être。要說 J'ai 25 ans。"
+      },
+      {
+        "q": "「你從哪裡來？」怎麼問？",
+        "options": [
+          "Tu viens d'où ?",
+          "Tu vas d'où ?",
+          "Tu es d'où venir ?"
+        ],
+        "answer": 0,
+        "why": "venir de = 來自。de + où 要縮寫成 d'où。"
+      },
+      {
+        "q": "自我介紹的順序，哪一個組合最自然？",
+        "options": [
+          "名字 → 國籍 → 職業 → 住哪",
+          "年齡 → 名字 → 國籍",
+          "職業 → 年齡 → 名字"
+        ],
+        "answer": 0,
+        "why": "Je m'appelle… Je suis taïwanais. Je suis ingénieur. J'habite à Taipei. 這個順序最自然。"
+      }
     ]
   },
   {
@@ -1242,6 +2206,142 @@
       "主題單字連定冠詞一起背（le café、la pizza、les chats），套進 J'aime… 就是完整句子。",
       "ça 代替剛剛提到的「一類事物」：J'adore ça；特定事物（像國家）則用 le/la：le Japon → Je l'aime。",
       "préférer 的重音變化：原形 préférer，但 je préfère / tu préfères（é → è），發音也跟著變。"
+    ],
+    "drill": [
+      {
+        "fr": "J'aime beaucoup ça.",
+        "zh": "我很喜歡這個。"
+      },
+      {
+        "fr": "Je préfère le thé.",
+        "zh": "我比較喜歡茶。"
+      },
+      {
+        "fr": "Je préfère le thé au café.",
+        "zh": "比起咖啡我更喜歡茶。"
+      },
+      {
+        "fr": "Qu'est-ce que tu préfères ?",
+        "zh": "你比較喜歡哪個？"
+      },
+      {
+        "fr": "Ça me plaît.",
+        "zh": "我喜歡這個。"
+      },
+      {
+        "fr": "Je n'aime pas ça du tout.",
+        "zh": "我一點都不喜歡這個。"
+      },
+      {
+        "fr": "C'est mon préféré.",
+        "zh": "這是我最喜歡的。"
+      },
+      {
+        "fr": "Pas vraiment.",
+        "zh": "不太喜歡。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "「我比較喜歡茶」的法文是？",
+        "options": [
+          "Je préfère le thé.",
+          "Je préfer le thé.",
+          "Je préfère du thé."
+        ],
+        "answer": 0,
+        "why": "préférer 的 je 變位是 préfère（重音符號從 é 變 è）。後面接定冠詞。"
+      },
+      {
+        "q": "「比起咖啡我更喜歡茶」怎麼說？",
+        "options": [
+          "Je préfère le thé au café.",
+          "Je préfère le thé que le café.",
+          "Je préfère le thé du café."
+        ],
+        "answer": 0,
+        "why": "★ préférer A à B = 比起 B 更喜歡 A。被比下去的那個用 à（au café = à + le café）。"
+      },
+      {
+        "q": "ça 是什麼的縮寫？",
+        "options": [
+          "cela（這個、那個）",
+          "ce qui",
+          "c'est a"
+        ],
+        "answer": 0,
+        "why": "ça 是 cela 的口語縮寫，用來代替前面提過的東西或整件事。"
+      },
+      {
+        "q": "「我一點都不喜歡」怎麼說？",
+        "options": [
+          "Je n'aime pas ça du tout.",
+          "Je n'aime pas ça tout.",
+          "Je aime pas du tout ça."
+        ],
+        "answer": 0,
+        "why": "du tout 放在句尾加強否定語氣，等於「完全不」。"
+      },
+      {
+        "q": "Ça me plaît 的意思是？",
+        "options": [
+          "我喜歡這個",
+          "我不喜歡這個",
+          "這個很貴"
+        ],
+        "answer": 0,
+        "why": "plaire 的字面是「這個取悅我」，法文常用這個句型表達喜歡。"
+      },
+      {
+        "q": "préférer 在 nous 的變位是？",
+        "options": [
+          "nous préférons",
+          "nous préfèrons",
+          "nous préférens"
+        ],
+        "answer": 0,
+        "why": "nous 和 vous 保留原本的 é：préférons、préférez；其他人稱才變成 è。"
+      },
+      {
+        "q": "「你比較喜歡哪個？」怎麼問？",
+        "options": [
+          "Qu'est-ce que tu préfères ?",
+          "Quel tu préfères ?",
+          "Qui tu préfères ?"
+        ],
+        "answer": 0,
+        "why": "問「什麼」用 qu'est-ce que。quel 後面要接名詞，qui 是問「誰」。"
+      },
+      {
+        "q": "別人問你喜不喜歡，你想說「不太喜歡」？",
+        "options": [
+          "Pas vraiment.",
+          "Pas du tout.",
+          "Vraiment pas du tout."
+        ],
+        "answer": 0,
+        "why": "Pas vraiment = 不太、沒那麼喜歡，語氣比 Pas du tout（完全不）委婉很多。"
+      },
+      {
+        "q": "「這是我最喜歡的」怎麼說？",
+        "options": [
+          "C'est mon préféré.",
+          "C'est ma préféré.",
+          "C'est mon préférer."
+        ],
+        "answer": 0,
+        "why": "préféré 當名詞用，陽性所以配 mon；陰性的話是 ma préférée。"
+      },
+      {
+        "q": "aimer 和 préférer 的差別是？",
+        "options": [
+          "aimer 是喜歡，préférer 是在兩者之間偏好其一",
+          "意思完全一樣",
+          "préférer 比 aimer 弱"
+        ],
+        "answer": 0,
+        "why": "préférer 帶有「比較」的意思，所以常跟 à 或 ou 一起出現。"
+      }
     ]
   },
   {
@@ -1485,6 +2585,142 @@
       "拼字陷阱：il/elle connaît 的 î 一定要戴帽子（長音符）。",
       "介紹身分兩種說法：Il est couturier（不加冠詞）vs C'est un couturier français（加 un/une）——「Il est + 職業」永遠不加冠詞。",
       "職業和國籍都要跟人物性別配合：Il est chanteur → Elle est chanteuse。"
+    ],
+    "drill": [
+      {
+        "fr": "Qui est-ce ?",
+        "zh": "這是誰？"
+      },
+      {
+        "fr": "C'est mon ami.",
+        "zh": "這是我的朋友。"
+      },
+      {
+        "fr": "Tu connais Paul ?",
+        "zh": "你認識保羅嗎？"
+      },
+      {
+        "fr": "Je connais ce restaurant.",
+        "zh": "我知道這家餐廳。"
+      },
+      {
+        "fr": "Je ne le connais pas.",
+        "zh": "我不認識他。"
+      },
+      {
+        "fr": "Je connais",
+        "zh": "我認識"
+      },
+      {
+        "fr": "Nous connaissons",
+        "zh": "我們認識"
+      },
+      {
+        "fr": "Ils connaissent",
+        "zh": "他們認識"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "「這是誰？」的法文是？",
+        "options": [
+          "Qui est-ce ?",
+          "Qu'est-ce que c'est ?",
+          "Qui c'est que ?"
+        ],
+        "answer": 0,
+        "why": "問「人」用 Qui est-ce ?；問「東西」用 Qu'est-ce que c'est ?"
+      },
+      {
+        "q": "要問一個「東西」是什麼，該用哪句？",
+        "options": [
+          "Qu'est-ce que c'est ?",
+          "Qui est-ce ?",
+          "Qui est ce que ?"
+        ],
+        "answer": 0,
+        "why": "qui 是問人，que / quoi 是問東西。"
+      },
+      {
+        "q": "connaître 在 nous 的變位是？",
+        "options": [
+          "connaissons",
+          "connaisons",
+          "connaîssons"
+        ],
+        "answer": 0,
+        "why": "nous connaissons，有兩個 s；注意複數人稱沒有長音符號（î）。"
+      },
+      {
+        "q": "哪個人稱的 connaître 有長音符號 î ?",
+        "options": [
+          "il connaît",
+          "nous connaissons",
+          "je connais"
+        ],
+        "answer": 0,
+        "why": "只有第三人稱單數 il/elle connaît 保留 î（因為後面接 t）。"
+      },
+      {
+        "q": "「我不認識他」怎麼說？",
+        "options": [
+          "Je ne le connais pas.",
+          "Je ne connais pas le.",
+          "Je le ne connais pas."
+        ],
+        "answer": 0,
+        "why": "★ 受詞代名詞 le 放在動詞前面，而且被 ne...pas 一起夾在中間。"
+      },
+      {
+        "q": "connaître 和 savoir 的差別是？",
+        "options": [
+          "connaître 是認識人或地方，savoir 是知道一件事",
+          "意思完全一樣",
+          "connaître 比較正式"
+        ],
+        "answer": 0,
+        "why": "connaître 後面接人、地方、作品；savoir 後面接句子或資訊（je sais où il habite）。"
+      },
+      {
+        "q": "「你認識保羅嗎？」最口語的問法是？",
+        "options": [
+          "Tu connais Paul ?",
+          "Connais-tu Paul ?",
+          "Est-ce tu connais Paul ?"
+        ],
+        "answer": 0,
+        "why": "口語用直述句加問號。倒裝 Connais-tu 比較正式。"
+      },
+      {
+        "q": "回答 Qui est-ce ? 要用哪個句型？",
+        "options": [
+          "C'est + 人",
+          "Il est + 人",
+          "Ce sont + 人（單數時）"
+        ],
+        "answer": 0,
+        "why": "介紹某個人用 C'est mon ami / C'est Paul。多人時才用 Ce sont。"
+      },
+      {
+        "q": "「我認識這家餐廳」怎麼說？",
+        "options": [
+          "Je connais ce restaurant.",
+          "Je sais ce restaurant.",
+          "Je connais à ce restaurant."
+        ],
+        "answer": 0,
+        "why": "地方用 connaître，而且後面直接接受詞，不加介係詞。"
+      },
+      {
+        "q": "ils 的 connaître 變位是？",
+        "options": [
+          "connaissent",
+          "connaissons",
+          "connaît"
+        ],
+        "answer": 0,
+        "why": "ils connaissent，字尾 -ent 不發音。"
+      }
     ]
   },
   {
@@ -1636,6 +2872,142 @@
       "複數用 Ce sont（不是 C'est）：C'est un fruit ➜ Ce sont des fruits；冠詞／所有格也要變複數（un→des、mon→mes）。",
       "問句一律用單數問：Qu'est-ce que c'est ?（問東西）、Qui est-ce ? / C'est qui ?（問人），就算答案是複數也一樣。",
       "介紹名字用 C'est + 名字，不要用「Il est + 名字」：✅ C'est Peter，❌ Il est Peter。"
+    ],
+    "drill": [
+      {
+        "fr": "C'est mon frère.",
+        "zh": "這是我哥哥。"
+      },
+      {
+        "fr": "Il est ingénieur.",
+        "zh": "他是工程師。"
+      },
+      {
+        "fr": "C'est un ingénieur.",
+        "zh": "他是個工程師。"
+      },
+      {
+        "fr": "Elle est française.",
+        "zh": "她是法國人。"
+      },
+      {
+        "fr": "C'est une Française.",
+        "zh": "她是個法國人。"
+      },
+      {
+        "fr": "C'est bon !",
+        "zh": "很好吃！"
+      },
+      {
+        "fr": "Ce sont mes amis.",
+        "zh": "這些是我的朋友。"
+      },
+      {
+        "fr": "C'est difficile.",
+        "zh": "這很難。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "後面接「冠詞 + 名詞」時要用哪個？",
+        "options": [
+          "C'est（C'est un ingénieur）",
+          "Il est（Il est un ingénieur）",
+          "兩個都可以"
+        ],
+        "answer": 0,
+        "why": "★ 核心規則：有冠詞 → C'est；沒冠詞（光禿禿的形容詞或職業）→ Il est。"
+      },
+      {
+        "q": "「他是工程師」正確的寫法是？",
+        "options": [
+          "Il est ingénieur.",
+          "Il est un ingénieur.",
+          "C'est ingénieur."
+        ],
+        "answer": 0,
+        "why": "職業不加冠詞時用 Il est；如果要說 C'est，就得補上冠詞變成 C'est un ingénieur。"
+      },
+      {
+        "q": "介紹一個特定的人（這是我哥）用哪個？",
+        "options": [
+          "C'est mon frère.",
+          "Il est mon frère.",
+          "Il est frère."
+        ],
+        "answer": 0,
+        "why": "★ 後面接所有格（mon、ma…）、人名、冠詞時一律用 C'est。"
+      },
+      {
+        "q": "「這很難」怎麼說？",
+        "options": [
+          "C'est difficile.",
+          "Il est difficile.",
+          "Ce sont difficile."
+        ],
+        "answer": 0,
+        "why": "講一件事、一個情況的評論用 C'est + 陽性單數形容詞。"
+      },
+      {
+        "q": "複數時 C'est 要變成什麼？",
+        "options": [
+          "Ce sont",
+          "C'est",
+          "Ils est"
+        ],
+        "answer": 0,
+        "why": "Ce sont mes amis.（這些是我的朋友）口語有時也聽到 C'est，但書寫要用 Ce sont。"
+      },
+      {
+        "q": "「她是法國人」不加冠詞的說法是？",
+        "options": [
+          "Elle est française.",
+          "C'est française.",
+          "Elle est une française."
+        ],
+        "answer": 0,
+        "why": "國籍當形容詞、不加冠詞時用 Elle est，而且小寫。"
+      },
+      {
+        "q": "C'est une Française 的 Française 為什麼大寫？",
+        "options": [
+          "因為它在這裡當「名詞」指法國人",
+          "因為句首",
+          "拼錯了"
+        ],
+        "answer": 0,
+        "why": "★ 國籍當形容詞時小寫（elle est française），當名詞指「某國人」時大寫（une Française）。"
+      },
+      {
+        "q": "吃到好吃的東西要說？",
+        "options": [
+          "C'est bon !",
+          "Il est bon !",
+          "C'est bonne !"
+        ],
+        "answer": 0,
+        "why": "評論一件事用 C'est + 陽性單數：C'est bon / C'est bien / C'est super。"
+      },
+      {
+        "q": "哪一句是錯的？",
+        "options": [
+          "Il est un médecin.",
+          "Il est médecin.",
+          "C'est un médecin."
+        ],
+        "answer": 0,
+        "why": "Il est 後面不能加冠詞。要嘛 Il est médecin，要嘛 C'est un médecin。"
+      },
+      {
+        "q": "判斷用 C'est 還是 Il est，最快的方法是？",
+        "options": [
+          "看後面有沒有冠詞或所有格",
+          "看主詞是男是女",
+          "看句子長短"
+        ],
+        "answer": 0,
+        "why": "有冠詞 / 所有格 / 人名 → C'est；只有形容詞或職業 → Il est。"
+      }
     ]
   },
   {
@@ -1901,6 +3273,146 @@
       "JOUER + de（樂器）：jouer du piano、jouer de la guitare；樂器可用 jouer de，也可用 faire de。",
       "FAIRE 是第三組不規則動詞，記住特殊變位：vous faites、ils font。",
       "家務固定用 faire：faire le ménage（打掃）、faire la cuisine（做飯）、faire les courses（採買）。"
+    ],
+    "drill": [
+      {
+        "fr": "Je fais",
+        "zh": "我做"
+      },
+      {
+        "fr": "Tu fais",
+        "zh": "你做"
+      },
+      {
+        "fr": "Il fait",
+        "zh": "他做"
+      },
+      {
+        "fr": "Nous faisons",
+        "zh": "我們做"
+      },
+      {
+        "fr": "Vous faites",
+        "zh": "您／你們做"
+      },
+      {
+        "fr": "Ils font",
+        "zh": "他們做"
+      },
+      {
+        "fr": "Je fais du sport.",
+        "zh": "我做運動。"
+      },
+      {
+        "fr": "Je joue au tennis.",
+        "zh": "我打網球。"
+      },
+      {
+        "fr": "Je joue du piano.",
+        "zh": "我彈鋼琴。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "「我打網球」的法文是？",
+        "options": [
+          "Je joue au tennis.",
+          "Je joue du tennis.",
+          "Je joue le tennis."
+        ],
+        "answer": 0,
+        "why": "★ jouer à + 運動／遊戲：jouer au tennis、jouer au foot、jouer aux cartes。"
+      },
+      {
+        "q": "「我彈鋼琴」的法文是？",
+        "options": [
+          "Je joue du piano.",
+          "Je joue au piano.",
+          "Je joue le piano."
+        ],
+        "answer": 0,
+        "why": "★ jouer de + 樂器：jouer du piano、jouer de la guitare、jouer du violon。"
+      },
+      {
+        "q": "jouer à 和 jouer de 怎麼分？",
+        "options": [
+          "à 接運動遊戲，de 接樂器",
+          "à 接樂器，de 接運動",
+          "沒有差別"
+        ],
+        "answer": 0,
+        "why": "這是最常考的一組：運動用 à，樂器用 de。"
+      },
+      {
+        "q": "vous 的 faire 變位是？",
+        "options": [
+          "faites",
+          "faisez",
+          "faitez"
+        ],
+        "answer": 0,
+        "why": "★ vous faites 是不規則的，不是 faisez。只有三個動詞是 -tes 結尾：vous êtes、vous faites、vous dites。"
+      },
+      {
+        "q": "ils 的 faire 變位是？",
+        "options": [
+          "font",
+          "faisent",
+          "fait"
+        ],
+        "answer": 0,
+        "why": "ils font，也是不規則的。"
+      },
+      {
+        "q": "「我做運動」怎麼說？",
+        "options": [
+          "Je fais du sport.",
+          "Je fais le sport.",
+          "Je joue du sport."
+        ],
+        "answer": 0,
+        "why": "faire du + 活動：faire du sport、faire du vélo、faire de la natation。"
+      },
+      {
+        "q": "faire de la natation 的 de la 為什麼不是 du ?",
+        "options": [
+          "natation 是陰性名詞",
+          "後面是母音",
+          "這是例外"
+        ],
+        "answer": 0,
+        "why": "部分冠詞要配合名詞的陰陽性：du（陽）/ de la（陰）/ de l'（母音）/ des（複數）。"
+      },
+      {
+        "q": "「天氣很好」用哪個動詞？",
+        "options": [
+          "Il fait beau.",
+          "Il est beau.",
+          "Il a beau."
+        ],
+        "answer": 0,
+        "why": "天氣固定用 faire：il fait beau / chaud / froid。"
+      },
+      {
+        "q": "jouer aux cartes 的 aux 是什麼的縮寫？",
+        "options": [
+          "à + les",
+          "à + le",
+          "à + la"
+        ],
+        "answer": 0,
+        "why": "les cartes 是複數，à + les 一定要縮寫成 aux。"
+      },
+      {
+        "q": "哪一句是對的？",
+        "options": [
+          "Elle joue de la guitare.",
+          "Elle joue à la guitare.",
+          "Elle fait la guitare."
+        ],
+        "answer": 0,
+        "why": "吉他是樂器 → jouer de la guitare（guitare 陰性）。"
+      }
     ]
   },
   {
@@ -2206,6 +3718,146 @@
       "問喜好：Qu'est-ce que tu aimes ?，或直接問 Tu aimes… ?；點每個句子可以聽發音。",
       "定冠詞看名詞分四類：陽性 le、陰性 la、母音開頭 l'、複數 les（le café / la musique / l'opéra / les animaux）。",
       "三種問法：句尾上揚 Tu aimes… ?、Est-ce que tu aimes… ?、Qu'est-ce que tu aimes ?；回答後可加 Et toi ?（你呢？）。"
+    ],
+    "drill": [
+      {
+        "fr": "J'aime",
+        "zh": "我喜歡"
+      },
+      {
+        "fr": "Tu aimes",
+        "zh": "你喜歡"
+      },
+      {
+        "fr": "Il aime",
+        "zh": "他喜歡"
+      },
+      {
+        "fr": "Nous aimons",
+        "zh": "我們喜歡"
+      },
+      {
+        "fr": "Vous aimez",
+        "zh": "您／你們喜歡"
+      },
+      {
+        "fr": "Ils aiment",
+        "zh": "他們喜歡"
+      },
+      {
+        "fr": "Je n'aime pas le sport.",
+        "zh": "我不喜歡運動。"
+      },
+      {
+        "fr": "J'aime bien ce film.",
+        "zh": "我還蠻喜歡這部電影。"
+      },
+      {
+        "fr": "Je n'aime pas du tout.",
+        "zh": "我完全不喜歡。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "aimer 屬於第幾組動詞？",
+        "options": [
+          "第一組（-er 規則動詞）",
+          "第二組（-ir）",
+          "第三組（不規則）"
+        ],
+        "answer": 0,
+        "why": "aimer 是標準的 -er 規則動詞，字尾變化是 -e / -es / -e / -ons / -ez / -ent。"
+      },
+      {
+        "q": "ils aiment 的字尾 -ent 怎麼發音？",
+        "options": [
+          "不發音",
+          "唸 /ɑ̃/",
+          "唸 /ɛnt/"
+        ],
+        "answer": 0,
+        "why": "★ 第三人稱複數的 -ent 完全不發音，所以 il aime 和 ils aiment 聽起來一模一樣。"
+      },
+      {
+        "q": "「我不喜歡運動」的正確寫法？",
+        "options": [
+          "Je n'aime pas le sport.",
+          "Je ne aime pas le sport.",
+          "Je n'aime pas de sport."
+        ],
+        "answer": 0,
+        "why": "ne 遇到母音要縮寫成 n'；而且 aimer 的否定句定冠詞 le 不變。"
+      },
+      {
+        "q": "J'aime bien 比 J'aime 的語氣如何？",
+        "options": [
+          "比較弱，是「還蠻喜歡」",
+          "比較強烈",
+          "完全一樣"
+        ],
+        "answer": 0,
+        "why": "★ 有趣的地方：加了 bien 反而變弱。J'aime bien = 還不錯；J'aime = 真的喜歡。"
+      },
+      {
+        "q": "「我完全不喜歡」怎麼說？",
+        "options": [
+          "Je n'aime pas du tout.",
+          "Je n'aime pas tout.",
+          "Je n'aime du tout pas."
+        ],
+        "answer": 0,
+        "why": "du tout 放在 pas 後面加強否定。"
+      },
+      {
+        "q": "nous 的 aimer 變位是？",
+        "options": [
+          "aimons",
+          "aimez",
+          "aiment"
+        ],
+        "answer": 0,
+        "why": "nous aimons；aimez 是 vous，aiment 是 ils。"
+      },
+      {
+        "q": "否定句的 ne…pas 要怎麼夾？",
+        "options": [
+          "把變位動詞夾在中間",
+          "把整個句子夾住",
+          "放在句尾"
+        ],
+        "answer": 0,
+        "why": "ne + 變位動詞 + pas：Je ne mange pas。有受詞代名詞時連代名詞一起夾（je ne le connais pas）。"
+      },
+      {
+        "q": "哪一句語氣最強烈（最喜歡）？",
+        "options": [
+          "J'adore.",
+          "J'aime bien.",
+          "J'aime assez."
+        ],
+        "answer": 0,
+        "why": "強度：je n'aime pas du tout < je n'aime pas < j'aime bien < j'aime < j'adore。"
+      },
+      {
+        "q": "「你喜歡嗎？」用 vous 怎麼問？",
+        "options": [
+          "Vous aimez ?",
+          "Vous aimes ?",
+          "Vous aiment ?"
+        ],
+        "answer": 0,
+        "why": "vous 的字尾是 -ez。"
+      },
+      {
+        "q": "j'aime 為什麼不寫成 je aime ?",
+        "options": [
+          "je 遇到母音開頭的字要縮寫",
+          "aimer 是不規則動詞",
+          "這是口語省略"
+        ],
+        "answer": 0,
+        "why": "je、ne、le、la、de 遇到母音或啞音 h 都要縮寫：j'aime、n'aime、l'ami、d'où。"
+      }
     ]
   },
   {
@@ -2860,6 +4512,142 @@
       "營業時間很固定：午餐大約 12h–14h，晚餐大約 19h–22h，其他時間廚房通常關閉。",
       "肉的熟度四級：bleu → saignant → à point → bien cuit，法國人很少點全熟。",
       "最禮貌的萬用句型是 Est-ce que je pourrais avoir... ?（可以給我…嗎？），從要菜單、要麵包到要帳單都能用。"
+    ],
+    "drill": [
+      {
+        "fr": "Bonjour, vous avez une table pour deux personnes ?",
+        "zh": "您好，請問有兩人的位子嗎？"
+      },
+      {
+        "fr": "Est-ce que je pourrais avoir la carte, s'il vous plaît ?",
+        "zh": "可以給我菜單嗎？"
+      },
+      {
+        "fr": "Je vais prendre...",
+        "zh": "我要點…"
+      },
+      {
+        "fr": "Qu'est-ce que vous me conseillez ?",
+        "zh": "您推薦什麼？"
+      },
+      {
+        "fr": "Une carafe d'eau, s'il vous plaît.",
+        "zh": "請給我一壺水。"
+      },
+      {
+        "fr": "C'est combien ?",
+        "zh": "這多少錢？"
+      },
+      {
+        "fr": "L'addition, s'il vous plaît.",
+        "zh": "麻煩結帳。"
+      },
+      {
+        "fr": "C'est fait maison.",
+        "zh": "這是自家手作的。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "法文的「菜單」是哪個字？",
+        "options": [
+          "la carte",
+          "le menu",
+          "la liste"
+        ],
+        "answer": 0,
+        "why": "★ 經典陷阱：la carte 才是菜單；le menu 是「套餐」，跟英文剛好相反。"
+      },
+      {
+        "q": "點餐時最客氣的說法是？",
+        "options": [
+          "Je vais prendre...",
+          "Je veux...",
+          "Je prends absolument..."
+        ],
+        "answer": 0,
+        "why": "Je vais prendre 或 Je voudrais 都很客氣。Je veux 太直接、聽起來像命令。"
+      },
+      {
+        "q": "在法國餐廳哪一種水是免費的？",
+        "options": [
+          "une carafe d'eau（一壺自來水）",
+          "une bouteille d'eau（瓶裝水）",
+          "兩種都免費"
+        ],
+        "answer": 0,
+        "why": "carafe d'eau 是免費的自來水；瓶裝水要另外付費。"
+      },
+      {
+        "q": "「麻煩結帳」怎麼說？",
+        "options": [
+          "L'addition, s'il vous plaît.",
+          "Le compte, s'il vous plaît.",
+          "La facture, s'il vous plaît."
+        ],
+        "answer": 0,
+        "why": "餐廳帳單專用字是 l'addition。le compte 是帳戶，la facture 是商業發票。"
+      },
+      {
+        "q": "不知道要吃什麼時可以問？",
+        "options": [
+          "Qu'est-ce que vous me conseillez ?",
+          "Qu'est-ce que vous mangez ?",
+          "Qu'est-ce que c'est bon ?"
+        ],
+        "answer": 0,
+        "why": "conseiller = 推薦。這句是點餐必學。"
+      },
+      {
+        "q": "肉的熟度由生到全熟的順序是？",
+        "options": [
+          "bleu → saignant → à point → bien cuit",
+          "saignant → bleu → bien cuit → à point",
+          "à point → bleu → saignant → bien cuit"
+        ],
+        "answer": 0,
+        "why": "bleu（極生）→ saignant（三分）→ à point（五到七分）→ bien cuit（全熟）。"
+      },
+      {
+        "q": "「這有含在價格裡嗎？」怎麼說？",
+        "options": [
+          "C'est compris dans le prix ?",
+          "C'est inclus le prix ?",
+          "C'est avec le prix ?"
+        ],
+        "answer": 0,
+        "why": "compris = 已包含，是旅行超常用的字。"
+      },
+      {
+        "q": "進門時服務生說 Suivez-moi 是什麼意思？",
+        "options": [
+          "請跟我來",
+          "請稍等",
+          "請坐這裡"
+        ],
+        "answer": 0,
+        "why": "suivre = 跟隨，命令式 suivez-moi。法國很多餐廳不能自己找位子坐。"
+      },
+      {
+        "q": "在法國，服務費的情況是？",
+        "options": [
+          "已含在價格裡，小費不強制",
+          "一定要另給 15%",
+          "要看餐廳等級"
+        ],
+        "answer": 0,
+        "why": "le service est compris（服務費已含）。小費 le pourboire 不強制，給了會讓人開心。"
+      },
+      {
+        "q": "「可以給我一些麵包嗎？」最禮貌的說法是？",
+        "options": [
+          "Est-ce que je pourrais avoir du pain ?",
+          "Je veux du pain.",
+          "Donnez-moi du pain."
+        ],
+        "answer": 0,
+        "why": "Est-ce que je pourrais avoir… ? 是最禮貌的萬用句型，從要菜單到要帳單都能用。"
+      }
     ]
   },
   {
@@ -3183,6 +4971,142 @@
       "midi et demi 不加 e（陽性），但 huit heures et demie 要加 e（陰性）。",
       "24 小時官方制只有一條規則：照數字唸，下午的小時 + 12。21 點是 vingt et une heures（une！）。",
       "12 小時制要分早晚時，後面加 du matin / de l'après-midi / du soir。"
+    ],
+    "drill": [
+      {
+        "fr": "Quelle heure est-il ?",
+        "zh": "現在幾點？"
+      },
+      {
+        "fr": "Vous avez l'heure, s'il vous plaît ?",
+        "zh": "請問現在幾點？"
+      },
+      {
+        "fr": "Il est huit heures et quart.",
+        "zh": "八點十五分。"
+      },
+      {
+        "fr": "Il est huit heures et demie.",
+        "zh": "八點半。"
+      },
+      {
+        "fr": "Il est neuf heures moins le quart.",
+        "zh": "差一刻九點。"
+      },
+      {
+        "fr": "Il est midi.",
+        "zh": "中午十二點。"
+      },
+      {
+        "fr": "Il est minuit.",
+        "zh": "半夜十二點。"
+      },
+      {
+        "fr": "Il est une heure.",
+        "zh": "一點。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "8:45 的日常說法是？",
+        "options": [
+          "Il est neuf heures moins le quart.",
+          "Il est huit heures quarante-cinq.",
+          "Il est huit heures moins le quart."
+        ],
+        "answer": 0,
+        "why": "★ 超過 30 分改用減法，而且小時要跳到下一個：差一刻到 9 點。"
+      },
+      {
+        "q": "8:50 用日常說法怎麼算？",
+        "options": [
+          "60 − 50 = 10 → neuf heures moins dix",
+          "huit heures cinquante",
+          "neuf heures moins cinquante"
+        ],
+        "answer": 0,
+        "why": "差幾分用 60 減分鐘，小時進位到下一個整點。"
+      },
+      {
+        "q": "「一點」的正確寫法是？",
+        "options": [
+          "Il est une heure.",
+          "Il est un heure.",
+          "Il est une heures."
+        ],
+        "answer": 0,
+        "why": "heure 是陰性名詞，所以 1 點用 une；而且只有一個小時不加 s。"
+      },
+      {
+        "q": "45 分的日常說法是？",
+        "options": [
+          "moins le quart",
+          "moins quart",
+          "et quart"
+        ],
+        "answer": 0,
+        "why": "★ 減法的 quart 前面一定要加 le；加法的 et quart 則不加。"
+      },
+      {
+        "q": "「八點半」的正確寫法？",
+        "options": [
+          "huit heures et demie",
+          "huit heures et demi",
+          "huit heure et demie"
+        ],
+        "answer": 0,
+        "why": "demie 要加 e，因為配的是陰性的 heure。"
+      },
+      {
+        "q": "「十二點半」（中午）怎麼寫？",
+        "options": [
+          "midi et demi",
+          "midi et demie",
+          "douze heures et demie"
+        ],
+        "answer": 0,
+        "why": "★ midi 和 minuit 是陽性，所以 demi 不加 e。"
+      },
+      {
+        "q": "官方 24 小時制的規則是？",
+        "options": [
+          "照數字唸，下午小時 + 12",
+          "也用 et quart / moins le quart",
+          "只用在車站"
+        ],
+        "answer": 0,
+        "why": "15 h 45 = quinze heures quarante-cinq。官方制不用 et quart、et demie、moins。"
+      },
+      {
+        "q": "21 點的法文唸法是？",
+        "options": [
+          "vingt et une heures",
+          "vingt et un heures",
+          "vingt-une heures"
+        ],
+        "answer": 0,
+        "why": "★ heures 是陰性，所以 21 要唸 vingt et une（不是 vingt et un）。"
+      },
+      {
+        "q": "問陌生人幾點，最禮貌的說法是？",
+        "options": [
+          "Vous avez l'heure, s'il vous plaît ?",
+          "Quelle heure il est ?",
+          "C'est quelle heure ?"
+        ],
+        "answer": 0,
+        "why": "字面是「您有時間嗎」，問路人時最自然。"
+      },
+      {
+        "q": "半夜十二點的官方說法是？",
+        "options": [
+          "zéro heure",
+          "douze heures",
+          "vingt-quatre heures"
+        ],
+        "answer": 0,
+        "why": "日常說 minuit，官方說 zéro heure（0 h 00）。"
+      }
     ]
   },
   {
@@ -3472,6 +5396,142 @@
       "huit jours = 一星期，quinze jours = 兩星期（法國人的習慣算法）。",
       "萬用句型 passer + 時間 + à + 原形動詞：J'ai passé la journée à lire.",
       "起床睡覺是反身動詞：je me lève / je me couche。"
+    ],
+    "drill": [
+      {
+        "fr": "le matin",
+        "zh": "早上"
+      },
+      {
+        "fr": "l'après-midi",
+        "zh": "下午"
+      },
+      {
+        "fr": "le soir",
+        "zh": "晚上"
+      },
+      {
+        "fr": "Bonne journée !",
+        "zh": "祝有美好的一天！"
+      },
+      {
+        "fr": "Bonne soirée !",
+        "zh": "祝有美好的夜晚！"
+      },
+      {
+        "fr": "un quart d'heure",
+        "zh": "十五分鐘"
+      },
+      {
+        "fr": "une demi-heure",
+        "zh": "半小時"
+      },
+      {
+        "fr": "Je me lève à sept heures.",
+        "zh": "我七點起床。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "「十五分鐘」（時間長度）怎麼說？",
+        "options": [
+          "un quart d'heure",
+          "et quart",
+          "une quart heure"
+        ],
+        "answer": 0,
+        "why": "★ 講「多久」用 un quart d'heure（有 d'）；講「幾點」才用 et quart。"
+      },
+      {
+        "q": "「半小時」的正確寫法是？",
+        "options": [
+          "une demi-heure",
+          "une demie-heure",
+          "une heure demie"
+        ],
+        "answer": 0,
+        "why": "demi 放在名詞「前面」不變化，而且中間有連字號。"
+      },
+      {
+        "q": "「一個半小時」怎麼說？",
+        "options": [
+          "une heure et demie",
+          "une demi-heure et",
+          "une heure et demi"
+        ],
+        "answer": 0,
+        "why": "demi 放在後面就要跟 heure 配合加 e。"
+      },
+      {
+        "q": "法文的 huit jours 口語指多久？",
+        "options": [
+          "一星期",
+          "八天",
+          "八個星期"
+        ],
+        "answer": 0,
+        "why": "★ 法國人的習慣算法：huit jours = 一週，quinze jours = 兩週。"
+      },
+      {
+        "q": "傍晚以後道別要說？",
+        "options": [
+          "Bonne soirée !",
+          "Bonne journée !",
+          "Bonne nuit !"
+        ],
+        "answer": 0,
+        "why": "白天 bonne journée，傍晚以後 bonne soirée，睡覺前才 bonne nuit。"
+      },
+      {
+        "q": "「花時間做某事」的句型是？",
+        "options": [
+          "passer + 時間 + à + 原形動詞",
+          "passer + 時間 + de + 原形",
+          "prendre + 時間 + à + 原形"
+        ],
+        "answer": 0,
+        "why": "J'ai passé la journée à lire.（我花了一整天看書）"
+      },
+      {
+        "q": "jour 和 journée 的差別是？",
+        "options": [
+          "jour 是時間單位，journée 強調過程",
+          "完全一樣",
+          "journée 比較短"
+        ],
+        "answer": 0,
+        "why": "所以是 Bonne journée !（祝你這一整天過得好）不是 Bon jour !"
+      },
+      {
+        "q": "「我七點起床」怎麼說？",
+        "options": [
+          "Je me lève à sept heures.",
+          "Je lève à sept heures.",
+          "Je me lève en sept heures."
+        ],
+        "answer": 0,
+        "why": "se lever 是反身動詞要加 me；時刻用 à。"
+      },
+      {
+        "q": "一天的時段順序是？",
+        "options": [
+          "matin → midi → après-midi → soir → nuit",
+          "matin → soir → midi → nuit",
+          "midi → matin → soir"
+        ],
+        "answer": 0,
+        "why": "早上、中午、下午、晚上、夜裡。"
+      },
+      {
+        "q": "「45 分鐘」怎麼說？",
+        "options": [
+          "trois quarts d'heure",
+          "quarante-cinq heure",
+          "trois quart d'heure"
+        ],
+        "answer": 0,
+        "why": "三個十五分鐘＝45 分；quarts 要加 s。"
+      }
     ]
   },
   {
@@ -3723,6 +5783,142 @@
       "問星期幾：On est quel jour ?；問幾號：On est le combien ?",
       "月份前面用 en（en août），年份前面也用 en（en 1995）。",
       "21 和 31 中間有 et（vingt et un / trente et un），其他數字用連字號。"
+    ],
+    "drill": [
+      {
+        "fr": "lundi",
+        "zh": "星期一"
+      },
+      {
+        "fr": "vendredi",
+        "zh": "星期五"
+      },
+      {
+        "fr": "janvier",
+        "zh": "一月"
+      },
+      {
+        "fr": "août",
+        "zh": "八月"
+      },
+      {
+        "fr": "On est quel jour ?",
+        "zh": "今天星期幾？"
+      },
+      {
+        "fr": "On est le combien ?",
+        "zh": "今天幾號？"
+      },
+      {
+        "fr": "On est le 17 août.",
+        "zh": "今天是八月十七日。"
+      },
+      {
+        "fr": "le 1er janvier",
+        "zh": "一月一日"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "「8 月 17 日」的法文順序是？",
+        "options": [
+          "le 17 août",
+          "le août 17",
+          "août le 17"
+        ],
+        "answer": 0,
+        "why": "★ 法文先講幾號再講幾月，順序跟中文相反。"
+      },
+      {
+        "q": "哪一天要用序數？",
+        "options": [
+          "只有 1 號（le 1er）",
+          "1 號和 15 號",
+          "每一天都要"
+        ],
+        "answer": 0,
+        "why": "只有 1 號寫成 le 1er（premier），其他都用一般數字。"
+      },
+      {
+        "q": "Lundi, je suis à Berlin. 是什麼意思？",
+        "options": [
+          "這個星期一我在柏林",
+          "每個星期一我在柏林",
+          "上個星期一我在柏林"
+        ],
+        "answer": 0,
+        "why": "★ 沒有冠詞 = 指這一次。加了 le（Le lundi）才是「每個星期一」。"
+      },
+      {
+        "q": "Le lundi et le jeudi, je suis à Lyon. 的意思是？",
+        "options": [
+          "每週一和週四我都在里昂",
+          "這週一和週四我在里昂",
+          "從週一到週四我在里昂"
+        ],
+        "answer": 0,
+        "why": "加冠詞 le 表示習慣，等於 tous les lundis。"
+      },
+      {
+        "q": "「今天幾號？」怎麼問？",
+        "options": [
+          "On est le combien ?",
+          "On est quel jour ?",
+          "Quelle heure est-il ?"
+        ],
+        "answer": 0,
+        "why": "問幾號用 le combien；問星期幾用 quel jour。"
+      },
+      {
+        "q": "「在八月」的介係詞是？",
+        "options": [
+          "en août",
+          "au août",
+          "le août"
+        ],
+        "answer": 0,
+        "why": "月份用 en。"
+      },
+      {
+        "q": "哪個寫法是錯的？",
+        "options": [
+          "le 17 de août",
+          "le 17 août",
+          "le 1er août"
+        ],
+        "answer": 0,
+        "why": "法文的日期中間不加 de，那是西班牙文的習慣。"
+      },
+      {
+        "q": "31 的法文寫法是？",
+        "options": [
+          "trente et un",
+          "trente-un",
+          "trente-et-un"
+        ],
+        "answer": 0,
+        "why": "21 和 31 中間用 et 而且不加連字號；其他數字才用連字號。"
+      },
+      {
+        "q": "16 的法文是？",
+        "options": [
+          "seize",
+          "dix-six",
+          "dix-seize"
+        ],
+        "answer": 0,
+        "why": "11–16 都是獨立的字（onze, douze, treize, quatorze, quinze, seize），17 開始才是 dix- 開頭。"
+      },
+      {
+        "q": "法文的月份和星期要大寫嗎？",
+        "options": [
+          "一律小寫",
+          "一律大寫",
+          "月份大寫星期小寫"
+        ],
+        "answer": 0,
+        "why": "兩個都小寫，跟英文不一樣。"
+      }
     ]
   },
   {
@@ -4008,6 +6204,142 @@
       "口語可以省略年份、星期，時間也可改用 12 小時制 + du soir。",
       "介係詞：à 幾點／le 幾號／en 幾月・幾年／au printemps 但 en été／le matin。",
       "✗ Il est mardi. 是最常見的錯誤 —— 日期不能用 il est。"
+    ],
+    "drill": [
+      {
+        "fr": "On est mardi.",
+        "zh": "今天星期二。"
+      },
+      {
+        "fr": "Il est dix-neuf heures vingt.",
+        "zh": "現在 19:20。"
+      },
+      {
+        "fr": "On est le mardi 1er septembre 2026.",
+        "zh": "今天是 2026 年 9 月 1 日星期二。"
+      },
+      {
+        "fr": "Aujourd'hui, on est mardi.",
+        "zh": "今天是星期二。"
+      },
+      {
+        "fr": "Demain, on sera mercredi.",
+        "zh": "明天是星期三。"
+      },
+      {
+        "fr": "au printemps",
+        "zh": "在春天"
+      },
+      {
+        "fr": "en été",
+        "zh": "在夏天"
+      },
+      {
+        "fr": "de neuf heures à dix-sept heures",
+        "zh": "從九點到五點"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "講「日期」要用哪個動詞句型？",
+        "options": [
+          "on est / nous sommes / c'est",
+          "il est",
+          "il y a"
+        ],
+        "answer": 0,
+        "why": "★ il est 只用在「幾點」。日期用 on est。"
+      },
+      {
+        "q": "哪一句是錯的？",
+        "options": [
+          "Il est mardi.",
+          "On est mardi.",
+          "C'est mardi."
+        ],
+        "answer": 0,
+        "why": "★ 最常見的錯誤：日期不能用 il est。"
+      },
+      {
+        "q": "「現在是 9 月 1 日星期二 19:20」完整說法的結構是？",
+        "options": [
+          "On est + 日期 + et + il est + 時間",
+          "Il est + 日期 + 時間",
+          "On est + 日期 + 時間"
+        ],
+        "answer": 0,
+        "why": "兩個主詞不同（on vs il），所以要用 et 連成兩個子句。"
+      },
+      {
+        "q": "完整日期的順序是？",
+        "options": [
+          "le + 星期 + 日 + 月 + 年",
+          "le + 年 + 月 + 日 + 星期",
+          "le + 月 + 日 + 年"
+        ],
+        "answer": 0,
+        "why": "由小到大：le mardi 1er septembre 2026。跟中文完全相反。"
+      },
+      {
+        "q": "「在 2026 年」的介係詞是？",
+        "options": [
+          "en 2026",
+          "à 2026",
+          "le 2026"
+        ],
+        "answer": 0,
+        "why": "年份用 en，跟月份一樣。"
+      },
+      {
+        "q": "季節的介係詞哪一組是對的？",
+        "options": [
+          "au printemps / en été / en automne / en hiver",
+          "en printemps / au été / au automne",
+          "à printemps / à été"
+        ],
+        "answer": 0,
+        "why": "只有春天用 au，其他三個母音開頭的季節用 en。"
+      },
+      {
+        "q": "「從九點到五點」怎麼說？",
+        "options": [
+          "de neuf heures à dix-sept heures",
+          "du neuf heures au dix-sept heures",
+          "entre neuf à dix-sept heures"
+        ],
+        "answer": 0,
+        "why": "de… à… 表示範圍。星期的話是 du lundi au vendredi。"
+      },
+      {
+        "q": "「明天是星期三」怎麼說？",
+        "options": [
+          "Demain, on sera mercredi.",
+          "Demain, on est sera mercredi.",
+          "Demain, il sera mercredi."
+        ],
+        "answer": 0,
+        "why": "sera 是 être 的未來式；日期依然不能用 il。"
+      },
+      {
+        "q": "時間用什麼介係詞？",
+        "options": [
+          "à（à huit heures）",
+          "en（en huit heures）",
+          "le（le huit heures）"
+        ],
+        "answer": 0,
+        "why": "時刻用 à。en + 時間是「花多久完成」。"
+      },
+      {
+        "q": "口語講完整日期時常省略什麼？",
+        "options": [
+          "年份和星期",
+          "月份",
+          "日"
+        ],
+        "answer": 0,
+        "why": "同一年裡通常不說年份：On est le 1er septembre. 就夠了。"
+      }
     ]
   },
   {
@@ -4443,6 +6775,142 @@
       "le vent /vɑ̃/ 和 le vin /vɛ̃/ 鼻母音不同，唸錯會變成「葡萄酒」。",
       "季節介係詞：au printemps，但 en été / en automne / en hiver。",
       "形容詞要跟名詞做性數配合：les journées sont ensoleillées（陰複）、les sommets sont enneigés（陽複）。"
+    ],
+    "drill": [
+      {
+        "fr": "Quel temps fait-il ?",
+        "zh": "天氣如何？"
+      },
+      {
+        "fr": "Il fait beau.",
+        "zh": "天氣很好。"
+      },
+      {
+        "fr": "Il fait froid.",
+        "zh": "很冷。"
+      },
+      {
+        "fr": "Il pleut.",
+        "zh": "在下雨。"
+      },
+      {
+        "fr": "Il neige.",
+        "zh": "在下雪。"
+      },
+      {
+        "fr": "Il y a du vent.",
+        "zh": "有風。"
+      },
+      {
+        "fr": "Le ciel est nuageux.",
+        "zh": "天空多雲。"
+      },
+      {
+        "fr": "Le soleil brille.",
+        "zh": "陽光普照。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "「天氣如何？」的法文是？",
+        "options": [
+          "Quel temps fait-il ?",
+          "Quelle heure est-il ?",
+          "Comment est le temps ?"
+        ],
+        "answer": 0,
+        "why": "le temps 一字兩義：問天氣用 temps，問幾點用 heure。"
+      },
+      {
+        "q": "Il fait 後面接的形容詞要用什麼形式？",
+        "options": [
+          "永遠陽性單數",
+          "跟說話者性別配合",
+          "跟季節配合"
+        ],
+        "answer": 0,
+        "why": "il 是假主詞不指任何東西，所以形容詞永遠是陽性單數：il fait beau / chaud / froid。"
+      },
+      {
+        "q": "「有風」的正確說法是？",
+        "options": [
+          "Il y a du vent.",
+          "Il fait du vent.",
+          "Il y a vent."
+        ],
+        "answer": 0,
+        "why": "★ 名詞要搭 il y a，而且要加部分冠詞 du。形容詞才搭 il fait。"
+      },
+      {
+        "q": "pleuvoir（下雨）有幾個人稱可以用？",
+        "options": [
+          "只有 il",
+          "六個都可以",
+          "只有 je 和 il"
+        ],
+        "answer": 0,
+        "why": "pleuvoir 和 neiger 是無人稱動詞，只有 il pleut / il neige 這個形式。"
+      },
+      {
+        "q": "un nuage（雲）的形容詞是？",
+        "options": [
+          "nuageux",
+          "nuagé",
+          "nuageur"
+        ],
+        "answer": 0,
+        "why": "名詞 → 形容詞：nuage → nuageux、pluie → pluvieux、orage → orageux。"
+      },
+      {
+        "q": "nuageux 的陰性形是？",
+        "options": [
+          "nuageuse",
+          "nuageuxe",
+          "nuageuse 不存在"
+        ],
+        "answer": 0,
+        "why": "-eux 結尾的形容詞，陰性變成 -euse。"
+      },
+      {
+        "q": "太陽搭配哪個動詞？",
+        "options": [
+          "briller（Le soleil brille）",
+          "souffler",
+          "tomber"
+        ],
+        "answer": 0,
+        "why": "固定搭配：soleil brille（照耀）、vent souffle（吹）、pluie/neige tombe（落下）、orage éclate（打雷）。"
+      },
+      {
+        "q": "春天的介係詞用哪個？",
+        "options": [
+          "au printemps",
+          "en printemps",
+          "à printemps"
+        ],
+        "answer": 0,
+        "why": "★ 只有春天用 au（因為 printemps 是子音開頭）；其他三季用 en été / en automne / en hiver。"
+      },
+      {
+        "q": "「天空轉陰」怎麼說？",
+        "options": [
+          "Le ciel se couvre.",
+          "Le ciel se lève.",
+          "Le ciel tombe."
+        ],
+        "answer": 0,
+        "why": "se couvrir = 被雲覆蓋、變陰。se lever 是升起、放晴。"
+      },
+      {
+        "q": "le vent 和 le vin 的差別是？",
+        "options": [
+          "鼻母音不同：vent /ɑ̃/、vin /ɛ̃/",
+          "完全同音",
+          "拼法不同但同音"
+        ],
+        "answer": 0,
+        "why": "唸錯會從「風」變成「葡萄酒」，這兩個鼻母音要分清楚。"
+      }
     ]
   },
   {
@@ -4838,6 +7306,150 @@
       "城市名前面不加冠詞，直接 à Berlin、à Paris。",
       "遇到不定冠詞的地方要用 dans：dans une école de langue。",
       "aller 也用來講身體狀況：Comment ça va ? / Je vais bien."
+    ],
+    "drill": [
+      {
+        "fr": "Je vais",
+        "zh": "我去"
+      },
+      {
+        "fr": "Tu vas",
+        "zh": "你去"
+      },
+      {
+        "fr": "Il va",
+        "zh": "他去"
+      },
+      {
+        "fr": "Nous allons",
+        "zh": "我們去"
+      },
+      {
+        "fr": "Vous allez",
+        "zh": "您／你們去"
+      },
+      {
+        "fr": "Ils vont",
+        "zh": "他們去"
+      },
+      {
+        "fr": "Je vais au restaurant.",
+        "zh": "我去餐廳。"
+      },
+      {
+        "fr": "Je vais à la boulangerie.",
+        "zh": "我去麵包店。"
+      },
+      {
+        "fr": "Je vais chez le médecin.",
+        "zh": "我去看醫生。"
+      },
+      {
+        "fr": "On y va ?",
+        "zh": "我們走吧？"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "aller 的六個變位哪一組是對的？",
+        "options": [
+          "vais / vas / va / allons / allez / vont",
+          "vais / vas / va / vons / vez / vont",
+          "alle / alles / alle / allons / allez / allent"
+        ],
+        "answer": 0,
+        "why": "★ 四個 v 開頭（vais, vas, va, vont）＋ 兩個 all 開頭（allons, allez）。"
+      },
+      {
+        "q": "à + le 要縮寫成什麼？",
+        "options": [
+          "au",
+          "àle",
+          "不用縮寫"
+        ],
+        "answer": 0,
+        "why": "★ à + le = au、à + les = aux，一定要縮寫。à la 和 à l' 不縮寫。"
+      },
+      {
+        "q": "「我去餐廳」怎麼說？",
+        "options": [
+          "Je vais au restaurant.",
+          "Je vais à le restaurant.",
+          "Je vais à restaurant."
+        ],
+        "answer": 0,
+        "why": "le restaurant 是陽性 → à + le = au。"
+      },
+      {
+        "q": "「我去麵包店」怎麼說？",
+        "options": [
+          "Je vais à la boulangerie.",
+          "Je vais au boulangerie.",
+          "Je vais à boulangerie."
+        ],
+        "answer": 0,
+        "why": "la boulangerie 是陰性，à la 不縮寫。"
+      },
+      {
+        "q": "目的地是「人」或「職業」時用哪個介係詞？",
+        "options": [
+          "chez",
+          "à",
+          "dans"
+        ],
+        "answer": 0,
+        "why": "★ chez le médecin、chez Paul、chez mes parents。這是 aller 最重要的第二條規則。"
+      },
+      {
+        "q": "「去肉舖」兩種說法是？",
+        "options": [
+          "à la boucherie 或 chez le boucher",
+          "au boucherie 或 à le boucher",
+          "dans la boucherie 或 à boucher"
+        ],
+        "answer": 0,
+        "why": "說「店」用 à la；說「人」用 chez。意思一樣。"
+      },
+      {
+        "q": "chez 後面接代名詞要用哪一種？",
+        "options": [
+          "重讀形（chez moi）",
+          "主詞形（chez je）",
+          "受詞形（chez me）"
+        ],
+        "answer": 0,
+        "why": "chez moi / toi / lui / elle / nous / vous / eux / elles。"
+      },
+      {
+        "q": "去「城市」要用什麼？",
+        "options": [
+          "à（à Berlin）",
+          "au（au Berlin）",
+          "en（en Berlin）"
+        ],
+        "answer": 0,
+        "why": "城市前面不加冠詞，直接 à + 城市名。"
+      },
+      {
+        "q": "前面是不定冠詞的地方（une école）要用？",
+        "options": [
+          "dans（dans une école）",
+          "à（à une école）",
+          "chez（chez une école）"
+        ],
+        "answer": 0,
+        "why": "★ 不定冠詞的場所用 dans：dans une école de langue。"
+      },
+      {
+        "q": "「我們走吧？」最口語的說法是？",
+        "options": [
+          "On y va ?",
+          "Nous allons ?",
+          "On va y ?"
+        ],
+        "answer": 0,
+        "why": "y 代替地點，放在動詞前面。命令式是 Allons-y !（我們走）、Allez-y !（您請）。"
+      }
     ]
   },
   {
@@ -5196,6 +7808,142 @@
       "un car 是長途客運，un bus 才是市區公車，別跟英文的 car 搞混。",
       "★ aller + 原形動詞 = 近未來：Je vais manger.（我要去吃飯了）—— 初學者表達未來最簡單的方法。",
       "venir 的 tu 變位是 tu viens，不是 tu viennes。"
+    ],
+    "drill": [
+      {
+        "fr": "Je vais en France.",
+        "zh": "我去法國。"
+      },
+      {
+        "fr": "Je vais au Japon.",
+        "zh": "我去日本。"
+      },
+      {
+        "fr": "Je vais aux États-Unis.",
+        "zh": "我去美國。"
+      },
+      {
+        "fr": "Je vais à Berlin en voiture.",
+        "zh": "我開車去柏林。"
+      },
+      {
+        "fr": "Je vais au bureau à pied.",
+        "zh": "我走路去辦公室。"
+      },
+      {
+        "fr": "Je vais au bureau à vélo.",
+        "zh": "我騎腳踏車去辦公室。"
+      },
+      {
+        "fr": "Je vais manger.",
+        "zh": "我要去吃飯了。"
+      },
+      {
+        "fr": "Tu y vas comment ?",
+        "zh": "你要怎麼去？"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "陰性國家用哪個介係詞？",
+        "options": [
+          "en（en France）",
+          "au（au France）",
+          "à（à France）"
+        ],
+        "answer": 0,
+        "why": "陰性國家多半 -e 結尾，用 en：en France、en Chine、en Allemagne。"
+      },
+      {
+        "q": "陽性國家用哪個介係詞？",
+        "options": [
+          "au（au Japon）",
+          "en（en Japon）",
+          "à（à Japon）"
+        ],
+        "answer": 0,
+        "why": "陽性國家用 au（à + le）：au Japon、au Canada、au Portugal。"
+      },
+      {
+        "q": "les États-Unis 這種複數國家用？",
+        "options": [
+          "aux",
+          "au",
+          "en"
+        ],
+        "answer": 0,
+        "why": "複數國家用 aux（à + les）：aux États-Unis、aux Pays-Bas。"
+      },
+      {
+        "q": "le Mexique 為什麼特別？",
+        "options": [
+          "是 -e 結尾卻是陽性，所以用 au Mexique",
+          "它是複數",
+          "它用 à"
+        ],
+        "answer": 0,
+        "why": "★ 有名的例外。-e 結尾通常陰性，但 le Mexique 是陽性。"
+      },
+      {
+        "q": "母音開頭的國家（en Angola）用哪個？",
+        "options": [
+          "一律 en",
+          "一律 au",
+          "看陰陽性"
+        ],
+        "answer": 0,
+        "why": "母音開頭不管陰陽性都用 en，發音比較順。"
+      },
+      {
+        "q": "坐得進去的交通工具用哪個介係詞？",
+        "options": [
+          "en（en voiture）",
+          "à（à voiture）",
+          "par（par voiture）"
+        ],
+        "answer": 0,
+        "why": "★ 整個人坐進車廂的用 en：en voiture / en train / en avion / en métro。"
+      },
+      {
+        "q": "「走路」的法文是？",
+        "options": [
+          "à pied",
+          "en pied",
+          "par pied"
+        ],
+        "answer": 0,
+        "why": "★ 靠自己身體或跨上去的用 à：à pied、à vélo、à cheval。"
+      },
+      {
+        "q": "un car 和 un bus 的差別？",
+        "options": [
+          "car 是長途客運，bus 是市區公車",
+          "完全一樣",
+          "car 是汽車"
+        ],
+        "answer": 0,
+        "why": "別被英文的 car 誤導，法文的 un car 是遊覽車／長途客運。"
+      },
+      {
+        "q": "「我要去吃飯了」用近未來怎麼說？",
+        "options": [
+          "Je vais manger.",
+          "Je vais mange.",
+          "Je vais à manger."
+        ],
+        "answer": 0,
+        "why": "★ aller + 原形動詞 = 近未來，是初學者表達未來最簡單的方法。"
+      },
+      {
+        "q": "交通方式後面要加冠詞嗎？",
+        "options": [
+          "不加（en voiture）",
+          "要加（en la voiture）",
+          "看陰陽性"
+        ],
+        "answer": 0,
+        "why": "講交通方式時不加冠詞。"
+      }
     ]
   },
   {
@@ -5436,6 +8184,150 @@
       "l'avion 母音開頭看不出性別，要記 un avion（陽性）。",
       "搭乘用 prendre ＋ 定冠詞（je prends le métro）；講「怎麼去」坐進去的用 en（en métro），跨上去的用 à（à vélo、à pied）。",
       "le bus（市區公車）≠ le car（長途客運）；un ticket（地鐵票）≠ un billet（火車票）。"
+    ],
+    "drill": [
+      {
+        "fr": "Je vais chez l'épicier.",
+        "zh": "我去雜貨商那裡。"
+      },
+      {
+        "fr": "Je vais au supermarché.",
+        "zh": "我去超市。"
+      },
+      {
+        "fr": "Je vais dans une école de langue.",
+        "zh": "我去一間語言學校。"
+      },
+      {
+        "fr": "le train",
+        "zh": "火車"
+      },
+      {
+        "fr": "le métro",
+        "zh": "地鐵"
+      },
+      {
+        "fr": "la voiture",
+        "zh": "汽車"
+      },
+      {
+        "fr": "la moto",
+        "zh": "機車"
+      },
+      {
+        "fr": "l'avion",
+        "zh": "飛機"
+      },
+      {
+        "fr": "le vélo",
+        "zh": "腳踏車"
+      },
+      {
+        "fr": "Je prends le métro.",
+        "zh": "我搭地鐵。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "l'épicier（雜貨商）前面要用哪個介係詞？",
+        "options": [
+          "chez（是人）",
+          "à（是地方）",
+          "dans"
+        ],
+        "answer": 0,
+        "why": "★ épicier 是「賣雜貨的人」，是人就用 chez。le supermarché 才是地方用 au。"
+      },
+      {
+        "q": "「我去一間語言學校」怎麼說？",
+        "options": [
+          "Je vais dans une école de langue.",
+          "Je vais à une école de langue.",
+          "Je vais en une école de langue."
+        ],
+        "answer": 0,
+        "why": "★ 前面是不定冠詞 une 時要用 dans，不能用 à。"
+      },
+      {
+        "q": "十個交通工具裡哪兩個是陰性？",
+        "options": [
+          "la voiture 和 la moto",
+          "le train 和 le bus",
+          "l'avion 和 le vélo"
+        ],
+        "answer": 0,
+        "why": "★ 只有這兩個陰性，其他八個全部陽性，記這兩個就好。"
+      },
+      {
+        "q": "l'avion 是陰性還是陽性？",
+        "options": [
+          "陽性（un avion）",
+          "陰性（une avion）",
+          "兩種都可以"
+        ],
+        "answer": 0,
+        "why": "母音開頭看不出來，要靠 un avion 的 un 來記 —— 它是陽性。"
+      },
+      {
+        "q": "「我搭地鐵」的動詞用哪個？",
+        "options": [
+          "prendre（Je prends le métro）",
+          "aller（Je vais le métro）",
+          "faire（Je fais le métro）"
+        ],
+        "answer": 0,
+        "why": "搭乘用 prendre + 定冠詞。"
+      },
+      {
+        "q": "le vélo 的正式說法 la bicyclette 是？",
+        "options": [
+          "陰性",
+          "陽性",
+          "沒有陰陽性"
+        ],
+        "answer": 0,
+        "why": "★ 同一個東西冠詞不同：le vélo（陽）＝ la bicyclette（陰，-ette 結尾）。"
+      },
+      {
+        "q": "「騎腳踏車去」怎麼說？",
+        "options": [
+          "à vélo",
+          "en vélo",
+          "par vélo"
+        ],
+        "answer": 0,
+        "why": "跨上去的交通工具用 à。"
+      },
+      {
+        "q": "un ticket 和 un billet 的差別？",
+        "options": [
+          "ticket 是地鐵公車票，billet 是火車飛機票",
+          "完全一樣",
+          "ticket 比較貴"
+        ],
+        "answer": 0,
+        "why": "地鐵、公車用 ticket；火車、飛機、博物館、演唱會用 billet。"
+      },
+      {
+        "q": "「我早上去辦公室」怎麼說？",
+        "options": [
+          "Je vais au bureau le matin.",
+          "Je vais à le bureau le matin.",
+          "Je vais bureau le matin."
+        ],
+        "answer": 0,
+        "why": "le bureau 是陽性 → au bureau。le matin 表示習慣。"
+      },
+      {
+        "q": "作業裡 à / chez / dans 的判斷原則是？",
+        "options": [
+          "地方用 à，人用 chez，不定冠詞用 dans",
+          "全部用 à",
+          "地方用 dans，人用 à"
+        ],
+        "answer": 0,
+        "why": "這三條就是整份作業的全部考點。"
+      }
     ]
   },
   {
@@ -5801,6 +8693,142 @@
       "例外要硬背：faire → fait、être → été、avoir → eu、ouvrir → ouvert、offrir → offert。",
       "★★ 用 AVOIR 當助動詞時，過去分詞「不」跟主詞配合：Elle a mangé（不是 mangée）、Elles ont fini（不是 finies）。",
       "prendre / apprendre / comprendre → pris / appris / compris，三個一起背。"
+    ],
+    "drill": [
+      {
+        "fr": "J'ai travaillé.",
+        "zh": "我工作了。"
+      },
+      {
+        "fr": "Hier, j'ai travaillé.",
+        "zh": "昨天我工作了。"
+      },
+      {
+        "fr": "Vous avez choisi ?",
+        "zh": "您選好了嗎？"
+      },
+      {
+        "fr": "J'ai mangé une pizza.",
+        "zh": "我吃了一個披薩。"
+      },
+      {
+        "fr": "Ça y est, j'ai enfin trouvé un emploi.",
+        "zh": "我終於找到工作了。"
+      },
+      {
+        "fr": "Elle a mangé une pizza.",
+        "zh": "她吃了一個披薩。"
+      },
+      {
+        "fr": "Ils ont fini les devoirs.",
+        "zh": "他們寫完功課了。"
+      },
+      {
+        "fr": "Nous avons passé un très bon week-end.",
+        "zh": "我們度過了很棒的週末。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "複合過去式的公式是？",
+        "options": [
+          "助動詞 + 過去分詞",
+          "過去分詞單獨使用",
+          "助動詞 + 原形動詞"
+        ],
+        "answer": 0,
+        "why": "★ 兩個字組成，所以叫「複合」：J'ai travaillé。"
+      },
+      {
+        "q": "複合過去式和 imparfait 的差別？",
+        "options": [
+          "複合過去式講事件動作，imparfait 講狀態背景",
+          "完全一樣",
+          "imparfait 比較近期"
+        ],
+        "answer": 0,
+        "why": "Quand je suis arrivé（動作），il faisait beau（背景狀態）。"
+      },
+      {
+        "q": "所有 -er 動詞的過去分詞字尾是？",
+        "options": [
+          "-é",
+          "-u",
+          "-i"
+        ],
+        "answer": 0,
+        "why": "manger → mangé、travailler → travaillé。這一類沒有例外。"
+      },
+      {
+        "q": "prendre 的過去分詞是？",
+        "options": [
+          "pris",
+          "prendu",
+          "prené"
+        ],
+        "answer": 0,
+        "why": "prendre → pris，同家族：apprendre → appris、comprendre → compris。"
+      },
+      {
+        "q": "être 的過去分詞是？",
+        "options": [
+          "été",
+          "êtré",
+          "étu"
+        ],
+        "answer": 0,
+        "why": "être → été，是要硬背的例外。avoir → eu 也是。"
+      },
+      {
+        "q": "用 AVOIR 時過去分詞要跟主詞配合嗎？",
+        "options": [
+          "不用，永遠不變",
+          "要，陰性加 e",
+          "只有複數要加 s"
+        ],
+        "answer": 0,
+        "why": "★★ 這是最重要的一條：Elle a mangé（不是 mangée）、Elles ont fini（不是 finies）。"
+      },
+      {
+        "q": "voir 的過去分詞是？",
+        "options": [
+          "vu",
+          "vi",
+          "voué"
+        ],
+        "answer": 0,
+        "why": "voir → vu，屬於 -u 那一類。"
+      },
+      {
+        "q": "哪一句是對的？",
+        "options": [
+          "Elle a mangé une pizza.",
+          "Elle a mangée une pizza.",
+          "Elle est mangé une pizza."
+        ],
+        "answer": 0,
+        "why": "manger 用 avoir，而且過去分詞不配合。"
+      },
+      {
+        "q": "ouvrir 的過去分詞是？",
+        "options": [
+          "ouvert",
+          "ouvri",
+          "ouvru"
+        ],
+        "answer": 0,
+        "why": "-vrir / -frir 結尾 → -vert / -fert：ouvrir → ouvert、offrir → offert。"
+      },
+      {
+        "q": "finir 的過去分詞是？",
+        "options": [
+          "fini",
+          "finu",
+          "finé"
+        ],
+        "answer": 0,
+        "why": "-ir 規則動詞變 -i：finir → fini、choisir → choisi、grandir → grandi。"
+      }
     ]
   },
   {
@@ -6066,6 +9094,142 @@
       "★★ 用 AVOIR 時過去分詞完全不變：a mangé / ont mangé，永遠一樣。",
       "女生講自己一定要記得加 e：Je suis allée、Je suis sortie、Je suis arrivée。",
       "陷阱：passer / monter / descendre / sortir 後面若直接接受詞，改用 avoir（Nous avons passé un bon week-end）。"
+    ],
+    "drill": [
+      {
+        "fr": "Il est allé au cinéma.",
+        "zh": "他去了電影院。"
+      },
+      {
+        "fr": "Elle est allée à l'université.",
+        "zh": "她去了大學。"
+      },
+      {
+        "fr": "Ils sont partis tard.",
+        "zh": "他們很晚才出發。"
+      },
+      {
+        "fr": "Elles sont parties à Tokyo.",
+        "zh": "她們出發去東京了。"
+      },
+      {
+        "fr": "Je suis arrivé.",
+        "zh": "我到了。（男）"
+      },
+      {
+        "fr": "Je suis arrivée.",
+        "zh": "我到了。（女）"
+      },
+      {
+        "fr": "Nous sommes arrivés.",
+        "zh": "我們到了。"
+      },
+      {
+        "fr": "Mon père est descendu dans le garage.",
+        "zh": "我爸下去車庫了。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "哪一類動詞要用 être 當助動詞？",
+        "options": [
+          "表示位置改變、移動的動詞",
+          "所有不規則動詞",
+          "所有 -ir 動詞"
+        ],
+        "answer": 0,
+        "why": "★ les verbes de changement de lieu, de déplacement，大約 15 個，是固定清單。"
+      },
+      {
+        "q": "用 ÊTRE 時過去分詞要配合嗎？",
+        "options": [
+          "要，跟主詞做性數配合",
+          "不用",
+          "只有複數要配合"
+        ],
+        "answer": 0,
+        "why": "★★ allé / allée / allés / allées，跟形容詞規則一樣。"
+      },
+      {
+        "q": "「她去了大學」正確寫法？",
+        "options": [
+          "Elle est allée à l'université.",
+          "Elle est allé à l'université.",
+          "Elle a allée à l'université."
+        ],
+        "answer": 0,
+        "why": "aller 用 être；主詞陰性 → allée 加 e。"
+      },
+      {
+        "q": "「她們出發了」怎麼寫？",
+        "options": [
+          "Elles sont parties.",
+          "Elles sont partis.",
+          "Elles ont parties."
+        ],
+        "answer": 0,
+        "why": "陰性複數要加 es：parties。"
+      },
+      {
+        "q": "mourir 的過去分詞是？",
+        "options": [
+          "mort",
+          "mouru",
+          "mouri"
+        ],
+        "answer": 0,
+        "why": "mourir → mort，是這組裡最不規則的一個。"
+      },
+      {
+        "q": "venir 的過去分詞是？",
+        "options": [
+          "venu",
+          "veni",
+          "vené"
+        ],
+        "answer": 0,
+        "why": "venir → venu。同家族 devenir → devenu、revenir → revenu。"
+      },
+      {
+        "q": "下面哪一組全部都用 être ?",
+        "options": [
+          "aller, venir, arriver, partir",
+          "manger, voir, prendre",
+          "faire, vouloir, pouvoir"
+        ],
+        "answer": 0,
+        "why": "成對記：aller↔venir、arriver↔partir、entrer↔sortir、monter↔descendre、naître↔mourir。"
+      },
+      {
+        "q": "Nous avons passé un bon week-end 為什麼用 avoir ?",
+        "options": [
+          "因為後面接了受詞 un week-end",
+          "因為 passer 不在 être 清單裡",
+          "因為主詞是 nous"
+        ],
+        "answer": 0,
+        "why": "★ passer / monter / descendre / sortir 後面若直接接受詞，就改用 avoir 而且不配合。"
+      },
+      {
+        "q": "女生說「我出去了」要怎麼寫？",
+        "options": [
+          "Je suis sortie.",
+          "Je suis sorti.",
+          "J'ai sorti."
+        ],
+        "answer": 0,
+        "why": "sortir 用 être，女生要加 e。"
+      },
+      {
+        "q": "一群人裡有男有女，複數配合要用？",
+        "options": [
+          "陽性複數（+s）",
+          "陰性複數（+es）",
+          "不配合"
+        ],
+        "answer": 0,
+        "why": "只要有一個男生就用陽性複數：Nous sommes arrivés。"
+      }
     ]
   },
   {
@@ -6257,6 +9421,649 @@
       "vous 的配合有四種可能：arrivé（您·男）／arrivée（您·女）／arrivés（你們）／arrivées（她們）。",
       "時間副詞看到就知道要用過去式：hier、avant-hier、ce matin、il y a trois jours、dimanche dernier、l'année dernière。",
       "投影片兩處筆誤：j'ai travaillée 應為 j'ai travaillé（avoir 不配合）；L'année dernier 應為 L'année dernière。"
+    ],
+    "drill": [
+      {
+        "fr": "Beyoncé est née le 9 septembre 1981.",
+        "zh": "碧昂絲生於 1981 年 9 月 9 日。"
+      },
+      {
+        "fr": "Hier, je suis allé à Carrefour.",
+        "zh": "昨天我去家樂福。"
+      },
+      {
+        "fr": "Samedi, mon frère a vu le nouveau film.",
+        "zh": "星期六我哥看了新片。"
+      },
+      {
+        "fr": "Ce matin, elles sont arrivées en retard.",
+        "zh": "今天早上她們遲到了。"
+      },
+      {
+        "fr": "Nous avons passé un très bon week-end.",
+        "zh": "我們度過了很棒的週末。"
+      },
+      {
+        "fr": "Avant-hier soir, je suis sorti avec des amis.",
+        "zh": "前天晚上我跟朋友出去。"
+      },
+      {
+        "fr": "hier",
+        "zh": "昨天"
+      },
+      {
+        "fr": "avant-hier",
+        "zh": "前天"
+      },
+      {
+        "fr": "il y a trois jours",
+        "zh": "三天前"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "解複合過去式的題目，第一步要先判斷什麼？",
+        "options": [
+          "用 avoir 還是 être",
+          "主詞的性別",
+          "時間副詞"
+        ],
+        "answer": 0,
+        "why": "先選助動詞（移動類 15 個用 être），再變位，最後判斷要不要配合。"
+      },
+      {
+        "q": "Beyoncé est ___ le 9 septembre 1981.（naître）",
+        "options": [
+          "née",
+          "né",
+          "nés"
+        ],
+        "answer": 0,
+        "why": "Beyoncé 是女生，naître 用 être → 過去分詞要加 e。"
+      },
+      {
+        "q": "Ce matin, elles ___ en retard.（arriver）",
+        "options": [
+          "sont arrivées",
+          "ont arrivé",
+          "sont arrivé"
+        ],
+        "answer": 0,
+        "why": "arriver 用 être；elles 陰性複數 → arrivées 加 es。"
+      },
+      {
+        "q": "Samedi, mon frère ___ le nouveau film.（voir）",
+        "options": [
+          "a vu",
+          "est vu",
+          "a vue"
+        ],
+        "answer": 0,
+        "why": "voir 不是移動 → avoir；過去分詞 vu 不配合。"
+      },
+      {
+        "q": "Nous ___ un très bon week-end.（passer）",
+        "options": [
+          "avons passé",
+          "sommes passés",
+          "avons passés"
+        ],
+        "answer": 0,
+        "why": "★ 陷阱題：後面有受詞 un week-end → 用 avoir，而且不配合。"
+      },
+      {
+        "q": "Hier matin, il ___ faire un jogging.（vouloir）",
+        "options": [
+          "a voulu",
+          "est voulu",
+          "a voulou"
+        ],
+        "answer": 0,
+        "why": "vouloir → avoir + voulu。後面再接原形動詞 faire。"
+      },
+      {
+        "q": "Paul et son frère ___ dans un accident.（mourir）",
+        "options": [
+          "sont morts",
+          "ont morts",
+          "sont mort"
+        ],
+        "answer": 0,
+        "why": "mourir 用 être；兩個男生 → 陽性複數 morts。"
+      },
+      {
+        "q": "Elsa et sa sœur ___ en boîte.（sortir）",
+        "options": [
+          "sont sorties",
+          "sont sortis",
+          "ont sorti"
+        ],
+        "answer": 0,
+        "why": "兩個都是女生 → 陰性複數 sorties。"
+      },
+      {
+        "q": "il y a trois jours 的意思是？",
+        "options": [
+          "三天前",
+          "三天後",
+          "有三天"
+        ],
+        "answer": 0,
+        "why": "il y a + 時間 = 「…之前」。"
+      },
+      {
+        "q": "Est-ce que vous ___ mon grand-père ?（connaître）",
+        "options": [
+          "avez connu",
+          "êtes connu",
+          "avez connue"
+        ],
+        "answer": 0,
+        "why": "connaître → avoir + connu。用複合過去式表示「曾經認識」。"
+      }
+    ]
+  },
+  {
+    "id": "duree-prepositions",
+    "date": "2026-09-28",
+    "title": "時間介係詞 — PENDANT / POUR / DANS / DEPUIS / IL Y A",
+    "summary": "這五個都翻成中文的「…時間」，但用法完全不同：pendant 是實際持續多久、pour 是「預計」多久、dans 是多久之後、depuis 是從…到現在還在繼續、il y a 是多久之前。課堂投影片教了 pendant 和 dans，練習題又考了 depuis 和 il y a，再加上影片補充的 pour，這一課五個一次整理。",
+    "sections": [
+      {
+        "heading": "① 先用一張時間軸看懂四個字的差別",
+        "note": "★ 這四個字最容易混在一起。關鍵是先問兩件事：這件事「已經結束了」還是「還在繼續」？講的是「一段時間」還是「某個時間點」？",
+        "items": [
+          {
+            "fr": "pendant deux ans",
+            "zh": "【一段時間 · 已結束】持續了兩年。過去、現在、未來都能用。"
+          },
+          {
+            "fr": "dans deux ans",
+            "zh": "【時間點 · 未來】兩年「之後」才會發生。"
+          },
+          {
+            "fr": "depuis deux ans",
+            "zh": "【一段時間 · 還在繼續】從兩年前到現在，而且現在還在。"
+          },
+          {
+            "fr": "il y a deux ans",
+            "zh": "【時間點 · 過去】兩年「之前」發生的，已經結束。"
+          },
+          {
+            "fr": "Je travaille ici depuis deux ans.",
+            "zh": "我在這裡工作兩年了。（現在還在做）"
+          },
+          {
+            "fr": "J'ai travaillé ici pendant deux ans.",
+            "zh": "我在這裡工作過兩年。（已經離開了）"
+          },
+          {
+            "fr": "J'ai commencé il y a deux ans.",
+            "zh": "我兩年前開始的。（指開始的那個時間點）"
+          },
+          {
+            "fr": "Je pars dans deux ans.",
+            "zh": "我兩年後要走。（指未來的那個時間點）"
+          }
+        ]
+      },
+      {
+        "heading": "② PENDANT ＋ 一段時間（課堂重點一）",
+        "note": "★ pendant = 「持續、在…期間」，用來表達「有限定長度的一段時間」。過去、現在、未來都可以用，不限時態。後面接時間長度，也可以接名詞。",
+        "items": [
+          {
+            "fr": "Je suis parti en vacances pendant deux semaines.",
+            "zh": "★ 課堂例句：我去度假兩個星期。（過去的事，持續了兩週）"
+          },
+          {
+            "fr": "Tous les jours, je regarde la télé pendant deux heures.",
+            "zh": "★ 課堂例句：我每天看兩小時電視。（現在的習慣）"
+          },
+          {
+            "fr": "Ils vont rester à Bali pendant les vacances.",
+            "zh": "★ 課堂例句：他們假期期間會待在峇里島。（未來的事；後面接名詞 les vacances）"
+          },
+          {
+            "fr": "pendant ＋ 時間長度",
+            "zh": "pendant deux heures / pendant trois jours / pendant six ans"
+          },
+          {
+            "fr": "pendant ＋ 名詞",
+            "zh": "pendant les vacances（假期間）／pendant le cours（上課時）／pendant le repas（用餐時）"
+          },
+          {
+            "fr": "J'ai attendu pendant une heure.",
+            "zh": "我等了一個小時。"
+          },
+          {
+            "fr": "pendant 常常可以省略",
+            "zh": "口語裡 J'ai attendu une heure. 也通。但考試和寫作時寫出來比較清楚。"
+          }
+        ]
+      },
+      {
+        "heading": "★ POUR ＋ 一段時間（影片補充）",
+        "note": "★ pour = 「預計、打算待多久」。重點在「計畫」—— 事情可能還沒發生，或講的是當初的打算，不是實際結果。最常跟移動類動詞搭配：partir、venir、aller、rester。",
+        "items": [
+          {
+            "fr": "Je pars à Paris pour trois jours.",
+            "zh": "我要去巴黎三天。（出發前的計畫，預計待三天）"
+          },
+          {
+            "fr": "Il est venu pour deux semaines.",
+            "zh": "他來待兩個星期。（當初的打算是兩週）"
+          },
+          {
+            "fr": "Elle est partie pour un an.",
+            "zh": "她離開一年。（預計一年）"
+          },
+          {
+            "fr": "Je suis ici pour le week-end.",
+            "zh": "我來這裡過週末。（後面也可以接名詞）"
+          },
+          {
+            "fr": "Nous allons à Lyon pour quelques jours.",
+            "zh": "我們要去里昂待幾天。"
+          },
+          {
+            "fr": "pour 常搭配的動詞",
+            "zh": "partir pour、venir pour、aller pour、rester pour —— 都是「移動 ＋ 打算待多久」。"
+          }
+        ]
+      },
+      {
+        "heading": "★★ POUR vs PENDANT — 影片的核心重點",
+        "note": "★ 這兩個最容易混。一句話分辨：pour 是「打算待多久」（計畫），pendant 是「實際持續多久」（事實）。所以同一件事可以計畫和結果不一樣。",
+        "items": [
+          {
+            "fr": "Je suis parti pour deux semaines.",
+            "zh": "我出發時打算待兩個星期。（講的是「計畫」，實際待多久不知道）"
+          },
+          {
+            "fr": "Je suis resté pendant trois semaines.",
+            "zh": "我實際待了三個星期。（講的是「事實」）"
+          },
+          {
+            "fr": "Je pars pour trois jours.",
+            "zh": "✓ 我要去三天。（還沒出發，是計畫 → pour）"
+          },
+          {
+            "fr": "J'ai travaillé pendant trois heures.",
+            "zh": "✓ 我工作了三小時。（已經做完，是事實 → pendant）"
+          },
+          {
+            "fr": "Il est venu pour un mois mais il est resté pendant deux ans.",
+            "zh": "★ 經典對照句：他本來打算待一個月，結果待了兩年。前半用 pour（計畫），後半用 pendant（事實）。"
+          },
+          {
+            "fr": "搭配的動詞不一樣",
+            "zh": "pour 幾乎只跟「移動／停留」類動詞走（partir, venir, rester）；pendant 什麼動詞都能用。"
+          },
+          {
+            "fr": "不確定時選哪個？",
+            "zh": "講已經發生、做完的事 → pendant 比較保險。pour 一定帶有「打算、預計」的味道。"
+          }
+        ]
+      },
+      {
+        "heading": "③ DANS ＋ 一段時間（課堂重點二）",
+        "note": "★ dans ＝ 「…之後」，講的是「從現在算起，過多久以後」會發生的事。所以通常搭配現在式或未來式。★ 注意：dans 不是「在…裡面持續」，是「之後才開始」。",
+        "items": [
+          {
+            "fr": "Il va aller au Japon dans deux ans.",
+            "zh": "★ 課堂例句：他兩年後要去日本。（從現在算，兩年後的那個時間點）"
+          },
+          {
+            "fr": "Il est 15 heures. Elle part dans trois heures.",
+            "zh": "★ 課堂例句：現在三點，她三小時後出發。（= 18 點出發）"
+          },
+          {
+            "fr": "L'avion va partir dans dix minutes.",
+            "zh": "飛機十分鐘後起飛。"
+          },
+          {
+            "fr": "Je reviens dans cinq minutes.",
+            "zh": "我五分鐘後回來。"
+          },
+          {
+            "fr": "Le film commence dans une heure.",
+            "zh": "電影一小時後開始。"
+          },
+          {
+            "fr": "★ dans 和 en 不一樣",
+            "zh": "dans deux heures = 兩小時「之後」才開始；en deux heures = 「花了」兩小時完成。"
+          },
+          {
+            "fr": "Je le fais en deux heures.",
+            "zh": "我花兩小時做完。（en = 花多久完成）"
+          },
+          {
+            "fr": "Je le fais dans deux heures.",
+            "zh": "我兩小時後才做。（dans = 多久之後）"
+          }
+        ]
+      },
+      {
+        "heading": "④ DEPUIS ＋ 時間（練習會考，投影片沒教）",
+        "note": "★ depuis = 「從…以來，到現在還在繼續」。最重要的特徵：★ 動詞要用「現在式」，因為事情還沒結束。這跟中文很不一樣 —— 中文說「我學了兩年法文」，法文要用現在式。",
+        "items": [
+          {
+            "fr": "Ils sont mariés depuis quatre ans.",
+            "zh": "他們結婚四年了。（現在還是夫妻 → 現在式 sont）"
+          },
+          {
+            "fr": "J'habite à Paris depuis trois ans.",
+            "zh": "我住巴黎三年了。（現在還住 → 現在式 habite）"
+          },
+          {
+            "fr": "J'apprends le français depuis six mois.",
+            "zh": "我學法文六個月了。（還在學）"
+          },
+          {
+            "fr": "depuis ＋ 時間長度",
+            "zh": "depuis deux ans（兩年來）／depuis six mois（六個月來）"
+          },
+          {
+            "fr": "depuis ＋ 時間點",
+            "zh": "depuis 2020（從 2020 年起）／depuis lundi（從星期一起）／depuis hier（從昨天起）"
+          },
+          {
+            "fr": "★ depuis 配現在式，不配過去式",
+            "zh": "✓ J'habite ici depuis trois ans.｜✗ J'ai habité ici depuis trois ans."
+          },
+          {
+            "fr": "Depuis quand ?",
+            "zh": "從什麼時候開始？（問 depuis 的問句）"
+          },
+          {
+            "fr": "Depuis combien de temps ?",
+            "zh": "持續多久了？"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ IL Y A ＋ 時間（練習會考，投影片沒教）",
+        "note": "★ il y a ＋ 時間 = 「…之前」，指過去的一個時間點。★ 動詞要用「過去式」，因為事情已經結束了。注意它跟「il y a = 有」是同一個寫法，但意思完全不同，看後面接什麼判斷。",
+        "items": [
+          {
+            "fr": "Elle a voyagé en Europe il y a trois mois.",
+            "zh": "她三個月前去歐洲旅行。（已經回來了 → 過去式）"
+          },
+          {
+            "fr": "J'ai habité à Amsterdam il y a quinze ans.",
+            "zh": "我十五年前住在阿姆斯特丹。（現在不住了）"
+          },
+          {
+            "fr": "Je suis arrivé il y a cinq minutes.",
+            "zh": "我五分鐘前到的。"
+          },
+          {
+            "fr": "Il a commencé il y a deux ans.",
+            "zh": "他兩年前開始的。"
+          },
+          {
+            "fr": "★ il y a 兩種意思不要搞混",
+            "zh": "il y a ＋ 名詞 = 有（Il y a du vent 有風）；il y a ＋ 時間 = …之前（il y a deux ans 兩年前）。"
+          },
+          {
+            "fr": "il y a trois jours",
+            "zh": "三天前"
+          },
+          {
+            "fr": "il y a une semaine",
+            "zh": "一星期前"
+          },
+          {
+            "fr": "il y a longtemps",
+            "zh": "很久以前"
+          }
+        ]
+      },
+      {
+        "heading": "★ 五個一起比較 — 同一句話換一個字，意思差很多",
+        "note": "用同一個「兩年」來對照，一次看懂五個的差別。考試時就是在考這個。",
+        "items": [
+          {
+            "fr": "J'ai travaillé à Paris pendant deux ans.",
+            "zh": "我在巴黎工作「過」兩年。（已經結束，持續了兩年）"
+          },
+          {
+            "fr": "Je suis parti pour deux ans.",
+            "zh": "我出發時「打算」待兩年。（計畫，不保證真的待滿）"
+          },
+          {
+            "fr": "Je travaille à Paris depuis deux ans.",
+            "zh": "我在巴黎工作兩年「了」。（★ 現在還在做，所以用現在式）"
+          },
+          {
+            "fr": "J'ai travaillé à Paris il y a deux ans.",
+            "zh": "我兩年「前」在巴黎工作。（指過去的那個時間點）"
+          },
+          {
+            "fr": "Je vais travailler à Paris dans deux ans.",
+            "zh": "我兩年「後」要去巴黎工作。（未來的時間點）"
+          },
+          {
+            "fr": "判斷順序：先問「還在繼續嗎？」",
+            "zh": "還在繼續 → depuis（配現在式）。已經結束講長度 → pendant。講當初的打算 → pour。已結束講時間點 → il y a。還沒發生 → dans。"
+          }
+        ]
+      },
+      {
+        "heading": "⑦ 練習詳解 — Entourez la bonne réponse.",
+        "note": "課堂練習七題，圈出正確答案。★ 判斷訣竅：先看動詞的時態 —— 現在式配 depuis，過去式配 pendant 或 il y a，未來式配 dans。",
+        "items": [
+          {
+            "fr": "1. Ils ont travaillé ensemble pendant six ans.",
+            "zh": "✓ pendant。他們一起工作了六年。ont travaillé 是複合過去式 = 已經結束，而且講的是「持續多久」→ pendant。✗ depuis 要配現在式。"
+          },
+          {
+            "fr": "2. J'ai attendu le bus pendant cinq minutes.",
+            "zh": "✓ pendant。我等公車等了五分鐘。重點是「等了多久」這段長度 → pendant。✗ il y a cinq minutes 會變成「我五分鐘前等公車」，意思不對。"
+          },
+          {
+            "fr": "3. J'ai habité à Amsterdam il y a quinze ans.",
+            "zh": "✓ il y a。我十五年前住在阿姆斯特丹。★ ai habité 是過去式（現在不住了），depuis 一定要配現在式，所以只能選 il y a。（投影片把 habité 拼成 haibité，是筆誤）"
+          },
+          {
+            "fr": "4. L'avion va partir dans dix minutes.",
+            "zh": "✓ dans。飛機十分鐘後起飛。va partir 是近未來 → 用 dans（多久之後）。✗ pendant 是「持續多久」，飛機不是「起飛十分鐘」。"
+          },
+          {
+            "fr": "5. Ils sont mariés depuis quatre ans.",
+            "zh": "✓ depuis。他們結婚四年了。★ sont 是現在式 = 現在還是夫妻 → depuis。這題是 depuis 的典型用法。"
+          },
+          {
+            "fr": "6. Elle a voyagé en Europe il y a trois mois.",
+            "zh": "✓ il y a。她三個月前去歐洲旅行。a voyagé 是過去式、已經結束 → il y a（三個月前）。✗ dans 是未來，跟過去式不搭。"
+          },
+          {
+            "fr": "7. Elle est retournée chez elle pendant les vacances.",
+            "zh": "✓ pendant。她假期期間回家了。★ pendant 後面可以直接接名詞 les vacances。✗ dans les vacances 不是法文的說法。"
+          }
+        ]
+      },
+      {
+        "heading": "⑧ 快速自我檢查表",
+        "note": "寫題目時照這三個問題問自己，幾乎不會錯。",
+        "items": [
+          {
+            "fr": "動詞是現在式嗎？",
+            "zh": "是 → 很可能是 depuis（事情還在繼續）。"
+          },
+          {
+            "fr": "動詞是過去式嗎？",
+            "zh": "是 → pendant（持續多久）或 il y a（多久以前），看句子問的是哪一個。"
+          },
+          {
+            "fr": "動詞是未來式或 aller ＋ 原形嗎？",
+            "zh": "是 → dans（多久之後）。"
+          },
+          {
+            "fr": "句子裡有「打算、預計」的意思嗎？",
+            "zh": "有 → pour。通常搭配 partir / venir / rester 這類動詞。"
+          },
+          {
+            "fr": "後面接的是名詞不是時間長度嗎？",
+            "zh": "像 les vacances、le cours → 用 pendant。"
+          },
+          {
+            "fr": "pendant / pour / dans / depuis / il y a",
+            "zh": "五個一起唸熟，考試看到就能反射。"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★ pendant ＋ 一段時間 = 「實際」持續多久。過去現在未來都能用，後面也可以接名詞（pendant les vacances）。",
+      "★ pour ＋ 一段時間 = 「預計、打算」待多久（影片補充）。幾乎只跟 partir / venir / rester 這類移動停留動詞搭配。",
+      "★★ pour vs pendant：pour 是計畫，pendant 是事實。Il est venu pour un mois mais il est resté pendant deux ans.",
+      "★ dans ＋ 一段時間 = 「多久之後」，講未來的時間點。Il part dans trois heures.",
+      "★ depuis ＋ 時間 = 「從…到現在還在繼續」，★ 動詞一定用現在式：Ils sont mariés depuis quatre ans.",
+      "★ il y a ＋ 時間 = 「多久以前」，★ 動詞用過去式：Elle a voyagé il y a trois mois.",
+      "判斷順序：還在繼續 → depuis；已結束講長度 → pendant；講當初打算 → pour；已結束講時間點 → il y a；還沒發生 → dans。",
+      "dans ≠ en：dans deux heures（兩小時後才開始）vs en deux heures（花兩小時完成）。",
+      "練習答案：1 pendant／2 pendant／3 il y a／4 dans／5 depuis／6 il y a／7 pendant。"
+    ],
+    "drill": [
+      {
+        "fr": "Je suis parti en vacances pendant deux semaines.",
+        "zh": "我去度假兩個星期。"
+      },
+      {
+        "fr": "Je pars à Paris pour trois jours.",
+        "zh": "我要去巴黎三天。（預計）"
+      },
+      {
+        "fr": "Il est venu pour deux semaines.",
+        "zh": "他來待兩個星期。（預計）"
+      },
+      {
+        "fr": "Il va aller au Japon dans deux ans.",
+        "zh": "他兩年後要去日本。"
+      },
+      {
+        "fr": "Ils sont mariés depuis quatre ans.",
+        "zh": "他們結婚四年了。"
+      },
+      {
+        "fr": "Elle a voyagé en Europe il y a trois mois.",
+        "zh": "她三個月前去歐洲旅行。"
+      },
+      {
+        "fr": "L'avion va partir dans dix minutes.",
+        "zh": "飛機十分鐘後起飛。"
+      },
+      {
+        "fr": "J'habite à Paris depuis trois ans.",
+        "zh": "我住巴黎三年了。"
+      },
+      {
+        "fr": "Je reviens dans cinq minutes.",
+        "zh": "我五分鐘後回來。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "pendant 和 pour 的差別是？",
+        "options": [
+          "pendant 是實際持續多久，pour 是預計待多久",
+          "完全一樣",
+          "pour 比較正式"
+        ],
+        "answer": 0,
+        "why": "★ pour 是「計畫、打算」，pendant 是「事實」。Il est venu pour un mois mais il est resté pendant deux ans."
+      },
+      {
+        "q": "「我要去巴黎三天」（還沒出發，講計畫）用哪個？",
+        "options": [
+          "Je pars à Paris pour trois jours.",
+          "Je pars à Paris pendant trois jours.",
+          "Je pars à Paris dans trois jours."
+        ],
+        "answer": 0,
+        "why": "還沒出發、講的是「打算待多久」→ pour。dans trois jours 會變成「三天後才出發」。"
+      },
+      {
+        "q": "pour 最常搭配哪一類動詞？",
+        "options": [
+          "partir / venir / rester 這類移動停留動詞",
+          "所有動詞都可以",
+          "只跟 être 搭配"
+        ],
+        "answer": 0,
+        "why": "pour + 時間幾乎都出現在「移動到某地，打算待多久」的句子裡。"
+      },
+      {
+        "q": "dans + 時間表達什麼？",
+        "options": [
+          "多久「之後」（未來）",
+          "持續多久",
+          "多久之前"
+        ],
+        "answer": 0,
+        "why": "Elle part dans trois heures.（三小時後出發）"
+      },
+      {
+        "q": "depuis 要搭配什麼時態？",
+        "options": [
+          "現在式（事情還在繼續）",
+          "過去式",
+          "未來式"
+        ],
+        "answer": 0,
+        "why": "★ Ils sont mariés depuis quatre ans.（現在還是夫妻），所以用現在式。"
+      },
+      {
+        "q": "il y a + 時間要搭配什麼時態？",
+        "options": [
+          "過去式（事情已結束）",
+          "現在式",
+          "未來式"
+        ],
+        "answer": 0,
+        "why": "Elle a voyagé il y a trois mois.（三個月前，已經回來了）。"
+      },
+      {
+        "q": "Ils ont travaillé ensemble ___ six ans.",
+        "options": [
+          "pendant",
+          "depuis",
+          "dans"
+        ],
+        "answer": 0,
+        "why": "ont travaillé 是過去式已結束，講的是持續多久 → pendant。"
+      },
+      {
+        "q": "J'ai habité à Amsterdam ___ quinze ans.",
+        "options": [
+          "il y a",
+          "depuis",
+          "pendant"
+        ],
+        "answer": 0,
+        "why": "★ ai habité 是過去式（現在不住了），depuis 一定配現在式，所以只能選 il y a。"
+      },
+      {
+        "q": "L'avion va partir ___ dix minutes.",
+        "options": [
+          "dans",
+          "pendant",
+          "depuis"
+        ],
+        "answer": 0,
+        "why": "va partir 是近未來 → dans（十分鐘後）。"
+      },
+      {
+        "q": "Elle est retournée chez elle ___ les vacances.",
+        "options": [
+          "pendant",
+          "dans",
+          "depuis"
+        ],
+        "answer": 0,
+        "why": "pendant 後面可以直接接名詞 les vacances。dans les vacances 不是法文說法。"
+      }
     ]
   }
 ]

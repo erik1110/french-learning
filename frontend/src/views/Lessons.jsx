@@ -1,7 +1,16 @@
 import { useMemo, useState } from 'react'
 import { LESSONS } from '../store'
 import { navigate } from '../router'
-import { EmptyState, PageHeader, PlayAllButton, SearchField, Segmented, SpeakableItems } from '../ui'
+import {
+  EmptyState,
+  PageHeader,
+  PlayAllButton,
+  SearchField,
+  Segmented,
+  SpeakableItems,
+  SpeakButton,
+} from '../ui'
+import { speakFrench } from '../speech'
 
 const WEEKDAY_LABELS = ['一', '二', '三', '四', '五', '六', '日']
 
@@ -77,6 +86,124 @@ function LessonCalendar({ byDate, selected, onPick }) {
       <p className="cal-legend">
         <span className="cal-dot" /> 有上課內容，點日期看當天的單元
       </p>
+    </div>
+  )
+}
+
+/* --------------------------- end-of-lesson quiz --------------------------- */
+
+/**
+ * Options are authored with the correct answer first so the data stays easy to
+ * read, which would make every question answerable without looking. Shuffle per
+ * question, seeded by the lesson + index so the order holds across re-renders
+ * (answering re-renders, and the list must not move under the cursor).
+ */
+function shuffled(options, answer, seedText) {
+  let seed = 2166136261
+  for (const ch of seedText) {
+    seed ^= ch.charCodeAt(0)
+    seed = Math.imul(seed, 16777619) >>> 0
+  }
+  const rand = () => {
+    seed ^= (seed << 13) >>> 0
+    seed >>>= 0
+    seed ^= seed >>> 17
+    seed ^= (seed << 5) >>> 0
+    seed >>>= 0
+    return seed / 2 ** 32
+  }
+  const out = options.map((text, i) => ({ text, correct: i === answer }))
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1))
+    ;[out[i], out[j]] = [out[j], out[i]]
+  }
+  return out
+}
+
+function QuizQuestion({ item, index, lessonId }) {
+  const [picked, setPicked] = useState(null)
+  const options = useMemo(
+    () => shuffled(item.options, item.answer, `${lessonId}:${index}`),
+    [item, index, lessonId],
+  )
+  const answered = picked !== null
+
+  return (
+    <li className="qz-item">
+      <p className="qz-q">
+        <span className="qz-num">{index + 1}</span>
+        {item.q}
+      </p>
+      <div className="qz-options">
+        {options.map((o, i) => {
+          const cls = !answered
+            ? 'qz-opt'
+            : o.correct
+              ? 'qz-opt right'
+              : picked === i
+                ? 'qz-opt wrong'
+                : 'qz-opt dim'
+          return (
+            <button key={i} type="button" className={cls} disabled={answered} onClick={() => setPicked(i)}>
+              <span className="qz-mark" aria-hidden="true">
+                {answered ? (o.correct ? '✓' : picked === i ? '✕' : '·') : String.fromCharCode(65 + i)}
+              </span>
+              {o.text}
+            </button>
+          )
+        })}
+      </div>
+      {answered && (
+        <p className={options[picked].correct ? 'qz-why ok' : 'qz-why no'}>
+          {options[picked].correct ? '✅ 答對了！' : '❌ 再看一次：'} {item.why}
+        </p>
+      )}
+    </li>
+  )
+}
+
+function LessonQuiz({ lesson }) {
+  // Remount every question when the lesson changes, so answers never carry over.
+  return (
+    <div className="quiz-block" key={lesson.id}>
+      <h3 className="block-title">✏️ 牛刀小試</h3>
+      <p className="block-hint">{lesson.quiz.length} 題，點選項立刻看答案和詳解。</p>
+      <ol className="qz-list">
+        {lesson.quiz.map((item, i) => (
+          <QuizQuestion key={i} item={item} index={i} lessonId={lesson.id} />
+        ))}
+      </ol>
+    </div>
+  )
+}
+
+/* ------------------------- pronunciation practice ------------------------- */
+
+function LessonDrill({ lesson }) {
+  const lines = lesson.drill.map((d) => d.fr)
+  return (
+    <div className="drill-block">
+      <div className="block-head">
+        <div>
+          <h3 className="block-title">🔊 發音練習</h3>
+          <p className="block-hint">這一課最該唸熟的 {lines.length} 句，點任一句聽發音。</p>
+        </div>
+        <PlayAllButton lines={lines} className="btn btn-sm" />
+      </div>
+      <ol className="drill-list">
+        {lesson.drill.map((d, i) => (
+          <li key={i}>
+            <button type="button" className="drill-row" onClick={() => speakFrench(d.fr)}>
+              <span className="drill-n">{i + 1}</span>
+              <span className="drill-text">
+                <span className="drill-fr">{d.fr}</span>
+                <span className="drill-zh">{d.zh}</span>
+              </span>
+              <SpeakButton text={d.fr} label={`唸「${d.fr}」`} />
+            </button>
+          </li>
+        ))}
+      </ol>
     </div>
   )
 }
@@ -203,6 +330,9 @@ export default function LessonsView({ route }) {
                 </ul>
               </div>
             )}
+
+            {lesson.drill?.length > 0 && <LessonDrill lesson={lesson} />}
+            {lesson.quiz?.length > 0 && <LessonQuiz lesson={lesson} />}
           </section>
         </div>
       </div>
