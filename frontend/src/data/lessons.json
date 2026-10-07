@@ -10065,5 +10065,1894 @@
         "why": "pendant 後面可以直接接名詞 les vacances。dans les vacances 不是法文說法。"
       }
     ]
+  },
+  {
+    "id": "verbes-pronominaux",
+    "date": "2026-10-07",
+    "title": "LES VERBES PRONOMINAUX — 反身動詞（réfléchis）與相互動詞（réciproques）",
+    "summary": "當「主詞和受詞是同一個人」時用反身動詞。這一課學會反身代名詞 me/te/se 怎麼放、完整變位、否定疑問怎麼寫、從起床到就寢的作息動詞，以及第二部分的「相互動詞」—— 兩個人互相對彼此做的動作。",
+    "sections": [
+      {
+        "heading": "① 什麼是反身動詞？主詞和受詞是同一個人",
+        "note": "★ 課本原文：Quand le sujet est aussi l'objet d'un verbe, on utilise un pronom réfléchi.（當主詞同時也是動詞的受詞時，就要用反身代名詞。）",
+        "items": [
+          {
+            "fr": "Je lave la voiture.",
+            "zh": "我洗車。（受詞是「車」，不是我 → 一般動詞）"
+          },
+          {
+            "fr": "Je me lave.",
+            "zh": "我洗（我自己）＝ 我洗澡。（★ 受詞就是我自己 → 反身動詞）"
+          },
+          {
+            "fr": "Je regarde la télé.",
+            "zh": "我看電視。（受詞是電視）"
+          },
+          {
+            "fr": "Je me regarde.",
+            "zh": "我看我自己 ＝ 我照鏡子。（★ 受詞是自己）"
+          },
+          {
+            "fr": "me = moi-même",
+            "zh": "★ 課本小字註解：這個 me 的意思就是「我自己」。"
+          },
+          {
+            "fr": "Je me regarde dans la glace.",
+            "zh": "我照鏡子。（la glace 和 le miroir 都是「鏡子」）"
+          },
+          {
+            "fr": "le miroir",
+            "zh": "鏡子（跟 la glace 同義，la glace 也有「冰、冰淇淋」的意思）"
+          }
+        ]
+      },
+      {
+        "heading": "② ★ 反身代名詞放在動詞「前面」",
+        "note": "★ 課本第二條規則：Les pronoms réfléchis se placent devant le verbe.（反身代名詞放在動詞前面。）六個人稱各有自己的代名詞。",
+        "items": [
+          {
+            "fr": "Je me lave",
+            "zh": "我洗澡"
+          },
+          {
+            "fr": "Tu te laves",
+            "zh": "你洗澡"
+          },
+          {
+            "fr": "Il se lave / Elle se lave / On se lave",
+            "zh": "他／她／我們洗澡"
+          },
+          {
+            "fr": "Nous nous lavons",
+            "zh": "我們洗澡（★ nous 出現兩次，不是打錯）"
+          },
+          {
+            "fr": "Vous vous lavez",
+            "zh": "您／你們洗澡（★ vous 也出現兩次）"
+          },
+          {
+            "fr": "Ils se lavent / Elles se lavent",
+            "zh": "他們／她們洗澡"
+          },
+          {
+            "fr": "代名詞對照：me / te / se / nous / vous / se",
+            "zh": "★ 第三人稱單數和複數共用同一個 se。"
+          }
+        ]
+      },
+      {
+        "heading": "③ ⚠️ 課本特別標的錯誤寫法",
+        "note": "★ 課本用驚嘆號標出來的重點：反身代名詞不能放到後面去。",
+        "items": [
+          {
+            "fr": "Je me regarde.",
+            "zh": "✓ 正確說法"
+          },
+          {
+            "fr": "Je regarde moi.",
+            "zh": "✗ 錯誤：課本明確寫 Ne dites pas（不要這樣說）。代名詞一定在動詞前面。"
+          },
+          {
+            "fr": "Tu te laves.",
+            "zh": "✓ 正確｜✗ Tu laves toi."
+          },
+          {
+            "fr": "Elle se maquille.",
+            "zh": "✓ 正確｜✗ Elle maquille elle."
+          }
+        ]
+      },
+      {
+        "heading": "④ 母音開頭要縮寫：me → m'、te → t'、se → s'",
+        "note": "★ 跟 je → j' 一樣的道理。反身動詞裡有好幾個是母音開頭，原形就已經縮寫了。",
+        "items": [
+          {
+            "fr": "s'endormir",
+            "zh": "入睡（原形就縮寫了，因為 endormir 是母音開頭）"
+          },
+          {
+            "fr": "Je m'endors.",
+            "zh": "我睡著了。（me → m'）"
+          },
+          {
+            "fr": "Tu t'endors.",
+            "zh": "你睡著了。（te → t'）"
+          },
+          {
+            "fr": "Il s'endort.",
+            "zh": "他睡著了。（se → s'）"
+          },
+          {
+            "fr": "s'habiller",
+            "zh": "穿衣服（h 是啞音，也要縮寫）"
+          },
+          {
+            "fr": "Je m'habille.",
+            "zh": "我穿衣服。"
+          },
+          {
+            "fr": "Nous nous endormons.",
+            "zh": "我們睡著了。（★ nous 和 vous 不縮寫，因為它們是子音結尾）"
+          },
+          {
+            "fr": "Vous vous habillez.",
+            "zh": "您穿衣服。"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 一整天的作息動詞 — 成對記最快",
+        "note": "★ 課本的 QUELQUES VERBES PRONOMINAUX 這一頁，幾乎都是成對的反義詞，兩個兩個背最省力。",
+        "items": [
+          {
+            "fr": "se réveiller ≠ s'endormir",
+            "zh": "醒來 ≠ 入睡"
+          },
+          {
+            "fr": "se lever ≠ se coucher",
+            "zh": "起床 ≠ 就寢"
+          },
+          {
+            "fr": "se laver / prendre une douche",
+            "zh": "洗澡／淋浴"
+          },
+          {
+            "fr": "se brosser les dents",
+            "zh": "刷牙"
+          },
+          {
+            "fr": "se peigner / se coiffer",
+            "zh": "梳頭髮（兩個同義）"
+          },
+          {
+            "fr": "se maquiller ≠ se démaquiller",
+            "zh": "化妝 ≠ 卸妝（★ dé- 這個字首就是「反過來」）"
+          },
+          {
+            "fr": "se raser",
+            "zh": "刮鬍子"
+          },
+          {
+            "fr": "s'habiller ≠ se déshabiller",
+            "zh": "穿衣服 ≠ 脫衣服（dés- 同樣是反義字首）"
+          },
+          {
+            "fr": "une douche",
+            "zh": "一次淋浴（prendre une douche = 沖澡）"
+          },
+          {
+            "fr": "une dent",
+            "zh": "一顆牙（複數 les dents，刷牙時用複數）"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ ★ 老師特別標的陷阱：lever ≠ laver",
+        "note": "★ 這兩個字只差一個母音，意思完全不同，課本旁邊用手寫特別圈出來。發音也要分清楚。",
+        "items": [
+          {
+            "fr": "se lever",
+            "zh": "起床、起身（e 的音）"
+          },
+          {
+            "fr": "se laver",
+            "zh": "洗澡、清洗（a 的音）"
+          },
+          {
+            "fr": "Je me lève à sept heures.",
+            "zh": "我七點起床。（★ 注意變位時 e 要變成 è）"
+          },
+          {
+            "fr": "Je me lave à sept heures.",
+            "zh": "我七點洗澡。"
+          },
+          {
+            "fr": "Je me lève / Tu te lèves / Il se lève",
+            "zh": "se lever 的變位：重音符號 è 出現在 je, tu, il, ils"
+          },
+          {
+            "fr": "Nous nous levons / Vous vous levez",
+            "zh": "★ nous 和 vous 保持原本的 e，不加重音符號"
+          },
+          {
+            "fr": "se soulever",
+            "zh": "舉起（同一家族，lever 的意思是「抬起」）"
+          }
+        ]
+      },
+      {
+        "heading": "⑦ ★ 身體部位用「定冠詞」，不用所有格",
+        "note": "★ 這是中文使用者最常錯的地方。因為反身代名詞已經講清楚是「自己的」，所以身體部位前面用 le / la / les，不用 mon / ma / mes。",
+        "items": [
+          {
+            "fr": "Je me lave les mains.",
+            "zh": "✓ 我洗手。（★ 用 les 不用 mes）"
+          },
+          {
+            "fr": "Je lave mes mains.",
+            "zh": "✗ 錯誤寫法。法文不這樣說。"
+          },
+          {
+            "fr": "Je me brosse les dents.",
+            "zh": "✓ 我刷牙。（les dents 不是 mes dents）"
+          },
+          {
+            "fr": "Elle se lave les cheveux.",
+            "zh": "她洗頭髮。"
+          },
+          {
+            "fr": "Il se rase la barbe.",
+            "zh": "他刮鬍子。"
+          },
+          {
+            "fr": "la main / les mains",
+            "zh": "手／雙手"
+          },
+          {
+            "fr": "les cheveux",
+            "zh": "頭髮（永遠用複數）"
+          },
+          {
+            "fr": "le visage",
+            "zh": "臉"
+          }
+        ]
+      },
+      {
+        "heading": "⑧ 否定句：ne 放在反身代名詞「前面」",
+        "note": "★ 反身代名詞算是動詞的一部分，所以 ne…pas 要把「代名詞 + 動詞」整組夾起來。",
+        "items": [
+          {
+            "fr": "Je ne me lave pas.",
+            "zh": "我不洗澡。（ne 在 me 前面，pas 在動詞後面）"
+          },
+          {
+            "fr": "Je ne me lève pas tôt.",
+            "zh": "我不早起。"
+          },
+          {
+            "fr": "Il ne se rase pas.",
+            "zh": "他不刮鬍子。"
+          },
+          {
+            "fr": "Elle ne se maquille jamais.",
+            "zh": "她從不化妝。（ne… jamais = 從不）"
+          },
+          {
+            "fr": "Nous ne nous couchons pas tard.",
+            "zh": "我們不晚睡。"
+          },
+          {
+            "fr": "✗ Je me ne lave pas.",
+            "zh": "錯誤：ne 不能插在代名詞和動詞中間。"
+          },
+          {
+            "fr": "Tu ne t'endors pas ?",
+            "zh": "你還沒睡著嗎？（否定疑問句）"
+          }
+        ]
+      },
+      {
+        "heading": "⑨ 疑問句與日常問答",
+        "note": "問別人的作息是最實用的練習。口語直接用「直述句＋問號」就好。",
+        "items": [
+          {
+            "fr": "Tu te lèves à quelle heure ?",
+            "zh": "你幾點起床？"
+          },
+          {
+            "fr": "Je me lève à sept heures.",
+            "zh": "我七點起床。"
+          },
+          {
+            "fr": "Tu te couches à quelle heure ?",
+            "zh": "你幾點睡？"
+          },
+          {
+            "fr": "Je me couche vers minuit.",
+            "zh": "我大概半夜十二點睡。"
+          },
+          {
+            "fr": "Vous vous levez tôt ?",
+            "zh": "您很早起嗎？"
+          },
+          {
+            "fr": "Comment tu t'appelles ?",
+            "zh": "你叫什麼名字？（★ s'appeler 也是反身動詞）"
+          },
+          {
+            "fr": "Je m'appelle Erik.",
+            "zh": "我叫 Erik。"
+          },
+          {
+            "fr": "Comment ça s'est passé ?",
+            "zh": "★ 課堂標題：事情進行得如何？（se passer 也是反身動詞）"
+          }
+        ]
+      },
+      {
+        "heading": "⑩ ★ 反身動詞的過去式：一律用 ÊTRE",
+        "note": "★ 接上 9/15 學的複合過去式：反身動詞「全部」用 être 當助動詞，而且過去分詞要跟主詞做性數配合。課堂標題 Comment ça s'est passé ? 就是這個用法。",
+        "items": [
+          {
+            "fr": "Je me suis levé.",
+            "zh": "我起床了。（男生）"
+          },
+          {
+            "fr": "Je me suis levée.",
+            "zh": "我起床了。（★ 女生要加 e）"
+          },
+          {
+            "fr": "Il s'est couché tard.",
+            "zh": "他很晚才睡。"
+          },
+          {
+            "fr": "Elle s'est maquillée.",
+            "zh": "她化了妝。（陰性 + e）"
+          },
+          {
+            "fr": "Nous nous sommes réveillés.",
+            "zh": "我們醒了。（複數 + s）"
+          },
+          {
+            "fr": "Elles se sont habillées.",
+            "zh": "她們穿好衣服了。（陰性複數 + es）"
+          },
+          {
+            "fr": "Comment ça s'est passé ?",
+            "zh": "事情怎麼樣？進行得如何？"
+          },
+          {
+            "fr": "Ça s'est bien passé.",
+            "zh": "進行得很順利。"
+          },
+          {
+            "fr": "Je me suis levé tôt.",
+            "zh": "我很早起床。★ 代名詞 me 放在助動詞 suis 前面，不是放在過去分詞前面。"
+          }
+        ]
+      },
+      {
+        "heading": "⑪ 把一天串起來說一遍",
+        "note": "用學到的動詞照時間順序講自己的一天，這是最好的綜合練習。",
+        "items": [
+          {
+            "fr": "Je me réveille à six heures et demie.",
+            "zh": "我六點半醒來。"
+          },
+          {
+            "fr": "Je me lève à sept heures.",
+            "zh": "我七點起床。"
+          },
+          {
+            "fr": "Je prends une douche.",
+            "zh": "我沖澡。"
+          },
+          {
+            "fr": "Je me brosse les dents.",
+            "zh": "我刷牙。"
+          },
+          {
+            "fr": "Je me coiffe.",
+            "zh": "我梳頭髮。"
+          },
+          {
+            "fr": "Je m'habille.",
+            "zh": "我穿衣服。"
+          },
+          {
+            "fr": "Le soir, je me déshabille.",
+            "zh": "晚上我脫衣服。"
+          },
+          {
+            "fr": "Je me couche à onze heures.",
+            "zh": "我十一點就寢。"
+          },
+          {
+            "fr": "Je m'endors tout de suite.",
+            "zh": "我馬上就睡著。（tout de suite = 立刻）"
+          }
+        ]
+      },
+      {
+        "heading": "⑫ 第二部分：相互動詞 LES PRONOMINAUX RÉCIPROQUES",
+        "note": "★ 課堂定義：動作是由兩個（或以上）的主詞共同發出，並且互相施加在對方身上。★ 關鍵特徵：主詞一定是「複數」（nous / vous / ils / elles），因為「互相」至少要兩個人。",
+        "items": [
+          {
+            "fr": "se regarder",
+            "zh": "互相看著對方"
+          },
+          {
+            "fr": "Ils se regardent sans parler.",
+            "zh": "他們互相看著對方，沒說話。"
+          },
+          {
+            "fr": "Nous nous regardons en silence.",
+            "zh": "我們沉默地互看著。"
+          },
+          {
+            "fr": "se parler",
+            "zh": "互相說話、交談"
+          },
+          {
+            "fr": "Elles se parlent tous les jours.",
+            "zh": "她們每天都聊天。"
+          },
+          {
+            "fr": "Nous nous parlons en français.",
+            "zh": "我們用法文交談。"
+          },
+          {
+            "fr": "Ils ne se parlent plus.",
+            "zh": "他們不再說話了。（ne… plus ＝ 不再）"
+          },
+          {
+            "fr": "s'aimer",
+            "zh": "互相愛著對方"
+          },
+          {
+            "fr": "Ils s'aiment beaucoup.",
+            "zh": "他們很相愛。"
+          },
+          {
+            "fr": "Paul et Marie s'aiment depuis dix ans.",
+            "zh": "保羅和瑪麗相愛十年了。（depuis 配現在式）"
+          },
+          {
+            "fr": "se connaître",
+            "zh": "互相認識"
+          },
+          {
+            "fr": "Nous nous connaissons depuis l'école.",
+            "zh": "我們從學生時代就認識了。"
+          },
+          {
+            "fr": "Vous vous connaissez ?",
+            "zh": "你們認識嗎？（介紹兩個人時超常用）"
+          },
+          {
+            "fr": "Ils se connaissent bien.",
+            "zh": "他們很熟。"
+          },
+          {
+            "fr": "s'aider",
+            "zh": "互相幫助"
+          },
+          {
+            "fr": "Nous nous aidons toujours.",
+            "zh": "我們總是互相幫忙。"
+          },
+          {
+            "fr": "Les voisins s'aident beaucoup.",
+            "zh": "鄰居們很常互相幫忙。"
+          }
+        ]
+      },
+      {
+        "heading": "⑬ ★ 反身 vs 相互 — 同一個字，單複數意思完全不同",
+        "note": "★ 這是最容易混的地方：寫法一模一樣，靠「主詞是單數還是複數」判斷是「對自己」還是「對彼此」。",
+        "items": [
+          {
+            "fr": "Il se regarde.",
+            "zh": "【反身】他看他自己（照鏡子）。← 主詞單數"
+          },
+          {
+            "fr": "Ils se regardent.",
+            "zh": "【相互】他們互相看著對方。← 主詞複數"
+          },
+          {
+            "fr": "Elle se parle.",
+            "zh": "【反身】她自言自語。"
+          },
+          {
+            "fr": "Elles se parlent.",
+            "zh": "【相互】她們在交談。"
+          },
+          {
+            "fr": "Je m'aide.",
+            "zh": "【反身】我自己幫自己。"
+          },
+          {
+            "fr": "Nous nous aidons.",
+            "zh": "【相互】我們互相幫忙。"
+          },
+          {
+            "fr": "Ils se regardent l'un l'autre.",
+            "zh": "他們互相看著對方。（★ 加 l'un l'autre 強調「彼此」，消除歧義）"
+          },
+          {
+            "fr": "Ils se lavent eux-mêmes.",
+            "zh": "他們各自洗自己。（★ 加 eux-mêmes 強調「自己」）"
+          },
+          {
+            "fr": "Nous nous aidons les uns les autres.",
+            "zh": "我們互相幫助。（三人以上用 les uns les autres）"
+          }
+        ]
+      },
+      {
+        "heading": "⑭ 相互動詞的過去式：一樣用 ÊTRE",
+        "note": "★ 跟反身動詞一樣，複合過去式全部用 être。但配合有一個細節：要看反身代名詞是「直接受詞」還是「間接受詞」。",
+        "items": [
+          {
+            "fr": "Ils se sont regardés.",
+            "zh": "他們互看了一眼。（regarder quelqu'un 是直接受詞 → 過去分詞要配合，加 s）"
+          },
+          {
+            "fr": "Elles se sont rencontrées à Paris.",
+            "zh": "她們在巴黎相遇。（陰性複數 → 加 es）"
+          },
+          {
+            "fr": "Nous nous sommes aidés.",
+            "zh": "我們互相幫了忙。"
+          },
+          {
+            "fr": "Elles se sont parlé.",
+            "zh": "★ 她們談過話。（parler à quelqu'un 是「間接」受詞 → 過去分詞「不」配合）"
+          },
+          {
+            "fr": "Ils se sont téléphoné.",
+            "zh": "他們通過電話。（téléphoner à quelqu'un 也是間接 → 不配合）"
+          },
+          {
+            "fr": "Ils se sont écrit.",
+            "zh": "他們通過信。（écrire à quelqu'un 間接 → 不配合）"
+          },
+          {
+            "fr": "Comment vous vous êtes rencontrés ?",
+            "zh": "你們是怎麼認識的？（聊天超常用的一句）"
+          }
+        ]
+      },
+      {
+        "heading": "⑮ 相互動詞的實用對話句",
+        "note": "這些句子在認識新朋友、介紹別人的場合天天用得到。",
+        "items": [
+          {
+            "fr": "Vous vous connaissez ?",
+            "zh": "你們認識嗎？"
+          },
+          {
+            "fr": "Non, on ne se connaît pas.",
+            "zh": "不，我們不認識。"
+          },
+          {
+            "fr": "Oui, on se connaît bien.",
+            "zh": "對，我們很熟。"
+          },
+          {
+            "fr": "On se voit demain ?",
+            "zh": "我們明天見？"
+          },
+          {
+            "fr": "On se retrouve devant le café.",
+            "zh": "我們在咖啡館前面碰面。"
+          },
+          {
+            "fr": "On se téléphone ce soir ?",
+            "zh": "我們今晚通個電話？"
+          },
+          {
+            "fr": "Ils se sont mariés l'année dernière.",
+            "zh": "他們去年結婚了。"
+          },
+          {
+            "fr": "Nous nous sommes rencontrés au travail.",
+            "zh": "我們是在工作上認識的。"
+          },
+          {
+            "fr": "À bientôt, on se rappelle !",
+            "zh": "回頭見，再聯絡！"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★ 反身動詞的定義：主詞和受詞是同一個人。Je lave la voiture（洗車）vs Je me lave（洗我自己）。",
+      "★ 反身代名詞 me / te / se / nous / vous / se 一律放在「動詞前面」。✗ Je regarde moi.",
+      "母音或啞音 h 開頭要縮寫：m' / t' / s'（je m'habille、il s'endort）；但 nous 和 vous 不縮寫。",
+      "★ 老師標的陷阱：se lever（起床，e 音）≠ se laver（洗澡，a 音），只差一個母音。",
+      "se lever 變位時重音符號會跑出來：je me lève，但 nous nous levons（nous/vous 不加）。",
+      "★★ 身體部位前面用定冠詞不用所有格：Je me lave les mains（✗ mes mains）、Je me brosse les dents。",
+      "否定句把「代名詞＋動詞」整組夾起來：Je ne me lave pas。✗ Je me ne lave pas.",
+      "成對記最快：se réveiller≠s'endormir、se lever≠se coucher、se maquiller≠se démaquiller、s'habiller≠se déshabiller。",
+      "★ 反身動詞的複合過去式「全部」用 être，過去分詞要配合：Je me suis levé(e)、Elle s'est maquillée。",
+      "投影片把 se démaquiller 打成 se démaquille（少了字尾 r），正確原形是 se démaquiller。",
+      "★ 相互動詞（réciproques）：動作由兩個以上的主詞共同發出、互相施加在對方身上，所以主詞一定是複數。",
+      "★ 反身 vs 相互 看主詞單複數：Il se regarde（照鏡子）vs Ils se regardent（互相看）。",
+      "要強調時可以加：l'un l'autre（互相，兩人）／les uns les autres（三人以上）／eux-mêmes（各自）。",
+      "★ 相互動詞過去式也用 être，配合看有沒有 à：Ils se sont regardés（配合）vs Elles se sont parlé（parler à → 不配合）。"
+    ],
+    "drill": [
+      {
+        "fr": "Je me lave.",
+        "zh": "我洗澡。"
+      },
+      {
+        "fr": "Je me regarde dans la glace.",
+        "zh": "我照鏡子。"
+      },
+      {
+        "fr": "Je me lève à sept heures.",
+        "zh": "我七點起床。"
+      },
+      {
+        "fr": "Je me couche à onze heures.",
+        "zh": "我十一點睡。"
+      },
+      {
+        "fr": "Je me brosse les dents.",
+        "zh": "我刷牙。"
+      },
+      {
+        "fr": "Je me lave les mains.",
+        "zh": "我洗手。"
+      },
+      {
+        "fr": "Je m'habille.",
+        "zh": "我穿衣服。"
+      },
+      {
+        "fr": "Il s'endort tout de suite.",
+        "zh": "他馬上就睡著。"
+      },
+      {
+        "fr": "Tu te lèves à quelle heure ?",
+        "zh": "你幾點起床？"
+      },
+      {
+        "fr": "Je ne me lave pas.",
+        "zh": "我不洗澡。（否定句）"
+      },
+      {
+        "fr": "Je me suis levée.",
+        "zh": "我起床了。（女生，過去式）"
+      },
+      {
+        "fr": "Comment ça s'est passé ?",
+        "zh": "事情進行得如何？"
+      },
+      {
+        "fr": "Vous vous connaissez ?",
+        "zh": "你們認識嗎？"
+      },
+      {
+        "fr": "Ils se regardent sans parler.",
+        "zh": "他們互相看著對方，沒說話。"
+      },
+      {
+        "fr": "Nous nous aidons toujours.",
+        "zh": "我們總是互相幫忙。"
+      },
+      {
+        "fr": "On se voit demain ?",
+        "zh": "我們明天見？"
+      },
+      {
+        "fr": "Nous nous sommes rencontrés au travail.",
+        "zh": "我們是在工作上認識的。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "什麼情況要用反身動詞？",
+        "options": [
+          "主詞和受詞是同一個人",
+          "動詞是不規則的",
+          "主詞是複數"
+        ],
+        "answer": 0,
+        "why": "★ 課本原文：Quand le sujet est aussi l'objet du verbe。Je me lave = 我洗我自己。"
+      },
+      {
+        "q": "相互動詞（réciproques）的主詞有什麼特徵？",
+        "options": [
+          "一定是複數（至少兩個人）",
+          "一定是單數",
+          "沒有限制"
+        ],
+        "answer": 0,
+        "why": "★ 「互相」至少要兩個人，所以主詞一定是 nous / vous / ils / elles。"
+      },
+      {
+        "q": "反身代名詞要放在哪裡？",
+        "options": [
+          "動詞前面",
+          "動詞後面",
+          "句尾"
+        ],
+        "answer": 0,
+        "why": "★ Les pronoms réfléchis se placent devant le verbe。✗ Je regarde moi."
+      },
+      {
+        "q": "nous 的反身動詞變位是？",
+        "options": [
+          "Nous nous lavons",
+          "Nous se lavons",
+          "Nous lavons"
+        ],
+        "answer": 0,
+        "why": "nous 的反身代名詞也是 nous，所以會出現兩次，不是打錯。"
+      },
+      {
+        "q": "「我睡著了」正確的寫法是？",
+        "options": [
+          "Je m'endors.",
+          "Je me endors.",
+          "Je m'endor."
+        ],
+        "answer": 0,
+        "why": "endormir 是母音開頭，me 要縮寫成 m'。"
+      },
+      {
+        "q": "Ils se regardent 和 Il se regarde 差在哪？",
+        "options": [
+          "複數是「互相看」，單數是「照鏡子」",
+          "意思一樣",
+          "複數比較正式"
+        ],
+        "answer": 0,
+        "why": "★ 同樣的寫法，靠主詞單複數判斷是「相互」還是「反身」。"
+      },
+      {
+        "q": "「我洗手」正確的說法是？",
+        "options": [
+          "Je me lave les mains.",
+          "Je me lave mes mains.",
+          "Je lave mes mains."
+        ],
+        "answer": 0,
+        "why": "★ 反身代名詞已經表示「自己的」，所以身體部位用定冠詞 les，不用所有格 mes。"
+      },
+      {
+        "q": "「我不洗澡」的否定句怎麼寫？",
+        "options": [
+          "Je ne me lave pas.",
+          "Je me ne lave pas.",
+          "Je ne lave me pas."
+        ],
+        "answer": 0,
+        "why": "ne 要放在反身代名詞前面，把「代名詞＋動詞」整組夾起來。"
+      },
+      {
+        "q": "反身動詞的複合過去式用哪個助動詞？",
+        "options": [
+          "一律用 être",
+          "一律用 avoir",
+          "看動詞決定"
+        ],
+        "answer": 0,
+        "why": "★ 全部用 être，而且過去分詞要跟主詞配合：Je me suis levé(e)。"
+      },
+      {
+        "q": "se maquiller 的反義詞是？",
+        "options": [
+          "se démaquiller",
+          "se remaquiller",
+          "se maquille"
+        ],
+        "answer": 0,
+        "why": "dé- 這個字首表示「反過來」：maquiller（化妝）→ démaquiller（卸妝）；habiller → déshabiller。"
+      }
+    ]
+  },
+  {
+    "id": "les-quantites",
+    "date": "2026-10-07",
+    "title": "LES QUANTITÉS — 量詞與部分冠詞 du / de la / de",
+    "summary": "法文講「多少」有一條核心規則：只要句子裡出現了「量」，不管是計量單位（一公斤）、程度副詞（很多）還是零（沒有），前面的冠詞 du / de la / des 全部要縮成一個 de。這一課把這條規則和所有常用量詞一次整理。",
+    "sections": [
+      {
+        "heading": "① 先分清楚：不確定的量 vs 確定的量",
+        "note": "★ 這是整課的出發點。同樣是水，說「水」和說「一杯水」用的冠詞完全不同。課本左右兩欄就是在對比這件事。",
+        "items": [
+          {
+            "fr": "de l'eau",
+            "zh": "【不確定的量】水（不知道多少，就是「水」這個東西）"
+          },
+          {
+            "fr": "un verre d'eau",
+            "zh": "【確定的量】一杯水（講明了是一杯）"
+          },
+          {
+            "fr": "de la farine",
+            "zh": "【不確定】麵粉"
+          },
+          {
+            "fr": "un kilo de farine",
+            "zh": "【確定】一公斤麵粉"
+          },
+          {
+            "fr": "du soleil",
+            "zh": "【不確定】陽光"
+          },
+          {
+            "fr": "pas de soleil",
+            "zh": "【零】沒有陽光"
+          },
+          {
+            "fr": "Je bois de l'eau.",
+            "zh": "我在喝水。（不知道喝多少）"
+          },
+          {
+            "fr": "Je bois un verre d'eau.",
+            "zh": "我喝一杯水。（明確一杯）"
+          }
+        ]
+      },
+      {
+        "heading": "② 部分冠詞 du / de la / de l' / des — 講「不確定的量」",
+        "note": "★ 當你講的是「一部分、一些」而且數不出來時，用部分冠詞。選哪一個只看名詞的陰陽性和開頭字母。",
+        "items": [
+          {
+            "fr": "du + 陽性名詞",
+            "zh": "du sucre（糖）、du pain（麵包）、du soleil（陽光）"
+          },
+          {
+            "fr": "de la + 陰性名詞",
+            "zh": "de la farine（麵粉）、de la viande（肉）、de la pluie（雨）"
+          },
+          {
+            "fr": "de l' + 母音或啞音 h 開頭",
+            "zh": "de l'eau（水）、de l'huile（油）、de l'argent（錢）"
+          },
+          {
+            "fr": "des + 複數名詞",
+            "zh": "des pommes（蘋果）、des œufs（蛋）、des nuages（雲）"
+          },
+          {
+            "fr": "Je mange du pain.",
+            "zh": "我在吃麵包。"
+          },
+          {
+            "fr": "Je mange de la viande.",
+            "zh": "我在吃肉。"
+          },
+          {
+            "fr": "Je bois de l'eau.",
+            "zh": "我在喝水。"
+          },
+          {
+            "fr": "J'achète des pommes.",
+            "zh": "我買蘋果。"
+          }
+        ]
+      },
+      {
+        "heading": "③ ★★ 核心規則：只要有「量」，冠詞一律變成 de",
+        "note": "★ 課本原文：« DE » remplace « du », « de la », « des »（DE 取代 du、de la、des）。三種情況會觸發這條規則：講明了量、用了程度副詞、量是零。記住這一條，整課就通了。",
+        "items": [
+          {
+            "fr": "du sucre → un kilo de sucre",
+            "zh": "糖 → 一公斤糖（有了「一公斤」，du 變成 de）"
+          },
+          {
+            "fr": "de la farine → un kilo de farine",
+            "zh": "麵粉 → 一公斤麵粉"
+          },
+          {
+            "fr": "de l'eau → un verre d'eau",
+            "zh": "水 → 一杯水（de 遇到母音縮寫成 d'）"
+          },
+          {
+            "fr": "des livres → beaucoup de livres",
+            "zh": "書 → 很多書（des 變成 de）"
+          },
+          {
+            "fr": "du sucre → pas de sucre",
+            "zh": "糖 → 沒有糖"
+          },
+          {
+            "fr": "★ 不管原本是 du、de la 還是 des",
+            "zh": "只要前面出現量詞，全部一視同仁變成 de。這就是為什麼叫「DE 取代它們」。"
+          }
+        ]
+      },
+      {
+        "heading": "④ 情況一：計量單位 — un kilo de, un verre de…",
+        "note": "★ 課本的 les quantités exprimées（表達出來的量）。公式固定：量詞 ＋ de ＋ 名詞，中間「不加冠詞」。",
+        "items": [
+          {
+            "fr": "un kilo de sucre",
+            "zh": "一公斤糖"
+          },
+          {
+            "fr": "cent grammes de sucre",
+            "zh": "一百公克糖"
+          },
+          {
+            "fr": "trois morceaux de sucre",
+            "zh": "三塊方糖（un morceau = 一塊）"
+          },
+          {
+            "fr": "un verre d'eau",
+            "zh": "一杯水（玻璃杯）"
+          },
+          {
+            "fr": "une tasse de café",
+            "zh": "一杯咖啡（有把手的杯子）"
+          },
+          {
+            "fr": "une bouteille de vin",
+            "zh": "一瓶酒"
+          },
+          {
+            "fr": "une carafe d'eau",
+            "zh": "一壺水（餐廳點的免費自來水）"
+          },
+          {
+            "fr": "un paquet de chips",
+            "zh": "一包洋芋片"
+          },
+          {
+            "fr": "une tranche de jambon",
+            "zh": "一片火腿"
+          },
+          {
+            "fr": "une livre de carottes",
+            "zh": "半公斤紅蘿蔔（★ une livre ＝ 500 公克，跟 un livre「一本書」不一樣）"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 情況二：程度副詞 — beaucoup de, un peu de, assez de",
+        "note": "★ 課本用粉紅筆畫線的這三個最常用。公式一樣：副詞 ＋ de ＋ 名詞，中間不加冠詞。",
+        "items": [
+          {
+            "fr": "beaucoup de sucre",
+            "zh": "很多糖"
+          },
+          {
+            "fr": "un peu de sucre",
+            "zh": "一點點糖"
+          },
+          {
+            "fr": "assez de sucre",
+            "zh": "足夠的糖"
+          },
+          {
+            "fr": "trop de sucre",
+            "zh": "太多糖"
+          },
+          {
+            "fr": "peu de sucre",
+            "zh": "很少糖（★ 沒有 un 的 peu de 語氣偏否定，意思是「幾乎沒有」）"
+          },
+          {
+            "fr": "plus de sucre",
+            "zh": "更多糖（★ 也可能是「不再有糖」，看句子有沒有否定）"
+          },
+          {
+            "fr": "moins de sucre",
+            "zh": "比較少糖"
+          },
+          {
+            "fr": "beaucoup de livres",
+            "zh": "很多書"
+          },
+          {
+            "fr": "J'ai beaucoup d'amis.",
+            "zh": "我有很多朋友。（de 遇到母音縮寫成 d'）"
+          },
+          {
+            "fr": "Il y a peu de monde.",
+            "zh": "人很少。（le monde 在這裡是「人群」）"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ 情況三：量是零 — pas de, plus de, jamais de",
+        "note": "★ 課本的 la quantité zéro（零的量）。否定句裡的 du / de la / des 全部變 de，這是最常考也最常錯的一條。",
+        "items": [
+          {
+            "fr": "pas de sucre",
+            "zh": "沒有糖"
+          },
+          {
+            "fr": "plus de sucre",
+            "zh": "不再有糖了（ne… plus ＝ 不再）"
+          },
+          {
+            "fr": "jamais de sucre",
+            "zh": "從來不加糖（ne… jamais ＝ 從不，課本旁邊註明 never）"
+          },
+          {
+            "fr": "Je ne mange pas de viande.",
+            "zh": "我不吃肉。（原本是 de la viande）"
+          },
+          {
+            "fr": "Je n'ai pas d'argent.",
+            "zh": "我沒有錢。（de l'argent → d'argent）"
+          },
+          {
+            "fr": "Il n'y a plus de pain.",
+            "zh": "沒有麵包了。（原本是 du pain）"
+          },
+          {
+            "fr": "Je ne bois jamais de café.",
+            "zh": "我從不喝咖啡。"
+          },
+          {
+            "fr": "Je n'ai pas de fièvre.",
+            "zh": "我沒有發燒。"
+          },
+          {
+            "fr": "Elle n'a pas de voiture.",
+            "zh": "她沒有車。（un/une 在否定句也變 de）"
+          }
+        ]
+      },
+      {
+        "heading": "⑦ ⚠️ 課本特別標的錯誤：不要用 des",
+        "note": "★ 課本用驚嘆號和粉紅筆把 des 畫掉，就是在強調這個錯誤。中文使用者很容易寫成 des，因為直覺想加冠詞。",
+        "items": [
+          {
+            "fr": "Beaucoup de livres.",
+            "zh": "✓ 正確說法：很多書。"
+          },
+          {
+            "fr": "Beaucoup des livres.",
+            "zh": "✗ 課本明確標 Ne dites pas（不要這樣說）。"
+          },
+          {
+            "fr": "un peu de sucre",
+            "zh": "✓ 正確｜✗ un peu du sucre"
+          },
+          {
+            "fr": "assez de temps",
+            "zh": "✓ 足夠的時間｜✗ assez du temps"
+          },
+          {
+            "fr": "trop de travail",
+            "zh": "✓ 太多工作｜✗ trop du travail"
+          },
+          {
+            "fr": "un kilo de tomates",
+            "zh": "✓ 一公斤番茄｜✗ un kilo des tomates"
+          }
+        ]
+      },
+      {
+        "heading": "⑧ de 遇到母音要縮寫成 d'",
+        "note": "★ 跟 je → j'、le → l' 一樣的道理。這個細節常常被忘記。",
+        "items": [
+          {
+            "fr": "un verre d'eau",
+            "zh": "一杯水（de + eau）"
+          },
+          {
+            "fr": "beaucoup d'amis",
+            "zh": "很多朋友（de + amis）"
+          },
+          {
+            "fr": "un peu d'argent",
+            "zh": "一點錢（de + argent）"
+          },
+          {
+            "fr": "pas d'argent",
+            "zh": "沒有錢"
+          },
+          {
+            "fr": "une bouteille d'huile",
+            "zh": "一瓶油"
+          },
+          {
+            "fr": "assez d'eau",
+            "zh": "足夠的水"
+          },
+          {
+            "fr": "pas d'ordonnance",
+            "zh": "沒有處方箋"
+          },
+          {
+            "fr": "beaucoup de choses",
+            "zh": "很多事情（★ choses 是子音開頭，所以不縮寫）"
+          }
+        ]
+      },
+      {
+        "heading": "⑨ 三種說法一次對照 — 同一個名詞怎麼變",
+        "note": "用「糖」當例子，把三種情況並排看一次，考試就是在考這個轉換。",
+        "items": [
+          {
+            "fr": "du sucre",
+            "zh": "【不確定的量】糖（泛指，不知道多少）"
+          },
+          {
+            "fr": "un kilo de sucre",
+            "zh": "【計量】一公斤糖"
+          },
+          {
+            "fr": "beaucoup de sucre",
+            "zh": "【程度副詞】很多糖"
+          },
+          {
+            "fr": "pas de sucre",
+            "zh": "【零】沒有糖"
+          },
+          {
+            "fr": "de l'eau → un verre d'eau → beaucoup d'eau → pas d'eau",
+            "zh": "水的四種說法完整對照"
+          },
+          {
+            "fr": "des pommes → un kilo de pommes → beaucoup de pommes → pas de pommes",
+            "zh": "蘋果的四種說法完整對照"
+          }
+        ]
+      },
+      {
+        "heading": "⑩ ★ 一個重要例外：être 後面不變",
+        "note": "★ 進階但常考：如果動詞是 être，否定句裡的部分冠詞「不」變成 de，因為那是在說「這不是某某東西」，不是在講量。",
+        "items": [
+          {
+            "fr": "Ce n'est pas du sucre.",
+            "zh": "✓ 這不是糖。（être 後面保持 du，因為在否定「是什麼」而不是「有多少」）"
+          },
+          {
+            "fr": "Ce n'est pas de l'eau, c'est du vin.",
+            "zh": "這不是水，是酒。"
+          },
+          {
+            "fr": "Je ne mange pas de sucre.",
+            "zh": "我不吃糖。（★ manger 是一般動詞 → 變成 de）"
+          },
+          {
+            "fr": "★ 判斷方法：動詞是不是 être",
+            "zh": "是 être → 冠詞不變；其他動詞 → 變成 de。"
+          }
+        ]
+      },
+      {
+        "heading": "⑪ 買東西、點餐實戰句",
+        "note": "把這一課的規則放進日常場景，市場和餐廳最常用到。",
+        "items": [
+          {
+            "fr": "Je voudrais un kilo de tomates, s'il vous plaît.",
+            "zh": "我想要一公斤番茄，麻煩您。"
+          },
+          {
+            "fr": "Une livre de carottes et six œufs.",
+            "zh": "半公斤紅蘿蔔和六顆蛋。"
+          },
+          {
+            "fr": "Une bouteille d'eau, s'il vous plaît.",
+            "zh": "請給我一瓶水。"
+          },
+          {
+            "fr": "Une carafe d'eau, s'il vous plaît.",
+            "zh": "請給我一壺水。（免費的自來水）"
+          },
+          {
+            "fr": "Est-ce que je pourrais avoir un peu de pain ?",
+            "zh": "可以給我一點麵包嗎？"
+          },
+          {
+            "fr": "Il n'y a plus de place.",
+            "zh": "沒有位子了。"
+          },
+          {
+            "fr": "Vous avez beaucoup de choix.",
+            "zh": "你們選擇很多。"
+          },
+          {
+            "fr": "Je ne prends pas de dessert, merci.",
+            "zh": "我不點甜點，謝謝。"
+          }
+        ]
+      },
+      {
+        "heading": "⑫ ★ 老師紅字補充：pas de 和 plus de 是從哪來的",
+        "note": "★ 老師用紅筆標出來的重點：這兩個量詞其實就是「否定句」。pas de 來自 ne… pas（沒有），plus de 來自 ne… plus（不再有）。搞懂來源就不會忘記為什麼要變成 de。",
+        "items": [
+          {
+            "fr": "ne... pas",
+            "zh": "【否定一】不、沒有 → 對應量詞的 pas de"
+          },
+          {
+            "fr": "ne... plus",
+            "zh": "【否定二】不再、沒有了 → 對應量詞的 plus de（★ 這裡的 plus 字尾 s 不發音）"
+          },
+          {
+            "fr": "ne... jamais",
+            "zh": "【否定三】從不 → 對應量詞的 jamais de"
+          },
+          {
+            "fr": "Je ne mange pas de sucre.",
+            "zh": "我不吃糖。（ne… pas → pas de）"
+          },
+          {
+            "fr": "Je ne mange plus de sucre.",
+            "zh": "我不再吃糖了。（ne… plus → plus de）"
+          },
+          {
+            "fr": "Je ne mange jamais de sucre.",
+            "zh": "我從不吃糖。（ne… jamais → jamais de）"
+          },
+          {
+            "fr": "Il n'y a plus de sucre.",
+            "zh": "沒有糖了。"
+          },
+          {
+            "fr": "★ 口語常常省略 ne",
+            "zh": "J'ai pas de sucre.（口語）＝ Je n'ai pas de sucre.（標準）。但 pas 不能省略。"
+          }
+        ]
+      },
+      {
+        "heading": "⑬ ★ 老師紅字的關鍵句：Il n'y en a plus",
+        "note": "★ 這句老師用紅筆大大寫在最上面。en 是個小代名詞，用來代替前面講過的「de ＋ 名詞」，避免整個名詞再講一次。",
+        "items": [
+          {
+            "fr": "Il n'y en a plus.",
+            "zh": "★ 沒有了。（買東西、找東西時超常聽到的一句）"
+          },
+          {
+            "fr": "Il y a du sucre ?",
+            "zh": "有糖嗎？"
+          },
+          {
+            "fr": "Non, il n'y en a plus.",
+            "zh": "沒有了。（en 代替 du sucre，不用再說一次）"
+          },
+          {
+            "fr": "Tu veux du café ?",
+            "zh": "你要咖啡嗎？"
+          },
+          {
+            "fr": "Oui, j'en veux bien.",
+            "zh": "好啊，我要。（en ＝ du café）"
+          },
+          {
+            "fr": "Non merci, je n'en veux pas.",
+            "zh": "不用了謝謝，我不要。"
+          },
+          {
+            "fr": "Tu as des frères ?",
+            "zh": "你有兄弟嗎？"
+          },
+          {
+            "fr": "Oui, j'en ai deux.",
+            "zh": "有，我有兩個。（★ en 代替 des frères，數字留在句尾）"
+          },
+          {
+            "fr": "★ en 放在動詞前面",
+            "zh": "跟反身代名詞一樣，en 永遠在動詞前面：j'en veux、il n'y en a plus。"
+          }
+        ]
+      },
+      {
+        "heading": "⑭ ★★ 課本總結表：問 Quoi 還是問 Combien？",
+        "note": "★ 課本最後的 résumé（總結），這是整課最好用的判斷法 —— 不用背規則，只要問自己一個問題。",
+        "items": [
+          {
+            "fr": "Quantité non exprimée → Quoi ?",
+            "zh": "【量沒講明】問句是「什麼？」→ 回答用 du / de la / des"
+          },
+          {
+            "fr": "Qu'est-ce que tu manges ? — Du pain.",
+            "zh": "你在吃什麼？—— 麵包。（回答「什麼」→ du）"
+          },
+          {
+            "fr": "Qu'est-ce que tu bois ? — De l'eau.",
+            "zh": "你在喝什麼？—— 水。"
+          },
+          {
+            "fr": "Qu'est-ce que tu achètes ? — Des pommes.",
+            "zh": "你在買什麼？—— 蘋果。"
+          },
+          {
+            "fr": "Quantité exprimée → Combien ?",
+            "zh": "【量講明了】問句是「多少？」→ 回答一律用 de"
+          },
+          {
+            "fr": "Tu achètes combien de pain ? — Un kilo de pain.",
+            "zh": "你買多少麵包？—— 一公斤麵包。"
+          },
+          {
+            "fr": "Tu as combien de livres ? — Beaucoup de livres.",
+            "zh": "你有多少書？—— 很多書。"
+          },
+          {
+            "fr": "Tu as combien de sucre ? — Pas de sucre.",
+            "zh": "你有多少糖？—— 沒有糖。"
+          },
+          {
+            "fr": "Quoi ? du, de la, des. Combien ? de.",
+            "zh": "★ 一句話記住整課：問 Quoi ?（什麼）用 du / de la / des；問 Combien ?（多少）一律用 de。"
+          }
+        ]
+      },
+      {
+        "heading": "⑮ 課本標的第二個錯誤：Pas du sel",
+        "note": "★ 課本除了 Beaucoup des livres 以外，還畫掉了另一個：Pas du sel。兩個是同一條規則的不同情況。",
+        "items": [
+          {
+            "fr": "Beaucoup de livres.",
+            "zh": "✓ 很多書｜✗ Beaucoup des livres."
+          },
+          {
+            "fr": "Pas de sel.",
+            "zh": "✓ 沒有鹽｜✗ Pas du sel.（★ 課本把 du 畫掉）"
+          },
+          {
+            "fr": "le sel",
+            "zh": "鹽（陽性，所以不確定量時是 du sel）"
+          },
+          {
+            "fr": "Je voudrais du sel.",
+            "zh": "我想要一些鹽。（沒講明量 → du）"
+          },
+          {
+            "fr": "Il n'y a pas de sel.",
+            "zh": "沒有鹽。（零的量 → de）"
+          },
+          {
+            "fr": "du sel, pas de sel",
+            "zh": "★ 同一個名詞兩種寫法：du sel（有鹽）↔ pas de sel（沒鹽）。有量詞就變 de，沒有例外。"
+          }
+        ]
+      },
+      {
+        "heading": "⑯ 容器量詞大全 — 液體與飲料",
+        "note": "★ 課本圖片頁的第一組。公式一樣：容器 ＋ de ＋ 內容物。買東西、點餐天天用得到。",
+        "items": [
+          {
+            "fr": "une bouteille d'huile",
+            "zh": "一瓶油（la bouteille ＝ 瓶子）"
+          },
+          {
+            "fr": "un litre d'huile",
+            "zh": "一公升油（le litre ＝ 公升）"
+          },
+          {
+            "fr": "un verre de vin",
+            "zh": "一杯酒（le verre ＝ 玻璃杯，沒有把手）"
+          },
+          {
+            "fr": "une tasse de café",
+            "zh": "一杯咖啡（la tasse ＝ 有把手的杯子）"
+          },
+          {
+            "fr": "une canette de Coca",
+            "zh": "一罐可樂（la canette ＝ 鋁罐）"
+          },
+          {
+            "fr": "une bouteille d'eau",
+            "zh": "一瓶水"
+          },
+          {
+            "fr": "une carafe d'eau",
+            "zh": "一壺水（餐廳免費的自來水）"
+          },
+          {
+            "fr": "un demi-litre de lait",
+            "zh": "半公升牛奶"
+          }
+        ]
+      },
+      {
+        "heading": "⑰ 容器量詞大全 — 包裝與盒裝",
+        "note": "★ 課本圖片頁的第二組。這幾個中文都叫「一盒、一包」，但法文分得很細，老師在旁邊特別註明怎麼分。",
+        "items": [
+          {
+            "fr": "une boîte de pâtes",
+            "zh": "一盒義大利麵（la boîte ＝ 硬的盒子或罐頭）"
+          },
+          {
+            "fr": "une boîte de thon",
+            "zh": "一罐鮪魚（le thon ＝ 鮪魚）"
+          },
+          {
+            "fr": "un paquet de café",
+            "zh": "一包咖啡（le paquet ＝ 軟的袋裝）"
+          },
+          {
+            "fr": "un pot de moutarde",
+            "zh": "一罐芥末醬（le pot ＝ 玻璃罐，轉開的）"
+          },
+          {
+            "fr": "une plaquette de beurre",
+            "zh": "一塊奶油（la plaquette ＝ 長條塊狀包裝）"
+          },
+          {
+            "fr": "une barquette de fraises",
+            "zh": "一盒草莓（la barquette ＝ 淺的塑膠盒）"
+          },
+          {
+            "fr": "un bouquet de fleurs",
+            "zh": "一束花（le bouquet ＝ 花束）"
+          },
+          {
+            "fr": "un kilo de pâtes",
+            "zh": "一公斤義大利麵"
+          },
+          {
+            "fr": "les pâtes",
+            "zh": "義大利麵（永遠用複數；la pâte 單數是「麵糰」）"
+          }
+        ]
+      },
+      {
+        "heading": "⑱ ★ 老師的區分筆記：boîte / paquet / pot 怎麼選",
+        "note": "★ 老師在課本旁邊手寫的判斷方法，用「包裝硬不硬、怎麼打開」來分。這是課本沒寫但很實用的訣竅。",
+        "items": [
+          {
+            "fr": "une boîte",
+            "zh": "【硬的、壓不扁】罐頭、紙盒 —— 老師註記「無法壓扁」"
+          },
+          {
+            "fr": "un paquet",
+            "zh": "【軟的、可壓扁】袋裝、軟包裝 —— 老師註記「可壓扁」"
+          },
+          {
+            "fr": "un pot",
+            "zh": "【要轉開的】玻璃罐、優格杯 —— 老師註記「轉²打開」"
+          },
+          {
+            "fr": "solide",
+            "zh": "硬的、固體的（老師寫的對比字）"
+          },
+          {
+            "fr": "mou / molle",
+            "zh": "軟的（陽性 mou／陰性 molle）"
+          },
+          {
+            "fr": "une boîte de thon",
+            "zh": "鮪魚罐頭壓不扁 → boîte"
+          },
+          {
+            "fr": "un paquet de café",
+            "zh": "咖啡袋可以壓扁 → paquet"
+          },
+          {
+            "fr": "un pot de moutarde",
+            "zh": "芥末罐要轉開 → pot"
+          },
+          {
+            "fr": "un pot de yaourt",
+            "zh": "一杯優格（也是轉開或撕開的）"
+          }
+        ]
+      },
+      {
+        "heading": "⑲ 數量單位：打、半打、方塊",
+        "note": "★ 課本圖片頁最後一組，加上老師用粉紅筆補的 demi-douzaine。買蛋和奶油最常用。",
+        "items": [
+          {
+            "fr": "une douzaine d'œufs",
+            "zh": "一打蛋（★ 12 顆。老師註記「一打」）"
+          },
+          {
+            "fr": "une demi-douzaine d'œufs",
+            "zh": "半打蛋（★ 6 顆。老師用粉紅筆補充的）"
+          },
+          {
+            "fr": "une douzaine",
+            "zh": "一打（12）"
+          },
+          {
+            "fr": "un carré de beurre",
+            "zh": "一塊方形奶油（老師在 plaquette 旁邊註的 un carré ＝ 方格）"
+          },
+          {
+            "fr": "une plaquette de beurre",
+            "zh": "一條奶油（通常 250 公克，可以切成好幾個 carré）"
+          },
+          {
+            "fr": "un morceau de sucre",
+            "zh": "一塊方糖"
+          },
+          {
+            "fr": "trois morceaux de sucre",
+            "zh": "三塊方糖（morceau 複數是 morceaux）"
+          },
+          {
+            "fr": "une tranche de jambon",
+            "zh": "一片火腿"
+          },
+          {
+            "fr": "★ -ette 結尾是陰性",
+            "zh": "老師在課本上標的：barquette、plaquette、canette 都是 -ette 結尾，全部陰性。"
+          }
+        ]
+      },
+      {
+        "heading": "⑳ 在市場和超市實際用用看",
+        "note": "把容器量詞放進句子，這些就是在法國買東西會講的話。",
+        "items": [
+          {
+            "fr": "Je voudrais une bouteille d'huile, s'il vous plaît.",
+            "zh": "我想要一瓶油，麻煩您。"
+          },
+          {
+            "fr": "Une douzaine d'œufs, s'il vous plaît.",
+            "zh": "請給我一打蛋。"
+          },
+          {
+            "fr": "Je prends un paquet de café et une boîte de thon.",
+            "zh": "我要一包咖啡和一罐鮪魚。"
+          },
+          {
+            "fr": "Vous avez des barquettes de fraises ?",
+            "zh": "你們有盒裝草莓嗎？"
+          },
+          {
+            "fr": "Un pot de moutarde, c'est combien ?",
+            "zh": "一罐芥末多少錢？"
+          },
+          {
+            "fr": "Je voudrais une plaquette de beurre.",
+            "zh": "我想要一塊奶油。"
+          },
+          {
+            "fr": "Il n'y en a plus ?",
+            "zh": "沒有了嗎？"
+          },
+          {
+            "fr": "Non, il n'y en a plus, désolé.",
+            "zh": "沒有了，抱歉。"
+          },
+          {
+            "fr": "Vous en voulez combien ?",
+            "zh": "您要多少？"
+          },
+          {
+            "fr": "J'en veux deux, merci.",
+            "zh": "我要兩個，謝謝。"
+          }
+        ]
+      },
+      {
+        "heading": "㉑ ★ tranche vs morceau — 老師標的「片」和「塊」",
+        "note": "★ 課本這兩張麵包圖是故意並排的：同樣是麵包，切成整齊的片用 tranche，撕下不規則的一塊用 morceau。老師在旁邊分別註了「片」和「撕一塊麵包／不規則形」。",
+        "items": [
+          {
+            "fr": "une tranche de pain",
+            "zh": "一片麵包（★ 刀切的，形狀整齊 —— 老師註「片」）"
+          },
+          {
+            "fr": "des tranches de pain",
+            "zh": "幾片麵包"
+          },
+          {
+            "fr": "trois tranches de pain",
+            "zh": "三片麵包"
+          },
+          {
+            "fr": "un morceau de pain",
+            "zh": "一塊麵包（★ 撕下來的，形狀不規則 —— 老師註「撕一塊麵包／不規則形」）"
+          },
+          {
+            "fr": "deux morceaux de pain",
+            "zh": "兩塊麵包（★ morceau 的複數是 morceaux，加 x 不是 s）"
+          },
+          {
+            "fr": "une tranche de jambon",
+            "zh": "一片火腿"
+          },
+          {
+            "fr": "une tranche de gâteau",
+            "zh": "一片蛋糕"
+          },
+          {
+            "fr": "un morceau de sucre",
+            "zh": "一塊方糖"
+          },
+          {
+            "fr": "un morceau de fromage",
+            "zh": "一塊起司"
+          },
+          {
+            "fr": "couper en tranches",
+            "zh": "切成片（★ 判斷方法：刀切整齊 → tranche；撕開掰開 → morceau）"
+          }
+        ]
+      },
+      {
+        "heading": "㉒ 容器量詞補充 — 巧克力、牙膏",
+        "note": "★ 課本圖片頁的最後一組，加上老師在 plaquette 旁邊註的 carré（方格）。",
+        "items": [
+          {
+            "fr": "une tablette de chocolat",
+            "zh": "一片（一板）巧克力（la tablette ＝ 整片的板狀巧克力）"
+          },
+          {
+            "fr": "un carré de chocolat",
+            "zh": "一格巧克力（★ le carré ＝ 方格，剝下來的那一小格）"
+          },
+          {
+            "fr": "un tube de dentifrice",
+            "zh": "一條牙膏（le tube ＝ 軟管）"
+          },
+          {
+            "fr": "le dentifrice",
+            "zh": "牙膏（★ 跟 les dents 牙齒同一個字根）"
+          },
+          {
+            "fr": "un tube de crème",
+            "zh": "一條乳霜"
+          },
+          {
+            "fr": "une plaquette de beurre",
+            "zh": "一塊奶油（長條塊狀）"
+          },
+          {
+            "fr": "une tablette, une plaquette",
+            "zh": "★ 兩個都是板狀：tablette 用在巧克力，plaquette 用在奶油，都是 -ette 結尾所以陰性。"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★★ 核心規則：只要句子裡出現「量」，前面的 du / de la / de l' / des 全部變成一個 de。",
+      "觸發這條規則的三種情況：① 計量單位（un kilo de）② 程度副詞（beaucoup de）③ 量是零（pas de）。",
+      "部分冠詞怎麼選：du（陽）／de la（陰）／de l'（母音開頭）／des（複數），講「不確定的量」時用。",
+      "★ 課本特別標的錯誤：✓ Beaucoup de livres｜✗ Beaucoup des livres。",
+      "計量單位公式：量詞 ＋ de ＋ 名詞，中間不加冠詞：un verre d'eau、trois morceaux de sucre。",
+      "否定句的三個零量詞：pas de（沒有）、plus de（不再有）、jamais de（從不）。",
+      "de 遇到母音或啞音 h 要縮寫成 d'：beaucoup d'amis、pas d'argent、un verre d'eau。",
+      "★ 例外：動詞是 être 時冠詞不變 —— Ce n'est pas du sucre.（這不是糖）。",
+      "une livre（半公斤）≠ un livre（一本書），只差一個冠詞但意思完全不同。",
+      "peu de（幾乎沒有，偏否定）≠ un peu de（一點點，偏肯定），差一個 un 語氣就相反。",
+      "★ 老師紅字：pas de 來自 ne… pas、plus de 來自 ne… plus、jamais de 來自 ne… jamais —— 量詞的本質就是否定句。",
+      "★ 老師紅字關鍵句 Il n'y en a plus.（沒有了）—— en 代替「de ＋ 名詞」，永遠放在動詞前面。",
+      "★★ 課本總結表：問 Quoi ?（什麼）→ 用 du / de la / des；問 Combien ?（多少）→ 一律用 de。",
+      "課本畫掉的兩個錯誤：✗ Beaucoup des livres ／ ✗ Pas du sel。",
+      "★ 老師的容器區分法：boîte（硬的、壓不扁）／paquet（軟的、可壓扁）／pot（要轉開的）。solide ≠ mou/molle。",
+      "une douzaine ＝ 一打（12）；une demi-douzaine ＝ 半打（6）。",
+      "-ette 結尾一律陰性：une barquette、une plaquette、une canette。",
+      "les pâtes（義大利麵）永遠複數；單數 la pâte 是「麵糰」。",
+      "★ 老師標的對比：une tranche（刀切整齊的「片」）vs un morceau（撕開不規則的「塊」）。",
+      "morceau 的複數是 morceaux（加 x），不是 morceaus。",
+      "巧克力有兩層單位：une tablette（一整板）→ un carré（剝下來的一格）。"
+    ],
+    "drill": [
+      {
+        "fr": "de l'eau",
+        "zh": "水（不確定的量）"
+      },
+      {
+        "fr": "un verre d'eau",
+        "zh": "一杯水"
+      },
+      {
+        "fr": "de la farine",
+        "zh": "麵粉"
+      },
+      {
+        "fr": "un kilo de farine",
+        "zh": "一公斤麵粉"
+      },
+      {
+        "fr": "du soleil",
+        "zh": "陽光"
+      },
+      {
+        "fr": "pas de soleil",
+        "zh": "沒有陽光"
+      },
+      {
+        "fr": "beaucoup de livres",
+        "zh": "很多書"
+      },
+      {
+        "fr": "un peu de sucre",
+        "zh": "一點點糖"
+      },
+      {
+        "fr": "assez de temps",
+        "zh": "足夠的時間"
+      },
+      {
+        "fr": "Je ne mange pas de viande.",
+        "zh": "我不吃肉。"
+      },
+      {
+        "fr": "Il n'y a plus de pain.",
+        "zh": "沒有麵包了。"
+      },
+      {
+        "fr": "J'ai beaucoup d'amis.",
+        "zh": "我有很多朋友。"
+      },
+      {
+        "fr": "Je voudrais un kilo de tomates.",
+        "zh": "我想要一公斤番茄。"
+      },
+      {
+        "fr": "Ce n'est pas du sucre.",
+        "zh": "這不是糖。（être 的例外）"
+      },
+      {
+        "fr": "Il n'y en a plus.",
+        "zh": "沒有了。（老師紅字的關鍵句）"
+      },
+      {
+        "fr": "Je n'en veux pas.",
+        "zh": "我不要。（en 代替前面講過的東西）"
+      },
+      {
+        "fr": "J'en ai deux.",
+        "zh": "我有兩個。"
+      },
+      {
+        "fr": "Pas de sel.",
+        "zh": "沒有鹽。（✗ 不是 Pas du sel）"
+      },
+      {
+        "fr": "une bouteille d'huile",
+        "zh": "一瓶油"
+      },
+      {
+        "fr": "une tasse de café",
+        "zh": "一杯咖啡（有把手的杯子）"
+      },
+      {
+        "fr": "un paquet de café",
+        "zh": "一包咖啡（軟包裝）"
+      },
+      {
+        "fr": "une boîte de thon",
+        "zh": "一罐鮪魚（硬罐頭）"
+      },
+      {
+        "fr": "un pot de moutarde",
+        "zh": "一罐芥末醬（轉開的）"
+      },
+      {
+        "fr": "une douzaine d'œufs",
+        "zh": "一打蛋（12 顆）"
+      },
+      {
+        "fr": "une plaquette de beurre",
+        "zh": "一塊奶油"
+      },
+      {
+        "fr": "une barquette de fraises",
+        "zh": "一盒草莓"
+      },
+      {
+        "fr": "une tranche de pain",
+        "zh": "一片麵包（刀切的）"
+      },
+      {
+        "fr": "un morceau de pain",
+        "zh": "一塊麵包（撕下來的）"
+      },
+      {
+        "fr": "trois tranches de pain",
+        "zh": "三片麵包"
+      },
+      {
+        "fr": "une tablette de chocolat",
+        "zh": "一片（一板）巧克力"
+      },
+      {
+        "fr": "un tube de dentifrice",
+        "zh": "一條牙膏"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "這一課的核心規則是什麼？",
+        "options": [
+          "只要有「量」，du/de la/des 全部變成 de",
+          "所有名詞前面都要加 de",
+          "部分冠詞不能用在否定句"
+        ],
+        "answer": 0,
+        "why": "★ 課本原文：« DE » remplace « du », « de la », « des »。三種情況會觸發：計量、程度副詞、零。"
+      },
+      {
+        "q": "「很多書」正確的說法是？",
+        "options": [
+          "beaucoup de livres",
+          "beaucoup des livres",
+          "beaucoup les livres"
+        ],
+        "answer": 0,
+        "why": "★ 課本用粉紅筆把 des 畫掉特別強調：Ne dites pas « Beaucoup des livres »。"
+      },
+      {
+        "q": "「一杯水」怎麼說？",
+        "options": [
+          "un verre d'eau",
+          "un verre de l'eau",
+          "un verre eau"
+        ],
+        "answer": 0,
+        "why": "量詞 + de + 名詞，中間不加冠詞；de 遇到母音 eau 要縮寫成 d'。"
+      },
+      {
+        "q": "「我不吃肉」怎麼說？",
+        "options": [
+          "Je ne mange pas de viande.",
+          "Je ne mange pas de la viande.",
+          "Je ne mange pas la viande."
+        ],
+        "answer": 0,
+        "why": "否定句是「零的量」，所以 de la 變成 de。"
+      },
+      {
+        "q": "★ 課本總結表：問「Combien ?」時回答要用哪個？",
+        "options": [
+          "一律用 de（un kilo de、beaucoup de、pas de）",
+          "用 du / de la / des",
+          "看名詞陰陽性"
+        ],
+        "answer": 0,
+        "why": "★ 問 Quoi ?（什麼）→ du/de la/des；問 Combien ?（多少）→ 一律 de。這是整課最好用的判斷法。"
+      },
+      {
+        "q": "老師說 pas de 和 plus de 其實是從哪來的？",
+        "options": [
+          "ne… pas 和 ne… plus 兩種否定句",
+          "兩個不同的介係詞",
+          "拉丁文的遺留"
+        ],
+        "answer": 0,
+        "why": "★ 老師用紅筆標的重點：量詞的「零」就是否定句，所以冠詞要變成 de。"
+      },
+      {
+        "q": "「我有很多朋友」正確寫法是？",
+        "options": [
+          "J'ai beaucoup d'amis.",
+          "J'ai beaucoup des amis.",
+          "J'ai beaucoup de amis."
+        ],
+        "answer": 0,
+        "why": "beaucoup de + 名詞；amis 是母音開頭所以縮寫成 d'。"
+      },
+      {
+        "q": "Ce n'est pas du sucre 為什麼沒變成 de ?",
+        "options": [
+          "因為動詞是 être，是在否定「是什麼」不是量",
+          "因為 sucre 是陽性",
+          "因為這是口語"
+        ],
+        "answer": 0,
+        "why": "★ 重要例外：être 後面的部分冠詞在否定句裡不變。其他動詞才要變 de。"
+      },
+      {
+        "q": "「沒有了」最道地的說法是？",
+        "options": [
+          "Il n'y en a plus.",
+          "Il n'y a plus.",
+          "Il n'en y a plus."
+        ],
+        "answer": 0,
+        "why": "★ 老師紅字的關鍵句。en 代替前面提過的「de + 名詞」，放在動詞前面。"
+      },
+      {
+        "q": "老師標的 tranche 和 morceau 差在哪？",
+        "options": [
+          "tranche 是刀切整齊的「片」，morceau 是撕開不規則的「塊」",
+          "完全一樣",
+          "tranche 比較大"
+        ],
+        "answer": 0,
+        "why": "★ 課本兩張麵包圖就是在對比這個：une tranche de pain（片）vs un morceau de pain（塊，老師註「不規則形」）。"
+      }
+    ]
   }
 ]
