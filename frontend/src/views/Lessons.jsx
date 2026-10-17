@@ -7,7 +7,7 @@ import {
   PlayAllButton,
   SearchField,
   Segmented,
-  SpeakableItems,
+  StudyItems,
   SpeakButton,
 } from '../ui'
 import { speakFrench } from '../speech'
@@ -190,20 +190,7 @@ function LessonDrill({ lesson }) {
         </div>
         <PlayAllButton lines={lines} className="btn btn-sm" />
       </div>
-      <ol className="drill-list">
-        {lesson.drill.map((d, i) => (
-          <li key={i}>
-            <button type="button" className="drill-row" onClick={() => speakFrench(d.fr)}>
-              <span className="drill-n">{i + 1}</span>
-              <span className="drill-text">
-                <span className="drill-fr">{d.fr}</span>
-                <span className="drill-zh">{d.zh}</span>
-              </span>
-              <SpeakButton text={d.fr} label={`唸「${d.fr}」`} />
-            </button>
-          </li>
-        ))}
-      </ol>
+      <StudyItems items={lesson.drill} numbered force="lines" />
     </div>
   )
 }
@@ -316,7 +303,7 @@ export default function LessonsView({ route }) {
               <div key={i} className="conj-block">
                 <h3 className="conj-title">{sec.heading}</h3>
                 {sec.note && <p className="muted">{sec.note}</p>}
-                <SpeakableItems items={sec.items} />
+                <StudyItems items={sec.items} />
               </div>
             ))}
 

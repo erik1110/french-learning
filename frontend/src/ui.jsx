@@ -1,7 +1,8 @@
 // Shared presentation pieces used by more than one view.
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { speakFrench, speakFrenchSequence, stopSpeaking, subscribeSpeaking } from './speech'
+import { genderOf, hintsFor, isSentence } from './pronunciation'
 import { getCardState, masteryOf } from './srs'
 
 /* ------------------------------ speech helpers ---------------------------- */
@@ -459,6 +460,123 @@ export function SpeakableItems({ items }) {
   )
 }
 
+/* ------------------------------ study lines ------------------------------- */
+
+/**
+ * One line of study material, laid out full width so a whole sentence stays on
+ * one row and stays readable.
+ *
+ * Everything extra — pronunciation hints, gender, copy — lives behind hover (or
+ * a tap on touch screens) so the default view is just French + Chinese and a
+ * beginner isn't drowning in badges.
+ */
+export function StudyLine({ fr, zh, n }) {
+  const [open, setOpen] = useState(false)
+  const speech = frenchFromLine(fr)
+  const speakable = hasFrench(speech)
+  const hints = useMemo(() => (speakable ? hintsFor(speech) : []), [speech, speakable])
+  const gender = useMemo(() => (speakable ? genderOf(speech) : null), [speech, speakable])
+  const hasExtra = hints.length > 0 || gender
+
+  return (
+    <li className={open ? 'sline open' : 'sline'} onMouseLeave={() => setOpen(false)}>
+      <div className="sline-main">
+        {n != null && <span className="sline-n">{n}</span>}
+
+        {speakable ? (
+          <button
+            type="button"
+            className="sline-play"
+            title="點這裡唸出來"
+            aria-label={`唸「${speech}」`}
+            onClick={() => speakFrench(speech)}
+          >
+            🔊
+          </button>
+        ) : (
+          <span className="sline-play ghost" aria-hidden="true">
+            💡
+          </span>
+        )}
+
+        <div className="sline-text">
+          <p className="sline-fr">{fr}</p>
+          <p className="sline-zh">{zh}</p>
+        </div>
+
+        <div className="sline-tools">
+          {gender && (
+            <span className={`g-badge ${gender.key}`} title={gender.hint}>
+              {gender.label}
+            </span>
+          )}
+          {hasExtra && (
+            <button
+              type="button"
+              className={open ? 'sline-more on' : 'sline-more'}
+              aria-expanded={open}
+              title="看發音提示"
+              onClick={() => setOpen((o) => !o)}
+            >
+              ㄅ
+            </button>
+          )}
+          {speakable && <CopyButton text={speech} label={`複製「${speech}」`} className="sline-copy" />}
+        </div>
+      </div>
+
+      {open && hasExtra && (
+        <div className="sline-extra">
+          {hints.length > 0 && (
+            <ul className="zy-list">
+              {hints.map((h, i) => (
+                <li key={i}>
+                  <button type="button" className="zy-word" onClick={() => speakFrench(h.word)}>
+                    {h.word}
+                  </button>
+                  <span className="zy-say">{h.zy}</span>
+                  {h.tip && <span className="zy-tip">{h.tip}</span>}
+                </li>
+              ))}
+            </ul>
+          )}
+          {gender && <p className="g-note">{gender.label}：{gender.hint}</p>}
+        </div>
+      )}
+    </li>
+  )
+}
+
+/**
+ * A block of study items.
+ *
+ * One line per item is the default — a sentence you can actually read beats a
+ * cramped two-column card. The grid is reserved for what it's good at: a long
+ * list of bare vocabulary you want to scan all at once.
+ */
+export function StudyItems({ items, numbered = false, force }) {
+  const plainWords = items.filter((it) => !isSentence(it.fr)).length
+  const isVocabList = items.length >= 6 && plainWords >= items.length * 0.8
+  const mode = force ?? (isVocabList ? 'grid' : 'lines')
+
+  if (mode === 'grid') {
+    return (
+      <div className="term-grid">
+        {items.map((it, i) => (
+          <Term key={i} fr={it.fr} zh={it.zh} />
+        ))}
+      </div>
+    )
+  }
+  return (
+    <ol className="sline-list">
+      {items.map((it, i) => (
+        <StudyLine key={i} fr={it.fr} zh={it.zh} n={numbered ? i + 1 : null} />
+      ))}
+    </ol>
+  )
+}
+
 /** Same look, but nouns carry their article + gender badge. */
 export function VocabItems({ cards }) {
   return (
@@ -551,15 +669,11 @@ export function GrammarBody({ grammar }) {
       <GrammarContent text={grammar.content} />
       {grammar.examples?.length > 0 && (
         <div className="examples">
-          <h4 className="examples-title">🔊 例句發音</h4>
-          {grammar.examples.map((ex, i) => (
-            <div key={i} className="example-line">
-              <SpeakButton text={ex.fr} />
-              <CopyButton text={ex.fr} label={`複製「${ex.fr}」`} />
-              <span className="example-fr">{ex.fr}</span>
-              <span className="example-zh">{ex.zh}</span>
-            </div>
-          ))}
+          <div className="examples-head">
+            <h4 className="examples-title">🔊 例句練習</h4>
+            <PlayAllButton lines={grammar.examples.map((ex) => ex.fr)} className="btn btn-sm" />
+          </div>
+          <StudyItems items={grammar.examples} numbered force="lines" />
         </div>
       )}
     </div>
