@@ -473,32 +473,78 @@ export function SpeakableItems({ items }) {
  * out of sync while the page scrolls.
  */
 function Word({ raw }) {
-  const [open, setOpen] = useState(false)
+  // `pinned` survives the mouse leaving; `hover` doesn't. Clicking pins the
+  // card open so you can move onto it, select text, or hit 🔊 without racing
+  // the pointer.
+  const [hover, setHover] = useState(false)
+  const [pinned, setPinned] = useState(false)
+  // Flip below the word when there isn't room above (first line of a section
+  // would otherwise slide under the sticky top bar).
+  const [below, setBelow] = useState(false)
+  const closeTimer = useRef(null)
+  const ref = useRef(null)
   const entry = useMemo(() => lookup(raw), [raw])
+
+  // A short grace period on the way out: crossing the gap between the word and
+  // the card, or clipping a corner, shouldn't dismiss it.
+  useEffect(() => () => clearTimeout(closeTimer.current), [])
+
+  // Escape always dismisses, so a pinned card can never get stuck.
+  useEffect(() => {
+    if (!pinned) return
+    const onKey = (e) => {
+      if (e.key === 'Escape') {
+        setPinned(false)
+        setHover(false)
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [pinned])
+
+  function enter() {
+    clearTimeout(closeTimer.current)
+    const top = ref.current?.getBoundingClientRect().top ?? 999
+    setBelow(top < 190)
+    setHover(true)
+  }
+  function leave() {
+    clearTimeout(closeTimer.current)
+    closeTimer.current = setTimeout(() => setHover(false), 220)
+  }
+
   if (!entry) return <span>{raw}</span>
 
+  const open = hover || pinned
   const zy = zhuyinFor(entry.word)
 
   return (
     <span
+      ref={ref}
       className={open ? 'w on' : 'w'}
-      onMouseEnter={() => setOpen(true)}
-      onMouseLeave={() => setOpen(false)}
+      onMouseEnter={enter}
+      onMouseLeave={leave}
     >
       <button
         type="button"
-        className="w-hit"
+        className={pinned ? 'w-hit pinned' : 'w-hit'}
         aria-expanded={open}
+        title={pinned ? '點一下收起' : '點一下釘住'}
         onClick={(e) => {
           e.stopPropagation()
-          setOpen((o) => !o)
+          setPinned((p) => !p)
         }}
       >
         {raw}
       </button>
 
       {open && (
-        <span className="w-pop" role="tooltip">
+        <span
+          className={`w-pop${pinned ? ' pinned' : ''}${below ? ' below' : ''}`}
+          role="tooltip"
+          onMouseEnter={enter}
+          onMouseLeave={leave}
+        >
           <span className="w-pop-head">
             <b className="w-pop-word">{entry.word}</b>
             {zy && <span className="w-pop-zy">{zy[0]}</span>}
@@ -513,10 +559,25 @@ function Word({ raw }) {
             >
               🔊
             </button>
+            {pinned && (
+              <button
+                type="button"
+                className="w-pop-close"
+                title="關閉"
+                onClick={(e) => {
+                  e.stopPropagation()
+                  setPinned(false)
+                  setHover(false)
+                }}
+              >
+                ✕
+              </button>
+            )}
           </span>
           <span className="w-pop-pos">{entry.pos}</span>
           {zy?.[1] && <span className="w-pop-tip">發音：{zy[1]}</span>}
           {entry.note && <span className="w-pop-note">{entry.note}</span>}
+          {!pinned && <span className="w-pop-hint">點單字可以釘住這張卡</span>}
         </span>
       )}
     </span>

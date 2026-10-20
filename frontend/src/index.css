@@ -3417,13 +3417,17 @@ kbd {
 .w-pop {
   position: absolute;
   left: 0;
-  bottom: calc(100% + 8px);
+  /* Sits flush against the word and pads itself instead of leaving an 8px gap:
+     a gap belongs to neither element, so crossing it fires mouseleave and the
+     card vanishes right as you reach for it. */
+  bottom: 100%;
   z-index: 40;
   display: flex;
   flex-direction: column;
   gap: 4px;
   width: max-content;
   max-width: 290px;
+  margin-bottom: 0;
   padding: 10px 12px;
   border: 1px solid var(--border-strong);
   border-radius: var(--r-md);
@@ -3432,6 +3436,18 @@ kbd {
   text-align: left;
   cursor: default;
   animation: w-pop-in 0.1s ease-out;
+  /* lift the visible box up, leaving a transparent strip that still counts as
+     part of the popup for hit-testing */
+  transform: translateY(-9px);
+}
+/* the invisible bridge over the strip */
+.w-pop::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -11px;
+  height: 12px;
 }
 @keyframes w-pop-in {
   from { opacity: 0; transform: translateY(3px); }
@@ -3443,6 +3459,7 @@ kbd {
   position: absolute;
   left: 16px;
   bottom: -5px;
+  z-index: 1;
   width: 9px;
   height: 9px;
   transform: rotate(45deg);
@@ -3484,4 +3501,47 @@ kbd {
 @media (max-width: 1100px) {
   .split { grid-template-columns: minmax(0, 1fr); }
   .w-pop { max-width: min(290px, 78vw); }
+}
+
+/* pinned state: stays until you dismiss it */
+.w-hit.pinned {
+  background: var(--brand-soft);
+  border-radius: 3px;
+  border-bottom-style: solid;
+  color: var(--brand);
+}
+.w-pop.pinned { border-color: var(--brand); }
+.w-pop-close {
+  width: 22px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  border: none;
+  border-radius: var(--r-full);
+  background: var(--surface-3);
+  color: var(--muted);
+  font-size: 11px;
+  cursor: pointer;
+}
+.w-pop-close:hover { background: var(--danger-soft); color: var(--danger); }
+.w-pop-hint {
+  margin-top: 2px;
+  font-size: 10px;
+  color: var(--muted);
+  opacity: 0.75;
+}
+
+/* flipped below the word when there's no room above */
+.w-pop.below {
+  bottom: auto;
+  top: 100%;
+  transform: translateY(9px);
+}
+.w-pop.below::before { bottom: auto; top: -11px; }
+.w-pop.below::after {
+  bottom: auto;
+  top: -5px;
+  border: none;
+  border-left: 1px solid var(--border-strong);
+  border-top: 1px solid var(--border-strong);
 }
