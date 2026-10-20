@@ -3355,3 +3355,133 @@ kbd {
   .sline-extra { padding-left: var(--sp-4); }
   .sound-list li { grid-template-columns: 1fr; gap: 2px; }
 }
+
+/* ===================== 可收合的日期選擇 + 更寬的內容區 ===================== */
+
+/* The reading pane gets the space: the date picker is navigation, not content. */
+.split { grid-template-columns: 264px minmax(0, 1fr); }
+.split.solo { grid-template-columns: minmax(0, 1fr); }
+
+.picker-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--r-full);
+  background: var(--surface);
+  color: var(--text-2);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  cursor: pointer;
+}
+.picker-toggle:hover { border-color: var(--brand); color: var(--brand); }
+.picker-toggle.on { background: var(--brand-soft); border-color: var(--brand); color: var(--brand); }
+.picker-toggle:focus-visible { outline: none; box-shadow: var(--ring); }
+.picker-chevron { font-size: 11px; opacity: 0.7; }
+
+.picker-now {
+  font-size: var(--fs-sm);
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (min-width: 1500px) {
+  /* on a wide screen let the text breathe instead of running edge to edge */
+  .split.solo .split-main { max-width: 1180px; }
+}
+
+/* ===================== 單字查詢浮動卡 ===================== */
+
+.w { position: relative; }
+
+.w-hit {
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: help;
+  border-bottom: 1px dotted color-mix(in srgb, var(--brand) 55%, transparent);
+}
+.w-hit:hover,
+.w.on .w-hit {
+  color: var(--brand);
+  border-bottom-color: var(--brand);
+  border-bottom-style: solid;
+}
+.w-hit:focus-visible { outline: none; box-shadow: var(--ring); border-radius: 3px; }
+
+.w-pop {
+  position: absolute;
+  left: 0;
+  bottom: calc(100% + 8px);
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: max-content;
+  max-width: 290px;
+  padding: 10px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--r-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-lg);
+  text-align: left;
+  cursor: default;
+  animation: w-pop-in 0.1s ease-out;
+}
+@keyframes w-pop-in {
+  from { opacity: 0; transform: translateY(3px); }
+  to { opacity: 1; transform: none; }
+}
+/* little arrow pointing back at the word */
+.w-pop::after {
+  content: '';
+  position: absolute;
+  left: 16px;
+  bottom: -5px;
+  width: 9px;
+  height: 9px;
+  transform: rotate(45deg);
+  background: var(--surface);
+  border-right: 1px solid var(--border-strong);
+  border-bottom: 1px solid var(--border-strong);
+}
+
+.w-pop-head { display: flex; align-items: center; gap: 7px; flex-wrap: wrap; }
+.w-pop-word { font-size: var(--fs-md); color: var(--brand); }
+.w-pop-zy {
+  padding: 1px 8px;
+  border-radius: var(--r-full);
+  background: var(--warn-soft);
+  color: var(--warn);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+.w-pop-play {
+  margin-left: auto;
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--border);
+  border-radius: var(--r-full);
+  background: var(--surface-2);
+  font-size: 13px;
+  cursor: pointer;
+}
+.w-pop-play:hover { background: var(--brand-soft); }
+
+.w-pop-pos { font-size: var(--fs-sm); font-weight: 700; color: var(--text); }
+.w-pop-tip,
+.w-pop-note { font-size: var(--fs-xs); color: var(--muted); line-height: 1.7; }
+.w-pop-note { padding-top: 3px; border-top: 1px dashed var(--border); }
+
+@media (max-width: 1100px) {
+  .split { grid-template-columns: minmax(0, 1fr); }
+  .w-pop { max-width: min(290px, 78vw); }
+}

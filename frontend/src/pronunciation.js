@@ -294,6 +294,13 @@ export function hintsFor(text) {
   return out.sort((a, b) => a.at - b.at)
 }
 
+/** 查單一個字的注音，回傳 [注音, 提示] 或 null。 */
+export function zhuyinFor(word) {
+  const w = String(word).toLowerCase().replace(/[.,!?;:«»"()[\]]/g, '').trim()
+  const hit = ZHUYIN[w] ?? ZHUYIN[w.replace(/^[a-zà-ÿ]{1,2}'/, '')]
+  return hit && hit[0] ? hit : null
+}
+
 /** 這個句子有沒有任何字查得到注音。 */
 export function hasHints(text) {
   return hintsFor(text).length > 0

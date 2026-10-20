@@ -2,7 +2,8 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { speakFrench, speakFrenchSequence, stopSpeaking, subscribeSpeaking } from './speech'
-import { genderOf, hintsFor, isSentence } from './pronunciation'
+import { genderOf, hintsFor, isSentence, zhuyinFor } from './pronunciation'
+import { lookup } from './dictionary'
 import { getCardState, masteryOf } from './srs'
 
 /* ------------------------------ speech helpers ---------------------------- */
@@ -460,6 +461,81 @@ export function SpeakableItems({ items }) {
   )
 }
 
+/* --------------------------- word-level dictionary ------------------------- */
+
+/**
+ * A French sentence split into words, where every word the dictionary knows
+ * becomes hoverable. Hovering (or tapping) pops a small card with the part of
+ * speech, the Chinese meaning, 注音 when the word is hard to say, and a 🔊.
+ *
+ * The popup is positioned by the browser's own layout (absolute inside a
+ * relative span) rather than measured coordinates — simpler, and it can't drift
+ * out of sync while the page scrolls.
+ */
+function Word({ raw }) {
+  const [open, setOpen] = useState(false)
+  const entry = useMemo(() => lookup(raw), [raw])
+  if (!entry) return <span>{raw}</span>
+
+  const zy = zhuyinFor(entry.word)
+
+  return (
+    <span
+      className={open ? 'w on' : 'w'}
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
+    >
+      <button
+        type="button"
+        className="w-hit"
+        aria-expanded={open}
+        onClick={(e) => {
+          e.stopPropagation()
+          setOpen((o) => !o)
+        }}
+      >
+        {raw}
+      </button>
+
+      {open && (
+        <span className="w-pop" role="tooltip">
+          <span className="w-pop-head">
+            <b className="w-pop-word">{entry.word}</b>
+            {zy && <span className="w-pop-zy">{zy[0]}</span>}
+            <button
+              type="button"
+              className="w-pop-play"
+              title={`唸「${entry.word}」`}
+              onClick={(e) => {
+                e.stopPropagation()
+                speakFrench(entry.word)
+              }}
+            >
+              🔊
+            </button>
+          </span>
+          <span className="w-pop-pos">{entry.pos}</span>
+          {zy?.[1] && <span className="w-pop-tip">發音：{zy[1]}</span>}
+          {entry.note && <span className="w-pop-note">{entry.note}</span>}
+        </span>
+      )}
+    </span>
+  )
+}
+
+/** Render French text with every known word hoverable. */
+export function WordText({ text }) {
+  // Keep the separators so punctuation and spacing survive the round trip.
+  const parts = useMemo(() => String(text).split(/([^\p{L}'’-]+)/u), [text])
+  return (
+    <>
+      {parts.map((p, i) =>
+        /[\p{L}]/u.test(p) ? <Word key={i} raw={p} /> : <span key={i}>{p}</span>,
+      )}
+    </>
+  )
+}
+
 /* ------------------------------ study lines ------------------------------- */
 
 /**
@@ -500,7 +576,7 @@ export function StudyLine({ fr, zh, n }) {
         )}
 
         <div className="sline-text">
-          <p className="sline-fr">{fr}</p>
+          <p className="sline-fr">{speakable ? <WordText text={fr} /> : fr}</p>
           <p className="sline-zh">{zh}</p>
         </div>
 

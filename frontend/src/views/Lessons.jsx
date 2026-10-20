@@ -198,6 +198,11 @@ function LessonDrill({ lesson }) {
 export default function LessonsView({ route }) {
   const [view, setView] = useState('calendar')
   const [q, setQ] = useState('')
+  // Collapsed by default on narrow screens: the lesson itself is what you came
+  // for, the date picker is navigation you only need between lessons.
+  const [pickerOpen, setPickerOpen] = useState(() =>
+    typeof window === 'undefined' ? true : window.innerWidth > 1100,
+  )
 
   const sorted = useMemo(() => [...LESSONS].sort((a, b) => (a.date < b.date ? 1 : -1)), [])
   const byDate = useMemo(() => {
@@ -227,18 +232,38 @@ export default function LessonsView({ route }) {
       />
 
       <div className="filter-bar">
-        <Segmented
-          ariaLabel="檢視方式"
-          options={[
-            { key: 'calendar', label: '📅 日曆' },
-            { key: 'list', label: '📋 列表' },
-          ]}
-          value={view}
-          onChange={setView}
-        />
+        <button
+          type="button"
+          className={pickerOpen ? 'picker-toggle on' : 'picker-toggle'}
+          aria-expanded={pickerOpen}
+          onClick={() => setPickerOpen((o) => !o)}
+        >
+          <span aria-hidden="true">📅</span>
+          {pickerOpen ? '收起日期' : '選擇日期'}
+          <span className="picker-chevron" aria-hidden="true">{pickerOpen ? '◂' : '▸'}</span>
+        </button>
+
+        {pickerOpen && (
+          <Segmented
+            ariaLabel="檢視方式"
+            options={[
+              { key: 'calendar', label: '📅 日曆' },
+              { key: 'list', label: '📋 列表' },
+            ]}
+            value={view}
+            onChange={setView}
+          />
+        )}
+
+        {!pickerOpen && (
+          <span className="picker-now">
+            {lesson.date} · {lesson.title}
+          </span>
+        )}
       </div>
 
-      <div className="split">
+      <div className={pickerOpen ? 'split' : 'split solo'}>
+        {pickerOpen && (
         <div className="split-list-wrap">
           {view === 'calendar' ? (
             <LessonCalendar
@@ -268,6 +293,7 @@ export default function LessonsView({ route }) {
             </>
           )}
         </div>
+        )}
 
         <div className="split-main">
           {sameDay.length > 1 && (
