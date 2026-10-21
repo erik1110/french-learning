@@ -27,6 +27,7 @@ import GrammarView from './views/Grammar'
 import VerbsView from './views/Verbs'
 import DialoguesView from './views/Dialogues'
 import GameView from './views/Game'
+import SpeakingView from './views/Speaking'
 import SearchView from './views/Search'
 
 const NAV = [
@@ -42,6 +43,7 @@ const NAV = [
     title: '練習',
     items: [
       { tab: 'game', path: '/game', icon: '🎮', label: '巴黎生活' },
+      { tab: 'speaking', path: '/speaking', icon: '🗣️', label: '發音練習' },
       { tab: 'review', path: '/review', icon: '🔁', label: '每日複習', badge: 'due' },
       { tab: 'cards', path: '/cards', icon: '📇', label: '單字卡' },
       { tab: 'quiz', path: '/quiz', icon: '✏️', label: '牛刀小試' },
@@ -354,6 +356,7 @@ export default function App() {
           {route.tab === 'verbs' && <VerbsView route={route} />}
           {route.tab === 'dialogues' && <DialoguesView route={route} />}
           {route.tab === 'game' && <GameView route={route} />}
+          {route.tab === 'speaking' && <SpeakingView route={route} />}
           {route.tab === 'search' && <SearchView cards={cards} reload={reload} route={route} />}
         </main>
       </div>

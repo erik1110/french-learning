@@ -1,0 +1,1747 @@
+{
+ "coach": {
+  "title": "Pour mon ami français 🇫🇷",
+  "zhTitle": "給法國朋友的說明（可以直接給他看）",
+  "intro": "Merci de m'aider ! Voici comment tu peux m'aider le plus efficacement.",
+  "zhIntro": "謝謝你幫我！下面是給他看的指導方式，說明怎麼幫最有效。",
+  "rules": [
+   {
+    "fr": "Ne corrige pas tout d'un coup — un seul son à la fois.",
+    "zh": "不要一次糾正全部，一次專注一個音就好。"
+   },
+   {
+    "fr": "Dis-moi d'abord le mot, puis je répète après toi.",
+    "zh": "先由你唸，我再跟著唸。"
+   },
+   {
+    "fr": "Si c'est faux, dis les deux versions : la mienne et la bonne.",
+    "zh": "如果我唸錯了，請把「我唸的」和「正確的」兩種都唸一次，我才聽得出差別。"
+   },
+   {
+    "fr": "Exagère un peu au début, c'est plus facile à entendre.",
+    "zh": "一開始可以稍微誇張一點，這樣我比較聽得出來。"
+   },
+   {
+    "fr": "Dis-moi où placer la langue ou les lèvres.",
+    "zh": "告訴我舌頭或嘴唇應該放哪裡。"
+   },
+   {
+    "fr": "Sois honnête ! Dis « non, ce n'est pas encore ça ».",
+    "zh": "請誠實一點！不對就說不對，不用客氣。"
+   }
+  ],
+  "asks": [
+   {
+    "fr": "Est-ce que tu peux me corriger, s'il te plaît ?",
+    "zh": "可以請你糾正我嗎？"
+   },
+   {
+    "fr": "Je répète après toi, d'accord ?",
+    "zh": "我跟著你唸，好嗎？"
+   },
+   {
+    "fr": "Est-ce que c'est mieux maintenant ?",
+    "zh": "現在有比較好嗎？"
+   },
+   {
+    "fr": "Quelle est la différence entre ces deux sons ?",
+    "zh": "這兩個音的差別是什麼？"
+   },
+   {
+    "fr": "Tu peux le dire plus lentement ?",
+    "zh": "你可以說慢一點嗎？"
+   },
+   {
+    "fr": "Où est-ce que je dois mettre la langue ?",
+    "zh": "舌頭應該放哪裡？"
+   },
+   {
+    "fr": "C'était comment ? Sois honnête !",
+    "zh": "剛剛唸得怎麼樣？誠實說！"
+   }
+  ]
+ },
+ "pairs": [
+  {
+   "a": "vin",
+   "b": "vent",
+   "za": "ㄈㄝㄣ",
+   "zb": "ㄈㄤ",
+   "zh": "葡萄酒 / 風",
+   "why": "兩種不同的鼻母音，意思完全不同"
+  },
+  {
+   "a": "tu",
+   "b": "tout",
+   "za": "ㄊㄩ",
+   "zb": "ㄊㄨ",
+   "zh": "你 / 全部",
+   "why": "★ u（圓唇ㄩ）vs ou（ㄨ），最經典的一組"
+  },
+  {
+   "a": "dessus",
+   "b": "dessous",
+   "za": "ㄉㄜ・ㄙㄩ",
+   "zb": "ㄉㄜ・ㄙㄨ",
+   "zh": "在上面 / 在下面",
+   "why": "u vs ou，意思剛好相反"
+  },
+  {
+   "a": "rue",
+   "b": "roue",
+   "za": "ㄏㄩ",
+   "zb": "ㄏㄨ",
+   "zh": "街道 / 輪子",
+   "why": "R 之後的 u vs ou"
+  },
+  {
+   "a": "poisson",
+   "b": "poison",
+   "za": "ㄆㄨㄚ・ㄙㄨㄥ",
+   "zb": "ㄆㄨㄚ・ㄗㄨㄥ",
+   "zh": "魚 / 毒藥",
+   "why": "★ 雙 ss 唸ㄙ、單 s 唸ㄗ —— 唸錯會變成毒藥"
+  },
+  {
+   "a": "dessert",
+   "b": "désert",
+   "za": "ㄉㄜ・ㄙㄝㄏ",
+   "zb": "ㄉㄟ・ㄗㄝㄏ",
+   "zh": "甜點 / 沙漠",
+   "why": "同樣是 ss vs s 的差別"
+  },
+  {
+   "a": "beau",
+   "b": "bœuf",
+   "za": "ㄅㄡ",
+   "zb": "ㄅㄜㄈ",
+   "zh": "美的 / 牛肉",
+   "why": "o vs œu 圓唇"
+  },
+  {
+   "a": "deux",
+   "b": "douze",
+   "za": "ㄉㄜ",
+   "zb": "ㄉㄨㄗ",
+   "zh": "二 / 十二",
+   "why": "eu vs ou，數字唸錯差很多"
+  },
+  {
+   "a": "pain",
+   "b": "pin",
+   "za": "ㄅㄝㄣ",
+   "zb": "ㄅㄝㄣ",
+   "zh": "麵包 / 松樹",
+   "why": "★ 現代法文幾乎同音，靠上下文分辨"
+  },
+  {
+   "a": "an",
+   "b": "en",
+   "za": "ㄤ",
+   "zb": "ㄤ",
+   "zh": "年 / 在",
+   "why": "同音但拼法和用法不同"
+  },
+  {
+   "a": "bon",
+   "b": "banc",
+   "za": "ㄅㄨㄥ",
+   "zb": "ㄅㄤ",
+   "zh": "好的 / 長椅",
+   "why": "on vs an 兩種鼻音"
+  },
+  {
+   "a": "chat",
+   "b": "chaud",
+   "za": "ㄕㄚ",
+   "zb": "ㄕㄡ",
+   "zh": "貓 / 熱的",
+   "why": "a vs au"
+  },
+  {
+   "a": "je",
+   "b": "j'ai",
+   "za": "ㄖㄜ",
+   "zb": "ㄖㄟ",
+   "zh": "我 / 我有",
+   "why": "e vs ai，動詞句常混"
+  },
+  {
+   "a": "mer",
+   "b": "mère",
+   "za": "ㄇㄝㄏ",
+   "zb": "ㄇㄝㄏ",
+   "zh": "海 / 母親",
+   "why": "同音！靠冠詞和上下文分"
+  },
+  {
+   "a": "cou",
+   "b": "cul",
+   "za": "ㄎㄨ",
+   "zb": "ㄎㄩ",
+   "zh": "脖子 / 屁股",
+   "why": "★ ou vs u —— 這組唸錯會很尷尬"
+  }
+ ],
+ "words": [
+  {
+   "fr": "rue",
+   "zh": "街道",
+   "zy": "ㄏㄩ",
+   "why": "★ 小舌 R ＋ 圓唇 U，台灣人最難的組合。R 像漱口，不要捲舌",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "Paris",
+   "zh": "巴黎",
+   "zy": "ㄆㄚ・ㄏㄧ",
+   "why": "R 在中間，字尾 s 不發音",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "merci",
+   "zh": "謝謝",
+   "zy": "ㄇㄝㄏ・ㄒㄧ",
+   "why": "R 在音節尾，容易唸成捲舌的「兒」",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "heure",
+   "zh": "小時、點鐘",
+   "zy": "ㄜㄏ",
+   "why": "h 不發音 ＋ 圓唇 eu ＋ 尾巴 R，三個難點擠在一起",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "bonjour",
+   "zh": "你好",
+   "zy": "ㄅㄨㄥ・ㄖㄨㄏ",
+   "why": "鼻音 ＋ J ＋ 尾巴 R，最常說卻最常唸錯",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "mercredi",
+   "zh": "星期三",
+   "zy": "ㄇㄝㄏ・ㄎㄏㄜ・ㄉㄧ",
+   "why": "★ 兩個 R 連著出現",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "restaurant",
+   "zh": "餐廳",
+   "zy": "ㄏㄝㄙ・ㄊㄡ・ㄏㄤ",
+   "why": "開頭和中間各一個 R，結尾是鼻音",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "trois",
+   "zh": "三",
+   "zy": "ㄊㄏㄨㄚ",
+   "why": "tr 子音串 ＋ oi 唸ㄨㄚ",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "quatre",
+   "zh": "四",
+   "zy": "ㄎㄚㄊㄏ",
+   "why": "字尾 tre 的 R 幾乎只剩氣音",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "travail",
+   "zh": "工作",
+   "zy": "ㄊㄏㄚ・ㄈㄞ",
+   "why": "tr 子音串 ＋ 字尾 ail 唸ㄞ",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "très",
+   "zh": "非常",
+   "zy": "ㄊㄏㄝ",
+   "why": "tr 子音串，字尾 s 不發音",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "frère",
+   "zh": "哥哥、弟弟",
+   "zy": "ㄈㄏㄝㄏ",
+   "why": "兩個 R 夾一個 è",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "verre",
+   "zh": "玻璃杯",
+   "zy": "ㄈㄝㄏ",
+   "why": "v 要振動 ＋ 雙 R 只唸一個",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "gare",
+   "zh": "火車站",
+   "zy": "ㄍㄚㄏ",
+   "why": "字尾 R 要清楚唸出來",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "sœur",
+   "zh": "姊姊、妹妹",
+   "zy": "ㄙㄜㄏ",
+   "why": "œu 圓唇 ＋ 尾巴 R",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "cœur",
+   "zh": "心",
+   "zy": "ㄎㄜㄏ",
+   "why": "跟 sœur 同一組",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "professeur",
+   "zh": "老師",
+   "zy": "ㄆㄏㄡ・ㄈㄝ・ㄙㄜㄏ",
+   "why": "三個音節，頭尾各一個 R",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "parler",
+   "zh": "說話",
+   "zy": "ㄆㄚㄏ・ㄌㄟ",
+   "why": "R 和 L 連著，舌頭位置要切換",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "regarder",
+   "zh": "看",
+   "zy": "ㄏㄜ・ㄍㄚㄏ・ㄉㄟ",
+   "why": "三個音節裡有兩個 R",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "bureau",
+   "zh": "辦公室",
+   "zy": "ㄅㄩ・ㄏㄡ",
+   "why": "U 圓唇 ＋ R ＋ eau 唸ㄡ",
+   "tag": "R 小舌音"
+  },
+  {
+   "fr": "tu",
+   "zh": "你",
+   "zy": "ㄊㄩ",
+   "why": "★ 注音的ㄩ剛好就是這個音，不要唸成ㄨ",
+   "tag": "U 圓唇"
+  },
+  {
+   "fr": "une",
+   "zh": "一個（陰性）",
+   "zy": "ㄩㄋ",
+   "why": "U ＋ 後面的 n 要唸出來",
+   "tag": "U 圓唇"
+  },
+  {
+   "fr": "sucre",
+   "zh": "糖",
+   "zy": "ㄙㄩㄎㄏ",
+   "why": "U ＋ 字尾 cre 的 R",
+   "tag": "U 圓唇"
+  },
+  {
+   "fr": "voiture",
+   "zh": "汽車",
+   "zy": "ㄈㄨㄚ・ㄊㄩㄏ",
+   "why": "oi 唸ㄨㄚ ＋ U ＋ R，三個難點",
+   "tag": "U 圓唇"
+  },
+  {
+   "fr": "minute",
+   "zh": "分鐘",
+   "zy": "ㄇㄧ・ㄋㄩㄊ",
+   "why": "中間的 U 不要唸成ㄨ",
+   "tag": "U 圓唇"
+  },
+  {
+   "fr": "plus",
+   "zh": "更多／不再",
+   "zy": "ㄆㄌㄩ",
+   "why": "★ 否定時 s 不發音，比較級時才發音",
+   "tag": "U 圓唇"
+  },
+  {
+   "fr": "bus",
+   "zh": "公車",
+   "zy": "ㄅㄩㄙ",
+   "why": "★ 這個字尾 s 要發音，跟 plus 不一樣",
+   "tag": "U 圓唇"
+  },
+  {
+   "fr": "salut",
+   "zh": "嗨",
+   "zy": "ㄙㄚ・ㄌㄩ",
+   "why": "字尾 t 不發音",
+   "tag": "U 圓唇"
+  },
+  {
+   "fr": "étudiant",
+   "zh": "學生",
+   "zy": "ㄟ・ㄊㄩ・ㄉㄧㄤ",
+   "why": "U ＋ 結尾鼻音",
+   "tag": "U 圓唇"
+  },
+  {
+   "fr": "musique",
+   "zh": "音樂",
+   "zy": "ㄇㄩ・ㄗㄧㄎ",
+   "why": "U ＋ 中間的 s 唸ㄗ",
+   "tag": "U 圓唇"
+  },
+  {
+   "fr": "légume",
+   "zh": "蔬菜",
+   "zy": "ㄌㄟ・ㄍㄩㄇ",
+   "why": "é 唸ㄟ ＋ U 圓唇",
+   "tag": "U 圓唇"
+  },
+  {
+   "fr": "voulu",
+   "zh": "想要（過去分詞）",
+   "zy": "ㄈㄨ・ㄌㄩ",
+   "why": "★ ou 唸ㄨ、u 唸ㄩ，同一個字裡兩種都有",
+   "tag": "U 圓唇"
+  },
+  {
+   "fr": "vous",
+   "zh": "您、你們",
+   "zy": "ㄈㄨ",
+   "why": "★ 唸ㄈㄨ不是ㄈㄡ；v 要讓喉嚨振動",
+   "tag": "OU 對比"
+  },
+  {
+   "fr": "nous",
+   "zh": "我們",
+   "zy": "ㄋㄨ",
+   "why": "ou 唸ㄨ，字尾 s 不發音",
+   "tag": "OU 對比"
+  },
+  {
+   "fr": "jour",
+   "zh": "日、天",
+   "zy": "ㄖㄨㄏ",
+   "why": "J ＋ ou ＋ R",
+   "tag": "OU 對比"
+  },
+  {
+   "fr": "beaucoup",
+   "zh": "很多",
+   "zy": "ㄅㄡ・ㄎㄨ",
+   "why": "★ eau 唸ㄡ、ou 唸ㄨ，兩種都在同一個字裡",
+   "tag": "OU 對比"
+  },
+  {
+   "fr": "toujours",
+   "zh": "總是",
+   "zy": "ㄊㄨ・ㄖㄨㄏ",
+   "why": "兩個 ou ＋ J ＋ R",
+   "tag": "OU 對比"
+  },
+  {
+   "fr": "pour",
+   "zh": "為了",
+   "zy": "ㄆㄨㄏ",
+   "why": "ou ＋ R",
+   "tag": "OU 對比"
+  },
+  {
+   "fr": "rouge",
+   "zh": "紅色",
+   "zy": "ㄏㄨㄖ",
+   "why": "R 開頭 ＋ 字尾 ge 唸ㄖ",
+   "tag": "OU 對比"
+  },
+  {
+   "fr": "douze",
+   "zh": "十二",
+   "zy": "ㄉㄨㄗ",
+   "why": "ou ＋ z 要振動",
+   "tag": "OU 對比"
+  },
+  {
+   "fr": "vin",
+   "zh": "葡萄酒",
+   "zy": "ㄈㄝㄣ",
+   "why": "★ 跟 vent（風）只差鼻音，唸錯意思就變了",
+   "tag": "鼻母音"
+  },
+  {
+   "fr": "vent",
+   "zh": "風",
+   "zy": "ㄈㄤ",
+   "why": "★ 跟 vin（酒）要分清楚",
+   "tag": "鼻母音"
+  },
+  {
+   "fr": "pain",
+   "zh": "麵包",
+   "zy": "ㄅㄝㄣ",
+   "why": "ain 唸ㄝㄣ，不要唸成ㄆㄞ",
+   "tag": "鼻母音"
+  },
+  {
+   "fr": "temps",
+   "zh": "時間、天氣",
+   "zy": "ㄊㄤ",
+   "why": "★ 字尾 ps 都不發音",
+   "tag": "鼻母音"
+  },
+  {
+   "fr": "maintenant",
+   "zh": "現在",
+   "zy": "ㄇㄝㄣ・ㄊㄋㄤ",
+   "why": "★ 一個字裡兩個不同的鼻音",
+   "tag": "鼻母音"
+  },
+  {
+   "fr": "enfant",
+   "zh": "小孩",
+   "zy": "ㄤ・ㄈㄤ",
+   "why": "兩個 an 鼻音",
+   "tag": "鼻母音"
+  },
+  {
+   "fr": "content",
+   "zh": "開心的",
+   "zy": "ㄎㄨㄥ・ㄊㄤ",
+   "why": "★ on 和 en 兩種鼻音連在一起",
+   "tag": "鼻母音"
+  },
+  {
+   "fr": "bon",
+   "zh": "好的",
+   "zy": "ㄅㄨㄥ",
+   "why": "嘴唇要噘圓",
+   "tag": "鼻母音"
+  },
+  {
+   "fr": "non",
+   "zh": "不",
+   "zy": "ㄋㄨㄥ",
+   "why": "跟 nom（名字）同音",
+   "tag": "鼻母音"
+  },
+  {
+   "fr": "maison",
+   "zh": "房子",
+   "zy": "ㄇㄝ・ㄗㄨㄥ",
+   "why": "ai 唸ㄝ ＋ 中間 s 唸ㄗ ＋ on 鼻音",
+   "tag": "鼻母音"
+  },
+  {
+   "fr": "lundi",
+   "zh": "星期一",
+   "zy": "ㄌㄜㄣ・ㄉㄧ",
+   "why": "un 鼻音，現代法文常跟 in 唸一樣",
+   "tag": "鼻母音"
+  },
+  {
+   "fr": "quinze",
+   "zh": "十五",
+   "zy": "ㄎㄝㄣㄗ",
+   "why": "in 鼻音 ＋ z 振動",
+   "tag": "鼻母音"
+  },
+  {
+   "fr": "vingt",
+   "zh": "二十",
+   "zy": "ㄈㄝㄣ",
+   "why": "★ 字尾 gt 都不發音",
+   "tag": "鼻母音"
+  },
+  {
+   "fr": "cinquante",
+   "zh": "五十",
+   "zy": "ㄙㄝㄣ・ㄎㄤㄊ",
+   "why": "in 和 an 兩種鼻音",
+   "tag": "鼻母音"
+  },
+  {
+   "fr": "important",
+   "zh": "重要的",
+   "zy": "ㄝㄣ・ㄆㄡㄏ・ㄊㄤ",
+   "why": "開頭和結尾各一個鼻音",
+   "tag": "鼻母音"
+  },
+  {
+   "fr": "combien",
+   "zh": "多少",
+   "zy": "ㄎㄨㄥ・ㄅㄧㄝㄣ",
+   "why": "on 和 ien 兩種鼻音",
+   "tag": "鼻母音"
+  },
+  {
+   "fr": "intéressant",
+   "zh": "有趣的",
+   "zy": "ㄝㄣ・ㄊㄟ・ㄏㄝ・ㄙㄤ",
+   "why": "頭尾鼻音 ＋ 中間 R",
+   "tag": "鼻母音"
+  },
+  {
+   "fr": "printemps",
+   "zh": "春天",
+   "zy": "ㄆㄏㄝㄣ・ㄊㄤ",
+   "why": "★ 兩個鼻音 ＋ R，而且字尾 ps 不發音",
+   "tag": "鼻母音"
+  },
+  {
+   "fr": "deux",
+   "zh": "二",
+   "zy": "ㄉㄜ",
+   "why": "eu 圓唇，字尾 x 不發音",
+   "tag": "EU 圓唇"
+  },
+  {
+   "fr": "peu",
+   "zh": "一點點",
+   "zy": "ㄆㄜ",
+   "why": "嘴唇要噘圓",
+   "tag": "EU 圓唇"
+  },
+  {
+   "fr": "jeudi",
+   "zh": "星期四",
+   "zy": "ㄖㄜ・ㄉㄧ",
+   "why": "J ＋ eu 圓唇",
+   "tag": "EU 圓唇"
+  },
+  {
+   "fr": "neuf",
+   "zh": "九／新的",
+   "zy": "ㄋㄜㄈ",
+   "why": "eu 圓唇 ＋ f 要唸出來",
+   "tag": "EU 圓唇"
+  },
+  {
+   "fr": "œuf",
+   "zh": "蛋",
+   "zy": "ㄜㄈ",
+   "why": "★ 單數 f 要唸，複數 œufs 唸ㄜ不唸 f",
+   "tag": "EU 圓唇"
+  },
+  {
+   "fr": "fleur",
+   "zh": "花",
+   "zy": "ㄈㄌㄜㄏ",
+   "why": "eu ＋ R",
+   "tag": "EU 圓唇"
+  },
+  {
+   "fr": "monsieur",
+   "zh": "先生",
+   "zy": "ㄇㄜ・ㄙㄧㄜ",
+   "why": "★ 拼字跟發音完全對不上，整個背起來",
+   "tag": "EU 圓唇"
+  },
+  {
+   "fr": "yeux",
+   "zh": "眼睛",
+   "zy": "ㄧㄜ",
+   "why": "x 不發音",
+   "tag": "EU 圓唇"
+  },
+  {
+   "fr": "moi",
+   "zh": "我",
+   "zy": "ㄇㄨㄚ",
+   "why": "oi 固定唸ㄨㄚ，跟字面完全不一樣",
+   "tag": "OI 唸ㄨㄚ"
+  },
+  {
+   "fr": "soir",
+   "zh": "晚上",
+   "zy": "ㄙㄨㄚㄏ",
+   "why": "oi ＋ R",
+   "tag": "OI 唸ㄨㄚ"
+  },
+  {
+   "fr": "boire",
+   "zh": "喝",
+   "zy": "ㄅㄨㄚㄏ",
+   "why": "oi ＋ 字尾 R",
+   "tag": "OI 唸ㄨㄚ"
+  },
+  {
+   "fr": "avoir",
+   "zh": "有",
+   "zy": "ㄚ・ㄈㄨㄚㄏ",
+   "why": "v 振動 ＋ oi ＋ R",
+   "tag": "OI 唸ㄨㄚ"
+  },
+  {
+   "fr": "poisson",
+   "zh": "魚",
+   "zy": "ㄆㄨㄚ・ㄙㄨㄥ",
+   "why": "oi ＋ 鼻音",
+   "tag": "OI 唸ㄨㄚ"
+  },
+  {
+   "fr": "au revoir",
+   "zh": "再見",
+   "zy": "ㄡ・ㄏㄜ・ㄈㄨㄚㄏ",
+   "why": "★ 三個音節，R 出現兩次",
+   "tag": "OI 唸ㄨㄚ"
+  },
+  {
+   "fr": "mois",
+   "zh": "月",
+   "zy": "ㄇㄨㄚ",
+   "why": "字尾 s 不發音，跟 moi 同音",
+   "tag": "OI 唸ㄨㄚ"
+  },
+  {
+   "fr": "froid",
+   "zh": "冷的",
+   "zy": "ㄈㄏㄨㄚ",
+   "why": "fr 子音串 ＋ oi，字尾 d 不唸",
+   "tag": "OI 唸ㄨㄚ"
+  },
+  {
+   "fr": "huit",
+   "zh": "八",
+   "zy": "ㄩㄧㄊ",
+   "why": "h 不發音 ＋ ui 一個音節唸完",
+   "tag": "UI 滑音"
+  },
+  {
+   "fr": "nuit",
+   "zh": "夜裡",
+   "zy": "ㄋㄩㄧ",
+   "why": "ui 要快速滑過",
+   "tag": "UI 滑音"
+  },
+  {
+   "fr": "lui",
+   "zh": "他（重讀）",
+   "zy": "ㄌㄩㄧ",
+   "why": "ㄩ滑到ㄧ",
+   "tag": "UI 滑音"
+  },
+  {
+   "fr": "aujourd'hui",
+   "zh": "今天",
+   "zy": "ㄡ・ㄖㄨㄏ・ㄉㄩㄧ",
+   "why": "★ 四個難點：au、J、R、ui",
+   "tag": "UI 滑音"
+  },
+  {
+   "fr": "depuis",
+   "zh": "自從",
+   "zy": "ㄉㄜ・ㄆㄩㄧ",
+   "why": "ui ＋ 字尾 s 不發音",
+   "tag": "UI 滑音"
+  },
+  {
+   "fr": "cuisine",
+   "zh": "廚房、烹飪",
+   "zy": "ㄎㄩㄧ・ㄗㄧㄋ",
+   "why": "ui ＋ 中間 s 唸ㄗ",
+   "tag": "UI 滑音"
+  },
+  {
+   "fr": "heureux",
+   "zh": "快樂的",
+   "zy": "ㄜ・ㄏㄜ",
+   "why": "★ h 不發音 ＋ 兩個圓唇音",
+   "tag": "啞音 H"
+  },
+  {
+   "fr": "hôtel",
+   "zh": "飯店",
+   "zy": "ㄡ・ㄊㄝㄌ",
+   "why": "h 不發音所以寫成 l'hôtel",
+   "tag": "啞音 H"
+  },
+  {
+   "fr": "habiter",
+   "zh": "住",
+   "zy": "ㄚ・ㄅㄧ・ㄊㄟ",
+   "why": "h 不發音，所以是 j'habite",
+   "tag": "啞音 H"
+  },
+  {
+   "fr": "hiver",
+   "zh": "冬天",
+   "zy": "ㄧ・ㄈㄝㄏ",
+   "why": "h 不發音 ＋ 字尾 R 要唸",
+   "tag": "啞音 H"
+  },
+  {
+   "fr": "homme",
+   "zh": "男人",
+   "zy": "ㄡㄇ",
+   "why": "h 不發音，字尾 e 也不發音",
+   "tag": "啞音 H"
+  },
+  {
+   "fr": "heureusement",
+   "zh": "幸好",
+   "zy": "ㄜ・ㄏㄜㄗ・ㄇㄤ",
+   "why": "★ 四個音節，h 不發音 ＋ 鼻音結尾",
+   "tag": "啞音 H"
+  },
+  {
+   "fr": "fille",
+   "zh": "女孩、女兒",
+   "zy": "ㄈㄧ",
+   "why": "★ ille 唸ㄧ，兩個 l 不發 l 的音",
+   "tag": "ILL / GN"
+  },
+  {
+   "fr": "famille",
+   "zh": "家庭",
+   "zy": "ㄈㄚ・ㄇㄧ",
+   "why": "同上，不要唸成「米勒」",
+   "tag": "ILL / GN"
+  },
+  {
+   "fr": "travailler",
+   "zh": "工作",
+   "zy": "ㄊㄏㄚ・ㄈㄚ・ㄧㄟ",
+   "why": "ail ＋ ler",
+   "tag": "ILL / GN"
+  },
+  {
+   "fr": "bouteille",
+   "zh": "瓶子",
+   "zy": "ㄅㄨ・ㄊㄝ",
+   "why": "eille 唸ㄝ",
+   "tag": "ILL / GN"
+  },
+  {
+   "fr": "soleil",
+   "zh": "太陽",
+   "zy": "ㄙㄡ・ㄌㄝ",
+   "why": "★ eil 唸ㄝ，字尾 l 不唸",
+   "tag": "ILL / GN"
+  },
+  {
+   "fr": "montagne",
+   "zh": "山",
+   "zy": "ㄇㄨㄥ・ㄊㄚㄋㄧㄜ",
+   "why": "gn 唸ㄋㄧ，像「妮」的開頭",
+   "tag": "ILL / GN"
+  },
+  {
+   "fr": "espagnol",
+   "zh": "西班牙文",
+   "zy": "ㄝㄙ・ㄆㄚ・ㄋㄧㄡㄌ",
+   "why": "gn ＋ 字尾 l 要唸",
+   "tag": "ILL / GN"
+  },
+  {
+   "fr": "gagner",
+   "zh": "贏",
+   "zy": "ㄍㄚ・ㄋㄧㄟ",
+   "why": "gn 一個音唸完",
+   "tag": "ILL / GN"
+  },
+  {
+   "fr": "chat",
+   "zh": "貓",
+   "zy": "ㄕㄚ",
+   "why": "ch 唸ㄕ不是ㄑ，字尾 t 不唸",
+   "tag": "CH / J"
+  },
+  {
+   "fr": "chaud",
+   "zh": "熱的",
+   "zy": "ㄕㄡ",
+   "why": "ch ＋ au 唸ㄡ，字尾 d 不唸",
+   "tag": "CH / J"
+  },
+  {
+   "fr": "chercher",
+   "zh": "找",
+   "zy": "ㄒㄝㄏ・ㄒㄟ",
+   "why": "★ 兩個 ch ＋ 一個 R",
+   "tag": "CH / J"
+  },
+  {
+   "fr": "je",
+   "zh": "我",
+   "zy": "ㄖㄜ",
+   "why": "J 像「日」但舌頭不捲",
+   "tag": "CH / J"
+  },
+  {
+   "fr": "jeune",
+   "zh": "年輕的",
+   "zy": "ㄖㄜㄋ",
+   "why": "J ＋ eu 圓唇",
+   "tag": "CH / J"
+  },
+  {
+   "fr": "déjà",
+   "zh": "已經",
+   "zy": "ㄉㄟ・ㄖㄚ",
+   "why": "兩個重音符號方向不同",
+   "tag": "CH / J"
+  },
+  {
+   "fr": "chanteuse",
+   "zh": "女歌手",
+   "zy": "ㄕㄤ・ㄊㄜㄗ",
+   "why": "ch ＋ 鼻音 ＋ eu ＋ z 音",
+   "tag": "CH / J"
+  },
+  {
+   "fr": "petit",
+   "zh": "小的",
+   "zy": "ㄆㄜ・ㄊㄧ",
+   "why": "字尾 t 不發音",
+   "tag": "字尾不發音"
+  },
+  {
+   "fr": "grand",
+   "zh": "大的",
+   "zy": "ㄍㄏㄤ",
+   "why": "R ＋ 鼻音，字尾 d 不發音",
+   "tag": "字尾不發音"
+  },
+  {
+   "fr": "et",
+   "zh": "和",
+   "zy": "ㄟ",
+   "why": "★ 字尾 t 不發音，只唸一個ㄟ",
+   "tag": "字尾不發音"
+  },
+  {
+   "fr": "est",
+   "zh": "是",
+   "zy": "ㄝ",
+   "why": "★ 字尾 st 都不發音",
+   "tag": "字尾不發音"
+  },
+  {
+   "fr": "tard",
+   "zh": "晚",
+   "zy": "ㄊㄚㄏ",
+   "why": "R 要唸，d 不唸",
+   "tag": "字尾不發音"
+  },
+  {
+   "fr": "quart",
+   "zh": "一刻鐘",
+   "zy": "ㄎㄚㄏ",
+   "why": "★ 字尾 t 不唸，但 R 要唸",
+   "tag": "字尾不發音"
+  },
+  {
+   "fr": "plaît",
+   "zh": "取悅（s'il vous plaît）",
+   "zy": "ㄆㄌㄝ",
+   "why": "字尾 t 不唸；整句連著唸",
+   "tag": "字尾不發音"
+  },
+  {
+   "fr": "sept",
+   "zh": "七",
+   "zy": "ㄙㄝㄊ",
+   "why": "★ p 不發音但 t 要發音",
+   "tag": "字尾不發音"
+  },
+  {
+   "fr": "août",
+   "zh": "八月",
+   "zy": "ㄨㄊ",
+   "why": "★ 只唸兩個音，t 要發音",
+   "tag": "字尾不發音"
+  },
+  {
+   "fr": "pays",
+   "zh": "國家",
+   "zy": "ㄆㄟ・ㄧ",
+   "why": "★ 拼字騙人，不唸ㄆㄝ",
+   "tag": "字尾不發音"
+  },
+  {
+   "fr": "dents",
+   "zh": "牙齒",
+   "zy": "ㄉㄤ",
+   "why": "鼻音 ＋ 字尾 ts 都不唸",
+   "tag": "字尾不發音"
+  },
+  {
+   "fr": "vélo",
+   "zh": "腳踏車",
+   "zy": "ㄈㄟ・ㄌㄡ",
+   "why": "v 要振動，不然聽起來像 félo",
+   "tag": "V / Z 振動"
+  },
+  {
+   "fr": "vacances",
+   "zh": "假期",
+   "zy": "ㄈㄚ・ㄎㄤㄙ",
+   "why": "v ＋ 鼻音",
+   "tag": "V / Z 振動"
+  },
+  {
+   "fr": "visiter",
+   "zh": "參觀",
+   "zy": "ㄈㄧ・ㄗㄧ・ㄊㄟ",
+   "why": "v 振動 ＋ 中間 s 唸ㄗ",
+   "tag": "V / Z 振動"
+  },
+  {
+   "fr": "treize",
+   "zh": "十三",
+   "zy": "ㄊㄏㄝㄗ",
+   "why": "tr ＋ 字尾 z 要振動",
+   "tag": "V / Z 振動"
+  },
+  {
+   "fr": "chose",
+   "zh": "東西",
+   "zy": "ㄕㄡㄗ",
+   "why": "ch 唸ㄕ ＋ s 唸ㄗ",
+   "tag": "V / Z 振動"
+  },
+  {
+   "fr": "magasin",
+   "zh": "商店",
+   "zy": "ㄇㄚ・ㄍㄚ・ㄗㄝㄣ",
+   "why": "中間 s 唸ㄗ ＋ 鼻音結尾",
+   "tag": "V / Z 振動"
+  },
+  {
+   "fr": "cousine",
+   "zh": "表姊妹",
+   "zy": "ㄎㄨ・ㄗㄧㄋ",
+   "why": "★ 一個 s 唸ㄗ；兩個 ss 才唸ㄙ",
+   "tag": "V / Z 振動"
+  }
+ ],
+ "texts": [
+  {
+   "id": "intro-1",
+   "title": "Je me présente",
+   "zhTitle": "自我介紹（基本版）",
+   "focus": "R 小舌音 · 鼻母音",
+   "level": "A1",
+   "note": "★ 這篇的難點集中在 R（Erik, français, rencontrer）和鼻音（taïwanais, ans, ingénieur, an）。",
+   "lines": [
+    {
+     "fr": "Bonjour ! Je m'appelle Erik.",
+     "zh": "你好！我叫 Erik。"
+    },
+    {
+     "fr": "Je suis taïwanais et j'habite à Taipei.",
+     "zh": "我是台灣人，我住在台北。"
+    },
+    {
+     "fr": "J'ai vingt-neuf ans.",
+     "zh": "我二十九歲。"
+    },
+    {
+     "fr": "Je suis ingénieur.",
+     "zh": "我是工程師。"
+    },
+    {
+     "fr": "J'apprends le français depuis un an.",
+     "zh": "我學法文一年了。"
+    },
+    {
+     "fr": "J'aime beaucoup la cuisine française.",
+     "zh": "我很喜歡法國菜。"
+    },
+    {
+     "fr": "Enchanté de vous rencontrer !",
+     "zh": "很高興認識您！"
+    }
+   ]
+  },
+  {
+   "id": "intro-2",
+   "title": "Pourquoi j'apprends le français",
+   "zhTitle": "我為什麼學法文",
+   "focus": "U 圓唇 · OU 對比",
+   "level": "A2",
+   "note": "★ 注意 u（culture, surtout 的 u）和 ou（pour, pouvoir, surtout 的 ou）的差別。",
+   "lines": [
+    {
+     "fr": "J'apprends le français pour plusieurs raisons.",
+     "zh": "我學法文有好幾個原因。"
+    },
+    {
+     "fr": "D'abord, j'adore la culture française.",
+     "zh": "首先，我很愛法國文化。"
+    },
+    {
+     "fr": "Ensuite, je voudrais voyager en France.",
+     "zh": "再來，我想去法國旅行。"
+    },
+    {
+     "fr": "Je veux pouvoir parler avec des Français.",
+     "zh": "我希望能跟法國人對話。"
+    },
+    {
+     "fr": "C'est difficile mais c'est très intéressant.",
+     "zh": "很難，但是非常有趣。"
+    },
+    {
+     "fr": "Le plus dur pour moi, c'est la prononciation.",
+     "zh": "對我來說最難的是發音。"
+    },
+    {
+     "fr": "Surtout le son « R » et les voyelles nasales.",
+     "zh": "尤其是 R 的音和鼻母音。"
+    }
+   ]
+  },
+  {
+   "id": "cafe",
+   "title": "Au café",
+   "zhTitle": "在咖啡館",
+   "focus": "字尾不發音 · 連音",
+   "level": "A1",
+   "note": "★ 請朋友注意連音：vous_avez、deux_euros。還有 c'est tout 的 t 不發音。",
+   "lines": [
+    {
+     "fr": "Bonjour, vous avez une table pour deux ?",
+     "zh": "您好，有兩人的位子嗎？"
+    },
+    {
+     "fr": "Oui, installez-vous ici.",
+     "zh": "有，請坐這裡。"
+    },
+    {
+     "fr": "Merci. Un café et un croissant, s'il vous plaît.",
+     "zh": "謝謝。一杯咖啡和一個可頌，麻煩您。"
+    },
+    {
+     "fr": "Et avec ceci ?",
+     "zh": "還要別的嗎？"
+    },
+    {
+     "fr": "C'est tout, merci.",
+     "zh": "這樣就好，謝謝。"
+    },
+    {
+     "fr": "Ça fait quatre euros cinquante.",
+     "zh": "總共四歐五十。"
+    },
+    {
+     "fr": "Je peux payer par carte ?",
+     "zh": "我可以刷卡嗎？"
+    },
+    {
+     "fr": "Bien sûr. Bonne journée !",
+     "zh": "當然。祝您有美好的一天！"
+    }
+   ]
+  },
+  {
+   "id": "boulangerie",
+   "title": "À la boulangerie",
+   "zhTitle": "在麵包店",
+   "focus": "R 小舌音 · 鼻母音",
+   "level": "A1",
+   "note": "★ 難點：croissants（兩個 R）、baguette（-ette 唸ㄝㄊ）、four（ou + R）。",
+   "lines": [
+    {
+     "fr": "Bonjour monsieur, je voudrais deux croissants.",
+     "zh": "您好先生，我想要兩個可頌。"
+    },
+    {
+     "fr": "Et une baguette, s'il vous plaît.",
+     "zh": "還有一條長棍，麻煩您。"
+    },
+    {
+     "fr": "Voilà. Ça fait trois euros vingt.",
+     "zh": "給您。總共三歐二十。"
+    },
+    {
+     "fr": "Le pain est encore chaud ?",
+     "zh": "麵包還是熱的嗎？"
+    },
+    {
+     "fr": "Oui, il sort du four.",
+     "zh": "是的，剛出爐。"
+    },
+    {
+     "fr": "Parfait, merci beaucoup !",
+     "zh": "太好了，非常感謝！"
+    }
+   ]
+  },
+  {
+   "id": "heure",
+   "title": "Demander l'heure",
+   "zhTitle": "問時間",
+   "focus": "啞音 H · R 小舌音",
+   "level": "A1",
+   "note": "★ heure 的 h 不發音，所以是 l'heure；請朋友聽 trois heures 的連音。",
+   "lines": [
+    {
+     "fr": "Excusez-moi, vous avez l'heure ?",
+     "zh": "不好意思，請問現在幾點？"
+    },
+    {
+     "fr": "Oui, il est trois heures et quart.",
+     "zh": "有，現在三點十五分。"
+    },
+    {
+     "fr": "Merci ! J'ai rendez-vous à trois heures et demie.",
+     "zh": "謝謝！我三點半有約。"
+    },
+    {
+     "fr": "C'est tout près d'ici, à cinq minutes à pied.",
+     "zh": "離這裡很近，走路五分鐘。"
+    },
+    {
+     "fr": "Super, je ne suis pas en retard alors.",
+     "zh": "太好了，那我沒遲到。"
+    },
+    {
+     "fr": "Bonne journée !",
+     "zh": "祝你有美好的一天！"
+    }
+   ]
+  },
+  {
+   "id": "meteo",
+   "title": "Parler de la météo",
+   "zhTitle": "聊天氣",
+   "focus": "鼻母音 · OI",
+   "level": "A1",
+   "note": "★ 請朋友特別聽 vent（ㄈㄤ）和 vin（ㄈㄝㄣ）的差別，還有 froid 的 oi。",
+   "lines": [
+    {
+     "fr": "Quel temps fait-il aujourd'hui ?",
+     "zh": "今天天氣如何？"
+    },
+    {
+     "fr": "Il fait beau mais il y a du vent.",
+     "zh": "天氣很好，但有風。"
+    },
+    {
+     "fr": "Hier, il a plu toute la journée.",
+     "zh": "昨天下了一整天的雨。"
+    },
+    {
+     "fr": "On annonce de la pluie pour demain.",
+     "zh": "預報說明天會下雨。"
+    },
+    {
+     "fr": "En hiver, il fait très froid ici ?",
+     "zh": "這裡冬天很冷嗎？"
+    },
+    {
+     "fr": "Oui, et parfois il neige.",
+     "zh": "對，而且有時候會下雪。"
+    }
+   ]
+  },
+  {
+   "id": "resto",
+   "title": "Au restaurant",
+   "zhTitle": "在餐廳",
+   "focus": "R 小舌音 · 字尾不發音",
+   "level": "A2",
+   "note": "★ réservé 的兩個 é、carte 的 R、poisson 的 oi + 鼻音。",
+   "lines": [
+    {
+     "fr": "Bonsoir, vous avez réservé ?",
+     "zh": "晚安，您有訂位嗎？"
+    },
+    {
+     "fr": "Non, mais vous avez une table libre ?",
+     "zh": "沒有，但你們有空位嗎？"
+    },
+    {
+     "fr": "Oui, suivez-moi. Voici la carte.",
+     "zh": "有，請跟我來。這是菜單。"
+    },
+    {
+     "fr": "Qu'est-ce que vous me conseillez ?",
+     "zh": "您推薦什麼？"
+    },
+    {
+     "fr": "Le poisson du jour est excellent.",
+     "zh": "今日鮮魚非常棒。"
+    },
+    {
+     "fr": "D'accord, je vais prendre le poisson.",
+     "zh": "好，我要點魚。"
+    },
+    {
+     "fr": "Et comme boisson ?",
+     "zh": "那飲料呢？"
+    },
+    {
+     "fr": "Une carafe d'eau, s'il vous plaît.",
+     "zh": "一壺水，麻煩您。"
+    }
+   ]
+  },
+  {
+   "id": "metro",
+   "title": "Dans le métro",
+   "zhTitle": "在地鐵裡",
+   "focus": "鼻母音 · R 小舌音",
+   "level": "A2",
+   "note": "★ 難點：Louvre（ou + R）、direction（鼻音）、descends（字尾不發音）。",
+   "lines": [
+    {
+     "fr": "Pardon, pour aller au Louvre ?",
+     "zh": "不好意思，請問怎麼去羅浮宮？"
+    },
+    {
+     "fr": "Prenez la ligne 1, direction La Défense.",
+     "zh": "搭 1 號線，往 La Défense 方向。"
+    },
+    {
+     "fr": "Je descends à quelle station ?",
+     "zh": "我在哪一站下車？"
+    },
+    {
+     "fr": "À Palais-Royal. C'est direct.",
+     "zh": "在 Palais-Royal。是直達的。"
+    },
+    {
+     "fr": "Ça prend combien de temps ?",
+     "zh": "要花多久？"
+    },
+    {
+     "fr": "Environ un quart d'heure.",
+     "zh": "大約十五分鐘。"
+    },
+    {
+     "fr": "Merci beaucoup pour votre aide !",
+     "zh": "非常感謝您的幫忙！"
+    }
+   ]
+  },
+  {
+   "id": "routine",
+   "title": "Ma journée",
+   "zhTitle": "我的一天",
+   "focus": "反身動詞 · R 小舌音",
+   "level": "A2",
+   "note": "★ 反身代名詞 me 要輕輕帶過；注意 réveille 的 eille 唸ㄝ。",
+   "lines": [
+    {
+     "fr": "Je me réveille à six heures et demie.",
+     "zh": "我六點半醒來。"
+    },
+    {
+     "fr": "Je me lève tout de suite.",
+     "zh": "我馬上起床。"
+    },
+    {
+     "fr": "Je prends une douche et je m'habille.",
+     "zh": "我沖澡然後穿衣服。"
+    },
+    {
+     "fr": "Je me brosse les dents.",
+     "zh": "我刷牙。"
+    },
+    {
+     "fr": "Je pars au bureau à huit heures.",
+     "zh": "我八點出發去辦公室。"
+    },
+    {
+     "fr": "Le soir, je rentre vers dix-neuf heures.",
+     "zh": "晚上我大概七點回家。"
+    },
+    {
+     "fr": "Je me couche à onze heures.",
+     "zh": "我十一點睡覺。"
+    }
+   ]
+  },
+  {
+   "id": "weekend",
+   "title": "Mon week-end",
+   "zhTitle": "我的週末",
+   "focus": "複合過去式 · 鼻母音",
+   "level": "A2",
+   "note": "★ 請朋友確認 je suis allé 和 j'ai nagé 的助動詞有沒有唸對。",
+   "lines": [
+    {
+     "fr": "Le week-end dernier, je suis allé à la plage.",
+     "zh": "上週末我去了海邊。"
+    },
+    {
+     "fr": "Il a fait très beau toute la journée.",
+     "zh": "一整天天氣都很好。"
+    },
+    {
+     "fr": "J'ai nagé et j'ai lu un livre.",
+     "zh": "我游了泳，也看了一本書。"
+    },
+    {
+     "fr": "Le soir, j'ai dîné avec des amis.",
+     "zh": "晚上我跟朋友吃晚餐。"
+    },
+    {
+     "fr": "Nous avons beaucoup ri.",
+     "zh": "我們笑了很多。"
+    },
+    {
+     "fr": "Je suis rentré assez tard.",
+     "zh": "我很晚才回家。"
+    },
+    {
+     "fr": "C'était vraiment un bon week-end.",
+     "zh": "真的是個很棒的週末。"
+    }
+   ]
+  },
+  {
+   "id": "famille",
+   "title": "Ma famille",
+   "zhTitle": "我的家人",
+   "focus": "ILL 音 · 鼻母音",
+   "level": "A1",
+   "note": "★ famille 的 ille 唸ㄧ；campagne 的 gn 唸ㄋㄧ。",
+   "lines": [
+    {
+     "fr": "Dans ma famille, nous sommes quatre.",
+     "zh": "我家有四個人。"
+    },
+    {
+     "fr": "J'ai une sœur et un frère.",
+     "zh": "我有一個姊姊和一個哥哥。"
+    },
+    {
+     "fr": "Ma sœur est plus âgée que moi.",
+     "zh": "我姊姊比我大。"
+    },
+    {
+     "fr": "Elle travaille dans un hôpital.",
+     "zh": "她在醫院工作。"
+    },
+    {
+     "fr": "Mon frère est encore étudiant.",
+     "zh": "我哥哥還是學生。"
+    },
+    {
+     "fr": "Mes parents habitent à la campagne.",
+     "zh": "我爸媽住在鄉下。"
+    },
+    {
+     "fr": "On se voit tous les week-ends.",
+     "zh": "我們每個週末都見面。"
+    }
+   ]
+  },
+  {
+   "id": "shopping",
+   "title": "Faire les courses",
+   "zhTitle": "買東西",
+   "focus": "量詞 · 鼻母音",
+   "level": "A2",
+   "note": "★ œufs 的複數唸ㄜ不唸 f；douzaine 的 ai 唸ㄝ。",
+   "lines": [
+    {
+     "fr": "Bonjour, je voudrais un kilo de tomates.",
+     "zh": "您好，我想要一公斤番茄。"
+    },
+    {
+     "fr": "Et une livre de carottes aussi.",
+     "zh": "還有半公斤紅蘿蔔。"
+    },
+    {
+     "fr": "Avec ça ?",
+     "zh": "還要別的嗎？"
+    },
+    {
+     "fr": "Une douzaine d'œufs, s'il vous plaît.",
+     "zh": "一打蛋，麻煩您。"
+    },
+    {
+     "fr": "Voilà. Ça fait huit euros soixante.",
+     "zh": "好了。總共八歐六十。"
+    },
+    {
+     "fr": "Tenez. Merci et bonne journée !",
+     "zh": "給您。謝謝，祝您有美好的一天！"
+    }
+   ]
+  },
+  {
+   "id": "phone",
+   "title": "Au téléphone",
+   "zhTitle": "講電話",
+   "focus": "清楚發音 · 拼字",
+   "level": "A2",
+   "note": "★ 電話裡最考驗發音清晰度。請朋友聽字母拼讀有沒有唸對。",
+   "lines": [
+    {
+     "fr": "Allô, bonjour. Je voudrais prendre rendez-vous.",
+     "zh": "喂，您好。我想預約。"
+    },
+    {
+     "fr": "Bien sûr. C'est à quel nom ?",
+     "zh": "當然。請問貴姓？"
+    },
+    {
+     "fr": "Au nom de Chen. Je vous épelle : C-H-E-N.",
+     "zh": "陳。我拼給您：C-H-E-N。"
+    },
+    {
+     "fr": "Très bien. Jeudi à quatorze heures, ça vous va ?",
+     "zh": "好的。星期四十四點，您方便嗎？"
+    },
+    {
+     "fr": "Oui, parfait. Merci beaucoup.",
+     "zh": "可以，太好了。非常感謝。"
+    },
+    {
+     "fr": "À jeudi, au revoir !",
+     "zh": "星期四見，再見！"
+    }
+   ]
+  },
+  {
+   "id": "sante",
+   "title": "Chez le médecin",
+   "zhTitle": "看醫生",
+   "focus": "鼻母音 · R 小舌音",
+   "level": "A2",
+   "note": "★ 難點：médecin（鼻音）、fièvre（è + v + R）、reposez-vous。",
+   "lines": [
+    {
+     "fr": "Bonjour docteur. Je ne me sens pas bien.",
+     "zh": "您好醫生。我不太舒服。"
+    },
+    {
+     "fr": "Qu'est-ce qui ne va pas ?",
+     "zh": "哪裡不舒服？"
+    },
+    {
+     "fr": "J'ai mal à la tête depuis hier.",
+     "zh": "我從昨天開始頭痛。"
+    },
+    {
+     "fr": "Vous avez de la fièvre ?",
+     "zh": "您有發燒嗎？"
+    },
+    {
+     "fr": "Non, je n'ai pas de fièvre.",
+     "zh": "沒有，我沒發燒。"
+    },
+    {
+     "fr": "Reposez-vous bien et buvez beaucoup d'eau.",
+     "zh": "好好休息，多喝水。"
+    }
+   ]
+  },
+  {
+   "id": "hotel",
+   "title": "À l'hôtel",
+   "zhTitle": "在飯店",
+   "focus": "啞音 H · 數字",
+   "level": "A2",
+   "note": "★ hôtel 的 h 不發音；troisième 的 oi + 鼻音前的 s。",
+   "lines": [
+    {
+     "fr": "Bonjour, j'ai une réservation au nom de Chen.",
+     "zh": "您好，我有訂房，名字是 Chen。"
+    },
+    {
+     "fr": "Pour trois nuits, c'est bien ça ?",
+     "zh": "住三晚，對嗎？"
+    },
+    {
+     "fr": "Oui, c'est exact.",
+     "zh": "對，沒錯。"
+    },
+    {
+     "fr": "Voici votre clé. Chambre 305, au troisième étage.",
+     "zh": "這是您的鑰匙。305 號房，三樓。"
+    },
+    {
+     "fr": "Le petit-déjeuner est compris ?",
+     "zh": "早餐有含嗎？"
+    },
+    {
+     "fr": "Oui, de sept heures à dix heures.",
+     "zh": "有，七點到十點。"
+    }
+   ]
+  },
+  {
+   "id": "gout",
+   "title": "Mes goûts",
+   "zhTitle": "我的喜好",
+   "focus": "字尾不發音 · U 圓唇",
+   "level": "A1",
+   "note": "★ du tout 的 ou、préfère 的兩個 è、déteste 的字尾 e 不發音。",
+   "lines": [
+    {
+     "fr": "J'aime beaucoup la musique et le cinéma.",
+     "zh": "我很喜歡音樂和電影。"
+    },
+    {
+     "fr": "Je n'aime pas du tout le froid.",
+     "zh": "我完全不喜歡寒冷。"
+    },
+    {
+     "fr": "Je préfère l'été à l'hiver.",
+     "zh": "比起冬天我更喜歡夏天。"
+    },
+    {
+     "fr": "Le week-end, j'adore lire.",
+     "zh": "週末我超愛看書。"
+    },
+    {
+     "fr": "Je déteste me lever tôt.",
+     "zh": "我討厭早起。"
+    },
+    {
+     "fr": "Et toi, qu'est-ce que tu aimes faire ?",
+     "zh": "那你呢，你喜歡做什麼？"
+    }
+   ]
+  },
+  {
+   "id": "projet",
+   "title": "Mes projets",
+   "zhTitle": "我的計畫",
+   "focus": "未來式 · 鼻母音",
+   "level": "A2",
+   "note": "★ Versailles 的 ailles 唸ㄞ；couramment 的雙 m + 鼻音。",
+   "lines": [
+    {
+     "fr": "L'année prochaine, je vais aller en France.",
+     "zh": "明年我要去法國。"
+    },
+    {
+     "fr": "Je vais rester à Paris pour deux semaines.",
+     "zh": "我打算在巴黎待兩個星期。"
+    },
+    {
+     "fr": "Je voudrais visiter le Louvre et Versailles.",
+     "zh": "我想參觀羅浮宮和凡爾賽宮。"
+    },
+    {
+     "fr": "J'espère pouvoir parler français là-bas.",
+     "zh": "我希望在那邊能說法文。"
+    },
+    {
+     "fr": "Dans cinq ans, je veux parler couramment.",
+     "zh": "五年後我想說得流利。"
+    },
+    {
+     "fr": "C'est mon objectif !",
+     "zh": "這是我的目標！"
+    }
+   ]
+  },
+  {
+   "id": "probleme",
+   "title": "Un petit problème",
+   "zhTitle": "遇到問題",
+   "focus": "R 小舌音 · 鼻母音",
+   "level": "A2",
+   "note": "★ problème 的 R + è；quelqu'un 的 un 鼻音。",
+   "lines": [
+    {
+     "fr": "Excusez-moi, j'ai un problème.",
+     "zh": "不好意思，我有個問題。"
+    },
+    {
+     "fr": "Ça fait plusieurs jours que l'internet est en panne.",
+     "zh": "網路已經壞好幾天了。"
+    },
+    {
+     "fr": "Vous pouvez envoyer quelqu'un ?",
+     "zh": "您可以派人來嗎？"
+    },
+    {
+     "fr": "Bien sûr. Quelqu'un viendra demain matin.",
+     "zh": "當然。明天早上會有人過去。"
+    },
+    {
+     "fr": "À quelle heure exactement ?",
+     "zh": "確切幾點？"
+    },
+    {
+     "fr": "Entre neuf et onze heures.",
+     "zh": "九點到十一點之間。"
+    }
+   ]
+  },
+  {
+   "id": "echange",
+   "title": "L'échange linguistique",
+   "zhTitle": "語言交換",
+   "focus": "對話節奏",
+   "level": "A2",
+   "note": "★ 這篇是給你跟朋友練習時「開口要求指導」用的，建議第一次見面就先唸這篇。",
+   "lines": [
+    {
+     "fr": "Merci de m'aider avec ma prononciation.",
+     "zh": "謝謝你幫我練發音。"
+    },
+    {
+     "fr": "Est-ce que tu peux me corriger, s'il te plaît ?",
+     "zh": "可以請你糾正我嗎？"
+    },
+    {
+     "fr": "Je répète après toi, d'accord ?",
+     "zh": "我跟著你唸，好嗎？"
+    },
+    {
+     "fr": "Est-ce que c'est mieux maintenant ?",
+     "zh": "現在有比較好嗎？"
+    },
+    {
+     "fr": "Tu peux le dire plus lentement ?",
+     "zh": "你可以說慢一點嗎？"
+    },
+    {
+     "fr": "Quelle est la différence entre ces deux sons ?",
+     "zh": "這兩個音的差別是什麼？"
+    },
+    {
+     "fr": "Merci, c'est très utile !",
+     "zh": "謝謝，真的很有幫助！"
+    }
+   ]
+  },
+  {
+   "id": "histoire",
+   "title": "Mon histoire",
+   "zhTitle": "我的故事（過去式練習）",
+   "focus": "複合過去式 · 未完成過去",
+   "level": "B1",
+   "note": "★ 這篇混合 imparfait（背景）和 passé composé（事件），是最進階的一篇。",
+   "lines": [
+    {
+     "fr": "Quand j'étais petit, j'habitais à la campagne.",
+     "zh": "我小時候住在鄉下。"
+    },
+    {
+     "fr": "Il y avait beaucoup d'arbres autour de la maison.",
+     "zh": "房子周圍有很多樹。"
+    },
+    {
+     "fr": "Un jour, ma famille a déménagé en ville.",
+     "zh": "有一天，我家搬到城市。"
+    },
+    {
+     "fr": "Au début, c'était difficile pour moi.",
+     "zh": "一開始對我來說很難。"
+    },
+    {
+     "fr": "Mais j'ai rencontré de nouveaux amis.",
+     "zh": "但我認識了新朋友。"
+    },
+    {
+     "fr": "Depuis, je vis en ville et j'aime beaucoup ça.",
+     "zh": "從那時起我就住在城市，而且我很喜歡。"
+    }
+   ]
+  }
+ ]
+}

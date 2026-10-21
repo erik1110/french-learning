@@ -12,6 +12,7 @@
 //   #/units/numbers       #/grammar/A1/3       #/verbs/aller
 //   #/dialogues/12        #/search?q=國籍
 //   #/game                #/game/cafe-bonjour
+//   #/speaking/words      #/speaking/texts/intro-1
 
 import { useEffect, useState } from 'react'
 
