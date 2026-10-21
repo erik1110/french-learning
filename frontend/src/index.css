@@ -3545,3 +3545,22 @@ kbd {
   border-left: 1px solid var(--border-strong);
   border-top: 1px solid var(--border-strong);
 }
+
+/* 單字卡浮窗的星星 */
+.w-pop-star {
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--border);
+  border-radius: var(--r-full);
+  background: var(--surface-2);
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+  transition: transform 0.12s ease, color 0.12s ease, background 0.12s ease;
+}
+.w-pop-star:hover { color: #f2b01e; border-color: #f2b01e; transform: scale(1.12); }
+.w-pop-star.on { background: var(--warn-soft); border-color: #f2b01e; color: #f2b01e; }
+.w-pop-head .w-pop-play { margin-left: auto; }

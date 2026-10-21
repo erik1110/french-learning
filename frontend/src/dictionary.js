@@ -416,6 +416,197 @@ export const GLOSS = {
   "l'heure": ['n.f 時間（la + heure）', 'Vous avez l’heure ?（幾點）'],
   "l'addition": ['n.f 帳單', 'L’addition, s’il vous plaît.'],
   "aujourd'hui": ['adv. 今天', ''],
+  /* ── 過去分詞（常見，直接收以免查不到）── */
+  travaillé: ['v. travailler 的過去分詞（工作過）', "j'ai travaillé"],
+  mangé: ['v. manger 的過去分詞（吃過）', ''],
+  habité: ['v. habiter 的過去分詞（住過）', ''],
+  fini: ['v. finir 的過去分詞（完成）', "j'ai fini"],
+  pris: ['v. prendre 的過去分詞（拿／搭過）', '同家族：appris、compris'],
+  appris: ['v. apprendre 的過去分詞（學過）', ''],
+  compris: ['v. comprendre 的過去分詞／已包含', 'C’est compris ?（有含嗎）'],
+  vu: ['v. voir 的過去分詞（看過）', ''],
+  dit: ['v. dire 的過去分詞（說過）', ''],
+  eu: ['v. avoir 的過去分詞（有過）', '唸 /y/，只有一個母音的音'],
+  loué: ['v. louer 的過去分詞（租了）', ''],
+  repeint: ['v. repeindre 的過去分詞（重漆了）', ''],
+  déménagé: ['v. déménager 的過去分詞（搬家了）', ''],
+  allé: ['v. aller 的過去分詞（去了）', '★ 用 être，陰性 allée'],
+  allée: ['v. aller 的過去分詞（陰性）', '女生說 je suis allée'],
+  venu: ['v. venir 的過去分詞（來了）', '★ 用 être'],
+  arrivé: ['v. arriver 的過去分詞（到了）', '★ 用 être'],
+  parti: ['v. partir 的過去分詞（離開了）', '★ 用 être'],
+  partis: ['v. partir 的過去分詞（複數）', 'nous sommes partis'],
+  sorti: ['v. sortir 的過去分詞（出去了）', '★ 用 être'],
+  resté: ['v. rester 的過去分詞（留下了）', '★ 用 être'],
+  descendu: ['v. descendre 的過去分詞（下來了）', ''],
+  mort: ['v. mourir 的過去分詞／n.m 死亡', '★ 最不規則的一個'],
+  né: ['v. naître 的過去分詞（出生）', '女生 née'],
+  devenu: ['v. devenir 的過去分詞（成為）', ''],
+  été: ['v. être 的過去分詞／n.m 夏天', '★ 一字兩義：j’ai été（我曾是）／en été（在夏天）'],
+  mariés: ['adj. 已婚的（複數）', 'Ils sont mariés depuis…'],
+
+  /* ── 動詞變位補充 ── */
+  pars: ['v. partir 的 je/tu（出發）', ''],
+  part: ['v. partir 的 il（出發）', ''],
+  parle: ['v. parler 的 je/il（說）', ''],
+  mange: ['v. manger 的 je/il（吃）', ''],
+  bois: ['v. boire 的 je/tu（喝）／n.m 木頭', ''],
+  lire: ['v. 讀', '過去分詞 lu'],
+  voit: ['v. voir 的 il（看見）', ''],
+  regarde: ['v. regarder 的 je/il（看）', 'se regarder = 照鏡子'],
+  commence: ['v. commencer 的 je/il（開始）', ''],
+  tombe: ['v. tomber 的 je/il（落下、跌倒）', 'la pluie tombe'],
+  brille: ['v. briller 的 il（照耀）', 'le soleil brille'],
+  connaissez: ['v. connaître 的 vous（認識）', 'Vous vous connaissez ?'],
+  pourrais: ['v. pouvoir 的委婉形（能夠）', 'Est-ce que je pourrais… ?（可以給我…嗎）'],
+  déteste: ['v. détester 的 je/il（討厭）', ''],
+  payer: ['v. 付錢', 'payer par carte 刷卡'],
+  déménager: ['v. 搬家', ''],
+  voyager: ['v. 旅行', ''],
+  "j'adore": ['v. 我超愛（je + adore）', '比 j’aime 更強烈'],
+  "j'avais": ['v. 我（當時）有（avoir 的 imparfait）', 'j’avais fini = 我已經完成了'],
+  "j'habitais": ['v. 我（那時）住（habiter 的 imparfait）', ''],
+
+  /* ── 地名 ── */
+  paris: ['n.pr. 巴黎', '★ 字尾 s 不發音'],
+  lyon: ['n.pr. 里昂', '法國第二大城'],
+  berlin: ['n.pr. 柏林', ''],
+  rome: ['n.pr. 羅馬', ''],
+  taipei: ['n.pr. 台北', 'j’habite à Taipei'],
+  japon: ['n.pr. 日本', '陽性 → au Japon'],
+  chine: ['n.pr. 中國', '陰性 → en Chine'],
+  france: ['n.pr. 法國', '陰性 → en France'],
+  portugal: ['n.pr. 葡萄牙', '陽性 → au Portugal'],
+  suisse: ['n.pr. 瑞士', '陰性 → en Suisse'],
+  'états-unis': ['n.pr. 美國', '複數 → aux États-Unis'],
+
+  /* ── 常見名詞補充 ── */
+  ici: ['adv. 這裡', 'j’habite ici'],
+  minutes: ['n.f 分鐘', 'dans dix minutes'],
+  devoirs: ['n.m 功課', '★ 永遠用複數：faire ses devoirs'],
+  panne: ['n.f 故障', '★ en panne 是固定片語不加冠詞'],
+  ménage: ['n.m 家務', 'faire le ménage 打掃'],
+  livre: ['n.m 書／n.f 半公斤', '★ un livre（書）≠ une livre（500 克）'],
+  livres: ['n.m 書（複數）', 'beaucoup de livres'],
+  pommes: ['n.f 蘋果', 'des pommes'],
+  gâteaux: ['n.m 蛋糕（複數）', '單數 gâteau'],
+  fruits: ['n.m 水果', ''],
+  pizza: ['n.f 披薩', ''],
+  jus: ['n.m 果汁', 'un jus d’orange'],
+  boisson: ['n.f 飲料', 'Et comme boisson ?（那飲料呢）'],
+  carafe: ['n.f 水壺', 'une carafe d’eau 免費自來水'],
+  pot: ['n.m 罐（要轉開的）', 'un pot de moutarde'],
+  plaquette: ['n.f 一條（奶油）', 'une plaquette de beurre'],
+  beurre: ['n.m 奶油', ''],
+  appartement: ['n.m 公寓', ''],
+  euros: ['n.m 歐元', 'Ça fait 10 euros.'],
+  film: ['n.m 電影', ''],
+  sport: ['n.m 運動', 'faire du sport'],
+  tennis: ['n.m 網球', 'jouer au tennis'],
+  natation: ['n.f 游泳', 'faire de la natation'],
+  mer: ['n.f 海', 'à la mer 去海邊'],
+  montagne: ['n.f 山', 'à la montagne 去山上'],
+  printemps: ['n.m 春天', '★ 唯一用 au 的季節：au printemps'],
+  automne: ['n.m 秋天', 'en automne'],
+  'rendez-vous': ['n.m 約會、預約', 'prendre rendez-vous'],
+  peur: ['n.f 害怕', 'avoir peur 害怕'],
+  longtemps: ['adv. 很久', 'Ça fait longtemps !（好久不見）'],
+  'avant-hier': ['adv. 前天', ''],
+  dernière: ['adj. 上一個（陰性）', 'l’année dernière 去年'],
+  quelques: ['adj. 幾個', '比 plusieurs 少'],
+  plusieurs: ['adj. 好幾個', '★ 後面直接接複數名詞，不加 de'],
+  tous: ['adj. 全部（陽性複數）', 'tous les jours 每天'],
+  comme: ['conj./prép. 像、當作', 'comme d’habitude 像平常一樣'],
+  par: ['prép. 經由、每', 'payer par carte 刷卡'],
+  'excusez-moi': ['片語 不好意思', '叫住陌生人時用'],
+
+  /* ── 職業與人 ── */
+  écrivain: ['n.m 作家', ''],
+  chanteuse: ['n.f 女歌手', '男生 chanteur'],
+  acteur: ['n.m 男演員', '女生 actrice'],
+  actrice: ['n.f 女演員', ''],
+  réalisateur: ['n.m 導演', ''],
+  couturier: ['n.m 服裝設計師', ''],
+  cuisinier: ['n.m 廚師', ''],
+  joueuse: ['n.f 女選手', '男生 joueur'],
+  japonais: ['adj./n.m 日本的、日文', '語言一律陽性'],
+  chinoise: ['adj. 中國的（陰性）', '男生 chinois'],
+
+  /* ── 形容詞補充 ── */
+  pluvieux: ['adj. 多雨的', '← la pluie'],
+  nuageux: ['adj. 多雲的', '← un nuage'],
+  orageux: ['adj. 有雷雨的', '← un orage'],
+  ensoleillé: ['adj. 晴朗的', '← le soleil'],
+  rose: ['adj./n.f 粉紅色／玫瑰', ''],
+  bleu: ['adj. 藍色的', 'en bleu'],
+  demi: ['adj. 一半', 'midi et demi（陽性不加 e）'],
+  /* ── 最後補齊 ── */
+  chocolat: ['n.m 巧克力', 'une tablette de chocolat 一板巧克力'],
+  cuisine: ['n.f 廚房／烹飪', '★ 一字兩義：faire la cuisine 是「做菜」'],
+  thé: ['n.m 茶', 'un thé vert 綠茶'],
+  fille: ['n.f 女孩、女兒', '★ ille 唸ㄧ，l 不發 l 的音'],
+  garçon: ['n.m 男孩、兒子', ''],
+  plat: ['n.m 一道菜／adj. 平的', 'le plat du jour 今日主菜'],
+  tomber: ['v. 跌倒、落下', '★ 用 être：la neige tombe'],
+  lever: ['v. 抬起', '★ se lever ＝ 起床，跟 laver（洗）只差一個母音'],
+  langue: ['n.f 語言、舌頭', 'une école de langue 語言學校'],
+  futur: ['n.m/adj. 未來', 'le futur proche 近未來式'],
+  souffle: ['v. souffler 的 il（吹）', 'le vent souffle 起風'],
+  orage: ['n.m 雷雨', '形容詞 orageux'],
+  shopping: ['n.m 購物', '英文外來語：faire du shopping'],
+  'dix-neuf': ['num. 十九', ''],
+  'dix-sept': ['num. 十七', ''],
+  'dix-huit': ['num. 十八', ''],
+  'quarante-cinq': ['num. 四十五', '★ 跟 quatre-vingt-cinq（85）要分清楚'],
+  'vingt-cinq': ['num. 二十五', ''],
+  'quatre-vingts': ['num. 八十', '★ 字面是「四個二十」'],
+  'soixante-dix': ['num. 七十', '★ 字面是「六十加十」'],
+  marcher: ['v. 走路／運作', '★ Ça ne marche pas ＝ 壞掉了'],
+  marche: ['v. marcher 的 je/il／n.f 階梯', 'Ça marche !（沒問題）'],
+  appeler: ['v. 叫、打電話', "s'appeler ＝ 名叫"],
+  arrêter: ['v. 停止', "s'arrêter ＝ 停下來"],
+  écouter: ['v. 聽', ''],
+  regarder: ['v. 看', 'se regarder ＝ 照鏡子'],
+  montrer: ['v. 給…看', ''],
+  essayer: ['v. 試、試穿', ''],
+  oublier: ['v. 忘記', ''],
+  apporter: ['v. 帶來', ''],
+  entrer: ['v. 進入', '★ 用 être'],
+  monter: ['v. 上去', '★ 用 être（有受詞時用 avoir）'],
+  descendre: ['v. 下來', '★ 用 être（有受詞時用 avoir）'],
+  naître: ['v. 出生', '★ 用 être，過去分詞 né'],
+  mourir: ['v. 死亡', '★ 用 être，過去分詞 mort'],
+  devenir: ['v. 成為', '★ venir 家族，用 être'],
+  revenir: ['v. 再回來', '回到「這裡」'],
+  retourner: ['v. 返回', '回到「別的地方」'],
+  rejoindre: ['v. 來會合', 'Tu me rejoindras 你會來找我'],
+  louer: ['v. 租', "J'ai loué un appartement pour six mois."],
+  repeindre: ['v. 重新油漆', '★ re- ＝ 再一次'],
+  peindre: ['v. 油漆、繪畫', '過去分詞 peint'],
+  attendre: ['v. 等', '過去分詞 attendu'],
+  rendre: ['v. 歸還', ''],
+  vendre: ['v. 賣', ''],
+  perdre: ['v. 遺失', '過去分詞 perdu'],
+  moutarde: ['n.f 芥末醬', 'un pot de moutarde'],
+  fraises: ['n.f 草莓', 'une barquette de fraises'],
+  farine: ['n.f 麵粉', 'de la farine'],
+  huile: ['n.f 油', "une bouteille d'huile"],
+  thon: ['n.m 鮪魚', 'une boîte de thon'],
+  pâtes: ['n.f 義大利麵', '★ 永遠複數；單數 la pâte 是麵糰'],
+  fleurs: ['n.f 花', 'un bouquet de fleurs'],
+  douzaine: ['n.f 一打（12）', "une douzaine d'œufs"],
+  tablette: ['n.f 一板（巧克力）', ''],
+  tube: ['n.m 軟管', 'un tube de dentifrice'],
+  barquette: ['n.f 淺盒', ''],
+  canette: ['n.f 鋁罐', 'une canette de Coca'],
+  bouquet: ['n.m 花束', ''],
+  litre: ['n.m 公升', ''],
+  gramme: ['n.m 公克', 'cent grammes de sucre'],
+  'vacances': ['n.f 假期', '★ 永遠用複數：en vacances'],
+  études: ['n.f 學業', '★ 永遠用複數：finir ses études 畢業'],
+  internet: ['n.m 網路', "L'internet est en panne."],
+  accident: ['n.m 意外', 'dans un accident'],
+  président: ['n.m 總統', '職業不加冠詞'],
 }
 
 /** 把一個詞正規化成查表用的 key。 */
@@ -440,9 +631,33 @@ export function lookup(word) {
   const elided = w.replace(/^[a-zà-ÿ]{1,2}'/, '')
   if (elided !== w) tries.push(elided)
   if (w.endsWith('s') && w.length > 3) tries.push(w.slice(0, -1))
+  if (w.endsWith('e') && w.length > 3) tries.push(w.slice(0, -1))
   for (const k of tries) {
     const hit = GLOSS[k]
     if (hit) return { word: k, pos: hit[0], note: hit[1] }
+  }
+
+  // Regular -er verbs: the past participle and most present forms are just the
+  // stem plus an ending, so derive them instead of listing every single one.
+  const stem = w.replace(/(é|e|es|ent|ons|ez|ais|ait|aient|era|erai|eras)$/, '')
+  if (stem.length > 2) {
+    const base = GLOSS[`${stem}er`]
+    if (base) {
+      const inf = `${stem}er`
+      if (w === `${stem}é`) return { word: w, pos: `${base[0]}（過去分詞）`, note: `原形 ${inf}。${base[1]}` }
+      return { word: w, pos: `${base[0]}（變位）`, note: `原形 ${inf}。${base[1]}` }
+    }
+  }
+
+  // Feminine / plural adjective forms: belle → beau is irregular, but -e / -s
+  // on a known adjective is not worth a separate entry.
+  for (const suffix of ['es', 'e', 's']) {
+    if (!w.endsWith(suffix)) continue
+    const bare = w.slice(0, -suffix.length)
+    const hit = GLOSS[bare]
+    if (hit && /^adj\./.test(hit[0])) {
+      return { word: bare, pos: hit[0], note: hit[1] }
+    }
   }
   return null
 }

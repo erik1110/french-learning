@@ -5,6 +5,7 @@ import { speakFrench, speakFrenchSequence, stopSpeaking, subscribeSpeaking } fro
 import { genderOf, hintsFor, isSentence, zhuyinFor } from './pronunciation'
 import { lookup } from './dictionary'
 import { getCardState, masteryOf } from './srs'
+import { bankedWord, toggleWordInBank } from './store'
 
 /* ------------------------------ speech helpers ---------------------------- */
 
@@ -473,14 +474,17 @@ export function SpeakableItems({ items }) {
  * out of sync while the page scrolls.
  */
 function Word({ raw }) {
-  // `pinned` survives the mouse leaving; `hover` doesn't. Clicking pins the
-  // card open so you can move onto it, select text, or hit 🔊 without racing
-  // the pointer.
+  // Two dismiss speeds, both automatic: a quick one for a card you merely
+  // brushed past, and a slow one for a card you deliberately pinned — long
+  // enough to read it, short enough that you never have to tidy up.
   const [hover, setHover] = useState(false)
   const [pinned, setPinned] = useState(false)
   // Flip below the word when there isn't room above (first line of a section
   // would otherwise slide under the sticky top bar).
   const [below, setBelow] = useState(false)
+  // Read the bank lazily — only when a card actually opens, so hovering doesn't
+  // hit localStorage for every word on the page.
+  const [starred, setStarred] = useState(null)
   const closeTimer = useRef(null)
   const ref = useRef(null)
   const entry = useMemo(() => lookup(raw), [raw])
@@ -506,11 +510,18 @@ function Word({ raw }) {
     clearTimeout(closeTimer.current)
     const top = ref.current?.getBoundingClientRect().top ?? 999
     setBelow(top < 190)
+    if (entry) setStarred(Boolean(bankedWord(entry.word)))
     setHover(true)
   }
   function leave() {
     clearTimeout(closeTimer.current)
-    closeTimer.current = setTimeout(() => setHover(false), 220)
+    closeTimer.current = setTimeout(
+      () => {
+        setHover(false)
+        setPinned(false)
+      },
+      pinned ? 2000 : 220,
+    )
   }
 
   if (!entry) return <span>{raw}</span>
@@ -559,11 +570,23 @@ function Word({ raw }) {
             >
               🔊
             </button>
+            <button
+              type="button"
+              className={starred ? 'w-pop-star on' : 'w-pop-star'}
+              title={starred ? '已在單字庫，點一下移除' : '加入我的單字庫'}
+              aria-pressed={Boolean(starred)}
+              onClick={(e) => {
+                e.stopPropagation()
+                setStarred(toggleWordInBank(entry.word, entry.pos))
+              }}
+            >
+              {starred ? '★' : '☆'}
+            </button>
             {pinned && (
               <button
                 type="button"
                 className="w-pop-close"
-                title="關閉"
+                title="立刻關閉"
                 onClick={(e) => {
                   e.stopPropagation()
                   setPinned(false)
@@ -577,7 +600,13 @@ function Word({ raw }) {
           <span className="w-pop-pos">{entry.pos}</span>
           {zy?.[1] && <span className="w-pop-tip">發音：{zy[1]}</span>}
           {entry.note && <span className="w-pop-note">{entry.note}</span>}
-          {!pinned && <span className="w-pop-hint">點單字可以釘住這張卡</span>}
+          <span className="w-pop-hint">
+            {starred
+              ? '★ 已加入單字庫，可以在「我的單字庫」和每日複習裡練'
+              : pinned
+                ? '已釘住 · 滑鼠離開 2 秒後自動關閉'
+                : '點單字可以釘住 · 按 ☆ 加入單字庫'}
+          </span>
         </span>
       )}
     </span>

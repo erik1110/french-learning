@@ -11954,5 +11954,2036 @@
         "why": "★ 課本兩張麵包圖就是在對比這個：une tranche de pain（片）vs un morceau de pain（塊，老師註「不規則形」）。"
       }
     ]
+  },
+  {
+    "id": "ca-fait-que",
+    "date": "2026-10-21",
+    "title": "ÇA FAIT... QUE... — 「已經…多久了」的另一種說法",
+    "summary": "同一句「網路已經壞好幾天了」，法文有兩種寫法：把時間放句尾用 depuis，或把時間提到句首用 ça fait... que...。這一課把兩種句型的轉換練熟，順便補上 plusieurs、en panne 等實用字。",
+    "sections": [
+      {
+        "heading": "① 課堂的兩個句子 — 先看它們在講同一件事",
+        "note": "★ 老師給的兩句意思完全一樣，只是「時間放哪裡」不同。這就是今天的全部重點。",
+        "items": [
+          {
+            "fr": "Ça fait plusieurs jours que l'internet est en panne.",
+            "zh": "★ 網路已經壞好幾天了。（時間放「前面」，用 ça fait... que...）"
+          },
+          {
+            "fr": "L'internet est en panne depuis plusieurs jours.",
+            "zh": "★ 網路已經壞好幾天了。（時間放「後面」，用 depuis）"
+          },
+          {
+            "fr": "Ça fait plusieurs jours.",
+            "zh": "已經好幾天了。（單獨講時間，後面不接句子時就不用 que）"
+          },
+          {
+            "fr": "Il est en panne depuis plusieurs jours.",
+            "zh": "它已經壞好幾天了。（il 代替 l'internet）"
+          },
+          {
+            "fr": "Ça fait plusieurs jours que... = ... depuis plusieurs jours.",
+            "zh": "兩句可以互換：意思、時態完全一樣，差別只在語氣的重點放哪裡。"
+          }
+        ]
+      },
+      {
+        "heading": "② ★ 兩個公式並排看",
+        "note": "★ 把句子拆成「時間」和「事情」兩塊，就看得出來它們只是前後對調。",
+        "items": [
+          {
+            "fr": "Ça fait ＋ 時間 ＋ que ＋ 句子",
+            "zh": "【時間在前】Ça fait trois ans que j'habite ici."
+          },
+          {
+            "fr": "句子 ＋ depuis ＋ 時間",
+            "zh": "【時間在後】J'habite ici depuis trois ans."
+          },
+          {
+            "fr": "Ça fait trois ans que j'habite ici.",
+            "zh": "我住這裡三年了。（強調「三年」這段時間）"
+          },
+          {
+            "fr": "J'habite ici depuis trois ans.",
+            "zh": "我住這裡三年了。（強調「我住這裡」這件事）"
+          },
+          {
+            "fr": "★ que 不能省略",
+            "zh": "用 ça fait 的時候，後面接句子就一定要有 que 當連接詞。"
+          },
+          {
+            "fr": "Ça fait trois ans.",
+            "zh": "已經三年了。（沒接句子，就不用 que）"
+          }
+        ]
+      },
+      {
+        "heading": "③ ★★ 兩種句型都配「現在式」",
+        "note": "★ 這是最容易錯的地方：中文說「已經…了」，聽起來像過去式，但事情「現在還在繼續」，所以法文一律用現在式。",
+        "items": [
+          {
+            "fr": "Ça fait trois ans que j'habite ici.",
+            "zh": "✓ 我住這裡三年了。（現在還住 → habite 現在式）"
+          },
+          {
+            "fr": "Ça fait trois ans que j'ai habité ici.",
+            "zh": "✗ 錯。還在繼續的事不能用過去式。"
+          },
+          {
+            "fr": "Ça fait deux heures que j'attends.",
+            "zh": "我等兩個小時了。（現在還在等）"
+          },
+          {
+            "fr": "Ça fait longtemps qu'on ne s'est pas vus.",
+            "zh": "★ 例外：好久不見了。（否定句才會用過去式，因為「沒見到」是已完成的狀態）"
+          },
+          {
+            "fr": "Ils sont mariés depuis quatre ans.",
+            "zh": "他們結婚四年了。（現在還是夫妻）"
+          },
+          {
+            "fr": "Ça fait quatre ans qu'ils sont mariés.",
+            "zh": "同一句話的另一種寫法。"
+          }
+        ]
+      },
+      {
+        "heading": "④ ★ 跟 pendant 和 il y a 的差別（接 9/28 的課）",
+        "note": "★ 三個都在講時間長度，但「事情結不結束」完全不同。這一節把上次學的一起複習。",
+        "items": [
+          {
+            "fr": "Ça fait trois ans que j'habite ici.",
+            "zh": "【還在繼續】我住這裡三年了，現在還住。"
+          },
+          {
+            "fr": "J'habite ici depuis trois ans.",
+            "zh": "【還在繼續】同上，兩種寫法都對。"
+          },
+          {
+            "fr": "J'ai habité ici pendant trois ans.",
+            "zh": "【已結束】我在這裡住過三年，現在不住了。"
+          },
+          {
+            "fr": "J'ai habité ici il y a trois ans.",
+            "zh": "【已結束】我三年前住在這裡。"
+          },
+          {
+            "fr": "ça fait que, depuis / pendant, il y a",
+            "zh": "★ 判斷法：現在還在做嗎？還在 → ça fait... que / depuis（配現在式）；結束了 → pendant / il y a（配過去式）。"
+          },
+          {
+            "fr": "Ça fait deux heures que je travaille.",
+            "zh": "我已經工作兩小時了。（還在工作）"
+          },
+          {
+            "fr": "J'ai travaillé pendant deux heures.",
+            "zh": "我工作了兩小時。（已經做完了）"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 怎麼問「多久了？」",
+        "note": "兩種句型各有自己的問法，回答時用對應的句型最自然。",
+        "items": [
+          {
+            "fr": "Ça fait combien de temps que tu habites ici ?",
+            "zh": "你住這裡多久了？"
+          },
+          {
+            "fr": "Ça fait trois ans.",
+            "zh": "三年了。（回答可以很短，不用重複整句）"
+          },
+          {
+            "fr": "Depuis combien de temps tu habites ici ?",
+            "zh": "你住這裡多久了？（另一種問法）"
+          },
+          {
+            "fr": "Depuis trois ans.",
+            "zh": "三年了。"
+          },
+          {
+            "fr": "Depuis quand ?",
+            "zh": "從什麼時候開始？（問「起點」不是「長度」）"
+          },
+          {
+            "fr": "Depuis 2023.",
+            "zh": "從 2023 年開始。"
+          },
+          {
+            "fr": "Ça fait combien de temps que tu apprends le français ?",
+            "zh": "你學法文多久了？"
+          },
+          {
+            "fr": "Ça fait six mois que j'apprends le français.",
+            "zh": "我學法文六個月了。"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ 第三種說法：Il y a ＋ 時間 ＋ que",
+        "note": "★ 補充：還有一個同義句型，用法跟 ça fait... que 一模一樣，只是比較書面一點。注意它跟「il y a ＋ 時間」（…之前）長得很像但意思相反。",
+        "items": [
+          {
+            "fr": "Il y a trois ans que j'habite ici.",
+            "zh": "我住這裡三年了。（＝ ça fait trois ans que…）"
+          },
+          {
+            "fr": "J'ai déménagé il y a trois ans.",
+            "zh": "我三年前搬家了。（★ 沒有 que，變成「…之前」，事情已結束）"
+          },
+          {
+            "fr": "★ 差別就在有沒有 que",
+            "zh": "有 que → 還在繼續；沒有 que → 三年前的某個時間點。"
+          },
+          {
+            "fr": "Voilà trois ans que j'habite ici.",
+            "zh": "我住這裡三年了。（第四種說法，口語偶爾會聽到）"
+          },
+          {
+            "fr": "Ça fait / Il y a / Voilà trois ans que j'habite ici.",
+            "zh": "三種同義寫法：Ça fait / Il y a / Voilà ＋ 時間 ＋ que ＋ 句子，意思完全一樣。"
+          }
+        ]
+      },
+      {
+        "heading": "⑦ 課堂單字：en panne 與相關說法",
+        "note": "★ 今天例句裡的實用字，東西壞掉、出問題時天天用得到。",
+        "items": [
+          {
+            "fr": "en panne",
+            "zh": "故障、壞掉（★ 固定片語，不加冠詞）"
+          },
+          {
+            "fr": "une panne",
+            "zh": "一次故障"
+          },
+          {
+            "fr": "L'internet est en panne.",
+            "zh": "網路壞了。"
+          },
+          {
+            "fr": "L'ascenseur est en panne.",
+            "zh": "電梯故障了。"
+          },
+          {
+            "fr": "Ma voiture est en panne.",
+            "zh": "我的車拋錨了。"
+          },
+          {
+            "fr": "tomber en panne",
+            "zh": "（突然）故障、拋錨"
+          },
+          {
+            "fr": "Je suis tombé en panne sur l'autoroute.",
+            "zh": "我在高速公路上拋錨了。"
+          },
+          {
+            "fr": "Ça ne marche pas.",
+            "zh": "這個不能用／壞掉了。（最口語的說法）"
+          },
+          {
+            "fr": "Ça ne fonctionne pas.",
+            "zh": "這個無法運作。（比較正式）"
+          },
+          {
+            "fr": "réparer",
+            "zh": "修理"
+          },
+          {
+            "fr": "Il faut le réparer.",
+            "zh": "得把它修好。"
+          }
+        ]
+      },
+      {
+        "heading": "⑧ 課堂單字：plusieurs 與其他數量詞",
+        "note": "★ plusieurs ＝「好幾個」，比 quelques（幾個）多，但沒有 beaucoup（很多）那麼多。",
+        "items": [
+          {
+            "fr": "plusieurs",
+            "zh": "好幾個（★ 單複數同形，後面直接接複數名詞，不加 de）"
+          },
+          {
+            "fr": "plusieurs jours",
+            "zh": "好幾天"
+          },
+          {
+            "fr": "plusieurs fois",
+            "zh": "好幾次"
+          },
+          {
+            "fr": "plusieurs personnes",
+            "zh": "好幾個人"
+          },
+          {
+            "fr": "quelques",
+            "zh": "幾個（數量比 plusieurs 少）"
+          },
+          {
+            "fr": "quelques jours",
+            "zh": "幾天"
+          },
+          {
+            "fr": "★ plusieurs 後面不加 de",
+            "zh": "✓ plusieurs jours｜✗ plusieurs de jours。跟 beaucoup de 不一樣。"
+          },
+          {
+            "fr": "beaucoup de jours",
+            "zh": "很多天（★ beaucoup 要加 de）"
+          },
+          {
+            "fr": "longtemps",
+            "zh": "很久"
+          },
+          {
+            "fr": "Ça fait longtemps !",
+            "zh": "好久不見！"
+          }
+        ]
+      },
+      {
+        "heading": "⑨ 用今天的句型講自己的事",
+        "note": "把句型套進日常生活，這些是真的會用到的句子。",
+        "items": [
+          {
+            "fr": "Ça fait trois ans que j'apprends le français.",
+            "zh": "我學法文三年了。"
+          },
+          {
+            "fr": "Ça fait deux heures que je t'attends !",
+            "zh": "我等你兩個小時了！"
+          },
+          {
+            "fr": "Ça fait longtemps qu'on ne s'est pas vus.",
+            "zh": "我們好久不見了。"
+          },
+          {
+            "fr": "Ça fait une semaine que je suis malade.",
+            "zh": "我生病一個星期了。"
+          },
+          {
+            "fr": "Ça fait cinq ans que je travaille ici.",
+            "zh": "我在這裡工作五年了。"
+          },
+          {
+            "fr": "Ça fait combien de temps que tu es à Paris ?",
+            "zh": "你來巴黎多久了？"
+          },
+          {
+            "fr": "Ça fait six mois.",
+            "zh": "六個月了。"
+          },
+          {
+            "fr": "Ça fait des années que je veux visiter la France.",
+            "zh": "我想去法國好多年了。"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★★ 兩種句型講同一件事：Ça fait ＋ 時間 ＋ que ＋ 句子 ＝ 句子 ＋ depuis ＋ 時間。",
+      "課堂例句：Ça fait plusieurs jours que l'internet est en panne. ＝ L'internet est en panne depuis plusieurs jours.",
+      "★ 用 ça fait 時，後面接句子一定要有 que；只講時間（Ça fait trois ans.）就不用。",
+      "★★ 兩種句型都配「現在式」，因為事情還在繼續。中文的「已經…了」會讓人誤以為要用過去式。",
+      "跟上次的課對照：還在繼續 → ça fait que / depuis（現在式）；已結束 → pendant / il y a（過去式）。",
+      "問法：Ça fait combien de temps que… ? 或 Depuis combien de temps… ?；問起點用 Depuis quand ?",
+      "同義句型還有 Il y a ＋ 時間 ＋ que（有 que 才是「已經多久」，沒 que 就變成「…之前」）。",
+      "★ en panne ＝ 故障，是固定片語不加冠詞：L'internet est en panne.",
+      "★ plusieurs（好幾個）後面直接接複數名詞，不加 de：✓ plusieurs jours｜✗ plusieurs de jours。",
+      "否定句是唯一會配過去式的情況：Ça fait longtemps qu'on ne s'est pas vus.（好久不見）"
+    ],
+    "drill": [
+      {
+        "fr": "Ça fait plusieurs jours que l'internet est en panne.",
+        "zh": "網路已經壞好幾天了。"
+      },
+      {
+        "fr": "L'internet est en panne depuis plusieurs jours.",
+        "zh": "網路已經壞好幾天了。（另一種寫法）"
+      },
+      {
+        "fr": "Ça fait plusieurs jours.",
+        "zh": "已經好幾天了。"
+      },
+      {
+        "fr": "Ça fait trois ans que j'habite ici.",
+        "zh": "我住這裡三年了。"
+      },
+      {
+        "fr": "J'habite ici depuis trois ans.",
+        "zh": "我住這裡三年了。（另一種寫法）"
+      },
+      {
+        "fr": "Ça fait deux heures que j'attends.",
+        "zh": "我等兩個小時了。"
+      },
+      {
+        "fr": "Ça fait combien de temps que tu habites ici ?",
+        "zh": "你住這裡多久了？"
+      },
+      {
+        "fr": "Ça fait longtemps qu'on ne s'est pas vus.",
+        "zh": "我們好久不見了。"
+      },
+      {
+        "fr": "Ma voiture est en panne.",
+        "zh": "我的車拋錨了。"
+      },
+      {
+        "fr": "Ça ne marche pas.",
+        "zh": "這個壞掉了／不能用。"
+      },
+      {
+        "fr": "Ça fait trois ans que j'apprends le français.",
+        "zh": "我學法文三年了。"
+      },
+      {
+        "fr": "Ça fait longtemps !",
+        "zh": "好久不見！"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "「網路壞好幾天了」用 ça fait 怎麼說？",
+        "options": [
+          "Ça fait plusieurs jours que l'internet est en panne.",
+          "Ça fait plusieurs jours l'internet est en panne.",
+          "Ça fait que plusieurs jours l'internet est en panne."
+        ],
+        "answer": 0,
+        "why": "★ 公式：Ça fait ＋ 時間 ＋ que ＋ 句子。que 放在時間後面，不能省略也不能提前。"
+      },
+      {
+        "q": "Ça fait trois ans que j'habite ici. 換成 depuis 要怎麼寫？",
+        "options": [
+          "J'habite ici depuis trois ans.",
+          "J'ai habité ici depuis trois ans.",
+          "Je habite ici depuis trois ans."
+        ],
+        "answer": 0,
+        "why": "把時間移到句尾、拿掉 que 就好，動詞一樣是現在式。"
+      },
+      {
+        "q": "用 ça fait... que 時，後面的動詞要用什麼時態？",
+        "options": [
+          "現在式（事情還在繼續）",
+          "複合過去式",
+          "未來式"
+        ],
+        "answer": 0,
+        "why": "★ 中文說「已經…了」聽起來像過去，但事情現在還在繼續，所以用現在式。"
+      },
+      {
+        "q": "只說「已經三年了」（後面不接句子）要怎麼寫？",
+        "options": [
+          "Ça fait trois ans.",
+          "Ça fait que trois ans.",
+          "Ça fait trois ans que."
+        ],
+        "answer": 0,
+        "why": "沒有接句子時就不需要 que。"
+      },
+      {
+        "q": "Ça fait trois ans que j'habite ici 和 J'ai habité ici pendant trois ans 差在哪？",
+        "options": [
+          "前者現在還住，後者已經搬走了",
+          "意思一樣",
+          "前者比較正式"
+        ],
+        "answer": 0,
+        "why": "★ ça fait que / depuis → 還在繼續；pendant → 已經結束。"
+      },
+      {
+        "q": "「你學法文多久了？」怎麼問？",
+        "options": [
+          "Ça fait combien de temps que tu apprends le français ?",
+          "Ça fait quand que tu apprends le français ?",
+          "Depuis quand de temps tu apprends le français ?"
+        ],
+        "answer": 0,
+        "why": "問「多久」用 combien de temps；問「從何時」才用 Depuis quand ?"
+      },
+      {
+        "q": "en panne 是什麼意思？",
+        "options": [
+          "故障、壞掉",
+          "很忙",
+          "在旅行"
+        ],
+        "answer": 0,
+        "why": "★ 固定片語不加冠詞：L'internet est en panne.（網路壞了）"
+      },
+      {
+        "q": "「好幾天」正確的寫法是？",
+        "options": [
+          "plusieurs jours",
+          "plusieurs de jours",
+          "plusieurs des jours"
+        ],
+        "answer": 0,
+        "why": "★ plusieurs 後面直接接複數名詞，不加 de。這跟 beaucoup de 不一樣。"
+      },
+      {
+        "q": "Il y a trois ans que j'habite ici 和 J'ai déménagé il y a trois ans 差在哪？",
+        "options": [
+          "有 que 是「已經三年了」，沒 que 是「三年前」",
+          "意思一樣",
+          "前者是錯的"
+        ],
+        "answer": 0,
+        "why": "★ 關鍵就在 que：有 que → 還在繼續；沒 que → 過去的某個時間點。"
+      },
+      {
+        "q": "「好久不見」怎麼說？",
+        "options": [
+          "Ça fait longtemps qu'on ne s'est pas vus.",
+          "Ça fait longtemps qu'on ne se voit pas.",
+          "Ça fait longtemps qu'on se voit."
+        ],
+        "answer": 0,
+        "why": "★ 這是唯一會配過去式的情況：否定的「沒見到」是已完成的狀態，所以用複合過去式。"
+      }
+    ]
+  },
+  {
+    "id": "pour-en-duree",
+    "date": "2026-10-21",
+    "title": "LA DURÉE — 六個時間介係詞總整理（il y a · depuis · pendant · dans · pour · en）",
+    "summary": "老師板書的六個字：il y a、depuis、pendant、dans、pour、en，再加上 ça fait... que，就是法文講「時間長度」的全部。這一課把每一個的定義、時態、例句、常見錯誤逐一整理，最後用一張對照表收尾。",
+    "sections": [
+      {
+        "heading": "① POUR：做一件事的「計畫」",
+        "note": "★ 老師的標題就是重點：POUR 用來講「打算做多久」。事情可能還沒開始，或講的是當初的打算，不保證實際結果。",
+        "items": [
+          {
+            "fr": "Je suis à Paris pour deux ans.",
+            "zh": "★ 課堂例句：我來巴黎待兩年。（當初的計畫是兩年）"
+          },
+          {
+            "fr": "J'ai loué un appartement pour six mois.",
+            "zh": "★ 課堂例句：我租了一間公寓，租期六個月。（合約上講好的期間）"
+          },
+          {
+            "fr": "Je pars pour trois jours.",
+            "zh": "我要出去三天。（還沒出發，是計畫）"
+          },
+          {
+            "fr": "Il est venu pour un mois.",
+            "zh": "他來待一個月。（當初的打算）"
+          },
+          {
+            "fr": "Nous sommes ici pour le week-end.",
+            "zh": "我們來這裡過週末。（後面也可以接名詞）"
+          },
+          {
+            "fr": "Elle part pour un an.",
+            "zh": "她要離開一年。"
+          },
+          {
+            "fr": "pour 常搭配的動詞",
+            "zh": "partir pour、venir pour、rester pour、être pour、louer pour —— 都帶有「預定一段期間」的意思。"
+          }
+        ]
+      },
+      {
+        "heading": "② EN：做一件事「需要／花掉」的時間",
+        "note": "★ 老師的第二個標題：EN 講的是「完成這件事花了多久」，重點在效率。事情一定是「做完了」或「做得完」。",
+        "items": [
+          {
+            "fr": "Je fais le ménage en dix minutes.",
+            "zh": "★ 課堂例句：我十分鐘就能打掃完。（做完需要的時間）"
+          },
+          {
+            "fr": "J'ai repeint la cuisine en trois jours.",
+            "zh": "★ 課堂例句：我三天就把廚房重新油漆好了。（實際花掉的時間）"
+          },
+          {
+            "fr": "Je vais à Paris en deux heures.",
+            "zh": "我兩小時就能到巴黎。（路程花的時間）"
+          },
+          {
+            "fr": "Il a fini en cinq minutes.",
+            "zh": "他五分鐘就做完了。"
+          },
+          {
+            "fr": "J'ai appris le français en deux ans.",
+            "zh": "我兩年就學會法文了。"
+          },
+          {
+            "fr": "On peut y aller en vingt minutes.",
+            "zh": "二十分鐘就能到。"
+          },
+          {
+            "fr": "★ en 強調的是「效率」",
+            "zh": "用了 en 就帶有「只花了這麼久」或「這麼快就完成」的語氣。"
+          }
+        ]
+      },
+      {
+        "heading": "③ ① IL Y A ＋ 時間 ＝ 「…之前」",
+        "note": "★ 指向「過去的一個時間點」，事情已經結束。動詞用過去式。⚠️ 注意它跟「il y a ＋ 名詞」（有）長得一樣，靠後面接什麼判斷。",
+        "items": [
+          {
+            "fr": "Je suis arrivé il y a trois jours.",
+            "zh": "我三天前到的。（已經到了）"
+          },
+          {
+            "fr": "Elle a voyagé en Europe il y a trois mois.",
+            "zh": "她三個月前去歐洲旅行。（已經回來）"
+          },
+          {
+            "fr": "J'ai commencé le français il y a deux ans.",
+            "zh": "我兩年前開始學法文。"
+          },
+          {
+            "fr": "il y a longtemps",
+            "zh": "很久以前"
+          },
+          {
+            "fr": "Il y a du vent.",
+            "zh": "★ 對照：有風。（後面接名詞 → 意思是「有」，不是「之前」）"
+          },
+          {
+            "fr": "Il y a trois ans que j'habite ici.",
+            "zh": "★ 陷阱：加了 que 就變成「已經三年了」，事情還在繼續。"
+          }
+        ]
+      },
+      {
+        "heading": "④ ② DEPUIS ＋ 時間 ＝ 「從…到現在還在繼續」",
+        "note": "★ 從過去某一點延續到現在，而且「現在還在」。★★ 動詞一定用「現在式」—— 這跟中文的「已經…了」直覺相反，是最常錯的地方。",
+        "items": [
+          {
+            "fr": "J'habite à Paris depuis trois ans.",
+            "zh": "我住巴黎三年了。（現在還住 → 現在式 habite）"
+          },
+          {
+            "fr": "Ils sont mariés depuis quatre ans.",
+            "zh": "他們結婚四年了。（現在還是夫妻）"
+          },
+          {
+            "fr": "J'apprends le français depuis six mois.",
+            "zh": "我學法文六個月了。（還在學）"
+          },
+          {
+            "fr": "depuis 2020",
+            "zh": "從 2020 年起（★ 後面也可以接時間點，不只是長度）"
+          },
+          {
+            "fr": "depuis lundi",
+            "zh": "從星期一起"
+          },
+          {
+            "fr": "Depuis combien de temps ?",
+            "zh": "持續多久了？"
+          },
+          {
+            "fr": "Depuis quand ?",
+            "zh": "從什麼時候開始？"
+          },
+          {
+            "fr": "J'ai habité à Paris depuis trois ans.",
+            "zh": "✗ 錯：depuis 不能配過去式。"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ ③ PENDANT ＋ 時間 ＝ 「實際持續多久」",
+        "note": "★ 講一段「有頭有尾」的時間，通常已經結束。動詞用過去式。後面除了時間長度，也可以接名詞（pendant les vacances）。",
+        "items": [
+          {
+            "fr": "J'ai travaillé pendant deux heures.",
+            "zh": "我工作了兩小時。（做完了）"
+          },
+          {
+            "fr": "Ils ont travaillé ensemble pendant six ans.",
+            "zh": "他們一起工作了六年。（已經結束）"
+          },
+          {
+            "fr": "J'ai attendu le bus pendant cinq minutes.",
+            "zh": "我等公車等了五分鐘。"
+          },
+          {
+            "fr": "Elle est retournée chez elle pendant les vacances.",
+            "zh": "她假期期間回家了。（接名詞）"
+          },
+          {
+            "fr": "Tous les jours, je regarde la télé pendant deux heures.",
+            "zh": "★ 我每天看兩小時電視。（也能講現在的習慣）"
+          },
+          {
+            "fr": "Je suis parti en vacances pendant deux semaines.",
+            "zh": "我去度假兩個星期。"
+          },
+          {
+            "fr": "★ pendant 口語常省略",
+            "zh": "J'ai attendu une heure. 也通，但考試寫出來比較清楚。"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ ④ DANS ＋ 時間 ＝ 「…之後」",
+        "note": "★ 指向「未來的一個時間點」，從現在開始數。事情還沒發生，所以配現在式或近未來。",
+        "items": [
+          {
+            "fr": "Je vais finir mes devoirs dans une heure.",
+            "zh": "★ 課堂例句：我一小時後會寫完功課。"
+          },
+          {
+            "fr": "L'avion va partir dans dix minutes.",
+            "zh": "飛機十分鐘後起飛。"
+          },
+          {
+            "fr": "Il va aller au Japon dans deux ans.",
+            "zh": "他兩年後要去日本。"
+          },
+          {
+            "fr": "Je reviens dans cinq minutes.",
+            "zh": "我五分鐘後回來。"
+          },
+          {
+            "fr": "Il est 15 heures. Elle part dans trois heures.",
+            "zh": "現在三點，她三小時後出發。（＝ 18 點）"
+          },
+          {
+            "fr": "Le film commence dans une heure.",
+            "zh": "電影一小時後開始。"
+          }
+        ]
+      },
+      {
+        "heading": "⑦ ⑤ POUR ＋ 時間 ＝ 「預計、打算」做多久",
+        "note": "★ 講的是「計畫」，不是實際結果。幾乎只跟移動或停留類的動詞一起出現：partir、venir、rester、être、louer。",
+        "items": [
+          {
+            "fr": "Je suis à Paris pour deux ans.",
+            "zh": "★ 課堂例句：我來巴黎待兩年。（當初的計畫）"
+          },
+          {
+            "fr": "J'ai loué un appartement pour six mois.",
+            "zh": "★ 課堂例句：我租了一間公寓，租期六個月。"
+          },
+          {
+            "fr": "Je pars pour trois jours.",
+            "zh": "我要出去三天。（還沒出發）"
+          },
+          {
+            "fr": "Nous sommes ici pour le week-end.",
+            "zh": "我們來這裡過週末。（接名詞）"
+          },
+          {
+            "fr": "Elle part pour un an.",
+            "zh": "她要離開一年。"
+          },
+          {
+            "fr": "Il est venu pour un mois mais il est resté pendant deux ans.",
+            "zh": "★ 經典對照：他本來打算待一個月，結果待了兩年。"
+          }
+        ]
+      },
+      {
+        "heading": "⑧ ⑥ EN ＋ 時間 ＝ 「花多久完成」",
+        "note": "★ 唯一「不綁時間軸」的一個。它講的是「做這件事耗掉多少時間」，過去、現在、未來都能用，重點在效率。",
+        "items": [
+          {
+            "fr": "Comme d'habitude, je fais mes devoirs en une heure.",
+            "zh": "★ 課堂例句：我平常一小時寫完功課。"
+          },
+          {
+            "fr": "J'ai repeint la cuisine en trois jours.",
+            "zh": "★ 課堂例句：我三天就把廚房漆好了。（過去）"
+          },
+          {
+            "fr": "Je fais le ménage en dix minutes.",
+            "zh": "我十分鐘就能打掃完。（現在的能力）"
+          },
+          {
+            "fr": "Je finirai ce travail en deux heures.",
+            "zh": "我兩小時就能做完。（未來預估）"
+          },
+          {
+            "fr": "Le train va à Lyon en deux heures.",
+            "zh": "火車兩小時就到里昂。（一般事實）"
+          },
+          {
+            "fr": "Il a appris le français en deux ans.",
+            "zh": "他兩年就學會法文了。"
+          }
+        ]
+      },
+      {
+        "heading": "⑨ ⑦ ÇA FAIT ＋ 時間 ＋ QUE ＝ depuis 的另一種寫法",
+        "note": "★ 跟 depuis 完全同義，只是把時間提到句首。一樣配現在式。",
+        "items": [
+          {
+            "fr": "Ça fait trois ans que j'habite à Paris.",
+            "zh": "我住巴黎三年了。"
+          },
+          {
+            "fr": "J'habite à Paris depuis trois ans.",
+            "zh": "同一句話，時間放句尾。"
+          },
+          {
+            "fr": "Ça fait plusieurs jours que l'internet est en panne.",
+            "zh": "網路已經壞好幾天了。"
+          },
+          {
+            "fr": "Ça fait deux heures que j'attends.",
+            "zh": "我等兩個小時了。"
+          },
+          {
+            "fr": "Ça fait combien de temps que tu habites ici ?",
+            "zh": "你住這裡多久了？"
+          },
+          {
+            "fr": "Ça fait longtemps qu'on ne s'est pas vus.",
+            "zh": "★ 好久不見。（唯一配過去式的情況：否定）"
+          }
+        ]
+      },
+      {
+        "heading": "⑩ ★★ EN vs DANS — 最容易搞混的一組",
+        "note": "★ 兩個都接時間，但意思完全相反：en 是「花多久做完」，dans 是「多久之後才開始」。老師用同一件事（寫功課）示範，差別一看就懂。",
+        "items": [
+          {
+            "fr": "Comme d'habitude, je fais mes devoirs en une heure.",
+            "zh": "★ 課堂例句：我平常都是一小時寫完功課。（EN ＝ 花一小時完成，講的是我的速度）"
+          },
+          {
+            "fr": "Je vais finir mes devoirs dans une heure.",
+            "zh": "★ 課堂例句：我一小時後會寫完功課。（DANS ＝ 從現在數一小時後的那個時間點）"
+          },
+          {
+            "fr": "faire ses devoirs",
+            "zh": "寫功課（★ les devoirs 永遠用複數）"
+          },
+          {
+            "fr": "comme d'habitude",
+            "zh": "像平常一樣、照慣例（★ 固定片語）"
+          },
+          {
+            "fr": "Je le fais en deux heures.",
+            "zh": "【EN】我花兩小時做完。（已經在做／做得完）"
+          },
+          {
+            "fr": "Je le fais dans deux heures.",
+            "zh": "【DANS】我兩小時後才做。（現在還沒開始）"
+          },
+          {
+            "fr": "Je fais le ménage en dix minutes.",
+            "zh": "我十分鐘就打掃完。"
+          },
+          {
+            "fr": "Je fais le ménage dans dix minutes.",
+            "zh": "我十分鐘後才開始打掃。"
+          },
+          {
+            "fr": "Il arrive en une heure.",
+            "zh": "他一小時就能到。（路程只要一小時）"
+          },
+          {
+            "fr": "Il arrive dans une heure.",
+            "zh": "他一小時後會到。（現在算起還有一小時）"
+          },
+          {
+            "fr": "★ 記法：en 看「過程」，dans 看「起點」",
+            "zh": "en ＝ 做這件事花掉多久；dans ＝ 從現在數過去多久才發生。"
+          }
+        ]
+      },
+      {
+        "heading": "⑪ ★ 把老師的功課例句拆開看",
+        "note": "★ 同一句「一小時」，換個介係詞整句的意思就變了。這一節逐字拆解兩句的差別。",
+        "items": [
+          {
+            "fr": "je fais mes devoirs en une heure",
+            "zh": "【EN】「寫」這個動作本身耗掉一小時。重點在「我的效率」—— 我一小時就能搞定。"
+          },
+          {
+            "fr": "je vais finir mes devoirs dans une heure",
+            "zh": "【DANS】從現在算起一小時後，功課會是「寫完」的狀態。重點在「什麼時候完成」。"
+          },
+          {
+            "fr": "Comme d'habitude, je fais mes devoirs en une heure.",
+            "zh": "用現在式 ＋ comme d'habitude，表示這是「我一向的習慣和速度」。"
+          },
+          {
+            "fr": "Je vais finir mes devoirs dans une heure.",
+            "zh": "用近未來 aller + finir，表示「等一下才會完成」。dans 幾乎都配未來。"
+          },
+          {
+            "fr": "Je fais mes devoirs dans une heure.",
+            "zh": "★ 換個動詞再看一次：我一小時後才開始寫功課。（現在還沒開始）"
+          },
+          {
+            "fr": "J'ai fait mes devoirs en une heure.",
+            "zh": "★ 改成過去式：我一小時就把功課寫完了。（已完成，EN 一樣適用）"
+          },
+          {
+            "fr": "Ça fait une heure que je fais mes devoirs.",
+            "zh": "★ 第三種：我已經寫功課寫一小時了。（現在還在寫，而且還沒寫完）"
+          },
+          {
+            "fr": "J'ai fait mes devoirs pendant une heure.",
+            "zh": "★ 第四種：我寫了一小時功課。（持續一小時，但不一定寫完）"
+          }
+        ]
+      },
+      {
+        "heading": "⑫ ★ POUR vs PENDANT — 計畫 vs 事實",
+        "note": "★ 這組在 9/28 提過，今天老師正式教 pour，再對照一次。一句話分辨：pour 是「打算」，pendant 是「實際」。",
+        "items": [
+          {
+            "fr": "Je suis à Paris pour deux ans.",
+            "zh": "【POUR】我打算在巴黎待兩年。（計畫，可能提早走也可能延長）"
+          },
+          {
+            "fr": "J'ai été à Paris pendant deux ans.",
+            "zh": "【PENDANT】我在巴黎待過兩年。（事實，已經結束）"
+          },
+          {
+            "fr": "Il est venu pour un mois mais il est resté pendant deux ans.",
+            "zh": "★ 經典對照句：他本來打算待一個月，結果待了兩年。"
+          },
+          {
+            "fr": "J'ai loué un appartement pour six mois.",
+            "zh": "我租了六個月。（合約期間）"
+          },
+          {
+            "fr": "J'ai habité là pendant six mois.",
+            "zh": "我在那裡住了六個月。（實際住的時間）"
+          },
+          {
+            "fr": "★ 不確定時選 pendant 比較保險",
+            "zh": "講已經發生、做完的事用 pendant；pour 一定帶有「打算、預定」的味道。"
+          }
+        ]
+      },
+      {
+        "heading": "⑬ ★★ 七種時間說法完整對照表",
+        "note": "★ 這一節把到目前為止學的時間表達全部放在一起。用同一個「兩小時／兩年」當例子，一次看懂差別。",
+        "items": [
+          {
+            "fr": "Je travaille depuis deux heures.",
+            "zh": "【DEPUIS】我已經工作兩小時了。→ 還在做，配現在式"
+          },
+          {
+            "fr": "Ça fait deux heures que je travaille.",
+            "zh": "【ÇA FAIT... QUE】同上，只是時間提到句首"
+          },
+          {
+            "fr": "J'ai travaillé pendant deux heures.",
+            "zh": "【PENDANT】我工作了兩小時。→ 已結束，講實際長度"
+          },
+          {
+            "fr": "Je travaille pour deux heures.",
+            "zh": "【POUR】我預計工作兩小時。→ 計畫，還沒做完"
+          },
+          {
+            "fr": "J'ai fini le travail en deux heures.",
+            "zh": "【EN】我兩小時就把工作做完了。→ 強調效率"
+          },
+          {
+            "fr": "Je commence dans deux heures.",
+            "zh": "【DANS】我兩小時後才開始。→ 未來的時間點"
+          },
+          {
+            "fr": "J'ai fini il y a deux heures.",
+            "zh": "【IL Y A】我兩小時前就做完了。→ 過去的時間點"
+          }
+        ]
+      },
+      {
+        "heading": "⑭ ★ EN 到底是不是「已經做完」？三種時態都可以",
+        "note": "★ 這是最常被誤會的地方。EN 講的是「這件事要花掉多少時間」，它本身「不綁定時態」—— 過去、現在、未來都能用。重點不是什麼時候做，而是「做這件事耗掉多久」。",
+        "items": [
+          {
+            "fr": "J'ai repeint la cuisine en trois jours.",
+            "zh": "【過去 · 已完成】我三天就把廚房漆好了。← 事情做完了，實際花了三天"
+          },
+          {
+            "fr": "Je fais le ménage en dix minutes.",
+            "zh": "【現在 · 一般能力】我十分鐘就能打掃完。← ★ 不是現在正在掃，是在講「我的速度」"
+          },
+          {
+            "fr": "Je finirai ce travail en deux heures.",
+            "zh": "【未來 · 預估】我兩小時就能把這份工作做完。← 還沒開始，但估計要花兩小時"
+          },
+          {
+            "fr": "Le train va à Lyon en deux heures.",
+            "zh": "【一般事實】火車兩小時就到里昂。← 沒有特定時間點，講的是常態"
+          },
+          {
+            "fr": "On peut y aller en vingt minutes.",
+            "zh": "【可能性】二十分鐘就能到。← 還沒去，講的是所需時間"
+          },
+          {
+            "fr": "Il a appris le français en deux ans.",
+            "zh": "【過去】他兩年就學會法文了。← 已經學會，花了兩年"
+          }
+        ]
+      },
+      {
+        "heading": "⑮ ★★ 時機點總整理 — 以「現在」為基準",
+        "note": "★ 把七種說法放在同一條時間軸上。關鍵問三件事：① 這段時間在現在的哪一邊？② 事情結束了沒？③ 時態要配什麼？",
+        "items": [
+          {
+            "fr": "Ça fait deux ans que j'habite ici.",
+            "zh": "【過去 → 現在，還在繼續】兩年前開始住，現在還住。★ 配現在式"
+          },
+          {
+            "fr": "J'habite ici depuis deux ans.",
+            "zh": "【過去 → 現在，還在繼續】同上，時間放句尾。★ 配現在式"
+          },
+          {
+            "fr": "J'ai habité ici pendant deux ans.",
+            "zh": "【完全在過去，已結束】住過兩年，現在不住了。★ 配過去式，講「持續多久」"
+          },
+          {
+            "fr": "J'ai déménagé il y a deux ans.",
+            "zh": "【過去的一個點】兩年前搬家。★ 配過去式，講「多久以前」"
+          },
+          {
+            "fr": "Je pars dans deux ans.",
+            "zh": "【未來的一個點】兩年後我要走。★ 現在還沒發生，講「多久之後」"
+          },
+          {
+            "fr": "Je reste ici pour deux ans.",
+            "zh": "【未來的一段，計畫】我打算待兩年。★ 講「預計多久」，不保證做到"
+          },
+          {
+            "fr": "J'ai fini le projet en deux ans.",
+            "zh": "【★ 不綁時間軸】花兩年把專案做完。★ 過去現在未來都能用，講「耗時多久」"
+          }
+        ]
+      },
+      {
+        "heading": "⑯ 三步驟選對字",
+        "note": "★ 照這個順序問，七個選項馬上縮到一個。每一列的法文就是該情況的標準答案。",
+        "items": [
+          {
+            "fr": "Je travaille ici depuis trois ans.",
+            "zh": "① 現在還在做嗎？→ 是 → depuis 或 ça fait... que，動詞用現在式"
+          },
+          {
+            "fr": "Ça fait trois ans que je travaille ici.",
+            "zh": "① 同上的另一種寫法，時間提到句首"
+          },
+          {
+            "fr": "J'ai travaillé ici pendant trois ans.",
+            "zh": "② 已經結束了，想講「做了多久」→ pendant，動詞用過去式"
+          },
+          {
+            "fr": "J'ai commencé il y a trois ans.",
+            "zh": "② 已經結束了，想講「多久以前」→ il y a，動詞用過去式"
+          },
+          {
+            "fr": "Je commence dans trois jours.",
+            "zh": "③ 還沒發生，講「多久之後才開始」→ dans"
+          },
+          {
+            "fr": "Je reste pour trois jours.",
+            "zh": "③ 還沒發生，講「預計待多久」→ pour"
+          },
+          {
+            "fr": "J'ai tout fini en trois jours.",
+            "zh": "④ 想強調「只花了多久就完成」→ en，不管什麼時態都可以"
+          }
+        ]
+      },
+      {
+        "heading": "⑰ 課堂單字：louer, ménage, repeindre",
+        "note": "★ 今天例句裡出現的動詞和名詞，生活中很實用。",
+        "items": [
+          {
+            "fr": "louer",
+            "zh": "租（可以指「租進來」也可以指「租出去」）"
+          },
+          {
+            "fr": "J'ai loué un appartement.",
+            "zh": "我租了一間公寓。"
+          },
+          {
+            "fr": "un appartement",
+            "zh": "公寓（陽性）"
+          },
+          {
+            "fr": "un loyer",
+            "zh": "房租"
+          },
+          {
+            "fr": "le ménage",
+            "zh": "家務、打掃（陽性）"
+          },
+          {
+            "fr": "faire le ménage",
+            "zh": "做家事、打掃（★ 固定片語，要加定冠詞 le）"
+          },
+          {
+            "fr": "Je fais le ménage tous les samedis.",
+            "zh": "我每個星期六打掃。"
+          },
+          {
+            "fr": "la cuisine",
+            "zh": "廚房／烹飪（陰性，一字兩義）"
+          },
+          {
+            "fr": "faire la cuisine",
+            "zh": "做菜（★ 跟 faire le ménage 同一組句型）"
+          },
+          {
+            "fr": "peindre",
+            "zh": "油漆、繪畫"
+          },
+          {
+            "fr": "repeindre",
+            "zh": "重新油漆（★ re- 字首 ＝ 再一次）"
+          },
+          {
+            "fr": "J'ai repeint la cuisine.",
+            "zh": "我把廚房重新漆過了。（repeindre 的過去分詞是 repeint）"
+          }
+        ]
+      },
+      {
+        "heading": "⑱ re- 字首：再做一次",
+        "note": "★ 看到 re- 開頭就知道是「重複、再一次」，這個規律能一口氣猜出很多生字。",
+        "items": [
+          {
+            "fr": "peindre → repeindre",
+            "zh": "油漆 → 重新油漆"
+          },
+          {
+            "fr": "faire → refaire",
+            "zh": "做 → 重做"
+          },
+          {
+            "fr": "venir → revenir",
+            "zh": "來 → 再回來"
+          },
+          {
+            "fr": "voir → revoir",
+            "zh": "看 → 再見（au revoir 就是這個字）"
+          },
+          {
+            "fr": "commencer → recommencer",
+            "zh": "開始 → 重新開始"
+          },
+          {
+            "fr": "lire → relire",
+            "zh": "讀 → 重讀"
+          },
+          {
+            "fr": "partir → repartir",
+            "zh": "出發 → 再次出發"
+          },
+          {
+            "fr": "trouver → retrouver",
+            "zh": "找到 → 重新找到、會合"
+          }
+        ]
+      },
+      {
+        "heading": "⑲ 實際用用看",
+        "note": "把今天學的兩個介係詞放進日常句子。",
+        "items": [
+          {
+            "fr": "Je suis à Taïwan pour un mois.",
+            "zh": "我在台灣待一個月。（計畫）"
+          },
+          {
+            "fr": "J'ai loué une voiture pour trois jours.",
+            "zh": "我租了三天的車。"
+          },
+          {
+            "fr": "Je fais la cuisine en vingt minutes.",
+            "zh": "我二十分鐘就能做好菜。"
+          },
+          {
+            "fr": "J'ai fini mes devoirs en une heure.",
+            "zh": "我一小時就寫完功課了。"
+          },
+          {
+            "fr": "On y va en combien de temps ?",
+            "zh": "到那裡要花多久？"
+          },
+          {
+            "fr": "Le train va à Lyon en deux heures.",
+            "zh": "火車兩小時就到里昂。"
+          },
+          {
+            "fr": "Je pars pour une semaine.",
+            "zh": "我要出去一個星期。"
+          },
+          {
+            "fr": "Il apprend vite : il a appris en trois mois.",
+            "zh": "他學很快：三個月就學會了。"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★★ 老師板書的六個字：il y a、depuis、pendant、dans、pour、en —— 加上 ça fait... que 就是全部。",
+      "★ IL Y A ＋ 時間 ＝ 「…之前」，過去的一個點，配過去式。（接名詞時是「有」，完全不同）",
+      "★ DEPUIS ＋ 時間 ＝ 「從…到現在還在繼續」，★★ 一定配現在式。",
+      "★ PENDANT ＋ 時間 ＝ 「實際持續多久」，有頭有尾，通常已結束。",
+      "★ DANS ＋ 時間 ＝ 「…之後」，未來的一個點，從現在數起。",
+      "★ POUR ＋ 時間 ＝ 「預計、打算」做多久，講計畫不保證結果。",
+      "★ EN ＋ 時間 ＝ 「花多久完成」，★★ 唯一不綁時態的，過去現在未來都能用。",
+      "★ ÇA FAIT ＋ 時間 ＋ QUE ＝ depuis 的同義寫法，把時間提到句首，一樣配現在式。",
+      "★★ 老師的功課例句最好記：je fais mes devoirs en une heure（一小時寫完，講效率）vs je vais finir mes devoirs dans une heure（一小時後會寫完，講時間點）。",
+      "★ POUR vs PENDANT：Il est venu pour un mois mais il est resté pendant deux ans.（打算一個月，結果兩年）",
+      "判斷三步驟：① 現在還在做？→ depuis／ça fait que　② 已結束？→ pendant（多久）／il y a（多久前）　③ 還沒發生？→ dans（多久後）／pour（預計多久）　④ 強調耗時？→ en",
+      "★ faire le ménage（打掃）、faire la cuisine（做菜）、faire ses devoirs（寫功課）都要加冠詞。",
+      "★ re- 字首 ＝ 再一次：repeindre（重漆）、refaire（重做）、revenir（再回來）、revoir（再見）。",
+      "comme d'habitude ＝ 像平常一樣；les devoirs（功課）永遠用複數。"
+    ],
+    "drill": [
+      {
+        "fr": "Comme d'habitude, je fais mes devoirs en une heure.",
+        "zh": "我平常都是一小時寫完功課。"
+      },
+      {
+        "fr": "Je vais finir mes devoirs dans une heure.",
+        "zh": "我一小時後會寫完功課。"
+      },
+      {
+        "fr": "Je suis à Paris pour deux ans.",
+        "zh": "我來巴黎待兩年。（計畫）"
+      },
+      {
+        "fr": "J'ai loué un appartement pour six mois.",
+        "zh": "我租了一間公寓，租期六個月。"
+      },
+      {
+        "fr": "Je fais le ménage en dix minutes.",
+        "zh": "我十分鐘就能打掃完。"
+      },
+      {
+        "fr": "J'ai repeint la cuisine en trois jours.",
+        "zh": "我三天就把廚房重新漆好了。"
+      },
+      {
+        "fr": "Je le fais en deux heures.",
+        "zh": "我花兩小時做完。"
+      },
+      {
+        "fr": "Je le fais dans deux heures.",
+        "zh": "我兩小時後才做。（對照用）"
+      },
+      {
+        "fr": "J'ai travaillé pendant deux heures.",
+        "zh": "我工作了兩小時。（已結束）"
+      },
+      {
+        "fr": "Ça fait deux heures que je travaille.",
+        "zh": "我已經工作兩小時了。（還在做）"
+      },
+      {
+        "fr": "faire le ménage",
+        "zh": "做家事、打掃"
+      },
+      {
+        "fr": "faire la cuisine",
+        "zh": "做菜"
+      },
+      {
+        "fr": "J'ai fini mes devoirs en une heure.",
+        "zh": "我一小時就寫完功課了。"
+      },
+      {
+        "fr": "On y va en combien de temps ?",
+        "zh": "到那裡要花多久？"
+      },
+      {
+        "fr": "Je finirai ce travail en deux heures.",
+        "zh": "我兩小時就能做完這份工作。（EN 也能講未來）"
+      },
+      {
+        "fr": "Le train va à Lyon en deux heures.",
+        "zh": "火車兩小時就到里昂。（EN 講一般事實）"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "POUR ＋ 時間表達什麼？",
+        "options": [
+          "打算、預計做多久（計畫）",
+          "實際持續多久",
+          "多久之後"
+        ],
+        "answer": 0,
+        "why": "★ 老師的標題就是「POUR 做一件事的計畫」。Je suis à Paris pour deux ans.（打算待兩年）"
+      },
+      {
+        "q": "EN ＋ 時間一定是「已經做完」的事嗎？",
+        "options": [
+          "不一定，過去、現在、未來都能用",
+          "對，只能用在已完成的事",
+          "只能用在未來"
+        ],
+        "answer": 0,
+        "why": "★ EN 講的是「這件事耗掉多久」，不綁時態。J'ai repeint... en trois jours（過去完成）／Je fais le ménage en dix minutes（現在的能力）／Je finirai en deux heures（未來預估）都對。"
+      },
+      {
+        "q": "「我十分鐘就打掃完」怎麼說？",
+        "options": [
+          "Je fais le ménage en dix minutes.",
+          "Je fais le ménage dans dix minutes.",
+          "Je fais le ménage pendant dix minutes."
+        ],
+        "answer": 0,
+        "why": "講「花多久完成」用 en。dans dix minutes 會變成「十分鐘後才開始打掃」。"
+      },
+      {
+        "q": "「我平常一小時寫完功課」用哪個介係詞？",
+        "options": [
+          "en（Je fais mes devoirs en une heure）",
+          "dans（Je fais mes devoirs dans une heure）",
+          "pendant（Je fais mes devoirs pendant une heure）"
+        ],
+        "answer": 0,
+        "why": "★ 老師的例句。講「花多久完成」用 en；dans une heure 會變成「一小時後才開始寫」。"
+      },
+      {
+        "q": "「我租了一間公寓，租期六個月」怎麼說？",
+        "options": [
+          "J'ai loué un appartement pour six mois.",
+          "J'ai loué un appartement en six mois.",
+          "J'ai loué un appartement dans six mois."
+        ],
+        "answer": 0,
+        "why": "租約是「預定的期間」→ pour。en six mois 會變成「花六個月租到房子」。"
+      },
+      {
+        "q": "Il est venu pour un mois mais il est resté ___ deux ans.",
+        "options": [
+          "pendant",
+          "pour",
+          "en"
+        ],
+        "answer": 0,
+        "why": "★ 前半是計畫（pour），後半是實際結果（pendant）。這是老師最愛舉的對照句。"
+      },
+      {
+        "q": "「做家事」的法文是？",
+        "options": [
+          "faire le ménage",
+          "faire ménage",
+          "faire du ménage"
+        ],
+        "answer": 0,
+        "why": "★ 固定片語要加定冠詞 le。同一組的還有 faire la cuisine（做菜）。"
+      },
+      {
+        "q": "la cuisine 有哪兩個意思？",
+        "options": [
+          "廚房／烹飪",
+          "廚房／餐廳",
+          "烹飪／食物"
+        ],
+        "answer": 0,
+        "why": "一字兩義。faire la cuisine 是「做菜」，repeindre la cuisine 是「漆廚房」。"
+      },
+      {
+        "q": "repeindre 是什麼意思？",
+        "options": [
+          "重新油漆",
+          "第一次油漆",
+          "拆掉"
+        ],
+        "answer": 0,
+        "why": "★ re- 字首 ＝ 再一次：refaire（重做）、revenir（再回來）、revoir（再見）。"
+      },
+      {
+        "q": "「我已經工作兩小時了」（現在還在工作）用哪個？",
+        "options": [
+          "Ça fait deux heures que je travaille.",
+          "J'ai travaillé pendant deux heures.",
+          "Je travaille pour deux heures."
+        ],
+        "answer": 0,
+        "why": "還在繼續 → ça fait... que 或 depuis，而且配現在式。pendant 是已結束，pour 是計畫。"
+      }
+    ]
+  },
+  {
+    "id": "temps-indicatif-resume",
+    "date": "2026-10-21",
+    "title": "PASSÉ COMPOSÉ 複習 — 用時間軸看懂它在哪一格",
+    "summary": "今天的主角是 passé composé。老師用一條時間軸把所有時態排在一起，就是為了讓你看清楚它的位置：它是「插進時間軸的箭頭」—— 過去某個時間點發生、而且完成了的「事件」，跟旁邊那條描述「狀態」的 imparfait 完全不同。",
+    "sections": [
+      {
+        "heading": "① PASSÉ COMPOSÉ — 今天的主角",
+        "note": "★ 今天的重點。它是「插進時間軸的箭頭」：在過去某個時間點發生、而且已經完成的「事件」。公式是 avoir／être ＋ 過去分詞（9/15 學過）。",
+        "items": [
+          {
+            "fr": "J'ai déménagé il y a six mois.",
+            "zh": "★ 課堂例句：我六個月前搬家了。"
+          },
+          {
+            "fr": "il y a six mois",
+            "zh": "六個月前（★ 搭配 passé composé 的標準時間詞）"
+          },
+          {
+            "fr": "déménager",
+            "zh": "搬家"
+          },
+          {
+            "fr": "J'ai déménagé.",
+            "zh": "我搬家了。（avoir ＋ 過去分詞）"
+          },
+          {
+            "fr": "Je suis arrivé hier.",
+            "zh": "我昨天到的。（移動動詞用 être）"
+          },
+          {
+            "fr": "★ 事件 vs 狀態",
+            "zh": "J'habitais à Rome（狀態，持續）vs J'ai déménagé（事件，一瞬間）。"
+          }
+        ]
+      },
+      {
+        "heading": "② ★ PASSÉ COMPOSÉ vs IMPARFAIT — 圖上最關鍵的對比",
+        "note": "★ 看老師的圖：imparfait 在藍色橫軸裡（一整段狀態），passé composé 是插下來的箭頭（一個點）。兩個都是過去，差別在「一段」還是「一點」。",
+        "items": [
+          {
+            "fr": "J'habitais à Rome.",
+            "zh": "【IMPARFAIT · 一段】那時候我住在羅馬。（持續的狀態，沒有明確起訖）"
+          },
+          {
+            "fr": "J'ai déménagé il y a six mois.",
+            "zh": "【PASSÉ COMPOSÉ · 一點】六個月前我搬家了。（一瞬間完成的事件）"
+          },
+          {
+            "fr": "Quand je suis arrivé à Paris, il faisait beau.",
+            "zh": "★ 一句話裡兩個都用：我到巴黎時（事件 · PC），天氣很好（背景 · IMP）。"
+          },
+          {
+            "fr": "Hier, j'ai travaillé.",
+            "zh": "昨天我工作了。（事件，做完了）"
+          },
+          {
+            "fr": "Avant, je travaillais à Rome.",
+            "zh": "以前我在羅馬工作。（狀態，一段時期）"
+          },
+          {
+            "fr": "Je regardais la télé quand tu as appelé.",
+            "zh": "你打來的時候我正在看電視。（背景 ＋ 事件）"
+          },
+          {
+            "fr": "On peut compter les fois ou pas ?",
+            "zh": "★ 判斷法：能不能回答「做了幾次」？可以數次數 → passé composé；在描述當時的樣子 → imparfait。"
+          }
+        ]
+      },
+      {
+        "heading": "③ ★ 現在式 vs 複合過去式 — 同一件事的兩種時態",
+        "note": "★ 老師的對照投影片：同一個動作，今天用現在式，昨天就要用複合過去式。注意第二組的助動詞不一樣。",
+        "items": [
+          {
+            "fr": "Aujourd'hui, je travaille.",
+            "zh": "今天我工作。（現在式）"
+          },
+          {
+            "fr": "Hier, j'ai travaillé.",
+            "zh": "★ 昨天我工作了。（複合過去式，用 AVOIR）"
+          },
+          {
+            "fr": "Aujourd'hui, je vais au cinéma.",
+            "zh": "今天我去看電影。（現在式）"
+          },
+          {
+            "fr": "Hier, je suis allée au cinéma.",
+            "zh": "★ 昨天我去看了電影。（複合過去式，用 ÊTRE，而且女生要加 e）"
+          },
+          {
+            "fr": "aujourd'hui",
+            "zh": "今天（配現在式）"
+          },
+          {
+            "fr": "hier",
+            "zh": "昨天（★ 看到它就知道要用複合過去式）"
+          }
+        ]
+      },
+      {
+        "heading": "④ ★ 核心公式：ÊTRE ＋ p.p 或 AVOIR ＋ p.p",
+        "note": "★ 老師投影片的大字就是整個複合過去式的全部：助動詞 ＋ 過去分詞。難的只有兩件事 —— 選哪個助動詞、過去分詞怎麼變。（完整版在 9/15 的課）",
+        "items": [
+          {
+            "fr": "AVOIR ＋ participe passé",
+            "zh": "【大部分動詞】j'ai travaillé、j'ai mangé、j'ai vu"
+          },
+          {
+            "fr": "ÊTRE ＋ participe passé",
+            "zh": "【移動類動詞 ＋ 反身動詞】je suis allé、je suis parti、je me suis levé"
+          },
+          {
+            "fr": "J'ai travaillé.",
+            "zh": "我工作了。（travailler → avoir）"
+          },
+          {
+            "fr": "Je suis allé au cinéma.",
+            "zh": "我去看電影了。（aller → être）"
+          },
+          {
+            "fr": "p.p ＝ participe passé",
+            "zh": "過去分詞。-er 動詞 → -é；其他要背（vu, pris, fait, été, eu…）"
+          },
+          {
+            "fr": "★ 用 AVOIR 時過去分詞不變",
+            "zh": "Elle a travaillé.（不是 travaillée）"
+          },
+          {
+            "fr": "★ 用 ÊTRE 時過去分詞要配合主詞",
+            "zh": "Elle est allée.（陰性 +e）／Ils sont allés.（複數 +s）"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ ÊTRE 之家 — 15 個移動動詞",
+        "note": "★ 老師的那張房子圖：On utilise l'auxiliaire être avec les verbes de changement de lieu, de déplacement.（位置改變、移動的動詞用 être。）成對記最快。",
+        "items": [
+          {
+            "fr": "il est arrivé",
+            "zh": "他到了。（ARRIVER 抵達）"
+          },
+          {
+            "fr": "il est parti",
+            "zh": "他出發了。（PARTIR 離開）"
+          },
+          {
+            "fr": "il est entré",
+            "zh": "他進去了。（ENTRER 進入）"
+          },
+          {
+            "fr": "il est sorti",
+            "zh": "他出去了。（SORTIR 出去）"
+          },
+          {
+            "fr": "il est monté",
+            "zh": "他上去了。（MONTER 上去）"
+          },
+          {
+            "fr": "il est descendu",
+            "zh": "他下來了。（DESCENDRE 下來）"
+          },
+          {
+            "fr": "il est venu",
+            "zh": "他來了。（VENIR 來）"
+          },
+          {
+            "fr": "il est allé",
+            "zh": "他去了。（ALLER 去）"
+          },
+          {
+            "fr": "il est resté",
+            "zh": "他留下了。（RESTER 停留）"
+          },
+          {
+            "fr": "il est passé",
+            "zh": "他經過了。（PASSER 經過）"
+          },
+          {
+            "fr": "il est retourné",
+            "zh": "他回去了。（RETOURNER 往返）"
+          },
+          {
+            "fr": "il est tombé",
+            "zh": "他跌倒了。（TOMBER 跌倒）"
+          },
+          {
+            "fr": "il est né en 1888",
+            "zh": "他 1888 年出生。（NAÎTRE 出生 → né）"
+          },
+          {
+            "fr": "il est mort en 1978",
+            "zh": "他 1978 年去世。（MOURIR 死亡 → mort，★ 最不規則的一個）"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ ★ 課堂練習 AVEC ÊTRE — 八題詳解",
+        "note": "★ 老師說「大概有 15 個動詞需要搭配 être ／方向性、移動性的動詞」。這八題全部用 être，所以重點不在選助動詞，而在「過去分詞要怎麼跟主詞配合」。",
+        "items": [
+          {
+            "fr": "Hier, je suis allé(e) à Carrefour pour acheter du chocolat.",
+            "zh": "1.（Aller）昨天我去家樂福買巧克力。aller 是移動動詞 → être。男生 allé／女生 allée。"
+          },
+          {
+            "fr": "Dimanche dernier, tu es venu(e) chez moi.",
+            "zh": "2.（Venir）上個星期天你來我家。venir → être，過去分詞 venu。★ 這次講義有標動詞了。"
+          },
+          {
+            "fr": "En 2008, Obama est devenu président des États-Unis.",
+            "zh": "3.（Devenir）2008 年歐巴馬成為美國總統。devenir 是 venir 家族 → être + devenu。Obama 是男生，不加 e。★ 職業前面不加冠詞。"
+          },
+          {
+            "fr": "Beyoncé est née le 9 septembre 1981.",
+            "zh": "4.（Naître）碧昂絲生於 1981 年 9 月 9 日。★ 女生 → né 要加 e 變 née。"
+          },
+          {
+            "fr": "L'année dernière, nous sommes partis en vacances au Portugal.",
+            "zh": "5.（Partir）去年我們去葡萄牙度假。nous 複數 → parti 加 s。★ 講義的 L'année dernier 是筆誤，année 陰性要寫 dernière。"
+          },
+          {
+            "fr": "Hier, vous êtes arrivé(e)(s) en retard au bureau.",
+            "zh": "6.（Arriver）昨天你們上班遲到了。vous 可能是「您」或「你們」，配合有四種寫法。"
+          },
+          {
+            "fr": "Le week-end dernier, Paul et son frère sont morts dans un accident.",
+            "zh": "7.（Mourir）上週末保羅和他弟弟死於意外。兩個男生 → 陽性複數 morts。★ mourir → mort 最不規則。"
+          },
+          {
+            "fr": "Samedi dernier, Elsa et sa sœur sont sorties en boîte.",
+            "zh": "8.（Sortir）上週六艾爾莎和她妹妹去夜店了。★ 兩個都是女生 → 陰性複數 sorties。"
+          }
+        ]
+      },
+      {
+        "heading": "⑦ 先看懂這張圖的結構",
+        "note": "★ 老師的圖分成兩層：中間那條藍色橫軸是「狀態、背景」，上下的藍色箭頭是「事件、動作」。同一件事（搬家），用不同時態講，位置就不一樣。",
+        "items": [
+          {
+            "fr": "Imparfait / Présent / Futur simple",
+            "zh": "【藍色橫軸 · 狀態】過去的狀態、現在的狀態、未來的狀態"
+          },
+          {
+            "fr": "Passé composé / Futur proche",
+            "zh": "【箭頭 · 事件】某個時間點發生的動作"
+          },
+          {
+            "fr": "Plus-que-parfait / Futur antérieur",
+            "zh": "【更早一步】比另一個過去／未來「更早完成」的事"
+          },
+          {
+            "fr": "J'habitais à Rome.",
+            "zh": "過去我住羅馬。（狀態）"
+          },
+          {
+            "fr": "J'habite à Paris.",
+            "zh": "現在我住巴黎。（狀態）"
+          },
+          {
+            "fr": "J'habiterai à Berlin.",
+            "zh": "未來我會住柏林。（狀態）"
+          },
+          {
+            "fr": "J'ai déménagé il y a six mois.",
+            "zh": "六個月前我搬家了。（事件，把羅馬變成巴黎）"
+          },
+          {
+            "fr": "Je vais déménager dans six mois.",
+            "zh": "六個月後我要搬家。（事件，把巴黎變成柏林）"
+          }
+        ]
+      },
+      {
+        "heading": "⑧ 中間橫軸：三個「狀態」時態",
+        "note": "★ 這三個都在描述「某個時期的狀況」，不是某一刻發生的事。老師用同一個動詞 habiter 示範。",
+        "items": [
+          {
+            "fr": "J'habitais à Rome.",
+            "zh": "【IMPARFAIT 未完成過去】過去我（曾經一段時間）住在羅馬。"
+          },
+          {
+            "fr": "J'habite à Paris.",
+            "zh": "【PRÉSENT 現在式】我現在住巴黎。"
+          },
+          {
+            "fr": "J'habiterai à Berlin.",
+            "zh": "【FUTUR SIMPLE 簡單未來】我（以後）會住柏林。"
+          },
+          {
+            "fr": "j'habitais / tu habitais / il habitait",
+            "zh": "imparfait 的字尾：-ais / -ais / -ait"
+          },
+          {
+            "fr": "nous habitions / vous habitiez / ils habitaient",
+            "zh": "imparfait 的複數字尾：-ions / -iez / -aient"
+          },
+          {
+            "fr": "j'habiterai / tu habiteras / il habitera",
+            "zh": "futur simple：原形 ＋ -ai / -as / -a"
+          },
+          {
+            "fr": "nous habiterons / vous habiterez / ils habiteront",
+            "zh": "futur simple 複數：-ons / -ez / -ont"
+          },
+          {
+            "fr": "★ futur simple 的字尾就是 avoir",
+            "zh": "ai, as, a, (av)ons, (av)ez, ont —— 跟 avoir 的變位一樣。"
+          }
+        ]
+      },
+      {
+        "heading": "⑨ 向上的箭頭：FUTUR PROCHE（近未來）",
+        "note": "★ 這是最好用的未來式：aller ＋ 原形動詞。比 futur simple 口語，而且不用背變位。",
+        "items": [
+          {
+            "fr": "Je vais déménager dans six mois.",
+            "zh": "★ 課堂例句：我六個月後要搬家。"
+          },
+          {
+            "fr": "dans six mois",
+            "zh": "六個月後（★ 搭配未來的標準時間詞）"
+          },
+          {
+            "fr": "aller ＋ 原形動詞",
+            "zh": "近未來的公式：je vais manger、tu vas partir、il va pleuvoir"
+          },
+          {
+            "fr": "Je vais manger.",
+            "zh": "我要去吃飯了。"
+          },
+          {
+            "fr": "Il va pleuvoir.",
+            "zh": "要下雨了。"
+          },
+          {
+            "fr": "Nous allons partir.",
+            "zh": "我們要出發了。"
+          },
+          {
+            "fr": "★ futur proche vs futur simple",
+            "zh": "Je vais déménager（近期、已決定）vs Je déménagerai（比較遠、比較正式）。"
+          }
+        ]
+      },
+      {
+        "heading": "⑩ 再往前一步：PLUS-QUE-PARFAIT（愈過去）",
+        "note": "★ 用在「過去的更過去」—— 兩件過去的事，先發生的那件用它。公式：avoir／être 的 imparfait ＋ 過去分詞。",
+        "items": [
+          {
+            "fr": "J'avais fini mes études quand j'ai déménagé.",
+            "zh": "★ 課堂例句：我搬家的時候已經唸完書了。（唸完書比搬家更早）"
+          },
+          {
+            "fr": "J'avais fini",
+            "zh": "我（當時）已經完成了（avais ＝ avoir 的 imparfait）"
+          },
+          {
+            "fr": "mes études",
+            "zh": "我的學業（★ 永遠用複數）"
+          },
+          {
+            "fr": "finir ses études",
+            "zh": "完成學業、畢業"
+          },
+          {
+            "fr": "Quand je suis arrivé, il était déjà parti.",
+            "zh": "我到的時候他已經走了。"
+          },
+          {
+            "fr": "J'avais mangé avant de sortir.",
+            "zh": "我出門前已經吃過了。"
+          },
+          {
+            "fr": "Quand je suis arrivé, il était déjà parti.",
+            "zh": "★ 兩層過去：先發生的用 plus-que-parfait（était parti），後發生的用 passé composé（suis arrivé）。"
+          }
+        ]
+      },
+      {
+        "heading": "⑪ 再往後一步：FUTUR ANTÉRIEUR（先未來）",
+        "note": "★ 用在「未來的更早」—— 兩件未來的事，先完成的那件用它。公式：avoir／être 的 futur simple ＋ 過去分詞。",
+        "items": [
+          {
+            "fr": "Tu me rejoindras quand j'aurai déménagé.",
+            "zh": "★ 課堂例句：等我搬完家你再來找我。（搬完家比你來更早）"
+          },
+          {
+            "fr": "j'aurai déménagé",
+            "zh": "我將會已經搬完家（aurai ＝ avoir 的 futur simple）"
+          },
+          {
+            "fr": "rejoindre",
+            "zh": "來會合、加入"
+          },
+          {
+            "fr": "Tu me rejoindras",
+            "zh": "你會來找我（rejoindre 的 futur simple）"
+          },
+          {
+            "fr": "Je partirai quand j'aurai fini.",
+            "zh": "我做完就走。"
+          },
+          {
+            "fr": "Quand tu seras arrivé, appelle-moi.",
+            "zh": "你到了以後打給我。"
+          },
+          {
+            "fr": "★ 這個時態 A1 不用主動會用",
+            "zh": "知道它存在、看得懂就好，口語常常直接用 futur proche 代替。"
+          }
+        ]
+      },
+      {
+        "heading": "⑫ ★ 時態和時間介係詞是一組的",
+        "note": "★ 這張圖跟剛剛學的時間介係詞完全對應 —— 老師把兩個主題放在同一天教不是偶然。",
+        "items": [
+          {
+            "fr": "J'ai déménagé il y a six mois.",
+            "zh": "【過去的點】passé composé ＋ il y a"
+          },
+          {
+            "fr": "J'habite ici depuis six mois.",
+            "zh": "【延續到現在】présent ＋ depuis"
+          },
+          {
+            "fr": "Ça fait six mois que j'habite ici.",
+            "zh": "【延續到現在】présent ＋ ça fait... que"
+          },
+          {
+            "fr": "J'ai habité à Rome pendant six ans.",
+            "zh": "【過去的一段】passé composé ＋ pendant"
+          },
+          {
+            "fr": "Je vais déménager dans six mois.",
+            "zh": "【未來的點】futur proche ＋ dans"
+          },
+          {
+            "fr": "Je reste ici pour six mois.",
+            "zh": "【未來的一段·計畫】présent ＋ pour"
+          },
+          {
+            "fr": "J'ai déménagé en trois jours.",
+            "zh": "【耗時】任何時態 ＋ en"
+          }
+        ]
+      },
+      {
+        "heading": "⑬ 用搬家這件事把六個時態講一遍",
+        "note": "★ 照時間順序串起來，一次看懂每個時態在講哪一段。",
+        "items": [
+          {
+            "fr": "J'avais fini mes études.",
+            "zh": "① 我（那時）已經唸完書了。【plus-que-parfait】"
+          },
+          {
+            "fr": "J'habitais à Rome.",
+            "zh": "② 那時候我住在羅馬。【imparfait】"
+          },
+          {
+            "fr": "J'ai déménagé il y a six mois.",
+            "zh": "③ 六個月前我搬家了。【passé composé】"
+          },
+          {
+            "fr": "J'habite à Paris.",
+            "zh": "④ 現在我住巴黎。【présent】"
+          },
+          {
+            "fr": "Je vais déménager dans six mois.",
+            "zh": "⑤ 六個月後我要搬家。【futur proche】"
+          },
+          {
+            "fr": "J'habiterai à Berlin.",
+            "zh": "⑥ 之後我會住柏林。【futur simple】"
+          },
+          {
+            "fr": "Tu me rejoindras quand j'aurai déménagé.",
+            "zh": "⑦ 等我搬完你再來。【futur antérieur】"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★★ 複合過去式的全部就是：助動詞（avoir／être）＋ 過去分詞。",
+      "★ 對照記：Aujourd'hui je travaille → Hier j'ai travaillé（avoir）；Aujourd'hui je vais → Hier je suis allé（être）。",
+      "★ 用 ÊTRE 的是「位置改變、移動」的 15 個動詞（老師的房子圖）＋ 所有反身動詞，其餘一律 avoir。",
+      "★★ 用 AVOIR 時過去分詞不變（Elle a travaillé）；用 ÊTRE 時要跟主詞配合（Elle est allée／Ils sont allés）。",
+      "ÊTRE 之家成對記：arriver↔partir、entrer↔sortir、monter↔descendre、venir↔aller、naître↔mourir，再加 rester、passer、retourner、tomber。",
+      "★ 課堂練習八題全部用 être，考的是「過去分詞的性數配合」：Beyoncé est née(+e)／nous sommes partis(+s)／Paul et son frère sont morts／Elsa et sa sœur sont sorties(+es)。",
+      "不規則過去分詞要注意：mourir → mort、naître → né、venir → venu、descendre → descendu、sortir → sorti。",
+      "★★ PASSÉ COMPOSÉ vs IMPARFAIT：一個是「一點」（J'ai déménagé），一個是「一段」（J'habitais à Rome）。",
+      "一句話裡常常兩個並用：Quand je suis arrivé（事件），il faisait beau（背景）。",
+      "★ 老師的圖分兩層：藍色橫軸是「狀態」（imparfait／présent／futur simple），插下來的箭頭是「事件」（passé composé／futur proche）。",
+      "★ FUTUR PROCHE ＝ aller ＋ 原形動詞：Je vais déménager dans six mois.",
+      "★ PLUS-QUE-PARFAIT ＝ 過去的更過去：J'avais fini mes études quand j'ai déménagé.",
+      "★ FUTUR ANTÉRIEUR ＝ 未來的更早：Tu me rejoindras quand j'aurai déménagé.",
+      "★★ 時態和時間介係詞成組出現：passé composé ＋ il y a／présent ＋ depuis／futur proche ＋ dans。",
+      "詳細的過去分詞表和兩份練習詳解，在 9/15 的三個單元裡。"
+    ],
+    "drill": [
+      {
+        "fr": "Aujourd'hui, je travaille.",
+        "zh": "今天我工作。（現在式）"
+      },
+      {
+        "fr": "Hier, j'ai travaillé.",
+        "zh": "昨天我工作了。（AVOIR ＋ p.p）"
+      },
+      {
+        "fr": "Aujourd'hui, je vais au cinéma.",
+        "zh": "今天我去看電影。（現在式）"
+      },
+      {
+        "fr": "Hier, je suis allée au cinéma.",
+        "zh": "昨天我去看了電影。（ÊTRE ＋ p.p，女生加 e）"
+      },
+      {
+        "fr": "J'ai déménagé il y a six mois.",
+        "zh": "我六個月前搬家了。（passé composé ＝ 事件）"
+      },
+      {
+        "fr": "J'habitais à Rome.",
+        "zh": "那時候我住羅馬。（imparfait ＝ 狀態）"
+      },
+      {
+        "fr": "Quand je suis arrivé à Paris, il faisait beau.",
+        "zh": "我到巴黎時天氣很好。（事件＋背景）"
+      },
+      {
+        "fr": "J'habiterai à Berlin.",
+        "zh": "未來我會住柏林。（futur simple 狀態）"
+      },
+      {
+        "fr": "J'ai déménagé il y a six mois.",
+        "zh": "我六個月前搬家了。（passé composé 事件）"
+      },
+      {
+        "fr": "Je vais déménager dans six mois.",
+        "zh": "我六個月後要搬家。（futur proche 事件）"
+      },
+      {
+        "fr": "J'avais fini mes études quand j'ai déménagé.",
+        "zh": "我搬家時已經唸完書了。（plus-que-parfait）"
+      },
+      {
+        "fr": "Tu me rejoindras quand j'aurai déménagé.",
+        "zh": "等我搬完家你再來找我。（futur antérieur）"
+      },
+      {
+        "fr": "Je vais manger.",
+        "zh": "我要去吃飯了。"
+      },
+      {
+        "fr": "Il va pleuvoir.",
+        "zh": "要下雨了。"
+      },
+      {
+        "fr": "déménager",
+        "zh": "搬家"
+      },
+      {
+        "fr": "finir ses études",
+        "zh": "完成學業、畢業"
+      },
+      {
+        "fr": "rejoindre",
+        "zh": "來會合、加入"
+      },
+      {
+        "fr": "Beyoncé est née le 9 septembre 1981.",
+        "zh": "碧昂絲生於 1981 年 9 月 9 日。（陰性 +e）"
+      },
+      {
+        "fr": "Elsa et sa sœur sont sorties en boîte.",
+        "zh": "艾爾莎和她妹妹去夜店了。（陰性複數 +es）"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "PASSÉ COMPOSÉ 在老師的時間軸上是哪個位置？",
+        "options": [
+          "插進時間軸的箭頭（某個點發生的事件）",
+          "藍色橫軸（一段持續的狀態）",
+          "時間軸外面"
+        ],
+        "answer": 0,
+        "why": "★ 箭頭 ＝ 事件，在某個時間點發生而且完成了。橫軸的 imparfait 才是「一段狀態」。"
+      },
+      {
+        "q": "J'habitais à Rome 和 J'ai déménagé 差在哪？",
+        "options": [
+          "前者是一段狀態（imparfait），後者是一個事件（passé composé）",
+          "前者是現在，後者是過去",
+          "意思一樣"
+        ],
+        "answer": 0,
+        "why": "★★ 這是圖上最關鍵的對比：imparfait 描述「當時的樣子」，passé composé 講「發生了什麼」。"
+      },
+      {
+        "q": "複合過去式的公式是什麼？",
+        "options": [
+          "助動詞（avoir／être）＋ 過去分詞",
+          "原形動詞 ＋ 過去分詞",
+          "aller ＋ 原形動詞"
+        ],
+        "answer": 0,
+        "why": "★ 老師投影片的大字：ÊTRE ＋ p.p 或 AVOIR ＋ p.p。p.p 就是 participe passé（過去分詞）。"
+      },
+      {
+        "q": "「我六個月前搬家了」正確的說法是？",
+        "options": [
+          "J'ai déménagé il y a six mois.",
+          "J'ai déménagé dans six mois.",
+          "Je déménage depuis six mois."
+        ],
+        "answer": 0,
+        "why": "★ 已經發生 → passé composé ＋ il y a（…之前）。dans 是未來。"
+      },
+      {
+        "q": "「我六個月後要搬家」正確的說法是？",
+        "options": [
+          "Je vais déménager dans six mois.",
+          "Je vais déménager il y a six mois.",
+          "J'ai déménagé dans six mois."
+        ],
+        "answer": 0,
+        "why": "★ 還沒發生 → futur proche ＋ dans（…之後）。"
+      },
+      {
+        "q": "Beyoncé est ___ le 9 septembre 1981.（naître）",
+        "options": [
+          "née",
+          "né",
+          "nés"
+        ],
+        "answer": 0,
+        "why": "★ naître 用 être，過去分詞要跟主詞配合。Beyoncé 是女生 → né 加 e。"
+      },
+      {
+        "q": "PLUS-QUE-PARFAIT 用在什麼情況？",
+        "options": [
+          "兩件過去的事，先發生的那件",
+          "未來的事",
+          "現在的習慣"
+        ],
+        "answer": 0,
+        "why": "★ J'avais fini mes études quand j'ai déménagé.（唸完書比搬家更早）"
+      },
+      {
+        "q": "PLUS-QUE-PARFAIT 的公式是？",
+        "options": [
+          "avoir/être 的 imparfait ＋ 過去分詞",
+          "avoir 的現在式 ＋ 過去分詞",
+          "aller ＋ 原形"
+        ],
+        "answer": 0,
+        "why": "j'avais fini、il était parti。avais 是 avoir 的 imparfait。"
+      },
+      {
+        "q": "「等我搬完家你再來找我」用哪個時態？",
+        "options": [
+          "futur antérieur（j'aurai déménagé）",
+          "passé composé",
+          "imparfait"
+        ],
+        "answer": 0,
+        "why": "★ 兩件未來的事，先完成的那件用 futur antérieur：aurai ＋ 過去分詞。"
+      },
+      {
+        "q": "哪一組時態和時間介係詞是正確搭配？",
+        "options": [
+          "passé composé ＋ il y a",
+          "passé composé ＋ dans",
+          "futur proche ＋ il y a"
+        ],
+        "answer": 0,
+        "why": "★ 老師同一天教時態和介係詞不是偶然：passé composé ＋ il y a（過去的點）、futur proche ＋ dans（未來的點）、présent ＋ depuis（延續到現在）。"
+      }
+    ]
   }
 ]

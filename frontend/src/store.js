@@ -366,6 +366,43 @@ export function deleteCustomCard(id) {
   )
 }
 
+/**
+ * Is this French word already somewhere in the user's bank?
+ * Matches a seed card marked unfamiliar, or any custom card they added.
+ */
+export function bankedWord(french) {
+  const w = String(french).trim().toLowerCase()
+  if (!w) return null
+  const unfam = getUnfamiliarSet()
+  const seed = SEED_CARDS.find((c) => c.french.toLowerCase() === w && unfam.has(c.id))
+  if (seed) return { id: seed.id, kind: 'seed' }
+  const custom = getCustomCards().find((c) => c.french.toLowerCase() === w)
+  return custom ? { id: custom.id, kind: 'custom' } : null
+}
+
+/**
+ * Star / unstar a word straight from a lesson.
+ *
+ * Prefers an existing seed card so the word keeps its example sentence and SRS
+ * history; only falls back to creating a custom card when the dictionary word
+ * isn't in the deck at all.
+ */
+export function toggleWordInBank(french, translation) {
+  const w = String(french).trim()
+  const existing = bankedWord(w)
+
+  if (existing) {
+    if (existing.kind === 'seed') toggleUnfamiliar(existing.id)
+    else deleteCustomCard(existing.id)
+    return false
+  }
+
+  const seed = SEED_CARDS.find((c) => c.french.toLowerCase() === w.toLowerCase())
+  if (seed) toggleUnfamiliar(seed.id)
+  else addCustomCard({ french: w, translation: translation || '', tag: '課程單字' })
+  return true
+}
+
 /** All cards (seed + custom) with the current `unfamiliar` flag applied. */
 export function loadCards() {
   const unfam = getUnfamiliarSet()
