@@ -1,0 +1,92 @@
+[
+  {
+    "id": "identite",
+    "icon": "👋",
+    "title": "自我介紹與身分",
+    "goal": "能用 être 介紹自己：國籍、住哪裡、職業、年齡，並分清楚 c'est 和 il est。",
+    "lessons": [
+      { "id": "etre", "focus": "六個人稱與 être 變位，所有句子的地基" },
+      { "id": "pays-nationalite", "focus": "國家前的 en / au / aux，國籍的陰陽性" },
+      { "id": "professions", "focus": "職業名詞的六種陰陽性變化" },
+      { "id": "connaitre-qui-est-ce", "focus": "connaître 變位、Qui est-ce ? 問人是誰" },
+      { "id": "cest-il-est", "focus": "c'est + 名詞 vs il est + 形容詞" },
+      { "id": "self-intro-questions", "focus": "綜合：用 Est-ce que / Qu'est-ce que 問答自我介紹" }
+    ]
+  },
+  {
+    "id": "verbes-courants",
+    "icon": "❤️",
+    "title": "常用動詞：喜好、感受與日常",
+    "goal": "能表達喜不喜歡、身體感受、休閒活動和一天的作息。",
+    "lessons": [
+      { "id": "avoir-possession", "focus": "avoir 慣用語：avoir faim / froid / peur…" },
+      { "id": "aimer-gouts", "focus": "aimer + 定冠詞 + 名詞、aimer + 原形" },
+      { "id": "aimer-jaime-jenaimepas", "focus": "定冠詞 le / la / l' / les 與否定 je n'aime pas" },
+      { "id": "aimer-themes-ca-preferer", "focus": "飲料、食物、休閒主題單字，ça 與 préférer" },
+      { "id": "faire-jouer", "focus": "faire de / jouer à / jouer de 的介係詞" },
+      { "id": "verbes-pronominaux", "focus": "反身動詞 se lever、se laver…，作息動詞" },
+      { "id": "falloir-plaire-pleuvoir", "focus": "il faut、plaire 的相反結構、aller vs venir" }
+    ]
+  },
+  {
+    "id": "noms-quantites",
+    "icon": "🍽️",
+    "title": "名詞前面的小字：數量、指示詞與點餐",
+    "goal": "能在餐廳和商店說要多少東西，並用 ce / cet / cette / ces 指出「這個」。",
+    "lessons": [
+      { "id": "les-quantites", "focus": "部分冠詞 du / de la，有量時冠詞變 de" },
+      { "id": "restaurant-commander", "focus": "實戰：在餐廳入座、點餐、買單" },
+      { "id": "adjectifs-demonstratifs", "focus": "ce / cet / cette / ces 與 ce matin、cette année" }
+    ]
+  },
+  {
+    "id": "le-temps",
+    "icon": "🕒",
+    "title": "日期、時間與天氣",
+    "goal": "能說今天幾號星期幾、現在幾點、一天的時段，以及聊天氣。",
+    "lessons": [
+      { "id": "la-date", "focus": "星期、月份、問今天幾號" },
+      { "id": "le-temps-date", "focus": "le + 日 + 月，lundi 和 le lundi 的差別" },
+      { "id": "le-temps-heure", "focus": "Il est … heure(s)，et quart / et demie / moins" },
+      { "id": "le-temps-journee", "focus": "一天的時段，時間點 vs 時間長度" },
+      { "id": "le-temps-complet", "focus": "把日期和時間組成完整句，à / le / en / au" },
+      { "id": "la-meteo-saisons", "focus": "Il fait…、Il pleut、四季的介係詞" }
+    ]
+  },
+  {
+    "id": "aller",
+    "icon": "🚆",
+    "title": "ALLER：去哪裡、怎麼去",
+    "goal": "能說要去哪個地方或國家、搭什麼交通工具，以及用 aller + 原形說近未來。",
+    "lessons": [
+      { "id": "aller-lieu", "focus": "aller 變位，à / au / à la / à l' / chez" },
+      { "id": "aller-pays-transport", "focus": "en / au / aux + 國家，en vs à + 交通工具，近未來" },
+      { "id": "aller-devoirs", "focus": "作業詳解：自己判斷介係詞" }
+    ]
+  },
+  {
+    "id": "passe-compose",
+    "icon": "⏮️",
+    "title": "複合過去式 PASSÉ COMPOSÉ",
+    "goal": "能說昨天做了什麼：選對助動詞 avoir / être、寫對過去分詞和性數配合。",
+    "lessons": [
+      { "id": "passe-compose-avoir", "focus": "基本觀念與 avoir 助動詞" },
+      { "id": "participes-passes-groupes", "focus": "動詞三組，過去分詞依字尾 -é / -u / -i 背" },
+      { "id": "passe-compose-etre", "focus": "15 個用 être 的移動動詞" },
+      { "id": "passe-compose-exercices", "focus": "練習：avoir 和 être 混合判斷" },
+      { "id": "passe-compose-etre-accord", "focus": "être 時的性數配合，接受詞改用 avoir" },
+      { "id": "temps-indicatif-resume", "focus": "總複習：時間軸上 passé composé vs imparfait" }
+    ]
+  },
+  {
+    "id": "duree",
+    "icon": "⏳",
+    "title": "時間長度：depuis、pendant、il y a…",
+    "goal": "能分清楚「已經…多久了」「…之前」「持續多久」「…之後」該用哪個字、配哪個時態。",
+    "lessons": [
+      { "id": "duree-prepositions", "focus": "pendant / pour / dans / depuis / il y a 初學" },
+      { "id": "ca-fait-que", "focus": "ça fait … que = … depuis，配現在式" },
+      { "id": "pour-en-duree", "focus": "六個時間介係詞總整理（含 en、pour）" }
+    ]
+  }
+]

@@ -13,6 +13,7 @@ import unitsData from './data/units.json'
 import verbsData from './data/verbs.json'
 import lessonsData from './data/lessons.json'
 import courseData from './data/course.json'
+import lessonTopicsData from './data/lessonTopics.json'
 
 export const LEVELS = ['A1', 'A2', 'B1']
 
@@ -42,6 +43,25 @@ export const DIALOGUE_CATEGORIES = [...new Set(DIALOGUES.map((d) => d.category))
 
 // --- "Lessons review" tab: in-class lessons, organised section by section ---
 export const LESSONS = lessonsData
+
+// Lessons regrouped by theme, in the order they are best studied (not the
+// order they were taught). Each entry carries the lesson object plus a
+// one-line study focus; ids that don't resolve are dropped.
+export const LESSON_TOPICS = lessonTopicsData.map((t) => ({
+  ...t,
+  lessons: t.lessons
+    .map((x) => ({ ...LESSONS.find((l) => l.id === x.id), focus: x.focus }))
+    .filter((l) => l.id),
+}))
+
+/** The topic a lesson belongs to and its 0-based position inside it. */
+export function topicOfLesson(id) {
+  for (const t of LESSON_TOPICS) {
+    const i = t.lessons.findIndex((l) => l.id === id)
+    if (i !== -1) return { topic: t, index: i }
+  }
+  return null
+}
 
 // --- "Learning path" tab: the structured zero-to-conversation course -------
 // Stages contain lessons; lesson sections reference grammar (level +
@@ -302,6 +322,7 @@ export function searchAll(rawQuery) {
 const K_UNFAMILIAR = 'fl_unfamiliar'
 const K_CUSTOM = 'fl_custom_cards'
 const K_COURSE_DONE = 'fl_course_done'
+const K_LESSONS_REVIEWED = 'fl_lessons_reviewed'
 
 function read(key, fallback) {
   try {
@@ -333,6 +354,19 @@ export function toggleLessonDone(id) {
   if (set.has(id)) set.delete(id)
   else set.add(id)
   write(K_COURSE_DONE, [...set])
+}
+
+// --- in-class lesson review progress (reviewed lesson ids) ---
+export function getReviewedLessons() {
+  return new Set(read(K_LESSONS_REVIEWED, []))
+}
+
+export function toggleLessonReviewed(id) {
+  const set = getReviewedLessons()
+  if (set.has(id)) set.delete(id)
+  else set.add(id)
+  write(K_LESSONS_REVIEWED, [...set])
+  return set
 }
 
 export function toggleUnfamiliar(id) {

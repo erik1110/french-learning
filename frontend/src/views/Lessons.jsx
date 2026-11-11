@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react'
-import { LESSONS } from '../store'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import { LESSONS, LESSON_TOPICS, getReviewedLessons, toggleLessonReviewed, topicOfLesson } from '../store'
 import { navigate } from '../router'
 import {
   EmptyState,
@@ -86,6 +86,109 @@ function LessonCalendar({ byDate, selected, onPick }) {
       <p className="cal-legend">
         <span className="cal-dot" /> 有上課內容，點日期看當天的單元
       </p>
+    </div>
+  )
+}
+
+/* ------------------------------ topic browser ----------------------------- */
+
+function TopicList({ current, reviewed, onPick }) {
+  const total = LESSON_TOPICS.reduce((n, t) => n + t.lessons.length, 0)
+  const done = LESSON_TOPICS.reduce((n, t) => n + t.lessons.filter((l) => reviewed.has(l.id)).length, 0)
+  const navRef = useRef(null)
+  // Keep the current lesson visible inside the list (without scrolling the page).
+  useEffect(() => {
+    const nav = navRef.current
+    const el = nav?.querySelector('.topic-item.active')
+    if (!nav || !el) return
+    const top = el.offsetTop - nav.offsetTop
+    if (top < nav.scrollTop || top + el.offsetHeight > nav.scrollTop + nav.clientHeight) {
+      nav.scrollTop = top - nav.clientHeight / 3
+    }
+  }, [current])
+  return (
+    <nav ref={navRef} className="split-list topic-list" aria-label="依主題">
+      <p className="topic-overall">
+        建議由上往下讀，每個主題內也照順序。已複習 {done} / {total} 課
+      </p>
+      {LESSON_TOPICS.map((t, ti) => {
+        const n = t.lessons.filter((l) => reviewed.has(l.id)).length
+        return (
+          <div key={t.id} className="topic-group">
+            <div className="topic-head">
+              <span className="topic-title">
+                {ti + 1}. {t.icon} {t.title}
+              </span>
+              <span className={n === t.lessons.length ? 'topic-count full' : 'topic-count'}>
+                {n}/{t.lessons.length}
+              </span>
+            </div>
+            <p className="topic-goal">{t.goal}</p>
+            {t.lessons.map((l, i) => (
+              <button
+                key={l.id}
+                type="button"
+                className={l.id === current ? 'split-item topic-item active' : 'split-item topic-item'}
+                onClick={() => onPick(l.id)}
+              >
+                <span className={reviewed.has(l.id) ? 'topic-mark done' : 'topic-mark'} aria-hidden="true">
+                  {reviewed.has(l.id) ? '✓' : i + 1}
+                </span>
+                <span className="topic-item-text">
+                  <span className="split-item-title">{l.title}</span>
+                  <span className="split-item-sub">{l.focus}</span>
+                </span>
+              </button>
+            ))}
+          </div>
+        )
+      })}
+    </nav>
+  )
+}
+
+function TopicNav({ lesson, reviewed, onToggle, onPick }) {
+  const where = topicOfLesson(lesson.id)
+  const isDone = reviewed.has(lesson.id)
+  const prev = where?.topic.lessons[where.index - 1]
+  const next = where?.topic.lessons[where.index + 1]
+  // After the last lesson of a topic, point to the first lesson of the next topic.
+  const ti = where ? LESSON_TOPICS.indexOf(where.topic) : -1
+  const nextTopic = !next && ti !== -1 ? LESSON_TOPICS[ti + 1] : null
+  return (
+    <div className="topic-nav">
+      {where && (
+        <p className="topic-nav-where">
+          {where.topic.icon} {where.topic.title} · 第 {where.index + 1} / {where.topic.lessons.length} 課
+          <span className="muted"> — {where.topic.lessons[where.index].focus}</span>
+        </p>
+      )}
+      <div className="topic-nav-actions">
+        <button type="button" className="btn btn-sm" disabled={!prev} onClick={() => prev && onPick(prev.id)}>
+          ‹ 上一課
+        </button>
+        <button
+          type="button"
+          className={isDone ? 'btn btn-sm topic-done on' : 'btn btn-sm topic-done'}
+          aria-pressed={isDone}
+          onClick={() => onToggle(lesson.id)}
+        >
+          {isDone ? '✓ 已複習' : '標記為已複習'}
+        </button>
+        {next ? (
+          <button type="button" className="btn btn-sm" onClick={() => onPick(next.id)}>
+            下一課 ›
+          </button>
+        ) : nextTopic ? (
+          <button type="button" className="btn btn-sm" onClick={() => onPick(nextTopic.lessons[0].id)}>
+            下一個主題：{nextTopic.icon} {nextTopic.title} ›
+          </button>
+        ) : (
+          <button type="button" className="btn btn-sm" disabled>
+            下一課 ›
+          </button>
+        )}
+      </div>
     </div>
   )
 }
@@ -196,7 +299,13 @@ function LessonDrill({ lesson }) {
 }
 
 export default function LessonsView({ route }) {
-  const [view, setView] = useState('calendar')
+  const [view, setView] = useState('topics')
+  const [reviewed, setReviewed] = useState(() => getReviewedLessons())
+  const toggleReviewed = (id) => setReviewed(new Set(toggleLessonReviewed(id)))
+  const pick = (id) => {
+    navigate(`/lessons/${encodeURIComponent(id)}`)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
   const [q, setQ] = useState('')
   // Collapsed by default on narrow screens: the lesson itself is what you came
   // for, the date picker is navigation you only need between lessons.
@@ -228,7 +337,7 @@ export default function LessonsView({ route }) {
       <PageHeader
         icon="📅"
         title="課程複習"
-        description="老師上課教過的內容，依日期整理。用日曆查某一天，或切到列表快速瀏覽。"
+        description="老師上課教過的內容。「主題」把各堂課依文法主題和建議順序排好；也可以用日曆查某一天，或切到列表快速瀏覽。"
       />
 
       <div className="filter-bar">
@@ -247,6 +356,7 @@ export default function LessonsView({ route }) {
           <Segmented
             ariaLabel="檢視方式"
             options={[
+              { key: 'topics', label: '📚 主題' },
               { key: 'calendar', label: '📅 日曆' },
               { key: 'list', label: '📋 列表' },
             ]}
@@ -265,7 +375,9 @@ export default function LessonsView({ route }) {
       <div className={pickerOpen ? 'split' : 'split solo'}>
         {pickerOpen && (
         <div className="split-list-wrap">
-          {view === 'calendar' ? (
+          {view === 'topics' ? (
+            <TopicList current={lesson.id} reviewed={reviewed} onPick={pick} />
+          ) : view === 'calendar' ? (
             <LessonCalendar
               // remount when the selected month changes, so jumping in from
               // search lands the calendar on the right month
@@ -346,6 +458,8 @@ export default function LessonsView({ route }) {
 
             {lesson.drill?.length > 0 && <LessonDrill lesson={lesson} />}
             {lesson.quiz?.length > 0 && <LessonQuiz lesson={lesson} />}
+
+            <TopicNav lesson={lesson} reviewed={reviewed} onToggle={toggleReviewed} onPick={pick} />
           </section>
         </div>
       </div>

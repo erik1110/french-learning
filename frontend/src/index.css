@@ -3711,3 +3711,97 @@ kbd {
   .wcard-grid { grid-template-columns: 1fr; }
   .pair-list { grid-template-columns: 1fr; }
 }
+
+/* ---------- Lessons: topic view ---------- */
+.topic-list {
+  max-height: 72vh;
+  gap: 0;
+}
+.topic-overall {
+  margin: 4px 8px 8px;
+  font-size: var(--fs-xs);
+  color: var(--muted);
+}
+.topic-group {
+  padding: 8px 0 10px;
+  border-top: 1px solid var(--border);
+}
+.topic-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 0 8px;
+}
+.topic-title {
+  font-weight: 700;
+  font-size: var(--fs-sm);
+}
+.topic-count {
+  flex: none;
+  font-size: var(--fs-xs);
+  color: var(--muted);
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--surface-2);
+}
+.topic-count.full {
+  color: var(--success);
+  background: var(--success-soft);
+}
+.topic-goal {
+  margin: 2px 8px 6px;
+  font-size: var(--fs-xs);
+  color: var(--muted);
+  line-height: 1.5;
+}
+.topic-item {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+.topic-item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+.topic-mark {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  margin-top: 1px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--muted);
+  border: 1px solid var(--border);
+}
+.topic-mark.done {
+  color: #fff;
+  background: var(--success);
+  border-color: var(--success);
+}
+.topic-nav {
+  margin-top: var(--sp-4);
+  padding-top: var(--sp-3);
+  border-top: 1px solid var(--border);
+}
+.topic-nav-where {
+  margin: 0 0 8px;
+  font-size: var(--fs-sm);
+  font-weight: 600;
+}
+.topic-nav-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: space-between;
+}
+.topic-done.on {
+  color: var(--success);
+  border-color: var(--success);
+  background: var(--success-soft);
+}
