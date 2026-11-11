@@ -13985,5 +13985,1631 @@
         "why": "★ 老師同一天教時態和介係詞不是偶然：passé composé ＋ il y a（過去的點）、futur proche ＋ dans（未來的點）、présent ＋ depuis（延續到現在）。"
       }
     ]
+  },
+  {
+    "id": "passe-compose-etre-accord",
+    "date": "2026-11-02",
+    "title": "LE PASSÉ COMPOSÉ ④ ÊTRE 助動詞複習與過去分詞的性數配合",
+    "summary": "複習：表示「位置改變、移動」的動詞，複合過去式用 être 當助動詞。用 être 時，過去分詞要跟主詞做陰陽性與單複數配合；後面接受詞時，部分動詞會改用 avoir。",
+    "sections": [
+      {
+        "heading": "① 規則：主詞 ＋ être（現在式）＋ 過去分詞",
+        "note": "★ 表示地點改變、移動的動詞，複合過去式不用 avoir，而用 être 當助動詞。",
+        "items": [
+          {
+            "fr": "Il est arrivé.",
+            "zh": "他到了。"
+          },
+          {
+            "fr": "Je suis parti.",
+            "zh": "我離開了。"
+          },
+          {
+            "fr": "Nous sommes venus.",
+            "zh": "我們來了。"
+          },
+          {
+            "fr": "Elle est tombée.",
+            "zh": "她跌倒了。（主詞是陰性 → 過去分詞加 e）"
+          },
+          {
+            "fr": "主詞 ＋ être（présent）＋ participe passé",
+            "zh": "句型公式"
+          }
+        ]
+      },
+      {
+        "heading": "② 用 être 的動詞 — 依相反詞成對記",
+        "note": "★ 成對背最好記。粗體的不規則過去分詞要特別背：naître → né、mourir → mort、venir → venu。",
+        "items": [
+          {
+            "fr": "naître → né  ↔  mourir → mort",
+            "zh": "出生 ↔ 死亡（★ 兩個都不規則）"
+          },
+          {
+            "fr": "aller → allé  ↔  venir → venu",
+            "zh": "去 ↔ 來（★ venu 不規則）"
+          },
+          {
+            "fr": "monter → monté  ↔  descendre → descendu",
+            "zh": "上去 ↔ 下來"
+          },
+          {
+            "fr": "entrer → entré  ↔  sortir → sorti",
+            "zh": "進入 ↔ 出去"
+          },
+          {
+            "fr": "arriver → arrivé  ↔  partir → parti",
+            "zh": "到達 ↔ 離開"
+          },
+          {
+            "fr": "rester → resté  ↔  passer → passé",
+            "zh": "停留 ↔ 經過"
+          },
+          {
+            "fr": "retourner → retourné",
+            "zh": "返回"
+          },
+          {
+            "fr": "tomber → tombé",
+            "zh": "跌倒"
+          },
+          {
+            "fr": "revenir, devenir, rentrer",
+            "zh": "衍生動詞也用 être：revenu、devenu、rentré"
+          },
+          {
+            "fr": "Je me suis levé.",
+            "zh": "代動詞（se lever…）的複合過去式也一律用 être"
+          }
+        ]
+      },
+      {
+        "heading": "③ 例外：後面接受詞時改用 avoir",
+        "note": "★ monter、descendre、sortir、passer、retourner、rentrer 後面直接接受詞時，意思會變，助動詞改成 avoir。",
+        "items": [
+          {
+            "fr": "Je suis sorti.",
+            "zh": "我出去了。（沒有受詞 → être）"
+          },
+          {
+            "fr": "J'ai sorti le chien.",
+            "zh": "我帶狗出去了。（有受詞 le chien → avoir）"
+          },
+          {
+            "fr": "Je suis monté.",
+            "zh": "我上樓了。"
+          },
+          {
+            "fr": "J'ai monté les valises.",
+            "zh": "我把行李提上去了。"
+          },
+          {
+            "fr": "Elle est descendue.",
+            "zh": "她下來了。"
+          },
+          {
+            "fr": "Elle a descendu l'escalier.",
+            "zh": "她走下樓梯。"
+          },
+          {
+            "fr": "Je suis rentré.",
+            "zh": "我回家了。"
+          },
+          {
+            "fr": "J'ai rentré la voiture.",
+            "zh": "我把車開進車庫了。"
+          }
+        ]
+      },
+      {
+        "heading": "④ ★ 用 être 時，過去分詞的陰陽性與單複數配合",
+        "note": "★ 陽性單數不變；陰性加 e；複數加 s；陰性複數加 es。只有用 être 時才要配合。",
+        "items": [
+          {
+            "fr": "Il est parti.",
+            "zh": "陽性單數：parti"
+          },
+          {
+            "fr": "Elle est partie.",
+            "zh": "陰性單數：parti + e"
+          },
+          {
+            "fr": "Ils sont partis.",
+            "zh": "陽性複數：parti + s"
+          },
+          {
+            "fr": "Elles sont parties.",
+            "zh": "陰性複數：parti + es"
+          },
+          {
+            "fr": "Marie et Paul sont partis.",
+            "zh": "★ 團體中只要有一位男性 → 用陽性複數"
+          },
+          {
+            "fr": "Je suis allée.",
+            "zh": "je / tu / nous / vous 看說話者的實際性別（這句是女生說）"
+          },
+          {
+            "fr": "Vous êtes arrivées ?",
+            "zh": "妳們到了嗎？（聽話者全是女生，複數）"
+          },
+          {
+            "fr": "Elle a mangé.",
+            "zh": "★ 用 avoir 時過去分詞通常不變（不寫 mangée）"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 發音：大多聽不出差別",
+        "note": "加上 e、s、es 之後發音大多一樣，只有少數會變，例如 mort / morte。",
+        "items": [
+          {
+            "fr": "parti / partie / partis / parties",
+            "zh": "四種寫法發音都一樣 [paʁti]"
+          },
+          {
+            "fr": "Il est mort.",
+            "zh": "他過世了。mort [mɔʁ]，t 不發音"
+          },
+          {
+            "fr": "Elle est morte.",
+            "zh": "她過世了。morte [mɔʁt]，加 e 之後 t 要發音"
+          },
+          {
+            "fr": "Il est né en 1990.",
+            "zh": "他生於 1990 年。"
+          },
+          {
+            "fr": "Elle est née en 1992.",
+            "zh": "她生於 1992 年。（née 跟 né 發音一樣）"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ 文法術語對照",
+        "note": "看文法書、查字典時常見的名稱。",
+        "items": [
+          {
+            "fr": "participe passé (p.p.)",
+            "zh": "過去分詞｜past participle"
+          },
+          {
+            "fr": "infinitif",
+            "zh": "原型｜infinitive"
+          },
+          {
+            "fr": "auxiliaire",
+            "zh": "助動詞｜auxiliary verb"
+          },
+          {
+            "fr": "passé composé",
+            "zh": "複合過去式"
+          },
+          {
+            "fr": "participe présent（-ant）",
+            "zh": "現在分詞｜present participle"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★★ 表示「地點改變、移動」的動詞 ＋ 所有代動詞，複合過去式用 être；其他用 avoir。",
+      "★ 相反詞成對記：naître/mourir、aller/venir、monter/descendre、entrer/sortir、arriver/partir、rester/passer，再加 retourner、tomber。",
+      "★ 不規則過去分詞：né、mort、venu。衍生的 revenir、devenir、rentrer 也用 être。",
+      "★ monter、descendre、sortir、passer、retourner、rentrer 接受詞時改用 avoir：J'ai sorti le chien.",
+      "★★ 用 être 時過去分詞要配合主詞：e（陰性）、s（複數）、es（陰性複數）。",
+      "團體裡只要有一位男性就用陽性複數；je / tu / nous / vous 依實際性別。",
+      "用 avoir 時過去分詞通常不變：Elle a mangé.",
+      "發音大多相同，mort [mɔʁ] / morte [mɔʁt] 是例外。"
+    ],
+    "drill": [
+      {
+        "fr": "Il est arrivé.",
+        "zh": "他到了。"
+      },
+      {
+        "fr": "Elle est partie.",
+        "zh": "她離開了。"
+      },
+      {
+        "fr": "Ils sont venus.",
+        "zh": "他們來了。"
+      },
+      {
+        "fr": "Marie et Paul sont partis.",
+        "zh": "Marie 和 Paul 離開了。"
+      },
+      {
+        "fr": "Je suis allée.",
+        "zh": "我去了。（女生說）"
+      },
+      {
+        "fr": "Je suis sorti.",
+        "zh": "我出去了。"
+      },
+      {
+        "fr": "J'ai sorti le chien.",
+        "zh": "我帶狗出去了。"
+      },
+      {
+        "fr": "Il est né en 1990.",
+        "zh": "他生於 1990 年。"
+      },
+      {
+        "fr": "Elle est morte.",
+        "zh": "她過世了。"
+      },
+      {
+        "fr": "Je me suis levé tôt.",
+        "zh": "我很早起床。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "「他到了」怎麼說？",
+        "options": [
+          "Il est arrivé.",
+          "Il a arrivé.",
+          "Il est arrive."
+        ],
+        "answer": 0,
+        "why": "arriver 是移動動詞，用 être 當助動詞：Il est arrivé."
+      },
+      {
+        "q": "naître 的過去分詞是？",
+        "options": [
+          "né",
+          "naît",
+          "naîtré"
+        ],
+        "answer": 0,
+        "why": "★ 不規則：naître → né。另外 mourir → mort、venir → venu。"
+      },
+      {
+        "q": "「她離開了」的正確寫法？",
+        "options": [
+          "Elle est partie.",
+          "Elle est parti.",
+          "Elle a partie."
+        ],
+        "answer": 0,
+        "why": "用 être 時過去分詞跟主詞配合，主詞陰性單數 → partie。"
+      },
+      {
+        "q": "Marie et Paul ___ .",
+        "options": [
+          "sont partis",
+          "sont parties",
+          "sont parti"
+        ],
+        "answer": 0,
+        "why": "★ 團體中只要有一位男性就用陽性複數 → partis。"
+      },
+      {
+        "q": "「我帶狗出去了」怎麼說？",
+        "options": [
+          "J'ai sorti le chien.",
+          "Je suis sorti le chien.",
+          "Je suis sortie le chien."
+        ],
+        "answer": 0,
+        "why": "★ sortir 後面接受詞（le chien）時改用 avoir。"
+      },
+      {
+        "q": "哪一組過去分詞的發音不一樣？",
+        "options": [
+          "mort / morte",
+          "parti / partie",
+          "allé / allée"
+        ],
+        "answer": 0,
+        "why": "morte 加了 e，t 要發音 [mɔʁt]；其他加 e 都聽不出差別。"
+      },
+      {
+        "q": "「她吃了」怎麼寫？",
+        "options": [
+          "Elle a mangé.",
+          "Elle a mangée.",
+          "Elle est mangée."
+        ],
+        "answer": 0,
+        "why": "manger 用 avoir，用 avoir 時過去分詞通常不配合主詞。"
+      },
+      {
+        "q": "一位女生說「我去了」，要寫成？",
+        "options": [
+          "Je suis allée.",
+          "Je suis allé.",
+          "J'ai allée."
+        ],
+        "answer": 0,
+        "why": "je 依說話者實際性別，女生 → allée。"
+      },
+      {
+        "q": "下列哪個動詞的複合過去式「不」用 être？",
+        "options": [
+          "manger",
+          "devenir",
+          "rentrer"
+        ],
+        "answer": 0,
+        "why": "devenir、rentrer 都是衍生的移動動詞，用 être；manger 用 avoir。"
+      },
+      {
+        "q": "participe passé 是什麼？",
+        "options": [
+          "過去分詞",
+          "現在分詞",
+          "助動詞"
+        ],
+        "answer": 0,
+        "why": "participe passé = 過去分詞；participe présent（-ant）= 現在分詞；auxiliaire = 助動詞。"
+      }
+    ]
+  },
+  {
+    "id": "participes-passes-groupes",
+    "date": "2026-11-02",
+    "title": "PARTICIPES PASSÉS — 動詞三組與過去分詞依字尾分類",
+    "summary": "法文動詞分成三組，前兩組的過去分詞有固定規則（-é、-i），第三組不規則。把常用的不規則過去分詞依字尾 -u、-i/-is/-it 和其他分類背起來。",
+    "sections": [
+      {
+        "heading": "① 動詞的三組（groupes）",
+        "note": "★ 第一組、第二組有規則，第三組大多不規則要個別背。",
+        "items": [
+          {
+            "fr": "第一組：-er 結尾（aller 除外）",
+            "zh": "過去分詞 -é｜parler → parlé"
+          },
+          {
+            "fr": "第二組：-ir 結尾，nous 變化為 -issons",
+            "zh": "過去分詞 -i｜finir → fini"
+          },
+          {
+            "fr": "第三組：其他（-ir、-re、-oir、aller）",
+            "zh": "過去分詞不規則｜venir → venu"
+          }
+        ]
+      },
+      {
+        "heading": "② 怎麼判斷 -ir 動詞是第二組還是第三組？",
+        "note": "★ 看 nous 的現在式變化：有 -issons 就是第二組。",
+        "items": [
+          {
+            "fr": "finir → nous finissons",
+            "zh": "有 -issons → 第二組"
+          },
+          {
+            "fr": "choisir → nous choisissons",
+            "zh": "第二組 → choisi"
+          },
+          {
+            "fr": "grandir → nous grandissons",
+            "zh": "第二組 → grandi"
+          },
+          {
+            "fr": "partir → nous partons",
+            "zh": "沒有 -issons → 第三組（過去分詞剛好是 parti）"
+          },
+          {
+            "fr": "venir → nous venons",
+            "zh": "第三組 → venu"
+          }
+        ]
+      },
+      {
+        "heading": "③ 字尾 -é：所有 -er 動詞",
+        "note": "第一組最簡單，把 -er 換成 -é。發音跟原型一樣。",
+        "items": [
+          {
+            "fr": "manger → mangé",
+            "zh": "吃"
+          },
+          {
+            "fr": "regarder → regardé",
+            "zh": "看"
+          },
+          {
+            "fr": "parler → parlé",
+            "zh": "說話"
+          },
+          {
+            "fr": "aller → allé",
+            "zh": "去（★ aller 雖然是第三組，過去分詞還是 allé）"
+          }
+        ]
+      },
+      {
+        "heading": "④ 字尾 -u",
+        "note": "★ 數量最多的一類，很多 -re、-oir 動詞都在這裡。",
+        "items": [
+          {
+            "fr": "lire → lu",
+            "zh": "讀"
+          },
+          {
+            "fr": "voir → vu",
+            "zh": "看見"
+          },
+          {
+            "fr": "boire → bu",
+            "zh": "喝"
+          },
+          {
+            "fr": "entendre → entendu",
+            "zh": "聽見"
+          },
+          {
+            "fr": "attendre → attendu",
+            "zh": "等待"
+          },
+          {
+            "fr": "répondre → répondu",
+            "zh": "回答"
+          },
+          {
+            "fr": "perdre → perdu",
+            "zh": "失去"
+          },
+          {
+            "fr": "vouloir → voulu",
+            "zh": "想要"
+          },
+          {
+            "fr": "devoir → dû",
+            "zh": "必須（★ 有長音符號，跟 du 區分）"
+          },
+          {
+            "fr": "pouvoir → pu",
+            "zh": "能夠"
+          },
+          {
+            "fr": "savoir → su",
+            "zh": "知道"
+          },
+          {
+            "fr": "croire → cru",
+            "zh": "相信"
+          },
+          {
+            "fr": "falloir → fallu",
+            "zh": "需要"
+          },
+          {
+            "fr": "courir → couru",
+            "zh": "跑"
+          },
+          {
+            "fr": "connaître → connu",
+            "zh": "認識"
+          },
+          {
+            "fr": "disparaître → disparu",
+            "zh": "消失"
+          },
+          {
+            "fr": "plaire → plu",
+            "zh": "使喜歡"
+          },
+          {
+            "fr": "pleuvoir → plu",
+            "zh": "下雨（★ 跟 plaire 同形）"
+          },
+          {
+            "fr": "recevoir → reçu",
+            "zh": "收到"
+          },
+          {
+            "fr": "venir → venu",
+            "zh": "來（★ 用 être）"
+          },
+          {
+            "fr": "vivre → vécu",
+            "zh": "生活"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 字尾 -i / -is / -it",
+        "note": "★ 同字根同變化：prendre → pris，所以 apprendre → appris、comprendre → compris。",
+        "items": [
+          {
+            "fr": "finir → fini",
+            "zh": "完成"
+          },
+          {
+            "fr": "grandir → grandi",
+            "zh": "長大"
+          },
+          {
+            "fr": "choisir → choisi",
+            "zh": "選擇"
+          },
+          {
+            "fr": "prendre → pris",
+            "zh": "拿、搭乘"
+          },
+          {
+            "fr": "apprendre → appris",
+            "zh": "學習"
+          },
+          {
+            "fr": "comprendre → compris",
+            "zh": "理解"
+          },
+          {
+            "fr": "mettre → mis",
+            "zh": "放、穿"
+          },
+          {
+            "fr": "dire → dit",
+            "zh": "說"
+          },
+          {
+            "fr": "écrire → écrit",
+            "zh": "寫"
+          },
+          {
+            "fr": "conduire → conduit",
+            "zh": "開車"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ 其他不規則",
+        "note": "-rir 結尾的幾個動詞過去分詞都是 -ert；-indre 結尾的是 -int。",
+        "items": [
+          {
+            "fr": "faire → fait",
+            "zh": "做"
+          },
+          {
+            "fr": "être → été",
+            "zh": "是（★ été 也是「夏天」）"
+          },
+          {
+            "fr": "avoir → eu",
+            "zh": "有"
+          },
+          {
+            "fr": "ouvrir → ouvert",
+            "zh": "打開"
+          },
+          {
+            "fr": "découvrir → découvert",
+            "zh": "發現"
+          },
+          {
+            "fr": "offrir → offert",
+            "zh": "送"
+          },
+          {
+            "fr": "souffrir → souffert",
+            "zh": "受苦"
+          },
+          {
+            "fr": "peindre → peint",
+            "zh": "畫"
+          },
+          {
+            "fr": "craindre → craint",
+            "zh": "害怕"
+          }
+        ]
+      },
+      {
+        "heading": "⑦ 放進句子裡",
+        "note": "★ 上面表格的動詞除了 venir，複合過去式都用 avoir。",
+        "items": [
+          {
+            "fr": "J'ai lu ce livre.",
+            "zh": "我讀了這本書。"
+          },
+          {
+            "fr": "Tu as vu le film ?",
+            "zh": "你看了那部電影嗎？"
+          },
+          {
+            "fr": "Il a bu un café.",
+            "zh": "他喝了一杯咖啡。"
+          },
+          {
+            "fr": "Nous avons pris le train.",
+            "zh": "我們搭了火車。"
+          },
+          {
+            "fr": "Elle a écrit une lettre.",
+            "zh": "她寫了一封信。"
+          },
+          {
+            "fr": "J'ai fait mes devoirs.",
+            "zh": "我做了作業。"
+          },
+          {
+            "fr": "Vous avez ouvert la fenêtre ?",
+            "zh": "您打開窗戶了嗎？"
+          },
+          {
+            "fr": "Il a été malade.",
+            "zh": "他生病了。"
+          },
+          {
+            "fr": "J'ai eu de la chance.",
+            "zh": "我運氣很好。"
+          },
+          {
+            "fr": "Elle est venue hier.",
+            "zh": "她昨天來了。（★ venir 用 être）"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★ 第一組 -er（aller 除外）→ -é；第二組 -ir（nous -issons）→ -i；第三組不規則。",
+      "★ -ir 動詞看 nous：finissons → 第二組；partons → 第三組。",
+      "★ -u 類最多：lu、vu、bu、entendu、attendu、voulu、pu、su、dû、reçu、venu、vécu…",
+      "★ 同字根同變化：prendre → pris → appris、compris。",
+      "dû 有長音符號，用來跟 du（de + le）區分。",
+      "plaire 和 pleuvoir 的過去分詞都是 plu。",
+      "été 是 être 的過去分詞，也是「夏天」；avoir 的過去分詞是 eu。",
+      "-rir 動詞 → -ert（ouvert、offert）；-indre 動詞 → -int（peint、craint）。",
+      "表中動詞除了 venir，複合過去式都用 avoir。"
+    ],
+    "drill": [
+      {
+        "fr": "J'ai lu ce livre.",
+        "zh": "我讀了這本書。"
+      },
+      {
+        "fr": "Tu as vu le film ?",
+        "zh": "你看了那部電影嗎？"
+      },
+      {
+        "fr": "Il a bu un café.",
+        "zh": "他喝了一杯咖啡。"
+      },
+      {
+        "fr": "J'ai attendu le bus.",
+        "zh": "我等了公車。"
+      },
+      {
+        "fr": "Nous avons pris le train.",
+        "zh": "我們搭了火車。"
+      },
+      {
+        "fr": "Tu as compris ?",
+        "zh": "你懂了嗎？"
+      },
+      {
+        "fr": "Elle a écrit une lettre.",
+        "zh": "她寫了一封信。"
+      },
+      {
+        "fr": "J'ai fait mes devoirs.",
+        "zh": "我做了作業。"
+      },
+      {
+        "fr": "Il a ouvert la porte.",
+        "zh": "他打開了門。"
+      },
+      {
+        "fr": "J'ai reçu un message.",
+        "zh": "我收到一則訊息。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "finir 屬於第幾組？",
+        "options": [
+          "第二組",
+          "第一組",
+          "第三組"
+        ],
+        "answer": 0,
+        "why": "★ nous finissons 有 -issons → 第二組，過去分詞 fini。"
+      },
+      {
+        "q": "partir 屬於第幾組？",
+        "options": [
+          "第三組",
+          "第二組",
+          "第一組"
+        ],
+        "answer": 0,
+        "why": "nous partons 沒有 -issons → 第三組（過去分詞剛好是 parti）。"
+      },
+      {
+        "q": "voir 的過去分詞？",
+        "options": [
+          "vu",
+          "voi",
+          "vit"
+        ],
+        "answer": 0,
+        "why": "voir → vu。"
+      },
+      {
+        "q": "prendre 的過去分詞？",
+        "options": [
+          "pris",
+          "prendu",
+          "prit"
+        ],
+        "answer": 0,
+        "why": "prendre → pris；同字根 apprendre → appris、comprendre → compris。"
+      },
+      {
+        "q": "devoir 的過去分詞為什麼寫成 dû？",
+        "options": [
+          "為了跟 du 區分",
+          "因為是陰性",
+          "因為用 être"
+        ],
+        "answer": 0,
+        "why": "dû 的長音符號只是為了跟冠詞 du 區分。"
+      },
+      {
+        "q": "ouvrir 的過去分詞？",
+        "options": [
+          "ouvert",
+          "ouvri",
+          "ouvru"
+        ],
+        "answer": 0,
+        "why": "-rir 結尾 → -ert：ouvert、découvert、offert、souffert。"
+      },
+      {
+        "q": "Il a ___ hier.（下雨了）",
+        "options": [
+          "plu",
+          "pleuvu",
+          "pleut"
+        ],
+        "answer": 0,
+        "why": "pleuvoir → plu，跟 plaire 的過去分詞同形。"
+      },
+      {
+        "q": "être 的過去分詞？",
+        "options": [
+          "été",
+          "eu",
+          "êtré"
+        ],
+        "answer": 0,
+        "why": "être → été（也是「夏天」）；avoir → eu。"
+      },
+      {
+        "q": "「她寫了一封信」怎麼說？",
+        "options": [
+          "Elle a écrit une lettre.",
+          "Elle a écrivu une lettre.",
+          "Elle est écrite une lettre."
+        ],
+        "answer": 0,
+        "why": "écrire → écrit，用 avoir。"
+      },
+      {
+        "q": "下列哪個動詞的複合過去式用 être？",
+        "options": [
+          "venir",
+          "voir",
+          "boire"
+        ],
+        "answer": 0,
+        "why": "★ 表中只有 venir 用 être：Elle est venue."
+      }
+    ]
+  },
+  {
+    "id": "falloir-plaire-pleuvoir",
+    "date": "2026-11-02",
+    "title": "FALLOIR・PLAIRE・PLEUVOIR — 單字用法與課堂造句",
+    "summary": "falloir 和 pleuvoir 是只能用 il 當主詞的非人稱動詞；plaire 的結構跟中文相反（東西讓某人喜歡）。另外練習課堂句子：chez + 人、aller 和 venir 的差別、depuis 與 pendant、tu as compris 與 tu comprends。",
+    "sections": [
+      {
+        "heading": "① falloir（需要、必須）— 主詞只能是 il",
+        "note": "★ 非人稱動詞，主詞永遠是 il。後面可以接原型、名詞，或 que + 虛擬式。",
+        "items": [
+          {
+            "fr": "Il faut partir.",
+            "zh": "該走了。"
+          },
+          {
+            "fr": "Il faut deux heures.",
+            "zh": "需要兩小時。"
+          },
+          {
+            "fr": "Il me faut un stylo.",
+            "zh": "我需要一支筆。"
+          },
+          {
+            "fr": "Il faut que tu viennes.",
+            "zh": "你一定要來。（que 後面接虛擬式）"
+          },
+          {
+            "fr": "il faut / il a fallu / il fallait / il faudra",
+            "zh": "現在／複合過去／未完成過去／未來"
+          },
+          {
+            "fr": "Je dois partir.",
+            "zh": "我得走了。（✗ Je faut → ✓ Je dois）"
+          }
+        ]
+      },
+      {
+        "heading": "② 「某人需要」的四種說法",
+        "note": "★ 依照「需要東西」還是「需要做某事」選擇。",
+        "items": [
+          {
+            "fr": "J'ai besoin d'un café.",
+            "zh": "我需要一杯咖啡。（avoir besoin de + 名詞）"
+          },
+          {
+            "fr": "J'ai besoin de dormir.",
+            "zh": "我需要睡覺。（avoir besoin de + 原型）"
+          },
+          {
+            "fr": "Je dois travailler.",
+            "zh": "我必須工作。（devoir + 原型）"
+          },
+          {
+            "fr": "Il faut travailler.",
+            "zh": "得工作才行。（il faut + 原型，一般性的「該做」）"
+          }
+        ]
+      },
+      {
+        "heading": "③ plaire（讓某人喜歡）— 結構跟中文相反",
+        "note": "★ 東西 ＋ plaire ＋ à 某人。動詞要配合「被喜歡的東西」，不是配合人。",
+        "items": [
+          {
+            "fr": "Ce livre me plaît.",
+            "zh": "我喜歡這本書。（字面：這本書讓我喜歡）"
+          },
+          {
+            "fr": "Ces livres me plaisent.",
+            "zh": "我喜歡這些書。（書是複數 → plaisent）"
+          },
+          {
+            "fr": "je plais, tu plais, il plaît",
+            "zh": "現在式變化（單數）"
+          },
+          {
+            "fr": "nous plaisons, vous plaisez, ils plaisent",
+            "zh": "現在式變化（複數）"
+          },
+          {
+            "fr": "Le film m'a plu.",
+            "zh": "我喜歡那部電影。（複合過去式）"
+          },
+          {
+            "fr": "Ça te plaît ?",
+            "zh": "你喜歡嗎？"
+          },
+          {
+            "fr": "s'il vous plaît / s'il te plaît",
+            "zh": "請（字面：如果這讓您／你喜歡）"
+          },
+          {
+            "fr": "J'aime ce film. ≈ Ce film me plaît.",
+            "zh": "aimer 和 plaire 意思接近，但主詞相反"
+          }
+        ]
+      },
+      {
+        "heading": "④ avec plaisir（很樂意）與相關說法",
+        "note": "接受邀請、回應道謝都可以用，比 de rien 熱情。",
+        "items": [
+          {
+            "fr": "— Tu veux un café ? — Avec plaisir !",
+            "zh": "要喝咖啡嗎？— 好啊，很樂意！"
+          },
+          {
+            "fr": "— Merci ! — Avec plaisir !",
+            "zh": "謝謝！— 不客氣，我很樂意！"
+          },
+          {
+            "fr": "Volontiers !",
+            "zh": "好啊！（接受邀請）"
+          },
+          {
+            "fr": "De rien.",
+            "zh": "不客氣。"
+          },
+          {
+            "fr": "Je vous en prie.",
+            "zh": "不客氣。（正式）"
+          },
+          {
+            "fr": "Ça me fait plaisir.",
+            "zh": "我很高興。"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ pleuvoir（下雨）— 主詞也只能是 il",
+        "note": "★ 小心：Il a plu（下雨了）和 Ça m'a plu（我很喜歡）的 plu 長一樣，但來自不同動詞。",
+        "items": [
+          {
+            "fr": "Il pleut.",
+            "zh": "下雨了。／正在下雨。"
+          },
+          {
+            "fr": "Il a plu.",
+            "zh": "下過雨了。（複合過去式）"
+          },
+          {
+            "fr": "Il pleuvait.",
+            "zh": "那時在下雨。"
+          },
+          {
+            "fr": "Il pleuvra.",
+            "zh": "將會下雨。"
+          },
+          {
+            "fr": "Il va pleuvoir.",
+            "zh": "快要下雨了。"
+          },
+          {
+            "fr": "Il pleut des cordes.",
+            "zh": "下傾盆大雨。（字面：下繩子）"
+          },
+          {
+            "fr": "Les critiques pleuvent.",
+            "zh": "批評如雨般湧來。（比喻用法，主詞可以不是 il）"
+          },
+          {
+            "fr": "Ça m'a plu.",
+            "zh": "我很喜歡。（plaire 的過去分詞 plu）"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ 課堂造句：他昨天晚上去你家",
+        "note": "★ chez + 人 = 某人家。aller 用 être，主詞陰性時過去分詞加 e。",
+        "items": [
+          {
+            "fr": "Il est allé chez toi hier soir.",
+            "zh": "他昨天晚上去你家。"
+          },
+          {
+            "fr": "Elle est allée chez toi hier soir.",
+            "zh": "她昨天晚上去你家。（allée 加 e）"
+          },
+          {
+            "fr": "chez moi / chez toi",
+            "zh": "我家／你家"
+          },
+          {
+            "fr": "chez lui / chez elle",
+            "zh": "他家／她家"
+          },
+          {
+            "fr": "chez vous",
+            "zh": "您家／你們家"
+          }
+        ]
+      },
+      {
+        "heading": "⑦ aller vs venir",
+        "note": "★ venir：往說話者「或聽話者」那邊；aller：往其他地方。中文往對方那邊說「去」，法文要用 venir。",
+        "items": [
+          {
+            "fr": "Je viens chez toi demain.",
+            "zh": "我明天去你家。（往聽話者那邊 → venir）"
+          },
+          {
+            "fr": "Tu viens avec moi ?",
+            "zh": "你要跟我一起去嗎？（加入說話者 → venir）"
+          },
+          {
+            "fr": "Je vais à Paris demain.",
+            "zh": "我明天去巴黎。（其他地方 → aller）"
+          },
+          {
+            "fr": "J'arrive !",
+            "zh": "我來了！（口語，往對方那邊）"
+          }
+        ]
+      },
+      {
+        "heading": "⑧ 我已經住在倫敦一年 — depuis 還是 pendant？",
+        "note": "★ 現在還住 → 現在式 + depuis；已經搬走 → 複合過去式 + pendant。",
+        "items": [
+          {
+            "fr": "J'habite à Londres depuis un an.",
+            "zh": "我住在倫敦一年了。（現在還住）"
+          },
+          {
+            "fr": "Ça fait un an que j'habite à Londres.",
+            "zh": "同上，時間放前面的說法。"
+          },
+          {
+            "fr": "J'ai habité à Londres pendant un an.",
+            "zh": "我在倫敦住過一年。（已經搬走）"
+          },
+          {
+            "fr": "Depuis combien de temps tu habites à Londres ?",
+            "zh": "你住在倫敦多久了？"
+          }
+        ]
+      },
+      {
+        "heading": "⑨ Tu as compris ? vs Tu comprends ?",
+        "note": "★ 時態不同，語氣也不同。",
+        "items": [
+          {
+            "fr": "Tu as compris ?",
+            "zh": "你聽懂了嗎？（複合過去式，問剛才的解釋；語氣可能較兇）"
+          },
+          {
+            "fr": "T'as compris ? / Compris ?",
+            "zh": "口語縮寫，語氣更直接"
+          },
+          {
+            "fr": "Tu comprends ?",
+            "zh": "你懂嗎？（現在式，較溫和，有「你能體諒吧」的感覺）"
+          },
+          {
+            "fr": "Je ne comprends pas.",
+            "zh": "我不懂。"
+          },
+          {
+            "fr": "Je n'ai pas compris.",
+            "zh": "我沒聽懂。（剛才那句）"
+          },
+          {
+            "fr": "Vous pouvez répéter, s'il vous plaît ?",
+            "zh": "可以請您再說一次嗎？"
+          },
+          {
+            "fr": "C'est clair ?",
+            "zh": "清楚嗎？（客氣的確認）"
+          },
+          {
+            "fr": "Vous avez des questions ?",
+            "zh": "有問題嗎？"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★ falloir、pleuvoir 都是非人稱動詞，主詞只能是 il：Il faut…／Il pleut.",
+      "✗ Je faut → ✓ Je dois。要說「我需要」用 avoir besoin de 或 devoir。",
+      "Il faut que + 虛擬式：Il faut que tu viennes.",
+      "★★ plaire 的結構跟中文相反：東西 + plaire + à 某人，動詞配合被喜歡的東西：Ces livres me plaisent.",
+      "Le film m'a plu.（喜歡）vs Il a plu.（下雨）—— plu 同形，看主詞判斷。",
+      "Avec plaisir 比 de rien 熱情；正式場合用 je vous en prie。",
+      "★ venir 是往說話者或聽話者那邊：Je viens chez toi.（我去你家）",
+      "還住在那裡 → 現在式 + depuis；已經搬走 → 複合過去式 + pendant。",
+      "Tu as compris ? 問剛才懂了沒（可能較兇）；Tu comprends ? 較溫和。"
+    ],
+    "drill": [
+      {
+        "fr": "Il faut partir.",
+        "zh": "該走了。"
+      },
+      {
+        "fr": "Il me faut un stylo.",
+        "zh": "我需要一支筆。"
+      },
+      {
+        "fr": "J'ai besoin d'un café.",
+        "zh": "我需要一杯咖啡。"
+      },
+      {
+        "fr": "Ce livre me plaît.",
+        "zh": "我喜歡這本書。"
+      },
+      {
+        "fr": "Le film m'a plu.",
+        "zh": "我喜歡那部電影。"
+      },
+      {
+        "fr": "Avec plaisir !",
+        "zh": "很樂意！"
+      },
+      {
+        "fr": "Il pleut des cordes.",
+        "zh": "下傾盆大雨。"
+      },
+      {
+        "fr": "Il est allé chez toi hier soir.",
+        "zh": "他昨天晚上去你家。"
+      },
+      {
+        "fr": "Je viens chez toi demain.",
+        "zh": "我明天去你家。"
+      },
+      {
+        "fr": "J'habite à Londres depuis un an.",
+        "zh": "我住在倫敦一年了。"
+      },
+      {
+        "fr": "Vous pouvez répéter, s'il vous plaît ?",
+        "zh": "可以請您再說一次嗎？"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "「我得走了」哪一句正確？",
+        "options": [
+          "Je dois partir.",
+          "Je faut partir.",
+          "Il faut je pars."
+        ],
+        "answer": 0,
+        "why": "★ falloir 主詞只能是 il；要說「我必須」用 devoir。"
+      },
+      {
+        "q": "「我需要一杯咖啡」？",
+        "options": [
+          "J'ai besoin d'un café.",
+          "Je besoin un café.",
+          "Il faut moi un café."
+        ],
+        "answer": 0,
+        "why": "avoir besoin de + 名詞。"
+      },
+      {
+        "q": "「我喜歡這些書」用 plaire 怎麼說？",
+        "options": [
+          "Ces livres me plaisent.",
+          "Ces livres me plaît.",
+          "Je plais ces livres."
+        ],
+        "answer": 0,
+        "why": "★ 動詞配合被喜歡的東西（ces livres，複數）→ plaisent。"
+      },
+      {
+        "q": "Le film m'a plu. 是什麼意思？",
+        "options": [
+          "我喜歡那部電影。",
+          "電影下雨了。",
+          "我拍了那部電影。"
+        ],
+        "answer": 0,
+        "why": "plu 是 plaire 的過去分詞；Il a plu 才是「下雨了」。"
+      },
+      {
+        "q": "Il faut que tu ___ .（你一定要來）",
+        "options": [
+          "viennes",
+          "viens",
+          "venir"
+        ],
+        "answer": 0,
+        "why": "il faut que 後面接虛擬式：que tu viennes。"
+      },
+      {
+        "q": "朋友說 Merci !，比較熱情的回答是？",
+        "options": [
+          "Avec plaisir !",
+          "Volontiers !",
+          "Il faut !"
+        ],
+        "answer": 0,
+        "why": "Avec plaisir 回應道謝比 de rien 熱情；volontiers 是接受邀請時用。"
+      },
+      {
+        "q": "「我明天去你家」？",
+        "options": [
+          "Je viens chez toi demain.",
+          "Je vais chez toi demain.",
+          "Je viens à toi demain."
+        ],
+        "answer": 0,
+        "why": "★ 往聽話者那邊用 venir；「某人家」用 chez + 人。"
+      },
+      {
+        "q": "「她昨天晚上去你家」？",
+        "options": [
+          "Elle est allée chez toi hier soir.",
+          "Elle a allé chez toi hier soir.",
+          "Elle est allé chez toi hier soir."
+        ],
+        "answer": 0,
+        "why": "aller 用 être，主詞陰性 → allée。"
+      },
+      {
+        "q": "「我住在倫敦一年了（現在還住）」？",
+        "options": [
+          "J'habite à Londres depuis un an.",
+          "J'ai habité à Londres depuis un an.",
+          "J'habite à Londres pendant un an."
+        ],
+        "answer": 0,
+        "why": "還在繼續 → 現在式 + depuis。"
+      },
+      {
+        "q": "老師講完一段想溫和地確認，比較適合問？",
+        "options": [
+          "Tu comprends ?",
+          "T'as compris ?",
+          "Compris ?"
+        ],
+        "answer": 0,
+        "why": "Tu comprends ? 較溫和；T'as compris ? / Compris ? 語氣較直接，可能顯得兇。"
+      }
+    ]
+  },
+  {
+    "id": "adjectifs-demonstratifs",
+    "date": "2026-11-02",
+    "title": "LES ADJECTIFS DÉMONSTRATIFS — 指示形容詞 ce / cet / cette / ces",
+    "summary": "法文的「這個／那個」用 ce、cet、cette、ces，依名詞的陰陽性、單複數與開頭字母選擇。ce 不分遠近，要區分時加 -ci / -là。也用來表達「今天早上、這週、今年」等時間。",
+    "sections": [
+      {
+        "heading": "① 四種形式",
+        "note": "★ cet 只用在「陽性單數 + 母音或啞音 h 開頭」；複數不分陰陽性一律 ces。",
+        "items": [
+          {
+            "fr": "ce + 陽性單數（子音開頭）",
+            "zh": "ce livre（這本書）"
+          },
+          {
+            "fr": "cet + 陽性單數（母音或啞音 h 開頭）",
+            "zh": "cet homme（這個男人）、cet ordinateur（這台電腦）"
+          },
+          {
+            "fr": "cette + 陰性單數",
+            "zh": "cette maison（這間房子）"
+          },
+          {
+            "fr": "ces + 複數（陰陽性都一樣）",
+            "zh": "ces livres、ces maisons"
+          },
+          {
+            "fr": "cette école",
+            "zh": "★ 陰性名詞即使母音開頭，也用 cette，不用 cet"
+          }
+        ]
+      },
+      {
+        "heading": "② ce 同時是「這」和「那」",
+        "note": "★ ce 不分遠近。真的要區分時，在名詞後面加 -ci（這）或 -là（那）。",
+        "items": [
+          {
+            "fr": "ce livre",
+            "zh": "這本書／那本書"
+          },
+          {
+            "fr": "ce livre-ci",
+            "zh": "這本書（近）"
+          },
+          {
+            "fr": "ce livre-là",
+            "zh": "那本書（遠）"
+          },
+          {
+            "fr": "Ce monument, là-bas, c'est l'Opéra.",
+            "zh": "那邊那座建築是歌劇院。（là-bas = 那邊）"
+          }
+        ]
+      },
+      {
+        "heading": "③ 例句：Regarde !",
+        "note": "邊走邊指給朋友看的時候最常用。",
+        "items": [
+          {
+            "fr": "Regarde, ce pont !",
+            "zh": "你看這座橋！"
+          },
+          {
+            "fr": "Regarde, cet homme !",
+            "zh": "你看那個男人！"
+          },
+          {
+            "fr": "Regarde, cet arc-en-ciel !",
+            "zh": "你看那道彩虹！"
+          },
+          {
+            "fr": "Regarde, cette église !",
+            "zh": "你看這座教堂！"
+          },
+          {
+            "fr": "Regarde, ces statues !",
+            "zh": "你看這些雕像！"
+          }
+        ]
+      },
+      {
+        "heading": "④ 填空練習答案",
+        "note": "★ 先判斷陰陽性，再看開頭是不是母音或啞音 h。",
+        "items": [
+          {
+            "fr": "cette maison",
+            "zh": "這間房子（f.）"
+          },
+          {
+            "fr": "ce gâteau",
+            "zh": "這個蛋糕（m.）"
+          },
+          {
+            "fr": "cet hôpital",
+            "zh": "這間醫院（m.，啞音 h）"
+          },
+          {
+            "fr": "cette bouteille",
+            "zh": "這個瓶子（f.）"
+          },
+          {
+            "fr": "cet ordinateur",
+            "zh": "這台電腦（m.，母音開頭）"
+          },
+          {
+            "fr": "cette exposition",
+            "zh": "這個展覽（f.，母音開頭也用 cette）"
+          },
+          {
+            "fr": "cette femme",
+            "zh": "這個女人（f.）"
+          },
+          {
+            "fr": "ce voyage",
+            "zh": "這趟旅行（m.）"
+          },
+          {
+            "fr": "cet homme",
+            "zh": "這個男人（m.，啞音 h）"
+          },
+          {
+            "fr": "cette classe",
+            "zh": "這個班級（f.）"
+          },
+          {
+            "fr": "cette étudiante",
+            "zh": "這個女學生（f.）"
+          },
+          {
+            "fr": "ce livre",
+            "zh": "這本書（m.）"
+          },
+          {
+            "fr": "cette chambre",
+            "zh": "這個房間（f.）"
+          },
+          {
+            "fr": "cette robe",
+            "zh": "這件洋裝（f.）"
+          },
+          {
+            "fr": "cette école",
+            "zh": "這間學校（f.）"
+          },
+          {
+            "fr": "ce chien",
+            "zh": "這隻狗（m.）"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 時間說法",
+        "note": "★ 「今天」說 aujourd'hui，不說 ce jour。ce matin 是「今天早上」，le matin 是泛指「早上」。",
+        "items": [
+          {
+            "fr": "aujourd'hui",
+            "zh": "今天"
+          },
+          {
+            "fr": "ce matin",
+            "zh": "今天早上"
+          },
+          {
+            "fr": "ce midi",
+            "zh": "今天中午"
+          },
+          {
+            "fr": "cet après-midi",
+            "zh": "今天下午（après-midi 母音開頭 → cet）"
+          },
+          {
+            "fr": "ce soir",
+            "zh": "今天晚上"
+          },
+          {
+            "fr": "cette semaine",
+            "zh": "這週"
+          },
+          {
+            "fr": "ce week-end",
+            "zh": "這個週末"
+          },
+          {
+            "fr": "ce mois-ci",
+            "zh": "這個月"
+          },
+          {
+            "fr": "cette année",
+            "zh": "今年（année 陰性）"
+          },
+          {
+            "fr": "cet été",
+            "zh": "今年夏天"
+          },
+          {
+            "fr": "Le matin, je bois du café.",
+            "zh": "早上我都喝咖啡。（le matin 泛指每天早上）"
+          },
+          {
+            "fr": "Ce matin, j'ai bu du thé.",
+            "zh": "今天早上我喝了茶。（ce matin 特指今天）"
+          },
+          {
+            "fr": "cette année / un an",
+            "zh": "année 是陰性；an 是陽性"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ 陰陽性用在一群人",
+        "note": "跟過去分詞配合的規則一樣：只要有一位男性就用陽性。",
+        "items": [
+          {
+            "fr": "ces étudiants / ils",
+            "zh": "一群學生，只要有一位男性 → 陽性"
+          },
+          {
+            "fr": "ces étudiantes / elles",
+            "zh": "全部都是女生 → 陰性"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★★ ce（陽性單數，子音開頭）／cet（陽性單數，母音或啞音 h 開頭）／cette（陰性單數）／ces（複數）。",
+      "★ cet 只用在陽性；陰性名詞即使母音開頭也用 cette：cette école。",
+      "ce 不分遠近；要區分時用 ce livre-ci（這本）／ce livre-là（那本）。",
+      "「今天」說 aujourd'hui，不說 ce jour。",
+      "ce matin（今天早上）vs le matin（泛指早上）。",
+      "cet après-midi、cet été：母音開頭的陽性時間詞用 cet。",
+      "année 是陰性（cette année），an 是陽性（un an）。",
+      "一群人只要有一位男性 → 陽性（ils, ces étudiants）。"
+    ],
+    "drill": [
+      {
+        "fr": "Regarde, ce pont !",
+        "zh": "你看這座橋！"
+      },
+      {
+        "fr": "Regarde, cet homme !",
+        "zh": "你看那個男人！"
+      },
+      {
+        "fr": "Regarde, cette église !",
+        "zh": "你看這座教堂！"
+      },
+      {
+        "fr": "Regarde, ces statues !",
+        "zh": "你看這些雕像！"
+      },
+      {
+        "fr": "Ce monument, là-bas, c'est l'Opéra.",
+        "zh": "那邊那座建築是歌劇院。"
+      },
+      {
+        "fr": "ce livre-ci, ce livre-là",
+        "zh": "這本書、那本書"
+      },
+      {
+        "fr": "cet hôpital",
+        "zh": "這間醫院"
+      },
+      {
+        "fr": "cette école",
+        "zh": "這間學校"
+      },
+      {
+        "fr": "ce matin, cet après-midi, ce soir",
+        "zh": "今天早上、今天下午、今天晚上"
+      },
+      {
+        "fr": "cette semaine, cette année, cet été",
+        "zh": "這週、今年、今年夏天"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "___ ordinateur",
+        "options": [
+          "cet",
+          "ce",
+          "cette"
+        ],
+        "answer": 0,
+        "why": "ordinateur 陽性、母音開頭 → cet。"
+      },
+      {
+        "q": "___ école",
+        "options": [
+          "cette",
+          "cet",
+          "ce"
+        ],
+        "answer": 0,
+        "why": "★ école 是陰性，陰性即使母音開頭也用 cette。"
+      },
+      {
+        "q": "___ hôpital",
+        "options": [
+          "cet",
+          "ce",
+          "cette"
+        ],
+        "answer": 0,
+        "why": "hôpital 陽性、啞音 h → cet。"
+      },
+      {
+        "q": "___ gâteau",
+        "options": [
+          "ce",
+          "cet",
+          "cette"
+        ],
+        "answer": 0,
+        "why": "gâteau 陽性、子音開頭 → ce。"
+      },
+      {
+        "q": "___ statues",
+        "options": [
+          "ces",
+          "cettes",
+          "cets"
+        ],
+        "answer": 0,
+        "why": "複數不分陰陽性一律 ces。"
+      },
+      {
+        "q": "「今天」怎麼說？",
+        "options": [
+          "aujourd'hui",
+          "ce jour",
+          "cette journée"
+        ],
+        "answer": 0,
+        "why": "★ 「今天」說 aujourd'hui，不說 ce jour。"
+      },
+      {
+        "q": "「今天下午」？",
+        "options": [
+          "cet après-midi",
+          "ce après-midi",
+          "cette après-midi"
+        ],
+        "answer": 0,
+        "why": "après-midi 母音開頭 → cet après-midi。"
+      },
+      {
+        "q": "「今年」？",
+        "options": [
+          "cette année",
+          "cet année",
+          "ce an"
+        ],
+        "answer": 0,
+        "why": "année 是陰性 → cette année。"
+      },
+      {
+        "q": "想說「那本書」（跟「這本」區分），要用？",
+        "options": [
+          "ce livre-là",
+          "ce livre-ci",
+          "cet livre"
+        ],
+        "answer": 0,
+        "why": "-là 表示遠的那個；-ci 表示近的這個。"
+      },
+      {
+        "q": "一群學生裡有 9 位女生、1 位男生，要說？",
+        "options": [
+          "ces étudiants",
+          "ces étudiantes",
+          "cettes étudiantes"
+        ],
+        "answer": 0,
+        "why": "只要有一位男性 → 陽性複數 étudiants。"
+      }
+    ]
   }
 ]
