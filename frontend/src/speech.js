@@ -96,9 +96,29 @@ export function isSpeaking() {
   return queued > 0
 }
 
+/**
+ * Turn notation symbols into pauses so the voice doesn't read them aloud
+ * ("lire → lu" should sound like "lire … lu", not "lire flèche lu").
+ * Arrows and formula signs get a full stop (a clear gap); list separators
+ * get a comma (a short gap); marks like ★ ✓ ✗ are dropped.
+ */
+export function cleanForSpeech(text) {
+  return String(text)
+    .replace(/[★☆✓✔✗✘❌✅⚠️]/g, ' ')
+    .replace(/\s*[→←↔⇒⇐⇔➜➔⟶⟵⇄⇆＝=＋+≈]\s*/g, ' \u0001 ') // \u0001 = long pause
+    .replace(/\s*[／/|·・]\s*/g, ' \u0002 ') // \u0002 = short pause
+    // A pause right after "..." or "." is already there; otherwise insert one.
+    .replace(/([.!?…])\s*[\u0001\u0002]/g, '$1')
+    .replace(/\s*\u0001(\s*[\u0001\u0002])*/g, '. ')
+    .replace(/\s*\u0002(\s*\u0002)*/g, ', ')
+    .replace(/^[\s.,]+/, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
 function buildUtterance(text) {
   const voice = resolveVoice()
-  const utterance = new SpeechSynthesisUtterance(text)
+  const utterance = new SpeechSynthesisUtterance(cleanForSpeech(text))
   utterance.lang = voice?.lang || 'fr-FR'
   if (voice) utterance.voice = voice
   utterance.rate = getRate()
