@@ -61,7 +61,8 @@
     "lessons": [
       { "id": "aller-lieu", "focus": "aller 變位，à / au / à la / à l' / chez" },
       { "id": "aller-pays-transport", "focus": "en / au / aux + 國家，en vs à + 交通工具，近未來" },
-      { "id": "aller-devoirs", "focus": "作業詳解：自己判斷介係詞" }
+      { "id": "aller-devoirs", "focus": "作業詳解：自己判斷介係詞" },
+      { "id": "les-directions", "focus": "問路指路、prendre / tourner 變位、Bon courage / Merde" }
     ]
   },
   {
@@ -87,6 +88,17 @@
       { "id": "duree-prepositions", "focus": "pendant / pour / dans / depuis / il y a 初學" },
       { "id": "ca-fait-que", "focus": "ça fait … que = … depuis，配現在式" },
       { "id": "pour-en-duree", "focus": "六個時間介係詞總整理（含 en、pour）" }
+    ]
+  },
+  {
+    "id": "pronoms",
+    "icon": "🧩",
+    "title": "代名詞：這個、我、給誰",
+    "goal": "能用 celui-ci / celui-là 代替名詞、用 moi / toi 強調和回答，並把「跟某人、給某人」換成 lui / leur。",
+    "lessons": [
+      { "id": "pronoms-demonstratifs", "focus": "celui / celle / ceux / celles、-ci / -là、ici / là-bas、il y a" },
+      { "id": "pronoms-toniques", "focus": "moi / toi / lui / eux：強調、et / ou、c'est、aussi / non plus" },
+      { "id": "pronoms-coi", "focus": "me / te / lui / leur 放動詞前面，Je t'aime vs Je l'aime" }
     ]
   }
 ]

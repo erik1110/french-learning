@@ -15611,5 +15611,1611 @@
         "why": "只要有一位男性 → 陽性複數 étudiants。"
       }
     ]
+  },
+  {
+    "id": "pronoms-demonstratifs",
+    "date": "2026-11-16",
+    "title": "LE PRONOM DÉMONSTRATIF — celui / celle / ceux / celles 與 ici / là / là-bas",
+    "summary": "指示代名詞直接代替前面講過的名詞，用來避免重複，通常加上 -ci（這個）或 -là（那個）。celui de + 人 表示「某人的那個」。順便整理 ici、là、là-bas 和 il y a 的用法。",
+    "sections": [
+      {
+        "heading": "① 指示形容詞 vs 指示代名詞",
+        "note": "★ 指示形容詞（ce、cette、ces）後面一定要接名詞；指示代名詞直接代替名詞，第二次就不用再說一次。",
+        "items": [
+          {
+            "fr": "Ce vélo est à Paul.",
+            "zh": "這台腳踏車是 Paul 的。（ce + 名詞）"
+          },
+          {
+            "fr": "Celui-là est à Léa.",
+            "zh": "那台是 Léa 的。（celui 代替 vélo）"
+          },
+          {
+            "fr": "Cette moto est à Paul.",
+            "zh": "這台機車是 Paul 的。"
+          },
+          {
+            "fr": "Celle-là est à Léa.",
+            "zh": "那台是 Léa 的。（moto 陰性 → celle）"
+          },
+          {
+            "fr": "Ces vélos sont à Paul. Ceux-là sont à Léa.",
+            "zh": "這些腳踏車是 Paul 的，那些是 Léa 的。"
+          },
+          {
+            "fr": "Ces motos sont à Paul. Celles-là sont à Léa.",
+            "zh": "這些機車是 Paul 的，那些是 Léa 的。"
+          },
+          {
+            "fr": "être à + 人",
+            "zh": "是某人的（表示擁有）：Ce vélo est à Paul."
+          }
+        ]
+      },
+      {
+        "heading": "② 四種形式：跟代替的名詞配合",
+        "note": "★ 看「東西」的陰陽性和單複數，不是看主人。指示形容詞的複數不分陰陽性（ces），代名詞的複數要分（ceux / celles）。",
+        "items": [
+          {
+            "fr": "celui",
+            "zh": "陽性單數 [səlɥi]：un vélo → celui"
+          },
+          {
+            "fr": "celle",
+            "zh": "陰性單數 [sɛl]：une moto → celle"
+          },
+          {
+            "fr": "ceux",
+            "zh": "陽性複數 [sø]：des vélos → ceux（★ 長得最不一樣，要硬背）"
+          },
+          {
+            "fr": "celles",
+            "zh": "陰性複數 [sɛl]：des motos → celles（跟 celle 發音一樣）"
+          },
+          {
+            "fr": "Ce vélo est à Léa. → Celui-là est à Léa.",
+            "zh": "★ Léa 是女生，但 vélo 是陽性，所以還是用 celui"
+          }
+        ]
+      },
+      {
+        "heading": "③ -ci 和 -là：這個和那個",
+        "note": "-ci 從 ici（這裡）來，表示近的；-là 從 là（那裡）來，表示遠的。中間一定要有連字號。口語常只說 celui-là，不一定在分遠近。",
+        "items": [
+          {
+            "fr": "celui-ci / celui-là",
+            "zh": "這個／那個（陽性）"
+          },
+          {
+            "fr": "J'ai deux vélos. Celui-ci est rouge, celui-là est bleu.",
+            "zh": "我有兩台腳踏車。這台是紅的，那台是藍的。"
+          },
+          {
+            "fr": "J'aime ces deux robes. Celle-ci est rouge, celle-là est bleue.",
+            "zh": "這兩件洋裝我都喜歡。這件是紅的，那件是藍的。"
+          },
+          {
+            "fr": "— Vous voulez quel gâteau ? — Celui-là, s'il vous plaît.",
+            "zh": "您要哪個蛋糕？— 那個，麻煩您。（買東西超好用）"
+          },
+          {
+            "fr": "Je voudrais celle-ci.",
+            "zh": "我想要這個。（指著 la baguette）"
+          },
+          {
+            "fr": "Je voudrais ceux-ci.",
+            "zh": "我想要這些。（指著 les macarons）"
+          },
+          {
+            "fr": "Celui-là, il parle trop !",
+            "zh": "那傢伙話太多了！（指人，口語，有點不客氣）"
+          }
+        ]
+      },
+      {
+        "heading": "④ celui de + 人 ＝ 某人的那個",
+        "note": "★ celui / celle / ceux / celles 不能單獨用，後面一定要接 -ci / -là、de + 人，或 qui / que + 句子（之後會學）。",
+        "items": [
+          {
+            "fr": "— À qui est ce vélo ? — C'est celui de Léa.",
+            "zh": "這台腳踏車是誰的？— 是 Léa 的。"
+          },
+          {
+            "fr": "C'est celle de Paul.",
+            "zh": "是 Paul 的那台。（la moto）"
+          },
+          {
+            "fr": "Ce sont ceux de mes parents.",
+            "zh": "是我爸媽的那些。（les vélos）"
+          },
+          {
+            "fr": "J'aime celui-ci.",
+            "zh": "✓ 我喜歡這個。"
+          },
+          {
+            "fr": "J'aime celui.",
+            "zh": "✗ 錯。celui 後面一定要接東西。"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ ici / là / là-bas",
+        "note": "★ ici = 這裡；là 字典上是「那裡」，但口語常當「這裡」用；là-bas = 那邊（比較遠），中間要有連字號。",
+        "items": [
+          {
+            "fr": "J'habite ici.",
+            "zh": "我住這裡。"
+          },
+          {
+            "fr": "Viens ici !",
+            "zh": "過來這裡！"
+          },
+          {
+            "fr": "Je suis là.",
+            "zh": "我在這裡。／我在。"
+          },
+          {
+            "fr": "Il n'est pas là.",
+            "zh": "他不在。"
+          },
+          {
+            "fr": "Regarde là-bas !",
+            "zh": "你看那邊！"
+          },
+          {
+            "fr": "Ce monument, là-bas, c'est l'Opéra.",
+            "zh": "那邊那座建築是歌劇院。"
+          },
+          {
+            "fr": "là / la",
+            "zh": "★ là（有重音符號）是「那裡」；la 是陰性冠詞"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ il y a ＝ 有",
+        "note": "★ il（非人稱）＋ y（那裡）＋ a（avoir）。後面接單數、複數都一樣，永遠是 il y a。拼字只有一個 l。",
+        "items": [
+          {
+            "fr": "Il y a un vélo ici.",
+            "zh": "這邊有一台腳踏車。"
+          },
+          {
+            "fr": "Il y a un vélo là-bas.",
+            "zh": "那邊有一台腳踏車。"
+          },
+          {
+            "fr": "Il y a un vélo ici, et un autre là-bas.",
+            "zh": "這邊有一台腳踏車，那邊還有另一台。"
+          },
+          {
+            "fr": "Il y a un problème.",
+            "zh": "有一個問題。／出問題了。"
+          },
+          {
+            "fr": "Qu'est-ce qu'il y a ?",
+            "zh": "怎麼了？"
+          },
+          {
+            "fr": "Il n'y a pas de problème.",
+            "zh": "沒問題。（口語：Pas de problème !）"
+          },
+          {
+            "fr": "Je suis arrivé il y a trois jours.",
+            "zh": "我三天前到的。（il y a + 時間 = …之前）"
+          },
+          {
+            "fr": "il y a / il y a eu / il y avait / il y aura",
+            "zh": "有／發生過／那時候有／將會有"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★★ 指示代名詞代替前面講過的名詞：celui（陽單）、celle（陰單）、ceux（陽複）、celles（陰複）。",
+      "★ 配合的是「東西」的陰陽性：Ce vélo est à Léa → Celui-là est à Léa。",
+      "-ci = 這個（近），-là = 那個（遠），中間要有連字號；口語常只說 celui-là。",
+      "★ celui 不能單獨用，後面要接 -ci / -là 或 de + 人：C'est celui de Léa.",
+      "être à + 人 = 是某人的：Ce vélo est à Paul.",
+      "ici = 這裡；là 口語常當「這裡、在場」；là-bas = 那邊。",
+      "★ il y a = 有，單複數都一樣；il y a + 時間 = …之前。",
+      "否定：il n'y a pas de… → Pas de problème !"
+    ],
+    "drill": [
+      {
+        "fr": "Ce vélo est à Paul. Celui-là est à Léa.",
+        "zh": "這台腳踏車是 Paul 的，那台是 Léa 的。"
+      },
+      {
+        "fr": "Celle-ci est rouge, celle-là est bleue.",
+        "zh": "這件是紅的，那件是藍的。"
+      },
+      {
+        "fr": "Celui-là, s'il vous plaît.",
+        "zh": "那個，麻煩您。"
+      },
+      {
+        "fr": "Je voudrais ceux-ci.",
+        "zh": "我想要這些。"
+      },
+      {
+        "fr": "C'est celui de Léa.",
+        "zh": "是 Léa 的。"
+      },
+      {
+        "fr": "Il y a un vélo ici.",
+        "zh": "這邊有一台腳踏車。"
+      },
+      {
+        "fr": "Il y a un vélo là-bas.",
+        "zh": "那邊有一台腳踏車。"
+      },
+      {
+        "fr": "Qu'est-ce qu'il y a ?",
+        "zh": "怎麼了？"
+      },
+      {
+        "fr": "Il n'est pas là.",
+        "zh": "他不在。"
+      },
+      {
+        "fr": "Pas de problème !",
+        "zh": "沒問題！"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "「這台腳踏車是 Paul 的，那台是 Léa 的」的「那台」？",
+        "options": [
+          "Celui-là",
+          "Celle-là",
+          "Ce-là"
+        ],
+        "answer": 0,
+        "why": "vélo 是陽性 → celui；就算主人 Léa 是女生也一樣。"
+      },
+      {
+        "q": "une moto → 「這台」怎麼說？",
+        "options": [
+          "celle-ci",
+          "celui-ci",
+          "cette-ci"
+        ],
+        "answer": 0,
+        "why": "moto 陰性單數 → celle-ci。"
+      },
+      {
+        "q": "des vélos → 「那些」怎麼說？",
+        "options": [
+          "ceux-là",
+          "celuis-là",
+          "ces-là"
+        ],
+        "answer": 0,
+        "why": "陽性複數是 ceux，要硬背。"
+      },
+      {
+        "q": "des chaussures（陰性複數）→「這些」？",
+        "options": [
+          "celles-ci",
+          "ceux-ci",
+          "celle-ci"
+        ],
+        "answer": 0,
+        "why": "陰性複數 → celles-ci。"
+      },
+      {
+        "q": "— À qui est ce vélo ? — C'est ___ Léa.",
+        "options": [
+          "celui de",
+          "celui à",
+          "ce de"
+        ],
+        "answer": 0,
+        "why": "celui de + 人 = 某人的那個。"
+      },
+      {
+        "q": "哪一句是錯的？",
+        "options": [
+          "J'aime celui.",
+          "J'aime celui-ci.",
+          "J'aime celui de Paul."
+        ],
+        "answer": 0,
+        "why": "★ celui 不能單獨用，後面一定要接 -ci / -là 或 de。"
+      },
+      {
+        "q": "「那邊（比較遠）」怎麼說？",
+        "options": [
+          "là-bas",
+          "ici",
+          "la"
+        ],
+        "answer": 0,
+        "why": "là-bas = 那邊；la 沒有重音符號是冠詞。"
+      },
+      {
+        "q": "「這邊有兩台腳踏車」？",
+        "options": [
+          "Il y a deux vélos ici.",
+          "Il y ont deux vélos ici.",
+          "Ils y a deux vélos ici."
+        ],
+        "answer": 0,
+        "why": "il y a 後面接複數也不變。"
+      },
+      {
+        "q": "Je suis arrivé il y a trois jours. 的意思？",
+        "options": [
+          "我三天前到的。",
+          "我到了三天了，還在。",
+          "我三天後到。"
+        ],
+        "answer": 0,
+        "why": "il y a + 時間（沒有 que）= …之前。"
+      },
+      {
+        "q": "Il n'est pas là. 的意思？",
+        "options": [
+          "他不在。",
+          "他不在那邊遠處。",
+          "那不是他。"
+        ],
+        "answer": 0,
+        "why": "être là = 在、在場；口語的 là 不一定是遠的。"
+      }
+    ]
+  },
+  {
+    "id": "pronoms-toniques",
+    "date": "2026-11-16",
+    "title": "LES PRONOMS TONIQUES — 重讀代名詞 moi / toi / lui / elle / nous / vous / eux / elles",
+    "summary": "法文的「我」有三種：je（主詞，黏動詞）、me（受詞，黏動詞）、moi（獨立）。只要沒有直接貼著動詞，就用重讀代名詞：強調、跟 et / ou 連用、c'est 後面、單獨回答 aussi / non plus、介係詞後面、肯定命令句。",
+    "sections": [
+      {
+        "heading": "① 重讀代名詞一覽",
+        "note": "★ lui ↔ eux（他 ↔ 他們）要硬背；elle ↔ elles 只差一個 s，發音一樣。",
+        "items": [
+          {
+            "fr": "moi",
+            "zh": "我"
+          },
+          {
+            "fr": "toi",
+            "zh": "你"
+          },
+          {
+            "fr": "lui",
+            "zh": "他"
+          },
+          {
+            "fr": "elle",
+            "zh": "她"
+          },
+          {
+            "fr": "nous",
+            "zh": "我們"
+          },
+          {
+            "fr": "vous",
+            "zh": "您／你們"
+          },
+          {
+            "fr": "eux",
+            "zh": "他們（只要有一位男性）"
+          },
+          {
+            "fr": "elles",
+            "zh": "她們（全是女生）"
+          }
+        ]
+      },
+      {
+        "heading": "② 為什麼是 moi 不是 me？法文的「我」有三種",
+        "note": "★ 法文不是照主格／受格分，而是看「有沒有直接貼著動詞」。je、me 太短、沒有重音，一定要黏在動詞前面；moi 可以獨立站。",
+        "items": [
+          {
+            "fr": "Je pars.",
+            "zh": "我走了。（貼著動詞當主詞 → je）"
+          },
+          {
+            "fr": "Il me regarde.",
+            "zh": "他看著我。（貼著動詞當受詞 → me）"
+          },
+          {
+            "fr": "Paul et moi",
+            "zh": "Paul 和我（隔著 et，沒貼著動詞 → moi）"
+          },
+          {
+            "fr": "avec moi",
+            "zh": "跟我一起（介係詞後面 → moi）"
+          },
+          {
+            "fr": "Moi !",
+            "zh": "我！（單獨回答 → moi）"
+          },
+          {
+            "fr": "Me too! / It's me.",
+            "zh": "英文口語的 me 也常常不是受格，跟法文 moi 很像"
+          },
+          {
+            "fr": "Mes parents et moi, nous…",
+            "zh": "英文正式寫 my parents and I，法文一律用 moi"
+          }
+        ]
+      },
+      {
+        "heading": "③ 用法 1：強調、對比",
+        "note": "★ 重讀代名詞只是加強，主詞代名詞還是要有：Moi, je…（不能說 Moi vais…）。",
+        "items": [
+          {
+            "fr": "Moi, je vais à la plage, et toi, tu fais quoi ?",
+            "zh": "我呢，要去海邊；那你呢，你要做什麼？"
+          },
+          {
+            "fr": "Lui, il aime le café ; elle, elle préfère le thé.",
+            "zh": "他喜歡咖啡；她呢，比較喜歡茶。"
+          },
+          {
+            "fr": "Moi, je m'appelle Erik. Et vous ?",
+            "zh": "我叫 Erik。那您呢？"
+          },
+          {
+            "fr": "Moi vais à la plage.",
+            "zh": "✗ 錯。moi 不能取代 je。"
+          }
+        ]
+      },
+      {
+        "heading": "④ 用法 2：跟 et（和）、ou（或）一起用",
+        "note": "★ 用 et / ou 連接好幾個人時一定用重讀代名詞，後面常再補一個主詞代名詞總結：有 moi → nous；有 toi 沒有 moi → vous。",
+        "items": [
+          {
+            "fr": "Mes parents et moi, nous allons voyager en Europe le mois prochain.",
+            "zh": "我爸媽和我，我們下個月要去歐洲旅行。"
+          },
+          {
+            "fr": "Sonia doit choisir : lui ou moi !",
+            "zh": "Sonia 必須選擇：要他，還是要我！"
+          },
+          {
+            "fr": "Toi et moi, nous sommes amis.",
+            "zh": "你和我，我們是朋友。"
+          },
+          {
+            "fr": "Paul et toi, vous venez ?",
+            "zh": "Paul 和你，你們要來嗎？"
+          },
+          {
+            "fr": "Paul et lui, ils travaillent ensemble.",
+            "zh": "Paul 和他，他們一起工作。"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 用法 3：在 c'est 後面（課本練習一）",
+        "note": "肯定：Oui, c'est + 代名詞；否定：Non, ce n'est pas + 代名詞。複數書面寫 ce sont eux（口語常說 c'est eux）。",
+        "items": [
+          {
+            "fr": "— C'est Pierre, là, sur la photo ? — Oui, c'est lui. / Non, ce n'est pas lui.",
+            "zh": "照片上那個是 Pierre 嗎？— 對，是他。／不是他。"
+          },
+          {
+            "fr": "— Qui est le responsable de l'agence, c'est vous ? — Oui, c'est moi.",
+            "zh": "誰是公司負責人？是您嗎？— 對，是我。（負責人一個人，vous 是禮貌的「您」→ moi）"
+          },
+          {
+            "fr": "— Qui est au téléphone, c'est ma fille ? — Oui, c'est elle.",
+            "zh": "誰在講電話？是我女兒嗎？— 對，是她。"
+          },
+          {
+            "fr": "— C'est Paul qui danse avec Madeleine ? — Non, ce n'est pas lui.",
+            "zh": "跟 Madeleine 跳舞的是 Paul 嗎？— 不，不是他。"
+          },
+          {
+            "fr": "— Ce sont les parents de Catherine, là-bas ? — Oui, ce sont eux.",
+            "zh": "那邊是 Catherine 的父母嗎？— 對，是他們。"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ 用法 4：aussi（也是）和 non plus（也不）（課本練習二）",
+        "note": "★ 對方說肯定句 → aussi；對方說否定句 → non plus。就像英文 me too / me neither。不要再加 ne…pas。",
+        "items": [
+          {
+            "fr": "— Je travaille en juillet. — Moi aussi.",
+            "zh": "我七月要工作。— 我也是。"
+          },
+          {
+            "fr": "— Et votre mari ? — Lui aussi.",
+            "zh": "那您先生呢？— 他也是。"
+          },
+          {
+            "fr": "— Et votre sœur ? — Elle aussi.",
+            "zh": "那您姊妹呢？— 她也是。"
+          },
+          {
+            "fr": "— Et vos enfants ? — Eux aussi.",
+            "zh": "那您的孩子們呢？— 他們也是。"
+          },
+          {
+            "fr": "— Je ne suis pas là en août. — Moi non plus.",
+            "zh": "我八月不在。— 我也不在。（être là = 在、人在）"
+          },
+          {
+            "fr": "— Et Paul ? — Lui non plus.",
+            "zh": "那 Paul 呢？— 他也不在。"
+          },
+          {
+            "fr": "— Et vos parents ? — Eux non plus.",
+            "zh": "那您父母呢？— 他們也不在。"
+          },
+          {
+            "fr": "— Et vos filles ? — Elles non plus.",
+            "zh": "那您的女兒們呢？— 她們也不在。"
+          },
+          {
+            "fr": "— Je ne suis pas là en août. — Moi, si !",
+            "zh": "我八月不在。— 我在耶！（回應否定句、表示相反用 si）"
+          },
+          {
+            "fr": "— Je travaille en juillet. — Pas moi.",
+            "zh": "我七月要工作。— 我不用。"
+          }
+        ]
+      },
+      {
+        "heading": "⑦ 用法 5、6：介係詞後面、肯定命令句",
+        "note": "★ 肯定命令句裡代名詞放在動詞後面，me 變成 moi，中間加連字號；否定命令句又回到 me 放前面。",
+        "items": [
+          {
+            "fr": "Tu viens avec moi ?",
+            "zh": "你要跟我一起去嗎？"
+          },
+          {
+            "fr": "chez moi / chez toi / pour elle",
+            "zh": "我家／你家／給她的"
+          },
+          {
+            "fr": "Je pense à toi.",
+            "zh": "我想你。（penser à + 重讀代名詞）"
+          },
+          {
+            "fr": "Regardez-moi !",
+            "zh": "看著我！（對 vous；Carla Bruni 歌曲影片標題就是這句）"
+          },
+          {
+            "fr": "Regarde-moi !",
+            "zh": "看著我！（對 tu）"
+          },
+          {
+            "fr": "Donne-moi ça !",
+            "zh": "把那個給我！"
+          },
+          {
+            "fr": "Ne me regardez pas !",
+            "zh": "別看我！（否定命令 → me 放前面）"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★★ 重讀代名詞：moi、toi、lui、elle、nous、vous、eux、elles。",
+      "★★ 判斷法：「我」直接貼著動詞 → je / me；沒貼著動詞 → moi。不用想主格還是受格。",
+      "強調：Moi, je…——moi 只是加強，je 還是要有。",
+      "跟 et / ou：Mes parents et moi, nous…（有 moi → 用 nous 總結）。",
+      "c'est 後面：C'est lui. / Ce n'est pas elle.；複數書面寫 Ce sont eux.",
+      "★ 肯定句 → Moi aussi；否定句 → Moi non plus；表示相反：Moi, si ! / Pas moi.",
+      "介係詞後面：avec moi、chez toi、pour elle。",
+      "肯定命令：Regardez-moi !；否定命令：Ne me regardez pas !",
+      "eux = 只要有一位男性；elles = 全是女生（parents → eux，filles → elles）。"
+    ],
+    "drill": [
+      {
+        "fr": "Moi, je vais à la plage, et toi, tu fais quoi ?",
+        "zh": "我呢，要去海邊；那你呢？"
+      },
+      {
+        "fr": "Mes parents et moi, nous allons voyager en Europe.",
+        "zh": "我爸媽和我，我們要去歐洲旅行。"
+      },
+      {
+        "fr": "Sonia doit choisir : lui ou moi !",
+        "zh": "Sonia 必須選擇：要他，還是要我！"
+      },
+      {
+        "fr": "Oui, c'est lui.",
+        "zh": "對，是他。"
+      },
+      {
+        "fr": "Non, ce n'est pas elle.",
+        "zh": "不，不是她。"
+      },
+      {
+        "fr": "Ce sont eux.",
+        "zh": "是他們。"
+      },
+      {
+        "fr": "Moi aussi.",
+        "zh": "我也是。"
+      },
+      {
+        "fr": "Lui non plus.",
+        "zh": "他也不。"
+      },
+      {
+        "fr": "Eux aussi.",
+        "zh": "他們也是。"
+      },
+      {
+        "fr": "Tu viens avec moi ?",
+        "zh": "你要跟我一起去嗎？"
+      },
+      {
+        "fr": "Regardez-moi !",
+        "zh": "看著我！"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "「我爸媽和我」怎麼說？",
+        "options": [
+          "mes parents et moi",
+          "mes parents et je",
+          "mes parents et me"
+        ],
+        "answer": 0,
+        "why": "★ 隔著 et，沒貼著動詞 → 用重讀代名詞 moi。"
+      },
+      {
+        "q": "「我呢，我比較喜歡茶」？",
+        "options": [
+          "Moi, je préfère le thé.",
+          "Moi préfère le thé.",
+          "Je, moi préfère le thé."
+        ],
+        "answer": 0,
+        "why": "moi 只是加強，je 還是要有。"
+      },
+      {
+        "q": "— C'est Pierre ? — Oui, c'est ___ .",
+        "options": [
+          "lui",
+          "il",
+          "le"
+        ],
+        "answer": 0,
+        "why": "c'est 後面用重讀代名詞。"
+      },
+      {
+        "q": "— Ce sont les parents de Catherine ? — Oui, ___ .",
+        "options": [
+          "ce sont eux",
+          "ce sont ils",
+          "c'est leur"
+        ],
+        "answer": 0,
+        "why": "書面寫 ce sont eux；口語常說 c'est eux。"
+      },
+      {
+        "q": "— Je travaille en juillet. — Et votre sœur ? — ___",
+        "options": [
+          "Elle aussi.",
+          "Elle non plus.",
+          "Lui aussi."
+        ],
+        "answer": 0,
+        "why": "肯定句 → aussi；sœur → elle。"
+      },
+      {
+        "q": "— Je ne suis pas là en août. — Et Paul ? — ___",
+        "options": [
+          "Lui non plus.",
+          "Il non plus.",
+          "Lui aussi."
+        ],
+        "answer": 0,
+        "why": "否定句 → non plus；要用重讀代名詞 lui，不能用 il。"
+      },
+      {
+        "q": "— Et vos filles ? （否定句）— ___",
+        "options": [
+          "Elles non plus.",
+          "Eux non plus.",
+          "Elles ne pas non plus."
+        ],
+        "answer": 0,
+        "why": "全是女生 → elles；回答不用再加 ne…pas。"
+      },
+      {
+        "q": "「你要跟我一起去嗎？」",
+        "options": [
+          "Tu viens avec moi ?",
+          "Tu viens avec me ?",
+          "Tu me viens avec ?"
+        ],
+        "answer": 0,
+        "why": "介係詞後面 → moi。"
+      },
+      {
+        "q": "「看著我！」（對 vous）",
+        "options": [
+          "Regardez-moi !",
+          "Regardez-me !",
+          "Me regardez !"
+        ],
+        "answer": 0,
+        "why": "★ 肯定命令句：代名詞放動詞後面，me 變 moi，加連字號。"
+      },
+      {
+        "q": "— Je ne suis pas là en août. — 我在耶！（相反）",
+        "options": [
+          "Moi, si !",
+          "Moi, oui !",
+          "Moi aussi !"
+        ],
+        "answer": 0,
+        "why": "回應否定句、表示相反要用 si。"
+      }
+    ]
+  },
+  {
+    "id": "pronoms-coi",
+    "date": "2026-11-16",
+    "title": "LES PRONOMS COI — me / te / lui / nous / vous / leur（跟誰、給誰）",
+    "summary": "動詞 + à + 人（parler à、téléphoner à、donner à…）的「à + 人」可以換成間接受詞代名詞，放在動詞前面。lui、leur 不分男女是新重點。也比較直接受詞（aimer 某人）：Je t'aime、Je l'aime。",
+    "sections": [
+      {
+        "heading": "① Paul ___ parle.：六個間接受詞代名詞",
+        "note": "★ parler à + 人 = 跟某人說話。à + 人 整塊換成代名詞，放在動詞「前面」（英文放後面：speaks to her）。",
+        "items": [
+          {
+            "fr": "Paul me parle.",
+            "zh": "Paul 跟我說話。"
+          },
+          {
+            "fr": "Paul te parle.",
+            "zh": "Paul 跟你說話。"
+          },
+          {
+            "fr": "Paul lui parle.",
+            "zh": "Paul 跟他／她說話。"
+          },
+          {
+            "fr": "Paul nous parle.",
+            "zh": "Paul 跟我們說話。"
+          },
+          {
+            "fr": "Paul vous parle.",
+            "zh": "Paul 跟您／你們說話。"
+          },
+          {
+            "fr": "Paul leur parle.",
+            "zh": "Paul 跟他們／她們說話。"
+          },
+          {
+            "fr": "Paul parle à Marie. → Paul lui parle.",
+            "zh": "Paul 跟 Marie 說話 → Paul 跟她說話。"
+          }
+        ]
+      },
+      {
+        "heading": "② ★ lui 和 leur：不分男女",
+        "note": "me、te、nous、vous 跟反身代名詞長得一樣；lui、leur 是新的，要特別記。",
+        "items": [
+          {
+            "fr": "Paul parle à Marc. → Paul lui parle.",
+            "zh": "lui = à lui（他）"
+          },
+          {
+            "fr": "Paul parle à Marie. → Paul lui parle.",
+            "zh": "lui = à elle（她）★ 不是 elle"
+          },
+          {
+            "fr": "Paul parle à ses parents. → Paul leur parle.",
+            "zh": "leur = 他們／她們，不分男女"
+          },
+          {
+            "fr": "Je leur parle.",
+            "zh": "★ 這個 leur 不加 s"
+          },
+          {
+            "fr": "leurs livres",
+            "zh": "不要搞混：所有格 leur(s) = 他們的"
+          }
+        ]
+      },
+      {
+        "heading": "③ 常用的「動詞 + à + 人」",
+        "note": "凡是動詞 + à + 人，都可以換成這組代名詞。",
+        "items": [
+          {
+            "fr": "Je téléphone à mes parents. → Je leur téléphone.",
+            "zh": "我打電話給爸媽 → 我打給他們。"
+          },
+          {
+            "fr": "Je donne un livre à Paul. → Je lui donne un livre.",
+            "zh": "我給 Paul 一本書 → 我給他一本書。"
+          },
+          {
+            "fr": "J'écris à ma mère. → Je lui écris.",
+            "zh": "我寫信給媽媽 → 我寫給她。"
+          },
+          {
+            "fr": "Tu réponds au professeur. → Tu lui réponds.",
+            "zh": "你回答老師 → 你回答他。"
+          },
+          {
+            "fr": "Ce film plaît à Paul. → Ce film lui plaît.",
+            "zh": "Paul 喜歡這部電影 → 他喜歡。（11/2 學的 plaire）"
+          },
+          {
+            "fr": "Tu m'écris ?",
+            "zh": "你會寫信給我嗎？（me 遇到母音 → m'）"
+          }
+        ]
+      },
+      {
+        "heading": "④ 否定句和複合過去式",
+        "note": "★ 否定：ne…pas 把代名詞和動詞一起夾住。複合過去式：代名詞放在助動詞前面。",
+        "items": [
+          {
+            "fr": "Paul ne lui parle pas.",
+            "zh": "Paul 不跟他說話。"
+          },
+          {
+            "fr": "Paul lui a parlé.",
+            "zh": "Paul 跟他說過話了。"
+          },
+          {
+            "fr": "Le film m'a plu.",
+            "zh": "我喜歡那部電影。"
+          },
+          {
+            "fr": "Je ne leur ai pas téléphoné.",
+            "zh": "我沒打電話給他們。"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ 常見錯誤",
+        "note": "法文一般不會說 parler à moi，直接用代名詞放前面。penser à 是少數例外，要用重讀代名詞。",
+        "items": [
+          {
+            "fr": "Paul me parle.",
+            "zh": "✓ Paul 跟我說話。"
+          },
+          {
+            "fr": "Paul parle à moi.",
+            "zh": "✗ 一般不這樣說。"
+          },
+          {
+            "fr": "Je lui parle.",
+            "zh": "✓ 我跟她說話。"
+          },
+          {
+            "fr": "Je elle parle.",
+            "zh": "✗ 錯。à elle 要換成 lui。"
+          },
+          {
+            "fr": "Je pense à toi.",
+            "zh": "我想你。（penser à 例外：用 à + 重讀代名詞）"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ 比較直接受詞：Je t'aime",
+        "note": "★ aimer + 人（沒有 à）是直接受詞。me、te、nous、vous 兩種都一樣，只有第三人稱不同：直接 le / la / les，間接 lui / leur。",
+        "items": [
+          {
+            "fr": "Je t'aime.",
+            "zh": "我愛你。（te 遇到母音 → t'）"
+          },
+          {
+            "fr": "J'aime toi.",
+            "zh": "✗ 錯。代名詞要放動詞前面。"
+          },
+          {
+            "fr": "Il m'aime. / Il me parle.",
+            "zh": "他愛我。／他跟我說話。（都是 me）"
+          },
+          {
+            "fr": "Je l'aime.",
+            "zh": "我愛他／她。（直接：le / la → l'）"
+          },
+          {
+            "fr": "Je lui parle.",
+            "zh": "我跟他／她說話。（間接：lui）"
+          },
+          {
+            "fr": "Je les aime. / Je leur parle.",
+            "zh": "我愛他們。／我跟他們說話。"
+          },
+          {
+            "fr": "Tu m'aimes ?",
+            "zh": "你愛我嗎？"
+          },
+          {
+            "fr": "Moi aussi, je t'aime.",
+            "zh": "我也愛你。"
+          },
+          {
+            "fr": "Je vous aime.",
+            "zh": "我愛您／我愛你們。"
+          }
+        ]
+      },
+      {
+        "heading": "⑦ ⚠️ 加了副詞，意思反而變弱",
+        "note": "★ 告白千萬不要加 bien。",
+        "items": [
+          {
+            "fr": "Je t'aime.",
+            "zh": "我愛你。（最強，對戀人、家人）"
+          },
+          {
+            "fr": "Je t'aime bien.",
+            "zh": "我滿喜歡你的。（朋友，不是告白）"
+          },
+          {
+            "fr": "Je t'aime beaucoup.",
+            "zh": "我很喜歡你。（還是朋友的感覺）"
+          },
+          {
+            "fr": "Je t'adore !",
+            "zh": "我超愛你！（朋友間也常說）"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★★ 間接受詞代名詞：me、te、lui、nous、vous、leur，代替「à + 人」，放在動詞前面。",
+      "★ lui = à lui / à elle，leur = à eux / à elles，都不分男女；leur 不加 s。",
+      "常用動詞：parler à、téléphoner à、donner à、écrire à、répondre à、plaire à。",
+      "否定：Paul ne lui parle pas.；複合過去式：Paul lui a parlé.",
+      "me / te 遇到母音縮寫：Tu m'écris ? / Je t'aime.",
+      "★ 直接受詞（aimer 某人）第三人稱用 le / la / les：Je l'aime；間接用 lui / leur：Je lui parle。",
+      "★ Je t'aime bien / beaucoup 反而比 Je t'aime 弱。",
+      "例外：penser à + 重讀代名詞：Je pense à toi."
+    ],
+    "drill": [
+      {
+        "fr": "Paul me parle.",
+        "zh": "Paul 跟我說話。"
+      },
+      {
+        "fr": "Paul lui parle.",
+        "zh": "Paul 跟他／她說話。"
+      },
+      {
+        "fr": "Paul leur parle.",
+        "zh": "Paul 跟他們說話。"
+      },
+      {
+        "fr": "Je leur téléphone.",
+        "zh": "我打電話給他們。"
+      },
+      {
+        "fr": "Je lui donne un livre.",
+        "zh": "我給他一本書。"
+      },
+      {
+        "fr": "Ce film lui plaît.",
+        "zh": "他喜歡這部電影。"
+      },
+      {
+        "fr": "Paul ne lui parle pas.",
+        "zh": "Paul 不跟他說話。"
+      },
+      {
+        "fr": "Paul lui a parlé.",
+        "zh": "Paul 跟他說過話了。"
+      },
+      {
+        "fr": "Je t'aime.",
+        "zh": "我愛你。"
+      },
+      {
+        "fr": "Je t'aime bien.",
+        "zh": "我滿喜歡你的。"
+      },
+      {
+        "fr": "Je pense à toi.",
+        "zh": "我想你。"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Paul parle à Marie. → Paul ___ parle.",
+        "options": [
+          "lui",
+          "elle",
+          "la"
+        ],
+        "answer": 0,
+        "why": "★ à + 人 → lui，不分男女。"
+      },
+      {
+        "q": "Je téléphone à mes parents. → Je ___ téléphone.",
+        "options": [
+          "leur",
+          "leurs",
+          "les"
+        ],
+        "answer": 0,
+        "why": "à + 複數的人 → leur，不加 s。"
+      },
+      {
+        "q": "「Paul 跟我說話」？",
+        "options": [
+          "Paul me parle.",
+          "Paul parle à moi.",
+          "Paul moi parle."
+        ],
+        "answer": 0,
+        "why": "代名詞放動詞前面，用 me。"
+      },
+      {
+        "q": "「Paul 不跟他說話」？",
+        "options": [
+          "Paul ne lui parle pas.",
+          "Paul lui ne parle pas.",
+          "Paul ne parle pas lui."
+        ],
+        "answer": 0,
+        "why": "ne…pas 把代名詞和動詞一起夾住。"
+      },
+      {
+        "q": "「Paul 跟他說過話了」？",
+        "options": [
+          "Paul lui a parlé.",
+          "Paul a lui parlé.",
+          "Paul a parlé lui."
+        ],
+        "answer": 0,
+        "why": "複合過去式：代名詞放在助動詞前面。"
+      },
+      {
+        "q": "「我愛你」？",
+        "options": [
+          "Je t'aime.",
+          "J'aime toi.",
+          "Je te aime."
+        ],
+        "answer": 0,
+        "why": "te 遇到母音縮寫成 t'，放在動詞前面。"
+      },
+      {
+        "q": "「我愛她」？",
+        "options": [
+          "Je l'aime.",
+          "Je lui aime.",
+          "J'aime elle."
+        ],
+        "answer": 0,
+        "why": "aimer 是直接受詞 → la → l'；lui 是間接受詞。"
+      },
+      {
+        "q": "Je t'aime bien. 的意思？",
+        "options": [
+          "我滿喜歡你的。（朋友）",
+          "我非常愛你。",
+          "我愛你很好。"
+        ],
+        "answer": 0,
+        "why": "★ 加了 bien 反而變弱，不是告白。"
+      },
+      {
+        "q": "Ce film plaît à Paul. → Ce film ___ plaît.",
+        "options": [
+          "lui",
+          "le",
+          "il"
+        ],
+        "answer": 0,
+        "why": "plaire à + 人 → lui。"
+      },
+      {
+        "q": "「我想你」？",
+        "options": [
+          "Je pense à toi.",
+          "Je te pense.",
+          "Je lui pense."
+        ],
+        "answer": 0,
+        "why": "penser à 是例外，要用 à + 重讀代名詞。"
+      }
+    ]
+  },
+  {
+    "id": "les-directions",
+    "date": "2026-11-16",
+    "title": "LES DIRECTIONS — 問路、指路與 PRENDRE / TOURNER 變位",
+    "summary": "指路三個基本方向（à gauche、à droite、tout droit），路上的地點單字（carrefour、rond-point、feu…），以及最常用的兩個動詞：不規則的 prendre 和規則的 tourner。最後補充祝人考試加油的 Bon courage ! 和 Merde !",
+    "sections": [
+      {
+        "heading": "① 三個基本方向",
+        "note": "★ 藍色 ① ③ 是動詞組別：tourner、continuer 是第一組（-er）；prendre 是第三組（不規則）。prendre 在這裡就像英文 take。",
+        "items": [
+          {
+            "fr": "prendre / tourner à gauche",
+            "zh": "左轉"
+          },
+          {
+            "fr": "prendre / tourner à droite",
+            "zh": "右轉"
+          },
+          {
+            "fr": "continuer / aller tout droit",
+            "zh": "直走"
+          },
+          {
+            "fr": "à droite",
+            "zh": "右邊：droite [dʁwat]，t 要唸"
+          },
+          {
+            "fr": "tout droit",
+            "zh": "直直地：droit [dʁwa]，t 不唸"
+          }
+        ]
+      },
+      {
+        "heading": "② 路上的地點",
+        "note": "♂ / ♀ 是陰陽性。",
+        "items": [
+          {
+            "fr": "traverser",
+            "zh": "穿越、過（馬路、橋）：traverser la rue"
+          },
+          {
+            "fr": "un pont",
+            "zh": "橋"
+          },
+          {
+            "fr": "un carrefour",
+            "zh": "十字路口"
+          },
+          {
+            "fr": "un croisement = une intersection",
+            "zh": "交叉路口（同義）"
+          },
+          {
+            "fr": "un feu",
+            "zh": "紅綠燈（feu 本來是「火」）"
+          },
+          {
+            "fr": "une rue",
+            "zh": "街"
+          },
+          {
+            "fr": "un rond-point",
+            "zh": "圓環（rond 圓的 + point 點）"
+          },
+          {
+            "fr": "une place",
+            "zh": "廣場（英文 plaza）"
+          },
+          {
+            "fr": "un passage piéton",
+            "zh": "斑馬線（piéton = 行人）"
+          },
+          {
+            "fr": "une station-service",
+            "zh": "加油站"
+          },
+          {
+            "fr": "au bout de la rue",
+            "zh": "在這條街的盡頭"
+          }
+        ]
+      },
+      {
+        "heading": "③ 開車與交通",
+        "note": "rouler 和 roue（車輪）同字根：輪子在滾。bouchon 本來是「瓶塞」，路被塞住了。",
+        "items": [
+          {
+            "fr": "rouler",
+            "zh": "（車子）行駛、開車"
+          },
+          {
+            "fr": "une roue",
+            "zh": "車輪"
+          },
+          {
+            "fr": "un bouchon = un embouteillage",
+            "zh": "塞車（traffic jam）"
+          },
+          {
+            "fr": "Au feu rouge, on s'arrête.",
+            "zh": "紅燈要停。（s'arrêter = 停下來，反身動詞）"
+          },
+          {
+            "fr": "Au feu vert, on passe.",
+            "zh": "綠燈可以走。（on = 大家）"
+          }
+        ]
+      },
+      {
+        "heading": "④ PRENDRE 現在式（第三組，不規則）",
+        "note": "★ 單數三個都唸 [pʁɑ̃]；nous / vous 的 d 不見了；ils 要寫雙 n。il prend 沒有 t。",
+        "items": [
+          {
+            "fr": "je prends",
+            "zh": "[pʁɑ̃]"
+          },
+          {
+            "fr": "tu prends",
+            "zh": "[pʁɑ̃]"
+          },
+          {
+            "fr": "il / elle prend",
+            "zh": "[pʁɑ̃]（沒有 t）"
+          },
+          {
+            "fr": "nous prenons",
+            "zh": "[pʁənɔ̃]"
+          },
+          {
+            "fr": "vous prenez",
+            "zh": "[pʁəne]"
+          },
+          {
+            "fr": "ils / elles prennent",
+            "zh": "[pʁɛn]（★ 雙 n）"
+          },
+          {
+            "fr": "j'ai pris",
+            "zh": "複合過去式：過去分詞 pris，用 avoir"
+          },
+          {
+            "fr": "Prends ! / Prenons ! / Prenez !",
+            "zh": "命令式"
+          },
+          {
+            "fr": "apprendre, comprendre, surprendre",
+            "zh": "同家族，變化完全一樣：ils apprennent、j'ai compris"
+          }
+        ]
+      },
+      {
+        "heading": "⑤ PRENDRE 的各種意思",
+        "note": "基本意思是「拿」，用法很像英文 take。",
+        "items": [
+          {
+            "fr": "Prenez la première rue à gauche.",
+            "zh": "走第一條路左轉。（指路）"
+          },
+          {
+            "fr": "Je prends le métro tous les jours.",
+            "zh": "我每天搭地鐵。（搭交通工具）"
+          },
+          {
+            "fr": "Ils prennent le bus.",
+            "zh": "他們搭公車。"
+          },
+          {
+            "fr": "Hier, j'ai pris un taxi.",
+            "zh": "我昨天搭了計程車。"
+          },
+          {
+            "fr": "Je prends un café, s'il vous plaît.",
+            "zh": "我要一杯咖啡，麻煩您。（點餐）"
+          },
+          {
+            "fr": "Qu'est-ce que vous prenez ?",
+            "zh": "您要點什麼？"
+          },
+          {
+            "fr": "Prends ton parapluie, il va pleuvoir !",
+            "zh": "帶傘，快下雨了！（拿）"
+          },
+          {
+            "fr": "prendre une douche",
+            "zh": "洗澡"
+          },
+          {
+            "fr": "On prend une photo ?",
+            "zh": "我們拍張照好嗎？"
+          },
+          {
+            "fr": "Prenez votre temps.",
+            "zh": "您慢慢來。"
+          },
+          {
+            "fr": "J'ai pris rendez-vous chez le médecin.",
+            "zh": "我約了看醫生。"
+          }
+        ]
+      },
+      {
+        "heading": "⑥ TOURNER 現在式（第一組，規則）",
+        "note": "★ 字根 tourn- + -e / -es / -e / -ons / -ez / -ent。je、tu、il、ils 都唸 [tuʁn]。對 tu 的命令式要去掉 s：Tourne !",
+        "items": [
+          {
+            "fr": "je tourne",
+            "zh": "[tuʁn]"
+          },
+          {
+            "fr": "tu tournes",
+            "zh": "[tuʁn]"
+          },
+          {
+            "fr": "il / elle tourne",
+            "zh": "[tuʁn]"
+          },
+          {
+            "fr": "nous tournons",
+            "zh": "[tuʁnɔ̃]"
+          },
+          {
+            "fr": "vous tournez",
+            "zh": "[tuʁne]"
+          },
+          {
+            "fr": "ils / elles tournent",
+            "zh": "[tuʁn]"
+          },
+          {
+            "fr": "j'ai tourné",
+            "zh": "複合過去式：-er → -é"
+          },
+          {
+            "fr": "Tourne à gauche !",
+            "zh": "左轉！（★ tu 的命令式沒有 s）"
+          },
+          {
+            "fr": "Tournez à gauche au carrefour.",
+            "zh": "在十字路口左轉。"
+          },
+          {
+            "fr": "Tournez la page.",
+            "zh": "翻頁。"
+          },
+          {
+            "fr": "La Terre tourne autour du Soleil.",
+            "zh": "地球繞著太陽轉。"
+          },
+          {
+            "fr": "Ils tournent un film à Paris.",
+            "zh": "他們在巴黎拍電影。"
+          },
+          {
+            "fr": "J'ai la tête qui tourne.",
+            "zh": "我頭暈。"
+          }
+        ]
+      },
+      {
+        "heading": "⑦ 實際指路與問路",
+        "note": "對陌生人指路用 vous 的命令式。tourner à gauche 單純左轉；prendre 通常要說出走哪一條。",
+        "items": [
+          {
+            "fr": "Continuez tout droit, prenez la deuxième rue à gauche, puis tournez à droite au feu.",
+            "zh": "繼續直走，走第二條路左轉，然後在紅綠燈右轉。"
+          },
+          {
+            "fr": "Allez tout droit jusqu'au carrefour.",
+            "zh": "直走到十字路口。"
+          },
+          {
+            "fr": "Traversez le pont.",
+            "zh": "過橋。"
+          },
+          {
+            "fr": "Au rond-point, prenez la deuxième sortie.",
+            "zh": "在圓環走第二個出口。"
+          },
+          {
+            "fr": "C'est au bout de la rue, à gauche.",
+            "zh": "在這條街的盡頭，左手邊。"
+          },
+          {
+            "fr": "Excusez-moi, où est la gare, s'il vous plaît ?",
+            "zh": "不好意思，請問車站在哪裡？"
+          },
+          {
+            "fr": "C'est loin ?",
+            "zh": "很遠嗎？"
+          },
+          {
+            "fr": "Non, c'est tout près.",
+            "zh": "不，很近。"
+          }
+        ]
+      },
+      {
+        "heading": "⑧ 課堂補充：Bon courage ! 和 Merde !",
+        "note": "★ Merde 是髒話（屎），但對要考試、上台的人說，意思是「祝你好運」。來自劇場：門口馬糞越多 = 觀眾越多。直接祝好運會帶來厄運，所以反著說（英文 Break a leg!）。只對熟朋友說；傳統上收到時不回 merci。",
+        "items": [
+          {
+            "fr": "Bon courage !",
+            "zh": "加油、撐住！（任何人都可以說）"
+          },
+          {
+            "fr": "Bonne chance !",
+            "zh": "祝你好運！"
+          },
+          {
+            "fr": "Merde !",
+            "zh": "祝你好運！（反著說，只對熟朋友）"
+          },
+          {
+            "fr": "Je croise les doigts pour toi.",
+            "zh": "我幫你祈禱。（字面：幫你把手指交叉）"
+          },
+          {
+            "fr": "— Demain, j'ai mon examen de français. — Merde !",
+            "zh": "明天我要考法文。— 祝你好運！"
+          },
+          {
+            "fr": "Merde ! J'ai oublié mes clés !",
+            "zh": "靠！我忘了帶鑰匙！（平常是髒話）"
+          }
+        ]
+      }
+    ],
+    "points": [
+      "★ 三個方向：à gauche（左）、à droite（右）、tout droit（直走）。",
+      "★ droite [dʁwat] 右邊 vs droit [dʁwa] 直直地，差一個 t 的發音。",
+      "地點：carrefour（十字路口）、rond-point（圓環）、feu（紅綠燈）、pont（橋）、place（廣場）、passage piéton（斑馬線）。",
+      "un bouchon = un embouteillage（塞車）；au bout de（在…盡頭）。",
+      "★★ prendre：prends / prends / prend / prenons / prenez / prennent，過去分詞 pris；apprendre、comprendre 同變化。",
+      "prendre = take：走某條路、搭車、點餐、拿；prendre une douche / une photo / rendez-vous。",
+      "★ tourner 是規則 -er 動詞；對 tu 的命令式去掉 s：Tourne à gauche !",
+      "指路用 vous 命令式：Prenez…、Tournez…、Continuez…、Traversez…",
+      "Bon courage ! 對誰都行；Merde ! 是反著說的祝好運，只對熟朋友。"
+    ],
+    "drill": [
+      {
+        "fr": "Tournez à gauche.",
+        "zh": "左轉。"
+      },
+      {
+        "fr": "Prenez la première rue à droite.",
+        "zh": "走第一條路右轉。"
+      },
+      {
+        "fr": "Continuez tout droit.",
+        "zh": "繼續直走。"
+      },
+      {
+        "fr": "Traversez le pont.",
+        "zh": "過橋。"
+      },
+      {
+        "fr": "C'est au bout de la rue, à gauche.",
+        "zh": "在這條街的盡頭，左手邊。"
+      },
+      {
+        "fr": "Excusez-moi, où est la gare, s'il vous plaît ?",
+        "zh": "不好意思，請問車站在哪裡？"
+      },
+      {
+        "fr": "Au feu rouge, on s'arrête.",
+        "zh": "紅燈要停。"
+      },
+      {
+        "fr": "Nous prenons le train.",
+        "zh": "我們搭火車。"
+      },
+      {
+        "fr": "Ils prennent le bus.",
+        "zh": "他們搭公車。"
+      },
+      {
+        "fr": "Je prends un café, s'il vous plaît.",
+        "zh": "我要一杯咖啡，麻煩您。"
+      },
+      {
+        "fr": "Tourne à droite !",
+        "zh": "右轉！"
+      },
+      {
+        "fr": "Bon courage !",
+        "zh": "加油！"
+      }
+    ],
+    "quiz": [
+      {
+        "q": "「直走」怎麼說？",
+        "options": [
+          "aller tout droit",
+          "aller à droite",
+          "tourner tout droit"
+        ],
+        "answer": 0,
+        "why": "tout droit = 直直地；à droite 是右邊。"
+      },
+      {
+        "q": "Ils ___ le bus.（他們搭公車）",
+        "options": [
+          "prennent",
+          "prenent",
+          "prendent"
+        ],
+        "answer": 0,
+        "why": "★ ils prennent 要寫雙 n。"
+      },
+      {
+        "q": "Il ___ le métro.（他搭地鐵）",
+        "options": [
+          "prend",
+          "prent",
+          "prends"
+        ],
+        "answer": 0,
+        "why": "il prend，沒有 t。"
+      },
+      {
+        "q": "Nous ___ le train.",
+        "options": [
+          "prenons",
+          "prendons",
+          "prennons"
+        ],
+        "answer": 0,
+        "why": "nous prenons：d 不見了，只有一個 n。"
+      },
+      {
+        "q": "prendre 的過去分詞？",
+        "options": [
+          "pris",
+          "prendu",
+          "prit"
+        ],
+        "answer": 0,
+        "why": "prendre → pris；comprendre → compris。"
+      },
+      {
+        "q": "對朋友（tu）說「左轉！」？",
+        "options": [
+          "Tourne à gauche !",
+          "Tournes à gauche !",
+          "Tournez à gauche !"
+        ],
+        "answer": 0,
+        "why": "★ 第一組動詞對 tu 的命令式要去掉 s。Tournez 是對 vous。"
+      },
+      {
+        "q": "un bouchon 在交通上是什麼意思？",
+        "options": [
+          "塞車",
+          "十字路口",
+          "紅綠燈"
+        ],
+        "answer": 0,
+        "why": "bouchon（瓶塞）= embouteillage，路被塞住了。"
+      },
+      {
+        "q": "「圓環」是？",
+        "options": [
+          "un rond-point",
+          "un carrefour",
+          "une place"
+        ],
+        "answer": 0,
+        "why": "carrefour 是十字路口，place 是廣場。"
+      },
+      {
+        "q": "Au feu vert, on ___ .",
+        "options": [
+          "passe",
+          "s'arrête",
+          "tourne"
+        ],
+        "answer": 0,
+        "why": "綠燈可以走 → on passe；紅燈 → on s'arrête。"
+      },
+      {
+        "q": "同學明天要考試，你想用反著說的方式祝他好運？",
+        "options": [
+          "Merde !",
+          "Merci !",
+          "Bon appétit !"
+        ],
+        "answer": 0,
+        "why": "★ Merde ! 來自劇場傳統，是反著說的祝好運；只對熟朋友說。"
+      }
+    ]
   }
 ]
